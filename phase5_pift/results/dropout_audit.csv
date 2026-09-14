@@ -1,0 +1,3 @@
+method,document_presentations,eligible_field_presentations,dropped_fields,observed_dropout,title_protection_failures,unexpected_PI_protection_sets
+Standard-FT,8140,475160,0,0.0,0,0
+Adapted-PI-FT,8140,475160,71277,0.15000631366276623,0,0

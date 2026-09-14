@@ -1,0 +1,20 @@
+{
+  "D": {
+    "primary_key": "D_T0_s42",
+    "passed": true,
+    "threshold": 0.7823678707116345,
+    "additional_seeds": [
+      43,
+      44
+    ]
+  },
+  "S": {
+    "primary_key": "S_T0_s42",
+    "passed": true,
+    "threshold": 0.7823678707116345,
+    "additional_seeds": [
+      43,
+      44
+    ]
+  }
+}

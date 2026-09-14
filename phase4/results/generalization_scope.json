@@ -1,0 +1,9 @@
+{
+  "new_esci_query_overlap_with_historical": 0,
+  "new_esci_unique_judged_products": 1972,
+  "new_esci_judged_products_in_historical_catalog": 29,
+  "new_esci_highest_products_in_historical_catalog": 10,
+  "new_esci_unique_highest_products": 940,
+  "wands_dev_heldout_judged_product_overlap": 23377,
+  "design": "query holdout and unchanged strategy transfer; not a designed product-disjoint evaluation"
+}

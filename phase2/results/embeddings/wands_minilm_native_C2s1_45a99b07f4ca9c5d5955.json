@@ -1,0 +1,32 @@
+{
+  "model": {
+    "key": "minilm",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "architecture": "MiniLM-L6",
+    "max_tokens": 256,
+    "native_pooling": "attention-mask mean"
+  },
+  "profile": {
+    "key": "native",
+    "chunk_tokens": null,
+    "overlap": 0,
+    "pooling": "model_native"
+  },
+  "source_sha256": "718271c2bc2c46325bfbe8f29e7b2b9f91dc3574644ef843bdf842e587954487",
+  "seed": 20260904,
+  "implementation": "phase2-encoder-v1",
+  "precision": "fp16_model_fp32_pooling",
+  "mean_wordpieces_with_special": 614.2483369772526,
+  "p95_wordpieces_with_special": 1069.0,
+  "fraction_truncated": 0.9336186444620179,
+  "fingerprint": "45a99b07f4ca9c5d5955",
+  "shape": [
+    42994,
+    384
+  ],
+  "seconds": 139.95330548286438,
+  "tokenizer_class": "BertTokenizerFast",
+  "model_class": "BertModel",
+  "device": "cuda"
+}

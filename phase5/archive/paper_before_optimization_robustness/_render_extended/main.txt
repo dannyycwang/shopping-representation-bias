@@ -1,0 +1,976 @@
+1
+2
+     Same Product, Different Visibility: Representation Robustness in                                                                                        59
+                                                                                                                                                             60
+3                    Neural E-Commerce Retrieval                                                                                                             61
+4                                                                                                                                                            62
+5                                                               Anonymous Author(s)                                                                          63
+6                                                                                                                                                            64
+7    Abstract                                                                       sequences. Many underlying facts, however, have no meaningful            65
+8    Neural retrieval mediates access to Web content through search,                linear order. A hotel remains pet-friendly whether that field pre-       66
+9    recommendation, retrieval-augmented systems, and emerging agen-                cedes or follows its parking policy. Once such records are serialized,   67
+10   tic interfaces. Semantically equivalent information should ideally             position and contextual interaction can turn an implementation           68
+11   receive comparable opportunities to be discovered. Yet structured              detail—a template, export order, or serializer—into an unintended        69
+12   Web records must often be serialized into ordered token sequences,             retrieval signal. This raises a general Web robustness question:         70
+13   allowing arbitrary representation choices to affect visibility. We             should semantically equivalent content receive substantially different   71
+14   study this problem in e-commerce, where product attributes ad-                 visibility simply because it is represented differently?                 72
+15   mit fact-equivalent permutations. Across two benchmarks and                       E-commerce offers a clean testbed for this question. Product at-      73
+16   three general-purpose retrievers, 4.4–13.3% of highest-relevance               tributes such as color, material, dimensions, style, and compatibility   74
+17   pairs cross Top-20 under catalog-wide permutations. A separate                 are naturally set-like. Their order can be permuted while product        75
+18   target-only intervention holds every competitor fixed and confirms             identity, semantic content, and human-assessed query relevance           76
+19   that changing only the target’s serialization can alter its visibil-           remain fixed. We can therefore intervene on representation without       77
+20   ity. Reranking reduces instability among surviving candidates but              asking a model to rewrite, summarize, or add facts. In our controlled    78
+21   cannot recover items omitted upstream. A simple permutation-                   comparison, the product is the same, the facts are the same, the         79
+22   invariant set representation eliminates measured order instability,            query and catalog are the same, and the retrieval model is the same;     80
+23   while effectiveness changes are small and statistically inconclusive;          only the order used to serialize product attributes changes.             81
+24   this does not prove equivalence. These findings motivate evaluat-                 Figure 1 makes the consequence concrete. For the query turquoise      82
+25   ing neural Web retrieval for robustness to semantically irrelevant             chair, WANDS judges the product Exact-relevant. With all competi-        83
+26   representation choices alongside relevance.                                    tors fixed in their original representations, MiniLM ranks the target    84
+27                                                                                  5th under one attribute permutation and 1,527th under another.           85
+28   CCS Concepts                                                                   The underlying title and attribute-value multiset are identical. One     86
+29                                                                                  representation is visible in a top-20 result set, while the other is     87
+     • Information systems → Information retrieval; Recommender
+30                                                                                  effectively absent. Why should a serialization choice determine          88
+     systems.
+31                                                                                  whether the same relevant product can be found?                          89
+32   Keywords                                                                                                                                                90
+33                                                                                                                                                           91
+34
+     Web retrieval, product search, robustness, representation invari-                         Query: "turquoise chair"                                      92
+     ance, visibility
+35                                                                                                                                                           93
+     ACM Reference Format:                                                                 Same Exact-relevant product and facts
+36                                                                                                                                                           94
+37
+     Anonymous Author(s). 2027. Same Product, Different Visibility: Represen-             Same model • Every competitor fixed in C0                          95
+     tation Robustness in Neural E-Commerce Retrieval. In Proceedings of Pro-
+38                                                                                                                                                           96
+     ceedings of the ACM Web Conference 2027 (WWW ’27). ACM, New York, NY,
+39                                                                                          Order A (C2s4)                  Order B (C2s1)                   97
+     USA, 11 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn
+                                                                                              Rank 5                    Rank 1,527
+40                                                                                                                                                           98
+41   1    Introduction                                                                                                                                       99
+42                                                                                                                                                           100
+     Web users increasingly reach information through systems that                          VISIBLE at Top-20               HIDDEN at Top-20
+43                                                                                                                                                           101
+     decide what to retrieve before the user ever sees it. Search engines
+44
+     and recommender systems have long mediated this access; retrieval-                      Only the target attribute order changes                         102
+45                                                                                                                                                           103
+     augmented generation and emerging agentic interfaces add further                 Should serialization determine visibility?
+46                                                                                                                                                           104
+     layers that depend on an initial selection of Web content. This
+47                                                                                                                                                           105
+     makes retrieval visibility a consequential system property. Ideally,
+48                                                                                  Figure 1: Target-only intervention: same product, facts, com-            106
+     semantically equivalent information should receive comparable
+49                                                                                  petitors, query, and model. Only the target attribute order              107
+     opportunities to be discovered: relevance should determine what
+50                                                                                  changes, moving it from rank 5 to 1,527. All competitors re-             108
+     becomes visible, rather than arbitrary choices in how the same
+51                                                                                  main in C0; this differs from catalog-wide permutations.                 109
+     information is represented.
+52                                                                                                                                                           110
+        That expectation is difficult to guarantee for structured and
+53                                                                                                                                                           111
+     semi-structured Web content. Products, jobs, hotels, restaurants,                 This is more than an embedding-space curiosity. Retrieval sys-
+54                                                                                                                                                           112
+     events, and profiles are commonly stored as fields and attribute-              tems expose content through operational boundaries: a result page,
+55                                                                                                                                                           113
+     value records. Neural retrieval pipelines often flatten those records          a recommendation slate, or a candidate pool passed to a later ranker.
+56                                                                                                                                                           114
+     into text because Transformer encoders consume ordered token                   A score change matters when it moves a relevant item across such
+57                                                                                                                                                           115
+58                                                                              1                                                                            116
+      WWW ’27, April 2027, TBD                                                                                                                         Anon.
+
+
+117   a boundary. If a first-stage retriever excludes the item, a stronger          fields and explicitly study structured matching together with lexi-          175
+118   reranker or downstream agent never receives it. Representation                cal features [6]; related work extracts query attributes for seman-          176
+119   sensitivity can thus propagate through a Web retrieval pipeline               tic retrieval and ranking [15]. WANDS and the Amazon Shop-                   177
+120   even when average ranking quality changes little.                             ping Queries Dataset provide public catalog fields and graded                178
+121      Existing product-retrieval research improves lexical, neural, and          product-search judgments [5, 19]. Dense embedding families and               179
+122   hybrid matching while usually treating the supplied catalog repre-            e-commerce-specific encoders broaden the available matching func-            180
+123   sentation as fixed. Work on generative engine optimization (GEO)              tions [13, 24]. These methods primarily improve matching effec-              181
+124   instead asks how creators can modify content to gain visibility;              tiveness while generally treating the chosen product serialization           182
+125   e-commerce GEO extends that optimization objective to product                 as fixed.                                                                    183
+126   descriptions. Our question is prior to strategic optimization: why                                                                                         184
+127   should fact-equivalent content receive different visibility at all?           2.2    Content and Visibility Optimization                                   185
+128   Recent work on tabular retrieval establishes that alternative se-             A separate line of research studies how content can be changed               186
+129   rializations can change neural retrieval behavior. We extend this             to gain visibility. GEO evaluates presentational modifications in-           187
+130   representation-robustness question to item-level product discovery,           tended to increase a source’s presence in generative answers [2].            188
+131   human relevance, practical cutoffs, candidate-generation loss, and            E-GEO specializes this objective to product descriptions and gener-          189
+132   a relevance-aware mitigation.                                                 ative shopping rankings [3]. SAGEO Arena restores retrieval and              190
+133      We study four research questions. RQ1 asks whether represen-               reranking to the evaluation boundary and shows why optimiza-                 191
+134   tation alters product visibility across retriever families and product-       tion must be assessed across the full search-augmented generation            192
+135   search benchmarks. RQ2 asks whether human-relevant products                   pipeline [12]. Earlier work likewise studies ranking-incentivized,           193
+136   are materially affected, including under direct single-product in-            quality-preserving content modification [7].                                 194
+137   terventions. RQ3 asks whether a later cross-encoder can repair                   Our objective differs. GEO asks how content can be modified to            195
+138   the instability or whether first-stage retrieval creates irrecoverable        obtain more visibility. We ask whether semantically irrelevant rep-          196
+139   omissions. RQ4 asks whether an order-invariant representation                 resentation choices should change visibility at all. The intervention        197
+140   can improve robustness without a confirmed loss of retrieval effec-           is symmetric: a product can be helped or harmed, and both out-               198
+141   tiveness.                                                                     comes count as instability. We neither optimize a target merchant            199
+142      The paper makes four contributions:                                        nor infer commercial benefit.                                                200
+143         • Problem formulation. We formalize representation-                                                                                                  201
+144            induced visibility instability and connect it to relevance–          2.3    Representation and Serialization Robustness                           202
+145            visibility alignment: semantically irrelevant representation                                                                                      203
+                                                                                    Behavioral IR tests reveal model properties that aggregate effec-
+146            changes should not decide which relevant items cross a                                                                                            204
+                                                                                    tiveness can hide. ABNIRML uses controlled probes for neural
+147            retrieval boundary.                                                                                                                               205
+                                                                                    rankers [16]; language-model studies show that word order can be
+148         • Empirical evidence. Across two public product-search                                                                                               206
+                                                                                    simultaneously redundant for some predictions and consequential
+149            benchmarks, three general-purpose neural retrievers, and                                                                                          207
+                                                                                    for others [1, 8, 18]. Robust IR more broadly studies adversarial
+150            an e-commerce-specific encoder, fact-equivalent attribute                                                                                         208
+                                                                                    changes, distribution shift, and performance variance [14].
+151            orders materially change the Top-𝐾 visibility of human-                                                                                           209
+                                                                                       Structured inputs make serialization a particularly direct concern.
+152            relevant products.                                                                                                                                210
+                                                                                    TableFormer targets unwanted row- and column-order bias in table
+153         • Pipeline consequence. We show that reranking reduces                                                                                               211
+                                                                                    reasoning [25]. Most closely related, Bhandari et al. show that
+154            instability among surviving candidates but cannot repair                                                                                          212
+                                                                                    semantically equivalent table serializations alter embeddings and
+155            serialization-induced candidate loss.                                                                                                             213
+                                                                                    retrieval results across retriever families, and study centroid-based
+156         • Mitigation. We evaluate a simple permutation-invariant                                                                                             214
+                                                                                    representational stability [4]. We therefore do not claim to discover
+157            set representation that eliminates measured order sensi-                                                                                          215
+                                                                                    serialization sensitivity in neural retrieval. We extend the question
+158            tivity while producing a small, statistically inconclusive                                                                                        216
+                                                                                    to Web product discovery, where we measure item-level Top-𝐾
+159            effectiveness change.                                                                                                                             217
+                                                                                    visibility for human-judged relevant products, distinguish a direct
+160                                                                                                                                                              218
+                                                                                    item intervention from a catalog-wide change, quantify candidate-
+161   2 Related Work                                                                generation loss before reranking, and evaluate robustness jointly
+                                                                                                                                                                 219
+162                                                                                                                                                              220
+      2.1 Neural Product Retrieval                                                  with relevance. Ranking-exposure research motivates attention to
+163                                                                                                                                                              221
+                                                                                    cutoffs [9, 23], while our evidence remains at the retrieval stage
+164   Product search combines the vocabulary mismatch of Web retrieval                                                                                           222
+                                                                                    rather than realized user exposure.
+165   with heterogeneous catalog fields and sparse behavioral labels.                                                                                            223
+166   Lexical methods such as BM25 remain strong components, while                                                                                               224
+      neural dual encoders support semantic candidate generation and
+                                                                                    3 Problem Formulation
+167                                                                                                                                                              225
+168   cross-encoders support more expensive reranking [11, 17, 20, 21].             3.1 Representation Robustness for Web Items                                  226
+169   Hybrid and field-aware systems combine these signals. Choi et                 Let 𝑝 be a Web item with underlying semantic information 𝐹 (𝑝),              227
+170   al. learn Transformer representations for multi-instance product              and let R (𝐹 (𝑝)) = {𝑟 1 (𝑝), . . . , 𝑟𝑚 (𝑝)} be representations that pre-   228
+171                                                                                 serve that information for the task. For a query 𝑞, human relevance          229
+172                                                                                 Rel(𝑞, 𝑝) is fixed across this equivalence class. A retrieval model          230
+173                                                                                                                                                              231
+174                                                                             2                                                                                232
+      Same Product, Different Visibility: Representation Robustness in Neural E-Commerce Retrieval                                            WWW ’27, April 2027, TBD
+
+
+233   assigns score                                                                            and a product that becomes hidden both exhibit representation de-         291
+234
+                          𝑧 (𝑞, 𝑟𝑖 (𝑝)) = ⟨𝐸𝑞 (𝑞), 𝐸𝑝 (𝑟𝑖 (𝑝))⟩.                    (1)        pendence. Calling a crossing a loss relative to C0 would incorrectly      292
+235                                                                                            treat the source serialization as a privileged semantic reference.        293
+236   When the differences among 𝑟𝑖 are semantically irrelevant, a                             Second, VI is local to a boundary. A large rank range entirely below      294
+237   representation-robust system should ideally make 𝑧 (𝑞, 𝑟𝑖 (𝑝)) ≈                         the retrieval cutoff produces no crossing there, whereas a small          295
+238   𝑧 (𝑞, 𝑟 𝑗 (𝑝)), or at least keep the item’s operational retrieval status                 movement across the cutoff does. Rank range and VI answer com-            296
+239   unchanged. This expectation concerns robustness, not ranking qual-                       plementary questions: how far an item moves, and whether that             297
+240   ity: two systems can have similar average NDCG while assigning                           movement changes its eligibility for retrieval.                           298
+241   different visibility to the same relevant item.                                             Changing the cutoff also changes the question. VI@50 need not          299
+242       We instantiate 𝐹 (𝑝) as a product’s title, descriptive fields, and                   exceed VI@20: an item can cross the smaller boundary while re-            300
+243   attribute-value facts. The equivalence class changes only the order                      maining visible under every order at the larger one. Conversely, an       301
+244   of complete attribute atoms. Query, product identity, facts, catalog,                    item invisible under every order at Top-20 may cross Top-50. Thus         302
+245   labels, encoder, and ranking rule remain fixed. The induced rank is                      a cutoff sweep should be read as a profile of operational sensitivity,    303
+246   𝜌 (𝑞, 𝑝, 𝑟𝑖 ).                                                                           not as a cumulative failure curve. Reporting several boundaries           304
+247                                                                                            helps distinguish a result tied to one evaluation convention from a       305
+248
+      3.2     Representation-Induced Visibility                                                broader pattern of rank instability.                                      306
+249           Instability                                                                         Pair-micro and query-macro aggregation express different popu-         307
+250   For a cutoff 𝐾, the query–item indicator is                                              lations. The former weights every judged relevant pair equally, so        308
+251                                                                                          queries with many relevant products contribute more observations.         309
+252         VI@𝐾 (𝑞, 𝑝) = ⊮ min 𝜌 (𝑞, 𝑝, 𝑟𝑖 ) ≤ 𝐾 < max 𝜌 (𝑞, 𝑝, 𝑟𝑖 ) .             (2)        The latter gives each eligible query equal weight after computing         310
+                                 𝑟𝑖 ∈ R                     𝑟𝑖 ∈ R
+253                                                                                            its within-query crossing fraction. A difference between the two          311
+254   A value of one is a Top-𝐾 crossing: at least one equivalent represen-                    is not a contradiction or a model-performance gap. It indicates           312
+255   tation makes 𝑝 visible and another hides it. Pair-micro VI averages                      that instability is distributed unevenly across queries with different    313
+256   over judged pairs. Query-macro VI first averages within each query                       numbers of judged relevant products. We retain both rather than           314
+257   and then across queries, preventing queries with many judgments                          select the larger estimate as the headline.                               315
+258   from dominating. We report query-bootstrap confidence intervals                             Finally, stability alone is insufficient. A retriever that consis-     316
+259   for the macro estimator. Rank range, max𝑖 𝜌 − min𝑖 𝜌, describes                          tently hides every relevant product could have zero VI. Likewise, a       317
+260   movement without selecting a cutoff.                                                     constant scoring rule with deterministic ties could be stable but inef-   318
+261      Relevance–visibility alignment requires two properties to be as-                      fective. Relevance–visibility alignment therefore treats relevance as     319
+262   sessed together. First, highly relevant items should not cross visi-                     an essential companion criterion rather than building a single score      320
+263   bility boundaries because of semantically irrelevant representation                      that could conceal a tradeoff. The empirical question is whether a        321
+264   changes. Second, a mitigation that improves stability should not                         representation can reduce the nuisance dependence while retaining         322
+265   obtain that result by degrading relevance. We therefore pair VI                          useful query–product discrimination.                                      323
+266   with condensed NDCG (cNDCG) [10, 22] and highest-label recall.                                                                                                     324
+267   Condensed metrics remove unjudged products before discounting;                           4 Experimental Framework                                                  325
+268   complete-catalog VI retains them because they remain competitors                                                                                                   326
+      for visibility.                                                                          4.1 Fact-Equivalent Interventions
+269                                                                                                                                                                      327
+270      For a two-stage system, a relevant item is irrecoverable at 100                       The primary equivalence family contains seven product represen-           328
+271   when it appears in the first-stage top 100 under at least one equiva-                    tations: the source attribute order, its reversal, and five determin-     329
+272   lent representation but is absent under another. Reranker stability                      istic per-product permutations. The title and every raw attribute         330
+273   is evaluated separately on products common to every candidate                            key-value atom are retained. Automatic audits compare atom mul-           331
+274   pool. This avoids crediting a second stage for apparent stability                        tiplicity, characters, numeric values, source JSON values, and token      332
+275   after representation-dependent omissions have already occurred.                          multisets; records that fail are excluded before ranking. These are       333
+276
+                                                                                               synthetic but fact-preserving interventions: they isolate order rather    334
+277
+      3.3     What the Instability Estimator Measures                                          than attempt to imitate every production template.                        335
+278   The equivalence class is finite and operational: it comprises the                           The main estimand transforms the complete catalog, reflect-            336
+279   tested serializations, not every possible rendering of a product                         ing a serializer or indexing-pipeline change. A complementary             337
+280   record. VI therefore measures whether the observed rank interval                         target-only permutation intervention applies the same primary seven-      338
+281   straddles a specified cutoff. It is neither the probability that a ran-                  member family to each highest-relevance target independently              339
+282   domly chosen production serializer will fail nor an estimate over                        while keeping every competitor in C0. For variant 𝑠, its rank is          340
+                                                                                                           target
+                                                                                                                               ∑︁
+283   all possible attribute orders. Enlarging the tested family can reveal                               𝜌𝑠      (𝑞, 𝑝) = 1 +    ⊮[𝑧 (𝑞, 𝐶0(𝑢)) > 𝑧 (𝑞, 𝑠 (𝑝))],  (3)   341
+284   additional crossings even if the underlying retriever is unchanged.                                                  𝑢≠𝑝                                           342
+285   Comparisons consequently keep the same primary family across                             with ties resolved by original catalog position. The target’s old         343
+286   systems and interventions.                                                               C0 entry is removed before insertion. We retain per-variant rank          344
+287       Two features of VI are useful for interpretation. First, the measure                 changes relative to C0 and compute VI over the seven target-only          345
+288   is symmetric. A product that becomes visible under a permutation                         ranks. This estimates “same product, facts, competitors, query, and       346
+289                                                                                                                                                                      347
+290                                                                                       3                                                                              348
+      WWW ’27, April 2027, TBD                                                                                                                      Anon.
+
+
+349   model; only target serialization changes.” The analysis reuses frozen         all relevant products, which would turn the test back into a catalog-     407
+350   query/product embeddings and variant scores; reconstructed C0                 level intervention. For each target, we retain its C0 rank and insert     408
+351   scores and highest-label ranks match stored results exactly in all            each alternative score into the C0 ranking after removing that tar-       409
+352   six model–dataset cells. Earlier single-product M1/M2 template in-            get’s former entry. Removing the old entry matters: leaving both          410
+353   terventions remain complementary tests of broader fact-preserving             copies in the list would create artificial self-competition. Stable       411
+354   changes. The first captures system-wide competition; the second               tie handling matters for the same reason, particularly in smaller         412
+355   isolates the target item’s direct response. They answer different             candidate pools. The implementation is checked against explicit           413
+356   causal questions and need not yield the same rank change.                     stable reranking, including unchanged scores and ties.                    414
+357      We also vary chunk length, overlap, and pooling for MiniLM and                 Holding competitors in C0 is a controlled reference environ-          415
+358   BGE, while the long-context GTE-ModernBERT provides a further                 ment, not a claim that C0 is optimal or universal. The experiment         416
+359   truncation control. These profiles test whether one token budget              establishes the target effect conditional on that environment. Dif-       417
+360   or pooling rule is sufficient to explain the effect.                          ferent competitor representations can change the size or direction        418
+361                                                                                 of the resulting rank movement. Accordingly, the difference be-           419
+362   4.2    Two-Stage Pipeline Diagnosis                                           tween catalog-wide and target-only VI is not an additive estimate         420
+363   For every query and equivalent serialization, BGE-base retrieves              of a separate “competition effect.” Crossing indicators are nonlinear     421
+364   the top 100. The cross-encoder ms-marco-MiniLM-L-6-v2 then                    functions of the whole ranked list, and the two interventions can         422
+365   scores each query–product candidate. We measure VI before and                 make different pairs cross a boundary.                                    423
+366   after reranking for products present in all seven candidate pools,                The representation audit supports this causal interpretation at       424
+367   and Irrecoverable@100 over the full highest-relevance population.             the input level. Reordering complete attribute atoms leaves their         425
+368   The distinction is central: reranking can correct ordering among              contents and multiplicities intact, and keeps the non-attribute fields    426
+369   candidates, but it cannot recover content it never receives.                  fixed. It does not guarantee that a sequence encoder will internally      427
+370                                                                                 process the variants identically; that is the behavior being tested.      428
+371   4.3    Proof-of-Concept Invariant Representation                              Nor does it certify that every arbitrary permutation is equally nat-      429
+372
+      The mitigation follows a structural observation: product attributes           ural to a human reader. Our intervention is deliberately narrower         430
+373
+      are sets, not sentences. We preserve order-sensitive title and descrip-       than a paraphrase or generated rewrite, for which preserving all          431
+374
+      tion fields in a non-attribute view 𝑛(𝑝), encode each raw attribute           relevant facts is much harder to verify.                                  432
+375
+      𝑎 ∈ 𝐴(𝑝) independently, and aggregate attributes by their mean.                   The invariant method changes the architectural treatment of the       433
+376
+      With the same frozen BGE encoder,                                             nuisance variable. Because attributes are encoded independently, an       434
+377                                                                                 attribute’s vector does not depend on which other attribute appears       435
+378                                                1     ∑︁                         immediately before it. Commutative pooling then removes depen-            436
+             𝑣 (𝑝) = norm ­ (1 − 𝛼)𝐸 (𝑛(𝑝)) + 𝛼                 𝐸 (𝑎) ® . (4)
+                          ©                                           ª
+379                                              |𝐴(𝑝)|                             dence on the ordering of those vectors. The non-attribute view            437
+                                                        𝑎∈𝐴(𝑝 )
+380                       «                                           ¬             remains a sequence, so the method does not discard meaningful             438
+381   Mean aggregation is permutation invariant, so changing the order              word order in titles and descriptions. It is invariant to the specified   439
+382   of 𝐴(𝑝) leaves 𝑣 (𝑝) unchanged up to floating-point noise. This is a          attribute permutations, not to changes in attribute wording, schema       440
+383   simple proof of concept rather than a claim that set pooling is novel         names, values, or the grouping of facts into atoms.                       441
+384   in general. The contribution is its relevance–robustness evaluation               This structure also explains a possible effectiveness cost. Inde-     442
+385   for product retrieval.                                                        pendent encoding removes cross-attribute contextual interaction           443
+386      We select 𝛼 ∈ {0.25, 0.5, 0.75} on a deterministic 20% WANDS de-           before aggregation. A useful relation between material, intended          444
+387   velopment split, then evaluate the chosen 𝛼 = 0.5 on the remaining            use, and dimensions may be easier for a joint encoder to represent        445
+388   80% and all ESCI queries. Baselines are a factual sentence template           than for a simple average. Canonical sorting retains joint encoding       446
+389   (M1), canonical attribute sorting (M2), and late-aggregation abla-            but commits to one particular sequence. The empirical comparison          447
+390   tions. A mitigation is aligned when VI decreases and the paired 95%           therefore concerns two ways of controlling a nuisance variable,           448
+391   confidence interval for ΔcNDCG@10 does not establish a loss; this             each with a different inductive bias; there is no reason to expect        449
+392   rule does not prove equivalence.                                              either to dominate every dataset.                                         450
+393                                                                                                                                                           451
+394   4.4    Intervention Logic and Controls                                        5 Experimental Setup                                                      452
+395   The catalog-wide and target-only designs identify different effects.                                                                                    453
+                                                                                    5.1 Datasets and Relevance
+396   In the catalog-wide design, both a product score and the scores of                                                                                      454
+397   its competitors may change. This is the appropriate intervention              WANDS contains 42,994 products and 480 evaluated queries after            455
+398   for a shared ingestion template or a catalog reserialization. In the          cleaning. We map its Exact, Partial, and Irrelevant judgments to          456
+399   target-only design, every competing score is held fixed. Any rank             gains 3, 1, and 0. Our Amazon ESCI evaluation uses 500 US test            457
+400   change must then follow from the target representation and its                queries selected before retrieval by a seeded SHA-256 order. The          458
+401   score relative to that fixed comparison set. This removes competi-            shared union catalog contains 10,076 products and 10,134 judg-            459
+402   tion changes as an explanation for the target’s movement, without             ments; E, C, S, and I map to 1, 0.1, 0.01, and 0. The union creates a     460
+403   assuming that competitors are themselves representation robust.               fixed catalog in which products compete across queries, but most          461
+404      For target-only evaluation, every relevant pair constitutes a sep-         query–product pairs are unjudged. We therefore use condensed              462
+405   arate counterfactual ranking. We do not simultaneously substitute                                                                                       463
+406                                                                             4                                                                             464
+      Same Product, Different Visibility: Representation Robustness in Neural E-Commerce Retrieval                                           WWW ’27, April 2027, TBD
+
+
+465   effectiveness metrics and additionally evaluate each query’s official                    avoids treating unknown relevance as a known negative, but also          523
+466   judged candidate pool (median size 16) as a formulation check.                           means that cNDCG does not fully measure the burden of unjudged           524
+467      Our primary visibility population contains the highest human-                         products occupying early complete-catalog positions. We therefore        525
+468   relevance label: Exact in WANDS and E in ESCI. This choice asks                          report visibility and effectiveness as complementary views.              526
+469   whether representation affects items that should clearly be retriev-                        The official ESCI pool provides a useful diagnostic of this con-      527
+470   able. Lower relevance strata provide a contrast rather than a defini-                    struction. Every candidate there has an official query-specific judg-    528
+471   tion of harm. The labels express query–product relationship; they                        ment, but the pool is much smaller than the union catalog. It tests      529
+472   are not judgments of objective product quality.                                          whether instability survives under that alternative ranking popu-        530
+473                                                                                            lation. It does not create a second independent benchmark or an          531
+474   5.2     Retrievers and Ranking Pipeline                                                  independent effectiveness replication. In particular, when condens-      532
+475   The frozen general-purpose retrievers are MiniLM-L6-v2, BGE-base-                        ing the union removes all additional unjudged competitors, the           533
+476   en-v1.5, and GTE-ModernBERT-base. They span encoder families,                            judged order and resulting NDCG coincide with those of the official      534
+477   mean versus CLS pooling, and native input budgets from 256 to                            pool.                                                                    535
+478   8,192 tokens. Marqo-Ecommerce-B supplies a domain-specific stress                           The target-only extension was performed after the confirmatory        536
+479   test. Embeddings are normalized and ranked by cosine similarity                          study. Its role is to strengthen causal isolation using the frozen       537
+480   with deterministic tie handling. The two-stage experiment uses                           primary representations, not to redefine the original gate or select     538
+481   BGE-base for top-100 generation and ms-marco-MiniLM-L-6-v2                               new winning configurations. The aggregate estimates cover the            539
+482   as the cross-encoder. Model revisions, tokenizer settings, and hashes                    same three general retrievers and both datasets rather than only         540
+483   are recorded in the artifact.                                                            the motivating example. We retain negative and small effects, and        541
+484                                                                                            label illustrations separately from population summaries. No new         542
+485   5.3     Metrics, Inference, and Integrity                                                model training, relevance annotation, or encoder inference was           543
+486
+      We emphasize VI@20 because a twenty-item result set is a plau-                           needed for this extension.                                               544
+487                                                                                                                                                                     545
+      sible visibility boundary, and report VI@10 and VI@50 in the ar-
+488
+      tifact. cNDCG@10 measures judged relevance after condensing
+                                                                                               6 Results                                                                546
+489                                                                                                                                                                     547
+      unjudged items; highest-label Recall@20 retains complete-catalog                         6.1 RQ1: Does Representation Alter Product
+490                                                                                                                                                                     548
+      positions. Primary uncertainty uses 10,000 query-level bootstrap                             Visibility?
+491                                                                                                                                                                     549
+      samples. Method comparisons are paired by query, with prespec-
+492                                                                                            Figure 2 answers the central question across datasets and retriever      550
+      ified permutation tests and Holm correction where multiple pri-
+493                                                                                            families. For the three general-purpose encoders, 9.41–13.26% of         551
+      mary contrasts are tested. The confirmatory gate required a query-
+494                                                                                            highest-relevance WANDS pairs and 4.42–8.25% of ESCI pairs cross         552
+      macro VI@20 confidence-interval lower bound above 1% in multiple
+495                                                                                            the top-20 boundary under fact-equivalent attribute orders. Query-       553
+      model–dataset cells.
+496                                                                                            macro estimates are larger on WANDS (12.05–19.17%) and remain            554
+          The equivalence family, queries, cutoffs, and analysis protocol
+497                                                                                            3.66–6.91% on ESCI. Every macro confidence interval has a lower          555
+      were frozen before the confirmatory runs. An independent rec-
+498                                                                                            bound above the preregistered 1% floor.                                  556
+      onciliation recomputed primary metrics from lower-level ranks
+499                                                                                                The detailed statistics in Supplementary Table S1 show that the      557
+      and matched stored values to a maximum absolute difference of
+500                                                                                            WANDS crossings are not merely tie-breaking near rank 20. The            558
+      1.11 × 10−16 . It also found and corrected a join error in an earlier
+501                                                                                            median highest-relevance pair moves 81–207 positions across repre-       559
+      mitigation summary that omitted WANDS queries without Exact
+502                                                                                            sentations. ESCI has a different regime: median movements of two         560
+      items; no primary sensitivity result changed. Query-type labels
+503                                                                                            or three ranks for the general encoders still create consistent cutoff   561
+      remain lexical heuristics and are excluded from the main claims.
+504                                                                                            crossings because many judged products lie near the boundary. The        562
+505                                                                                            e-commerce-specific retriever reduces WANDS micro VI@20 to               563
+      5.4     Reading the Evaluation Populations
+506                                                                                            6.07% but remains at 7.22% on ESCI (Figure 2). Domain training           564
+507
+      The experiments use three distinct evaluation populations. Primary                       therefore does not make serialization irrelevant.                        565
+508
+      sensitivity uses all highest-relevance pairs in each complete evalua-                        Two checks narrow possible explanations. First, instability per-     566
+509
+      tion catalog. The reranking comparison conditions on membership                          sists in the official ESCI candidate formulation. At top 10, micro VI    567
+510
+      in every first-stage candidate pool, because ranks after reranking                       is 7.60%, 6.65%, and 11.55% for MiniLM, BGE, and GTE; at top 20          568
+511
+      are otherwise undefined for omitted products. Mitigation effective-                      it is 3.00%, 2.86%, and 5.89%. Because the median official pool con-     569
+512
+      ness uses the held-out WANDS queries and the ESCI evaluation                             tains 16 products, top-20 crossings are mechanically constrained.        570
+513
+      queries. Values from these populations should not be directly sub-                       Condensed union-catalog NDCG equals official-pool NDCG after             571
+514
+      tracted to infer a treatment effect: even the Original baseline can                      unjudged products are removed, so this is a visibility-formulation       572
+515
+      differ when its query population changes.                                                check rather than an independent effectiveness estimate. Second,         573
+516
+         Judgment coverage also determines what each metric can sup-                           changing chunk length, overlap, and pooling does not remove              574
+517
+      port. In the ESCI union, a product judged for one query can compete                      WANDS instability. MiniLM micro VI@20 remains 11.25–13.26%               575
+518
+      for another query without having a label there. For visibility analy-                    across five profiles, BGE remains 9.41–17.77%, and long-context          576
+519
+      sis it remains a real competitor in the constructed catalog; removing                    GTE is also sensitive. A single short-context configuration cannot       577
+520
+      it would change the rank boundary. For condensed effectiveness,                          explain the pattern.                                                     578
+521
+      unjudged products are removed before computing discounts. This                                                                                                    579
+522                                                                                       5                                                                             580
+      WWW ’27, April 2027, TBD                                                                                                                                         Anon.
+
+
+            Fact-equivalent serialization changes visibility across retriever families
+581                                                                                                    scale, WANDS shows more instability among Exact than Irrelevant          639
+582
+                           WANDS                              ESCI union catalog
+                                                                                                       pairs. The query-macro Exact-minus-Irrelevant difference is 17.01        640
+583               MiniLM                                                                               percentage points for MiniLM, 10.90 for BGE, and 12.62 for GTE; the      641
+584                                                                                                    three 95% intervals exclude zero and Holm-adjusted 𝑝 = .0003. ESCI       642
+                BGE-base
+585                                                                                                    does not support the same gradient: E-minus-I differences range          643
+586
+         GTE-ModernBERT
+                                                                                                       from −0.41 to +1.63 points, all intervals include zero, and adjusted     644
+587                                                                                                    𝑝 ≥ .4707. The defensible cross-dataset conclusion is therefore          645
+588    Marqo-Ecommerce-B                                                                               that highly relevant products are affected, with disproportionate        646
+                           0   5      10       15      20          2          4        6       8
+589
+                               Query-macro VI@20 (%)                   Query-macro VI@20 (%)
+                                                                                                       concentration established only on WANDS.                                 647
+590                                                                                                       The primary-family target-only test confirms a direct ordering        648
+591                                                                                                    effect with competitors fixed in C0. Micro VI@20 is 12.72%, 8.84%,       649
+      Figure 2: Equivalent attribute orders change visibility across
+592                                                                                                    and 11.39% on WANDS for MiniLM, BGE, and GTE, respectively;              650
+      general and e-commerce-specific retrievers. Error bars are
+593                                                                                                    corresponding ESCI values are 3.11%, 3.16%, and 6.68%. Query-            651
+      95% query-bootstrap confidence intervals; the dashed line
+594                                                                                                    macro estimates span 11.36–18.96% on WANDS and 2.42–5.88% on             652
+      marks the 1% preregistered floor.
+595                                                                                                    ESCI (Supplementary Table S2). These differ from catalog-wide VI         653
+596                                                                                                    because competitors no longer move. Figure 1 uses this stricter          654
+      Table 1: WANDS catalog-wide encoding controls. Entries are
+597                                                                                                    intervention: the turquoise chair ranks 5th versus 1,527th against       655
+      pair-micro VI@20 percentages. Chunk sizes and overlap are
+598                                                                                                    the same C0 competitors, rather than the earlier catalog-wide ranks      656
+      in tokens; pooling specifies the within-chunk rule. These are
+599                                                                                                    of 3 and 1,303.                                                          657
+600
+      configuration checks, not separately trained retrievers.                                                                                                                  658
+                                                                                                          Boundary sensitivity with fixed competitors. Figure 3 reports the
+601                                                                                                                                                                             659
+                   Profile                                  MiniLM        BGE-base                     same target-only intervention at additional cutoffs. On WANDS,
+602                                                                                                                                                                             660
+                                                                                                       the crossing fraction increases as the evaluated boundary moves
+603                Native                                     13.26              9.41                                                                                           661
+                                                                                                       deeper, whereas the ESCI rates peak at the smaller reported cutoff
+604                Mean, chunk 126, overlap 32                12.10             14.45                                                                                           662
+                                                                                                       and decline thereafter. This difference is compatible with different
+605                Mean, chunk 254, overlap 0                 11.72             17.63                                                                                           663
+                   Mean, chunk 254, overlap 64                11.25             17.77
+                                                                                                       rank distributions and candidate environments. It should not be
+606                                                                                                                                                                             664
+                   CLS, chunk 254, overlap 0                  11.63             17.15                  read as evidence that a larger result set intrinsically improves or
+607                                                                                                                                                                             665
+                                                                                                       worsens robustness. A boundary can move past the entire rank
+608                                                                                                                                                                             666
+                                                                                                       interval of one product while entering the interval of another.
+609                                                                                                                                                                             667
+          What the encoding controls rule out. Table 1 expands the input-                                 The target-only median rank range is 210, 83, and 105 on WANDS
+610                                                                                                                                                                             668
+      budget and pooling check. Every listed profile retains nonzero                                   for MiniLM, BGE, and GTE, respectively; on ESCI it is 0, 1, and
+611                                                                                                                                                                             669
+      highest-relevance crossing, but the profiles do not preserve the                                 2. The zero ESCI median for MiniLM is compatible with nonzero
+612                                                                                                                                                                             670
+      same magnitude. In particular, chunking can increase BGE insta-                                  Top-20 instability: most judged relevant pairs can have stable ranks
+613                                                                                                                                                                             671
+      bility even while allowing more of a long record to contribute                                   while a smaller subset crosses the boundary. The aggregate result
+614                                                                                                                                                                             672
+      to its representation. More input coverage should therefore not                                  therefore does not depend on asserting that every product moves
+615                                                                                                                                                                             673
+      be equated with order invariance. Window boundaries, within-                                     substantially. Conversely, the much larger WANDS ranges establish
+616                                                                                                                                                                             674
+      window context, and aggregation all remain sensitive to how the                                  movement beyond adjacent swaps without implying that every
+617                                                                                                                                                                             675
+      record is presented.                                                                             such movement reaches a user-visible cutoff.
+618                                                                                                                                                                             676
+          These controls constrain the explanation without identifying a
+619                                                                                                       The motivating example across all tested orders. Table 2 exposes      677
+      unique internal cause. The data reject the claim that the observed
+620                                                                                                    every primary serialization for Figure 1, including those not selected   678
+      phenomenon disappears merely by choosing one of these alter-
+621                                                                                                    for the opening illustration. The source-order target is outside Top-    679
+      native input configurations. They do not decompose the effect
+622                                                                                                    20, two tested orders put it inside, and another gets close while        680
+      into truncation, positional encoding, attention, and pooling con-
+623                                                                                                    remaining outside. The direction is not uniformly favorable. This        681
+      tributions. Changing several aspects of an encoding profile is not
+624                                                                                                    makes the example a test of nuisance dependence rather than a            682
+      a clean intervention on any one of those mechanisms. Likewise,
+625                                                                                                    recommended rewriting policy. The table also shows why fixing            683
+      the long-context result broadens coverage but does not prove that
+626                                                                                                    competitors matters: the same target score can receive a different       684
+      truncation never matters for any individual record. The supported
+627                                                                                                    rank when the surrounding catalog is reserialized.                       685
+      conclusion is configuration-robust evidence of representation sen-
+628                                                                                                       This case was selected after inspecting the outputs for an intu-      686
+      sitivity, rather than a complete mechanistic account of Transformer
+629                                                                                                    itive query and a large crossing. It is not an unbiased sample of        687
+      order effects.
+630                                                                                                    effect magnitude and cannot substitute for the six aggregate cells.      688
+631                                                                                                    Its scientific role is to make the controlled comparison inspectable:    689
+      6.2      RQ2: Are Human-Relevant Products
+632                                                                                                    identical facts and fixed competitors can still yield an operationally   690
+633            Materially Affected?                                                                    different result. The population-level inference rests on the full       691
+634   The primary results already concern the highest relevance stratum:                               highest-relevance evaluation, not on the visual extremity of this        692
+635   Exact products in WANDS and E products in ESCI. Figure 1 demon-                                  example.                                                                 693
+636   strates that an Exact item can move by 1,522 ranks while both its                                   Earlier single-product template interventions provide a com-          694
+637   facts and all competitor representations remain fixed. At aggregate                              plementary check. Replacing only a highest-relevance target with         695
+638                                                                                                6                                                                            696
+      Same Product, Different Visibility: Representation Robustness in Neural E-Commerce Retrieval                                                                                                                                 WWW ’27, April 2027, TBD
+
+
+
+                                                                                 WANDS                                                                          ESCI union
+697                                                                                                                                                                                                                                                           755
+698
+                Target-only pair-micro VI@K (%)                                                                                                                                                                                                               756
+699                                               20                                                                                                                                                                                  MiniLM                  757
+700
+                                                                                                                                                                                                                                      BGE-base                758
+701                                               15                                                                                                                                                                                  GTE                     759
+702                                                                                                                                                                                                                                                           760
+703                                                                                                                                                                                                                                                           761
+704
+                                                  10                                                                                                                                                                                                          762
+705                                                                                                                                                                                                                                                           763
+706                                                5                                                                                                                                                                                                          764
+707                                                                                                                                                                                                                                                           765
+708                                                                                                                                                                                                                                                           766
+709                                                    10             20                              50                                10            20                                                                                       50             767
+710                                                                        Visibility cutoff K                                                             Visibility cutoff K                                                                                768
+711                                                                                                                                                                                                                                                           769
+712                                                                                                                                                                                                                                                           770
+713   Figure 3: Target-only sensitivity at three visibility boundaries. Each target changes independently; every competitor remains in                                                                                                                        771
+714   C0. Points are pair-micro rates, not query-bootstrap estimates. Connecting lines guide the eye and do not interpolate a failure                                                                                                                         772
+715   probability.                                                                                                                                                                                                                                            773
+716                                                                                                                                                                                                                                                           774
+717   Table 2: All orders for the Exact-relevant turquoise chair                                                                         Reranking reduces instability but cannot recover missing candidates                                                  775
+718   (MiniLM). Target-only competitors stay in C0. Positive Δ                                                                                                                                                                                                776
+                                                                                                                                        (a) Common Top-100 products                                                       (b) Candidate loss
+
+
+
+
+                                                                                                                                                                                 Query-macro Irrecoverable@100 (%)
+719   means a worse rank than target C0.                                                                                           25                      Dense Top-100 ranks                                       14
+                                                                                                                                                                                                                                                              777
+                                                                                                                                                           After reranking
+                                                                                                           Query-macro VI@20 (%)
+
+
+
+720                                                                                                                                                                                                                  12                                       778
+                                                                                                                                   20
+721                                                                                                                                                                                                                  10                                       779
+              Order                                Target-only rank    Δ vs C0    Catalog-wide rank                                15
+722                                                                                                                                                                                                                   8                                       780
+723           C0                                                486          0                  486                                10
+                                                                                                                                                                                                                      6
+                                                                                                                                                                                                                                                              781
+              C1                                                476       −10                   295                                                                                                                   4
+724                                                                                                                                 5                                                                                                                         782
+                                                                                                                                                                                                                      2
+              C2s1                                            1,527    +1, 041                1,303
+725                                                                                                                                 0                                                                                 0                                       783
+              C2s2                                               28     −458                     21                                          WANDS                ESCI                                                        WANDS                   ESCI
+726                                                                                                                                                                                                                                                           784
+              C2s3                                              582       +96                   484
+727                                                                                                                                                                                                                                                           785
+              C2s4                                                5     −481                      3
+728                                                                                                        Figure 4: Reranking attenuates instability among common                                                                                            786
+              C2s5                                                5     −481                      4
+729                                                                                                        candidates (left), but products omitted by first-stage top-100                                                                                     787
+730                                                                                                        retrieval are unavailable to the reranker (right).                                                                                                 788
+731   the fact-preserving M1 or M2 representation yields direct top-20                                                                                                                                                                                        789
+732   crossing rates of 8.43–10.27% on WANDS and 7.04–10.80% on ESCI.                                      Table 3: Two-stage BGE–cross-encoder pipeline. VI is query-                                                                                        790
+733   Transforming the entire catalog yields rates of 6.13–11.54%. Rank                                    macro VI@20 on candidates common to all representation                                                                                             791
+734   directions are mixed: representation changes help some relevant                                      pools; loss is query-macro Irrecoverable@100. All values are                                                                                       792
+735   items and harm others. The phenomenon is consequently neither a                                      percentages.                                                                                                                                       793
+736   uniform gain nor merely a side effect of every competitor moving                                                                                                                                                                                        794
+737   at once.                                                                                                                               Data       Dense VI          Rerank VI                                                   Loss (95% CI)           795
+738      These results motivate relevance–visibility alignment rather                                                                                                                                                                                         796
+                                                                                                                                             WANDS           25.94                            13.03                           12.52 [10.94,14.22]
+739   than a new average-effectiveness objective. A system may replace                                                                                                                                                                                        797
+                                                                                                                                             ESCI             3.95                             1.37                               0.72 [0.47,1.00]
+740   one relevant product with another and retain a similar cNDCG,                                                                                                                                                                                           798
+741   while the first product’s opportunity to be retrieved changes sharply.                                                                                                                                                                                  799
+742   VI identifies that item-level instability; relevance metrics prevent a                               WANDS and from 2 to 1 on ESCI. Reranking can therefore correct                                                                                     800
+743   stable but ineffective representation from counting as a solution.                                   some ordering among candidates it sees.                                                                                                            801
+744                                                                                                           The remaining failure is structural. Under catalog-wide permu-                                                                                  802
+745   6.3     RQ3: Can a Later Ranking Stage Repair the                                                    tations, 15.14% of WANDS highest-label pairs enter the top 100 in                                                                                  803
+746           Effect?                                                                                      some variants but are absent in others, producing a 12.52% query-                                                                                  804
+747                                                                                                        macro irrecoverable rate. ESCI’s rates are lower (0.99% pair-micro                                                                                 805
+      Figure 4 and Table 3 separate within-pool movement from first-
+748                                                                                                        and 0.72% query-macro) but nonzero. Reranking can correct or-                                                                                      806
+      stage omission. Among products present in every top-100 candidate
+749                                                                                                        dering among candidates, but it cannot recover content it never                                                                                    807
+      pool, the cross-encoder approximately halves query-macro VI@20:
+750                                                                                                        receives. Candidate generation must therefore remain inside the                                                                                    808
+      from 25.94% to 13.03% on WANDS and from 3.95% to 1.37% on
+751                                                                                                        representation-robustness evaluation boundary.                                                                                                     809
+      ESCI. Median cross-representation rank range falls from 16 to 8 on
+752                                                                                                                                                                                                                                                           810
+753                                                                                                                                                                                                                                                           811
+754                                                                                                   7                                                                                                                                                       812
+      WWW ’27, April 2027, TBD                                                                                                                                                                                                                                            Anon.
+
+
+813   Table 4: Candidate coverage under catalog-wide BGE per-                        Table 5: Robustness–relevance comparison with BGE. Val-                                                                                                                                          871
+814   mutations. “Some only” is ever retrieved minus common to                       ues are cNDCG@10; parentheses show paired change from                                                                                                                                            872
+815   all pools. The conditional loss divides that count by ever re-                 Original. WANDS contains the held-out 80%. Macro VI is a                                                                                                                                         873
+816   trieved; it is distinct from the all-highest and query-macro                   percentage.                                                                                                                                                                                      874
+817   rates.                                                                                                                                                                                                                                                                          875
+818                                                                                                                                    Data          Method                       cNDCG@10 (Δ)                                                        Macro VI                        876
+819            Population                           WANDS      ESCI                                                                                                                                                                                                                   877
+                                                                                                                                                     Original                                                               .8247                              11.93
+820                                                                                                                                                                                                                                                                                   878
+               All highest-relevance pairs           25,470   4,434                                                                                  M1 factual                                                    .8178 (−.0069)                              11.23
+821                                                                                                                                    WANDS                                                                                                                                          879
+               Ever in Top-100                       12,240   4,039                                                                                  M2 canonical                                                  .8030 (−.0217)                                  0
+822                                                                                                                                                  Set mean                                                      .8151 (−.0096)                                  0                  880
+               In every Top-100                       8,384   3,995
+823            Some pools only                        3,856      44                                                                                                                                                                                                                   881
+                                                                                                                                                     Original                                                               .7124                               3.66
+824            Loss conditional on ever retrieved    31.50%   1.09%                                                                                                                                                                                                                   882
+                                                                                                                                                     M1 factual                                                    .7061 (−.0063)                               3.08
+825                                                                                                                                    ESCI                                                                                                                                           883
+                                                                                                                                                     M2 canonical                                                  .7192 (+.0068)                                  0
+826                                                                                                                                                                                                                                                                                   884
+                                                                                                                                                     Set mean                                                      .7059 (−.0066)                                  0
+827      How many pairs are excluded from the common-pool analysis?                                                                                                                                                                                                                   885
+828   Table 4 makes the conditioning explicit. On WANDS, 12,240 highest-                                                                                                                                                                                                              886
+                                                                                                                                      Permutation invariance exposes the robustness–relevance frontier
+829   relevance pairs appear in at least one top-100 pool, but only 8,384                                                                                                                                                                                                             887
+      occur in every pool. The difference, 3,856 pairs, is the representation-
+
+
+
+
+                                                                                     Query-macro VI@20 (%) (lower is better)
+
+
+
+
+                                                                                                                                                                                  Query-macro VI@20 (%) (lower is better)
+830                                                                                                                                 WANDS held-out                                                                              ESCI union catalog                                    888
+                                                                                                                                                                       Original                                                                     Original
+                                                                                                                               12
+831   dependent candidate-loss population. On ESCI, the corresponding                                                                                     M1 factual
+                                                                                                                                                                                                                                  M1 factual
+                                                                                                                                                                                                                                                                                      889
+                                                                                                                               10
+832   counts are 4,039 and 3,995, a difference of 44. These are query–                                                                                                                                                      3
+                                                                                                                                                                                                                                                                                      890
+                                                                                                                                8
+833   product pairs rather than unique products: the same catalog item                                                                                                                                                      2
+                                                                                                                                                                                                                                                                                      891
+                                                                                                                                6
+834   can be relevant to multiple queries.                                                                                                                                                                                                                                            892
+                                                                                                                                4
+835      The conditional rate is useful because it asks about relevant                                                                                                                                                      1                                                         893
+                                                                                                                                2
+836   content that the retriever demonstrates it can retrieve under at                                                               M2 canonical                                                                                                                      M2 canonical   894
+                                                                                                                                0                                                                                           0
+837   least one equivalent input. For WANDS this is 31.50%; for ESCI it is                                                                           Set mean (ours)
+                                                                                                                                     0.805 0.810 0.815 0.820 0.825
+                                                                                                                                                                                                                                  Set mean (ours)
+                                                                                                                                                                                                                                  0.70750.71000.71250.71500.7175                      895
+                                                                                                                                        cNDCG@10 (higher is better)                                                                  cNDCG@10 (higher is better)
+838   1.09%. These values must not replace the primary all-highest rates                                                                                                                                                                                                              896
+839   without changing the claim. Pairs absent under every serializa-                                                                                                                                                                                                                 897
+840   tion are outside this conditional denominator and contribute zero              Figure 5: Robustness–relevance frontier. Lower VI and higher                                                                                                                                     898
+841   to representation-induced crossing even though their persistent                cNDCG are preferred. Effectiveness intervals for all variants                                                                                                                                    899
+842   omission can still be a retrieval-effectiveness problem.                       appear in Figure 6.                                                                                                                                                                              900
+843      There is also a selection effect in evaluating only common candi-                                                                                                                                                                                                            901
+844   dates. Membership in every pool removes the very products whose                                                                                                                                                                                                                 902
+                                                                                     cNDCG by −0.0096, with a paired 95% CI from −0.0195 to 0.0003.
+845   availability is unstable at the first-stage boundary. The reduced VI                                                                                                                                                                                                            903
+                                                                                     On ESCI, its change is −0.0066, with a CI from −0.0187 to 0.0055.
+846   after reranking is therefore evidence about ordering conditional                                                                                                                                                                                                                904
+                                                                                        Set mean’s maximum score difference across permutations is
+847   on survival, not a complete end-to-end robustness guarantee. Re-                                                                                                                                                                                                                905
+                                                                                     2.38×10−7 , below the prespecified 10−6 numerical tolerance. The set-
+848   porting both candidate coverage and conditional reranker stability                                                                                                                                                                                                              906
+                                                                                     based representation thus eliminates measured order-induced in-
+849   prevents this survivorship restriction from being mistaken for re-                                                                                                                                                                                                              907
+                                                                                     stability, while the observed retrieval-effectiveness change is small
+850   covery of missing content.                                                                                                                                                                                                                                                      908
+                                                                                     and statistically inconclusive on both evaluation sets. This does not
+851      For additional context, C0 highest-label Recall@20 rises from                                                                                                                                                                                                                909
+                                                                                     prove equivalence: the WANDS interval still permits a meaningful
+852   12.58% to 13.61% after reranking on WANDS and from 68.04% to                                                                                                                                                                                                                    910
+                                                                                     loss. The result instead identifies a promising point on a robustness–
+853   70.37% on ESCI. These stored C0 point estimates show that im-                                                                                                                                                                                                                   911
+                                                                                     relevance frontier (Figure 5) and shows why stability and relevance
+854   proved relevance retrieval and residual representation instability                                                                                                                                                                                                              912
+                                                                                     must be evaluated jointly.
+855   can coexist. They are not paired significance claims, and their cross-                                                                                                                                                                                                          913
+856   dataset difference reflects distinct catalogs and relevance popu-                 Inspecting the effectiveness uncertainty. Figure 6 adds paired confi-                                                                                                                         914
+857   lations. The key pipeline conclusion concerns availability: a later            dence intervals for all evaluated mitigation variants. It complements                                                                                                                            915
+858   ranker can improve a candidate’s position only when that candidate             the robustness–relevance scatter plot by exposing the uncertainty                                                                                                                                916
+859   has reached it.                                                                that a point-only frontier cannot show. Set mean’s interval crosses                                                                                                                              917
+860                                                                                  zero on both datasets, but much of the WANDS interval lies on the                                                                                                                                918
+861   6.4    RQ4: Can Robustness Improve Without                                     loss side. Calling this “no loss” would conflate failure to establish a                                                                                                                          919
+862          Sacrificing Relevance?                                                  difference with evidence that the difference is negligible. A deploy-                                                                                                                            920
+863   Table 5 compares the set-mean proof of concept with two deter-                 ment decision would require a prespecified acceptable-loss margin                                                                                                                                921
+864   ministic baselines. Canonical sorting (M2) mechanically collapses              and a study designed to assess that margin.                                                                                                                                                      922
+865   permutations and obtains VI=0, but causes a confirmed held-out                                                                                                                                                                                                                  923
+                                                                                        What the negative variants teach us. All late-aggregation variants
+866   WANDS cNDCG@10 decrease of 0.0217. The factual template (M1)                                                                                                                                                                                                                    924
+                                                                                     satisfy the numerical order-invariance criterion, yet on held-out
+867   leaves residual instability and has a smaller confirmed WANDS de-                                                                                                                                                                                                               925
+                                                                                     WANDS their cNDCG@10 values are 0.8058, 0.8093, and 0.8106 for
+868   crease of 0.0069. Set mean also obtains VI=0 and changes WANDS                                                                                                                                                                                                                  926
+                                                                                     late mean, maximum, and top-3 aggregation. Each paired interval
+869                                                                                                                                                                                                                                                                                   927
+870                                                                              8                                                                                                                                                                                                    928
+      Same Product, Different Visibility: Representation Robustness in Neural E-Commerce Retrieval                                           WWW ’27, April 2027, TBD
+
+
+
+                                                   WANDS held-out                                                       ESCI union
+929                                                                                                                                                                     987
+930                                                                                                                                                                     988
+931                 Factual                                                                                                                                             989
+932                                                                                                                                                                     990
+933              Canonical                                                                                                                                              991
+934                                                                                                                                                                     992
+935              Set mean                                                                                                                                               993
+936                                                                                                                                                                     994
+937             Late mean                                                                                                                                               995
+938                                                                                                                                                                     996
+939              Late max                                                                                                                                               997
+940                                                                                                                                                                     998
+941             Late top-3                                                                                                                                              999
+942
+                                    0.03      0.02     0.01 0.00      0.01                              0.03      0.02     0.01 0.00      0.01                          1000
+943
+944
+                                       Paired change in cNDCG@10 (95% CI)                                  Paired change in cNDCG@10 (95% CI)                           1001
+                                                                                                                                                                        1002
+945                                                                                                                                                                     1003
+946                                                                                                                                                                     1004
+      Figure 6: Paired effectiveness changes relative to Original, with stored 95% confidence intervals. The dashed line denotes zero
+947                                                                                                                                                                     1005
+      change, not an equivalence margin. Set mean is highlighted; the late-aggregation negative results remain visible.
+948                                                                                                                                                                     1006
+949                                                                                                                                                                     1007
+950   establishes a decrease relative to Original. On ESCI their values are                    records, restaurant profiles, event pages, and other catalogs all mix    1008
+951   0.7026, 0.7041, and 0.7026, with intervals spanning zero. Thus in-                       fields with no canonical semantic sequence. We have not tested           1009
+952   variance does not determine effectiveness: the aggregation rule still                    those domains and do not claim the same effect or magnitude there.       1010
+953   controls which aspects of a structured record dominate matching.                         They are plausible settings for future replication because they share    1011
+954      Canonical sorting makes the same point from another direc-                            the structural precondition, not because the present experiments         1012
+955   tion. It obtains zero measured instability but loses effectiveness on                    establish external validity.                                             1013
+956   WANDS, whereas its ESCI point estimate is higher than Original                              For Web indexing, the immediate implication is procedural. Se-        1014
+957   without a confirmed gain. The available evidence does not establish                      rializers, field templates, and feed transformations should be ver-      1015
+958   a universal ranking of the invariant approaches. In particular, a                        sioned and regression-tested alongside model weights and index           1016
+959   significant Original-versus-canonical contrast and an inconclusive                       parameters. An evaluation suite can retain equivalence sets for rep-     1017
+960   Original-versus-set-mean contrast do not establish that set mean                         resentative records and measure both relevance and Top-𝐾 crossing.       1018
+961   significantly outperforms canonical sorting. Such a claim would                          For multi-stage systems, it should inspect candidate generation ex-      1019
+962   require their direct paired comparison.                                                  plicitly: final-stage evaluation cannot reveal relevant content that     1020
+963      The useful outcome is therefore a design constraint and a proof                       never reached the reranker.                                              1021
+964   of feasibility within the tested family. A representation can re-                           Set aggregation illustrates one design response. It preserves se-     1022
+965   move dependence on attribute order while retaining substantial                           quence where order carries meaning, such as titles and descriptions,     1023
+966   relevance effectiveness, but the relevance cost must be measured                         while treating schema-defined attributes as a set. The method in-        1024
+967   rather than assumed away. Further optimization should preserve                           creases offline indexing cost because attributes are encoded sepa-       1025
+968   this two-objective evaluation, including unsuccessful variants, so                       rately, although the resulting product vector remains compatible         1026
+969   that apparent robustness gains cannot be obtained simply by eras-                        with standard nearest-neighbor retrieval. Its value here is diag-        1027
+970   ing information needed for matching.                                                     nostic and proof-of-concept. Learned field-aware, set-encoding, or       1028
+971                                                                                            late-interaction models may reach a better relevance–robustness          1029
+972   7 Discussion                                                                             frontier.                                                                1030
+973   7.1 From Product Retrieval to Web Visibility                                                                                                                      1031
+974                                                                                            7.2    Scope of the Visibility Claim                                     1032
+          Robustness
+975                                                                                            Retrieval visibility is an upstream opportunity, not realized ex-        1033
+976
+      The experiments demonstrate a narrow mechanism with broader                              posure. Products may belong to merchants, but our data contain           1034
+977
+      relevance. In e-commerce, fact-equivalent serialization is a causal in-                  no seller groups, impressions, clicks, purchases, revenue, satisfac-     1035
+978
+      put to whether a human-relevant item crosses a retrieval boundary.                       tion, or welfare outcomes. The study therefore does not establish        1036
+979
+      Standard relevance aggregates do not fully express this property                         disparate impact or commercial harm. Connecting representation           1037
+980
+      because one relevant product can replace another while effective-                        instability to those outcomes requires user logs, merchant meta-         1038
+981
+      ness remains similar. Representation robustness therefore merits                         data, and an explicit normative model. Keeping this boundary clear       1039
+982
+      separate evaluation whenever a Web pipeline converts structured                          strengthens the causal claim we can support: a semantically irrele-      1040
+983
+      content into model input.                                                                vant input choice changes which relevant items a retrieval pipeline      1041
+984
+         The mechanism may arise beyond commerce wherever un-                                  can surface.                                                             1042
+985
+      ordered records are flattened into ordered text: job listings, hotel                                                                                              1043
+986                                                                                       9                                                                             1044
+       WWW ’27, April 2027, TBD                                                                                                                      Anon.
+
+
+1045   7.3    Limitations                                                            necessary order. Applying invariance indiscriminately would de-          1103
+1046
+       The evidence comes from two public English-language bench-                    stroy useful meaning. Broader Web replication should therefore           1104
+1047
+       marks and offline retrieval, not a deployed commercial search                 begin by identifying which components are genuinely unordered            1105
+1048
+       system. WANDS and the ESCI union have different catalog and                   for the task and which must remain sequential. Our product setting       1106
+1049
+       judgment structures, which plausibly explains their different rank-           demonstrates the approach for the audited attribute family; it does      1107
+1050
+       displacement regimes. ESCI is incompletely judged; condensed                  not license treating all Web text as a bag of facts.                     1108
+1051
+       metrics and the official-candidate check address part of this issue              Finally, representation robustness does not require identical rank-   1109
+1052
+       but cannot create missing relevance labels.                                   ing of every relevant item in every context. The expectation is          1110
+1053
+          The permutations are synthetic, although automatic audits ver-             narrower: when the query, facts, and comparison environment are          1111
+1054
+       ify that they preserve every tested attribute atom, character/token           fixed, a nuisance transformation should not arbitrarily determine        1112
+1055
+       multiset, numeric value, and source value. A blinded human study              retrieval eligibility. Personalization, fresh information, changed in-   1113
+1056
+       should additionally assess semantic equivalence and naturalness.              ventory, and meaningful textual edits are different interventions.       1114
+1057
+       Relevance judgments capture query–product relationships rather                Keeping that distinction explicit makes the visibility claim both        1115
+1058
+       than objective product quality. We observe no evidence about clicks,          useful and falsifiable without implying a fairness entitlement or a      1116
+1059
+       sales, purchase decisions, or user satisfaction. VI is also cutoff de-        measured downstream business effect.                                     1117
+1060                                                                                                                                                          1118
+       pendent and does not model examination probability.
+1061
+          Finally, the study covers dense candidate generation and one               8   Conclusion                                                           1119
+1062                                                                                 Neural systems increasingly mediate which Web content becomes            1120
+       cross-encoder reranker. It does not establish the same magnitude
+1063                                                                                 visible, yet structured content must often be flattened into ordered     1121
+       for sparse, multimodal, generative, or other Web-domain systems.
+1064                                                                                 text before retrieval. Using e-commerce as a controlled testbed,         1122
+       Confidence intervals that include zero for the set-based method do
+1065                                                                                 we show that semantically irrelevant attribute order can change          1123
+       not prove relevance equivalence; the WANDS interval still permits a
+1066                                                                                 whether human-relevant products cross practical visibility bound-        1124
+       meaningful loss. A larger prospective non-inferiority test is required
+1067                                                                                 aries. The effect reproduces across benchmarks and retriever fami-       1125
+       before deployment.
+1068                                                                                 lies, propagates into first-stage candidate loss that reranking cannot   1126
+1069   7.4    Reproducibility                                                        repair, and disappears under a proof-of-concept set representation       1127
+1070                                                                                 with a small, statistically inconclusive effectiveness change. Web       1128
+       The artifact records frozen protocols, model revisions, deterministic
+1071                                                                                 retrieval should therefore evaluate relevance and robustness to          1129
+       seeds, equivalence audits, query-level outputs, and source CSVs for
+1072                                                                                 semantically irrelevant representation choices together.                 1130
+       every figure. A provenance map links each main-text number to a
+1073                                                                                                                                                          1131
+       result field, and an independent audit regenerates primary metrics
+1074                                                                                                                                                          1132
+       from stored ranks. No live user or merchant was affected by the
+1075                                                                                                                                                          1133
+       experiments.
+1076                                                                                                                                                          1134
+1077                                                                                                                                                          1135
+       7.5    An Evaluation Practice for Structured Web
+1078                                                                                                                                                          1136
+1079
+              Retrieval                                                                                                                                       1137
+1080   The results suggest treating a serializer change as a retrieval-system                                                                                 1138
+1081   change, even when it preserves the source record. A useful regres-                                                                                     1139
+1082   sion suite would retain query–item relevance judgments together                                                                                        1140
+1083   with a small, explicitly defined family of equivalent inputs. Rele-                                                                                    1141
+1084   vance metrics would assess whether the updated pipeline retrieves                                                                                      1142
+1085   useful content overall; item-level crossing metrics would assess                                                                                       1143
+1086   whether irrelevant formatting decisions determine which particu-                                                                                       1144
+1087   lar relevant content survives. Neither assessment substitutes for                                                                                      1145
+1088   the other.                                                                                                                                             1146
+1089      The intervention should match the engineering decision. A                                                                                           1147
+1090   shared indexing change calls for a catalog-wide test because com-                                                                                      1148
+1091   petitors change together. A record-specific ingestion path calls                                                                                       1149
+1092   for a target-only test against a fixed catalog. A multistage service                                                                                   1150
+1093   also needs candidate-coverage accounting before any final-ranking                                                                                      1151
+1094   comparison. This is a proposed evaluation practice supported                                                                                           1152
+1095   by the structure of our findings, not an empirically validated de-                                                                                     1153
+1096   ployment protocol. The appropriate cutoff and tolerance remain                                                                                         1154
+1097   application-dependent.                                                                                                                                 1155
+1098      The controlled equivalence definition is equally important. A                                                                                       1156
+1099   field list can often be permuted safely, whereas a procedural in-                                                                                      1157
+1100   struction or a chronological event history may have semantically                                                                                       1158
+1101                                                                                                                                                          1159
+1102                                                                            10                                                                            1160
+       Same Product, Different Visibility: Representation Robustness in Neural E-Commerce Retrieval                                                        WWW ’27, April 2027, TBD
+
+
+1161   References                                                                                        Learning. arXiv preprint arXiv:2308.03281 (2023).                                1219
+1162    [1] Mostafa Abdou, Vinit Ravishankar, Maria Barrett, Yonatan Belinkov, Desmond El-          [14] Yu-An Liu, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Yixing Fan, and Xueqi    1220
+            liott, and Anders Søgaard. 2022. Word Order Does Matter and Shuffled Language                Cheng. 2024. Robust Neural Information Retrieval: An Adversarial and Out-of-
+1163                                                                                                     distribution Perspective. arXiv preprint arXiv:2407.06992 (2024).                1221
+            Models Know It. In Proceedings of ACL.
+1164    [2] Pranjal Aggarwal, Vishvak Murahari, Tanmay Rajpurohit, Ashwin Kalyan,                   [15] Robyn Loughnane, Jiaxin Liu, Zhilin Chen, Zhiqi Wang, Joseph Giroux,             1222
+1165        Karthik Narasimhan, and Ameet Deshpande. 2024. GEO: Generative Engine                        Tianchuan Du, Benjamin Schroeder, and Weiyi Sun. 2024. Explicit Attribute        1223
+            Optimization. In Proceedings of KDD.                                                         Extraction in e-Commerce Search. In Proceedings of the Seventh Workshop on
+1166                                                                                                     e-Commerce and NLP at LREC-COLING. 125–135. https://aclanthology.org/2024.       1224
+        [3] Puneet S. Bagga, Vivek F. Farias, Tamar Korkotashvili, Tianyi Peng, and Yuhang
+1167        Wu. 2025. E-GEO: A Testbed for Generative Engine Optimization in E-Commerce.                 ecnlp-1.13/                                                                      1225
+            arXiv preprint arXiv:2511.20867 (2025).                                                 [16] Sean MacAvaney, Sergey Feldman, Nazli Goharian, Doug Downey, and Arman
+1168                                                                                                                                                                                      1226
+        [4] Kushal Raj Bhandari, Adarsh Singh, Jianxi Gao, Soham Dan, and Vivek Gupta.                   Cohan. 2022. ABNIRML: Analyzing the Behavior of Neural IR Models. Transac-
+1169                                                                                                     tions of the Association for Computational Linguistics 10 (2022), 224–239.       1227
+            2026. Improving Robustness of Tabular Retrieval via Representational Stability.
+1170        arXiv preprint arXiv:2604.24040 (2026).                                                 [17] Rodrigo Nogueira and Kyunghyun Cho. 2019. Passage Re-ranking with BERT.          1228
+        [5] Yan Chen, Shujian Liu, Zheng Liu, Weiyi Sun, Linas Baltrunas, and Benjamin                   arXiv preprint arXiv:1901.04085 (2019).
+1171                                                                                                [18] Isabel Papadimitriou, Richard Futrell, and Kyle Mahowald. 2022. When Classify-   1229
+            Schroeder. 2022. WANDS: Dataset for Product Search Relevance Assessment. In
+1172        European Conference on Information Retrieval.                                                ing Grammatical Role, BERT Doesn’t Care about Word Order... Except When It       1230
+1173    [6] Jason Ingyu Choi, Surya Kallumadi, Bhaskar Mitra, Eugene Agichtein, and Faizan               Matters. In Proceedings of ACL.                                                  1231
+            Javed. 2020. Semantic Product Search for Matching Structured Product Catalogs           [19] Chandan K. Reddy, Lluís Màrquez, Fran Valero, Nikhil Rao, Hugo Zaragoza,
+1174                                                                                                     Sambaran Bandyopadhyay, Arnab Biswas, Anlu Xing, and Karthik Subbian. 2022.      1232
+            in E-Commerce. arXiv preprint arXiv:2008.08180 (2020).
+1175    [7] Gregory Goren, Oren Kurland, Moshe Tennenholtz, and Fiana Raiber. 2020.                      Shopping Queries Dataset: A Large-Scale ESCI Benchmark for Improving Product     1233
+            Ranking-Incentivized Quality Preserving Content Modification. In Proceedings                 Search. arXiv preprint arXiv:2206.06588 (2022).
+1176                                                                                                                                                                                      1234
+            of the 43rd International ACM SIGIR Conference on Research and Development in           [20] Nils Reimers and Iryna Gurevych. 2019. Sentence-BERT: Sentence Embeddings
+1177                                                                                                     using Siamese BERT-Networks. In Proceedings of EMNLP-IJCNLP. 3982–3992.          1235
+            Information Retrieval. 259–268. doi:10.1145/3397271.3401058
+1178    [8] Jack Hessel and Alexandra Schofield. 2021. How Effective Is BERT without                [21] Stephen E. Robertson and Hugo Zaragoza. 2009. The Probabilistic Relevance        1236
+            Word Ordering? Implications for Language Understanding and Data Privacy. In                  Framework: BM25 and Beyond. Foundations and Trends in Information Retrieval
+1179                                                                                                     3, 4 (2009), 333–389. doi:10.1561/1500000019                                     1237
+            Proceedings of ACL-IJCNLP.
+1180    [9] Thorsten Joachims, Adith Swaminathan, and Tobias Schnabel. 2017. Unbiased               [22] Tetsuya Sakai and Noriko Kando. 2008. On Information Retrieval Metrics De-       1238
+1181        Learning-to-Rank with Biased Feedback. In Proceedings of WSDM.                               signed for Evaluation with Incomplete Relevance Assessments. In Proceedings of   1239
+       [10] Kalervo Järvelin and Jaana Kekäläinen. 2002. Cumulated Gain-Based Evaluation                 CIKM.
+1182                                                                                                [23] Ashudeep Singh and Thorsten Joachims. 2018. Fairness of Exposure in Rankings.    1240
+            of IR Techniques. ACM Transactions on Information Systems 20, 4 (2002), 422–446.
+1183   [11] Vladimir Karpukhin, Barlas Oguz, Sewon Min, et al. 2020. Dense Passage Retrieval             In Proceedings of KDD.                                                           1241
+            for Open-Domain Question Answering. In Proceedings of EMNLP.                            [24] Shitao Xiao, Zheng Liu, Peitian Zhang, and Niklas Muennighoff. 2024. C-Pack:
+1184                                                                                                                                                                                      1242
+       [12] Sunghwan Kim, Wooseok Jeong, Serin Kim, Sangam Lee, and Dongha Lee. 2026.                    Packaged Resources To Advance General Chinese Embedding. arXiv preprint
+1185                                                                                                     arXiv:2309.07597 (2024).                                                         1243
+            SAGEO Arena: A Realistic Environment for Evaluating Search-Augmented Gen-
+1186        erative Engine Optimization. In Proceedings of the 32nd ACM SIGKDD Conference           [25] Jingfeng Yang, Aditya Gupta, Shyam Upadhyay, Luheng He, Rahul Goel, and          1244
+            on Knowledge Discovery and Data Mining. doi:10.1145/3770855.3818146                          Shachi Paul. 2022. TableFormer: Robust Transformer Modeling for Table-Text
+1187                                                                                                     Encoding. In Proceedings of ACL. 528–537. doi:10.18653/v1/2022.acl-long.40       1245
+       [13] Zehan Li, Xin Zhang, Yanzhao Zhang, Dingkun Long, Pengjun Xie, and Meishan
+1188        Zhang. 2023. Towards General Text Embeddings with Multi-stage Contrastive                                                                                                     1246
+1189                                                                                                                                                                                      1247
+1190                                                                                                                                                                                      1248
+1191                                                                                                                                                                                      1249
+1192                                                                                                                                                                                      1250
+1193                                                                                                                                                                                      1251
+1194                                                                                                                                                                                      1252
+1195                                                                                                                                                                                      1253
+1196                                                                                                                                                                                      1254
+1197                                                                                                                                                                                      1255
+1198                                                                                                                                                                                      1256
+1199                                                                                                                                                                                      1257
+1200                                                                                                                                                                                      1258
+1201                                                                                                                                                                                      1259
+1202                                                                                                                                                                                      1260
+1203                                                                                                                                                                                      1261
+1204                                                                                                                                                                                      1262
+1205                                                                                                                                                                                      1263
+1206                                                                                                                                                                                      1264
+1207                                                                                                                                                                                      1265
+1208                                                                                                                                                                                      1266
+1209                                                                                                                                                                                      1267
+1210                                                                                                                                                                                      1268
+1211                                                                                                                                                                                      1269
+1212                                                                                                                                                                                      1270
+1213                                                                                                                                                                                      1271
+1214                                                                                                                                                                                      1272
+1215                                                                                                                                                                                      1273
+1216                                                                                                                                                                                      1274
+1217                                                                                                                                                                                      1275
+1218                                                                                           11                                                                                         1276
+

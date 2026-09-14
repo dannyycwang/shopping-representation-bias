@@ -1,0 +1,6 @@
+{
+  "method": "rule_appearance",
+  "rule": "rule_appearance",
+  "selection_metric": "WANDS development macro Recall@100 then cNDCG then simplicity",
+  "heldout_used_for_selection": false
+}

@@ -1,0 +1,33 @@
+{
+  "model": {
+    "key": "gte_modernbert",
+    "name": "Alibaba-NLP/gte-modernbert-base",
+    "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+    "architecture": "ModernBERT long-context retrieval encoder",
+    "max_tokens": 8192,
+    "native_pooling": "CLS"
+  },
+  "profile": {
+    "key": "native",
+    "chunk_tokens": null,
+    "overlap": 0,
+    "pooling": "model_native"
+  },
+  "source_sha256": "c3473d8f44539a9d719e3e41fb3fc36feba475cf12b913a152a667391daa45e0",
+  "seed": 20260904,
+  "implementation": "phase2-encoder-v3-length-bucket-sdpa",
+  "attention_implementation": "sdpa",
+  "precision": "fp16_model_fp32_pooling",
+  "mean_wordpieces_with_special": 6.864583333333333,
+  "p95_wordpieces_with_special": 11.0,
+  "fraction_truncated": 0.0,
+  "fingerprint": "6a99ab4c82bc43d9c99a",
+  "shape": [
+    480,
+    768
+  ],
+  "seconds": 27.221065282821655,
+  "tokenizer_class": "PreTrainedTokenizerFast",
+  "model_class": "ModernBertModel",
+  "device": "cuda"
+}

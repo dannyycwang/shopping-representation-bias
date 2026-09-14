@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_mitigation\screen.py", line 246, in <module>
+    elif a.action=='run':run()
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_mitigation\screen.py", line 223, in run
+    name=f'Perm-FT-cons{lam}_s42';train(name,lam);evaluate(name)
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_mitigation\screen.py", line 143, in evaluate
+    ts=[build(x,condition,CFG['attribute_permutation_seeds']) for x in p];pv=em(ts,s);scores=qv@pv.T
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_mitigation\screen.py", line 139, in em
+    def em(ts,key):return np.asarray(enc.encode(ts,key,PROFILE,hashlib.sha256('\0'.join(ts).encode()).hexdigest()),dtype='f4')
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase2\src\encoding.py", line 225, in encode
+    result, length_meta = self._encode_native(texts, profile["pooling"])
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase2\src\encoding.py", line 113, in _encode_native
+    array[indices] = self._forward_native(block, pooling, len(block))
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_mitigation\screen.py", line 137, in bounded
+    def bounded(*a,**kw):guard(start);return original_forward(*a,**kw)
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_mitigation\screen.py", line 55, in guard
+    if spent()+(time.monotonic()-start if start else 0)>setup()['gpu_task_seconds_cap']:raise RuntimeError('Frozen compute cap reached; keep incomplete outputs.')
+RuntimeError: Frozen compute cap reached; keep incomplete outputs.

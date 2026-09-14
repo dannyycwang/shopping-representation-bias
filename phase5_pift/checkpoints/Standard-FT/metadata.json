@@ -1,0 +1,8 @@
+{
+  "weights_sha256": "1777a4424256d1a816f2b97bae794fbeef788272870c134c6135d3a255720d80",
+  "config_sha256": "80984a228513fac7b4faa1187523558e75d6f8abeac0a624277db13420d6e22f",
+  "augment": false,
+  "loss": "label-masked CachedMultipleNegativesRankingLoss",
+  "seed": 42,
+  "sentence_transformers_version": "5.1.0"
+}

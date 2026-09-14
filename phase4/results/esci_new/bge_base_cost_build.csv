@@ -1,0 +1,9 @@
+dataset,model,method,index_vector_bytes,vectors_per_product,encoding_seconds,evaluation_seconds
+esci_new,bge_base,bge_base_Original,36922368,1,0.0,0.25596580002456903
+esci_new,bge_base,bge_base_hybrid,47131812,1,0.0,0.1768934999126941
+esci_new,bge_base,bge_base_canonical,36922368,1,54.26963130000513,0.3682750000152737
+esci_new,bge_base,bge_base_canonical_raw,36922368,1,34.88064610003494,0.3137914000544697
+esci_new,bge_base,bge_base_set_mean,36922368,1,50.64176549995318,0.29644679999910295
+esci_new,bge_base,bge_base_rule_appearance,36922368,1,34.358462600037456,0.290415900060907
+esci_new,bge_base,bge_base_centroid_2,36922368,1,70.32049870002083,0.27932990004774183
+esci_new,bge_base,bge_base_max_2,73844736,2,70.32049870002083,0.26868239999748766

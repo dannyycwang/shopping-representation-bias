@@ -1,0 +1,3824 @@
+[
+  {
+    "query_id": 34,
+    "positive": "21430",
+    "negatives": [
+      "10283"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "9745",
+    "negatives": [
+      "15894"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "16885",
+    "negatives": [
+      "19781"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "4546",
+    "negatives": [
+      "19782"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "19464",
+    "negatives": [
+      "9746"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "36197",
+    "negatives": [
+      "10283"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "24326",
+    "negatives": [
+      "15894"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "29968",
+    "negatives": [
+      "19781"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "33486",
+    "negatives": [
+      "19782"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "29081",
+    "negatives": [
+      "9746"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "26198",
+    "negatives": [
+      "10283"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "769",
+    "negatives": [
+      "15894"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "28533",
+    "negatives": [
+      "19781"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "17049",
+    "negatives": [
+      "19782"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "39684",
+    "negatives": [
+      "9746"
+    ]
+  },
+  {
+    "query_id": 34,
+    "positive": "4446",
+    "negatives": [
+      "10283"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "39341",
+    "negatives": [
+      "25269"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "36735",
+    "negatives": [
+      "21117"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "30202",
+    "negatives": [
+      "25930"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "37132",
+    "negatives": [
+      "42209"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "15244",
+    "negatives": [
+      "3641"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "36747",
+    "negatives": [
+      "38908"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "13485",
+    "negatives": [
+      "30760"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "36717",
+    "negatives": [
+      "37871"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "39342",
+    "negatives": [
+      "30120"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "36750",
+    "negatives": [
+      "3237"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "19357",
+    "negatives": [
+      "36019"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "9273",
+    "negatives": [
+      "1382"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "39335",
+    "negatives": [
+      "26962"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "36759",
+    "negatives": [
+      "23603"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "15233",
+    "negatives": [
+      "24524"
+    ]
+  },
+  {
+    "query_id": 411,
+    "positive": "36742",
+    "negatives": [
+      "14781"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "16432",
+    "negatives": [
+      "3809"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "26625",
+    "negatives": [
+      "21196"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "25463",
+    "negatives": [
+      "10756"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "25467",
+    "negatives": [
+      "25870"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "19326",
+    "negatives": [
+      "21195"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "16415",
+    "negatives": [
+      "15857"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "16445",
+    "negatives": [
+      "35489"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "33968",
+    "negatives": [
+      "28689"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "23393",
+    "negatives": [
+      "23148"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "8556",
+    "negatives": [
+      "39050"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "39199",
+    "negatives": [
+      "29566"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "42113",
+    "negatives": [
+      "10807"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "17461",
+    "negatives": [
+      "8103"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "42830",
+    "negatives": [
+      "5184"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "23312",
+    "negatives": [
+      "3811"
+    ]
+  },
+  {
+    "query_id": 29,
+    "positive": "19302",
+    "negatives": [
+      "28046"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "29605",
+    "negatives": [
+      "21714"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "42916",
+    "negatives": [
+      "34591"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "490",
+    "negatives": [
+      "2341"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "31134",
+    "negatives": [
+      "1049"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "7460",
+    "negatives": [
+      "9029"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "14988",
+    "negatives": [
+      "26604"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "3203",
+    "negatives": [
+      "31905"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "23053",
+    "negatives": [
+      "32659"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "36349",
+    "negatives": [
+      "28488"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "34900",
+    "negatives": [
+      "22157"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "31130",
+    "negatives": [
+      "6604"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "7254",
+    "negatives": [
+      "8184"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "34907",
+    "negatives": [
+      "42457"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "37874",
+    "negatives": [
+      "21555"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "6826",
+    "negatives": [
+      "3734"
+    ]
+  },
+  {
+    "query_id": 414,
+    "positive": "3188",
+    "negatives": [
+      "39540"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "22780",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "17488",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "24536",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "21621",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "40538",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "26232",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "9320",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "29229",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "20085",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "24925",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "20529",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "23686",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "34262",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "42767",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "18624",
+    "negatives": [
+      "5601"
+    ]
+  },
+  {
+    "query_id": 58,
+    "positive": "15074",
+    "negatives": [
+      "36813"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "30243",
+    "negatives": [
+      "15907"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "27153",
+    "negatives": [
+      "2762"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "12904",
+    "negatives": [
+      "35662"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "29912",
+    "negatives": [
+      "38821"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "40726",
+    "negatives": [
+      "21277"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "33783",
+    "negatives": [
+      "13568"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "12770",
+    "negatives": [
+      "38816"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "12926",
+    "negatives": [
+      "38815"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "27276",
+    "negatives": [
+      "39638"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "27172",
+    "negatives": [
+      "1321"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "12924",
+    "negatives": [
+      "1047"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "12901",
+    "negatives": [
+      "30985"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "12771",
+    "negatives": [
+      "12451"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "27133",
+    "negatives": [
+      "36438"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "27102",
+    "negatives": [
+      "29200"
+    ]
+  },
+  {
+    "query_id": 33,
+    "positive": "12830",
+    "negatives": [
+      "23248"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "2880",
+    "negatives": [
+      "1372"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "15257",
+    "negatives": [
+      "37377"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "22533",
+    "negatives": [
+      "28917"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "16794",
+    "negatives": [
+      "4063"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "1512",
+    "negatives": [
+      "9835"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "1604",
+    "negatives": [
+      "24767"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "34538",
+    "negatives": [
+      "30534"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "23768",
+    "negatives": [
+      "30750"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "42343",
+    "negatives": [
+      "14060"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "36388",
+    "negatives": [
+      "15340"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "12218",
+    "negatives": [
+      "24768"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "40269",
+    "negatives": [
+      "14052"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "20717",
+    "negatives": [
+      "24765"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "24153",
+    "negatives": [
+      "14054"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "40081",
+    "negatives": [
+      "9836"
+    ]
+  },
+  {
+    "query_id": 162,
+    "positive": "14615",
+    "negatives": [
+      "9837"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "17396",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "11352",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "8814",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "10720",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "26042",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "23934",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "16949",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "38773",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "40490",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "26005",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "38776",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "28817",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "17419",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "21566",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "2789",
+    "negatives": [
+      "4834"
+    ]
+  },
+  {
+    "query_id": 80,
+    "positive": "13637",
+    "negatives": [
+      "9831"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "894",
+    "negatives": [
+      "33455"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "40765",
+    "negatives": [
+      "11906"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "803",
+    "negatives": [
+      "11908"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "18492",
+    "negatives": [
+      "12076"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "34462",
+    "negatives": [
+      "5581"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "36999",
+    "negatives": [
+      "801"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "10457",
+    "negatives": [
+      "11904"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "11100",
+    "negatives": [
+      "24618"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "12450",
+    "negatives": [
+      "13026"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "940",
+    "negatives": [
+      "12180"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "5656",
+    "negatives": [
+      "11030"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "224",
+    "negatives": [
+      "33455"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "24994",
+    "negatives": [
+      "11906"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "37792",
+    "negatives": [
+      "11908"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "40808",
+    "negatives": [
+      "12076"
+    ]
+  },
+  {
+    "query_id": 25,
+    "positive": "36671",
+    "negatives": [
+      "5581"
+    ]
+  },
+  {
+    "query_id": 336,
+    "positive": "1229",
+    "negatives": [
+      "11493"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "2034",
+    "negatives": [
+      "12043"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "2035",
+    "negatives": [
+      "12042"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "31138",
+    "negatives": [
+      "12028"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "30540",
+    "negatives": [
+      "12055"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "7000",
+    "negatives": [
+      "12043"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "34075",
+    "negatives": [
+      "12042"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "3426",
+    "negatives": [
+      "12028"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "7001",
+    "negatives": [
+      "12055"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "7136",
+    "negatives": [
+      "12043"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "26733",
+    "negatives": [
+      "12042"
+    ]
+  },
+  {
+    "query_id": 314,
+    "positive": "40855",
+    "negatives": [
+      "12028"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "7626",
+    "negatives": [
+      "19292"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "28453",
+    "negatives": [
+      "24836"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "14385",
+    "negatives": [
+      "23379"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "17260",
+    "negatives": [
+      "10651"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "32789",
+    "negatives": [
+      "10641"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "24716",
+    "negatives": [
+      "2663"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "2489",
+    "negatives": [
+      "10280"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "28502",
+    "negatives": [
+      "12777"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "37407",
+    "negatives": [
+      "24443"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "25477",
+    "negatives": [
+      "22516"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "28501",
+    "negatives": [
+      "24444"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "1354",
+    "negatives": [
+      "23383"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "34946",
+    "negatives": [
+      "23374"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "18462",
+    "negatives": [
+      "24761"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "224",
+    "negatives": [
+      "19289"
+    ]
+  },
+  {
+    "query_id": 12,
+    "positive": "12125",
+    "negatives": [
+      "12629"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "37266",
+    "negatives": [
+      "20479"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "37303",
+    "negatives": [
+      "31235"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "24407",
+    "negatives": [
+      "22683"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "37333",
+    "negatives": [
+      "40871"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "14527",
+    "negatives": [
+      "24287"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "6804",
+    "negatives": [
+      "40827"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "19531",
+    "negatives": [
+      "18734"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "13504",
+    "negatives": [
+      "4431"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "37510",
+    "negatives": [
+      "7144"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "4134",
+    "negatives": [
+      "35996"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "15108",
+    "negatives": [
+      "23949"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "6794",
+    "negatives": [
+      "29219"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "37342",
+    "negatives": [
+      "36687"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "13505",
+    "negatives": [
+      "32357"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "20893",
+    "negatives": [
+      "35522"
+    ]
+  },
+  {
+    "query_id": 43,
+    "positive": "13150",
+    "negatives": [
+      "31897"
+    ]
+  },
+  {
+    "query_id": 338,
+    "positive": "23673",
+    "negatives": [
+      "6059"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "35514",
+    "negatives": [
+      "6152"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "38783",
+    "negatives": [
+      "7296"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "38805",
+    "negatives": [
+      "18214"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "35496",
+    "negatives": [
+      "20509"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "4560",
+    "negatives": [
+      "15760"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "22009",
+    "negatives": [
+      "32346"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "15006",
+    "negatives": [
+      "20684"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "33199",
+    "negatives": [
+      "27776"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "27717",
+    "negatives": [
+      "10817"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "14378",
+    "negatives": [
+      "19725"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "36343",
+    "negatives": [
+      "19720"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "41394",
+    "negatives": [
+      "11722"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "10812",
+    "negatives": [
+      "21157"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "22349",
+    "negatives": [
+      "23148"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "1921",
+    "negatives": [
+      "9469"
+    ]
+  },
+  {
+    "query_id": 430,
+    "positive": "6849",
+    "negatives": [
+      "21485"
+    ]
+  },
+  {
+    "query_id": 32,
+    "positive": "16607",
+    "negatives": [
+      "20027"
+    ]
+  },
+  {
+    "query_id": 32,
+    "positive": "8577",
+    "negatives": [
+      "38070"
+    ]
+  },
+  {
+    "query_id": 32,
+    "positive": "2223",
+    "negatives": [
+      "26925"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "20335",
+    "negatives": [
+      "6636"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "38430",
+    "negatives": [
+      "39294"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "22357",
+    "negatives": [
+      "42545"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "2806",
+    "negatives": [
+      "10948"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "9004",
+    "negatives": [
+      "11086"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "25336",
+    "negatives": [
+      "12028"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "10075",
+    "negatives": [
+      "26411"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "2814",
+    "negatives": [
+      "3064"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "34531",
+    "negatives": [
+      "3063"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "27321",
+    "negatives": [
+      "12027"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "10078",
+    "negatives": [
+      "11087"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "8894",
+    "negatives": [
+      "6636"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "6688",
+    "negatives": [
+      "39294"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "33590",
+    "negatives": [
+      "42545"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "6489",
+    "negatives": [
+      "10948"
+    ]
+  },
+  {
+    "query_id": 256,
+    "positive": "10854",
+    "negatives": [
+      "11086"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "33168",
+    "negatives": [
+      "33648"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "30206",
+    "negatives": [
+      "14434"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "42752",
+    "negatives": [
+      "22338"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "21697",
+    "negatives": [
+      "42414"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "9889",
+    "negatives": [
+      "6667"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "21165",
+    "negatives": [
+      "42058"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "38313",
+    "negatives": [
+      "38387"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "7480",
+    "negatives": [
+      "11460"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "36449",
+    "negatives": [
+      "37848"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "37411",
+    "negatives": [
+      "5842"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "9546",
+    "negatives": [
+      "12284"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "36509",
+    "negatives": [
+      "37128"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "9153",
+    "negatives": [
+      "33940"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "10461",
+    "negatives": [
+      "17551"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "11111",
+    "negatives": [
+      "8856"
+    ]
+  },
+  {
+    "query_id": 361,
+    "positive": "32796",
+    "negatives": [
+      "34472"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "11940",
+    "negatives": [
+      "19935"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "33140",
+    "negatives": [
+      "2101"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "16517",
+    "negatives": [
+      "9869"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "11936",
+    "negatives": [
+      "12203"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "8827",
+    "negatives": [
+      "12200"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "11965",
+    "negatives": [
+      "19989"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "30636",
+    "negatives": [
+      "11906"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "31671",
+    "negatives": [
+      "19935"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "8390",
+    "negatives": [
+      "2101"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "37098",
+    "negatives": [
+      "9869"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "20672",
+    "negatives": [
+      "12203"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "17791",
+    "negatives": [
+      "12200"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "11972",
+    "negatives": [
+      "19989"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "24184",
+    "negatives": [
+      "11906"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "12134",
+    "negatives": [
+      "19935"
+    ]
+  },
+  {
+    "query_id": 449,
+    "positive": "6539",
+    "negatives": [
+      "2101"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "34644",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "32753",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "29341",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "1802",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "42650",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "21770",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "37106",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "22758",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "36358",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "42991",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "14593",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "7145",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "5717",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "21611",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "21884",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 258,
+    "positive": "14734",
+    "negatives": [
+      "9977"
+    ]
+  },
+  {
+    "query_id": 318,
+    "positive": "24038",
+    "negatives": [
+      "27273"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35620",
+    "negatives": [
+      "6305"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "32744",
+    "negatives": [
+      "21241"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "32170",
+    "negatives": [
+      "10313"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "32747",
+    "negatives": [
+      "7585"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35622",
+    "negatives": [
+      "39971"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35617",
+    "negatives": [
+      "27864"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35626",
+    "negatives": [
+      "11752"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "4065",
+    "negatives": [
+      "27845"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "31355",
+    "negatives": [
+      "9862"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35619",
+    "negatives": [
+      "11858"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "31353",
+    "negatives": [
+      "19372"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "32739",
+    "negatives": [
+      "25079"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35561",
+    "negatives": [
+      "11855"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35607",
+    "negatives": [
+      "25017"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "35556",
+    "negatives": [
+      "34507"
+    ]
+  },
+  {
+    "query_id": 287,
+    "positive": "32740",
+    "negatives": [
+      "40692"
+    ]
+  },
+  {
+    "query_id": 413,
+    "positive": "35298",
+    "negatives": [
+      "18391"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "30083",
+    "negatives": [
+      "9546"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "30358",
+    "negatives": [
+      "7500"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "30045",
+    "negatives": [
+      "11844"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "8778",
+    "negatives": [
+      "11851"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "21994",
+    "negatives": [
+      "7695"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "30557",
+    "negatives": [
+      "30048"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "21275",
+    "negatives": [
+      "1318"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "23011",
+    "negatives": [
+      "40088"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "889",
+    "negatives": [
+      "38011"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "15707",
+    "negatives": [
+      "23342"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "8990",
+    "negatives": [
+      "27701"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "22077",
+    "negatives": [
+      "9546"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "7820",
+    "negatives": [
+      "7500"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "8301",
+    "negatives": [
+      "11844"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "11511",
+    "negatives": [
+      "11851"
+    ]
+  },
+  {
+    "query_id": 8,
+    "positive": "30082",
+    "negatives": [
+      "7695"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "10869",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "10911",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "7805",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "7824",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "7795",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "20182",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "31224",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "10892",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "13691",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "10927",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "10266",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "20199",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "20138",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "7814",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "34436",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 103,
+    "positive": "10896",
+    "negatives": [
+      "14765"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "18543",
+    "negatives": [
+      "8097"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "20338",
+    "negatives": [
+      "34526"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "4575",
+    "negatives": [
+      "18071"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "20342",
+    "negatives": [
+      "8476"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "1218",
+    "negatives": [
+      "12744"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "11087",
+    "negatives": [
+      "40363"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "20339",
+    "negatives": [
+      "29246"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "20337",
+    "negatives": [
+      "8821"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "25219",
+    "negatives": [
+      "32278"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "15949",
+    "negatives": [
+      "17749"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "8062",
+    "negatives": [
+      "39121"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "5502",
+    "negatives": [
+      "21143"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "6055",
+    "negatives": [
+      "9194"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "1219",
+    "negatives": [
+      "18797"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "387",
+    "negatives": [
+      "42907"
+    ]
+  },
+  {
+    "query_id": 106,
+    "positive": "20340",
+    "negatives": [
+      "16195"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "14054",
+    "negatives": [
+      "12924"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "13187",
+    "negatives": [
+      "27163"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "14059",
+    "negatives": [
+      "27078"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "37383",
+    "negatives": [
+      "36253"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "37376",
+    "negatives": [
+      "33793"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "9598",
+    "negatives": [
+      "22927"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "28072",
+    "negatives": [
+      "21902"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "14062",
+    "negatives": [
+      "42687"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "24774",
+    "negatives": [
+      "20451"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "24773",
+    "negatives": [
+      "22484"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "28918",
+    "negatives": [
+      "12897"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "37382",
+    "negatives": [
+      "12917"
+    ]
+  },
+  {
+    "query_id": 293,
+    "positive": "39210",
+    "negatives": [
+      "12869"
+    ]
+  },
+  {
+    "query_id": 57,
+    "positive": "33659",
+    "negatives": [
+      "8978"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "38555",
+    "negatives": [
+      "42058"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "40824",
+    "negatives": [
+      "30479"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "25653",
+    "negatives": [
+      "8136"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "1809",
+    "negatives": [
+      "30368"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "15683",
+    "negatives": [
+      "42058"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "41802",
+    "negatives": [
+      "30479"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "26449",
+    "negatives": [
+      "8136"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "22509",
+    "negatives": [
+      "30368"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "37022",
+    "negatives": [
+      "42058"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "8334",
+    "negatives": [
+      "30479"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "23782",
+    "negatives": [
+      "8136"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "41750",
+    "negatives": [
+      "30368"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "41742",
+    "negatives": [
+      "42058"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "26451",
+    "negatives": [
+      "30479"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "8390",
+    "negatives": [
+      "8136"
+    ]
+  },
+  {
+    "query_id": 149,
+    "positive": "26189",
+    "negatives": [
+      "30368"
+    ]
+  },
+  {
+    "query_id": 134,
+    "positive": "28427",
+    "negatives": [
+      "34967"
+    ]
+  },
+  {
+    "query_id": 134,
+    "positive": "9941",
+    "negatives": [
+      "7146"
+    ]
+  },
+  {
+    "query_id": 134,
+    "positive": "38649",
+    "negatives": [
+      "36262"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "24120",
+    "negatives": [
+      "15175"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "14532",
+    "negatives": [
+      "23798"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "28998",
+    "negatives": [
+      "24469"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "15577",
+    "negatives": [
+      "15185"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "20336",
+    "negatives": [
+      "6024"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "16758",
+    "negatives": [
+      "1793"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "42367",
+    "negatives": [
+      "9518"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "5088",
+    "negatives": [
+      "24470"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "26350",
+    "negatives": [
+      "5333"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "28104",
+    "negatives": [
+      "24918"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "12250",
+    "negatives": [
+      "7610"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "24500",
+    "negatives": [
+      "21884"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "11640",
+    "negatives": [
+      "23546"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "24256",
+    "negatives": [
+      "33006"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "41329",
+    "negatives": [
+      "11207"
+    ]
+  },
+  {
+    "query_id": 24,
+    "positive": "26505",
+    "negatives": [
+      "16646"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "9716",
+    "negatives": [
+      "19808"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "31150",
+    "negatives": [
+      "35925"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "33353",
+    "negatives": [
+      "18872"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "38051",
+    "negatives": [
+      "18817"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "7977",
+    "negatives": [
+      "30035"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "11605",
+    "negatives": [
+      "10448"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "10532",
+    "negatives": [
+      "32448"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "39300",
+    "negatives": [
+      "6702"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "784",
+    "negatives": [
+      "40393"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "9723",
+    "negatives": [
+      "42136"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "42860",
+    "negatives": [
+      "30251"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "21541",
+    "negatives": [
+      "10690"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "6667",
+    "negatives": [
+      "17214"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "21540",
+    "negatives": [
+      "18796"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "10962",
+    "negatives": [
+      "11216"
+    ]
+  },
+  {
+    "query_id": 228,
+    "positive": "21538",
+    "negatives": [
+      "11215"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31111",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31107",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "26629",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "473",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31642",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31106",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "26217",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31103",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "25925",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31105",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "40408",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "23498",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31104",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "31108",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "41143",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 401,
+    "positive": "20522",
+    "negatives": [
+      "38875"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "7172",
+    "negatives": [
+      "37706"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "35099",
+    "negatives": [
+      "37064"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "37696",
+    "negatives": [
+      "421"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "11435",
+    "negatives": [
+      "25528"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "7171",
+    "negatives": [
+      "5774"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "23497",
+    "negatives": [
+      "21158"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "1495",
+    "negatives": [
+      "28566"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "22874",
+    "negatives": [
+      "15252"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "24356",
+    "negatives": [
+      "30366"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "15698",
+    "negatives": [
+      "6902"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "29286",
+    "negatives": [
+      "9992"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "36263",
+    "negatives": [
+      "13431"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "3274",
+    "negatives": [
+      "37066"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "38918",
+    "negatives": [
+      "21157"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "23919",
+    "negatives": [
+      "37063"
+    ]
+  },
+  {
+    "query_id": 133,
+    "positive": "25932",
+    "negatives": [
+      "37839"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "8785",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "14979",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "8405",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "4563",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "17177",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "14981",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "17173",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "1835",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "30603",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "1853",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "32346",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "9169",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "4815",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "36898",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "22753",
+    "negatives": [
+      "12308"
+    ]
+  },
+  {
+    "query_id": 262,
+    "positive": "3613",
+    "negatives": [
+      "32099"
+    ]
+  },
+  {
+    "query_id": 283,
+    "positive": "26180",
+    "negatives": [
+      "6164"
+    ]
+  },
+  {
+    "query_id": 15,
+    "positive": "17439",
+    "negatives": [
+      "1180"
+    ]
+  },
+  {
+    "query_id": 15,
+    "positive": "25698",
+    "negatives": [
+      "13465"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "7438",
+    "negatives": [
+      "2169"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "8393",
+    "negatives": [
+      "35612"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "7976",
+    "negatives": [
+      "35559"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "30634",
+    "negatives": [
+      "39228"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "33043",
+    "negatives": [
+      "32740"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "39434",
+    "negatives": [
+      "31355"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "15258",
+    "negatives": [
+      "35561"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "18298",
+    "negatives": [
+      "35624"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "18307",
+    "negatives": [
+      "35620"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "8241",
+    "negatives": [
+      "35628"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "22309",
+    "negatives": [
+      "28886"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "7434",
+    "negatives": [
+      "39206"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "7508",
+    "negatives": [
+      "14473"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "3236",
+    "negatives": [
+      "35625"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "16472",
+    "negatives": [
+      "32739"
+    ]
+  },
+  {
+    "query_id": 463,
+    "positive": "3174",
+    "negatives": [
+      "35556"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "4008",
+    "negatives": [
+      "25434"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "34214",
+    "negatives": [
+      "42923"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "38286",
+    "negatives": [
+      "25426"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "18519",
+    "negatives": [
+      "1449"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "30443",
+    "negatives": [
+      "40198"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "12523",
+    "negatives": [
+      "9869"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "23900",
+    "negatives": [
+      "16083"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "13934",
+    "negatives": [
+      "24970"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "38287",
+    "negatives": [
+      "25428"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "6872",
+    "negatives": [
+      "7621"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "32574",
+    "negatives": [
+      "30110"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "12522",
+    "negatives": [
+      "30109"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "38255",
+    "negatives": [
+      "5936"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "37565",
+    "negatives": [
+      "38296"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "11061",
+    "negatives": [
+      "34545"
+    ]
+  },
+  {
+    "query_id": 156,
+    "positive": "31730",
+    "negatives": [
+      "25424"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "690",
+    "negatives": [
+      "19397"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "42256",
+    "negatives": [
+      "29117"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "35990",
+    "negatives": [
+      "8430"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "29264",
+    "negatives": [
+      "8272"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "30859",
+    "negatives": [
+      "28947"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "27471",
+    "negatives": [
+      "37699"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "21952",
+    "negatives": [
+      "7099"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "9993",
+    "negatives": [
+      "28024"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "42257",
+    "negatives": [
+      "30622"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "30860",
+    "negatives": [
+      "21744"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "2192",
+    "negatives": [
+      "435"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "27469",
+    "negatives": [
+      "14440"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "11088",
+    "negatives": [
+      "19838"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "1451",
+    "negatives": [
+      "40858"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "30858",
+    "negatives": [
+      "41051"
+    ]
+  },
+  {
+    "query_id": 113,
+    "positive": "9992",
+    "negatives": [
+      "8291"
+    ]
+  },
+  {
+    "query_id": 487,
+    "positive": "9434",
+    "negatives": [
+      "40727"
+    ]
+  },
+  {
+    "query_id": 487,
+    "positive": "42003",
+    "negatives": [
+      "42679"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "18313",
+    "negatives": [
+      "28196"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "5275",
+    "negatives": [
+      "2600"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "17698",
+    "negatives": [
+      "8725"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "6930",
+    "negatives": [
+      "36058"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "41707",
+    "negatives": [
+      "36824"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "17706",
+    "negatives": [
+      "24720"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "20605",
+    "negatives": [
+      "18985"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "17752",
+    "negatives": [
+      "23845"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "25559",
+    "negatives": [
+      "8344"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "32223",
+    "negatives": [
+      "41919"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "2621",
+    "negatives": [
+      "5387"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "33511",
+    "negatives": [
+      "28627"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "13652",
+    "negatives": [
+      "16204"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "42880",
+    "negatives": [
+      "4591"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "13161",
+    "negatives": [
+      "2455"
+    ]
+  },
+  {
+    "query_id": 100,
+    "positive": "31921",
+    "negatives": [
+      "14840"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "21625",
+    "negatives": [
+      "41421"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "39514",
+    "negatives": [
+      "39032"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "33900",
+    "negatives": [
+      "28724"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "15890",
+    "negatives": [
+      "14831"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "19659",
+    "negatives": [
+      "15003"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "15073",
+    "negatives": [
+      "28336"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "32658",
+    "negatives": [
+      "3281"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "15071",
+    "negatives": [
+      "6466"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "9287",
+    "negatives": [
+      "27715"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "27299",
+    "negatives": [
+      "2629"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "13687",
+    "negatives": [
+      "29534"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "40230",
+    "negatives": [
+      "2930"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "17491",
+    "negatives": [
+      "32102"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "19660",
+    "negatives": [
+      "39051"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "37528",
+    "negatives": [
+      "42977"
+    ]
+  },
+  {
+    "query_id": 18,
+    "positive": "10259",
+    "negatives": [
+      "3655"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "24183",
+    "negatives": [
+      "36047"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "23166",
+    "negatives": [
+      "30783"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "23197",
+    "negatives": [
+      "17695"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "23201",
+    "negatives": [
+      "5799"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "31436",
+    "negatives": [
+      "40192"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "24245",
+    "negatives": [
+      "17733"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "23191",
+    "negatives": [
+      "4338"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "23190",
+    "negatives": [
+      "3088"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "23187",
+    "negatives": [
+      "7170"
+    ]
+  },
+  {
+    "query_id": 135,
+    "positive": "23188",
+    "negatives": [
+      "5951"
+    ]
+  }
+]

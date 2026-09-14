@@ -1,0 +1,11 @@
+{
+  "gpu_memory_MiB": 8188,
+  "logical_processors": 20,
+  "ram_bytes": 16890322944,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "driver": "580.97",
+  "scope": "local machine; no commercial latency claim",
+  "exact_retrieval_threads": 4,
+  "cpu": "13th Gen Intel(R) Core(TM) i7-13700H",
+  "physical_cores": 14
+}

@@ -1,0 +1,2 @@
+dataset,model,mode,encoded_unique_texts,embedding_seconds,retriever_max_tokens,fraction_unique_texts_truncated,mean_tokens,p95_tokens
+esci,minilm,primary,668,0.4914696216583252,256,0.4655688622754491,274.8862275449102,569.0

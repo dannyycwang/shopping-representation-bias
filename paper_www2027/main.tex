@@ -1,0 +1,56 @@
+\documentclass[sigconf,anonymous,review]{acmart}
+% The integrated appendix contains deferred floats; automatic end balancing
+% can discard their labels and create blank pages in this acmart version.
+\setkeys{acmart.cls}{balance=false}
+\settopmatter{printacmref=true,printccs=true,printfolios=true}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\acmConference[WWW '27]{The ACM Web Conference 2027}{May 10--14, 2027}{Dublin, Ireland}
+\acmDOI{}
+\acmISBN{}
+\acmYear{2027}
+\copyrightyear{2027}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{microtype}
+\usepackage{float}
+\emergencystretch=1em
+\newcommand{\vi}{\mathrm{VI}}
+\newcommand{\cndcg}{\mathrm{cNDCG}}
+
+\title{Same Product, Different Visibility: Representation Robustness in Neural E-Commerce Retrieval}
+
+\begin{document}
+\raggedbottom
+\begin{abstract}
+Neural retrieval increasingly mediates which Web content can be discovered, compared, or used by agentic interfaces. Semantically equivalent information should ideally receive comparable retrieval opportunities, yet structured records are routinely flattened into ordered text. We study this representation robustness problem in product search by holding facts and relevance fixed while permuting attributes. Across two benchmarks and multiple retrievers, 4.4--13.3\% of highest-relevance pairs cross Top-20 under catalog-wide permutations; target-only interventions confirm that the same product can change visibility with every competitor fixed. We then test whether two public, query-blind visibility-rewriting strategies withstand the same intervention. On frozen samples, rewriting raises rather than removes order sensitivity and reduces BGE target inclusion on ESCI by 4.9--12.7 percentage points. Strict field checks reveal extensive fact loss and output truncation, so these adapted local-model results do not reproduce or refute the original rewriting method. Canonical preprocessing eliminates incoming-order variation, but guarded pipelines yield no gain over canonical text and full-catalog recall shows a significant 1.8-point loss in one of four dataset--encoder cells. Generation replicates further show that stochastic variation can rival the measured order effect. Neural Web retrieval should therefore evaluate visibility optimization jointly for relevance, representation robustness, factuality, and candidate cost.
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+ <concept><concept_id>10002951.10003317.10003331</concept_id><concept_desc>Information systems~Information retrieval</concept_desc><concept_significance>500</concept_significance></concept>
+ <concept><concept_id>10002951.10003317.10003347.10003350</concept_id><concept_desc>Information systems~Recommender systems</concept_desc><concept_significance>300</concept_significance></concept>
+</ccs2012>
+\end{CCSXML}
+\ccsdesc[500]{Information systems~Information retrieval}
+\ccsdesc[300]{Information systems~Recommender systems}
+\keywords{Web retrieval, product search, robustness, representation invariance, visibility}
+
+\maketitle
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/problem}
+\input{sections/methodology}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\clearpage
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+\input{sections/appendix}
+
+\end{document}

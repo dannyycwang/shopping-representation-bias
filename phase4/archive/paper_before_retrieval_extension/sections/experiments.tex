@@ -1,0 +1,27 @@
+\section{Experimental Setup}
+
+\subsection{Datasets and Relevance}
+
+WANDS contains 42,994 products and 480 evaluated queries after cleaning. We map its Exact, Partial, and Irrelevant judgments to gains 3, 1, and 0. Our Amazon ESCI evaluation uses 500 US test queries selected before retrieval by a seeded SHA-256 order. The shared union catalog contains 10,076 products and 10,134 judgments; E, C, S, and I map to 1, 0.1, 0.01, and 0. The union creates a fixed catalog in which products compete across queries, but most query--product pairs are unjudged. We therefore use condensed effectiveness metrics and additionally evaluate each query's official judged candidate pool (median size 16) as a formulation check.
+
+Our primary visibility population contains the highest human-relevance label: Exact in WANDS and E in ESCI. This choice asks whether representation affects items that should clearly be retrievable. Lower relevance strata provide a contrast rather than a definition of harm. The labels express query--product relationship; they are not judgments of objective product quality.
+
+\subsection{Retrievers and Ranking Pipeline}
+
+The frozen general-purpose retrievers are MiniLM-L6-v2, BGE-base-en-v1.5, and GTE-ModernBERT-base. They span encoder families, mean versus CLS pooling, and native input budgets from 256 to 8,192 tokens. Marqo-Ecommerce-B supplies a domain-specific stress test. Embeddings are normalized and ranked by cosine similarity with deterministic tie handling. The two-stage experiment uses BGE-base for top-100 generation and \texttt{ms-marco-MiniLM-L-6-v2} as the cross-encoder. Model revisions, tokenizer settings, and hashes are recorded in the artifact.
+
+\subsection{Metrics, Inference, and Integrity}
+
+We emphasize VI@20 because a twenty-item result set is a plausible visibility boundary, and report VI@10 and VI@50 in the artifact. cNDCG@10 measures judged relevance after condensing unjudged items; highest-label Recall@20 retains complete-catalog positions. Primary uncertainty uses 10,000 query-level bootstrap samples. Method comparisons are paired by query, with prespecified permutation tests and Holm correction where multiple primary contrasts are tested. The confirmatory gate required a query-macro VI@20 confidence-interval lower bound above 1\% in multiple model--dataset cells.
+
+The equivalence family, queries, cutoffs, and analysis protocol were frozen before the confirmatory runs. An independent reconciliation recomputed primary metrics from lower-level ranks and matched stored values to a maximum absolute difference of $1.11\times10^{-16}$. It also found and corrected a join error in an earlier mitigation summary that omitted WANDS queries without Exact items; no primary sensitivity result changed. Query-type labels remain lexical heuristics and are excluded from the main claims.
+
+\subsection{Reading the Evaluation Populations}
+
+The experiments use three distinct evaluation populations. Primary sensitivity uses all highest-relevance pairs in each complete evaluation catalog. The reranking comparison conditions on membership in every first-stage candidate pool, because ranks after reranking are otherwise undefined for omitted products. Mitigation effectiveness uses the held-out WANDS queries and the ESCI evaluation queries. Values from these populations should not be directly subtracted to infer a treatment effect: even the Original baseline can differ when its query population changes.
+
+Judgment coverage also determines what each metric can support. In the ESCI union, a product judged for one query can compete for another query without having a label there. For visibility analysis it remains a real competitor in the constructed catalog; removing it would change the rank boundary. For condensed effectiveness, unjudged products are removed before computing discounts. This avoids treating unknown relevance as a known negative, but also means that cNDCG does not fully measure the burden of unjudged products occupying early complete-catalog positions. We therefore report visibility and effectiveness as complementary views.
+
+The official ESCI pool provides a useful diagnostic of this construction. Every candidate there has an official query-specific judgment, but the pool is much smaller than the union catalog. It tests whether instability survives under that alternative ranking population. It does not create a second independent benchmark or an independent effectiveness replication. In particular, when condensing the union removes all additional unjudged competitors, the judged order and resulting NDCG coincide with those of the official pool.
+
+The target-only extension was performed after the confirmatory study. Its role is to strengthen causal isolation using the frozen primary representations, not to redefine the original gate or select new winning configurations. The aggregate estimates cover the same three general retrievers and both datasets rather than only the motivating example. We retain negative and small effects, and label illustrations separately from population summaries. No new model training, relevance annotation, or encoder inference was needed for this extension.

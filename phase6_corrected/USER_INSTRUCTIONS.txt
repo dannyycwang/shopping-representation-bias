@@ -1,0 +1,1171 @@
+PHASE VI — CORRECTED STRUCTURAL PERMUTATION-INVARIANT RETRIEVAL
+
+IMPORTANT
+=========
+
+This is a CLEAN RERUN of Phase VI under a corrected experimental design.
+
+It is NOT Phase VI-B, Phase VI-C, or a new architecture-search phase.
+
+The previous Phase VI / VI-B results must remain archived as pilot evidence,
+but they are NOT the primary evidence for the corrected Phase VI.
+
+The corrected design explicitly removes two known confounds:
+
+1. learned invariant models must NOT relearn a new 768-dimensional retrieval
+   space from a randomly initialized output projection;
+
+2. learned residual vectors must NOT be able to grow arbitrarily and dominate
+   an existing pretrained representation.
+
+Instead, every learned architecture may ONLY determine how existing frozen BGE
+field value vectors are combined.
+
+The final product representation must remain directly inside the pretrained
+BGE embedding geometry.
+
+==================================================
+0. DIRECTORY AND HISTORY
+==================================================
+
+Do NOT overwrite:
+
+    phase6/
+    phase6b/
+
+Create:
+
+    phase6_corrected/
+
+The final report should still be titled:
+
+    PHASE VI — Corrected Structural Permutation-Invariant Product Representations
+
+The previous Phase VI/VI-B experiments should be mentioned only as motivation
+for the corrected protocol.
+
+Do not use their held-out results to tune the corrected models.
+
+==================================================
+1. SCIENTIFIC QUESTION
+==================================================
+
+The central question is:
+
+    Can we obtain exact permutation invariance across structured product
+    attributes while preserving retrieval-relevant information?
+
+We specifically test whether richer cross-field reasoning improves over simple
+invariant aggregation WITHOUT requiring the model to reconstruct the BGE
+retrieval space.
+
+The desired representation must satisfy:
+
+    permutation invariance across attribute fields
+
+while preserving:
+
+    sequence semantics inside each field
+    +
+    pretrained BGE field representations
+    +
+    useful interactions among fields.
+
+==================================================
+2. PRIMARY SETTING
+==================================================
+
+Dataset:
+    WANDS
+
+Retriever:
+    pinned frozen BGE configuration already used in the paper
+
+Use exactly the existing:
+
+- train/dev/test query split;
+- 42,994-product catalog;
+- raw attribute inventory;
+- seven attribute-order schedules;
+- query embeddings;
+- field embeddings;
+- non-attribute embeddings;
+- stable ranking/tie handling;
+- relevance labels;
+- Recall / VI / Robust / Never definitions.
+
+The raw representation track must remain separate from the labeled PI-FT track.
+
+Do NOT use ESCI yet.
+
+Do NOT use another encoder yet.
+
+==================================================
+3. HISTORICAL BASELINES
+==================================================
+
+Reuse the frozen existing results:
+
+Original:
+    Recall@100 = 63.620
+    VI@20 = 11.932
+
+Canonical:
+    Recall@100 = 63.237
+    VI@20 = 0.000
+
+Set-Mean:
+    Recall@100 = 61.820
+    VI@20 = 0.000
+
+Set-Attention:
+    Recall@100 = 62.173
+    VI@20 = 0.000
+
+Important:
+
+Set-Attention is the immediate architectural baseline.
+
+It already preserves BGE value vectors:
+
+    score_i = f(h_i)
+    w_i = softmax(score_i)
+    v_attr = normalize(sum_i w_i * h_i)
+
+where h_i is the frozen BGE embedding of the original field atom.
+
+The corrected Phase VI architectures must preserve this same VALUE SPACE.
+
+==================================================
+4. CORE DESIGN PRINCIPLE — VALUE-PRESERVING INVARIANCE
+==================================================
+
+For every product attribute atom:
+
+    a_i
+
+obtain the existing frozen BGE embedding:
+
+    h_i = E_BGE(a_i)
+
+h_i must NEVER be replaced by a randomly learned 768-dimensional product
+vector.
+
+The learned architecture may compute:
+
+    contextual information
+    attention weights
+    field gates
+    field importance
+
+but the final attribute vector must always be:
+
+    v_attr =
+        normalize(
+            sum_i w_i * h_i
+        )
+
+where:
+
+    w_i >= 0
+    sum_i w_i = 1
+
+Use softmax weights.
+
+This guarantees that the learned representation remains a weighted combination
+of pretrained BGE field values.
+
+No unconstrained learned 768-dimensional output projection is allowed.
+
+No learned residual may be added directly to the final product embedding.
+
+==================================================
+5. FINAL PRODUCT VECTOR
+==================================================
+
+Use exactly the same combination rule as the existing Set-Mean and
+Set-Attention baselines:
+
+    v_product =
+        normalize(
+            0.5 * v_non_attribute
+            +
+            0.5 * v_attr
+        )
+
+Do NOT learn the 0.5 / 0.5 mixing coefficient in the primary experiment.
+
+This ensures architectural comparisons isolate ATTRIBUTE AGGREGATION.
+
+Final dimensionality:
+
+    768
+
+Vectors/product:
+
+    1
+
+Candidate budget:
+    unchanged.
+
+==================================================
+6. METHOD C0 — EXISTING SET-ATTENTION
+==================================================
+
+Retain the existing Set-Attention as architectural baseline.
+
+It computes each field's score independently:
+
+    s_i = MLP(h_i)
+
+    w_i = softmax_i(s_i)
+
+    v_attr = normalize(sum_i w_i h_i)
+
+There is no explicit field-to-field context before scoring.
+
+This baseline answers:
+
+    Is independent learned field weighting sufficient?
+
+==================================================
+7. METHOD C1 — CONTEXTUAL DEEPSETS ATTENTION
+==================================================
+
+Goal:
+
+Allow each field's importance to depend on the OTHER fields while preserving
+the original BGE value vectors.
+
+For each field:
+
+    u_i = phi(h_i)
+
+Compute global permutation-invariant context:
+
+    c = mean_i u_i
+
+Then compute contextual score:
+
+    s_i = psi(
+        concat(
+            h_i,
+            c
+        )
+    )
+
+Weights:
+
+    w_i = softmax_i(s_i)
+
+Final attribute vector:
+
+    v_attr = normalize(sum_i w_i h_i)
+
+IMPORTANT:
+
+The learned network outputs ONLY scalar weights.
+
+It does NOT output replacement value vectors.
+
+This method is permutation invariant because:
+
+    c
+
+is symmetric and each field uses the same scoring function.
+
+Recommended hidden dimension:
+
+    128
+
+Do not architecture-search this aggressively.
+
+==================================================
+8. METHOD C2 — VALUE-PRESERVING SET TRANSFORMER
+==================================================
+
+Goal:
+
+Model explicit field-to-field interactions before assigning weights.
+
+Input:
+
+    h_1, ..., h_m
+
+Project ONLY for attention computation:
+
+    x_i = P(h_i)
+
+Use:
+
+    one multi-head self-attention block
+    4 heads
+    hidden dimension 128
+    residual connection
+    layer normalization
+    feed-forward block
+
+NO positional encoding.
+
+This produces contextual states:
+
+    c_i
+
+Then compute:
+
+    s_i = linear(c_i)
+
+Weights:
+
+    w_i = softmax_i(s_i)
+
+CRITICAL:
+
+Final values are NOT c_i.
+
+Final values remain the ORIGINAL frozen BGE vectors:
+
+    v_attr =
+        normalize(
+            sum_i w_i * h_i
+        )
+
+This is the key correction from the previous Phase VI.
+
+The Set Transformer learns WHERE TO ATTEND,
+not a new retrieval embedding space.
+
+==================================================
+9. METHOD C3 — SET TRANSFORMER + FIELD IDENTITY
+==================================================
+
+Same architecture as C2.
+
+Field identity may affect the ATTENTION/SCORING network only.
+
+For field key f_i:
+
+    e_i = learned_field_embedding(f_i)
+
+Attention input:
+
+    x_i =
+        P(h_i)
+        +
+        e_i
+
+The value vectors used in the final product representation remain:
+
+    h_i
+
+NOT:
+
+    x_i
+    or
+    c_i.
+
+Unknown field keys:
+
+    explicit UNK field ID.
+
+Duplicate keys:
+    preserve all occurrences.
+
+Do not collapse duplicate atoms or duplicate field names.
+
+This comparison isolates:
+
+    contextual interaction alone
+    versus
+    contextual interaction + schema identity.
+
+==================================================
+10. METHOD C4 — CIRCULAR FIELD-IDENTITY ATTENTION
+==================================================
+
+This is exploratory but retained because it was part of the original Phase VI
+question.
+
+Do NOT serialize fields into a ring.
+
+Do NOT use ABCDA / BCDAB sequence tricks.
+
+Instead, represent FIELD IDENTITY geometrically.
+
+For each field f:
+
+    theta_f
+
+and:
+
+    e_f =
+        [cos(theta_f), sin(theta_f)]
+
+Combine only inside the scoring network:
+
+    x_i =
+        concat(
+            P(h_i),
+            cos(theta_fi),
+            sin(theta_fi)
+        )
+
+Use a small shared network and symmetric global context:
+
+    u_i = phi(x_i)
+    c = mean_i u_i
+    s_i = psi(concat(u_i, c))
+
+Then:
+
+    w_i = softmax_i(s_i)
+
+Final attribute vector:
+
+    v_attr =
+        normalize(
+            sum_i w_i * h_i
+        )
+
+Again:
+
+Circular geometry determines WEIGHTS only.
+
+It must never replace the BGE field values.
+
+Angles may be trainable but must be tied to FIELD IDENTITY,
+not serialization position.
+
+==================================================
+11. WHY THIS DESIGN IS DIFFERENT
+==================================================
+
+Every new architecture is now a contextual weighting mechanism over frozen
+pretrained values.
+
+The comparison is therefore:
+
+Set-Mean:
+    equal weights
+
+Set-Attention:
+    independent learned weights
+
+DeepSets:
+    globally contextual learned weights
+
+Set Transformer:
+    pairwise contextual learned weights
+
+Set Transformer + Field-ID:
+    pairwise contextual weights with schema information
+
+Circular:
+    contextual weights with geometric schema identity
+
+All methods:
+
+    use the SAME frozen BGE field values
+    produce ONE product vector
+    have ZERO positional input
+    are permutation invariant.
+
+This removes the prior random-output-space confound.
+
+==================================================
+12. TRAINING-DATA AUDIT
+==================================================
+
+Before training, audit all WANDS TRAINING qrels.
+
+Report:
+
+- total training queries;
+- queries with Exact;
+- queries with Partial;
+- queries with Irrelevant;
+- Exact-positive counts/query;
+- Partial counts/query;
+- Irrelevant counts/query;
+- queries with Exact + Partial;
+- queries with Exact + Irrelevant;
+- queries with Exact + any lower-relevance judgment.
+
+Do NOT use test or development judgments in training.
+
+Do NOT treat unjudged products as negatives.
+
+==================================================
+13. GRADED SUPERVISION
+==================================================
+
+Use WANDS relevance ordering:
+
+    Exact > Partial > Irrelevant
+
+Primary comparisons:
+
+    Exact > Irrelevant
+    Exact > Partial
+
+Include:
+
+    Partial > Irrelevant
+
+as a secondary graded relation if both labels are available.
+
+Pair weights:
+
+    Exact > Irrelevant:
+        1.0
+
+    Exact > Partial:
+        0.5
+
+    Partial > Irrelevant:
+        0.5
+
+Do not invent pseudo-labels.
+
+==================================================
+14. QUERY-BALANCED SAMPLING
+==================================================
+
+This is mandatory.
+
+Do NOT sample training pairs uniformly from the entire judgment table.
+
+Otherwise queries with hundreds of judgments dominate training.
+
+Training procedure:
+
+1. uniformly sample training query IDs;
+2. sample one valid higher-relevance product;
+3. sample one valid lower-relevance product;
+4. rotate through available comparisons across epochs.
+
+Each query should receive approximately equal optimizer exposure.
+
+Report per-query presentation counts.
+
+The max/min ratio should remain small and documented.
+
+==================================================
+15. OPTIONAL MULTIPLE NEGATIVES
+==================================================
+
+Do NOT make multi-negative training the primary experiment.
+
+Start with one judged lower-relevance product per sampled comparison.
+
+Only after the basic corrected architectures work may a secondary
+multi-negative diagnostic use up to 4 explicitly judged lower-relevance
+products.
+
+No unjudged in-batch negatives.
+
+No false-negative assumptions.
+
+==================================================
+16. TRAINING OBJECTIVE
+==================================================
+
+For query q, higher-relevance product p+, lower-relevance product p-:
+
+    s+ = q · v(p+)
+    s- = q · v(p-)
+
+Loss:
+
+    L =
+        weight *
+        softplus(
+            (s- - s+) / tau
+        )
+
+Use:
+
+    tau = 0.05
+
+The query embedding remains frozen.
+
+BGE remains frozen.
+
+Only field-weighting architecture parameters train.
+
+==================================================
+17. TRAINING CONFIGURATION
+==================================================
+
+Because the new models only learn weights rather than a new retrieval space,
+use conservative training.
+
+Seeds:
+
+    42
+    43
+    44
+
+Run ALL THREE seeds for the main architectures from the beginning.
+
+The models are small enough that seed uncertainty is more valuable than another
+architecture search.
+
+Optimizer:
+
+    AdamW
+
+Learning rates:
+
+    1e-4
+    3e-5
+
+Weight decay:
+
+    0.01
+
+Gradient clipping:
+
+    1.0
+
+Batch:
+    query-balanced batches
+
+Maximum epochs:
+
+    20
+
+Patience:
+
+    4
+
+No broad hyperparameter search.
+
+==================================================
+18. DEVELOPMENT CHECKPOINT SELECTION
+==================================================
+
+Development selection must NOT depend on held-out test results.
+
+Primary:
+
+    Exact Recall@100
+
+Secondary tie-break:
+
+    graded cNDCG@10
+
+Report both.
+
+Reason:
+
+Exact Recall@100 is the paper's main access metric,
+while graded cNDCG uses more of the available dev judgments and helps diagnose
+overfitting on the small Exact-only support.
+
+Select:
+
+    best mean development Recall@100 across seeds/configuration
+
+with graded cNDCG@10 as tie-break.
+
+Do not select a different configuration separately for each seed.
+
+==================================================
+19. EPOCH-0 BASELINES
+==================================================
+
+For each architecture define a sensible neutral initialization.
+
+Preferred:
+
+initial field scores approximately equal.
+
+Therefore epoch 0 should behave approximately like Set-Mean,
+NOT like a random retrieval representation.
+
+For Set-Attention-compatible variants:
+
+initialize final scoring layer near zero so:
+
+    softmax(scores) ~= uniform.
+
+Report epoch-0 retrieval metrics.
+
+Epoch 0 is a sanity check only.
+
+A learned success must come from epoch >= 1.
+
+==================================================
+20. PERMUTATION INVARIANCE
+==================================================
+
+Before test evaluation, verify every selected model on:
+
+    >=128 products
+    all seven existing schedules
+
+and selected checkpoints on the entire catalog.
+
+Recompute actual model forward passes.
+
+Do not merely reuse one cached vector.
+
+Report:
+
+    max L2
+    mean L2
+    max cosine difference
+
+Target:
+
+    max L2 <= 1e-5
+
+Also regenerate rankings across all seven schedules.
+
+Expected:
+
+    VI@20 ~= 0
+    VI@100 ~= 0
+
+Tiny floating-point rank changes must be disclosed.
+
+==================================================
+21. PRIMARY METHODS TO RUN
+==================================================
+
+Run:
+
+B0:
+    Set-Mean
+
+B1:
+    existing Set-Attention
+
+C1:
+    Contextual DeepSets Attention
+
+C2:
+    Value-Preserving Set Transformer
+
+C3:
+    Value-Preserving Set Transformer + Field-ID
+
+C4:
+    Circular Field-Identity Attention
+
+Do NOT add new architectures after seeing results.
+
+==================================================
+22. PRIMARY TEST METRICS
+==================================================
+
+After architecture/config selection is frozen on development:
+
+evaluate historical held-out WANDS.
+
+Report:
+
+    Recall@20
+    Recall@100
+    cNDCG@10
+    VI@20
+    VI@100
+    Robust@100
+    Never@100
+    worst-schedule Recall@100
+
+Compare against:
+
+    Original
+    Canonical
+    Set-Mean
+    Set-Attention
+
+==================================================
+23. FULLY-FITTING SUBSET
+==================================================
+
+Reuse EXACTLY the existing common fully-fitting raw support.
+
+Do not redefine it.
+
+Report the same metrics.
+
+Do not interpret this as a causal truncation decomposition.
+
+==================================================
+24. TARGET-ONLY ANALYSIS
+==================================================
+
+Run target-only only for:
+
+- the best corrected learned invariant method;
+- Set-Attention;
+- Canonical;
+- Original.
+
+Use the existing target-only protocol.
+
+Competitors should use each method's own C0 catalog, exactly as in the current
+paper.
+
+Report:
+
+    Inclusion@20
+    Inclusion@100
+    VI@20
+    VI@100
+    Robust@100
+    Never@100
+
+Clearly state that this is not a common mixed-index Recall.
+
+==================================================
+25. STATISTICAL ANALYSIS
+==================================================
+
+Use:
+
+    10,000 paired query-bootstrap draws
+
+for query uncertainty.
+
+Because learned models use 3 seeds, also report:
+
+    mean
+    standard deviation
+
+across seeds.
+
+Primary comparisons:
+
+best learned method vs Set-Attention
+best learned method vs Canonical
+best learned method vs Original
+
+Also report:
+
+Set Transformer vs Set-Attention
+Set Transformer + Field-ID vs Set Transformer
+Circular vs non-circular field-aware method
+
+Do not claim equivalence from CI overlap.
+
+==================================================
+26. SUCCESS CRITERIA
+==================================================
+
+STRONG SOLUTION
+---------------
+
+A learned method achieves:
+
+    VI@20 ~= 0
+
+and:
+
+    Recall@100 >= Original 63.620%
+
+with consistent development and seed evidence.
+
+
+COMPETITIVE SOLUTION
+--------------------
+
+A learned method achieves:
+
+    VI@20 ~= 0
+
+and:
+
+    Recall@100 >= Canonical 63.237%
+
+or provides a statistically/consistently favorable robust-access trade-off.
+
+
+PROMISING
+---------
+
+A learned method clearly exceeds Set-Attention:
+
+    Recall@100 > 62.173%
+
+with consistent development direction across seeds.
+
+FAILURE
+-------
+
+All learned models remain at/below Set-Attention,
+or gains appear only on historical test but not development/seeds.
+
+==================================================
+27. IMPORTANT INTERPRETATION
+==================================================
+
+The corrected experiment tests:
+
+    whether contextual field weighting improves retrieval
+
+NOT:
+
+    whether a neural network can relearn BGE embeddings.
+
+If C2 fails, the conclusion is:
+
+    contextual self-attention over fields did not improve the
+    value-preserving invariant baseline in this setting.
+
+Do NOT conclude:
+
+    Set Transformers are generally ineffective.
+
+==================================================
+28. REQUIRED TABLE — MAIN
+==================================================
+
+Table VI-1 — Corrected invariant representations
+
+Columns:
+
+Method
+Params
+Recall@20
+Recall@100
+cNDCG@10
+Delta R100 vs Set-Attention
+Delta R100 vs Canonical
+VI@20
+VI@100
+Robust@100
+Never@100
+Seed SD
+
+Rows:
+
+Original
+Canonical
+Set-Mean
+Set-Attention
+Contextual DeepSets
+Set Transformer
+Set Transformer + Field-ID
+Circular Attention
+
+==================================================
+29. REQUIRED ARCHITECTURAL TABLE
+==================================================
+
+Table VI-2 — What each method learns
+
+Columns:
+
+Method
+Cross-field interaction
+Field identity
+Learned replacement values
+Uses original BGE values
+Permutation invariant
+
+Expected:
+
+Set-Mean:
+    no / no / no / yes / yes
+
+Set-Attention:
+    no / implicit content / no / yes / yes
+
+DeepSets:
+    global context / optional / no / yes / yes
+
+Set Transformer:
+    pairwise / no / no / yes / yes
+
+Set Transformer + ID:
+    pairwise / yes / no / yes / yes
+
+Circular:
+    global / circular-ID / no / yes / yes
+
+==================================================
+30. REQUIRED TRAINING FIGURE
+==================================================
+
+Plot development Recall@100 by epoch for each learned architecture.
+
+Show:
+
+    mean across seeds
+
+with variation.
+
+Horizontal references:
+
+    Set-Mean
+    Set-Attention
+    Canonical
+
+This should reveal whether learning genuinely improves beyond the invariant
+baselines.
+
+==================================================
+31. FIELD-WEIGHT ANALYSIS
+==================================================
+
+For each learned method report:
+
+- entropy of field weights;
+- maximum field weight;
+- number of effectively used fields;
+- distribution across products.
+
+For Field-ID / Circular methods:
+
+report average learned weight by field key for frequent keys.
+
+Do not interpret these weights causally.
+
+This analysis helps determine whether models collapse onto one or two fields.
+
+==================================================
+32. FAILURE ANALYSIS
+==================================================
+
+If a method loses Recall:
+
+check:
+
+- field-weight entropy collapse;
+- excessive concentration on one field;
+- development/test direction;
+- query categories with largest losses/gains;
+- whether long products behave differently;
+- whether fully-fitting products differ from truncated products.
+
+Do not introduce post-hoc architecture modifications.
+
+==================================================
+33. COMPUTE AND DEPLOYMENT
+==================================================
+
+Report:
+
+Offline:
+    training time
+    catalog vector generation time
+    parameters
+
+Online:
+
+Every method must store:
+
+    one 768-d vector/product.
+
+Query encoding unchanged.
+
+Retrieval scoring unchanged.
+
+No multi-vector index.
+
+No added candidate slots.
+
+==================================================
+34. REQUIRED OUTPUTS
+==================================================
+
+Create:
+
+    phase6_corrected/PHASE6_REPORT.md
+    phase6_corrected/PHASE6_RESULTS.csv
+    phase6_corrected/PHASE6_BOOTSTRAP.csv
+    phase6_corrected/PHASE6_SEEDS.csv
+    phase6_corrected/PHASE6_TRAINING_CURVES.csv
+    phase6_corrected/PHASE6_INVARIANCE.json
+    phase6_corrected/PHASE6_FIELD_WEIGHTS.csv
+    phase6_corrected/PHASE6_DATA_AUDIT.json
+    phase6_corrected/PHASE6_CONFIG.json
+    phase6_corrected/FINAL_DELIVERY_MANIFEST.json
+
+Preserve all seeds and negative runs.
+
+==================================================
+35. FINAL REPORT QUESTIONS
+==================================================
+
+Explicitly answer:
+
+1. Does global contextual weighting improve over independent Set-Attention?
+
+2. Does true field-to-field self-attention improve over independent weighting?
+
+3. Does field identity help once BGE value vectors are preserved?
+
+4. Does circular field identity provide any advantage over ordinary field ID?
+
+5. Can any learned invariant method outperform Set-Attention?
+
+6. Can any method match Canonical?
+
+7. Can any method match Original while retaining zero VI?
+
+8. Are results consistent across seeds?
+
+9. Do learned models collapse their weight distribution?
+
+10. Does the fully-fitting subset behave differently?
+
+11. Should any learned invariant architecture enter the WWW main paper?
+
+==================================================
+36. FINAL DECISION
+==================================================
+
+Choose exactly one:
+
+A. KEEP DIAGNOSIS PAPER
+
+Corrected value-preserving learned aggregation still does not outperform simple
+invariant controls.
+
+B. ADD LEARNED INVARIANT BASELINE
+
+A corrected learned model improves Set-Attention but does not match Canonical.
+
+C. COMPETITIVE STRUCTURAL SOLUTION
+
+A learned invariant model matches/exceeds Canonical with consistent seed and
+development evidence.
+
+D. STRONG SOLUTION — CONFIRM EXTERNALLY
+
+A learned invariant model matches/exceeds Original while maintaining near-zero
+VI.
+
+If D:
+
+do not immediately rewrite the paper.
+
+First recommend confirmation on:
+
+    ESCI
+    +
+    at least one additional retriever.
+
+==================================================
+37. STOPPING RULE
+==================================================
+
+This corrected Phase VI is the definitive WANDS/BGE structural-invariance
+experiment.
+
+Do not create more architecture variants after seeing held-out results.
+
+If the value-preserving contextual models fail:
+
+    STOP learned mitigation work.
+
+The paper remains diagnosis-focused.
+
+If one succeeds:
+
+    confirm externally before promoting it as the paper's solution.

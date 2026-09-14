@@ -1,0 +1,5 @@
+__pycache__/
+data/raw/*.csv
+data/representations/
+data/embeddings/
+results/raw/*.npz

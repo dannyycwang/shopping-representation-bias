@@ -1,0 +1,31 @@
+\begin{table*}[tp]
+\caption{BGE seven-order coverage. Counts are highest-label query--product pairs; macro percentages average within eligible queries. All historical queries are used here, unlike strategy selection/held-out tables. Sometimes means crossing; never is persistent omission.}\label{tab:allcoverage}
+\centering\small
+\begin{tabular}{lrrrrrrr}\toprule
+Data & $K$ & Always & Some & Never & Always \% & Some \% & Never \%\\\midrule
+WANDS & 20 & 2158 & 2396 & 20916 & 30.62 & 12.05 & 57.33\\
+WANDS & 50 & 4997 & 3414 & 17059 & 45.28 & 12.77 & 41.95\\
+WANDS & 100 & 8384 & 3856 & 13230 & 57.58 & 12.52 & 29.90\\
+WANDS & 200 & 12683 & 3604 & 9183 & 69.99 & 9.74 & 20.27\\
+WANDS & 500 & 17661 & 3246 & 4563 & 82.39 & 7.49 & 10.12\\
+WANDS & 1000 & 21562 & 1992 & 1916 & 90.15 & 4.41 & 5.43\\
+ESCI & 20 & 2907 & 196 & 1331 & 71.89 & 3.66 & 24.44\\
+ESCI & 50 & 3751 & 94 & 589 & 85.54 & 2.20 & 12.26\\
+ESCI & 100 & 3995 & 44 & 395 & 90.73 & 0.72 & 8.55\\
+ESCI & 200 & 4125 & 38 & 271 & 93.00 & 0.81 & 6.19\\
+ESCI & 500 & 4245 & 20 & 169 & 95.33 & 0.53 & 4.14\\
+ESCI & 1000 & 4306 & 16 & 112 & 96.92 & 0.37 & 2.71\\
+\bottomrule\end{tabular}
+\par\medskip
+\caption{Fixed canonical-input reranking. Each K cell gives Recall@20 / returned-list condensed NDCG@10; the latter is not full-catalog cNDCG. Multiply measured amortized ms/pair by K to estimate candidate inference time, excluding loading and retrieval. This is batch throughput, not per-request latency. Paired intervals are in the artifact.}\label{tab:rerankdetail}
+\centering\small
+\begin{tabular}{llllllr}\toprule
+Data & Method & K=50 & K=100 & K=200 & K=500 & ms/pair\\\midrule
+WANDS & Original & 0.376 / 0.786 & 0.368 / 0.784 & 0.377 / 0.777 & 0.379 / 0.776 & 0.857\\
+WANDS & Hybrid & 0.383 / 0.787 & 0.383 / 0.785 & 0.382 / 0.779 & 0.385 / 0.777 & 0.857\\
+WANDS & Appearance-first & 0.372 / 0.784 & 0.374 / 0.785 & 0.380 / 0.783 & 0.384 / 0.779 & 0.857\\
+ESCI & Original & 0.769 / 0.692 & 0.770 / 0.692 & 0.770 / 0.693 & 0.773 / 0.694 & 0.694\\
+ESCI & Hybrid & 0.771 / 0.694 & 0.773 / 0.695 & 0.775 / 0.694 & 0.774 / 0.694 & 0.694\\
+ESCI & Appearance-first & 0.770 / 0.693 & 0.770 / 0.693 & 0.770 / 0.693 & 0.772 / 0.694 & 0.694\\
+\bottomrule\end{tabular}
+\end{table*}

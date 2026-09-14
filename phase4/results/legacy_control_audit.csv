@@ -1,0 +1,3 @@
+dataset,queries,legacy_C0_top100_set_differences,legacy_C0_top100_order_differences,BM25_reverse_max_score_difference,no_highest_queries,no_positive_gain_queries,judgments,catalog_unique_products
+wands,480,0,6,0.0,101,1,231859,42994
+esci,500,32,411,0.0,1,0,10134,10076

@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-09-10T23:08:27.673492+00:00",
+  "selection_sha256": "e0789df7e53bca1b53b13c18261fe3d626d1eec57f114be5a5b582da5b7908a9",
+  "checkpoint_sha256": "7a8e5786450a0e2e9632e54fa3041178af8747f16d7be43c15841fe95c5a4870",
+  "products_sha256": "3e67f5649a94a5bf7800b4734b0431f284276725a266e579a40d7834ac5131ae",
+  "final_generation_seconds": 0.75,
+  "target_only": true,
+  "test_queries": 308,
+  "exact_pairs": 21299,
+  "primary_metrics": "one cached invariant C0 product vector; independently regenerated ranks audited separately"
+}

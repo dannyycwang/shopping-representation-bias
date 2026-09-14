@@ -1,0 +1,16 @@
+{
+  "name": "S2_s42_lr0.0003",
+  "method": "S2",
+  "seed": 42,
+  "lr": 0.0003,
+  "best_epoch": 1,
+  "epochs_run": 4,
+  "dev_recall100": 0.47594373884998875,
+  "parameters": 793088,
+  "config_sha256": "b0adea11b1277a6abf34505120329a27a38e59f7d0448335982bbf0394c0f864",
+  "weights_sha256": "c300768e8d8aeb9543ba4ef6e3782c2b307535b25606b3709a4e8bbd766dd960",
+  "test_used": false,
+  "training_seconds": 1.7490000000689179,
+  "completed_utc": "2026-09-10T23:04:30.699284+00:00",
+  "wall_seconds": 6.905999999959022
+}

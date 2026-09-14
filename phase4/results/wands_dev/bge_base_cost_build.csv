@@ -1,0 +1,9 @@
+dataset,model,method,index_vector_bytes,vectors_per_product,encoding_seconds,evaluation_seconds
+wands,bge_base,bge_base_rule_type,132077568,1,231.94603369990364,0.8896720999618992
+wands,bge_base,bge_base_rule_appearance,132077568,1,217.46533909998834,0.5377780999988317
+wands,bge_base,bge_base_rule_use,132077568,1,219.5553883999819,0.4929322999669239
+wands,bge_base,bge_base_rule_dimension,132077568,1,235.78431569994427,0.5956193000311032
+wands,bge_base,bge_base_centroid_2,132077568,1,457.4573080999544,0.5382835000054911
+wands,bge_base,bge_base_max_2,264155136,2,457.4573080999544,0.5800861000316218
+wands,bge_base,bge_base_centroid_4,132077568,1,913.7764902000781,0.49301069998182356
+wands,bge_base,bge_base_max_4,528310272,4,913.7764902000781,0.4675994999706745

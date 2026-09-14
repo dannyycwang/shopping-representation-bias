@@ -1,0 +1,10 @@
+BUILD complete_evidence.py
+BUILD build_presentation.py
+Generated presentation tables, figures and evidence packet
+BUILD write_manuscript.py
+Wrote framework and audited setup sections.
+BUILD write_results.py
+Rendered results; inspect empirical interpretation before release.
+BUILD write_appendix.py
+Generated supplementary tables and integrated appendix
+Compiled draft; visual/page/citation verification remains.

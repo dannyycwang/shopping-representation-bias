@@ -1,0 +1,13 @@
+\begin{table}[t]
+\caption{Unchanged BGE-selected strategy transferred across evaluation cells. Entries are Recall@100 differences from Original in percentage points, with paired query-bootstrap 95\% CIs. Historical evaluations were previously inspected; new ESCI queries use a separate common catalog.}
+\label{tab:transfer}
+\centering\small
+\begin{tabular}{llrl}\toprule
+Data & Encoder & $\Delta$ & 95\% CI\\\midrule
+WANDS & BGE & -0.05 & [-1.21,+1.12]\\
+ESCI old & BGE & +0.08 & [-0.04,+0.19]\\
+WANDS & MiniLM & -1.75 & [-3.00,-0.63]\\
+ESCI old & MiniLM & +0.24 & [-0.10,+0.73]\\
+ESCI new & BGE & -0.32 & [-1.37,+0.58]\\
+\bottomrule\end{tabular}
+\end{table}

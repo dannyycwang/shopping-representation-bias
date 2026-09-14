@@ -1,0 +1,109 @@
+{
+  "revision": "focused-target-only-control",
+  "date": "2026-09-06",
+  "unchanged_legacy_result_files": [
+    "phase3/results/phase3_figures/figure1_same_product.pdf",
+    "phase3/results/phase3_figures/figure2_cross_model_vi.pdf",
+    "phase3/results/phase3_figures/figure2_source.csv",
+    "phase3/results/phase3_figures/figure3_reranker_pipeline.pdf",
+    "phase3/results/phase3_figures/figure3_source.csv",
+    "phase3/results/phase3_figures/figure4_pareto.pdf",
+    "phase3/results/phase3_figures/figure4_source.csv",
+    "phase3/results/phase3_tables/ecommerce_retriever_sensitivity.csv",
+    "phase3/results/phase3_tables/esci_invariant_methods.csv",
+    "phase3/results/phase3_tables/esci_marqo_ecommerce_b_sensitivity.csv",
+    "phase3/results/phase3_tables/esci_official_candidate_pool.csv",
+    "phase3/results/phase3_tables/esci_reranker_pipeline.csv",
+    "phase3/results/phase3_tables/invariant_methods.csv",
+    "phase3/results/phase3_tables/robustness_relevance_pareto.csv",
+    "phase3/results/phase3_tables/wands_invariant_methods.csv",
+    "phase3/results/phase3_tables/wands_marqo_ecommerce_b_sensitivity.csv",
+    "phase3/results/phase3_tables/wands_reranker_pipeline.csv"
+  ],
+  "files": [
+    {
+      "path": "FINAL_REVISION_NOTES.md",
+      "sha256": "fe9e744619f1bc06d1f64406deafe04bf30a0a7f1f6a3fdf7d5d85b2553689ad"
+    },
+    {
+      "path": "paper_www2027\\appendix.tex",
+      "sha256": "1a737bd77f6114e4e590ab7a7b3392665a969c4933ac5500d9d019beb5999ed4"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure1_target_only.pdf",
+      "sha256": "2f86c0f6ff12d52803b907b7fc4c8bc0317379fcc555ed41d1919511c9574fbb"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure1_target_only.png",
+      "sha256": "7a74cf810a14e91b7ee1f6e5a7d65aca0c3219debe48f5e8595c894044430d58"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure1_target_only_source.csv",
+      "sha256": "a35aaf3c4d8b194558a05d672e7671bdc11e758ee2cbeff7ad35aad36ac23a59"
+    },
+    {
+      "path": "paper_www2027\\main.pdf",
+      "sha256": "c04600f86c2ef289e10b64e2dcbe29a72ad78c951a9668f62dc98ac4517952b1"
+    },
+    {
+      "path": "paper_www2027\\main.tex",
+      "sha256": "0ee002e9e4c74d4218982924130bffa185ff06c1957cd3f59426187f3c882403"
+    },
+    {
+      "path": "paper_www2027\\references.bib",
+      "sha256": "bedd2f4e04aa95d7155d0ff3a44a241cf53a8a50d2c60a9265fa361983e88cb6"
+    },
+    {
+      "path": "paper_www2027\\RESULT_PROVENANCE.md",
+      "sha256": "f4cb584df4f21bd84294c963ed274f13bd9a228eb6fb7fcfcc11e0905a091f45"
+    },
+    {
+      "path": "paper_www2027\\sections\\conclusion.tex",
+      "sha256": "7cfc88f6625cbe4d3f1c459e4dfcaa29121ef636a94981b69a45b6cde16d218e"
+    },
+    {
+      "path": "paper_www2027\\sections\\discussion.tex",
+      "sha256": "39ae35031ed94779943cb6c56aa14c08b9fb9288c43298de9175da3621847de1"
+    },
+    {
+      "path": "paper_www2027\\sections\\experiments.tex",
+      "sha256": "190519727bf3b681a584c913e383487cea5df9823944556685700f3c992aa781"
+    },
+    {
+      "path": "paper_www2027\\sections\\introduction.tex",
+      "sha256": "1d9feb0f3e55145c977e229d2dff62e2c6805b800ab15b10c1818ba3cd4dca17"
+    },
+    {
+      "path": "paper_www2027\\sections\\methodology.tex",
+      "sha256": "fe800f8c54303bf9719290db401a8308b46d84a562fde9c7ae200d8a4c272bc7"
+    },
+    {
+      "path": "paper_www2027\\sections\\problem.tex",
+      "sha256": "75575cfae1da23e205801ec12a20da2b3700222b3377e3a6abb09e5740dd1331"
+    },
+    {
+      "path": "paper_www2027\\sections\\related_work.tex",
+      "sha256": "daea041357fdcf30a26b59e0e90e44827030a7fe7972a890e1ffa901e581871b"
+    },
+    {
+      "path": "paper_www2027\\sections\\results.tex",
+      "sha256": "16aa34f1a1256aab074fc08dd6576c400259ba823e7b8bdb4ba35de9b23198f6"
+    },
+    {
+      "path": "phase3\\results\\target_only_permutations\\file_hashes.json",
+      "sha256": "0dc35cfd1808af8519f2544b8941e2c6c4ffe85b8c14f1221c5c858c2819e268"
+    },
+    {
+      "path": "phase3\\scripts\\analyze_target_only_permutations.py",
+      "sha256": "2a745f53ff646fea6cc068a3221c177658948b5c99fb7271254ac42558acd482"
+    },
+    {
+      "path": "phase3\\scripts\\make_target_only_figure.py",
+      "sha256": "1b2babf22456d07732ba71288876b2f9d911733873a96d9c1c7792ccc4eac0d1"
+    },
+    {
+      "path": "phase3\\tests\\test_target_only_permutations.py",
+      "sha256": "7216652fa42da7f7aa18d123ab847c86fe8c429939b167189c912dd232afd173"
+    }
+  ]
+}

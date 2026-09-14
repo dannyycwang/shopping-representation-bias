@@ -1,0 +1,14 @@
+\begin{table*}[t]
+\caption{Primary target-only BGE results at $K=100$. Mean inclusion, VI, and robust coverage (included under every tested order) are query-macro percentages; Never is pair-micro. This is a family of single-target counterfactual indexes, not one catalog Recall.}
+\label{tab:optimization}\centering\small
+\begin{tabular}{lrrrrrrrr}\toprule
+&\multicolumn{4}{c}{WANDS}&\multicolumn{4}{c}{ESCI}\\
+Method&Mean&VI&Robust&Never&Mean&VI&Robust&Never\\\midrule
+Raw & 32.1 & 14.8 & 23.3 & 68.1 & 87.5 & 3.0 & 86.4 & 11.7\\
+Canonical & 31.6 & 0.0 & 31.6 & 75.2 & 87.2 & 0.0 & 87.2 & 13.5\\
+Heuristic & 32.3 & 31.6 & 19.0 & 48.7 & 74.7 & 17.2 & 66.0 & 18.0\\
+C$\to$Heuristic & 36.8 & 0.0 & 36.8 & 70.0 & 73.9 & 0.0 & 73.9 & 27.0\\
+Optimized & 31.6 & 23.2 & 20.2 & 69.4 & 82.6 & 10.0 & 77.1 & 13.5\\
+C$\to$Optimized & 31.5 & 0.0 & 31.5 & 78.4 & 82.1 & 0.0 & 82.1 & 18.0\\
+\bottomrule\end{tabular}
+\end{table*}

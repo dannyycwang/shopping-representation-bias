@@ -1,0 +1,45 @@
+\section{Interventions and Retrieval Strategies}
+\subsection{Equivalent Inputs and Intervention Permissions}
+The primary family contains C0 source order, C1 reversal, and five deterministic attribute permutations. WANDS atoms are raw key--value fields; ESCI uses available brand, color, and complete bullet-point strings as atoms, retaining the internal bullet text. Audits preserve complete raw atoms and multiplicity, non-attribute fields, source values, and character/lexical token multisets. Catalog-wide intervention changes all products. Target-only intervention changes one relevant target at a time with every competitor in C0:
+\begin{equation}
+\rho_s^{\rm target}(q,p)=1+\sum_{u\ne p}\mathbb{1}[z(q,C0(u))>z(q,s(p))],
+\end{equation}
+with stable catalog-order tie handling. The old target entry is removed before insertion. These interventions answer different questions; their crossing rates do not form an additive causal decomposition.
+
+Merchant-side strategies must produce one complete product text without knowledge of a future query. We freeze four field-priority rules emphasizing type/style, appearance, use/compatibility, or dimensions/material. They move entire raw atoms, retain the original free text and section order, and use a canonical lexical fallback. Matching uses field keys where available and literal prefixes for unkeyed ESCI atoms. One global rule is chosen on development Recall@100; cNDCG and a fixed simplicity order break ties. No product-specific or category-specific supervised policy is fitted.
+
+We distinguish pure raw-atom sorting from the historical canonical template M2, which also adds field framing and changes section placement. Both are retained as baselines. This avoids attributing the template's effect entirely to sorting. The selected priority rule is evaluated both catalog-wide and target-only; the latter is a diagnostic of a single record's effect, not a deployment policy that knows test relevance labels.
+
+\subsection{Optimization under Input-Order Intervention}
+Let $G$ be a frozen, query-blind product rewriter and let $C$ sort complete raw attribute atoms lexically while leaving every non-attribute field unchanged. For each source order $s$, we evaluate
+\begin{equation}
+E(x_s(p)),\quad E(C(x_s(p))),\quad E(G(x_s(p))),\quad E(G(C(x_s(p)))).
+\end{equation}
+The intervention precedes optimization. We do not shuffle sentences produced by $G$, because a free-text sentence permutation is not guaranteed to preserve meaning. $C$ differs from historical M2: it adds no labels, framing, or section movement. Since $C(x_s(p))$ is identical for all seven orders, canonical-first generation can be cached once. Its resulting zero order-VI is a structural property of canonicalization and caching, not evidence that $G$ itself is invariant.
+
+We study two public E-GEO prompts fixed before test generation: its hand-crafted authoritative heuristic ($G_1$) and its released meta-optimized technical prompt ($G_2$). Both explicitly request fact preservation and receive the complete product text but no query, label, score, competitor, or rank. The prompts originally ran with GPT-4.1 against fixed LLM-reranker candidates. We instead use one pinned local instruction model, so these are adapted E-GEO baselines rather than reproduced E-GEO results.
+
+Each highest-label target is replaced independently in the C0 catalog. We remove its old C0 score before inserting the counterfactual score; no favorable target versions coexist. Averaging these binary outcomes gives a \emph{target-intervention inclusion rate}, not Recall from one deployable catalog. We report query-macro and pair-micro forms, seven-order mean inclusion, VI, always/sometimes/never inclusion, and finite-family worst-observed coverage. The minimum of seven global schedule averages and the per-product worst-observed inclusion are distinct estimands.
+
+\subsection{Generated-Fact and Randomness Controls}
+Raw permutations satisfy exact atom and token-multiset equality. Free-text rewrites do not. A prespecified rule checker compares each output with the full source inventory: numbers and units, colors, alphanumeric model strings, negated and compatibility attributes, title coverage, and structured values. Duplicate keys with conflicting values remain in the inventory. We report operational outputs with their failure rate, then a common-valid subset when support exists. A guarded pipeline replaces every failed, empty, or truncated output with raw canonical text; it never selects an output by rank. This automated check is conservative and incomplete, and is neither human review nor semantic ground truth.
+
+Primary generation is greedy with content-addressed caching. On eight hash-selected products, a separate $7$ orders $\times 3$ stochastic-replicate design estimates generation variation. We compute order VI within each replicate and same-input variation across replicates separately; pooling all 21 outputs would incorrectly attribute sampling noise to order.
+
+\subsection{Platform-Side Aggregation and Fusion}
+For full-record multi-view methods, generate nested sets of $m=2,4,7$ views by shuffling a canonical raw-atom list using fixed product-ID-dependent seeds. Each complete record is encoded and normalized independently. Centroid retrieval uses
+\begin{equation}
+v_m(p)=\operatorname{norm}\left(\frac1m\sum_{j=1}^{m}E_p(r_j(p))\right),
+\end{equation}
+whereas multi-vector retrieval scores $p$ by $\max_j\langle E_q(q),E_p(r_j(p))\rangle$. Reduction is by product before selecting $K$ unique products. Equal $m$ is used for every product; actual distinct text and encoded-view counts are recorded. The canonical-anchored generator is independent of incoming attribute order. This does not make finite averaging an exhaustive orbit average or establish robustness to other semantic transformations.
+
+The existing set-mean method instead encodes individual attributes. With normalized non-attribute vector $t(p)$, it computes
+\begin{equation}
+\begin{aligned}
+a(p)&=\operatorname{norm}\left(\frac1{|A(p)|}\sum_{a\in A(p)}E_p(a)\right),\\
+v(p)&=\operatorname{norm}(.5t(p)+.5a(p)).
+\end{aligned}
+\end{equation}
+The attribute mean is normalized before interpolation, matching the implementation; the earlier draft omitted this intermediate step. Empty attribute sets contribute zero. This proof of concept removes order dependence but may lose useful cross-attribute interactions. It is evaluated for recall and effectiveness, not declared successful because VI is zero.
+
+BM25 uses the full lowercase alphanumeric token multiset without positional features or truncation. Hybrid retrieval adds full-list reciprocal-rank scores with constant 60~\cite{cormack2009rrf}. These are platform controls. Multi-vector and centroid methods increase offline encoding; only the former retains multiple index vectors. None is represented as a merchant-editable text strategy.

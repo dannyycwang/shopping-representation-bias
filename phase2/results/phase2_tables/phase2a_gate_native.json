@@ -1,0 +1,18 @@
+{
+  "profile": "native",
+  "dataset_gates": [
+    {
+      "dataset": "esci",
+      "models_passing": 3,
+      "required": 2,
+      "pass": true
+    },
+    {
+      "dataset": "wands",
+      "models_passing": 3,
+      "required": 2,
+      "pass": true
+    }
+  ],
+  "phase2a_pass": true
+}

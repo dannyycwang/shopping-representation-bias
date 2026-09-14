@@ -1,0 +1,65 @@
+\section{Additional Experimental Detail}
+
+\subsection{Representation audit}
+Each primary representation preserves the title and all raw attribute key-value atoms. C0 uses source order, C1 reverses attributes, and C2s1--C2s5 use independent deterministic per-product permutations. The audit checks atom multiplicity, character and token multisets, numeric substrings, and source JSON values. These tests isolate ordering within the supported equivalence definition; they do not assert that all strings are equally fluent.
+
+\subsection{Additional mitigation variants}
+\label{app:mitigations}
+Using the same development protocol, late mean, late maximum, and late top-3 aggregation all satisfy the numerical invariance tolerance. On held-out WANDS their cNDCG@10 values are 0.8058, 0.8093, and 0.8106; each paired confidence interval establishes a loss relative to 0.8247 Original. On ESCI they achieve 0.7026, 0.7041, and 0.7026, with all intervals including zero. These variants are omitted from the main-paper frontier plot for legibility; their paired intervals appear in the main-paper effectiveness-interval figure.
+
+\subsection{Official ESCI pools}
+Official judged pools contain a median of 16 products. MiniLM, BGE, and GTE obtain NDCG@10 of 0.6853, 0.7124, and 0.7168, and micro VI@10 of 7.60\%, 6.65\%, and 11.55\%. At top 20, micro VI is 3.00\%, 2.86\%, and 5.89\%. Query-macro VI@20 is 1.30\%, 1.30\%, and 2.88\%.
+
+\subsection{Scope of the query taxonomy}
+Exploratory query classes were assigned by deterministic lexical rules. Because they lack blinded human annotation and agreement measurement, we do not use them to support the main causal claim. Query-level outputs retain the identifiers required for a later annotation study.
+
+\subsection{Result provenance}
+All values in the paper map to machine-readable source files in \texttt{RESULT\_PROVENANCE.md}. The audit and output tests can be run with:
+\begin{verbatim}
+phase2/.venv/Scripts/python.exe -m pytest
+  phase3/tests -q
+\end{verbatim}
+
+
+\section{Detailed Catalog-Wide Sensitivity}
+\begin{table}[H]
+\caption{Sensitivity among highest-relevance pairs. Micro and macro VI@20 are percentages; macro values include query-bootstrap 95\% CIs. RR is median rank range.}
+\label{tab:sensitivity}
+\centering
+\small
+\begin{tabular}{llrrl}
+\toprule
+Data & Retriever & RR & Micro & Macro VI@20 \\
+\midrule
+\multirow{4}{*}{WANDS}
+ & MiniLM & 207 & 13.26 & 19.17 [17.09,21.27] \\
+ & BGE-base & 81 & 9.41 & 12.05 [10.58,13.67] \\
+ & GTE & 107 & 11.33 & 14.43 [12.94,15.98] \\
+ & E-commerce & 149 & 6.07 & 8.46 [6.99,10.08] \\
+\midrule
+\multirow{4}{*}{ESCI}
+ & MiniLM & 2 & 4.67 & 4.04 [3.19,4.99] \\
+ & BGE-base & 2 & 4.42 & 3.66 [2.84,4.57] \\
+ & GTE & 3 & 8.25 & 6.91 [5.78,8.13] \\
+ & E-commerce & 10 & 7.22 & 6.18 [5.17,7.30] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Target-Only Primary Permutations}
+Each target is independently inserted against the same C0 competitors. This analysis was added after the confirmatory study and is not a new preregistered test. C0 scores and target ranks exactly reproduce the frozen outputs. Positive stored rank deltas denote a worse rank. All variant ranks and signed deltas, along with query-level VI, are released.
+\begin{table}[H]
+\caption{Target-only VI@20 (percent), with query-bootstrap 95\% CIs. All competitors remain in C0.}
+\label{tab:targetonly}
+\centering\small
+\begin{tabular}{llrr}
+\toprule Data & Retriever & Micro & Macro (95\% CI) \\
+\midrule
+WANDS & MiniLM & 12.72 & 18.96 [16.81,21.13] \\
+WANDS & BGE-base & 8.84 & 11.36 [9.88,12.96] \\
+WANDS & GTE & 11.39 & 14.60 [13.05,16.20] \\
+ESCI & MiniLM & 3.11 & 2.91 [2.14,3.78] \\
+ESCI & BGE-base & 3.16 & 2.42 [1.77,3.16] \\
+ESCI & GTE & 6.68 & 5.88 [4.83,7.03] \\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,48 @@
+wands canonical reranking 0 135212
+wands canonical reranking 16384 135212
+wands canonical reranking 32768 135212
+wands canonical reranking 49152 135212
+wands canonical reranking 65536 135212
+wands canonical reranking 81920 135212
+wands canonical reranking 98304 135212
+wands canonical reranking 114688 135212
+wands canonical reranking 131072 135212
+C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase4\scripts\run_canonical_reranking.py:26: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  added=pd.DataFrame(pairs,columns=['query_id','product_index']);added['score']=vals;scores=pd.concat([scores,added],ignore_index=True);scores.to_parquet(cache,index=False)
+esci canonical reranking 0 139248
+esci canonical reranking 16384 139248
+esci canonical reranking 32768 139248
+esci canonical reranking 49152 139248
+esci canonical reranking 65536 139248
+esci canonical reranking 81920 139248
+esci canonical reranking 98304 139248
+esci canonical reranking 114688 139248
+esci canonical reranking 131072 139248
+C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase4\scripts\run_canonical_reranking.py:26: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  added=pd.DataFrame(pairs,columns=['query_id','product_index']);added['score']=vals;scores=pd.concat([scores,added],ignore_index=True);scores.to_parquet(cache,index=False)
+wands canonical reranking 0 201671
+wands canonical reranking 16384 201671
+wands canonical reranking 32768 201671
+wands canonical reranking 49152 201671
+wands canonical reranking 65536 201671
+wands canonical reranking 81920 201671
+wands canonical reranking 98304 201671
+wands canonical reranking 114688 201671
+wands canonical reranking 131072 201671
+wands canonical reranking 147456 201671
+wands canonical reranking 163840 201671
+wands canonical reranking 180224 201671
+wands canonical reranking 196608 201671
+esci canonical reranking 0 211356
+esci canonical reranking 16384 211356
+esci canonical reranking 32768 211356
+esci canonical reranking 49152 211356
+esci canonical reranking 65536 211356
+esci canonical reranking 81920 211356
+esci canonical reranking 98304 211356
+esci canonical reranking 114688 211356
+esci canonical reranking 131072 211356
+esci canonical reranking 147456 211356
+esci canonical reranking 163840 211356
+esci canonical reranking 180224 211356
+esci canonical reranking 196608 211356

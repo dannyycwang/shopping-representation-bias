@@ -1,0 +1,32 @@
+{
+  "model": {
+    "key": "bge_base",
+    "name": "BAAI/bge-base-en-v1.5",
+    "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "architecture": "BERT-base retrieval encoder",
+    "max_tokens": 512,
+    "native_pooling": "CLS"
+  },
+  "profile": {
+    "key": "native",
+    "chunk_tokens": null,
+    "overlap": 0,
+    "pooling": "model_native"
+  },
+  "source_sha256": "2032144e026d865f20b06cd0c2d8b9d22207fe920e9c514b71265314588631ce",
+  "seed": 20260904,
+  "implementation": "phase2-encoder-v1",
+  "precision": "fp16_model_fp32_pooling",
+  "mean_wordpieces_with_special": 281.71645494243745,
+  "p95_wordpieces_with_special": 798.0,
+  "fraction_truncated": 0.18668122270742357,
+  "fingerprint": "ae2e6044ab1267c5f79d",
+  "shape": [
+    10076,
+    768
+  ],
+  "seconds": 53.663227558135986,
+  "tokenizer_class": "BertTokenizerFast",
+  "model_class": "BertModel",
+  "device": "cuda"
+}

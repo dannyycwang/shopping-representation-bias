@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "primary_cells": 6,
+  "primary_cells_passing": 6,
+  "mitigation_rows": 12,
+  "files": {
+    "PAPER_DRAFT.md": "0052403fdddc6e63076595e66317ea323cf2f28244b0afeb44a0354d38363e33",
+    "PAPER_DRAFT_SUBMISSION.md": "0052403fdddc6e63076595e66317ea323cf2f28244b0afeb44a0354d38363e33",
+    "PHASE2_REPORT.md": "30013edcb16adf461afef742989a944c2a1df6147902e6510ad3476b739ce31b",
+    "FIGURE_GUIDE.md": "2edade85377102538275f1c62f92b96600136be3f44babbb176125f0a998d78f",
+    "SUBMISSION_READINESS.md": "98736286c26323064b08b440596f4ec47002e875254e6f459baa238a5cfa4004",
+    "results/publication_figures/figure_1_sensitivity.png": "80f25d296005cce3d6bb76ca1dda24f2e503ee991a843c6d790132ccd0ae231e",
+    "results/publication_figures/figure_1_sensitivity.pdf": "b8dff4daaab0f9d7c9d5dc357b7dac6bc1f7ce2548de897fb6bbcc08fc09eb2f",
+    "results/publication_figures/figure_2_controls.png": "4f06a5cfdc9f2b5bd8a255f923c72129569eca9a27cfc09424143c9133cddfcc",
+    "results/publication_figures/figure_2_controls.pdf": "ec86b5063a211dd7afad67e254a08d279e5416db53a1b436bc209ac2302bd701",
+    "results/publication_figures/figure_3_mitigation_tradeoff.png": "7ef7ca1efe68ee6993e91fb933c174c9992c6e7114f9be21ffa2406b28b68d08",
+    "results/publication_figures/figure_3_mitigation_tradeoff.pdf": "65fb9026e6cb9c27b90ab43e4b34fa8d0bada316918a494855c983e865f39f92",
+    "results/publication_figures/figure_4_direct_vs_full.png": "69d282ae165c6e3a1fad444fb977d919abcff2577bd999a59edeeeea4cd14846",
+    "results/publication_figures/figure_4_direct_vs_full.pdf": "cfbd954aef32d9469b237bb4f3c2a1afd4f0467ea4442265855f080d9777c87d",
+    "results/publication_figures/figure_5_query_types.png": "715a4f30fab692d3d83d39f1449a14888195794bb04f1c293cc30ff76dcee085",
+    "results/publication_figures/figure_5_query_types.pdf": "b755f9f1b471d8c146e9b3b6cedac58ec2e1cb7707604dada46aaa2a5f573626"
+  }
+}

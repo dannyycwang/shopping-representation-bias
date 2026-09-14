@@ -1,0 +1,99 @@
+{
+  "protocol_version": "phase2-frozen-2026-09-04-v1",
+  "seed": 20260904,
+  "bootstrap_samples": 10000,
+  "permutation_samples": 10000,
+  "datasets": {
+    "wands": {
+      "commit": "3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5",
+      "scope": "all 42994 products and the unchanged Phase I judgments"
+    },
+    "esci": {
+      "commit": "7916cdf6ab75a462e77f20ab40428a10923998d5",
+      "locale": "us",
+      "version_flag": "small_version",
+      "split": "test",
+      "query_sample_size": 500,
+      "selection": "first 500 query_ids after sorting by sha256('20260904:' + query_id); retain every judged product for each selected query; catalog is the union of those products"
+    }
+  },
+  "models": [
+    {
+      "key": "minilm",
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "architecture": "MiniLM-L6",
+      "max_tokens": 256,
+      "native_pooling": "attention-mask mean"
+    },
+    {
+      "key": "bge_base",
+      "name": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "architecture": "BERT-base retrieval encoder",
+      "max_tokens": 512,
+      "native_pooling": "CLS"
+    },
+    {
+      "key": "gte_modernbert",
+      "name": "Alibaba-NLP/gte-modernbert-base",
+      "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "architecture": "ModernBERT long-context retrieval encoder",
+      "max_tokens": 8192,
+      "native_pooling": "CLS"
+    }
+  ],
+  "attribute_permutation_seeds": [20260911, 20260912, 20260913, 20260914, 20260915],
+  "representations": [
+    "C0_original",
+    "C1_reverse_attribute_order",
+    "C2_random_attribute_order_s1",
+    "C2_random_attribute_order_s2",
+    "C2_random_attribute_order_s3",
+    "C2_random_attribute_order_s4",
+    "C2_random_attribute_order_s5",
+    "C3_reverse_sentence_order",
+    "C4_section_order",
+    "C5_json_key_order_ascending",
+    "C5_json_key_order_descending"
+  ],
+  "primary_variant_family": [
+    "C0_original",
+    "C1_reverse_attribute_order",
+    "C2_random_attribute_order_s1",
+    "C2_random_attribute_order_s2",
+    "C2_random_attribute_order_s3",
+    "C2_random_attribute_order_s4",
+    "C2_random_attribute_order_s5"
+  ],
+  "mitigations_frozen_before_esci": [
+    "M1_factual_field_sentence",
+    "M2_normalized_attributes"
+  ],
+  "primary_k": 20,
+  "secondary_k": [10, 50],
+  "go_thresholds": {
+    "minimum_micro_vi20": 0.03,
+    "minimum_query_macro_vi20_ci_low": 0.01,
+    "required_models": 2,
+    "required_datasets": 2
+  },
+  "encoding": {
+    "query_prefix": "",
+    "batch_size_minilm": 128,
+    "batch_size_bge_base": 48,
+    "batch_size_gte_modernbert": 24,
+    "dtype_cuda": "float16 model with float32 pooled embeddings",
+    "tie_break": "ascending stable catalog product id"
+  },
+  "chunk_controls": [
+    {"key": "native", "chunk_tokens": null, "overlap": 0, "pooling": "model_native"},
+    {"key": "mean_126_o32", "chunk_tokens": 126, "overlap": 32, "pooling": "mean"},
+    {"key": "mean_254_o0", "chunk_tokens": 254, "overlap": 0, "pooling": "mean"},
+    {"key": "mean_254_o64", "chunk_tokens": 254, "overlap": 64, "pooling": "mean"},
+    {"key": "cls_254_o0", "chunk_tokens": 254, "overlap": 0, "pooling": "cls"}
+  ],
+  "esci_official_task1_gains": {"E": 1.0, "C": 0.1, "S": 0.01, "I": 0.0},
+  "wands_gains": {"Exact": 3.0, "Partial": 1.0, "Irrelevant": 0.0},
+  "sar_lambdas": [0.0, 0.1, 0.25, 0.5, 1.0]
+}

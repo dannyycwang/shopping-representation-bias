@@ -1,0 +1,35 @@
+{
+  "model": {
+    "key": "minilm",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "architecture": "MiniLM-L6",
+    "max_tokens": 256,
+    "native_pooling": "attention-mask mean"
+  },
+  "profile": {
+    "key": "mean_126_o32",
+    "chunk_tokens": 126,
+    "overlap": 32,
+    "pooling": "mean"
+  },
+  "source_sha256": "8fd36edb17d1d5f13dbb9ac4a3f87e31e64b2abde2f9cadf919ad1d106adc905",
+  "seed": 20260904,
+  "implementation": "phase2-encoder-v3-length-bucket-sdpa",
+  "attention_implementation": "model_default",
+  "dynamic_batching": "GTE: base through 500 tokens, then 8/4/2/1 above 500/768/1024/1500; stable length buckets restored to source order",
+  "precision": "fp16_model_fp32_pooling",
+  "mean_wordpieces_without_special": 612.2483369772526,
+  "p95_wordpieces_without_special": 1067.0,
+  "mean_chunks": 6.667465227706192,
+  "fraction_multi_chunk": 0.9950458203470252,
+  "fingerprint": "1c5ab0504e0135cdd395",
+  "shape": [
+    42994,
+    384
+  ],
+  "seconds": 393.9334018230438,
+  "tokenizer_class": "BertTokenizerFast",
+  "model_class": "BertModel",
+  "device": "cuda"
+}

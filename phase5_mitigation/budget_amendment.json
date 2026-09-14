@@ -1,0 +1,8 @@
+{
+  "total_task_seconds_cap": 43200,
+  "authorized_utc": "2026-09-09T16:46:14.8817032Z",
+  "user_authorization": "繼續跑完 謝謝",
+  "original_config_sha256": "4341ff666d0e1ac0ad6237b76186aa370a28b4e7cc763016e8006e170069e3d5",
+  "scope": "Complete the existing WANDS+BGE matrix and only the already gated additional seeds. No new models, datasets, hyperparameters or manuscript edits. Preserve original freeze and 4-hour stop.",
+  "original_task_seconds_cap": 14400
+}

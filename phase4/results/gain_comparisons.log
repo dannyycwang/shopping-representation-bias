@@ -1,0 +1,17 @@
+dataset                          method  queries  cNDCG@10  delta_vs_Original    ci_low   ci_high              gains
+  wands                        Original      383  0.824683           0.000000  0.000000  0.000000        study_3_1_0
+  wands                       canonical      383  0.803002          -0.021681 -0.033310 -0.010519        study_3_1_0
+  wands                         factual      383  0.817819          -0.006864 -0.013868 -0.000037        study_3_1_0
+  wands                        set_mean      383  0.815114          -0.009569 -0.019393  0.000274        study_3_1_0
+  wands                       late_mean      383  0.805793          -0.018890 -0.029346 -0.008336        study_3_1_0
+  wands                        late_max      383  0.809344          -0.015339 -0.026570 -0.004501        study_3_1_0
+  wands                       late_top3      383  0.810574          -0.014109 -0.024267 -0.003844        study_3_1_0
+  wands DIRECT set_mean minus canonical      383       NaN           0.012111 -0.001525  0.025890        study_3_1_0
+   esci                        Original      500  0.736442           0.000000  0.000000  0.000000 benchmark_standard
+   esci                       canonical      500  0.742253           0.005811 -0.001159  0.013065 benchmark_standard
+   esci                         factual      500  0.730521          -0.005921 -0.012749  0.000705 benchmark_standard
+   esci                        set_mean      500  0.732613          -0.003829 -0.014702  0.007146 benchmark_standard
+   esci                       late_mean      500  0.729005          -0.007437 -0.018054  0.003052 benchmark_standard
+   esci                        late_max      500  0.729694          -0.006748 -0.017997  0.004645 benchmark_standard
+   esci                       late_top3      500  0.729005          -0.007437 -0.018054  0.003052 benchmark_standard
+   esci DIRECT set_mean minus canonical      500       NaN          -0.009640 -0.021044  0.001999 benchmark_standard

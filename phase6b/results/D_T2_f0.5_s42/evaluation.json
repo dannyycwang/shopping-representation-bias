@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-09-11T07:14:23.543034+00:00",
+  "selection_sha256": "23c472a9e266da6c2dc6bc41b0fc383f9ea8c5a694ac8ee8258054745be1b1a6",
+  "weights_sha256": "8a7efe46129d7f237cfa31871b78d24d63db43727ac05631694236e54c52040b",
+  "products_sha256": "fc7b60a4f58e61ff0288e29ad51080c658ca3ddd4ba90e84bd4b8f681349a6bd",
+  "target_only": false,
+  "exact_pairs": 21299,
+  "queries": 308,
+  "test_metrics": {
+    "Recall@20": 0.3524271488324723,
+    "Recall@100": 0.6217291536896218,
+    "Robust@100": 0.6217291536896218,
+    "VI@20": 0.0,
+    "VI@100": 0.0,
+    "Never@100": 0.3782708463103782
+  }
+}

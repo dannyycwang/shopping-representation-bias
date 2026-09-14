@@ -1,0 +1,38 @@
+{
+  "completed_utc": "2026-09-07T23:08:34.364153+00:00",
+  "generation_file": "phase5/results/generations.jsonl",
+  "generation_sha256": "67025b4dabb79ad85fcddb384da924c6d5edbc184a076929325e29dfe8008c53",
+  "rows_total": 7120,
+  "unique_cache_keys_total": 6214,
+  "primary": {
+    "task_rows": 6736,
+    "unique_cache_keys": 5872,
+    "summed_gpu_inference_seconds": 36431.14634326086
+  },
+  "noise": {
+    "task_rows": 384,
+    "unique_cache_keys": 342,
+    "summed_gpu_inference_seconds": 4882.598675251007
+  },
+  "execution_events": [
+    {
+      "condition": "primary",
+      "event": "CUDA OOM under heterogeneous long-output batches",
+      "response": "resume from content-addressed checkpoint with progressively smaller batch sizes 8, 6, 5, 4, 3, 2, then 1",
+      "scientific_configuration_changed": false
+    },
+    {
+      "condition": "noise",
+      "event": "completed with batch size 1 as frozen for independent random seeds",
+      "scientific_configuration_changed": false
+    }
+  ],
+  "protocol_deviation": {
+    "planned_gpu_hour_cap": 8.0,
+    "observed_primary_gpu_hours": 10.119762873128016,
+    "observed_noise_gpu_hours": 1.3562774097919463,
+    "ranks_inspected_before_generation_complete": false,
+    "adaptive_sample_prompt_model_or_decoding_change": false,
+    "description": "The complete frozen generation matrix exceeded the planned stop. Only batch size changed for memory safety; this is disclosed in the manuscript."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "config_sha256": "03543514251a1e79e6059fb5acab48e6567a42c44e37977e4260e394fa245ec8",
+  "utc": "2026-09-11T06:06:02.984184+00:00",
+  "test_use": "identity guard only, no parameter/model selection"
+}

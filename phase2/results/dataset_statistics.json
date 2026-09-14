@@ -1,0 +1,41 @@
+[
+  {
+    "dataset": "wands",
+    "products": 42994,
+    "queries": 480,
+    "judgments": 231859,
+    "labels": {
+      "Partial": 145670,
+      "Irrelevant": 60719,
+      "Exact": 25470
+    },
+    "query_types": {
+      "product_type": 217,
+      "brand_entity_proxy": 90,
+      "attribute_constraint": 80,
+      "multi_constraint": 67,
+      "style": 14,
+      "long_descriptive": 12
+    }
+  },
+  {
+    "dataset": "esci",
+    "products": 10076,
+    "queries": 500,
+    "judgments": 10134,
+    "labels": {
+      "E": 4434,
+      "S": 3545,
+      "I": 1650,
+      "C": 505
+    },
+    "query_types": {
+      "product_type": 190,
+      "multi_constraint": 133,
+      "brand_entity_proxy": 91,
+      "attribute_constraint": 63,
+      "long_descriptive": 19,
+      "style": 4
+    }
+  }
+]

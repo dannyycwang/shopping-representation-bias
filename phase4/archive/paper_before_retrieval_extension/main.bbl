@@ -1,0 +1,340 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{25}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter does
+%%% not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+\makeatletter
+\@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
+\@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
+\makeatother
+
+\bibitem[Abdou et~al\mbox{.}(2022)]%
+        {abdou2022wordorder}
+\bibfield{author}{\bibinfo{person}{Mostafa Abdou}, \bibinfo{person}{Vinit
+  Ravishankar}, \bibinfo{person}{Maria Barrett}, \bibinfo{person}{Yonatan
+  Belinkov}, \bibinfo{person}{Desmond Elliott}, {and} \bibinfo{person}{Anders
+  S{ø}gaard}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Word Order Does Matter and Shuffled Language Models
+  Know It}. In \bibinfo{booktitle}{\emph{Proceedings of ACL}}.
+\newblock
+
+
+\bibitem[Aggarwal et~al\mbox{.}(2024)]%
+        {aggarwal2024geo}
+\bibfield{author}{\bibinfo{person}{Pranjal Aggarwal}, \bibinfo{person}{Vishvak
+  Murahari}, \bibinfo{person}{Tanmay Rajpurohit}, \bibinfo{person}{Ashwin
+  Kalyan}, \bibinfo{person}{Karthik Narasimhan}, {and} \bibinfo{person}{Ameet
+  Deshpande}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{GEO: Generative Engine Optimization}. In
+  \bibinfo{booktitle}{\emph{Proceedings of KDD}}.
+\newblock
+
+
+\bibitem[Bagga et~al\mbox{.}(2025)]%
+        {bagga2025egeo}
+\bibfield{author}{\bibinfo{person}{Puneet~S. Bagga}, \bibinfo{person}{Vivek~F.
+  Farias}, \bibinfo{person}{Tamar Korkotashvili}, \bibinfo{person}{Tianyi
+  Peng}, {and} \bibinfo{person}{Yuhang Wu}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{E-GEO: A Testbed for Generative Engine Optimization
+  in E-Commerce}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2511.20867}}
+  (\bibinfo{year}{2025}).
+\newblock
+
+
+\bibitem[Bhandari et~al\mbox{.}(2026)]%
+        {bhandari2026tabular}
+\bibfield{author}{\bibinfo{person}{Kushal~Raj Bhandari},
+  \bibinfo{person}{Adarsh Singh}, \bibinfo{person}{Jianxi Gao},
+  \bibinfo{person}{Soham Dan}, {and} \bibinfo{person}{Vivek Gupta}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Improving Robustness of Tabular Retrieval via
+  Representational Stability}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2604.24040}}
+  (\bibinfo{year}{2026}).
+\newblock
+
+
+\bibitem[Chen et~al\mbox{.}(2022)]%
+        {chen2022wands}
+\bibfield{author}{\bibinfo{person}{Yan Chen}, \bibinfo{person}{Shujian Liu},
+  \bibinfo{person}{Zheng Liu}, \bibinfo{person}{Weiyi Sun},
+  \bibinfo{person}{Linas Baltrunas}, {and} \bibinfo{person}{Benjamin
+  Schroeder}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{WANDS: Dataset for Product Search Relevance
+  Assessment}. In \bibinfo{booktitle}{\emph{European Conference on Information
+  Retrieval}}.
+\newblock
+
+
+\bibitem[Choi et~al\mbox{.}(2020)]%
+        {choi2020semantic}
+\bibfield{author}{\bibinfo{person}{Jason~Ingyu Choi}, \bibinfo{person}{Surya
+  Kallumadi}, \bibinfo{person}{Bhaskar Mitra}, \bibinfo{person}{Eugene
+  Agichtein}, {and} \bibinfo{person}{Faizan Javed}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Semantic Product Search for Matching Structured
+  Product Catalogs in E-Commerce}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2008.08180}}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Goren et~al\mbox{.}(2020)]%
+        {goren2020ranking}
+\bibfield{author}{\bibinfo{person}{Gregory Goren}, \bibinfo{person}{Oren
+  Kurland}, \bibinfo{person}{Moshe Tennenholtz}, {and} \bibinfo{person}{Fiana
+  Raiber}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Ranking-Incentivized Quality Preserving Content
+  Modification}. In \bibinfo{booktitle}{\emph{Proceedings of the 43rd
+  International ACM SIGIR Conference on Research and Development in Information
+  Retrieval}}. \bibinfo{pages}{259--268}.
+\newblock
+\href{https://doi.org/10.1145/3397271.3401058}{doi:\nolinkurl{10.1145/3397271.3401058}}
+
+
+\bibitem[Hessel and Schofield(2021)]%
+        {hessel2021order}
+\bibfield{author}{\bibinfo{person}{Jack Hessel} {and}
+  \bibinfo{person}{Alexandra Schofield}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{How Effective Is BERT without Word Ordering?
+  Implications for Language Understanding and Data Privacy}. In
+  \bibinfo{booktitle}{\emph{Proceedings of ACL-IJCNLP}}.
+\newblock
+
+
+\bibitem[Joachims et~al\mbox{.}(2017)]%
+        {joachims2017unbiased}
+\bibfield{author}{\bibinfo{person}{Thorsten Joachims}, \bibinfo{person}{Adith
+  Swaminathan}, {and} \bibinfo{person}{Tobias Schnabel}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Unbiased Learning-to-Rank with Biased Feedback}. In
+  \bibinfo{booktitle}{\emph{Proceedings of WSDM}}.
+\newblock
+
+
+\bibitem[J{ä}rvelin and Kek{ä}l{ä}inen(2002)]%
+        {jarvelin2002cumulated}
+\bibfield{author}{\bibinfo{person}{Kalervo J{ä}rvelin} {and}
+  \bibinfo{person}{Jaana Kek{ä}l{ä}inen}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Cumulated Gain-Based Evaluation of IR Techniques}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Information Systems}}
+  \bibinfo{volume}{20}, \bibinfo{number}{4} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{422--446}.
+\newblock
+
+
+\bibitem[Karpukhin et~al\mbox{.}(2020)]%
+        {karpukhin2020dpr}
+\bibfield{author}{\bibinfo{person}{Vladimir Karpukhin}, \bibinfo{person}{Barlas
+  Oguz}, \bibinfo{person}{Sewon Min}, {et~al\mbox{.}}}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Dense Passage Retrieval for Open-Domain Question
+  Answering}. In \bibinfo{booktitle}{\emph{Proceedings of EMNLP}}.
+\newblock
+
+
+\bibitem[Kim et~al\mbox{.}(2026)]%
+        {kim2026sageo}
+\bibfield{author}{\bibinfo{person}{Sunghwan Kim}, \bibinfo{person}{Wooseok
+  Jeong}, \bibinfo{person}{Serin Kim}, \bibinfo{person}{Sangam Lee}, {and}
+  \bibinfo{person}{Dongha Lee}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{SAGEO} Arena: A Realistic Environment for
+  Evaluating Search-Augmented Generative Engine Optimization}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 32nd ACM SIGKDD Conference on
+  Knowledge Discovery and Data Mining}}.
+\newblock
+\href{https://doi.org/10.1145/3770855.3818146}{doi:\nolinkurl{10.1145/3770855.3818146}}
+
+
+\bibitem[Li et~al\mbox{.}(2023)]%
+        {li2023gte}
+\bibfield{author}{\bibinfo{person}{Zehan Li}, \bibinfo{person}{Xin Zhang},
+  \bibinfo{person}{Yanzhao Zhang}, \bibinfo{person}{Dingkun Long},
+  \bibinfo{person}{Pengjun Xie}, {and} \bibinfo{person}{Meishan Zhang}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Towards General Text Embeddings with Multi-stage
+  Contrastive Learning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2308.03281}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Liu et~al\mbox{.}(2024)]%
+        {liu2024robustnir}
+\bibfield{author}{\bibinfo{person}{Yu-An Liu}, \bibinfo{person}{Ruqing Zhang},
+  \bibinfo{person}{Jiafeng Guo}, \bibinfo{person}{Maarten de Rijke},
+  \bibinfo{person}{Yixing Fan}, {and} \bibinfo{person}{Xueqi Cheng}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Robust Neural Information Retrieval: An Adversarial
+  and Out-of-distribution Perspective}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2407.06992}}
+  (\bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Loughnane et~al\mbox{.}(2024)]%
+        {loughnane2024attributes}
+\bibfield{author}{\bibinfo{person}{Robyn Loughnane}, \bibinfo{person}{Jiaxin
+  Liu}, \bibinfo{person}{Zhilin Chen}, \bibinfo{person}{Zhiqi Wang},
+  \bibinfo{person}{Joseph Giroux}, \bibinfo{person}{Tianchuan Du},
+  \bibinfo{person}{Benjamin Schroeder}, {and} \bibinfo{person}{Weiyi Sun}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Explicit Attribute Extraction in e-Commerce
+  Search}. In \bibinfo{booktitle}{\emph{Proceedings of the Seventh Workshop on
+  e-Commerce and NLP at LREC-COLING}}. \bibinfo{pages}{125--135}.
+\newblock
+\urldef\tempurl%
+\url{https://aclanthology.org/2024.ecnlp-1.13/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[MacAvaney et~al\mbox{.}(2022)]%
+        {macavaney2022abnirml}
+\bibfield{author}{\bibinfo{person}{Sean MacAvaney}, \bibinfo{person}{Sergey
+  Feldman}, \bibinfo{person}{Nazli Goharian}, \bibinfo{person}{Doug Downey},
+  {and} \bibinfo{person}{Arman Cohan}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{ABNIRML: Analyzing the Behavior of Neural IR
+  Models}.
+\newblock \bibinfo{journal}{\emph{Transactions of the Association for
+  Computational Linguistics}}  \bibinfo{volume}{10} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{224--239}.
+\newblock
+
+
+\bibitem[Nogueira and Cho(2019)]%
+        {nogueira2019passage}
+\bibfield{author}{\bibinfo{person}{Rodrigo Nogueira} {and}
+  \bibinfo{person}{Kyunghyun Cho}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Passage Re-ranking with BERT}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1901.04085}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Papadimitriou et~al\mbox{.}(2022)]%
+        {papadimitriou2022role}
+\bibfield{author}{\bibinfo{person}{Isabel Papadimitriou},
+  \bibinfo{person}{Richard Futrell}, {and} \bibinfo{person}{Kyle Mahowald}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{When Classifying Grammatical Role, BERT Doesn't
+  Care about Word Order... Except When It Matters}. In
+  \bibinfo{booktitle}{\emph{Proceedings of ACL}}.
+\newblock
+
+
+\bibitem[Reddy et~al\mbox{.}(2022)]%
+        {reddy2022shopping}
+\bibfield{author}{\bibinfo{person}{Chandan~K. Reddy}, \bibinfo{person}{Lluís
+  Màrquez}, \bibinfo{person}{Fran Valero}, \bibinfo{person}{Nikhil Rao},
+  \bibinfo{person}{Hugo Zaragoza}, \bibinfo{person}{Sambaran Bandyopadhyay},
+  \bibinfo{person}{Arnab Biswas}, \bibinfo{person}{Anlu Xing}, {and}
+  \bibinfo{person}{Karthik Subbian}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Shopping Queries Dataset: A Large-Scale {ESCI}
+  Benchmark for Improving Product Search}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2206.06588}}
+  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Reimers and Gurevych(2019)]%
+        {reimers2019sentencebert}
+\bibfield{author}{\bibinfo{person}{Nils Reimers} {and} \bibinfo{person}{Iryna
+  Gurevych}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Sentence-BERT: Sentence Embeddings using Siamese
+  BERT-Networks}. In \bibinfo{booktitle}{\emph{Proceedings of EMNLP-IJCNLP}}.
+  \bibinfo{pages}{3982--3992}.
+\newblock
+
+
+\bibitem[Robertson and Zaragoza(2009)]%
+        {robertson2009bm25}
+\bibfield{author}{\bibinfo{person}{Stephen~E. Robertson} {and}
+  \bibinfo{person}{Hugo Zaragoza}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{The Probabilistic Relevance Framework: {BM25} and
+  Beyond}.
+\newblock \bibinfo{journal}{\emph{Foundations and Trends in Information
+  Retrieval}} \bibinfo{volume}{3}, \bibinfo{number}{4} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{333--389}.
+\newblock
+\href{https://doi.org/10.1561/1500000019}{doi:\nolinkurl{10.1561/1500000019}}
+
+
+\bibitem[Sakai and Kando(2008)]%
+        {sakai2008alternatives}
+\bibfield{author}{\bibinfo{person}{Tetsuya Sakai} {and} \bibinfo{person}{Noriko
+  Kando}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{On Information Retrieval Metrics Designed for
+  Evaluation with Incomplete Relevance Assessments}. In
+  \bibinfo{booktitle}{\emph{Proceedings of CIKM}}.
+\newblock
+
+
+\bibitem[Singh and Joachims(2018)]%
+        {singh2018fairness}
+\bibfield{author}{\bibinfo{person}{Ashudeep Singh} {and}
+  \bibinfo{person}{Thorsten Joachims}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Fairness of Exposure in Rankings}. In
+  \bibinfo{booktitle}{\emph{Proceedings of KDD}}.
+\newblock
+
+
+\bibitem[Xiao et~al\mbox{.}(2024)]%
+        {xiao2024cpack}
+\bibfield{author}{\bibinfo{person}{Shitao Xiao}, \bibinfo{person}{Zheng Liu},
+  \bibinfo{person}{Peitian Zhang}, {and} \bibinfo{person}{Niklas Muennighoff}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{C-Pack: Packaged Resources To Advance General
+  Chinese Embedding}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2309.07597}}
+  (\bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Yang et~al\mbox{.}(2022)]%
+        {yang2022tableformer}
+\bibfield{author}{\bibinfo{person}{Jingfeng Yang}, \bibinfo{person}{Aditya
+  Gupta}, \bibinfo{person}{Shyam Upadhyay}, \bibinfo{person}{Luheng He},
+  \bibinfo{person}{Rahul Goel}, {and} \bibinfo{person}{Shachi Paul}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{TableFormer: Robust Transformer Modeling for
+  Table-Text Encoding}. In \bibinfo{booktitle}{\emph{Proceedings of ACL}}.
+  \bibinfo{pages}{528--537}.
+\newblock
+\href{https://doi.org/10.18653/v1/2022.acl-long.40}{doi:\nolinkurl{10.18653/v1/2022.acl-long.40}}
+
+
+\end{thebibliography}

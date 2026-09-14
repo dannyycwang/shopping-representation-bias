@@ -1,0 +1,7 @@
+{
+  "development_original_gain_200_to_500": 0.11222423052988215,
+  "conservative_additional_seconds": 1144.3520632274726,
+  "local_extension_cap_seconds": 1800,
+  "triggered": true,
+  "basis": "frozen development recall threshold; measured K<=200 throughput; no evaluation effectiveness used"
+}

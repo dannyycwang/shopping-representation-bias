@@ -1,0 +1,116 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{Abstract}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Target-only intervention, WANDS query 162 and product 34536, MiniLM. The same Exact-relevant product crosses Top-20 with competitors fixed in C0. This differs from catalog-wide reserialization.}}{1}{figure.caption.5}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:example}{{1}{1}{Target-only intervention, WANDS query 162 and product 34536, MiniLM. The same Exact-relevant product crosses Top-20 with competitors fixed in C0. This differs from catalog-wide reserialization}{figure.caption.5}{}}
+\citation{robertson2009bm25}
+\citation{choi2020semantic}
+\citation{loughnane2024attributes}
+\citation{freymuth2025charm}
+\citation{cormack2009rrf}
+\citation{aggarwal2024geo}
+\citation{bagga2025egeo}
+\citation{kim2026sageo}
+\citation{goren2020ranking}
+\citation{bhandari2026tabular}
+\citation{abdou2022wordorder,macavaney2022abnirml}
+\citation{jarvelin2002cumulated,sakai2008alternatives}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Structured Product and Hybrid Retrieval}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Content and Visibility Optimization}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Representation Robustness}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Formulation}{2}{section.3}\protected@file@percent }
+\citation{cormack2009rrf}
+\citation{chen2022wands,reddy2022shopping}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Interventions and Retrieval Strategies}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Equivalent Inputs and Intervention Permissions}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Platform-Side Aggregation and Fusion}{3}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Setup and Audit}{3}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data, Splits, and Evaluation History}{3}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Models and Reconciliation}{3}{subsection.5.2}\protected@file@percent }
+\citation{reddy2022shopping}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Uncertainty, Cost, and Reranking}{4}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{4}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}RQ1: How Does Representation Affect Relevant-Product Inclusion?}{4}{subsection.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Catalog-wide query-macro VI@20 with query-bootstrap 95\% CIs. General and product-specific retrievers remain sensitive. The dashed 1\% reference is a historical study threshold, not a preregistration of this extension.}}{4}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:crossmodel}{{2}{4}{Catalog-wide query-macro VI@20 with query-bootstrap 95\% CIs. General and product-specific retrievers remain sensitive. The dashed 1\% reference is a historical study threshold, not a preregistration of this extension}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Instability omits persistent failure.}{4}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}RQ2: Where Does Instability Concentrate?}{4}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Rank-conditioned highest-minus-irrelevant query-macro VI@20, in percentage points. Intervals use query bootstrap; $n$ is common-query support in each band. These coarse strata do not eliminate residual score-margin confounding.}}{5}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:rankcontrol}{{3}{5}{Rank-conditioned highest-minus-irrelevant query-macro VI@20, in percentage points. Intervals use query bootstrap; $n$ is common-query support in each band. These coarse strata do not eliminate residual score-margin confounding}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}RQ3: Do Fixed Strategies Improve Relevant-Product Recall?}{5}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Fixed BGE strategies. R100 is query-macro highest-label recall; cN is cNDCG@10. W/E denote held-out WANDS and the historical ESCI union. ESCI uses benchmark-standard gains.}}{5}{table.caption.9}\protected@file@percent }
+\newlabel{tab:recall_main}{{1}{5}{Fixed BGE strategies. R100 is query-macro highest-label recall; cN is cNDCG@10. W/E denote held-out WANDS and the historical ESCI union. ESCI uses benchmark-standard gains}{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Unchanged BGE-selected strategy transferred across evaluation cells. Entries are Recall@100 differences from Original in percentage points, with paired query-bootstrap 95\% CIs. Historical evaluations were previously inspected; new ESCI queries use a separate common catalog.}}{5}{table.caption.10}\protected@file@percent }
+\newlabel{tab:transfer}{{2}{5}{Unchanged BGE-selected strategy transferred across evaluation cells. Entries are Recall@100 differences from Original in percentage points, with paired query-bootstrap 95\% CIs. Historical evaluations were previously inspected; new ESCI queries use a separate common catalog}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{Order invariance is not a recall guarantee.}{6}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}RQ4: What Are the Candidate and Computational Costs?}{6}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Local exact retrieval on four CPU threads. Array storage is dense vectors plus sparse postings for hybrid, excluding text/vocabulary metadata. Time includes scoring, fusion where applicable, and stable sorting; query encoding is reported separately. These are not commercial latency estimates.}}{6}{table.caption.13}\protected@file@percent }
+\newlabel{tab:cost}{{3}{6}{Local exact retrieval on four CPU threads. Array storage is dense vectors plus sparse postings for hybrid, excluding text/vocabulary metadata. Time includes scoring, fusion where applicable, and stable sorting; query encoding is reported separately. These are not commercial latency estimates}{table.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Full-record view-count checks: held-out WANDS and historical ESCI Recall@100 and WANDS index/scoring cost. Centroids store one vector after multiple offline encodings; max stores all views. These fixed checks do not reopen strategy selection.}}{6}{table.caption.14}\protected@file@percent }
+\newlabel{tab:multiview_cost}{{4}{6}{Full-record view-count checks: held-out WANDS and historical ESCI Recall@100 and WANDS index/scoring cost. Centroids store one vector after multiple offline encodings; max stores all views. These fixed checks do not reopen strategy selection}{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces BGE Top-100 pair transitions relative to Original. Raw pair counts and query-macro net percentage points have different weighting.}}{6}{table.caption.15}\protected@file@percent }
+\newlabel{tab:transitions}{{5}{6}{BGE Top-100 pair transitions relative to Original. Raw pair counts and query-macro net percentage points have different weighting}{table.caption.15}{}}
+\@writefile{toc}{\contentsline {paragraph}{Fixed-text reranking.}{6}{table.caption.17}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces First-stage recall versus unique candidate budget (top) and estimated local processing cost (bottom). Cost adds median query encoding and exact retrieval to $K$ times amortized cross-encoder pair time; it is a batch-throughput estimate, not measured online latency or final reranked recall. All curves reuse the same ranks.}}{7}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:budget}{{4}{7}{First-stage recall versus unique candidate budget (top) and estimated local processing cost (bottom). Cost adds median query encoding and exact retrieval to $K$ times amortized cross-encoder pair time; it is a batch-throughput estimate, not measured online latency or final reranked recall. All curves reuse the same ranks}{figure.caption.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Highest-label Recall@20 after reranking a fixed canonical product text. Each column changes only the first-stage unique candidate budget. Same cross-encoder and final Top-20 across methods.}}{7}{table.caption.17}\protected@file@percent }
+\newlabel{tab:reranking}{{6}{7}{Highest-label Recall@20 after reranking a fixed canonical product text. Each column changes only the first-stage unique candidate budget. Same cross-encoder and final Top-20 across methods}{table.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Discussion and Limitations}{7}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Robustness, Recall, and Deployment Scope}{7}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Scope of the Visibility Claim}{8}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Limitations and Evaluation History}{8}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{8}{section.8}\protected@file@percent }
+\bibstyle{ACM-Reference-Format}
+\bibdata{references}
+\bibcite{abdou2022wordorder}{{1}{2022}{{Abdou et~al\mbox  {.}}}{{}}}
+\bibcite{aggarwal2024geo}{{2}{2024}{{Aggarwal et~al\mbox  {.}}}{{}}}
+\bibcite{bagga2025egeo}{{3}{2025}{{Bagga et~al\mbox  {.}}}{{}}}
+\bibcite{bhandari2026tabular}{{4}{2026}{{Bhandari et~al\mbox  {.}}}{{}}}
+\bibcite{chen2022wands}{{5}{2022}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{choi2020semantic}{{6}{2020}{{Choi et~al\mbox  {.}}}{{}}}
+\bibcite{cormack2009rrf}{{7}{2009}{{Cormack et~al\mbox  {.}}}{{}}}
+\bibcite{freymuth2025charm}{{8}{2025}{{Freymuth et~al\mbox  {.}}}{{}}}
+\bibcite{goren2020ranking}{{9}{2020}{{Goren et~al\mbox  {.}}}{{}}}
+\bibcite{jarvelin2002cumulated}{{10}{2002}{{J{ä}rvelin and Kek{ä}l{ä}inen}}{{}}}
+\bibcite{kim2026sageo}{{11}{2026}{{Kim et~al\mbox  {.}}}{{}}}
+\bibcite{loughnane2024attributes}{{12}{2024}{{Loughnane et~al\mbox  {.}}}{{}}}
+\bibcite{macavaney2022abnirml}{{13}{2022}{{MacAvaney et~al\mbox  {.}}}{{}}}
+\bibcite{reddy2022shopping}{{14}{2022}{{Reddy et~al\mbox  {.}}}{{}}}
+\bibcite{robertson2009bm25}{{15}{2009}{{Robertson and Zaragoza}}{{}}}
+\bibcite{sakai2008alternatives}{{16}{2008}{{Sakai and Kando}}{{}}}
+\@writefile{toc}{\contentsline {section}{References}{9}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Audit, Selection, and Additional Results}{9}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Negative results and strategy boundaries.}{9}{section*.26}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces All eight added configurations on the frozen WANDS development queries. Sorting reflects the prespecified selection rule, not test performance.}}{9}{table.caption.20}\protected@file@percent }
+\newlabel{tab:screening}{{7}{9}{All eight added configurations on the frozen WANDS development queries. Sorting reflects the prespecified selection rule, not test performance}{table.caption.20}{}}
+\@writefile{toc}{\contentsline {paragraph}{Meaning of candidate coverage.}{9}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Reranking and Reproduction}{9}{appendix.B}\protected@file@percent }
+\newlabel{tocindent-1}{0pt}
+\newlabel{tocindent0}{0pt}
+\newlabel{tocindent1}{6.25499pt}
+\newlabel{tocindent2}{12.41998pt}
+\newlabel{tocindent3}{0pt}
+\newlabel{tocindent4}{0pt}
+\newlabel{tocindent5}{0pt}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Primary seven-order VI@20 percentages. Catalog-wide and target-only interventions are distinct. Micro weights pairs; macro weights eligible queries. Query-bootstrap intervals remain in the corresponding source tables and main visualization.}}{10}{table.caption.21}\protected@file@percent }
+\newlabel{tab:sensitivitydetail}{{8}{10}{Primary seven-order VI@20 percentages. Catalog-wide and target-only interventions are distinct. Micro weights pairs; macro weights eligible queries. Query-bootstrap intervals remain in the corresponding source tables and main visualization}{table.caption.21}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Fixed BGE view-count checks on held-out WANDS and historical ESCI. Differences are Recall@100 percentage points from Original. These checks do not change the selected strategy.}}{10}{table.caption.22}\protected@file@percent }
+\newlabel{tab:saturation}{{9}{10}{Fixed BGE view-count checks on held-out WANDS and historical ESCI. Differences are Recall@100 percentage points from Original. These checks do not change the selected strategy}{table.caption.22}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Reconciled historical mitigation cNDCG@10 and paired differences from Original. ESCI uses E/S/C/I=1/.1/.01/0. WANDS uses 383 positive-IDCG held-out queries; ESCI uses 500.}}{10}{table.caption.23}\protected@file@percent }
+\newlabel{tab:legacyrepair}{{10}{10}{Reconciled historical mitigation cNDCG@10 and paired differences from Original. ESCI uses E/S/C/I=1/.1/.01/0. WANDS uses 383 positive-IDCG held-out queries; ESCI uses 500}{table.caption.23}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Illustrative Case and Diagnostic Scope}{10}{appendix.C}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces BGE seven-order coverage. Counts are highest-label query--product pairs; macro percentages average within eligible queries. All historical queries are used here, unlike strategy selection/held-out tables. Sometimes means crossing; never is persistent omission.}}{11}{table.caption.24}\protected@file@percent }
+\newlabel{tab:allcoverage}{{11}{11}{BGE seven-order coverage. Counts are highest-label query--product pairs; macro percentages average within eligible queries. All historical queries are used here, unlike strategy selection/held-out tables. Sometimes means crossing; never is persistent omission}{table.caption.24}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Fixed canonical-input reranking. Each K cell gives Recall@20 / returned-list condensed NDCG@10; the latter is not full-catalog cNDCG. Multiply measured amortized ms/pair by K to estimate candidate inference time, excluding loading and retrieval. This is batch throughput, not per-request latency. Paired intervals are in the artifact.}}{11}{table.caption.24}\protected@file@percent }
+\newlabel{tab:rerankdetail}{{12}{11}{Fixed canonical-input reranking. Each K cell gives Recall@20 / returned-list condensed NDCG@10; the latter is not full-catalog cNDCG. Multiply measured amortized ms/pair by K to estimate candidate inference time, excluding loading and retrieval. This is batch throughput, not per-request latency. Paired intervals are in the artifact}{table.caption.24}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Actual unique views per product. Exact vector equality can merge different complete texts after truncation; it is not a tolerance-based semantic equivalence test.}}{11}{table.caption.25}\protected@file@percent }
+\newlabel{tab:uniqueviews}{{13}{11}{Actual unique views per product. Exact vector equality can merge different complete texts after truncation; it is not a tolerance-based semantic equivalence test}{table.caption.25}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces All orders for the Exact-relevant turquoise chair (MiniLM). Target-only competitors stay in C0. Positive $\Delta $ means a worse rank than target C0.}}{11}{table.caption.28}\protected@file@percent }
+\newlabel{tab:caseorders}{{14}{11}{All orders for the Exact-relevant turquoise chair (MiniLM). Target-only competitors stay in C0. Positive $\Delta $ means a worse rank than target C0}{table.caption.28}{}}
+\newlabel{TotPages}{{11}{11}{}{page.11}{}}
+\gdef \@abspage@last{11}

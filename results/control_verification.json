@@ -1,0 +1,14 @@
+[
+  {
+    "control": "R4",
+    "identical_scores": true,
+    "identical_ranks": true,
+    "query_product_comparisons": 20637120
+  },
+  {
+    "control": "C_order",
+    "identical_scores": true,
+    "identical_ranks": true,
+    "query_product_comparisons": 20637120
+  }
+]

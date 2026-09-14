@@ -1,0 +1,15 @@
+{
+  "status": "budget_limited_incomplete",
+  "recommendation": "A",
+  "selected_lambda": null,
+  "completed_trials": [
+    "Perm-FT_s42",
+    "Perm-FT-cons0.05_s42"
+  ],
+  "unavailable": [
+    "M3 selected",
+    "M4",
+    "additional seeds"
+  ],
+  "manuscript_changed": false
+}

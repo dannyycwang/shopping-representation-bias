@@ -1,0 +1,11 @@
+{
+  "venue": "The ACM Web Conference 2027 Research Track",
+  "source": "https://www2027.thewebconf.org/research-track-papers/",
+  "checked_date": "2026-09-07",
+  "documentclass": "sigconf,anonymous,review",
+  "main_pages_max": 8,
+  "total_pages_max": 12,
+  "first_eight_self_contained": true,
+  "web_relevance_required_on_first_page": true,
+  "submission": "not performed"
+}

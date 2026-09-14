@@ -1,0 +1,126 @@
+{
+  "revision": "expanded-presentation",
+  "body_pages": 10,
+  "reference_pages": 1,
+  "unchanged_legacy_results": [
+    "phase3/results/phase3_figures/figure1_same_product.pdf",
+    "phase3/results/phase3_figures/figure2_cross_model_vi.pdf",
+    "phase3/results/phase3_figures/figure2_source.csv",
+    "phase3/results/phase3_figures/figure3_reranker_pipeline.pdf",
+    "phase3/results/phase3_figures/figure3_source.csv",
+    "phase3/results/phase3_figures/figure4_pareto.pdf",
+    "phase3/results/phase3_figures/figure4_source.csv",
+    "phase3/results/phase3_tables/ecommerce_retriever_sensitivity.csv",
+    "phase3/results/phase3_tables/esci_invariant_methods.csv",
+    "phase3/results/phase3_tables/esci_marqo_ecommerce_b_sensitivity.csv",
+    "phase3/results/phase3_tables/esci_official_candidate_pool.csv",
+    "phase3/results/phase3_tables/esci_reranker_pipeline.csv",
+    "phase3/results/phase3_tables/invariant_methods.csv",
+    "phase3/results/phase3_tables/robustness_relevance_pareto.csv",
+    "phase3/results/phase3_tables/wands_invariant_methods.csv",
+    "phase3/results/phase3_tables/wands_marqo_ecommerce_b_sensitivity.csv",
+    "phase3/results/phase3_tables/wands_reranker_pipeline.csv"
+  ],
+  "files": [
+    {
+      "path": "paper_www2027\\appendix.tex",
+      "sha256": "aec15211338330a83543361892e7f20fceea0bb784965703441ec65ed2aec836"
+    },
+    {
+      "path": "paper_www2027\\main.tex",
+      "sha256": "e91acb3b21ead0d7f9337761a2e502f35df9b6df5e60c1e3062de2bef7e430f4"
+    },
+    {
+      "path": "paper_www2027\\supplementary.tex",
+      "sha256": "56d7f82445bd4a71bea792b1752b123ea7ab44357bf954c380a1907280e476c4"
+    },
+    {
+      "path": "paper_www2027\\sections\\conclusion.tex",
+      "sha256": "7cfc88f6625cbe4d3f1c459e4dfcaa29121ef636a94981b69a45b6cde16d218e"
+    },
+    {
+      "path": "paper_www2027\\sections\\discussion.tex",
+      "sha256": "06ea30badb3dcb23d37dcdeb9e0f7c57e2e595314edb3f9b77e570b08d19e52c"
+    },
+    {
+      "path": "paper_www2027\\sections\\experiments.tex",
+      "sha256": "78a832ca576ce9db31c9a688dea62803667d01df0f207d616aa82a94b4aa2f22"
+    },
+    {
+      "path": "paper_www2027\\sections\\introduction.tex",
+      "sha256": "1d9feb0f3e55145c977e229d2dff62e2c6805b800ab15b10c1818ba3cd4dca17"
+    },
+    {
+      "path": "paper_www2027\\sections\\methodology.tex",
+      "sha256": "492ca48ec1e73566eb5f7423909be8d9847af93a911ea0939c5e74e36d40e31f"
+    },
+    {
+      "path": "paper_www2027\\sections\\problem.tex",
+      "sha256": "fb61b728fb29a0a2ee71835f403a1f348c00a661c473b241a510b9fb7801ab32"
+    },
+    {
+      "path": "paper_www2027\\sections\\related_work.tex",
+      "sha256": "daea041357fdcf30a26b59e0e90e44827030a7fe7972a890e1ffa901e581871b"
+    },
+    {
+      "path": "paper_www2027\\sections\\results.tex",
+      "sha256": "75f89f122d2ca14766ff0ea082556db41075488f81748daeb91d25035d9e4d32"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure1_same_product.pdf",
+      "sha256": "ba5fc3c96b327d0e84884400544a6aa5dfb709efc9e0bb91329412144f2203ed"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure1_target_only.pdf",
+      "sha256": "2f86c0f6ff12d52803b907b7fc4c8bc0317379fcc555ed41d1919511c9574fbb"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure2_cross_model_vi.pdf",
+      "sha256": "55a06ece9a5694d550a587950779cdfbd4e51498b030eaca9ebae28dc9673939"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure3_reranker_pipeline.pdf",
+      "sha256": "ea2b2cfb0db47815a5af231ec8f84ab2965a443be3db9bee92c5cdd2f90b7bf2"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure4_pareto.pdf",
+      "sha256": "c838846cc13774f68786190cd3ac8638fcbad498b1bcfa884b84e6b2ac8032b0"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure5_target_cutoffs.pdf",
+      "sha256": "0fe64baac40cd1ff49d9ceffb03f00bb168255b6b4c9d6b3a293737c12cfe802"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure6_effectiveness_intervals.pdf",
+      "sha256": "8033a698bb53595f5fff74a2372c2fa9e2e5ac98c96062c16250e5f0ec6288b5"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure1_target_only_source.csv",
+      "sha256": "a35aaf3c4d8b194558a05d672e7671bdc11e758ee2cbeff7ad35aad36ac23a59"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure5_target_cutoffs_source.csv",
+      "sha256": "aef6dfbc4714b94d056672466f0a09f35a34c1437dbc1d04aeed3ec49ee3e937"
+    },
+    {
+      "path": "paper_www2027\\figures\\figure6_effectiveness_intervals_source.csv",
+      "sha256": "8da0936663c46740d459f8f99197a941d7cf5c79814f004067db12b8d5710f29"
+    },
+    {
+      "path": "paper_www2027\\main.pdf",
+      "sha256": "ae19d03c2a366b57166979a179736585416acf99521d8d3af05a969fc5e668eb"
+    },
+    {
+      "path": "paper_www2027\\supplementary.pdf",
+      "sha256": "2ca9ce536c964ac535236955f2ecb231c19a044197d1835368262418a7456fdc"
+    },
+    {
+      "path": "paper_www2027\\RESULT_PROVENANCE.md",
+      "sha256": "e698b39c34f115d418024532a4c59562516bf6f7e8f2e5938d898b8d8f29748c"
+    },
+    {
+      "path": "EXPANDED_PRESENTATION_NOTES.md",
+      "sha256": "f386f8086d903f03a783a823f8a0562674a6278f5aadc67b7cf93a4db8ccaecb"
+    }
+  ]
+}

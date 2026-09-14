@@ -1,0 +1,858 @@
+PHASE VI-B — TRAINING-SCALE AND VALUE-PRESERVING INVARIANT REPRESENTATIONS
+
+Important scientific objective
+==============================
+
+This is a reinforcement experiment for Phase VI.
+
+Do NOT invent additional architectures.
+
+The purpose is to answer one specific question:
+
+    Did the Phase VI invariant architectures fail because the
+    architecture is unsuitable, or because the training regime was
+    too small and the new output projections failed to preserve the
+    pretrained BGE retrieval geometry?
+
+Phase VI used only 546 supervised triples.
+
+The new Set Transformer / DeepSets architectures introduced substantial
+randomly initialized projection/output mappings, whereas the older
+Set-Attention preserved the original frozen BGE field value vectors directly.
+
+Phase VI showed:
+- Set-Attention Recall@100 = 62.173
+- DeepSets Recall@100 = 60.795
+- Set Transformer Recall@100 = 55.097
+- Original Recall@100 = 63.620
+- Canonical Recall@100 = 63.237
+
+All invariant methods achieved approximately zero VI.
+
+Training loss often continued decreasing while development retrieval degraded,
+and most selected checkpoints occurred at epoch 1.
+
+Phase VI-B therefore tests:
+
+1. more supervision;
+2. stronger negative training;
+3. residual/value-preserving initialization;
+4. whether structural invariance can approach Original/Canonical retrieval
+   effectiveness when training is no longer severely data-limited.
+
+==================================================
+1. DO NOT MODIFY THE ORIGINAL PHASE VI RESULTS
+==================================================
+
+Treat the existing Phase VI artifacts as frozen historical results.
+
+Do NOT overwrite:
+- phase6 checkpoints;
+- phase6 candidate logs;
+- PHASE6_REPORT.md;
+- PHASE6_RESULTS.csv;
+- Phase VI rank files.
+
+Create a new directory:
+
+    phase6b/
+
+All Phase VI-B outputs must live there.
+
+The prior negative result must remain reproducible.
+
+==================================================
+2. PRIMARY METHODS
+==================================================
+
+Only study:
+
+B1. DeepSets
+B2. Set Transformer
+
+Do NOT continue:
+- Circular Projection;
+- Set Transformer + Field-ID;
+- PI-FT;
+- consistency loss;
+- new ring variants;
+- new architecture search.
+
+Reason:
+
+DeepSets had the strongest new Phase VI test result.
+Set Transformer is retained because it explicitly models cross-field
+interaction.
+
+==================================================
+3. CORE HYPOTHESES
+==================================================
+
+H1 — Training-scale hypothesis
+------------------------------
+
+546 triples may be insufficient to train a new invariant aggregation network
+into the pretrained BGE retrieval space.
+
+Increasing the number and diversity of supervised query-product comparisons
+may improve retrieval without affecting structural invariance.
+
+
+H2 — Retrieval-space preservation hypothesis
+---------------------------------------------
+
+Phase VI required the new models to learn a new 768-dimensional output mapping.
+
+Instead, an invariant model should begin near an existing useful BGE-derived
+representation and learn only a corrective residual.
+
+Test:
+
+    v_base(p)
+
+    delta(p) = invariant_network(fields)
+
+    v_final(p) =
+        normalize(
+            v_base(p) + alpha * delta(p)
+        )
+
+where alpha is either learned or initialized small.
+
+This provides an identity/value-preserving path.
+
+
+H3 — Stronger contrastive supervision hypothesis
+-------------------------------------------------
+
+One-positive / one-negative triples may provide too weak a ranking signal.
+
+Test in-batch or multi-negative contrastive learning using the same permitted
+training judgments.
+
+==================================================
+4. TRAINING DATA EXPANSION
+==================================================
+
+First inspect the current WANDS training split carefully.
+
+Report before training:
+
+- number of training queries;
+- number of Exact products;
+- number of Partial products;
+- number of explicitly Irrelevant products;
+- number of available judged query-product pairs;
+- current source of the 546 triples.
+
+Do NOT use development or held-out test judgments for training.
+
+Construct an expanded training set using only the existing TRAINING query IDs.
+
+Primary positives:
+    Exact relevance products.
+
+Negatives:
+    explicitly judged Irrelevant products.
+
+Optional secondary negatives:
+    Partial relevance items may be used only if the loss formulation clearly
+    distinguishes them from Irrelevant and this is prespecified before test.
+
+Do not silently treat unjudged products as irrelevant.
+
+==================================================
+5. TRAINING SET VARIANTS
+==================================================
+
+Create controlled supervision-scale experiments.
+
+At minimum:
+
+T0:
+    existing 546 triples
+
+T1:
+    expanded judged training set
+
+T2:
+    expanded training set + multi-negative / in-batch negatives
+
+If the expanded set is very large, define a deterministic cap and document it.
+
+Use deterministic random seeds.
+
+The purpose is to observe a training-scale trend, not to exhaustively tune data
+sampling.
+
+==================================================
+6. RESIDUAL / VALUE-PRESERVING ARCHITECTURE
+==================================================
+
+This is the most important Phase VI-B modification.
+
+For both DeepSets and Set Transformer, retain the existing invariant attribute
+aggregator but change the final representation path.
+
+Define an existing strong invariant/base representation.
+
+Primary base:
+
+    v_base = Set-Attention representation
+
+Alternative diagnostic base:
+
+    v_base = Set-Mean representation
+
+Do NOT use Original flattened serialization as the primary residual base,
+because that would reintroduce order sensitivity.
+
+For the learned invariant branch:
+
+    delta_attr = invariant_network(attribute_embeddings)
+
+Map it to 768 dimensions.
+
+Then:
+
+    v_attr =
+        normalize(
+            v_base_attr + alpha * delta_attr
+        )
+
+Preferred alpha initialization:
+
+    alpha = 0.05
+
+or:
+
+    alpha = sigmoid(beta)
+    with beta initialized so alpha approximately 0.05
+
+The network must therefore start close to the existing useful invariant
+representation rather than from a random retrieval vector.
+
+An even safer alternative is:
+
+    v_attr =
+        normalize(
+            (1 - alpha) * v_base_attr
+            + alpha * v_learned_attr
+        )
+
+with alpha initialized near zero.
+
+Choose one primary formulation before inspecting test results.
+
+Document the exact formula.
+
+==================================================
+7. IMPORTANT INITIALIZATION CHECK
+==================================================
+
+Before training, verify the epoch-0 model.
+
+For each residual model report:
+
+    Recall@100 at initialization
+    VI@20
+    VI@100
+    Robust@100
+
+The initialized model should be close to its base representation.
+
+Example expectation:
+
+Residual DeepSets initialized from Set-Attention should have Recall@100
+approximately near 62.173, not collapse to ~50%.
+
+If initialization causes a major retrieval drop before training:
+
+    STOP.
+
+Fix the implementation before training.
+
+This check is mandatory.
+
+==================================================
+8. DEEPSETS VARIANTS
+==================================================
+
+Only compare:
+
+D0:
+    existing Phase VI DeepSets
+
+D1:
+    residual DeepSets + existing 546 triples
+
+D2:
+    residual DeepSets + expanded training set
+
+D3:
+    residual DeepSets + expanded training + multi-negative training
+
+Do NOT perform a large architecture search.
+
+Reuse the existing hidden dimensions initially.
+
+==================================================
+9. SET TRANSFORMER VARIANTS
+==================================================
+
+Only compare:
+
+S0:
+    existing Phase VI Set Transformer
+
+S1:
+    residual Set Transformer + existing 546 triples
+
+S2:
+    residual Set Transformer + expanded training set
+
+S3:
+    residual Set Transformer + expanded training + multi-negative training
+
+Use the same Phase VI Set Transformer block initially:
+
+- one self-attention block;
+- four heads;
+- PMA-style pooling;
+- no positional encoding.
+
+Do not add more blocks unless Phase VI-B clearly shows data scaling success and
+a further architecture study is scientifically justified.
+
+==================================================
+10. MULTI-NEGATIVE TRAINING
+==================================================
+
+Preferred:
+
+For a batch of B query-positive pairs:
+
+    q_i
+    p_i+
+
+other positives in the batch may serve as negatives only when they are not
+known relevant to q_i.
+
+Do not create false negatives.
+
+Alternatively use multiple explicitly Irrelevant judged products per query.
+
+Use a contrastive / InfoNCE-style objective or a multi-negative extension of
+the existing pairwise loss.
+
+Document:
+
+- temperature;
+- effective negatives/query;
+- treatment of duplicate products;
+- relevance masking.
+
+==================================================
+11. TRAINING SCALE
+==================================================
+
+The Phase VI-B experiment should allow more learning than Phase VI, but remain
+bounded.
+
+Suggested:
+
+    max epochs = 20
+
+    patience = 4 or 5
+
+Learning rates:
+
+    1e-4
+    3e-4
+
+Optionally retain 1e-3 only as a historical comparison if cheap.
+
+Do not conduct a broad LR grid.
+
+Use:
+    AdamW
+    gradient clipping
+
+Record:
+    train loss
+    development Recall@20
+    development Recall@100
+    development Robust@100
+
+for every epoch.
+
+==================================================
+12. DEVELOPMENT SELECTION
+==================================================
+
+Primary selection metric:
+
+    development Recall@100
+
+Secondary:
+    Robust@100
+
+All structurally invariant models should already have VI approximately zero.
+
+Do NOT select using test results.
+
+Important:
+development has relatively few Exact-eligible queries.
+
+Therefore retain the complete development curve rather than relying only on
+one checkpoint number.
+
+==================================================
+13. SCALE CURVE
+==================================================
+
+This is mandatory and scientifically important.
+
+For the strongest residual architecture, train using approximately:
+
+    25%
+    50%
+    100%
+
+of the expanded training examples.
+
+Use deterministic subsets nested by hash order.
+
+Report:
+
+    training examples
+    Recall@100
+    Robust@100
+
+The purpose is to answer:
+
+    Is retrieval effectiveness still improving as supervision increases?
+
+If there is a clear upward trend, this supports the training-scale hypothesis.
+
+If performance saturates far below Canonical despite more data, architecture /
+representation limitations become more plausible.
+
+Do not extrapolate beyond the observed range.
+
+==================================================
+14. INVARIANCE VERIFICATION
+==================================================
+
+Reuse Phase VI's strong invariance tests.
+
+Every residual model must satisfy:
+
+    max L2 <= 1e-5
+
+over reordered attribute sets.
+
+Run:
+- sampled permutation verification;
+- full catalog schedule audit for selected models.
+
+Because the residual base itself must be invariant, the entire representation
+must remain invariant.
+
+If VI becomes nonzero due to architecture logic rather than floating-point
+ties, debug before proceeding.
+
+==================================================
+15. PRIMARY TEST METRICS
+==================================================
+
+For final development-selected models report:
+
+    Recall@20
+    Recall@100
+    VI@20
+    VI@100
+    Robust@100
+    Never@100
+    worst-schedule Recall@100
+
+Compare against:
+
+    Original
+    Canonical
+    Set-Mean
+    Set-Attention
+    Phase VI DeepSets
+    Phase VI Set Transformer
+
+==================================================
+16. STATISTICAL COMPARISONS
+==================================================
+
+Use paired query bootstrap:
+
+    10,000 draws
+
+Report Delta Recall@100 for the best Phase VI-B models versus:
+
+    Original
+    Canonical
+    Set-Mean
+    Set-Attention
+    corresponding Phase VI architecture
+
+Also report:
+
+    Delta Robust@100
+    Delta Never@100
+
+Do not claim equivalence because a CI crosses zero.
+
+==================================================
+17. FULLY-FITTING SUBSET
+==================================================
+
+Reuse the exact existing fully-fitting support.
+
+Do not redefine it.
+
+Phase V/VI showed that invariant field methods behave differently on this
+subset.
+
+Report all primary metrics.
+
+Do not interpret the subset as a causal truncation decomposition.
+
+==================================================
+18. TARGET-ONLY ANALYSIS
+==================================================
+
+Only run target-only for a Phase VI-B model if it passes the development gate.
+
+Use the existing protocol.
+
+Report:
+
+    Inclusion@20
+    Inclusion@100
+    VI@20
+    VI@100
+    Robust@100
+    Never@100
+
+Clearly state competitor definition.
+
+==================================================
+19. SUCCESS CRITERIA
+==================================================
+
+Strong success:
+
+    VI@20 ~= 0
+
+AND
+
+    Recall@100 >= Canonical (63.237%)
+
+preferably:
+
+    Recall@100 >= Original (63.620%)
+
+AND
+
+    Robust@100 >= Canonical
+
+Promising:
+
+    Recall@100 >= Set-Attention (62.173%)
+
+with development-supported improvement
+
+AND
+
+    exact / numerical invariance retained.
+
+Training-scale evidence:
+
+Even if Canonical is not reached, a clear monotonic improvement from:
+
+    25% -> 50% -> 100%
+
+would justify the statement that Phase VI was supervision-limited.
+
+Failure:
+
+- residual initialization works but additional training does not improve;
+- scale curve saturates below Set-Attention;
+- more data only overfits;
+- zero VI comes with persistent Recall / Never degradation.
+
+==================================================
+20. IMPORTANT SCIENTIFIC DISTINCTION
+==================================================
+
+Separate these hypotheses:
+
+A.
+"Permutation-invariant architectures are ineffective."
+
+Do NOT claim this.
+
+B.
+"The Phase VI implementations failed under a very small supervised regime."
+
+Already supported.
+
+C.
+"More supervision and retrieval-space-preserving initialization recover the
+lost effectiveness."
+
+This is what Phase VI-B tests.
+
+Only claim C if the new results support it.
+
+==================================================
+21. REQUIRED ABLATION TABLE
+==================================================
+
+Create:
+
+Table VI-B1 — Training regime and residual initialization
+
+Columns:
+
+Method
+Residual Base
+Training Examples
+Negatives/query
+Epoch
+Recall@20
+Recall@100
+VI@20
+Robust@100
+Never@100
+
+Rows should include:
+
+Set-Attention
+Phase-VI DeepSets
+Residual DeepSets T0
+Residual DeepSets T1
+Residual DeepSets T2
+Phase-VI Set Transformer
+Residual Set Transformer T0
+Residual Set Transformer T1
+Residual Set Transformer T2
+
+==================================================
+22. REQUIRED SCALE TABLE
+==================================================
+
+Table VI-B2 — Supervision scaling
+
+Columns:
+
+Method
+Training Fraction
+Examples
+Recall@100
+Robust@100
+Never@100
+
+Use nested:
+
+25%
+50%
+100%
+
+training subsets.
+
+==================================================
+23. REQUIRED FIGURE
+==================================================
+
+Produce one learning/scaling plot.
+
+x-axis:
+    number of training examples
+
+y-axis:
+    development Recall@100
+
+Lines:
+    residual DeepSets
+    residual Set Transformer
+
+Also show horizontal references:
+
+    Set-Attention
+    Canonical
+
+Do not infer asymptotic performance beyond measured points.
+
+==================================================
+24. FAILURE DIAGNOSTICS
+==================================================
+
+For every selected model retain:
+
+- epoch-by-epoch training loss;
+- development Recall;
+- gradient norms;
+- alpha/residual coefficient evolution;
+- norm of base vector;
+- norm of learned residual;
+- cosine similarity between final representation and base representation.
+
+Report:
+
+    mean cosine(final, base)
+
+This is important.
+
+We need to know whether training gently corrects the pretrained representation
+or destroys it.
+
+==================================================
+25. CRITICAL RESIDUAL ANALYSIS
+==================================================
+
+For the final model report the distribution of:
+
+    alpha
+or equivalent residual magnitude.
+
+If possible report:
+
+    ||delta|| / ||base||
+
+and
+
+    cosine(v_final, v_base)
+
+for catalog products.
+
+Interpretation:
+
+Very large residuals + falling Recall:
+    likely loss of pretrained geometry.
+
+Small residuals + improved Recall:
+    strong evidence for value-preserving correction.
+
+==================================================
+26. TRAINING DATA AUDIT
+==================================================
+
+Before concluding that "more data helps" or "more data does not help", report:
+
+- unique queries;
+- unique positive products;
+- unique negative products;
+- examples/query;
+- repeated products across queries;
+- relevance-label distribution.
+
+Do not report only the total number of triples.
+
+==================================================
+27. OUTPUT FILES
+==================================================
+
+Create:
+
+    phase6b/PHASE6B_REPORT.md
+    phase6b/PHASE6B_RESULTS.csv
+    phase6b/PHASE6B_SCALE.csv
+    phase6b/PHASE6B_BOOTSTRAP.csv
+    phase6b/PHASE6B_INVARIANCE.json
+    phase6b/PHASE6B_CONFIG.json
+    phase6b/PHASE6B_TRAINING_AUDIT.json
+    phase6b/FINAL_DELIVERY_MANIFEST.json
+
+Preserve checkpoints and per-epoch logs.
+
+==================================================
+28. FINAL REPORT QUESTIONS
+==================================================
+
+PHASE6B_REPORT.md must explicitly answer:
+
+Q1.
+Was Phase VI primarily limited by training supervision?
+
+Q2.
+Does residual/value-preserving initialization materially improve DeepSets?
+
+Q3.
+Does it materially improve Set Transformer?
+
+Q4.
+Does increasing training supervision show a consistent positive scaling trend?
+
+Q5.
+Does multi-negative training improve retrieval effectiveness?
+
+Q6.
+Can any structurally invariant model match Set-Attention?
+
+Q7.
+Can any model match Canonical?
+
+Q8.
+Can any model match Original while maintaining near-zero VI?
+
+Q9.
+Does residual learning preserve pretrained BGE geometry?
+
+Q10.
+Should any learned invariant model enter the WWW main paper?
+
+==================================================
+29. FINAL DECISION
+==================================================
+
+Choose exactly one:
+
+A. PHASE VI FAILURE CONFIRMED
+Even with better supervision and value-preserving initialization, learned
+invariant methods do not provide a competitive effectiveness-robustness
+trade-off.
+
+B. TRAINING REGIME WAS THE MAIN LIMITATION
+Performance substantially improves with more supervision, but remains below
+Canonical / Original.
+
+C. LEARNED INVARIANT BASELINE IS NOW COMPETITIVE
+At least one method matches or exceeds Set-Attention while preserving
+invariance.
+
+D. STRONG SOLUTION FOUND
+A method matches/exceeds Canonical or Original with near-zero VI and warrants
+cross-dataset / cross-encoder confirmation.
+
+Do not choose D based only on test point estimates.
+
+==================================================
+30. STOPPING RULE
+==================================================
+
+Do not expand Phase VI-B into another architecture search.
+
+If residual DeepSets and residual Set Transformer both remain clearly below
+Set-Attention after the full expanded training set:
+
+    STOP.
+
+Do not invent Phase VI-C variants.
+
+If one method matches or exceeds Canonical on DEVELOPMENT:
+
+    run additional seeds 43 and 44 before making any strong claim.
+
+If additional seeds confirm the gain:
+
+    recommend a separately frozen cross-dataset confirmation phase.
+
+The scientific question is whether training scale / representation alignment
+explains Phase VI, not how many architectures can be tried.

@@ -1,0 +1,15 @@
+\begin{table}[t]
+\caption{Fixed BGE strategies. R100 is query-macro highest-label recall; cN is cNDCG@10. W/E denote held-out WANDS and the historical ESCI union. ESCI uses benchmark-standard gains.}
+\label{tab:recall_main}
+\centering\small
+\begin{tabular}{lrrrr}\toprule
+Method & R100 W & R100 E & cN W & cN E\\\midrule
+Original & 0.632 & 0.910 & 0.825 & 0.736\\
+BM25 & 0.632 & 0.828 & 0.787 & 0.706\\
+BM25 + dense & 0.681 & 0.915 & 0.827 & 0.727\\
+Raw sort & 0.632 & 0.910 & 0.823 & 0.738\\
+Canonical template & 0.633 & 0.913 & 0.803 & 0.742\\
+Set mean & 0.618 & 0.890 & 0.815 & 0.733\\
+Appearance-first & 0.631 & 0.911 & 0.823 & 0.738\\
+\bottomrule\end{tabular}
+\end{table}

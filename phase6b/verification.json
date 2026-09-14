@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "verified_utc": "2026-09-11T07:30:32.561108+00:00",
+  "historical_files_unchanged": true,
+  "train_only_judgments_verified": true,
+  "nested_subsets_verified": true,
+  "selected_models": 14,
+  "candidate_runs": 20,
+  "epoch_zero_selections": 14,
+  "independent_regenerated_ranks_verified": true,
+  "full_catalog_schedules_per_model": 7,
+  "test_not_used_for_selection": true,
+  "initial_test_identity_guard_disclosed": true,
+  "bootstrap_interval_reproduced": true,
+  "bootstrap_rows": 384,
+  "result_rows": 60,
+  "scale_rows": 12,
+  "residual_unit_tests_passed": 5,
+  "targets_run": 0,
+  "selection_sha256": "23c472a9e266da6c2dc6bc41b0fc383f9ea8c5a694ac8ee8258054745be1b1a6"
+}

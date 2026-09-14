@@ -1,0 +1,7 @@
+{
+  "ESCI": {"E": 1.0, "S": 0.1, "C": 0.01, "I": 0.0},
+  "WANDS": {"Exact": 3.0, "Partial": 1.0, "Irrelevant": 0.0},
+  "source": "Reddy et al. 2022, Section 3.1, https://arxiv.org/pdf/2206.06588",
+  "legacy_ESCI": {"E": 1.0, "C": 0.1, "S": 0.01, "I": 0.0},
+  "note": "Pinned official training code agrees with the paper; qrels/shell evaluation path reverses S/C. Preserve this discrepancy in the audit."
+}

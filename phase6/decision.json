@@ -1,0 +1,6 @@
+{
+  "decision": "A. KEEP CURRENT DIAGNOSIS PAPER",
+  "rationale": "All core development gates failed; exact invariance did not preserve effectiveness",
+  "report_generated_utc": "2026-09-10T23:17:05.595235+00:00",
+  "selection_sha256": "e0789df7e53bca1b53b13c18261fe3d626d1eec57f114be5a5b582da5b7908a9"
+}

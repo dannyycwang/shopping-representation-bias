@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_recomputation_matches_phase2": true,
+  "new_SAR_lambda0_equals_relevance_component": true,
+  "SAR_lambda0_matches_after_fix": true,
+  "resolved_SAR_issue": "the former inner join restricted cNDCG to highest-label-eligible queries; SAR now left-joins VI and assigns zero penalty when no highest-label pair exists",
+  "cells": 6,
+  "max_absolute_primary_difference": 1.1102230246251565e-16
+}

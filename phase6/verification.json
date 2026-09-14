@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "frozen_sources_unchanged": true,
+  "selection_is_development_only": true,
+  "candidate_runs": 8,
+  "selected_models": 4,
+  "result_rows": 34,
+  "bootstrap_rows": 348,
+  "paired_bootstrap_reproduced": true,
+  "unit_tests_passed": 13,
+  "target_numerical_audit": [
+    {
+      "method": "S3_s42",
+      "pairs": 21299,
+      "queries": 308,
+      "changed_pair_schedule_ranks": 34,
+      "Inclusion100": 59.06768272586933,
+      "VI20": 0.0,
+      "VI100": 0.0
+    }
+  ],
+  "config_sha256": "b0adea11b1277a6abf34505120329a27a38e59f7d0448335982bbf0394c0f864",
+  "selection_sha256": "e0789df7e53bca1b53b13c18261fe3d626d1eec57f114be5a5b582da5b7908a9"
+}

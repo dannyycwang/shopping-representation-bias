@@ -1,0 +1,118 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{Abstract}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Target-only intervention: same product, facts, competitors, query, and model. Only the target attribute order changes, moving it from rank 5 to 1,527. All competitors remain in C0; this differs from catalog-wide permutations.}}{1}{figure.caption.5}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:example}{{1}{1}{Target-only intervention: same product, facts, competitors, query, and model. Only the target attribute order changes, moving it from rank 5 to 1,527. All competitors remain in C0; this differs from catalog-wide permutations}{figure.caption.5}{}}
+\citation{robertson2009bm25,reimers2019sentencebert,karpukhin2020dpr,nogueira2019passage}
+\citation{choi2020semantic}
+\citation{loughnane2024attributes}
+\citation{chen2022wands,reddy2022shopping}
+\citation{xiao2024cpack,li2023gte}
+\citation{aggarwal2024geo}
+\citation{bagga2025egeo}
+\citation{kim2026sageo}
+\citation{goren2020ranking}
+\citation{macavaney2022abnirml}
+\citation{hessel2021order,abdou2022wordorder,papadimitriou2022role}
+\citation{liu2024robustnir}
+\citation{yang2022tableformer}
+\citation{bhandari2026tabular}
+\citation{joachims2017unbiased,singh2018fairness}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Neural Product Retrieval}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Content and Visibility Optimization}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Representation and Serialization Robustness}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Formulation}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Representation Robustness for Web Items}{2}{subsection.3.1}\protected@file@percent }
+\citation{jarvelin2002cumulated,sakai2008alternatives}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Representation-Induced Visibility Instability}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}What the Instability Estimator Measures}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Framework}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Fact-Equivalent Interventions}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Two-Stage Pipeline Diagnosis}{4}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Proof-of-Concept Invariant Representation}{4}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Intervention Logic and Controls}{4}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Setup}{4}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Datasets and Relevance}{4}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Retrievers and Ranking Pipeline}{5}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Metrics, Inference, and Integrity}{5}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Reading the Evaluation Populations}{5}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{5}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}RQ1: Does Representation Alter Product Visibility?}{5}{subsection.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Equivalent attribute orders change visibility across general and e-commerce-specific retrievers. Error bars are 95\% query-bootstrap confidence intervals; the dashed line marks the 1\% preregistered floor.}}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:crossmodel}{{2}{6}{Equivalent attribute orders change visibility across general and e-commerce-specific retrievers. Error bars are 95\% query-bootstrap confidence intervals; the dashed line marks the 1\% preregistered floor}{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces WANDS catalog-wide encoding controls. Entries are pair-micro VI@20 percentages. Chunk sizes and overlap are in tokens; pooling specifies the within-chunk rule. These are configuration checks, not separately trained retrievers.}}{6}{table.caption.8}\protected@file@percent }
+\newlabel{tab:encodingcontrols}{{1}{6}{WANDS catalog-wide encoding controls. Entries are pair-micro VI@20 percentages. Chunk sizes and overlap are in tokens; pooling specifies the within-chunk rule. These are configuration checks, not separately trained retrievers}{table.caption.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{What the encoding controls rule out.}{6}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}RQ2: Are Human-Relevant Products Materially Affected?}{6}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Boundary sensitivity with fixed competitors.}{6}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{The motivating example across all tested orders.}{6}{section*.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Target-only sensitivity at three visibility boundaries. Each target changes independently; every competitor remains in C0. Points are pair-micro rates, not query-bootstrap estimates. Connecting lines guide the eye and do not interpolate a failure probability.}}{7}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:targetcutoffs}{{3}{7}{Target-only sensitivity at three visibility boundaries. Each target changes independently; every competitor remains in C0. Points are pair-micro rates, not query-bootstrap estimates. Connecting lines guide the eye and do not interpolate a failure probability}{figure.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces All orders for the Exact-relevant turquoise chair (MiniLM). Target-only competitors stay in C0. Positive $\Delta $ means a worse rank than target C0.}}{7}{table.caption.12}\protected@file@percent }
+\newlabel{tab:caseorders}{{2}{7}{All orders for the Exact-relevant turquoise chair (MiniLM). Target-only competitors stay in C0. Positive $\Delta $ means a worse rank than target C0}{table.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}RQ3: Can a Later Ranking Stage Repair the Effect?}{7}{subsection.6.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Reranking attenuates instability among common candidates (left), but products omitted by first-stage top-100 retrieval are unavailable to the reranker (right).}}{7}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:pipeline}{{4}{7}{Reranking attenuates instability among common candidates (left), but products omitted by first-stage top-100 retrieval are unavailable to the reranker (right)}{figure.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Two-stage BGE--cross-encoder pipeline. VI is query-macro VI@20 on candidates common to all representation pools; loss is query-macro Irrecoverable@100. All values are percentages.}}{7}{table.caption.14}\protected@file@percent }
+\newlabel{tab:pipeline}{{3}{7}{Two-stage BGE--cross-encoder pipeline. VI is query-macro VI@20 on candidates common to all representation pools; loss is query-macro Irrecoverable@100. All values are percentages}{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Candidate coverage under catalog-wide BGE permutations. ``Some only'' is ever retrieved minus common to all pools. The conditional loss divides that count by ever retrieved; it is distinct from the all-highest and query-macro rates.}}{8}{table.caption.16}\protected@file@percent }
+\newlabel{tab:coverage}{{4}{8}{Candidate coverage under catalog-wide BGE permutations. ``Some only'' is ever retrieved minus common to all pools. The conditional loss divides that count by ever retrieved; it is distinct from the all-highest and query-macro rates}{table.caption.16}{}}
+\@writefile{toc}{\contentsline {paragraph}{How many pairs are excluded from the common-pool analysis?}{8}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}RQ4: Can Robustness Improve Without Sacrificing Relevance?}{8}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Robustness--relevance comparison with BGE. Values are cNDCG@10; parentheses show paired change from Original. WANDS contains the held-out 80\%. Macro VI is a percentage.}}{8}{table.caption.17}\protected@file@percent }
+\newlabel{tab:mitigation}{{5}{8}{Robustness--relevance comparison with BGE. Values are cNDCG@10; parentheses show paired change from Original. WANDS contains the held-out 80\%. Macro VI is a percentage}{table.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Robustness--relevance frontier. Lower VI and higher cNDCG are preferred. Effectiveness intervals for all variants appear in Figure\nonbreakingspace \ref {fig:effectivenessci}.}}{8}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:pareto}{{5}{8}{Robustness--relevance frontier. Lower VI and higher cNDCG are preferred. Effectiveness intervals for all variants appear in Figure~\ref {fig:effectivenessci}}{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {paragraph}{Inspecting the effectiveness uncertainty.}{8}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{What the negative variants teach us.}{8}{section*.21}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Paired effectiveness changes relative to Original, with stored 95\% confidence intervals. The dashed line denotes zero change, not an equivalence margin. Set mean is highlighted; the late-aggregation negative results remain visible.}}{9}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:effectivenessci}{{6}{9}{Paired effectiveness changes relative to Original, with stored 95\% confidence intervals. The dashed line denotes zero change, not an equivalence margin. Set mean is highlighted; the late-aggregation negative results remain visible}{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Discussion}{9}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}From Product Retrieval to Web Visibility Robustness}{9}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Scope of the Visibility Claim}{9}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Limitations}{10}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Reproducibility}{10}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}An Evaluation Practice for Structured Web Retrieval}{10}{subsection.7.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{10}{section.8}\protected@file@percent }
+\bibstyle{ACM-Reference-Format}
+\bibdata{references}
+\bibcite{abdou2022wordorder}{{1}{2022}{{Abdou et~al\mbox  {.}}}{{}}}
+\bibcite{aggarwal2024geo}{{2}{2024}{{Aggarwal et~al\mbox  {.}}}{{}}}
+\bibcite{bagga2025egeo}{{3}{2025}{{Bagga et~al\mbox  {.}}}{{}}}
+\bibcite{bhandari2026tabular}{{4}{2026}{{Bhandari et~al\mbox  {.}}}{{}}}
+\bibcite{chen2022wands}{{5}{2022}{{Chen et~al\mbox  {.}}}{{}}}
+\bibcite{choi2020semantic}{{6}{2020}{{Choi et~al\mbox  {.}}}{{}}}
+\bibcite{goren2020ranking}{{7}{2020}{{Goren et~al\mbox  {.}}}{{}}}
+\bibcite{hessel2021order}{{8}{2021}{{Hessel and Schofield}}{{}}}
+\bibcite{joachims2017unbiased}{{9}{2017}{{Joachims et~al\mbox  {.}}}{{}}}
+\bibcite{jarvelin2002cumulated}{{10}{2002}{{J{ä}rvelin and Kek{ä}l{ä}inen}}{{}}}
+\bibcite{karpukhin2020dpr}{{11}{2020}{{Karpukhin et~al\mbox  {.}}}{{}}}
+\bibcite{kim2026sageo}{{12}{2026}{{Kim et~al\mbox  {.}}}{{}}}
+\bibcite{li2023gte}{{13}{2023}{{Li et~al\mbox  {.}}}{{}}}
+\bibcite{liu2024robustnir}{{14}{2024}{{Liu et~al\mbox  {.}}}{{}}}
+\bibcite{loughnane2024attributes}{{15}{2024}{{Loughnane et~al\mbox  {.}}}{{}}}
+\bibcite{macavaney2022abnirml}{{16}{2022}{{MacAvaney et~al\mbox  {.}}}{{}}}
+\bibcite{nogueira2019passage}{{17}{2019}{{Nogueira and Cho}}{{}}}
+\bibcite{papadimitriou2022role}{{18}{2022}{{Papadimitriou et~al\mbox  {.}}}{{}}}
+\bibcite{reddy2022shopping}{{19}{2022}{{Reddy et~al\mbox  {.}}}{{}}}
+\bibcite{reimers2019sentencebert}{{20}{2019}{{Reimers and Gurevych}}{{}}}
+\bibcite{robertson2009bm25}{{21}{2009}{{Robertson and Zaragoza}}{{}}}
+\bibcite{sakai2008alternatives}{{22}{2008}{{Sakai and Kando}}{{}}}
+\bibcite{singh2018fairness}{{23}{2018}{{Singh and Joachims}}{{}}}
+\bibcite{xiao2024cpack}{{24}{2024}{{Xiao et~al\mbox  {.}}}{{}}}
+\bibcite{yang2022tableformer}{{25}{2022}{{Yang et~al\mbox  {.}}}{{}}}
+\newlabel{tocindent-1}{0pt}
+\newlabel{tocindent0}{0pt}
+\newlabel{tocindent1}{6.25499pt}
+\newlabel{tocindent2}{12.41998pt}
+\newlabel{tocindent3}{0pt}
+\newlabel{tocindent4}{0pt}
+\newlabel{tocindent5}{0pt}
+\@writefile{toc}{\contentsline {section}{References}{11}{section*.23}\protected@file@percent }
+\newlabel{TotPages}{{11}{11}{}{page.11}{}}
+\gdef \@abspage@last{11}

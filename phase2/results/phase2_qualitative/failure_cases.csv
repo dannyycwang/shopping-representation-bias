@@ -1,0 +1,11 @@
+dataset,retriever,representation,query_id,query,product_id,product_title,base_rank,single_product_rank,full_catalog_rank,base_to_single_delta
+wands,minilm,M2_normalized_attributes,63,monthly calendar,37003,wall mounted magnetic whiteboard,489,38677,35435,-38188
+wands,bge_base,M2_normalized_attributes,148,industrial,9943,paige 3 piece pine solid wood bracket shelf,4817,40378,42324,-35561
+wands,minilm,M2_normalized_attributes,63,monthly calendar,37004,"wall mounted magnetic whiteboard , 40 '' x 30 ''",164,33659,27142,-33495
+wands,bge_base,M2_normalized_attributes,149,mid century modern,23824,acevedo 90.5 '' square arm sofa,2172,32593,30787,-30421
+wands,bge_base,M2_normalized_attributes,153,bohemian,40698,humphrey southwestern gray area rug,2308,32709,35437,-30401
+esci,bge_base,M1_factual_field_sentence,23260,carol berkin,1285194810,"Making America: A History of the United States, Volume II: Since 1865",291,6855,6363,-6564
+esci,bge_base,M1_factual_field_sentence,23260,carol berkin,1285194802,"Making America: A History of the United States, Volume I: To 1877",1053,7540,7083,-6487
+esci,minilm,M1_factual_field_sentence,47106,graphic novels for kids 9-12,1250317460,"Best Friends (Friends, 2)",2633,6542,5706,-3909
+esci,minilm,M2_normalized_attributes,47106,graphic novels for kids 9-12,1250317460,"Best Friends (Friends, 2)",2633,6103,5635,-3470
+esci,bge_base,M1_factual_field_sentence,23260,carol berkin,1285194799,Making America: A History of the United States,340,3759,3218,-3419

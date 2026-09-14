@@ -1,0 +1,21 @@
+{
+  "name": "D_T0_s43_lr0.0001",
+  "family": "D",
+  "architecture": "DeepSets",
+  "regime": "T0",
+  "seed": 43,
+  "lr": 0.0001,
+  "best_epoch": 0,
+  "epochs_run": 4,
+  "examples": 546,
+  "mean_negatives": 1.0,
+  "dev_recall100": 0.7958391265413322,
+  "dev_robust100": 0.7958391265413322,
+  "parameters": 593921,
+  "frozen_base_parameters": 98561,
+  "config_sha256": "03543514251a1e79e6059fb5acab48e6567a42c44e37977e4260e394fa245ec8",
+  "weights_sha256": "2c8d52e82f9faefb8f06d73197984a0cf72fd7282d7281ac9de166b9ef0205c4",
+  "test_used_for_selection": false,
+  "completed_utc": "2026-09-11T06:51:40.616918+00:00",
+  "wall_seconds": 15.406000000191852
+}

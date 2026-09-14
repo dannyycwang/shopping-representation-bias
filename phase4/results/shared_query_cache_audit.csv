@@ -1,0 +1,3 @@
+dataset,query_embedding_max_abs_difference,reconstructed_historical_score_max_error,shared_query_score_max_difference,scope
+wands,0.0006561875343322754,1.7881393432617188e-07,0.0003292560577392578,historical set-mean used separately encoded queries; extension shares the frozen Original query matrix across methods; no historical ranks overwritten
+esci,0.0006135106086730957,2.384185791015625e-07,0.00022172927856445312,historical set-mean used separately encoded queries; extension shares the frozen Original query matrix across methods; no historical ranks overwritten

@@ -1,0 +1,37 @@
+\section{Discussion}
+
+\subsection{From Product Retrieval to Web Visibility Robustness}
+
+The experiments demonstrate a narrow mechanism with broader relevance. In e-commerce, fact-equivalent serialization is a causal input to whether a human-relevant item crosses a retrieval boundary. Standard relevance aggregates do not fully express this property because one relevant product can replace another while effectiveness remains similar. Representation robustness therefore merits separate evaluation whenever a Web pipeline converts structured content into model input.
+
+The mechanism may arise beyond commerce wherever unordered records are flattened into ordered text: job listings, hotel records, restaurant profiles, event pages, and other catalogs all mix fields with no canonical semantic sequence. We have not tested those domains and do not claim the same effect or magnitude there. They are plausible settings for future replication because they share the structural precondition, not because the present experiments establish external validity.
+
+For Web indexing, the immediate implication is procedural. Serializers, field templates, and feed transformations should be versioned and regression-tested alongside model weights and index parameters. An evaluation suite can retain equivalence sets for representative records and measure both relevance and Top-$K$ crossing. For multi-stage systems, it should inspect candidate generation explicitly: final-stage evaluation cannot reveal relevant content that never reached the reranker.
+
+Set aggregation illustrates one design response. It preserves sequence where order carries meaning, such as titles and descriptions, while treating schema-defined attributes as a set. The method increases offline indexing cost because attributes are encoded separately, although the resulting product vector remains compatible with standard nearest-neighbor retrieval. Its value here is diagnostic and proof-of-concept. Learned field-aware, set-encoding, or late-interaction models may reach a better relevance--robustness frontier.
+
+\subsection{Scope of the Visibility Claim}
+
+Retrieval visibility is an upstream opportunity, not realized exposure. Products may belong to merchants, but our data contain no seller groups, impressions, clicks, purchases, revenue, satisfaction, or welfare outcomes. The study therefore does not establish disparate impact or commercial harm. Connecting representation instability to those outcomes requires user logs, merchant metadata, and an explicit normative model. Keeping this boundary clear strengthens the causal claim we can support: a semantically irrelevant input choice changes which relevant items a retrieval pipeline can surface.
+
+\subsection{Limitations}
+
+The evidence comes from two public English-language benchmarks and offline retrieval, not a deployed commercial search system. WANDS and the ESCI union have different catalog and judgment structures, which plausibly explains their different rank-displacement regimes. ESCI is incompletely judged; condensed metrics and the official-candidate check address part of this issue but cannot create missing relevance labels.
+
+The permutations are synthetic, although automatic audits verify that they preserve every tested attribute atom, character/token multiset, numeric value, and source value. A blinded human study should additionally assess semantic equivalence and naturalness. Relevance judgments capture query--product relationships rather than objective product quality. We observe no evidence about clicks, sales, purchase decisions, or user satisfaction. VI is also cutoff dependent and does not model examination probability.
+
+Finally, the study covers dense candidate generation and one cross-encoder reranker. It does not establish the same magnitude for sparse, multimodal, generative, or other Web-domain systems. Confidence intervals that include zero for the set-based method do not prove relevance equivalence; the WANDS interval still permits a meaningful loss. A larger prospective non-inferiority test is required before deployment.
+
+\subsection{Reproducibility}
+
+The artifact records frozen protocols, model revisions, deterministic seeds, equivalence audits, query-level outputs, and source CSVs for every figure. A provenance map links each main-text number to a result field, and an independent audit regenerates primary metrics from stored ranks. No live user or merchant was affected by the experiments.
+
+\subsection{An Evaluation Practice for Structured Web Retrieval}
+
+The results suggest treating a serializer change as a retrieval-system change, even when it preserves the source record. A useful regression suite would retain query--item relevance judgments together with a small, explicitly defined family of equivalent inputs. Relevance metrics would assess whether the updated pipeline retrieves useful content overall; item-level crossing metrics would assess whether irrelevant formatting decisions determine which particular relevant content survives. Neither assessment substitutes for the other.
+
+The intervention should match the engineering decision. A shared indexing change calls for a catalog-wide test because competitors change together. A record-specific ingestion path calls for a target-only test against a fixed catalog. A multistage service also needs candidate-coverage accounting before any final-ranking comparison. This is a proposed evaluation practice supported by the structure of our findings, not an empirically validated deployment protocol. The appropriate cutoff and tolerance remain application-dependent.
+
+The controlled equivalence definition is equally important. A field list can often be permuted safely, whereas a procedural instruction or a chronological event history may have semantically necessary order. Applying invariance indiscriminately would destroy useful meaning. Broader Web replication should therefore begin by identifying which components are genuinely unordered for the task and which must remain sequential. Our product setting demonstrates the approach for the audited attribute family; it does not license treating all Web text as a bag of facts.
+
+Finally, representation robustness does not require identical ranking of every relevant item in every context. The expectation is narrower: when the query, facts, and comparison environment are fixed, a nuisance transformation should not arbitrarily determine retrieval eligibility. Personalization, fresh information, changed inventory, and meaningful textual edits are different interventions. Keeping that distinction explicit makes the visibility claim both useful and falsifiable without implying a fairness entitlement or a measured downstream business effect.

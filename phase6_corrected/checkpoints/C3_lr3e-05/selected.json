@@ -1,0 +1,33 @@
+{
+  "name": "C3_lr3e-05",
+  "method": "C3",
+  "lr": 3e-05,
+  "epoch": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs_run": 5,
+  "dev_mean": {
+    "Recall@100": 0.7915830129049316,
+    "cNDCG@10": 0.8751886765247588
+  },
+  "parameters": 1004545,
+  "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+  "completed_utc": "2026-09-11T09:31:47.529009+00:00",
+  "checkpoints": {
+    "42": {
+      "path": "checkpoints\\C3_lr3e-05\\seed42\\weights.pt",
+      "sha256": "e7e3528d56010717c4e07cfdf7a7d990165358497a8c69d09a58709fae98064c"
+    },
+    "43": {
+      "path": "checkpoints\\C3_lr3e-05\\seed43\\weights.pt",
+      "sha256": "9ce74336da1a7f47096254bb7eb1d9acc928e54bd88ef1741894328e11e5ebe2"
+    },
+    "44": {
+      "path": "checkpoints\\C3_lr3e-05\\seed44\\weights.pt",
+      "sha256": "fa1bfc4c7d1385c34eee3ea8afdeaa84285ad291a87ca7165d989034c5c0f21f"
+    }
+  }
+}

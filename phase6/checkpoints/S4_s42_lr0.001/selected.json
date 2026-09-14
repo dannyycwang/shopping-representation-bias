@@ -1,0 +1,16 @@
+{
+  "name": "S4_s42_lr0.001",
+  "method": "S4",
+  "seed": 42,
+  "lr": 0.001,
+  "best_epoch": 1,
+  "epochs_run": 4,
+  "dev_recall100": 0.7430271730122925,
+  "parameters": 593920,
+  "config_sha256": "b0adea11b1277a6abf34505120329a27a38e59f7d0448335982bbf0394c0f864",
+  "weights_sha256": "7e37c2170372832a5ffdbb0f7f0c9b8d1ad7b77480f6d1cf075fb02cda57e5c7",
+  "test_used": false,
+  "training_seconds": 0.8280000002123415,
+  "completed_utc": "2026-09-10T23:04:44.354728+00:00",
+  "wall_seconds": 4.155999999959022
+}

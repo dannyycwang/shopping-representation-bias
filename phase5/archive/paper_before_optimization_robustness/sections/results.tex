@@ -1,0 +1,67 @@
+\section{Results}
+\subsection{RQ1: How Does Representation Affect Relevant-Product Inclusion?}
+Fact-equivalent orders repeatedly move judged-relevant products across retrieval cutoffs. Across the three general encoders and two datasets, catalog-wide pair-micro VI@20 ranges from 4.42\% to 13.26\%. Figure~\ref{fig:crossmodel} presents query-macro estimates and uncertainty, rather than duplicating every statistic in a main-text table. The e-commerce-specific encoder also remains sensitive: its pair-micro VI@20 is 6.07\% on WANDS and 7.22\% on ESCI. These are seven-representation crossing rates, not expected losses from one arbitrary update.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\columnwidth]{figures/figure2_cross_model_vi.pdf}
+\caption{Catalog-wide query-macro VI@20 with query-bootstrap 95\% CIs. General and product-specific retrievers remain sensitive. The dashed 1\% reference is a historical study threshold, not a preregistration of this extension.}
+\Description{Cross-model visibility instability on two product-search benchmarks with confidence intervals.}
+\label{fig:crossmodel}
+\end{figure}
+
+The primary-family target-only intervention fixes every competitor in C0. WANDS pair-micro VI@20 is 12.72\%, 8.84\%, and 11.39\% for MiniLM, BGE, and GTE; ESCI values are 3.11\%, 3.16\%, and 6.68\%. The difference from catalog-wide results reflects the intervention, not a contradiction. Figure~\ref{fig:example} uses this stricter condition. Its ranks 5 and 1,527 must not be confused with the old catalog-wide ranks 3 and 1,303. A merchant changing one record and a platform changing all records face different competition.
+
+\paragraph{Instability omits persistent failure.}
+Across all historical queries at Top-100, BGE retrieves 8,384 WANDS highest-label pairs under every order and 3,856 under only some orders; 13,230 never enter any tested pool. ESCI has 3,995 always retrieved, 44 sometimes retrieved, and 395 never retrieved pairs. The sometimes-retrieved population is representation-dependent candidate loss; the never-retrieved population has VI=0 despite complete failure at this budget. This is why the strategy evaluation below prioritizes recall. Appendix tables retain all cutoffs and denominators.
+
+\subsection{RQ2: Where Does Instability Concentrate?}
+Distance to the retrieval boundary is a strong interpretive constraint. An irrelevant product far below Top-20 has little opportunity to cross, so an unadjusted relevance-stratum difference cannot establish preferential harm to relevant products. Figure~\ref{fig:rankcontrol} compares highest and irrelevant labels within the same original-rank band and query, reporting only their common support.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=.92\textwidth]{figures/rank_controlled.pdf}
+\caption{Rank-conditioned highest-minus-irrelevant query-macro VI@20, in percentage points. Intervals use query bootstrap; $n$ is common-query support in each band. These coarse strata do not eliminate residual score-margin confounding.}
+\Description{Rank-conditioned contrasts vary in direction, with limited common support and different patterns across the datasets.}
+\label{fig:rankcontrol}
+\end{figure*}
+
+On WANDS the contrast is negative for original ranks 1--10 ($-12.68$ points, CI $[-23.83,-2.30]$) but positive for ranks 21--50 ($+19.74$, CI $[11.78,27.79]$). ESCI does not show a consistent positive contrast across strata. We therefore weaken the earlier unadjusted interpretation: relevant products clearly suffer instability, but the data do not establish a universal relevance-specific gradient after accounting for rank. These are descriptive associations, not fairness or disparate-impact results.
+
+Truncation does not explain every crossing. Among WANDS Exact pairs whose complete inputs fit BGE's token budget in all seven orders, query-macro VI@20 is 8.69\% (CI [7.15,10.39]; 8,536 pairs, 292 queries). The over-budget subset is 12.77\% ([10.90,14.75]; 16,934 pairs, 343 queries). The two populations differ in more than truncation, and queries may appear in both. Their contrast is not a causal truncation effect; the fitting subset establishes sensitivity even with complete input coverage.
+
+The artifact also stratifies by score margin, attribute count, maximum token length, duplicate atoms, query length, and literal query--attribute-value overlap. Lexical overlap is an auditable surface feature, not a validated query-intent taxonomy. Historical chunking and pooling controls likewise retain nonzero instability. Together these checks narrow explanations without isolating attention, position, or truncation as a unique mechanism.
+
+\subsection{RQ3: Do Fixed Strategies Improve Relevant-Product Recall?}
+Development selects appearance-first from the eight frozen added configurations, with Recall@100 0.680; Original is 0.662 and hybrid 0.717. The independently selected global rule is appearance-first. Being the best added configuration does not imply beating either baseline. The full screening table is retained, and the choice is frozen before transfer evaluation.
+\input{generated/recall_main}
+\input{generated/transfer}
+
+On held-out WANDS, the selected strategy changes Recall@100 by $-0.05$ [-1.21, +1.12] percentage points relative to Original and $-4.94$ [-6.96, -3.04] relative to hybrid. On historical ESCI, the selected strategy changes Recall@100 by $+0.08$ [-0.04, +0.19] percentage points relative to Original and $-0.45$ [-1.28, +0.39] relative to hybrid. Table~\ref{tab:transfer} additionally tests the unchanged choice with MiniLM and newly sampled ESCI queries. These cells test transfer without encoder-specific retuning; historical test inspection and the new common-catalog construction limit confirmatory claims. The WANDS MiniLM transfer changes recall by $-1.75$ [-3.00, -0.63] points. Thus the development gain does not establish a transferable improvement; a simple fixed rule can remove incoming-order dependence and still reduce relevant-product inclusion.
+
+The selected field rule is evaluated separately with one target changed at a time. On WANDS, its target-only macro Recall@100 change is $-0.10$ points (CI [-1.37,+1.14]), with 6.21\% of highest-label pairs crossing this boundary. On ESCI, its target-only macro Recall@100 change is $+0.12$ points (CI [+0.01,+0.24]), with 0.45\% of highest-label pairs crossing this boundary. A direct target gain does not imply the same catalog-wide gain, since competitors also change under platform deployment. No future query or test label is used to construct the rule; relevance labels only define the diagnostic population. The rule changes the raw-sort order of 38,934/42,994 WANDS products but only 527/10,076 historical ESCI products. ESCI's largely unkeyed atoms make this literal transfer close to raw sorting; it is not evidence that semantic field priorities transfer across schemas.
+
+\paragraph{Order invariance is not a recall guarantee.}
+Set mean and canonical constructions remove input-order dependence, but their matching behavior differs. In the repaired historical comparison, set mean changes WANDS cNDCG@10 by $-0.0096$ (CI $[-0.0194,0.0003]$) and ESCI by $-0.0038$ ($[-0.0147,0.0071]$), using the corrected ESCI gains. These are small, statistically inconclusive effectiveness differences, not evidence of equivalence. Crucially, the new common-query ESCI comparison changes set-mean Recall@100 by $-2.03$ [-3.15, -0.90] percentage points: the cNDCG result must not be mistaken for preserved recall. Direct set-mean--canonical cNDCG contrasts are $+0.0121$ ($[-0.0015,0.0259]$) on WANDS and $-0.0096$ ($[-0.0210,0.0020]$) on ESCI. Separate significance against Original would not establish superiority between these methods.
+
+The fixed saturation check is more nuanced than a uniform failure: WANDS centroid recall is 0.6439 at four views and 0.6416 at seven, so adding views is not monotonically beneficial. The four-view change from Original is $+1.22$ points (CI [+0.34,+2.29]). These follow-up cells retain their uncertainty and cost; they do not reopen selection or establish cross-encoder generalization for a newly chosen winner.
+
+All three historical late-aggregation variants remain order invariant yet reduce WANDS effectiveness, with paired intervals below zero. Their corrected ESCI intervals include zero. The negative variants and the fixed $m=7$ saturation results remain in the appendix; extra views cannot retroactively change the selected strategy. Invariance supplies a design property, while recall and relevance determine whether that property is useful.
+
+\subsection{RQ4: What Are the Candidate and Computational Costs?}
+\begin{figure*}[t]
+\centering\includegraphics[width=.92\textwidth]{figures/recall_budget.pdf}
+\caption{First-stage recall versus unique candidate budget (top) and estimated local processing cost (bottom). Cost adds median query encoding and exact retrieval to $K$ times amortized cross-encoder pair time; it is a batch-throughput estimate, not measured online latency or final reranked recall. All curves reuse the same ranks.}
+\Description{First-stage recall for Original, hybrid and the frozen strategy at K from 20 to 1000, against candidate count and estimated processing cost.}
+\label{fig:budget}
+\end{figure*}
+On WANDS, selected-method Recall@100 is 0.631; Original first meets or exceeds that value at $K=100$ on the tested grid. On ESCI, selected-method Recall@100 is 0.911; Original first meets or exceeds that value at $K=200$ on the tested grid. This is a discrete recall match, not an exact cost match. Rescued and newly missed pair counts are reported in Table~\ref{tab:transitions} because similar net recall can conceal replacements of individual relevant products.
+\input{generated/cost}
+\input{generated/multiview_cost}
+\input{generated/transitions}
+
+The timing comparison separates index arrays, query encoding, and exact scoring/sorting. A centroid retains one vector per product after additional offline encoding; max aggregation retains all view vectors and repeats scoring. Every method returns $K$ unique product IDs. Duplicate views are measured, not silently counted as independent evidence. Exact full-matrix scoring is largely insensitive to the requested $K$; downstream reranking cost increases with the number of candidates. Thus equal $K$, equal index memory, and equal end-to-end cost are different comparisons.
+
+\paragraph{Fixed-text reranking.}
+\input{generated/reranking}
+The development recall gain from 200 to 500 candidates passes the frozen threshold; measured throughput also permits a Top-500 extension. Each method supplies the same fixed canonical product text to the same cross-encoder. The main table reports final highest-label Recall@20; returned-list condensed NDCG and paired intervals are retained in the appendix. Amortized batched inference timing excludes model loading and is not an online request latency claim. Unlike first-stage Recall@K, final Top-20 recall need not grow monotonically with the candidate budget: additional candidates also compete for the fixed final slots. The WANDS point estimates illustrate this distinction; a dip between individual budgets is not automatically a significant loss. For WANDS at $K=100$, the selected first stage changes final Recall@20 by $+0.66$ [-0.03, +1.58] points relative to Original. Increasing Original's budget from 100 to 500 changes final recall by $+1.13$ [+0.08, +2.41] points. These paired contrasts separate the representation decision from access to more candidates. For ESCI at $K=100$, the selected first stage changes final Recall@20 by $+0.02$ [-0.10, +0.14] points relative to Original. Increasing Original's budget from 100 to 500 changes final recall by $+0.25$ [-0.53, +1.03] points. These paired contrasts separate the representation decision from access to more candidates.
+
+Reranking can correct ordering among candidates, but it cannot recover content it never receives. The legacy varying-input experiment reduced common-pool VI@20 from 25.94\% to 13.03\% on WANDS and from 3.95\% to 1.37\% on ESCI. That condition both varies candidate generation and exposes the reranker to different text; it is kept separate from the new canonical-input comparison. Its VI denominator includes only products surviving every pool, so it cannot be compared directly with all-highest VI in Figure~\ref{fig:crossmodel}. Reporting persistent omissions, candidate recall, and final recall prevents conditional reranker stability from being mistaken for recovery.

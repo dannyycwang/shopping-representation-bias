@@ -1,0 +1,42 @@
+\section{Experimental Framework}
+
+\subsection{Fact-Equivalent Interventions}
+
+The primary equivalence family contains seven product representations: the source attribute order, its reversal, and five deterministic per-product permutations. The title and every raw attribute key-value atom are retained. Automatic audits compare atom multiplicity, characters, numeric values, source JSON values, and token multisets; records that fail are excluded before ranking. These are synthetic but fact-preserving interventions: they isolate order rather than attempt to imitate every production template.
+
+The main estimand transforms the complete catalog, reflecting a serializer or indexing-pipeline change. A complementary \emph{target-only permutation intervention} applies the same primary seven-member family to each highest-relevance target independently while keeping every competitor in C0. For variant $s$, its rank is
+\begin{equation}
+\rho^{\mathrm{target}}_s(q,p)=1+\sum_{u\ne p}\mathbb{1}[z(q,C0(u))>z(q,s(p))],
+\end{equation}
+with ties resolved by original catalog position. The target's old C0 entry is removed before insertion. We retain per-variant rank changes relative to C0 and compute VI over the seven target-only ranks. This estimates ``same product, facts, competitors, query, and model; only target serialization changes.'' The analysis reuses frozen query/product embeddings and variant scores; reconstructed C0 scores and highest-label ranks match stored results exactly in all six model--dataset cells. Earlier single-product M1/M2 template interventions remain complementary tests of broader fact-preserving changes. The first captures system-wide competition; the second isolates the target item's direct response. They answer different causal questions and need not yield the same rank change.
+
+We also vary chunk length, overlap, and pooling for MiniLM and BGE, while the long-context GTE-ModernBERT provides a further truncation control. These profiles test whether one token budget or pooling rule is sufficient to explain the effect.
+
+\subsection{Two-Stage Pipeline Diagnosis}
+
+For every query and equivalent serialization, BGE-base retrieves the top 100. The cross-encoder \texttt{ms-marco-MiniLM-L-6-v2} then scores each query--product candidate. We measure VI before and after reranking for products present in all seven candidate pools, and Irrecoverable@100 over the full highest-relevance population. The distinction is central: reranking can correct ordering among candidates, but it cannot recover content it never receives.
+
+\subsection{Proof-of-Concept Invariant Representation}
+
+The mitigation follows a structural observation: product attributes are sets, not sentences. We preserve order-sensitive title and description fields in a non-attribute view $n(p)$, encode each raw attribute $a\in A(p)$ independently, and aggregate attributes by their mean. With the same frozen BGE encoder,
+\begin{equation}
+v(p)=\operatorname{norm}\left((1-\alpha)E(n(p))+
+\alpha\frac{1}{|A(p)|}\sum_{a\in A(p)}E(a)\right).
+\end{equation}
+Mean aggregation is permutation invariant, so changing the order of $A(p)$ leaves $v(p)$ unchanged up to floating-point noise. This is a simple proof of concept rather than a claim that set pooling is novel in general. The contribution is its relevance--robustness evaluation for product retrieval.
+
+We select $\alpha\in\{0.25,0.5,0.75\}$ on a deterministic 20\% WANDS development split, then evaluate the chosen $\alpha=0.5$ on the remaining 80\% and all ESCI queries. Baselines are a factual sentence template (M1), canonical attribute sorting (M2), and late-aggregation ablations. A mitigation is aligned when VI decreases and the paired 95\% confidence interval for $\Delta\cndcg@10$ does not establish a loss; this rule does not prove equivalence.
+
+\subsection{Intervention Logic and Controls}
+
+The catalog-wide and target-only designs identify different effects. In the catalog-wide design, both a product score and the scores of its competitors may change. This is the appropriate intervention for a shared ingestion template or a catalog reserialization. In the target-only design, every competing score is held fixed. Any rank change must then follow from the target representation and its score relative to that fixed comparison set. This removes competition changes as an explanation for the target's movement, without assuming that competitors are themselves representation robust.
+
+For target-only evaluation, every relevant pair constitutes a separate counterfactual ranking. We do not simultaneously substitute all relevant products, which would turn the test back into a catalog-level intervention. For each target, we retain its C0 rank and insert each alternative score into the C0 ranking after removing that target's former entry. Removing the old entry matters: leaving both copies in the list would create artificial self-competition. Stable tie handling matters for the same reason, particularly in smaller candidate pools. The implementation is checked against explicit stable reranking, including unchanged scores and ties.
+
+Holding competitors in C0 is a controlled reference environment, not a claim that C0 is optimal or universal. The experiment establishes the target effect conditional on that environment. Different competitor representations can change the size or direction of the resulting rank movement. Accordingly, the difference between catalog-wide and target-only VI is not an additive estimate of a separate ``competition effect.'' Crossing indicators are nonlinear functions of the whole ranked list, and the two interventions can make different pairs cross a boundary.
+
+The representation audit supports this causal interpretation at the input level. Reordering complete attribute atoms leaves their contents and multiplicities intact, and keeps the non-attribute fields fixed. It does not guarantee that a sequence encoder will internally process the variants identically; that is the behavior being tested. Nor does it certify that every arbitrary permutation is equally natural to a human reader. Our intervention is deliberately narrower than a paraphrase or generated rewrite, for which preserving all relevant facts is much harder to verify.
+
+The invariant method changes the architectural treatment of the nuisance variable. Because attributes are encoded independently, an attribute's vector does not depend on which other attribute appears immediately before it. Commutative pooling then removes dependence on the ordering of those vectors. The non-attribute view remains a sequence, so the method does not discard meaningful word order in titles and descriptions. It is invariant to the specified attribute permutations, not to changes in attribute wording, schema names, values, or the grouping of facts into atoms.
+
+This structure also explains a possible effectiveness cost. Independent encoding removes cross-attribute contextual interaction before aggregation. A useful relation between material, intended use, and dimensions may be easier for a joint encoder to represent than for a simple average. Canonical sorting retains joint encoding but commits to one particular sequence. The empirical comparison therefore concerns two ways of controlling a nuisance variable, each with a different inductive bias; there is no reason to expect either to dominate every dataset.

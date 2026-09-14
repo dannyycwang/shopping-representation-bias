@@ -1,0 +1,14 @@
+\begin{table}[t]
+\caption{Highest-label Recall@20 after reranking a fixed canonical product text. Each column changes only the first-stage unique candidate budget. Same cross-encoder and final Top-20 across methods.}
+\label{tab:reranking}
+\centering\small
+\begin{tabular}{llrrr}\toprule
+Data & First stage & K=50 & 100 & 200\\\midrule
+WANDS & Original & 0.376 & 0.368 & 0.377\\
+WANDS & BM25 + dense & 0.383 & 0.383 & 0.382\\
+WANDS & Appearance-first & 0.372 & 0.374 & 0.380\\
+ESCI & Original & 0.769 & 0.770 & 0.770\\
+ESCI & BM25 + dense & 0.771 & 0.773 & 0.775\\
+ESCI & Appearance-first & 0.770 & 0.770 & 0.770\\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,30 @@
+{
+  "S1": {
+    "passed": false,
+    "dev_recall100": 0.6755257090620409,
+    "threshold": 0.795839126541332,
+    "reason": "development only; no test evaluated",
+    "extra_seeds": []
+  },
+  "S2": {
+    "passed": false,
+    "dev_recall100": 0.7414568412575897,
+    "threshold": 0.795839126541332,
+    "reason": "development only; no test evaluated",
+    "extra_seeds": []
+  },
+  "S3": {
+    "passed": false,
+    "dev_recall100": 0.771542074228946,
+    "threshold": 0.795839126541332,
+    "reason": "development only; no test evaluated",
+    "extra_seeds": []
+  },
+  "S4": {
+    "passed": false,
+    "dev_recall100": 0.7806144072135233,
+    "threshold": 0.795839126541332,
+    "reason": "S4 outside core seed gate",
+    "extra_seeds": []
+  }
+}

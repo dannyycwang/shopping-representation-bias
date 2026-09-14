@@ -1,0 +1,33 @@
+{
+  "name": "C4_lr3e-05",
+  "method": "C4",
+  "lr": 3e-05,
+  "epoch": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs_run": 5,
+  "dev_mean": {
+    "Recall@100": 0.7981459316163034,
+    "cNDCG@10": 0.8784946872666445
+  },
+  "parameters": 170780,
+  "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+  "completed_utc": "2026-09-11T09:34:42.353733+00:00",
+  "checkpoints": {
+    "42": {
+      "path": "checkpoints\\C4_lr3e-05\\seed42\\weights.pt",
+      "sha256": "7a140ac542342cd117950e7bad7c0d1e5c3d355162de4077c4bd42785685d01a"
+    },
+    "43": {
+      "path": "checkpoints\\C4_lr3e-05\\seed43\\weights.pt",
+      "sha256": "c4f33cf5ebc252762b07e74e07886c382590589478cc6e2d9a29ec4f1cb8242f"
+    },
+    "44": {
+      "path": "checkpoints\\C4_lr3e-05\\seed44\\weights.pt",
+      "sha256": "b32fa12a87334f804b80967e78da627b7d671314530170fe8efd8ecb58dab3f3"
+    }
+  }
+}

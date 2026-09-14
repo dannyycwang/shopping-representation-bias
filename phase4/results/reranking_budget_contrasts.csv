@@ -1,0 +1,25 @@
+dataset,method,K_a,K_b,metric,delta,ci_low,ci_high,scope
+wands,Original,200,100,Recall@20,0.00972290863207169,-0.00015136433697823633,0.021802219135971187,descriptive paired budget contrast; not strategy selection
+wands,Original,200,100,returned_condensed_NDCG@10,-0.006757513284544612,-0.013088772418834679,-0.00036776105089387156,descriptive paired budget contrast; not strategy selection
+wands,Original,500,100,Recall@20,0.011251253032082511,0.0007602849397731215,0.024062082025308237,descriptive paired budget contrast; not strategy selection
+wands,Original,500,100,returned_condensed_NDCG@10,-0.007713144566067706,-0.016825459445488192,0.0009294225087239898,descriptive paired budget contrast; not strategy selection
+wands,hybrid,200,100,Recall@20,-0.0015979275634699834,-0.00450561864664443,0.0010874842743302435,descriptive paired budget contrast; not strategy selection
+wands,hybrid,200,100,returned_condensed_NDCG@10,-0.006105633506709784,-0.011771083303280692,-0.0008773645902031389,descriptive paired budget contrast; not strategy selection
+wands,hybrid,500,100,Recall@20,0.0011144018270709327,-0.005776639554063565,0.010085972925486375,descriptive paired budget contrast; not strategy selection
+wands,hybrid,500,100,returned_condensed_NDCG@10,-0.008850825717835888,-0.016442697593726397,-0.0018889746985543275,descriptive paired budget contrast; not strategy selection
+wands,rule_appearance,200,100,Recall@20,0.005880522744416974,-0.0025166029487079986,0.016875827054488694,descriptive paired budget contrast; not strategy selection
+wands,rule_appearance,200,100,returned_condensed_NDCG@10,-0.0024740716860752574,-0.007200962532894271,0.002133284619885235,descriptive paired budget contrast; not strategy selection
+wands,rule_appearance,500,100,Recall@20,0.009996256523632736,-0.0002510248820193632,0.022812872716520757,descriptive paired budget contrast; not strategy selection
+wands,rule_appearance,500,100,returned_condensed_NDCG@10,-0.00651827392119809,-0.014822163624514193,0.0011511773706938421,descriptive paired budget contrast; not strategy selection
+esci,Original,200,100,Recall@20,-0.00021547979964813734,-0.006308911112267827,0.004990508684145959,descriptive paired budget contrast; not strategy selection
+esci,Original,200,100,returned_condensed_NDCG@10,0.0015079785684850642,-0.0018388235386358736,0.004846103937537685,descriptive paired budget contrast; not strategy selection
+esci,Original,500,100,Recall@20,0.0025063642352568024,-0.0053013935593496896,0.010330551505482883,descriptive paired budget contrast; not strategy selection
+esci,Original,500,100,returned_condensed_NDCG@10,0.0023918799880636677,-0.0016918754218069904,0.006478844817654062,descriptive paired budget contrast; not strategy selection
+esci,hybrid,200,100,Recall@20,0.002303431159684857,-0.0018339206307584426,0.007715711962656218,descriptive paired budget contrast; not strategy selection
+esci,hybrid,200,100,returned_condensed_NDCG@10,-0.000514101083262021,-0.002547917230937727,0.0016025578718952735,descriptive paired budget contrast; not strategy selection
+esci,hybrid,500,100,Recall@20,0.0009116365815175325,-0.003984730806437004,0.00676549487127164,descriptive paired budget contrast; not strategy selection
+esci,hybrid,500,100,returned_condensed_NDCG@10,-0.0011918445132000294,-0.003967098221501284,0.0015870614778940053,descriptive paired budget contrast; not strategy selection
+esci,rule_appearance,200,100,Recall@20,0.00015200230631092296,-0.005880340782019139,0.005194074045526951,descriptive paired budget contrast; not strategy selection
+esci,rule_appearance,200,100,returned_condensed_NDCG@10,0.0005014296091328549,-0.002750352422883626,0.003606038247684714,descriptive paired budget contrast; not strategy selection
+esci,rule_appearance,500,100,Recall@20,0.0017973343428601756,-0.00574893119092932,0.00928602784869666,descriptive paired budget contrast; not strategy selection
+esci,rule_appearance,500,100,returned_condensed_NDCG@10,0.0012167681517661923,-0.0027866574954513914,0.00510125880818679,descriptive paired budget contrast; not strategy selection

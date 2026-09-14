@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-09-07T23:18:19.565502+00:00",
+  "checks": {
+    "generation_total": true,
+    "primary_total": true,
+    "noise_total": true,
+    "cache_key_single_output": true,
+    "unique_task_rows": true,
+    "exact_frozen_task_set": true,
+    "input_hashes": true,
+    "output_hashes": true,
+    "model_revision": true,
+    "fact_checks_present": true,
+    "reconstructed_input_hashes": true,
+    "prompt_hashes": true,
+    "reconstructed_cache_keys": true,
+    "rank_rows_wands_bge_base": true,
+    "rank_unique_wands_bge_base": true,
+    "rank_population_wands_bge_base": true,
+    "raw_orders_wands_bge_base": true,
+    "rank_rows_wands_minilm": true,
+    "rank_unique_wands_minilm": true,
+    "rank_population_wands_minilm": true,
+    "raw_orders_wands_minilm": true,
+    "noise_rank_unique_wands": true,
+    "rank_rows_esci_bge_base": true,
+    "rank_unique_esci_bge_base": true,
+    "rank_population_esci_bge_base": true,
+    "raw_orders_esci_bge_base": true,
+    "rank_rows_esci_minilm": true,
+    "rank_unique_esci_minilm": true,
+    "rank_population_esci_minilm": true,
+    "raw_orders_esci_minilm": true,
+    "noise_rank_unique_esci": true
+  },
+  "all_pass": true,
+  "generation_counts": {
+    "total": 7120,
+    "primary": 6736,
+    "noise": 384
+  },
+  "rank_counts": {
+    "wands_bge_base": {
+      "rows": 21700,
+      "expected": 21700
+    },
+    "wands_minilm": {
+      "rows": 21700,
+      "expected": 21700
+    },
+    "esci_bge_base": {
+      "rows": 7770,
+      "expected": 7770
+    },
+    "esci_minilm": {
+      "rows": 7770,
+      "expected": 7770
+    }
+  }
+}

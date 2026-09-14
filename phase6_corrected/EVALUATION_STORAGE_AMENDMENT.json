@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-09-11T09:54:32.625131+00:00",
+  "primary_config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+  "selection_sha256": "163e2a8466ecf10a16d74127202cd964da6f9cbe539dbc5bf82ce620d3cf291e",
+  "script_sha256": "738a36f04e172482f275fd3d7fce9ca6c523813ef1ecd2ec18b86d572d5274c3",
+  "reason": "C drive capacity: estimated archived vectors exceed available space before rank outputs",
+  "probe": {
+    "base_bytes": 132077568,
+    "xor_bytes": 17572086,
+    "estimated_12_models_bytes": 2850121008,
+    "heldout_metrics_read": false
+  },
+  "free_bytes": 51438075904,
+  "changes": "Retain C0 vectors and all checkpoints/ranks. Run every full-catalog permutation before test, then recompute forward arrays for held-out ranking and release arrays. Store array digests and numerical summaries instead of XOR archives.",
+  "training_and_selection_changed": false,
+  "heldout_metrics_seen": false
+}

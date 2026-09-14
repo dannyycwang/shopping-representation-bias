@@ -1,0 +1,14 @@
+\begin{table}[t]
+\caption{Local exact retrieval on four CPU threads. Array storage is dense vectors plus sparse postings for hybrid, excluding text/vocabulary metadata. Time includes scoring, fusion where applicable, and stable sorting; query encoding is reported separately. These are not commercial latency estimates.}
+\label{tab:cost}
+\centering\small
+\begin{tabular}{llrrr}\toprule
+Data & Method & MiB & ms p50 & ms p95\\\midrule
+WANDS & Original & 126.0 & 8.6 & 9.7\\
+WANDS & BM25 + dense & 176.2 & 15.2 & 18.0\\
+WANDS & Appearance-first & 126.0 & 8.6 & 9.8\\
+ESCI & Original & 29.5 & 2.1 & 2.6\\
+ESCI & BM25 + dense & 37.7 & 4.1 & 5.1\\
+ESCI & Appearance-first & 29.5 & 2.0 & 2.6\\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,53 @@
+C1_lr0.0001 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\phase6_corrected\train_corrected.py:127: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:837.)
+  losses.append((float(loss),len(group)));grads.append(float(norm))
+C1_lr0.0001 epoch 1 mean dev R100 79.6993 cNDCG 0.880399 best 1 stale 0
+C1_lr0.0001 epoch 2 mean dev R100 79.7168 cNDCG 0.870981 best 2 stale 0
+C1_lr0.0001 epoch 3 mean dev R100 78.746 cNDCG 0.860993 best 2 stale 1
+C1_lr0.0001 epoch 4 mean dev R100 76.7374 cNDCG 0.853399 best 2 stale 2
+C1_lr0.0001 epoch 5 mean dev R100 76.096 cNDCG 0.847299 best 2 stale 3
+C1_lr0.0001 epoch 6 mean dev R100 75.8666 cNDCG 0.844476 best 2 stale 4
+C1_lr3e-05 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C1_lr3e-05 epoch 1 mean dev R100 79.8146 cNDCG 0.878495 best 1 stale 0
+C1_lr3e-05 epoch 2 mean dev R100 79.6993 cNDCG 0.878334 best 1 stale 1
+C1_lr3e-05 epoch 3 mean dev R100 79.6993 cNDCG 0.880399 best 1 stale 2
+C1_lr3e-05 epoch 4 mean dev R100 79.7168 cNDCG 0.87844 best 1 stale 3
+C1_lr3e-05 epoch 5 mean dev R100 79.6009 cNDCG 0.874375 best 1 stale 4
+C2_lr0.0001 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C2_lr0.0001 epoch 1 mean dev R100 74.8491 cNDCG 0.828278 best 1 stale 0
+C2_lr0.0001 epoch 2 mean dev R100 71.2651 cNDCG 0.830322 best 1 stale 1
+C2_lr0.0001 epoch 3 mean dev R100 68.124 cNDCG 0.818929 best 1 stale 2
+C2_lr0.0001 epoch 4 mean dev R100 69.4164 cNDCG 0.822447 best 1 stale 3
+C2_lr0.0001 epoch 5 mean dev R100 67.9377 cNDCG 0.820324 best 1 stale 4
+C2_lr3e-05 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C2_lr3e-05 epoch 1 mean dev R100 79.6452 cNDCG 0.874226 best 1 stale 0
+C2_lr3e-05 epoch 2 mean dev R100 78.1832 cNDCG 0.84528 best 1 stale 1
+C2_lr3e-05 epoch 3 mean dev R100 74.3717 cNDCG 0.834924 best 1 stale 2
+C2_lr3e-05 epoch 4 mean dev R100 73.2729 cNDCG 0.833091 best 1 stale 3
+C2_lr3e-05 epoch 5 mean dev R100 71.7656 cNDCG 0.83142 best 1 stale 4
+C3_lr0.0001 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C3_lr0.0001 epoch 1 mean dev R100 76.266 cNDCG 0.847422 best 1 stale 0
+C3_lr0.0001 epoch 2 mean dev R100 63.4024 cNDCG 0.799003 best 1 stale 1
+C3_lr0.0001 epoch 3 mean dev R100 62.3286 cNDCG 0.80848 best 1 stale 2
+C3_lr0.0001 epoch 4 mean dev R100 58.4813 cNDCG 0.792388 best 1 stale 3
+C3_lr0.0001 epoch 5 mean dev R100 58.6488 cNDCG 0.775778 best 1 stale 4
+C3_lr3e-05 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C3_lr3e-05 epoch 1 mean dev R100 79.1583 cNDCG 0.875189 best 1 stale 0
+C3_lr3e-05 epoch 2 mean dev R100 78.0721 cNDCG 0.851099 best 1 stale 1
+C3_lr3e-05 epoch 3 mean dev R100 74.6883 cNDCG 0.833934 best 1 stale 2
+C3_lr3e-05 epoch 4 mean dev R100 66.7934 cNDCG 0.81538 best 1 stale 3
+C3_lr3e-05 epoch 5 mean dev R100 64.3369 cNDCG 0.801426 best 1 stale 4
+C4_lr0.0001 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C4_lr0.0001 epoch 1 mean dev R100 76.8909 cNDCG 0.849034 best 1 stale 0
+C4_lr0.0001 epoch 2 mean dev R100 68.9955 cNDCG 0.842684 best 1 stale 1
+C4_lr0.0001 epoch 3 mean dev R100 67.8756 cNDCG 0.83838 best 1 stale 2
+C4_lr0.0001 epoch 4 mean dev R100 68.1215 cNDCG 0.839342 best 1 stale 3
+C4_lr0.0001 epoch 5 mean dev R100 65.0803 cNDCG 0.836648 best 1 stale 4
+C4_lr3e-05 epoch 0 mean dev R100 79.8146 cNDCG 0.878495 best None stale 0
+C4_lr3e-05 epoch 1 mean dev R100 79.8146 cNDCG 0.878495 best 1 stale 0
+C4_lr3e-05 epoch 2 mean dev R100 79.5967 cNDCG 0.878383 best 1 stale 1
+C4_lr3e-05 epoch 3 mean dev R100 76.6305 cNDCG 0.844284 best 1 stale 2
+C4_lr3e-05 epoch 4 mean dev R100 73.2452 cNDCG 0.844477 best 1 stale 3
+C4_lr3e-05 epoch 5 mean dev R100 70.1866 cNDCG 0.849733 best 1 stale 4
+DEVELOPMENT SELECTION LOCKED C4

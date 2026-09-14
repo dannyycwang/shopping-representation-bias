@@ -1,0 +1,7 @@
+dataset,rank_band,common_queries,delta_macro_vi20,ci_low,ci_high,scope
+esci,1-10,140,0.0008928571428571428,0.0,0.0026785714285714286,within-query same-rank-band contrast; residual margin confounding remains
+esci,101-500,40,0.0,0.0,0.0,within-query same-rank-band contrast; residual margin confounding remains
+esci,11-20,86,-0.06292912513842747,-0.13893480066445182,0.008666943521594668,within-query same-rank-band contrast; residual margin confounding remains
+esci,21-50,75,0.010486439486439483,-0.0627255651755652,0.0851292966292966,within-query same-rank-band contrast; residual margin confounding remains
+esci,501+,32,0.0,0.0,0.0,within-query same-rank-band contrast; residual margin confounding remains
+esci,51-100,34,0.0,0.0,0.0,within-query same-rank-band contrast; residual margin confounding remains

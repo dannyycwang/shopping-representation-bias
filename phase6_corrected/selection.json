@@ -1,0 +1,408 @@
+{
+  "locked_utc": "2026-09-11T09:34:42.496369+00:00",
+  "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+  "groups": [
+    {
+      "name": "C1_lr0.0001",
+      "method": "C1",
+      "lr": 0.0001,
+      "epoch": 2,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 6,
+      "dev_mean": {
+        "Recall@100": 0.7971675139118856,
+        "cNDCG@10": 0.870981317361784
+      },
+      "parameters": 229889,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:19:56.462223+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C1_lr0.0001\\seed42\\weights.pt",
+          "sha256": "1dd9ef4d62767e199738fa3cb3c30842ec1381801940938ef73ab0e86a92b97f"
+        },
+        "43": {
+          "path": "checkpoints\\C1_lr0.0001\\seed43\\weights.pt",
+          "sha256": "3b6c1639383cc016053d06281a9db3632d04606ee8809003073b441b0bcf0b2e"
+        },
+        "44": {
+          "path": "checkpoints\\C1_lr0.0001\\seed44\\weights.pt",
+          "sha256": "dc8dc67c6566eb43921a77a31026664f4957e70fe3d3626bda68db595bd5b506"
+        }
+      }
+    },
+    {
+      "name": "C1_lr3e-05",
+      "method": "C1",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7981459316163034,
+        "cNDCG@10": 0.8784946872666445
+      },
+      "parameters": 229889,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:22:17.551738+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C1_lr3e-05\\seed42\\weights.pt",
+          "sha256": "eab52ec750802a924621f9fffdccf4ed8db84a037b1917e5d2c06091cb7be486"
+        },
+        "43": {
+          "path": "checkpoints\\C1_lr3e-05\\seed43\\weights.pt",
+          "sha256": "31beeb94825da12ca296b2e92990788027ef0840d84361890e71af6abd469d6c"
+        },
+        "44": {
+          "path": "checkpoints\\C1_lr3e-05\\seed44\\weights.pt",
+          "sha256": "6ac3a2e788c64c2d0e0f5a16168c9f3442e2d7d04d91a1cc152decd732e38860"
+        }
+      }
+    },
+    {
+      "name": "C2_lr0.0001",
+      "method": "C2",
+      "lr": 0.0001,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7484905112984085,
+        "cNDCG@10": 0.8282783638142316
+      },
+      "parameters": 231041,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:26:34.195699+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C2_lr0.0001\\seed42\\weights.pt",
+          "sha256": "e3a964a5e9d622ac0983a00e340bf653b39caad2c7b1b0c88f684f3b019b9c51"
+        },
+        "43": {
+          "path": "checkpoints\\C2_lr0.0001\\seed43\\weights.pt",
+          "sha256": "f19763ba131bb8f190b13e15ef0883feca45fe4c4fb1297e3e36030af0a52808"
+        },
+        "44": {
+          "path": "checkpoints\\C2_lr0.0001\\seed44\\weights.pt",
+          "sha256": "fd4d1d26e62bebbb53bc899b26b4af5812488e236a7c5b25e3f76591c358019e"
+        }
+      }
+    },
+    {
+      "name": "C2_lr3e-05",
+      "method": "C2",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7964516723252215,
+        "cNDCG@10": 0.8742262527541228
+      },
+      "parameters": 231041,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:28:26.000694+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C2_lr3e-05\\seed42\\weights.pt",
+          "sha256": "d17eee77699fb7c3c771e1fed5a285d9c3abe7b0c6b3f46a9c7bada6b723e674"
+        },
+        "43": {
+          "path": "checkpoints\\C2_lr3e-05\\seed43\\weights.pt",
+          "sha256": "3c33132d5b1e86d9da8b6dde616e2a28e7eb81e3d1f284d37b9a36865259d6ba"
+        },
+        "44": {
+          "path": "checkpoints\\C2_lr3e-05\\seed44\\weights.pt",
+          "sha256": "6be6b4676f93f77c5f4861a58cb711f852ae3869ef73b7000616dee40aa68f51"
+        }
+      }
+    },
+    {
+      "name": "C3_lr0.0001",
+      "method": "C3",
+      "lr": 0.0001,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7626595805346937,
+        "cNDCG@10": 0.847421663471917
+      },
+      "parameters": 1004545,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:30:07.006867+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C3_lr0.0001\\seed42\\weights.pt",
+          "sha256": "9ac63db4e215dd1f1fd82b975c734a4b1b2eeb15e8d6b5e047502e8963f556d8"
+        },
+        "43": {
+          "path": "checkpoints\\C3_lr0.0001\\seed43\\weights.pt",
+          "sha256": "70584fc28a56ec14dc1edbf6aa2d33aeaa73ecce9759d8c853b664159e7672de"
+        },
+        "44": {
+          "path": "checkpoints\\C3_lr0.0001\\seed44\\weights.pt",
+          "sha256": "5f1347f80be217c51d81754efb38ae8a40d0338fd7279025ce0a8fc1c9379998"
+        }
+      }
+    },
+    {
+      "name": "C3_lr3e-05",
+      "method": "C3",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7915830129049316,
+        "cNDCG@10": 0.8751886765247588
+      },
+      "parameters": 1004545,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:31:47.529009+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C3_lr3e-05\\seed42\\weights.pt",
+          "sha256": "e7e3528d56010717c4e07cfdf7a7d990165358497a8c69d09a58709fae98064c"
+        },
+        "43": {
+          "path": "checkpoints\\C3_lr3e-05\\seed43\\weights.pt",
+          "sha256": "9ce74336da1a7f47096254bb7eb1d9acc928e54bd88ef1741894328e11e5ebe2"
+        },
+        "44": {
+          "path": "checkpoints\\C3_lr3e-05\\seed44\\weights.pt",
+          "sha256": "fa1bfc4c7d1385c34eee3ea8afdeaa84285ad291a87ca7165d989034c5c0f21f"
+        }
+      }
+    },
+    {
+      "name": "C4_lr0.0001",
+      "method": "C4",
+      "lr": 0.0001,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7689086651234533,
+        "cNDCG@10": 0.8490342817188526
+      },
+      "parameters": 170780,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:33:11.701347+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C4_lr0.0001\\seed42\\weights.pt",
+          "sha256": "43d005b795042bbba883fea0a32a1e0e6865f9971caeee781ae65baebb9697a4"
+        },
+        "43": {
+          "path": "checkpoints\\C4_lr0.0001\\seed43\\weights.pt",
+          "sha256": "539bb35d1a3086c2270ca236e0eefa91fb167ebbaf05ad04440ba0cd2d3db346"
+        },
+        "44": {
+          "path": "checkpoints\\C4_lr0.0001\\seed44\\weights.pt",
+          "sha256": "3f7ab2fd99f5e1b4078d2020c70975b2be84d3b319cd263dcd330d84e69a7afc"
+        }
+      }
+    },
+    {
+      "name": "C4_lr3e-05",
+      "method": "C4",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7981459316163034,
+        "cNDCG@10": 0.8784946872666445
+      },
+      "parameters": 170780,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:34:42.353733+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C4_lr3e-05\\seed42\\weights.pt",
+          "sha256": "7a140ac542342cd117950e7bad7c0d1e5c3d355162de4077c4bd42785685d01a"
+        },
+        "43": {
+          "path": "checkpoints\\C4_lr3e-05\\seed43\\weights.pt",
+          "sha256": "c4f33cf5ebc252762b07e74e07886c382590589478cc6e2d9a29ec4f1cb8242f"
+        },
+        "44": {
+          "path": "checkpoints\\C4_lr3e-05\\seed44\\weights.pt",
+          "sha256": "b32fa12a87334f804b80967e78da627b7d671314530170fe8efd8ecb58dab3f3"
+        }
+      }
+    }
+  ],
+  "selected": {
+    "C1": {
+      "name": "C1_lr3e-05",
+      "method": "C1",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7981459316163034,
+        "cNDCG@10": 0.8784946872666445
+      },
+      "parameters": 229889,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:22:17.551738+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C1_lr3e-05\\seed42\\weights.pt",
+          "sha256": "eab52ec750802a924621f9fffdccf4ed8db84a037b1917e5d2c06091cb7be486"
+        },
+        "43": {
+          "path": "checkpoints\\C1_lr3e-05\\seed43\\weights.pt",
+          "sha256": "31beeb94825da12ca296b2e92990788027ef0840d84361890e71af6abd469d6c"
+        },
+        "44": {
+          "path": "checkpoints\\C1_lr3e-05\\seed44\\weights.pt",
+          "sha256": "6ac3a2e788c64c2d0e0f5a16168c9f3442e2d7d04d91a1cc152decd732e38860"
+        }
+      }
+    },
+    "C2": {
+      "name": "C2_lr3e-05",
+      "method": "C2",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7964516723252215,
+        "cNDCG@10": 0.8742262527541228
+      },
+      "parameters": 231041,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:28:26.000694+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C2_lr3e-05\\seed42\\weights.pt",
+          "sha256": "d17eee77699fb7c3c771e1fed5a285d9c3abe7b0c6b3f46a9c7bada6b723e674"
+        },
+        "43": {
+          "path": "checkpoints\\C2_lr3e-05\\seed43\\weights.pt",
+          "sha256": "3c33132d5b1e86d9da8b6dde616e2a28e7eb81e3d1f284d37b9a36865259d6ba"
+        },
+        "44": {
+          "path": "checkpoints\\C2_lr3e-05\\seed44\\weights.pt",
+          "sha256": "6be6b4676f93f77c5f4861a58cb711f852ae3869ef73b7000616dee40aa68f51"
+        }
+      }
+    },
+    "C3": {
+      "name": "C3_lr3e-05",
+      "method": "C3",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7915830129049316,
+        "cNDCG@10": 0.8751886765247588
+      },
+      "parameters": 1004545,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:31:47.529009+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C3_lr3e-05\\seed42\\weights.pt",
+          "sha256": "e7e3528d56010717c4e07cfdf7a7d990165358497a8c69d09a58709fae98064c"
+        },
+        "43": {
+          "path": "checkpoints\\C3_lr3e-05\\seed43\\weights.pt",
+          "sha256": "9ce74336da1a7f47096254bb7eb1d9acc928e54bd88ef1741894328e11e5ebe2"
+        },
+        "44": {
+          "path": "checkpoints\\C3_lr3e-05\\seed44\\weights.pt",
+          "sha256": "fa1bfc4c7d1385c34eee3ea8afdeaa84285ad291a87ca7165d989034c5c0f21f"
+        }
+      }
+    },
+    "C4": {
+      "name": "C4_lr3e-05",
+      "method": "C4",
+      "lr": 3e-05,
+      "epoch": 1,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs_run": 5,
+      "dev_mean": {
+        "Recall@100": 0.7981459316163034,
+        "cNDCG@10": 0.8784946872666445
+      },
+      "parameters": 170780,
+      "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "completed_utc": "2026-09-11T09:34:42.353733+00:00",
+      "checkpoints": {
+        "42": {
+          "path": "checkpoints\\C4_lr3e-05\\seed42\\weights.pt",
+          "sha256": "7a140ac542342cd117950e7bad7c0d1e5c3d355162de4077c4bd42785685d01a"
+        },
+        "43": {
+          "path": "checkpoints\\C4_lr3e-05\\seed43\\weights.pt",
+          "sha256": "c4f33cf5ebc252762b07e74e07886c382590589478cc6e2d9a29ec4f1cb8242f"
+        },
+        "44": {
+          "path": "checkpoints\\C4_lr3e-05\\seed44\\weights.pt",
+          "sha256": "b32fa12a87334f804b80967e78da627b7d671314530170fe8efd8ecb58dab3f3"
+        }
+      }
+    }
+  },
+  "best_method": "C4",
+  "test_used_for_selection": false,
+  "epoch0_selectable": false,
+  "common_config_across_seeds": true
+}

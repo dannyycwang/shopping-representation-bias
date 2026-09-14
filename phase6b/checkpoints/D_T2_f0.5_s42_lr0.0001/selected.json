@@ -1,0 +1,21 @@
+{
+  "name": "D_T2_f0.5_s42_lr0.0001",
+  "family": "D",
+  "architecture": "DeepSets",
+  "regime": "T2_f0.5",
+  "seed": 42,
+  "lr": 0.0001,
+  "best_epoch": 0,
+  "epochs_run": 4,
+  "examples": 1628,
+  "mean_negatives": 6.377149877149877,
+  "dev_recall100": 0.7958391265413322,
+  "dev_robust100": 0.7958391265413322,
+  "parameters": 593921,
+  "frozen_base_parameters": 98561,
+  "config_sha256": "03543514251a1e79e6059fb5acab48e6567a42c44e37977e4260e394fa245ec8",
+  "weights_sha256": "8a7efe46129d7f237cfa31871b78d24d63db43727ac05631694236e54c52040b",
+  "test_used_for_selection": false,
+  "completed_utc": "2026-09-11T06:50:36.236419+00:00",
+  "wall_seconds": 17.906000000191852
+}

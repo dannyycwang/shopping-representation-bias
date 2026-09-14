@@ -1,0 +1,90 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: references.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty publisher in abdou2022wordorder
+Warning--empty address in abdou2022wordorder
+Warning--page numbers missing in both pages and numpages fields in abdou2022wordorder
+Warning--empty publisher in aggarwal2024geo
+Warning--empty address in aggarwal2024geo
+Warning--page numbers missing in both pages and numpages fields in aggarwal2024geo
+Warning--no number and no volume in bagga2025egeo
+Warning--page numbers missing in both pages and numpages fields in bagga2025egeo
+Warning--no number and no volume in bhandari2026tabular
+Warning--page numbers missing in both pages and numpages fields in bhandari2026tabular
+Warning--empty publisher in chen2022wands
+Warning--empty address in chen2022wands
+Warning--page numbers missing in both pages and numpages fields in chen2022wands
+Warning--no number and no volume in choi2020semantic
+Warning--page numbers missing in both pages and numpages fields in choi2020semantic
+Warning--empty publisher in cormack2009rrf
+Warning--empty address in cormack2009rrf
+Warning--page numbers missing in both pages and numpages fields in cormack2009rrf
+Warning--no number and no volume in freymuth2025charm
+Warning--page numbers missing in both pages and numpages fields in freymuth2025charm
+Warning--empty publisher in goren2020ranking
+Warning--empty address in goren2020ranking
+Warning--empty publisher in kim2026sageo
+Warning--empty address in kim2026sageo
+Warning--page numbers missing in both pages and numpages fields in kim2026sageo
+Warning--empty publisher in loughnane2024attributes
+Warning--empty address in loughnane2024attributes
+Warning--no number and no volume in reddy2022shopping
+Warning--page numbers missing in both pages and numpages fields in reddy2022shopping
+Warning--empty publisher in sakai2008alternatives
+Warning--empty address in sakai2008alternatives
+Warning--page numbers missing in both pages and numpages fields in sakai2008alternatives
+You've used 17 entries,
+            6335 wiz_defined-function locations,
+            1616 strings with 22307 characters,
+and the built_in function-call counts, 19785 in all, are:
+= -- 2457
+> -- 769
+< -- 0
++ -- 265
+- -- 262
+* -- 1472
+:= -- 1913
+add.period$ -- 78
+call.type$ -- 17
+change.case$ -- 146
+chr.to.int$ -- 17
+cite$ -- 49
+duplicate$ -- 1708
+empty$ -- 1225
+format.name$ -- 326
+if$ -- 4862
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 72
+newline$ -- 189
+num.names$ -- 119
+pop$ -- 798
+preamble$ -- 1
+purify$ -- 282
+quote$ -- 0
+skip$ -- 572
+stack$ -- 0
+substring$ -- 1193
+swap$ -- 116
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 398
+warning$ -- 32
+while$ -- 82
+width$ -- 0
+write$ -- 362
+(There were 32 warnings)

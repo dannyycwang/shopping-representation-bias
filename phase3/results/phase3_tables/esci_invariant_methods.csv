@@ -1,0 +1,5 @@
+dataset,evaluation,method,alpha,queries,cNDCG@10,cNDCG@20,HighestRecall@20,VI@10_micro,VI@20_micro,VI@50_micro,max_abs_score_diff
+esci,external ESCI union catalog,late_max,0.75,500,0.7041295391791198,0.7851330319040944,0.7264465366339443,0.0,0.0,0.0,0.0
+esci,external ESCI union catalog,late_mean,0.75,500,0.7025637606073226,0.784397730768063,0.7251982732436939,0.0,0.0,0.0,1.7881393432617188e-07
+esci,external ESCI union catalog,late_top3,0.75,500,0.7025637606073226,0.784397730768063,0.7251982732436939,0.0,0.0,0.0,0.0
+esci,external ESCI union catalog,set_mean,0.5,500,0.7058780646586645,0.7831623368635536,0.719752641952029,0.0,0.0,0.0,2.384185791015625e-07

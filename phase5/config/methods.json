@@ -1,0 +1,27 @@
+{
+  "frozen_before_test_evaluation": true,
+  "source_repository": "https://github.com/psbagga17/E-GEO",
+  "source_commit": "1016f8adf1ea578129d9aa81d21d924173058c28",
+  "system_prompt_source": "phase5/vendor/E-GEO/src/prompts.py:OPTIMIZE_SYSTEM_PROMPT",
+  "system_prompt_sha256": "4394115758da09265b92fe0c7d59ccc4fd7028b4febaa59dfd2aaa1f8e4be5b8",
+  "methods": {
+    "heuristic_authoritative": {
+      "source": "phase5/vendor/E-GEO/src/all_init_prompts.py:INITIAL_PROMPTS[authoritative]",
+      "sha256": "5e91fec62710cb50ddf6493904b11e29dcd40f34929a64d4ca543936ec5400fa",
+      "characters": 1286,
+      "type": "released hand-crafted E-GEO heuristic"
+    },
+    "optimized_technical": {
+      "source": "phase5/vendor/E-GEO/src/optimized_prompts.json:technical",
+      "sha256": "d4cd6b22c8149b5f37737716d12c0666ced69129e2f1441399827737acfbfd08",
+      "characters": 1841,
+      "type": "released E-GEO meta-optimized prompt"
+    }
+  },
+  "adapted_rewriter": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "library": "transformers 4.55.4",
+    "faithful_egeo_reproduction": false
+  }
+}

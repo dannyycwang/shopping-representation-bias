@@ -1,0 +1,76 @@
+Traceback (most recent call last):
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1368, in getresponse
+    response.begin()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 317, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 286, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1368, in getresponse
+    response.begin()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 317, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 286, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_pift\run.py", line 124, in <module>
+    try:run()
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_pift\run.py", line 113, in run
+    for name,augment in [('Standard-FT',False),('Adapted-PI-FT',True)]:train(name,augment);evaluate(name)
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_pift\run.py", line 106, in evaluate
+    try:s.evaluate(name)
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase5_mitigation\screen.py", line 137, in evaluate
+    enc=DenseEncoder(SPEC,cfg,HERE/'embeddings'/name)
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase2\src\encoding.py", line 26, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase2\.venv\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 1116, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase2\.venv\lib\site-packages\transformers\tokenization_utils_base.py", line 2012, in from_pretrained
+    for template in list_repo_templates(
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase2\.venv\lib\site-packages\transformers\utils\hub.py", line 167, in list_repo_templates
+    return [
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\phase2\.venv\lib\site-packages\transformers\utils\hub.py", line 167, in <listcomp>
+    return [
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\huggingface_hub\hf_api.py", line 3191, in list_repo_tree
+    for path_info in paginate(path=tree_url, headers=headers, params={"recursive": recursive, "expand": expand}):
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\huggingface_hub\utils\_pagination.py", line 36, in paginate
+    r = session.get(path, params=params, headers=headers)
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\huggingface_hub\utils\_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+  File "C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: (ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), '(Request ID: 38dc8dda-c60e-42a5-89ef-c214aebccd2e)')

@@ -1,0 +1,14 @@
+{
+  "seed": 20260903,
+  "dataset_commit": "3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5",
+  "representations": ["R0", "R2", "R3", "R4", "R5", "R8", "C_repeat"],
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "chunk_tokens": 254,
+  "batch_size": 128,
+  "bm25_k1": 1.2,
+  "bm25_b": 0.75,
+  "rrf_constant": 60,
+  "bootstrap_samples": 10000,
+  "permutation_samples": 10000
+}

@@ -1,0 +1,134 @@
+{
+  "C1": {
+    "name": "C1_lr3e-05",
+    "method": "C1",
+    "lr": 3e-05,
+    "epoch": 1,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs_run": 5,
+    "dev_mean": {
+      "Recall@100": 0.7981459316163034,
+      "cNDCG@10": 0.8784946872666445
+    },
+    "parameters": 229889,
+    "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+    "completed_utc": "2026-09-11T09:22:17.551738+00:00",
+    "checkpoints": {
+      "42": {
+        "path": "checkpoints\\C1_lr3e-05\\seed42\\weights.pt",
+        "sha256": "eab52ec750802a924621f9fffdccf4ed8db84a037b1917e5d2c06091cb7be486"
+      },
+      "43": {
+        "path": "checkpoints\\C1_lr3e-05\\seed43\\weights.pt",
+        "sha256": "31beeb94825da12ca296b2e92990788027ef0840d84361890e71af6abd469d6c"
+      },
+      "44": {
+        "path": "checkpoints\\C1_lr3e-05\\seed44\\weights.pt",
+        "sha256": "6ac3a2e788c64c2d0e0f5a16168c9f3442e2d7d04d91a1cc152decd732e38860"
+      }
+    }
+  },
+  "C2": {
+    "name": "C2_lr3e-05",
+    "method": "C2",
+    "lr": 3e-05,
+    "epoch": 1,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs_run": 5,
+    "dev_mean": {
+      "Recall@100": 0.7964516723252215,
+      "cNDCG@10": 0.8742262527541228
+    },
+    "parameters": 231041,
+    "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+    "completed_utc": "2026-09-11T09:28:26.000694+00:00",
+    "checkpoints": {
+      "42": {
+        "path": "checkpoints\\C2_lr3e-05\\seed42\\weights.pt",
+        "sha256": "d17eee77699fb7c3c771e1fed5a285d9c3abe7b0c6b3f46a9c7bada6b723e674"
+      },
+      "43": {
+        "path": "checkpoints\\C2_lr3e-05\\seed43\\weights.pt",
+        "sha256": "3c33132d5b1e86d9da8b6dde616e2a28e7eb81e3d1f284d37b9a36865259d6ba"
+      },
+      "44": {
+        "path": "checkpoints\\C2_lr3e-05\\seed44\\weights.pt",
+        "sha256": "6be6b4676f93f77c5f4861a58cb711f852ae3869ef73b7000616dee40aa68f51"
+      }
+    }
+  },
+  "C3": {
+    "name": "C3_lr3e-05",
+    "method": "C3",
+    "lr": 3e-05,
+    "epoch": 1,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs_run": 5,
+    "dev_mean": {
+      "Recall@100": 0.7915830129049316,
+      "cNDCG@10": 0.8751886765247588
+    },
+    "parameters": 1004545,
+    "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+    "completed_utc": "2026-09-11T09:31:47.529009+00:00",
+    "checkpoints": {
+      "42": {
+        "path": "checkpoints\\C3_lr3e-05\\seed42\\weights.pt",
+        "sha256": "e7e3528d56010717c4e07cfdf7a7d990165358497a8c69d09a58709fae98064c"
+      },
+      "43": {
+        "path": "checkpoints\\C3_lr3e-05\\seed43\\weights.pt",
+        "sha256": "9ce74336da1a7f47096254bb7eb1d9acc928e54bd88ef1741894328e11e5ebe2"
+      },
+      "44": {
+        "path": "checkpoints\\C3_lr3e-05\\seed44\\weights.pt",
+        "sha256": "fa1bfc4c7d1385c34eee3ea8afdeaa84285ad291a87ca7165d989034c5c0f21f"
+      }
+    }
+  },
+  "C4": {
+    "name": "C4_lr3e-05",
+    "method": "C4",
+    "lr": 3e-05,
+    "epoch": 1,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs_run": 5,
+    "dev_mean": {
+      "Recall@100": 0.7981459316163034,
+      "cNDCG@10": 0.8784946872666445
+    },
+    "parameters": 170780,
+    "config_sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+    "completed_utc": "2026-09-11T09:34:42.353733+00:00",
+    "checkpoints": {
+      "42": {
+        "path": "checkpoints\\C4_lr3e-05\\seed42\\weights.pt",
+        "sha256": "7a140ac542342cd117950e7bad7c0d1e5c3d355162de4077c4bd42785685d01a"
+      },
+      "43": {
+        "path": "checkpoints\\C4_lr3e-05\\seed43\\weights.pt",
+        "sha256": "c4f33cf5ebc252762b07e74e07886c382590589478cc6e2d9a29ec4f1cb8242f"
+      },
+      "44": {
+        "path": "checkpoints\\C4_lr3e-05\\seed44\\weights.pt",
+        "sha256": "b32fa12a87334f804b80967e78da627b7d671314530170fe8efd8ecb58dab3f3"
+      }
+    }
+  }
+}

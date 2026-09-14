@@ -1,0 +1,5 @@
+dataset,method,all_seven_fact_valid_products,all_seven_fact_valid_rate,total_products
+wands,G1,0,0.0,310
+wands,G2,0,0.0,310
+esci,G1,2,0.018018018018018018,111
+esci,G2,0,0.0,111

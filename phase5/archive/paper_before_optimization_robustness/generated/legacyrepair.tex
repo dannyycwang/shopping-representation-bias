@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\caption{Reconciled historical mitigation cNDCG@10 and paired differences from Original. ESCI uses E/S/C/I=1/.1/.01/0. WANDS uses 383 positive-IDCG held-out queries; ESCI uses 500.}\label{tab:legacyrepair}
+\centering\small
+\begin{tabular}{llrrl}\toprule
+Data & Method & cN@10 & $\Delta$ & 95\% CI\\\midrule
+WANDS & Original & 0.8247 & +0.0000 & [+0.0000,+0.0000]\\
+WANDS & Canonical & 0.8030 & -0.0217 & [-0.0333,-0.0105]\\
+WANDS & Factual & 0.8178 & -0.0069 & [-0.0139,-0.0000]\\
+WANDS & Set mean & 0.8151 & -0.0096 & [-0.0194,+0.0003]\\
+WANDS & Late mean & 0.8058 & -0.0189 & [-0.0293,-0.0083]\\
+WANDS & Late max & 0.8093 & -0.0153 & [-0.0266,-0.0045]\\
+WANDS & Late top3 & 0.8106 & -0.0141 & [-0.0243,-0.0038]\\
+ESCI & Original & 0.7364 & +0.0000 & [+0.0000,+0.0000]\\
+ESCI & Canonical & 0.7423 & +0.0058 & [-0.0012,+0.0131]\\
+ESCI & Factual & 0.7305 & -0.0059 & [-0.0127,+0.0007]\\
+ESCI & Set mean & 0.7326 & -0.0038 & [-0.0147,+0.0071]\\
+ESCI & Late mean & 0.7290 & -0.0074 & [-0.0181,+0.0031]\\
+ESCI & Late max & 0.7297 & -0.0067 & [-0.0180,+0.0046]\\
+ESCI & Late top3 & 0.7290 & -0.0074 & [-0.0181,+0.0031]\\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+\section{Problem Formulation}
+Let $F(p)$ denote the information underlying item $p$, and let $\mathcal R(F(p))$ contain representations that preserve that information for the task. Human relevance $\operatorname{Rel}(q,p)$ remains fixed across the class. A normalized dual encoder scores a representation by $z(q,r(p))=\langle E_q(q),E_p(r(p))\rangle$. A representation-robust retriever should ideally avoid substantial visibility differences induced solely by task-irrelevant changes in $r$.
+
+For rank $\rho_r(q,p)$ and cutoff $K$, define
+\begin{equation}
+\mathrm{VI}@K(q,p)=\mathbb{1}\left[\min_{r\in\mathcal R}\rho_r(q,p)\le K<\max_{r\in\mathcal R}\rho_r(q,p)\right].
+\end{equation}
+VI is an any-in/any-out event over the tested family, not a single-update loss probability. We also partition relevant pairs into always retrieved, sometimes retrieved, and never retrieved. Sometimes retrieved equals crossing; never retrieved can be a serious recall failure despite VI=0. Rank range describes movement independently of a cutoff. VI need not increase with $K$, since a boundary can move beyond an item's entire rank interval.
+
+Let $H_q$ be the judged highest-relevance products for query $q$. Our primary strategy metric is
+\begin{equation}
+\mathrm{Recall}@K(q)=\frac{|H_q\cap\operatorname{TopK}(q)|}{|H_q|}.
+\end{equation}
+Queries with $|H_q|=0$ have undefined recall and are excluded only from recall aggregation. Query-macro averages weight eligible queries equally; pair-micro statistics weight relevant pairs equally. For each method--Original comparison we retain rescued and newly missed relevant pairs; their difference, normalized by $|H_q|$, is the per-query recall change.
+
+Relevance--visibility alignment requires useful retrieval as well as stability. We report condensed NDCG, which removes unjudged products before discounting, separately from complete-catalog recall and rank visibility~\cite{jarvelin2002cumulated,sakai2008alternatives}. Unknown labels are not treated as irrelevant. In a two-stage pipeline, representation-dependent Irrecoverable@100 counts products present in some first-stage pools but absent in others; persistent omission is reported separately. Reranker VI on common candidates is conditional on survival and cannot be compared directly with all-highest-pair VI.

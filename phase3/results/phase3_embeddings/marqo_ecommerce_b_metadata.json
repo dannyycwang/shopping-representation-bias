@@ -1,0 +1,8 @@
+{
+  "model": "Marqo/marqo-ecommerce-embeddings-B",
+  "revision": "856b7151a2d1698bf940bc1b3813021c47991481",
+  "library": "open_clip_torch 2.32.0",
+  "context_tokens": 64,
+  "precision": "fp16",
+  "pooling": "model encode_text normalized"
+}

@@ -1,0 +1,9 @@
+     method    mode     metric  delta_pp  ci_low_pp  ci_high_pp
+Perm-FT_s42 catalog  Recall@20 -1.123333  -2.436489    0.084951
+Perm-FT_s42 catalog Recall@100 -0.849724  -2.245812    0.550244
+Perm-FT_s42 catalog      VI@20 -1.445084  -3.292947    0.349709
+Perm-FT_s42 catalog     VI@100 -2.393984  -4.224034   -0.669855
+Perm-FT_s42 catalog Robust@100  0.563374  -1.126221    2.362740
+Perm-FT_s42 catalog  Never@100  1.830611   0.629540    3.022606
+- Perm-FT_s42: Recall@100 62.771%�AVI@20 10.487%�A�۹� VI ���T 12.11%�FRobust@100 57.744%�ANever@100 32.345%�C
+- Perm-FT-cons0.05_s42: Recall@100 63.085%�AVI@20 12.737%�A�۹� VI ���T -6.75%�FRobust@100 57.547%�ANever@100 31.431%�C

@@ -1,0 +1,29 @@
+\section{Interventions and Retrieval Strategies}
+\subsection{Equivalent Inputs and Intervention Permissions}
+The primary family contains C0 source order, C1 reversal, and five deterministic attribute permutations. WANDS atoms are raw key--value fields; ESCI uses available brand, color, and complete bullet-point strings as atoms, retaining the internal bullet text. Audits preserve complete raw atoms and multiplicity, non-attribute fields, source values, and character/lexical token multisets. Catalog-wide intervention changes all products. Target-only intervention changes one relevant target at a time with every competitor in C0:
+\begin{equation}
+\rho_s^{\rm target}(q,p)=1+\sum_{u\ne p}\mathbb{1}[z(q,C0(u))>z(q,s(p))],
+\end{equation}
+with stable catalog-order tie handling. The old target entry is removed before insertion. These interventions answer different questions; their crossing rates do not form an additive causal decomposition.
+
+Merchant-side strategies must produce one complete product text without knowledge of a future query. We freeze four field-priority rules emphasizing type/style, appearance, use/compatibility, or dimensions/material. They move entire raw atoms, retain the original free text and section order, and use a canonical lexical fallback. Matching uses field keys where available and literal prefixes for unkeyed ESCI atoms. One global rule is chosen on development Recall@100; cNDCG and a fixed simplicity order break ties. No product-specific or category-specific supervised policy is fitted.
+
+We distinguish pure raw-atom sorting from the historical canonical template M2, which also adds field framing and changes section placement. Both are retained as baselines. This avoids attributing the template's effect entirely to sorting. The selected priority rule is evaluated both catalog-wide and target-only; the latter is a diagnostic of a single record's effect, not a deployment policy that knows test relevance labels.
+
+\subsection{Platform-Side Aggregation and Fusion}
+For full-record multi-view methods, generate nested sets of $m=2,4,7$ views by shuffling a canonical raw-atom list using fixed product-ID-dependent seeds. Each complete record is encoded and normalized independently. Centroid retrieval uses
+\begin{equation}
+v_m(p)=\operatorname{norm}\left(\frac1m\sum_{j=1}^{m}E_p(r_j(p))\right),
+\end{equation}
+whereas multi-vector retrieval scores $p$ by $\max_j\langle E_q(q),E_p(r_j(p))\rangle$. Reduction is by product before selecting $K$ unique products. Equal $m$ is used for every product; actual distinct text and encoded-view counts are recorded. The canonical-anchored generator is independent of incoming attribute order. This does not make finite averaging an exhaustive orbit average or establish robustness to other semantic transformations.
+
+The existing set-mean method instead encodes individual attributes. With normalized non-attribute vector $t(p)$, it computes
+\begin{equation}
+\begin{aligned}
+a(p)&=\operatorname{norm}\left(\frac1{|A(p)|}\sum_{a\in A(p)}E_p(a)\right),\\
+v(p)&=\operatorname{norm}(.5t(p)+.5a(p)).
+\end{aligned}
+\end{equation}
+The attribute mean is normalized before interpolation, matching the implementation; the earlier draft omitted this intermediate step. Empty attribute sets contribute zero. This proof of concept removes order dependence but may lose useful cross-attribute interactions. It is evaluated for recall and effectiveness, not declared successful because VI is zero.
+
+BM25 uses the full lowercase alphanumeric token multiset without positional features or truncation. Hybrid retrieval adds full-list reciprocal-rank scores with constant 60~\cite{cormack2009rrf}. These are platform controls. Multi-vector and centroid methods increase offline encoding; only the former retains multiple index vectors. None is represented as a merchant-editable text strategy.

@@ -1,0 +1,41 @@
+                     label  Params  Recall@20  Recall@100  Delta R@100 vs Original  Delta R@100 vs Canonical     VI@20    VI@100  Robust@100  Never@100
+                  Original       0  36.037984   63.620257                 0.000000                  0.383375 11.931807 12.304875   57.180275  30.514851
+                 Canonical       0  36.072424   63.236881                -0.383375                  0.000000  0.000000  0.000000   63.236881  36.763119
+                  Set-Mean       0  35.300972   61.820039                -1.800218                 -1.416843  0.000000  0.000000   61.820039  38.179961
+             Set-Attention   98561  35.242715   62.172915                -1.447342                 -1.063966  0.000000  0.000000   62.172915  37.827085
+           Set Transformer  462592  29.879490   55.097413                -8.522844                 -8.139468  0.000000  0.000000   55.097413  44.902587
+Set Transformer + Field-ID  793088  25.258850   48.846413               -14.773844                -14.390468  0.000000  0.000000   48.846413  51.153587
+       Circular Projection  249878  33.450475   59.067683                -4.552574                 -4.169199  0.000000  0.000000   59.067683  40.932317
+                  DeepSets  593920  33.432283   60.794700                -2.825557                 -2.442182  0.000000  0.000000   60.794700  39.205300
+DEVELOPMENT
+           method  Recall@100
+         Original   77.820986
+        Canonical   78.236787
+         Set-Mean   79.814593
+Set-Attention_s42   79.583913
+           S1_s42   67.552571
+           S2_s42   74.145684
+           S3_s42   77.154207
+           S4_s42   78.061441
+PRIMARY BOOTSTRAP
+method         reference split    mode     metric   delta_pp  ci_low_pp  ci_high_pp  queries  draws  bootstrap_seed correction
+S1_s42          Original  test catalog Recall@100  -8.522844 -10.726532   -6.388846      308  10000        20260963       none
+S1_s42         Canonical  test catalog Recall@100  -8.139468 -10.231599   -6.083588      308  10000        20260963       none
+S1_s42          Set-Mean  test catalog Recall@100  -6.722626  -8.412722   -5.062765      308  10000        20260963       none
+S1_s42 Set-Attention_s42  test catalog Recall@100  -7.075502  -8.816405   -5.376365      308  10000        20260963       none
+S2_s42          Original  test catalog Recall@100 -14.773844 -17.405869  -12.228468      308  10000        20260963       none
+S2_s42         Canonical  test catalog Recall@100 -14.390468 -17.153712  -11.766279      308  10000        20260963       none
+S2_s42          Set-Mean  test catalog Recall@100 -12.973626 -15.414071  -10.707624      308  10000        20260963       none
+S2_s42 Set-Attention_s42  test catalog Recall@100 -13.326502 -15.807769  -11.084482      308  10000        20260963       none
+S3_s42          Original  test catalog Recall@100  -4.552574  -6.096397   -3.064693      308  10000        20260963       none
+S3_s42         Canonical  test catalog Recall@100  -4.169199  -5.722248   -2.682171      308  10000        20260963       none
+S3_s42          Set-Mean  test catalog Recall@100  -2.752356  -3.843870   -1.779645      308  10000        20260963       none
+S3_s42 Set-Attention_s42  test catalog Recall@100  -3.105233  -4.260394   -2.063942      308  10000        20260963       none
+S4_s42          Original  test catalog Recall@100  -2.825557  -4.313875   -1.325141      308  10000        20260963       none
+S4_s42         Canonical  test catalog Recall@100  -2.442182  -4.096558   -0.730536      308  10000        20260963       none
+S4_s42          Set-Mean  test catalog Recall@100  -1.025339  -2.220891    0.217284      308  10000        20260963       none
+S4_s42 Set-Attention_s42  test catalog Recall@100  -1.378216  -2.552615   -0.185082      308  10000        20260963       none
+S2_s42            S1_s42  test catalog Recall@100  -6.251000  -8.542495   -4.145106      308  10000        20260963       none
+S3_s42            S4_s42  test catalog Recall@100  -1.727017  -2.665717   -0.967965      308  10000        20260963       none
+S3_s42            S2_s42  test catalog Recall@100  10.221269   8.027979   12.548102      308  10000        20260963       none
+S4_s42            S2_s42  test catalog Recall@100  11.948286   9.591286   14.451136      308  10000        20260963       none

@@ -1,0 +1,56 @@
+{
+  "intervention": "One target changes; every competitor fixed in C0",
+  "tie_rule": "descending fp32 score then original catalog index",
+  "seed": 20260963,
+  "bootstrap_samples": 10000,
+  "sources": [
+    {
+      "dataset": "wands",
+      "model": "minilm",
+      "query_embedding": "phase2\\results\\embeddings\\wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+      "product_embedding": "phase2\\results\\embeddings\\wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+      "max_score_error": 0.0,
+      "C0_rank_exact_match": true
+    },
+    {
+      "dataset": "wands",
+      "model": "bge_base",
+      "query_embedding": "phase2\\results\\embeddings\\wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+      "product_embedding": "phase2\\results\\embeddings\\wands_bge_base_native_C0_3a16535a80738388b384.npy",
+      "max_score_error": 0.0,
+      "C0_rank_exact_match": true
+    },
+    {
+      "dataset": "wands",
+      "model": "gte_modernbert",
+      "query_embedding": "phase2\\results\\embeddings\\wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.npy",
+      "product_embedding": "phase2\\results\\embeddings\\wands_gte_modernbert_native_C0_3e1a424d692784631506.npy",
+      "max_score_error": 0.0,
+      "C0_rank_exact_match": true
+    },
+    {
+      "dataset": "esci",
+      "model": "minilm",
+      "query_embedding": "phase2\\results\\embeddings\\esci_minilm_native_queries_8f16f6931da8d3dab463.npy",
+      "product_embedding": "phase2\\results\\embeddings\\esci_minilm_native_C0_688a66533b0c9836f4e7.npy",
+      "max_score_error": 0.0,
+      "C0_rank_exact_match": true
+    },
+    {
+      "dataset": "esci",
+      "model": "bge_base",
+      "query_embedding": "phase2\\results\\embeddings\\esci_bge_base_native_queries_ea6f4a00c1fad5ae5395.npy",
+      "product_embedding": "phase2\\results\\embeddings\\esci_bge_base_native_C0_1de2078d8697e6366c49.npy",
+      "max_score_error": 0.0,
+      "C0_rank_exact_match": true
+    },
+    {
+      "dataset": "esci",
+      "model": "gte_modernbert",
+      "query_embedding": "phase2\\results\\embeddings\\esci_gte_modernbert_native_queries_7bfe6a229e92a65fadd0.npy",
+      "product_embedding": "phase2\\results\\embeddings\\esci_gte_modernbert_native_C0_a328eaeb09f56ff3d152.npy",
+      "max_score_error": 0.0,
+      "C0_rank_exact_match": true
+    }
+  ]
+}

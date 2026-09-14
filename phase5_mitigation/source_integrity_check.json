@@ -1,0 +1,222 @@
+[
+  {
+    "path": "phase5_mitigation\\README.md",
+    "unchanged": true
+  },
+  {
+    "path": "phase5_mitigation\\config.json",
+    "unchanged": true
+  },
+  {
+    "path": "phase5_mitigation\\triples.json",
+    "unchanged": true
+  },
+  {
+    "path": "phase4\\config\\splits.json",
+    "unchanged": true
+  },
+  {
+    "path": "phase4\\results\\wands_product_features.csv",
+    "unchanged": true
+  },
+  {
+    "path": "phase3\\results\\target_only_permutations\\wands_bge_base_pairs.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\data\\processed\\wands_judgments.csv",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\data\\processed\\wands_products.jsonl.gz",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\data\\processed\\wands_queries.csv",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C0.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C1.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s1.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s2.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s3.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s4.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s5.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase4\\results\\wands\\bge_base_canonical_raw_pairs.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "phase4\\results\\wands\\bge_base_set_mean_pairs.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\appendix.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\main.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\supplementary.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\allcoverage.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\appendix_pipeline_tables.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\canonical_catalog.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\caseorders.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\cost.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\legacyrepair.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\multiview_cost.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\optimization_contrasts.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\optimization_factuality.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\optimization_main.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\optimization_noise.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\optimization_orders.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\optimization_transfer.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\optimization_valid.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\recall_main.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\rerankdetail.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\reranking.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\saturation.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\screening.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\sensitivitydetail.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\transfer.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\transitions.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\generated\\uniqueviews.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\appendix.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\conclusion.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\discussion.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\experiments.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\introduction.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\methodology.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\problem.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\related_work.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\sections\\results.tex",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\main.pdf",
+    "unchanged": true
+  },
+  {
+    "path": "paper_www2027\\references.bib",
+    "unchanged": true
+  }
+]

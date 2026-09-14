@@ -1,0 +1,3 @@
+dataset,queries,recall_eligible,cndcg_eligible,products,judgments
+wands,384,308,383,42994,183909
+esci,500,499,500,10076,10134

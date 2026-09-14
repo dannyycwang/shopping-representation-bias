@@ -1,0 +1,7 @@
+Method,Cross-field interaction,Field identity,Learned replacement values,Uses original BGE values,Permutation invariant
+Set-Mean,no,no,no,yes,yes
+Set-Attention,no,implicit content,no,yes,yes
+Contextual DeepSets,global context,no explicit ID,no,yes,yes
+Set Transformer,pairwise,no explicit ID,no,yes,yes
+Set Transformer + Field-ID,pairwise,native learned ID,no,yes,yes
+Circular Attention,global context,circular native ID,no,yes,yes

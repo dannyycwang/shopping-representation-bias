@@ -1,0 +1,26 @@
+\appendix
+\section{Optimization-Robustness Details}
+The frozen protocol and exact query/product IDs precede the extension's ranking stage, but do not preregister the historical study. Every primary table below uses the same 310 WANDS and 111 ESCI target pairs. Raw and generated rows are families of independent target-only counterfactual indexes; they are not catalog Recall. Canonical-first rows repeat by construction because their actual model input and deterministic cache key are identical.
+
+\input{generated/optimization_orders}
+\input{generated/optimization_transfer}
+\input{generated/optimization_noise}
+\input{generated/optimization_valid}
+\input{generated/canonical_catalog}
+
+\paragraph{Operational and valid-output populations.}
+The main operational analysis replaces generation errors and length-truncated text with canonical input, while allowing nonempty fact-check failures to expose the raw adapted pipeline. The guarded variant additionally replaces every fact-check failure. Table~\ref{tab:optvalid} requires all seven raw-order outputs and the canonical-input output to pass for the same product; this leaves two ESCI heuristic products and no other support. Empty cells are retained rather than silently dropped. Fact-component, truncation, fully-fitting, transition, and rank-level files accompany the artifact.
+
+\paragraph{Generation variation.}
+Table~\ref{tab:optnoise} computes order VI separately inside each stochastic replicate. Its same-input columns instead hold C0 or canonical text fixed and vary only generation. These quantities are deliberately not pooled. Each WANDS cell contains six query--product pairs and each ESCI cell two; the control diagnoses confounding but does not estimate a stable population rate.
+
+\section{Preserved Historical Controls}
+All Phase I--IV tables, figures, ranks, and archived manuscripts remain in the repository. The current main paper retains their validated cross-model VI, fully-fitting, persistent-omission, hybrid, centroid, set-mean, transfer, candidate-budget, and reranking results. Tables~\ref{tab:saturation} and~\ref{tab:legacyrepair} retain the fixed view-count and mitigation results most relevant to the new audit. Full screening, timing, transition, and reconciliation detail remains in the Phase IV artifact.
+
+\input{generated/saturation}
+\input{generated/legacyrepair}
+
+The motivating query is \emph{turquoise chair} (WANDS query 162); the Exact-relevant item is product 34536. Its source title and attributes contain a color discrepancy, which the audit preserves rather than resolving. The complete target-only ranks below are an inspectable post-hoc example, not an effect-size estimate.
+\input{generated/caseorders}
+
+Model cache keys include content and revision hashes. Exact ranking uses stable catalog-order ties and removes the old target before counterfactual insertion. The reproduction package records prompts, all generated text, fact checks, hashes, per-order ranks, query-cluster contrasts, and protocol deviations. No ANN approximation, paid API, or outcome-based output selection is used.

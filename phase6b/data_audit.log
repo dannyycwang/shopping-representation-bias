@@ -1,0 +1,140 @@
+{
+  "frozen_utc": "2026-09-11T05:58:24.382128+00:00",
+  "train_queries": 72,
+  "judged_pairs": 34203,
+  "label_distribution": {
+    "Exact": {
+      "judged_pairs": 3635,
+      "unique_products": 3613,
+      "queries": 54
+    },
+    "Irrelevant": {
+      "judged_pairs": 10533,
+      "unique_products": 8235,
+      "queries": 56
+    },
+    "Partial": {
+      "judged_pairs": 20035,
+      "unique_products": 13631,
+      "queries": 70
+    }
+  },
+  "original_546_source": "phase5_mitigation/screen.py freeze: at most 16 Exact products/query in SHA256 positive42 order; one explicit Irrelevant in cyclic negative42 hash order; skip queries with no negatives",
+  "original_triples_exactly_reconstructed": true,
+  "excluded_positive_pairs": 378,
+  "excluded_queries": [
+    21,
+    61,
+    118,
+    181,
+    205,
+    224,
+    261,
+    312,
+    363,
+    391
+  ],
+  "no_dev_or_test_training": true,
+  "partial_products_used": false,
+  "unjudged_negatives_used": false,
+  "T1_contains_all_T0_pairs_and_their_original_negative": true,
+  "scale_order": "global SHA256(phase6b-scale42:query_id:positive_id); nested prefixes; floor(fraction*N)",
+  "cap": "No positive cap after excluding queries with no explicit Irrelevant judgments; at most 8 distinct explicit negatives per pair"
+}
+{
+  "T0": {
+    "examples": 546,
+    "unique_queries": 44,
+    "unique_positive_products": 544,
+    "unique_negative_products": 399,
+    "negative_presentations": 546,
+    "negatives_per_example": {
+      "min": 1,
+      "mean": 1.0,
+      "max": 1
+    },
+    "repeated_products_across_queries": 22,
+    "label_presentations": {
+      "Exact": 546,
+      "Irrelevant": 546,
+      "Partial": 0,
+      "unjudged": 0
+    }
+  },
+  "T1": {
+    "examples": 3257,
+    "unique_queries": 44,
+    "unique_positive_products": 3239,
+    "unique_negative_products": 1083,
+    "negative_presentations": 3257,
+    "negatives_per_example": {
+      "min": 1,
+      "mean": 1.0,
+      "max": 1
+    },
+    "repeated_products_across_queries": 166,
+    "label_presentations": {
+      "Exact": 3257,
+      "Irrelevant": 3257,
+      "Partial": 0,
+      "unjudged": 0
+    }
+  },
+  "T2": {
+    "examples": 3257,
+    "unique_queries": 44,
+    "unique_positive_products": 3239,
+    "unique_negative_products": 3436,
+    "negative_presentations": 20830,
+    "negatives_per_example": {
+      "min": 1,
+      "mean": 6.395455941050046,
+      "max": 8
+    },
+    "repeated_products_across_queries": 705,
+    "label_presentations": {
+      "Exact": 3257,
+      "Irrelevant": 20830,
+      "Partial": 0,
+      "unjudged": 0
+    }
+  },
+  "T2_f0.25": {
+    "examples": 814,
+    "unique_queries": 38,
+    "unique_positive_products": 813,
+    "unique_negative_products": 1731,
+    "negative_presentations": 5223,
+    "negatives_per_example": {
+      "min": 1,
+      "mean": 6.416461916461916,
+      "max": 8
+    },
+    "repeated_products_across_queries": 129,
+    "label_presentations": {
+      "Exact": 814,
+      "Irrelevant": 5223,
+      "Partial": 0,
+      "unjudged": 0
+    }
+  },
+  "T2_f0.5": {
+    "examples": 1628,
+    "unique_queries": 41,
+    "unique_positive_products": 1625,
+    "unique_negative_products": 2548,
+    "negative_presentations": 10382,
+    "negatives_per_example": {
+      "min": 1,
+      "mean": 6.377149877149877,
+      "max": 8
+    },
+    "repeated_products_across_queries": 297,
+    "label_presentations": {
+      "Exact": 1628,
+      "Irrelevant": 10382,
+      "Partial": 0,
+      "unjudged": 0
+    }
+  }
+}

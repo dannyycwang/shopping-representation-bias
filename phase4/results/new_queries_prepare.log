@@ -1,0 +1,15 @@
+loaded BAAI/bge-base-en-v1.5@a5beb1e3e68b9ab74eb54cfd186867f64f240e1a on cuda; hidden=768
+native 16/100 0s
+native 16/12019 1s
+native 1024/12019 2s
+native 2048/12019 2s
+native 3072/12019 3s
+native 4096/12019 4s
+native 5120/12019 6s
+native 6144/12019 7s
+native 7168/12019 10s
+native 8192/12019 13s
+native 9216/12019 17s
+native 10240/12019 23s
+native 11264/12019 28s
+NEW QUERY CATALOG 100 12019

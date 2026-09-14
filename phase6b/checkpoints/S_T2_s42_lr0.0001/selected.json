@@ -1,0 +1,21 @@
+{
+  "name": "S_T2_s42_lr0.0001",
+  "family": "S",
+  "architecture": "SetTransformer",
+  "regime": "T2",
+  "seed": 42,
+  "lr": 0.0001,
+  "best_epoch": 0,
+  "epochs_run": 4,
+  "examples": 3257,
+  "mean_negatives": 6.395455941050046,
+  "dev_recall100": 0.7958391265413322,
+  "dev_robust100": 0.7958391265413322,
+  "parameters": 462593,
+  "frozen_base_parameters": 98561,
+  "config_sha256": "03543514251a1e79e6059fb5acab48e6567a42c44e37977e4260e394fa245ec8",
+  "weights_sha256": "6acbd64be9f736281a3192b43249b7f3d922f8e08ddbb7ee90149c8e09670140",
+  "test_used_for_selection": false,
+  "completed_utc": "2026-09-11T06:12:35.657273+00:00",
+  "wall_seconds": 66.625
+}

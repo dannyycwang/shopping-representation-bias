@@ -1,0 +1,5293 @@
+[
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "39341",
+    "negatives": [
+      "27723",
+      "30427",
+      "36258"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "36735",
+    "negatives": [
+      "33890",
+      "30085",
+      "30427"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "30202",
+    "negatives": [
+      "30085",
+      "8285",
+      "30424"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "37132",
+    "negatives": [
+      "33890",
+      "26742",
+      "19148"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "15244",
+    "negatives": [
+      "35099",
+      "27723",
+      "8285"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "36747",
+    "negatives": [
+      "30427",
+      "29426",
+      "1363"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "13485",
+    "negatives": [
+      "30423",
+      "35099",
+      "37703"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "36717",
+    "negatives": [
+      "30427",
+      "24370",
+      "5773"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "39342",
+    "negatives": [
+      "27723",
+      "17278",
+      "24370"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "36750",
+    "negatives": [
+      "8285",
+      "25097",
+      "37703"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "19357",
+    "negatives": [
+      "30427",
+      "36258",
+      "19413"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "9273",
+    "negatives": [
+      "5720",
+      "19148",
+      "30423"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "39335",
+    "negatives": [
+      "27723",
+      "26742",
+      "5720"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "36759",
+    "negatives": [
+      "33890",
+      "5773",
+      "6902"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "15233",
+    "negatives": [
+      "35099",
+      "25927",
+      "12947"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 411,
+    "query": "outdoor clock",
+    "positive": "36742",
+    "negatives": [
+      "37703",
+      "24233",
+      "26742"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "16432",
+    "negatives": [
+      "21552",
+      "25718",
+      "15019"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "26625",
+    "negatives": [
+      "11224",
+      "15019",
+      "15028"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "25463",
+    "negatives": [
+      "35512",
+      "8185",
+      "10757"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "25467",
+    "negatives": [
+      "10815",
+      "15008",
+      "8187"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "19326",
+    "negatives": [
+      "8185",
+      "11224",
+      "25718"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "16415",
+    "negatives": [
+      "42971",
+      "15007",
+      "42973"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "16445",
+    "negatives": [
+      "42971",
+      "10757",
+      "42759"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "33968",
+    "negatives": [
+      "15028",
+      "21552",
+      "8186"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "23393",
+    "negatives": [
+      "10756",
+      "15007",
+      "36372"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "8556",
+    "negatives": [
+      "15007",
+      "1887",
+      "35486"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "39199",
+    "negatives": [
+      "42971",
+      "15028",
+      "23163"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "42113",
+    "negatives": [
+      "42973",
+      "42970",
+      "15019"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "17461",
+    "negatives": [
+      "25718",
+      "1887",
+      "42970"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "42830",
+    "negatives": [
+      "11224",
+      "36372",
+      "35512"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "23312",
+    "negatives": [
+      "36372",
+      "15008",
+      "42970"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 29,
+    "query": "bathroom vanity knobs",
+    "positive": "19302",
+    "negatives": [
+      "8185",
+      "35486",
+      "10757"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "29605",
+    "negatives": [
+      "20413",
+      "37216",
+      "23988"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "42916",
+    "negatives": [
+      "40694",
+      "9459",
+      "19996"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "490",
+    "negatives": [
+      "31851",
+      "5976",
+      "5975"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "31134",
+    "negatives": [
+      "33276",
+      "40694",
+      "6040"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "7460",
+    "negatives": [
+      "33276",
+      "31837",
+      "31828"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "14988",
+    "negatives": [
+      "23988",
+      "19996",
+      "15761"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "3203",
+    "negatives": [
+      "6040",
+      "9459",
+      "17588"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "23053",
+    "negatives": [
+      "9029",
+      "1630",
+      "6040"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "36349",
+    "negatives": [
+      "10821",
+      "23988",
+      "33276"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "34900",
+    "negatives": [
+      "13816",
+      "10821",
+      "1630"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "31130",
+    "negatives": [
+      "31830",
+      "31828",
+      "33279"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "7254",
+    "negatives": [
+      "16815",
+      "17588",
+      "15761"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "34907",
+    "negatives": [
+      "13816",
+      "31828",
+      "31905"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "37874",
+    "negatives": [
+      "20413",
+      "19996",
+      "17588"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "6826",
+    "negatives": [
+      "23988",
+      "33279",
+      "5976"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 414,
+    "query": "shower hooks",
+    "positive": "3188",
+    "negatives": [
+      "6040",
+      "10821",
+      "5976"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "30243",
+    "negatives": [
+      "3563",
+      "6045",
+      "25530"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "27153",
+    "negatives": [
+      "25530",
+      "6045",
+      "6047"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "12904",
+    "negatives": [
+      "3563",
+      "21177",
+      "34318"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "29912",
+    "negatives": [
+      "3563",
+      "34316",
+      "6042"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "40726",
+    "negatives": [
+      "25530",
+      "11652",
+      "7243"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "33783",
+    "negatives": [
+      "11651",
+      "9333",
+      "13494"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "12770",
+    "negatives": [
+      "3563",
+      "6041",
+      "9333"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "12926",
+    "negatives": [
+      "6042",
+      "13494",
+      "22890"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "27276",
+    "negatives": [
+      "13494",
+      "25530",
+      "34316"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "27172",
+    "negatives": [
+      "3563",
+      "15901",
+      "6041"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "12924",
+    "negatives": [
+      "1837",
+      "25530",
+      "11651"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "12901",
+    "negatives": [
+      "39582",
+      "23508",
+      "11651"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "12771",
+    "negatives": [
+      "13494",
+      "11651",
+      "3650"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "27133",
+    "negatives": [
+      "15901",
+      "25530",
+      "21177"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "27102",
+    "negatives": [
+      "11652",
+      "7243",
+      "12426"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 33,
+    "query": "non slip shower floor tile",
+    "positive": "12830",
+    "negatives": [
+      "21177",
+      "34317",
+      "9333"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "2880",
+    "negatives": [
+      "30774",
+      "30759",
+      "37375"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "15257",
+    "negatives": [
+      "34433",
+      "22986",
+      "11452"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "22533",
+    "negatives": [
+      "11452",
+      "21244",
+      "1917"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "16794",
+    "negatives": [
+      "30262",
+      "22986",
+      "23002"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "1512",
+    "negatives": [
+      "30774",
+      "17920",
+      "4030"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "1604",
+    "negatives": [
+      "30762",
+      "27814",
+      "206"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "34538",
+    "negatives": [
+      "30262",
+      "834",
+      "30719"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "23768",
+    "negatives": [
+      "30740",
+      "206",
+      "11474"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "42343",
+    "negatives": [
+      "1917",
+      "30719",
+      "4030"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "36388",
+    "negatives": [
+      "33981",
+      "34433",
+      "30262"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "12218",
+    "negatives": [
+      "4030",
+      "11452",
+      "34433"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "40269",
+    "negatives": [
+      "22986",
+      "19100",
+      "11452"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "20717",
+    "negatives": [
+      "30719",
+      "30759",
+      "33981"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "24153",
+    "negatives": [
+      "21148",
+      "17920",
+      "11452"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "40081",
+    "negatives": [
+      "27814",
+      "35609",
+      "30759"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 162,
+    "query": "turquoise chair",
+    "positive": "14615",
+    "negatives": [
+      "11474",
+      "21244",
+      "30262"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "894",
+    "negatives": [
+      "11904",
+      "24618",
+      "11908"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "40765",
+    "negatives": [
+      "11908",
+      "33455",
+      "5581"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "803",
+    "negatives": [
+      "33455",
+      "11904",
+      "12180"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "18492",
+    "negatives": [
+      "801",
+      "11906",
+      "33455"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "34462",
+    "negatives": [
+      "11908",
+      "33455",
+      "801"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "36999",
+    "negatives": [
+      "5581",
+      "11908",
+      "12180"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "10457",
+    "negatives": [
+      "5581",
+      "801",
+      "33455"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "11100",
+    "negatives": [
+      "11906",
+      "5581",
+      "801"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "12450",
+    "negatives": [
+      "11906",
+      "33455",
+      "24618"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "940",
+    "negatives": [
+      "11906",
+      "11904",
+      "5581"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "5656",
+    "negatives": [
+      "11908",
+      "33455",
+      "12180"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "224",
+    "negatives": [
+      "11908",
+      "5581",
+      "11906"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "24994",
+    "negatives": [
+      "5581",
+      "12180",
+      "11906"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "37792",
+    "negatives": [
+      "24618",
+      "801",
+      "11906"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "40808",
+    "negatives": [
+      "11908",
+      "11904",
+      "5581"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 25,
+    "query": "sunflower",
+    "positive": "36671",
+    "negatives": [
+      "11906",
+      "12180",
+      "11904"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 336,
+    "query": "mystic swivel",
+    "positive": "1229",
+    "negatives": [
+      "36014",
+      "37705",
+      "30839"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "7626",
+    "negatives": [
+      "23374",
+      "19262",
+      "19289"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "28453",
+    "negatives": [
+      "19515",
+      "24761",
+      "32850"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "14385",
+    "negatives": [
+      "3780",
+      "929",
+      "14254"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "17260",
+    "negatives": [
+      "19262",
+      "19288",
+      "11907"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "32789",
+    "negatives": [
+      "19262",
+      "11907",
+      "19292"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "24716",
+    "negatives": [
+      "32184",
+      "28454",
+      "12208"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "2489",
+    "negatives": [
+      "11743",
+      "14254",
+      "19292"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "28502",
+    "negatives": [
+      "23374",
+      "12208",
+      "24761"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "37407",
+    "negatives": [
+      "22516",
+      "19292",
+      "23379"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "25477",
+    "negatives": [
+      "23379",
+      "23716",
+      "14254"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "28501",
+    "negatives": [
+      "11907",
+      "10280",
+      "23374"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "1354",
+    "negatives": [
+      "929",
+      "28454",
+      "14254"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "34946",
+    "negatives": [
+      "19517",
+      "19289",
+      "23716"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "18462",
+    "negatives": [
+      "32184",
+      "19262",
+      "14254"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "224",
+    "negatives": [
+      "23373",
+      "23374",
+      "12208"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 12,
+    "query": "large spoon and fork wall decor",
+    "positive": "12125",
+    "negatives": [
+      "3780",
+      "23716",
+      "930"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "37266",
+    "negatives": [
+      "947",
+      "13059",
+      "40830"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "37303",
+    "negatives": [
+      "18048",
+      "4491",
+      "6802"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "24407",
+    "negatives": [
+      "5375",
+      "36354",
+      "947"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "37333",
+    "negatives": [
+      "4431",
+      "26085",
+      "28694"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "14527",
+    "negatives": [
+      "36266",
+      "28694",
+      "36354"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "6804",
+    "negatives": [
+      "4491",
+      "40637",
+      "40830"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "19531",
+    "negatives": [
+      "32139",
+      "36132",
+      "4491"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "13504",
+    "negatives": [
+      "36132",
+      "5375",
+      "17503"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "37510",
+    "negatives": [
+      "4491",
+      "935",
+      "13058"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "4134",
+    "negatives": [
+      "42430",
+      "32150",
+      "40637"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "15108",
+    "negatives": [
+      "13059",
+      "26086",
+      "37950"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "6794",
+    "negatives": [
+      "5375",
+      "13059",
+      "2816"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "37342",
+    "negatives": [
+      "4491",
+      "36341",
+      "36354"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "13505",
+    "negatives": [
+      "36132",
+      "947",
+      "13058"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "20893",
+    "negatives": [
+      "20479",
+      "26085",
+      "18048"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 43,
+    "query": "solid teak end table",
+    "positive": "13150",
+    "negatives": [
+      "935",
+      "26085",
+      "5375"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 338,
+    "query": "mahone porch rocking chair",
+    "positive": "23673",
+    "negatives": [
+      "37523",
+      "14013",
+      "30759"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "35514",
+    "negatives": [
+      "10817",
+      "9469",
+      "28685"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "38783",
+    "negatives": [
+      "7297",
+      "20684",
+      "6152"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "38805",
+    "negatives": [
+      "10817",
+      "15760",
+      "19725"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "35496",
+    "negatives": [
+      "18215",
+      "20685",
+      "9469"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "4560",
+    "negatives": [
+      "34727",
+      "10817",
+      "18215"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "22009",
+    "negatives": [
+      "28685",
+      "19843",
+      "23148"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "15006",
+    "negatives": [
+      "21485",
+      "7297",
+      "21157"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "33199",
+    "negatives": [
+      "7297",
+      "28685",
+      "9469"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "27717",
+    "negatives": [
+      "18214",
+      "19720",
+      "28686"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "14378",
+    "negatives": [
+      "6152",
+      "20509",
+      "19843"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "36343",
+    "negatives": [
+      "19720",
+      "11722",
+      "15760"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "41394",
+    "negatives": [
+      "19720",
+      "20685",
+      "10817"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "10812",
+    "negatives": [
+      "6153",
+      "19725",
+      "15760"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "22349",
+    "negatives": [
+      "21485",
+      "20685",
+      "34727"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "1921",
+    "negatives": [
+      "10817",
+      "20684",
+      "28686"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 430,
+    "query": "30 inch bathroom vanity",
+    "positive": "6849",
+    "negatives": [
+      "20509",
+      "9469",
+      "18214"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 32,
+    "query": "dark gray dresser",
+    "positive": "16607",
+    "negatives": [
+      "13496",
+      "20028",
+      "18324"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 32,
+    "query": "dark gray dresser",
+    "positive": "8577",
+    "negatives": [
+      "11004",
+      "36805",
+      "14043"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 32,
+    "query": "dark gray dresser",
+    "positive": "2223",
+    "negatives": [
+      "33780",
+      "24171",
+      "26135"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "20335",
+    "negatives": [
+      "11087",
+      "12028",
+      "39294"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "38430",
+    "negatives": [
+      "12027",
+      "11087",
+      "12028"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "22357",
+    "negatives": [
+      "39294",
+      "11086",
+      "11087"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "2806",
+    "negatives": [
+      "6636",
+      "10948",
+      "12028"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "9004",
+    "negatives": [
+      "6636",
+      "12027",
+      "10948"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "25336",
+    "negatives": [
+      "10948",
+      "12028",
+      "26411"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "10075",
+    "negatives": [
+      "11086",
+      "10948",
+      "39294"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "2814",
+    "negatives": [
+      "12027",
+      "26411",
+      "11087"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "34531",
+    "negatives": [
+      "10948",
+      "26411",
+      "39294"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "27321",
+    "negatives": [
+      "12028",
+      "12027",
+      "39294"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "10078",
+    "negatives": [
+      "6636",
+      "11086",
+      "12028"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "8894",
+    "negatives": [
+      "12027",
+      "12028",
+      "10948"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "6688",
+    "negatives": [
+      "26411",
+      "11087",
+      "12027"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "33590",
+    "negatives": [
+      "39294",
+      "10948",
+      "6636"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "6489",
+    "negatives": [
+      "11087",
+      "12028",
+      "10948"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 256,
+    "query": "high weight capacity bunk beds",
+    "positive": "10854",
+    "negatives": [
+      "10948",
+      "12027",
+      "12028"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "33168",
+    "negatives": [
+      "19920",
+      "11214",
+      "42058"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "30206",
+    "negatives": [
+      "38387",
+      "33648",
+      "11214"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "42752",
+    "negatives": [
+      "17551",
+      "11849",
+      "35281"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "21697",
+    "negatives": [
+      "42058",
+      "37712",
+      "35282"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "9889",
+    "negatives": [
+      "5007",
+      "35282",
+      "11215"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "21165",
+    "negatives": [
+      "11849",
+      "35281",
+      "33648"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "38313",
+    "negatives": [
+      "33648",
+      "42414",
+      "33940"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "7480",
+    "negatives": [
+      "33648",
+      "33940",
+      "6140"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "36449",
+    "negatives": [
+      "831",
+      "42058",
+      "10375"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "37411",
+    "negatives": [
+      "35281",
+      "37128",
+      "11214"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "9546",
+    "negatives": [
+      "30251",
+      "42414",
+      "10375"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "36509",
+    "negatives": [
+      "10375",
+      "30251",
+      "6140"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "9153",
+    "negatives": [
+      "24979",
+      "33940",
+      "17551"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "10461",
+    "negatives": [
+      "17551",
+      "35281",
+      "30251"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "11111",
+    "negatives": [
+      "33940",
+      "38387",
+      "12284"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 361,
+    "query": "kisner",
+    "positive": "32796",
+    "negatives": [
+      "12284",
+      "831",
+      "33648"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "11940",
+    "negatives": [
+      "19935",
+      "19989",
+      "9869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "33140",
+    "negatives": [
+      "9869",
+      "19935",
+      "19989"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "16517",
+    "negatives": [
+      "12203",
+      "19989",
+      "19935"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "11936",
+    "negatives": [
+      "19935",
+      "19989",
+      "9869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "8827",
+    "negatives": [
+      "12203",
+      "19989",
+      "9869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "11965",
+    "negatives": [
+      "19935",
+      "19989",
+      "12203"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "30636",
+    "negatives": [
+      "12203",
+      "19989",
+      "9869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "31671",
+    "negatives": [
+      "9869",
+      "19989",
+      "19935"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "8390",
+    "negatives": [
+      "12203",
+      "9869",
+      "19989"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "37098",
+    "negatives": [
+      "12203",
+      "9869",
+      "19935"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "20672",
+    "negatives": [
+      "12203",
+      "9869",
+      "19935"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "17791",
+    "negatives": [
+      "19935",
+      "9869",
+      "12203"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "11972",
+    "negatives": [
+      "19935",
+      "19989",
+      "9869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "24184",
+    "negatives": [
+      "19989",
+      "19935",
+      "9869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "12134",
+    "negatives": [
+      "9869",
+      "12203",
+      "19989"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 449,
+    "query": "living room designs",
+    "positive": "6539",
+    "negatives": [
+      "19989",
+      "19935",
+      "9869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 318,
+    "query": "sunjoy lantern",
+    "positive": "24038",
+    "negatives": [
+      "30531",
+      "30528",
+      "14233"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35620",
+    "negatives": [
+      "7585",
+      "34507",
+      "7965"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "32744",
+    "negatives": [
+      "30335",
+      "7617",
+      "30671"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "32170",
+    "negatives": [
+      "7585",
+      "30336",
+      "4144"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "32747",
+    "negatives": [
+      "4144",
+      "33594",
+      "29712"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35622",
+    "negatives": [
+      "7611",
+      "30671",
+      "25317"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35617",
+    "negatives": [
+      "21937",
+      "29712",
+      "31665"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35626",
+    "negatives": [
+      "7614",
+      "42450",
+      "7611"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "4065",
+    "negatives": [
+      "21938",
+      "7585",
+      "33594"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "31355",
+    "negatives": [
+      "4144",
+      "7614",
+      "7585"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35619",
+    "negatives": [
+      "7615",
+      "40108",
+      "31666"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "31353",
+    "negatives": [
+      "25317",
+      "30336",
+      "7614"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "32739",
+    "negatives": [
+      "25317",
+      "30671",
+      "31665"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35561",
+    "negatives": [
+      "42454",
+      "30335",
+      "7621"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35607",
+    "negatives": [
+      "34507",
+      "21937",
+      "31666"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "35556",
+    "negatives": [
+      "7585",
+      "30335",
+      "37526"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 287,
+    "query": "cover set for outdoor furniture",
+    "positive": "32740",
+    "negatives": [
+      "15613",
+      "7614",
+      "33137"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 413,
+    "query": "burruss patio sectional with cushions",
+    "positive": "35298",
+    "negatives": [
+      "38719",
+      "14855",
+      "18391"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "30083",
+    "negatives": [
+      "11844",
+      "9546",
+      "1318"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "30358",
+    "negatives": [
+      "9546",
+      "1318",
+      "11851"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "30045",
+    "negatives": [
+      "9546",
+      "7695",
+      "1318"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "8778",
+    "negatives": [
+      "11844",
+      "11851",
+      "27701"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "21994",
+    "negatives": [
+      "27701",
+      "38011",
+      "1318"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "30557",
+    "negatives": [
+      "27701",
+      "1318",
+      "7695"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "21275",
+    "negatives": [
+      "11844",
+      "11851",
+      "1318"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "23011",
+    "negatives": [
+      "11844",
+      "7500",
+      "11851"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "889",
+    "negatives": [
+      "7695",
+      "7500",
+      "1318"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "15707",
+    "negatives": [
+      "27701",
+      "11851",
+      "11844"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "8990",
+    "negatives": [
+      "27701",
+      "9546",
+      "11851"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "22077",
+    "negatives": [
+      "7500",
+      "9546",
+      "11844"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "7820",
+    "negatives": [
+      "7500",
+      "27701",
+      "9546"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "8301",
+    "negatives": [
+      "27701",
+      "11844",
+      "7500"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "11511",
+    "negatives": [
+      "1318",
+      "11851",
+      "9546"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 8,
+    "query": "home sweet home sign",
+    "positive": "30082",
+    "negatives": [
+      "11851",
+      "9546",
+      "27701"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "18543",
+    "negatives": [
+      "25353",
+      "5273",
+      "34555"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "20338",
+    "negatives": [
+      "5273",
+      "32261",
+      "23618"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "4575",
+    "negatives": [
+      "39226",
+      "24917",
+      "35216"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "20342",
+    "negatives": [
+      "35216",
+      "2052",
+      "32261"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "1218",
+    "negatives": [
+      "29929",
+      "24917",
+      "23618"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "11087",
+    "negatives": [
+      "26747",
+      "31071",
+      "29929"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "20339",
+    "negatives": [
+      "31071",
+      "39226",
+      "38371"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "20337",
+    "negatives": [
+      "8951",
+      "27044",
+      "24917"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "25219",
+    "negatives": [
+      "29238",
+      "5273",
+      "26831"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "15949",
+    "negatives": [
+      "38371",
+      "10353",
+      "25353"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "8062",
+    "negatives": [
+      "27661",
+      "24917",
+      "2052"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "5502",
+    "negatives": [
+      "16199",
+      "38371",
+      "35216"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "6055",
+    "negatives": [
+      "29238",
+      "29929",
+      "8951"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "1219",
+    "negatives": [
+      "41477",
+      "32261",
+      "16191"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "387",
+    "negatives": [
+      "26831",
+      "32261",
+      "39226"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 106,
+    "query": "bed risers",
+    "positive": "20340",
+    "negatives": [
+      "23618",
+      "10353",
+      "39226"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "14054",
+    "negatives": [
+      "12912",
+      "21902",
+      "42687"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "13187",
+    "negatives": [
+      "12917",
+      "30231",
+      "22484"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "14059",
+    "negatives": [
+      "12869",
+      "36253",
+      "37617"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "37383",
+    "negatives": [
+      "12924",
+      "33794",
+      "15099"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "37376",
+    "negatives": [
+      "22484",
+      "30231",
+      "42687"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "9598",
+    "negatives": [
+      "27134",
+      "12912",
+      "34835"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "28072",
+    "negatives": [
+      "12796",
+      "34835",
+      "12869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "14062",
+    "negatives": [
+      "30231",
+      "27078",
+      "12869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "24774",
+    "negatives": [
+      "20451",
+      "34835",
+      "33793"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "24773",
+    "negatives": [
+      "15099",
+      "12912",
+      "8751"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "28918",
+    "negatives": [
+      "27134",
+      "27060",
+      "33793"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "37382",
+    "negatives": [
+      "24087",
+      "12897",
+      "15099"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 293,
+    "query": "wood floor protector mat",
+    "positive": "39210",
+    "negatives": [
+      "20451",
+      "12924",
+      "21902"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 57,
+    "query": "jordanna solid wood rocking",
+    "positive": "33659",
+    "negatives": [
+      "17000",
+      "18463",
+      "5884"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 134,
+    "query": "black hanging bookshelf",
+    "positive": "28427",
+    "negatives": [
+      "42696",
+      "25307",
+      "7146"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 134,
+    "query": "black hanging bookshelf",
+    "positive": "9941",
+    "negatives": [
+      "31186",
+      "16934",
+      "3991"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 134,
+    "query": "black hanging bookshelf",
+    "positive": "38649",
+    "negatives": [
+      "13756",
+      "33079",
+      "39705"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "24120",
+    "negatives": [
+      "1548",
+      "15169",
+      "19900"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "14532",
+    "negatives": [
+      "40192",
+      "19900",
+      "15165"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "28998",
+    "negatives": [
+      "1551",
+      "40285",
+      "2101"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "15577",
+    "negatives": [
+      "18449",
+      "36358",
+      "19900"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "20336",
+    "negatives": [
+      "7201",
+      "40281",
+      "15169"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "16758",
+    "negatives": [
+      "40285",
+      "40281",
+      "15207"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "42367",
+    "negatives": [
+      "20864",
+      "40281",
+      "7201"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "5088",
+    "negatives": [
+      "23789",
+      "7052",
+      "7194"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "26350",
+    "negatives": [
+      "1551",
+      "7052",
+      "42430"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "28104",
+    "negatives": [
+      "7201",
+      "40192",
+      "20864"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "12250",
+    "negatives": [
+      "1550",
+      "18449",
+      "15635"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "24500",
+    "negatives": [
+      "1550",
+      "19900",
+      "2101"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "11640",
+    "negatives": [
+      "34679",
+      "20864",
+      "40281"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "24256",
+    "negatives": [
+      "18449",
+      "7194",
+      "19900"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "41329",
+    "negatives": [
+      "40192",
+      "20864",
+      "7201"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 24,
+    "query": "wood coffee table set by storage",
+    "positive": "26505",
+    "negatives": [
+      "23789",
+      "5661",
+      "42430"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "9716",
+    "negatives": [
+      "6104",
+      "18873",
+      "18796"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "31150",
+    "negatives": [
+      "32448",
+      "18900",
+      "18873"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "33353",
+    "negatives": [
+      "18900",
+      "18873",
+      "17214"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "38051",
+    "negatives": [
+      "10802",
+      "6104",
+      "25470"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "7977",
+    "negatives": [
+      "10448",
+      "6614",
+      "38469"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "11605",
+    "negatives": [
+      "38469",
+      "12147",
+      "19808"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "10532",
+    "negatives": [
+      "32448",
+      "6104",
+      "10446"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "39300",
+    "negatives": [
+      "18900",
+      "11214",
+      "12147"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "784",
+    "negatives": [
+      "30284",
+      "10802",
+      "8476"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "9723",
+    "negatives": [
+      "35281",
+      "18869",
+      "38469"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "42860",
+    "negatives": [
+      "6688",
+      "35281",
+      "26490"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "21541",
+    "negatives": [
+      "25470",
+      "18897",
+      "18869"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "6667",
+    "negatives": [
+      "25470",
+      "6614",
+      "18897"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "21540",
+    "negatives": [
+      "25470",
+      "17214",
+      "30284"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "10962",
+    "negatives": [
+      "32448",
+      "25470",
+      "18900"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 228,
+    "query": "bee",
+    "positive": "21538",
+    "negatives": [
+      "18873",
+      "6140",
+      "26490"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "7172",
+    "negatives": [
+      "17027",
+      "15252",
+      "3159"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "35099",
+    "negatives": [
+      "25528",
+      "21158",
+      "37064"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "37696",
+    "negatives": [
+      "21158",
+      "13431",
+      "37699"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "11435",
+    "negatives": [
+      "421",
+      "21157",
+      "5775"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "7171",
+    "negatives": [
+      "21157",
+      "37066",
+      "5774"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "23497",
+    "negatives": [
+      "3159",
+      "6902",
+      "25528"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "1495",
+    "negatives": [
+      "21158",
+      "25528",
+      "37839"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "22874",
+    "negatives": [
+      "25528",
+      "3159",
+      "25202"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "24356",
+    "negatives": [
+      "5774",
+      "25528",
+      "5775"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "15698",
+    "negatives": [
+      "37699",
+      "421",
+      "30366"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "29286",
+    "negatives": [
+      "15252",
+      "5774",
+      "5775"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "36263",
+    "negatives": [
+      "21158",
+      "37706",
+      "20746"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "3274",
+    "negatives": [
+      "37699",
+      "6902",
+      "5775"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "38918",
+    "negatives": [
+      "37706",
+      "25202",
+      "21158"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "23919",
+    "negatives": [
+      "37839",
+      "37063",
+      "9992"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 133,
+    "query": "outdoor light fixtures",
+    "positive": "25932",
+    "negatives": [
+      "37706",
+      "21157",
+      "6902"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 283,
+    "query": "gaia driftwood table",
+    "positive": "26180",
+    "negatives": [
+      "26381",
+      "29202",
+      "11181"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 15,
+    "query": "black 5 drawer dresser by guilford",
+    "positive": "17439",
+    "negatives": [
+      "27421",
+      "15341",
+      "7623"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 15,
+    "query": "black 5 drawer dresser by guilford",
+    "positive": "25698",
+    "negatives": [
+      "13465",
+      "35917",
+      "13966"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "7438",
+    "negatives": [
+      "35559",
+      "35558",
+      "35560"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "8393",
+    "negatives": [
+      "28890",
+      "31351",
+      "32747"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "7976",
+    "negatives": [
+      "14473",
+      "32170",
+      "32743"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "30634",
+    "negatives": [
+      "35601",
+      "31349",
+      "31355"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "33043",
+    "negatives": [
+      "15068",
+      "35558",
+      "32741"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "39434",
+    "negatives": [
+      "28886",
+      "15068",
+      "35559"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "15258",
+    "negatives": [
+      "28886",
+      "39228",
+      "35556"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "18298",
+    "negatives": [
+      "35601",
+      "35557",
+      "15060"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "18307",
+    "negatives": [
+      "31351",
+      "32743",
+      "31349"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "8241",
+    "negatives": [
+      "35557",
+      "35559",
+      "31349"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "22309",
+    "negatives": [
+      "35559",
+      "32747",
+      "35601"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "7434",
+    "negatives": [
+      "31349",
+      "23075",
+      "32743"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "7508",
+    "negatives": [
+      "35558",
+      "23075",
+      "14473"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "3236",
+    "negatives": [
+      "23075",
+      "32744",
+      "28886"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "16472",
+    "negatives": [
+      "35613",
+      "39228",
+      "35561"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 463,
+    "query": "bistro sets patio",
+    "positive": "3174",
+    "negatives": [
+      "32747",
+      "35601",
+      "32743"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "4008",
+    "negatives": [
+      "40671",
+      "8241",
+      "42923"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "34214",
+    "negatives": [
+      "5937",
+      "42923",
+      "40668"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "38286",
+    "negatives": [
+      "1794",
+      "40668",
+      "3819"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "18519",
+    "negatives": [
+      "8241",
+      "34545",
+      "1449"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "30443",
+    "negatives": [
+      "1794",
+      "1199",
+      "38296"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "12523",
+    "negatives": [
+      "24970",
+      "3819",
+      "34545"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "23900",
+    "negatives": [
+      "24971",
+      "38296",
+      "25427"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "13934",
+    "negatives": [
+      "29489",
+      "28910",
+      "25424"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "38287",
+    "negatives": [
+      "25428",
+      "28910",
+      "1794"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "6872",
+    "negatives": [
+      "5937",
+      "1794",
+      "34545"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "32574",
+    "negatives": [
+      "8241",
+      "8025",
+      "5936"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "12522",
+    "negatives": [
+      "24971",
+      "1199",
+      "34545"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "38255",
+    "negatives": [
+      "24970",
+      "1449",
+      "25434"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "37565",
+    "negatives": [
+      "1199",
+      "40671",
+      "1449"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "11061",
+    "negatives": [
+      "25427",
+      "42923",
+      "34545"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 156,
+    "query": "papasan chair frame only",
+    "positive": "31730",
+    "negatives": [
+      "5936",
+      "25427",
+      "1794"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "690",
+    "negatives": [
+      "24423",
+      "14712",
+      "8291"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "42256",
+    "negatives": [
+      "39699",
+      "20607",
+      "11227"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "35990",
+    "negatives": [
+      "20607",
+      "28024",
+      "27943"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "29264",
+    "negatives": [
+      "24423",
+      "8291",
+      "7099"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "30859",
+    "negatives": [
+      "17957",
+      "11227",
+      "20607"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "27471",
+    "negatives": [
+      "17967",
+      "20607",
+      "20458"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "21952",
+    "negatives": [
+      "27943",
+      "17967",
+      "42644"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "9993",
+    "negatives": [
+      "42644",
+      "27943",
+      "21744"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "42257",
+    "negatives": [
+      "42610",
+      "40858",
+      "342"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "30860",
+    "negatives": [
+      "30622",
+      "7099",
+      "17957"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "2192",
+    "negatives": [
+      "39699",
+      "342",
+      "24423"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "27469",
+    "negatives": [
+      "7099",
+      "17947",
+      "27943"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "11088",
+    "negatives": [
+      "42610",
+      "17967",
+      "8291"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "1451",
+    "negatives": [
+      "29274",
+      "42610",
+      "13630"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "30858",
+    "negatives": [
+      "7099",
+      "28024",
+      "20607"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 113,
+    "query": "led light strip",
+    "positive": "9992",
+    "negatives": [
+      "8272",
+      "21744",
+      "13629"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 487,
+    "query": "rack glass",
+    "positive": "9434",
+    "negatives": [
+      "30342",
+      "32601",
+      "16202"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 487,
+    "query": "rack glass",
+    "positive": "42003",
+    "negatives": [
+      "39631",
+      "32601",
+      "28239"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "18313",
+    "negatives": [
+      "32328",
+      "41403",
+      "36025"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "5275",
+    "negatives": [
+      "31208",
+      "9348",
+      "23845"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "17698",
+    "negatives": [
+      "36025",
+      "23693",
+      "4898"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "6930",
+    "negatives": [
+      "41403",
+      "487",
+      "6748"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "41707",
+    "negatives": [
+      "5692",
+      "39731",
+      "28627"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "17706",
+    "negatives": [
+      "9011",
+      "18930",
+      "39731"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "20605",
+    "negatives": [
+      "4897",
+      "1588",
+      "9742"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "17752",
+    "negatives": [
+      "23950",
+      "18930",
+      "23693"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "25559",
+    "negatives": [
+      "23693",
+      "23845",
+      "23950"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "32223",
+    "negatives": [
+      "6748",
+      "2600",
+      "24720"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "2621",
+    "negatives": [
+      "36025",
+      "2600",
+      "33331"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "33511",
+    "negatives": [
+      "23845",
+      "31208",
+      "28627"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "13652",
+    "negatives": [
+      "18469",
+      "31561",
+      "18984"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "42880",
+    "negatives": [
+      "28627",
+      "23693",
+      "4898"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "13161",
+    "negatives": [
+      "33331",
+      "1588",
+      "18469"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 100,
+    "query": "tufted upholstered bed diamond",
+    "positive": "31921",
+    "negatives": [
+      "5692",
+      "9348",
+      "18985"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "21625",
+    "negatives": [
+      "36360",
+      "8187",
+      "36113"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "39514",
+    "negatives": [
+      "23626",
+      "37063",
+      "23159"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "33900",
+    "negatives": [
+      "15891",
+      "35486",
+      "35489"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "15890",
+    "negatives": [
+      "36328",
+      "15891",
+      "23159"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "19659",
+    "negatives": [
+      "29728",
+      "11521",
+      "8112"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "15073",
+    "negatives": [
+      "27385",
+      "23626",
+      "15023"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "32658",
+    "negatives": [
+      "4477",
+      "18214",
+      "15007"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "15071",
+    "negatives": [
+      "27385",
+      "18215",
+      "41911"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "9287",
+    "negatives": [
+      "4478",
+      "38174",
+      "35489"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "27299",
+    "negatives": [
+      "42760",
+      "8112",
+      "36360"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "13687",
+    "negatives": [
+      "29728",
+      "18214",
+      "42760"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "40230",
+    "negatives": [
+      "42759",
+      "4478",
+      "11521"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "17491",
+    "negatives": [
+      "38174",
+      "37063",
+      "42759"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "19660",
+    "negatives": [
+      "36113",
+      "38174",
+      "27385"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "37528",
+    "negatives": [
+      "35489",
+      "8112",
+      "8187"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 18,
+    "query": "chrome bathroom 4 light vanity light",
+    "positive": "10259",
+    "negatives": [
+      "8187",
+      "23159",
+      "18214"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "24183",
+    "negatives": [
+      "18004",
+      "6958",
+      "17695"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "23166",
+    "negatives": [
+      "5691",
+      "15519",
+      "42939"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "23197",
+    "negatives": [
+      "35440",
+      "23192",
+      "29494"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "23201",
+    "negatives": [
+      "42940",
+      "15519",
+      "23872"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "31436",
+    "negatives": [
+      "31663",
+      "35440",
+      "40050"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "24245",
+    "negatives": [
+      "42939",
+      "23192",
+      "15519"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "23191",
+    "negatives": [
+      "13923",
+      "26774",
+      "8375"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "23190",
+    "negatives": [
+      "42935",
+      "8375",
+      "14452"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "23187",
+    "negatives": [
+      "18004",
+      "31663",
+      "18987"
+    ],
+    "protect": [
+      "title"
+    ]
+  },
+  {
+    "query_id": 135,
+    "query": "low profile loveseat recliner",
+    "positive": "23188",
+    "negatives": [
+      "40050",
+      "17695",
+      "14452"
+    ],
+    "protect": [
+      "title"
+    ]
+  }
+]

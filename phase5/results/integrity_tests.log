@@ -1,0 +1,12 @@
+2026-09-08 final verification
+
+Commands were run in isolated Python processes to avoid cross-phase module-name collisions.
+- tests/test_core.py: 6 passed
+- phase2/tests/test_phase2.py: 5 passed
+- phase3/tests/test_metric_reconciliation.py + test_phase3_outputs.py + test_target_only_permutations.py: 6 passed
+- phase4/tests/test_retrieval_integrity.py: 3 passed
+- phase5/tests/test_extension.py: 7 passed
+Total: 27 passed.
+
+phase5/scripts/finalize_manifest.py: all 31 generation/rank/cache/hash/population checks passed.
+LaTeX: pdflatex + bibtex + two pdflatex passes completed; 8 main pages, 11 total pages.

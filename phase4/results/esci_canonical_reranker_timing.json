@@ -1,0 +1,12 @@
+{
+  "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "joint_token_budget": 256,
+  "text": "historical M2C0, fixed for all candidates",
+  "unique_scored_pairs": 350604,
+  "batch_size": 128,
+  "max_candidate_K": 500,
+  "total_tokenization_and_inference_seconds": 243.3262914988445,
+  "seconds_per_pair_amortized": 0.0006940202949733731,
+  "scope": "local batched GPU throughput; excludes model load, not online request latency"
+}

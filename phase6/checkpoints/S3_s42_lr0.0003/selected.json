@@ -1,0 +1,16 @@
+{
+  "name": "S3_s42_lr0.0003",
+  "method": "S3",
+  "seed": 42,
+  "lr": 0.0003,
+  "best_epoch": 2,
+  "epochs_run": 5,
+  "dev_recall100": 0.771337438294876,
+  "parameters": 249878,
+  "config_sha256": "b0adea11b1277a6abf34505120329a27a38e59f7d0448335982bbf0394c0f864",
+  "weights_sha256": "4215585bf27a359eb35759b2004498a3b0cc37d70a3d9d081466c2ab26e00d35",
+  "test_used": false,
+  "training_seconds": 1.0479999999515712,
+  "completed_utc": "2026-09-10T23:04:40.169513+00:00",
+  "wall_seconds": 5.141000000061467
+}

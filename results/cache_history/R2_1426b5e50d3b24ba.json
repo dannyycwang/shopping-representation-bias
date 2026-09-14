@@ -1,0 +1,10 @@
+{
+  "fingerprint": "1426b5e50d3b24ba",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "device": "cuda",
+  "mean_wordpieces": 630.2483369772526,
+  "fraction_above_254": 0.9472484532725497,
+  "precision": "fp16_model_fp32_pooling",
+  "seconds": 242.6866328716278
+}

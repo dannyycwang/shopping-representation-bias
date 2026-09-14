@@ -1,0 +1,23 @@
+{
+  "p0": "complete_pass",
+  "p1_official_esci": "complete",
+  "p2_ecommerce_retriever": "complete",
+  "p2_model": "Marqo/marqo-ecommerce-embeddings-B@856b7151a2d1698bf940bc1b3813021c47991481",
+  "p2_wands_micro_vi20": 0.0606988614055751,
+  "p2_esci_micro_vi20": 0.072169598556608,
+  "p3_reranker": "complete",
+  "p4_invariant": "complete",
+  "paper": "complete_reframed",
+  "p3_wands_irrecoverable100_all_highest": 0.1513937966234786,
+  "p3_esci_irrecoverable100_all_highest": 0.009923319801533603,
+  "p4_selected_method": "set_mean",
+  "p4_wands_heldout_delta_cNDCG10": -0.009569,
+  "p4_wands_delta_macro_VI20": -0.119318,
+  "p4_esci_delta_cNDCG10": -0.006567,
+  "p4_esci_delta_macro_VI20": -0.036618,
+  "p4_max_score_diff": 2.384186e-07,
+  "paper_pdf_pages_total": 8,
+  "phase3_status": "complete",
+  "tests": "5_passed",
+  "framing_revision": "complete"
+}

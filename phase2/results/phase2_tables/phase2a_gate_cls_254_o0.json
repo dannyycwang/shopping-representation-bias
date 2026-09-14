@@ -1,0 +1,12 @@
+{
+  "profile": "cls_254_o0",
+  "dataset_gates": [
+    {
+      "dataset": "wands",
+      "models_passing": 2,
+      "required": 2,
+      "pass": true
+    }
+  ],
+  "phase2a_pass": false
+}

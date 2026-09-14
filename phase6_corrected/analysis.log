@@ -1,0 +1,10 @@
+A KEEP DIAGNOSIS PAPER C4
+       Method  Epoch  Recall@100  cNDCG@10  Recall@100_seed_sd
+     Original    NaN   63.620257 82.482685                 NaN
+    Canonical    NaN   63.236881 82.307883                 NaN
+     Set-Mean    NaN   61.820039 81.498498                 NaN
+Set-Attention    1.0   62.172915 81.437898                 NaN
+           C1    1.0   61.982376 81.491658            0.000000
+           C2    1.0   62.284338 81.429407            0.239238
+           C3    1.0   62.387588 81.485009            0.065461
+           C4    1.0   61.822329 81.497653            0.001983

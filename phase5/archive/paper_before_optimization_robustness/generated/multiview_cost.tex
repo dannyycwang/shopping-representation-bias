@@ -1,0 +1,14 @@
+\begin{table}[t]
+\caption{Full-record view-count checks: held-out WANDS and historical ESCI Recall@100 and WANDS index/scoring cost. Centroids store one vector after multiple offline encodings; max stores all views. These fixed checks do not reopen strategy selection.}
+\label{tab:multiview_cost}
+\centering\small
+\begin{tabular}{lrrrr}\toprule
+Method & R100 W & R100 E & MiB W & ms W\\\midrule
+Centroid (2) & 0.640 & 0.911 & 126.0 & 8.3\\
+Max views (2) & 0.640 & 0.911 & 251.9 & 13.1\\
+Centroid (4) & 0.644 & 0.910 & 126.0 & 8.3\\
+Max views (4) & 0.639 & 0.911 & 503.8 & 20.9\\
+Centroid (7) & 0.642 & 0.910 & 126.0 & 8.4\\
+Max views (7) & 0.642 & 0.910 & 881.7 & 36.7\\
+\bottomrule\end{tabular}
+\end{table}

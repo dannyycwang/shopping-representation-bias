@@ -1,0 +1,132 @@
+{
+  "frozen_utc": "2026-09-11T09:06:11.272472+00:00",
+  "train_queries": 72,
+  "judged_pairs": 34203,
+  "queries_with_labels": {
+    "Exact": 54,
+    "Partial": 70,
+    "Irrelevant": 56
+  },
+  "label_counts": {
+    "Exact": {
+      "pairs": 3635,
+      "unique_products": 3613
+    },
+    "Partial": {
+      "pairs": 20035,
+      "unique_products": 13631
+    },
+    "Irrelevant": {
+      "pairs": 10533,
+      "unique_products": 8235
+    }
+  },
+  "queries_Exact_and_Partial": 52,
+  "queries_Exact_and_Irrelevant": 44,
+  "queries_Exact_and_lower": 54,
+  "eligible_queries": [
+    8,
+    12,
+    15,
+    18,
+    21,
+    23,
+    24,
+    25,
+    29,
+    32,
+    33,
+    34,
+    43,
+    56,
+    57,
+    58,
+    61,
+    80,
+    100,
+    103,
+    106,
+    113,
+    116,
+    118,
+    133,
+    134,
+    135,
+    149,
+    156,
+    162,
+    181,
+    205,
+    224,
+    228,
+    256,
+    258,
+    261,
+    262,
+    280,
+    283,
+    287,
+    293,
+    309,
+    312,
+    314,
+    318,
+    336,
+    338,
+    345,
+    361,
+    363,
+    391,
+    393,
+    395,
+    399,
+    401,
+    411,
+    413,
+    414,
+    430,
+    449,
+    462,
+    463,
+    474,
+    485,
+    487
+  ],
+  "excluded_queries": [
+    219,
+    290,
+    377,
+    379,
+    381,
+    480
+  ],
+  "relations": [
+    {
+      "higher": "Exact",
+      "lower": "Irrelevant",
+      "weight": 1.0
+    },
+    {
+      "higher": "Exact",
+      "lower": "Partial",
+      "weight": 0.5
+    },
+    {
+      "higher": "Partial",
+      "lower": "Irrelevant",
+      "weight": 0.5
+    }
+  ],
+  "presentations_per_query_per_epoch": 64,
+  "examples_per_epoch": 4224,
+  "query_max_min_ratio": 1.0,
+  "field_keys": 6042,
+  "UNK_id": 0,
+  "catalog_products": 42994,
+  "attribute_count_q75": 73.0,
+  "no_dev_test_training": true,
+  "no_unjudged_negatives": true,
+  "unmodified_raw_atoms": true,
+  "sampling": "each epoch has 64 independently shuffled complete query cycles; equal exposure among eligible queries; relation and both grade-product pools rotate across epochs",
+  "limitation": "Only queries with a valid strict judged grade relation can train; relation types are cycled equally when available and loss weights encode grade gap."
+}

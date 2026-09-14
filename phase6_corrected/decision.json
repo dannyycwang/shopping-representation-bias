@@ -1,0 +1,12 @@
+{
+  "code": "A",
+  "title": "KEEP DIAGNOSIS PAPER",
+  "best_method": "C4",
+  "all_seeds_improve_dev_vs_SetAttention": true,
+  "heldout_R100_CI_lower_vs_SetAttention": -0.7787303913849956,
+  "qualified_learned_benefit": false,
+  "all_test_seeds_at_least_Canonical": false,
+  "all_test_seeds_at_least_Original": false,
+  "selection_sha256": "163e2a8466ecf10a16d74127202cd964da6f9cbe539dbc5bf82ce620d3cf291e",
+  "generated_utc": "2026-09-11T10:16:00.710399+00:00"
+}

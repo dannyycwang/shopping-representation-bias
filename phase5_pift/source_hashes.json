@@ -1,0 +1,54 @@
+[
+  {
+    "file": "vendor\\README.md",
+    "sha256": "78a8a912e840da5d2bd474b08de5e39c608398e5686cd00094ea1b775fad85e5"
+  },
+  {
+    "file": "vendor\\requirements.txt",
+    "sha256": "0e2e8786329c9f7183e1a1821d2b9aba7ed3ba00211848204d1abf3226fd7bdd"
+  },
+  {
+    "file": "vendor\\configs\\example.yaml",
+    "sha256": "1595ac35b4a973087fb63eb189a6d731440375ad624fc04881e93be79f1a7123"
+  },
+  {
+    "file": "vendor\\docs\\configuration.md",
+    "sha256": "1459ea3f2aa81556621375a313eabdcdcbce29631e117bd514719d86a85047a7"
+  },
+  {
+    "file": "vendor\\docs\\method.md",
+    "sha256": "726f16f38718472ff616b932856e77d95fa65398113dc7c4aab1a27783c92395"
+  },
+  {
+    "file": "vendor\\src\\pift\\config.py",
+    "sha256": "2ecdd938935b30ab2b6015aae247f0a23fc2dbc16e92ed9bde119e1d28cb2e05"
+  },
+  {
+    "file": "vendor\\src\\pift\\encoder.py",
+    "sha256": "6dbb94632c6b3c92c2537ce87d383ea290a28b0008c216c5405df8239af47270"
+  },
+  {
+    "file": "vendor\\src\\pift\\finetune.py",
+    "sha256": "850e49a0d7d382482737c3b5079a76ac492beddaf3f6139ef6de1129cb20f331"
+  },
+  {
+    "file": "vendor\\src\\pift\\mine.py",
+    "sha256": "8be20d3e03a1aa74c087a8518099df481aa4ef2fff116444b7692ab0581fdeea"
+  },
+  {
+    "file": "vendor\\src\\pift\\records.py",
+    "sha256": "8a97aeafa819673806f1e24add66e351f469e6fa9703bd9491124add5f2e1c62"
+  },
+  {
+    "file": "vendor\\src\\pift\\serialize.py",
+    "sha256": "2ac8c9dcb3981958d2533c0fc6617d02b733592c91d4be080505733634b18f4f"
+  },
+  {
+    "file": "vendor\\src\\pift\\__pycache__\\config.cpython-310.pyc",
+    "sha256": "3785b2f63812b688a784d95a1ff1a35f8477788e3f2133c4b67e94db2c1bd8d6"
+  },
+  {
+    "file": "vendor\\src\\pift\\__pycache__\\serialize.cpython-310.pyc",
+    "sha256": "eb61b5c6b708d8b16b63565fb7959499d46a1af734922e128413ac98048a1fe5"
+  }
+]

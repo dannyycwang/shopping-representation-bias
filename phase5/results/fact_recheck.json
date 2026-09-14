@@ -1,0 +1,5 @@
+{
+  "checked_utc": "2026-09-07T22:42:38.182818+00:00",
+  "records": 7120,
+  "checker": "phase5 common5.py frozen rules; recomputed after generation to include source conflict and coverage fields"
+}

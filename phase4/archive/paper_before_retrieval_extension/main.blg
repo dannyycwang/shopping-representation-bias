@@ -1,0 +1,112 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: references.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty publisher in abdou2022wordorder
+Warning--empty address in abdou2022wordorder
+Warning--page numbers missing in both pages and numpages fields in abdou2022wordorder
+Warning--empty publisher in aggarwal2024geo
+Warning--empty address in aggarwal2024geo
+Warning--page numbers missing in both pages and numpages fields in aggarwal2024geo
+Warning--no number and no volume in bagga2025egeo
+Warning--page numbers missing in both pages and numpages fields in bagga2025egeo
+Warning--no number and no volume in bhandari2026tabular
+Warning--page numbers missing in both pages and numpages fields in bhandari2026tabular
+Warning--empty publisher in chen2022wands
+Warning--empty address in chen2022wands
+Warning--page numbers missing in both pages and numpages fields in chen2022wands
+Warning--no number and no volume in choi2020semantic
+Warning--page numbers missing in both pages and numpages fields in choi2020semantic
+Warning--empty publisher in goren2020ranking
+Warning--empty address in goren2020ranking
+Warning--empty publisher in hessel2021order
+Warning--empty address in hessel2021order
+Warning--page numbers missing in both pages and numpages fields in hessel2021order
+Warning--empty publisher in joachims2017unbiased
+Warning--empty address in joachims2017unbiased
+Warning--page numbers missing in both pages and numpages fields in joachims2017unbiased
+Warning--empty publisher in karpukhin2020dpr
+Warning--empty address in karpukhin2020dpr
+Warning--page numbers missing in both pages and numpages fields in karpukhin2020dpr
+Warning--empty publisher in kim2026sageo
+Warning--empty address in kim2026sageo
+Warning--page numbers missing in both pages and numpages fields in kim2026sageo
+Warning--no number and no volume in li2023gte
+Warning--page numbers missing in both pages and numpages fields in li2023gte
+Warning--no number and no volume in liu2024robustnir
+Warning--page numbers missing in both pages and numpages fields in liu2024robustnir
+Warning--empty publisher in loughnane2024attributes
+Warning--empty address in loughnane2024attributes
+Warning--no number and no volume in nogueira2019passage
+Warning--page numbers missing in both pages and numpages fields in nogueira2019passage
+Warning--empty publisher in papadimitriou2022role
+Warning--empty address in papadimitriou2022role
+Warning--page numbers missing in both pages and numpages fields in papadimitriou2022role
+Warning--no number and no volume in reddy2022shopping
+Warning--page numbers missing in both pages and numpages fields in reddy2022shopping
+Warning--empty publisher in reimers2019sentencebert
+Warning--empty address in reimers2019sentencebert
+Warning--empty publisher in sakai2008alternatives
+Warning--empty address in sakai2008alternatives
+Warning--page numbers missing in both pages and numpages fields in sakai2008alternatives
+Warning--empty publisher in singh2018fairness
+Warning--empty address in singh2018fairness
+Warning--page numbers missing in both pages and numpages fields in singh2018fairness
+Warning--no number and no volume in xiao2024cpack
+Warning--page numbers missing in both pages and numpages fields in xiao2024cpack
+Warning--empty publisher in yang2022tableformer
+Warning--empty address in yang2022tableformer
+You've used 25 entries,
+            6335 wiz_defined-function locations,
+            1651 strings with 23617 characters,
+and the built_in function-call counts, 29097 in all, are:
+= -- 3558
+> -- 1111
+< -- 0
++ -- 385
+- -- 386
+* -- 2130
+:= -- 2799
+add.period$ -- 115
+call.type$ -- 25
+change.case$ -- 209
+chr.to.int$ -- 25
+cite$ -- 79
+duplicate$ -- 2573
+empty$ -- 1839
+format.name$ -- 486
+if$ -- 7167
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 114
+newline$ -- 237
+num.names$ -- 175
+pop$ -- 1228
+preamble$ -- 1
+purify$ -- 409
+quote$ -- 0
+skip$ -- 861
+stack$ -- 0
+substring$ -- 1743
+swap$ -- 172
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 596
+warning$ -- 54
+while$ -- 124
+width$ -- 0
+write$ -- 493
+(There were 54 warnings)

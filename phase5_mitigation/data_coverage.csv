@@ -1,0 +1,4 @@
+split,queries,eligible_exact_queries,highest_pairs,unique_highest_products,highest_pairs_with_training_product
+train,72,54,3635,3613,575
+validation,24,17,536,534,5
+test,384,308,21299,18010,413

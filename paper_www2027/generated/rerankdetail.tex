@@ -1,0 +1,13 @@
+\begin{table*}[tp]
+\caption{Fixed canonical-input reranking. Each K cell gives Recall@20 / returned-list condensed NDCG@10; the latter is not full-catalog cNDCG. Multiply measured amortized ms/pair by K to estimate candidate inference time, excluding loading and retrieval. This is batch throughput, not per-request latency. Paired intervals are in the artifact.}\label{tab:rerankdetail}
+\centering\small
+\begin{tabular}{llllllr}\toprule
+Data & Method & K=50 & K=100 & K=200 & K=500 & ms/pair\\\midrule
+WANDS & Original & 0.376 / 0.786 & 0.368 / 0.784 & 0.377 / 0.777 & 0.379 / 0.776 & 0.857\\
+WANDS & Hybrid & 0.383 / 0.787 & 0.383 / 0.785 & 0.382 / 0.779 & 0.385 / 0.777 & 0.857\\
+WANDS & Appearance-first & 0.372 / 0.784 & 0.374 / 0.785 & 0.380 / 0.783 & 0.384 / 0.779 & 0.857\\
+ESCI & Original & 0.769 / 0.692 & 0.770 / 0.692 & 0.770 / 0.693 & 0.773 / 0.694 & 0.694\\
+ESCI & Hybrid & 0.771 / 0.694 & 0.773 / 0.695 & 0.775 / 0.694 & 0.774 / 0.694 & 0.694\\
+ESCI & Appearance-first & 0.770 / 0.693 & 0.770 / 0.693 & 0.770 / 0.693 & 0.772 / 0.694 & 0.694\\
+\bottomrule\end{tabular}
+\end{table*}

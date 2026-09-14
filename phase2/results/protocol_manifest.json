@@ -1,0 +1,16 @@
+{
+  "frozen_date": "2026-09-04",
+  "status": "frozen before any Phase II retrieval result",
+  "esci_commit": "7916cdf6ab75a462e77f20ab40428a10923998d5",
+  "files_sha256": {
+    "config\\phase2.json": "4bcbf5fbe0e98a5054e5bd3af4efaf70db6c02329d301f711ea03e729ebf30a8",
+    "PROTOCOL.md": "e3aecd8b6f55545ee6a43f72872ecb19521b83b8b673f47a98bdc56998931e66",
+    "src\\representations.py": "0751cdb3cabd54e3d7256b5dd0d6a3ebebaa2d826fda080b24ee31ed0a34e027",
+    "data\\processed\\wands_queries.csv": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a",
+    "data\\processed\\wands_judgments.csv": "8cdd742427852822fe9a1252f05439b4fc33feeabb4afa0854cf86e8a188e0b6",
+    "data\\processed\\esci_queries.csv": "4dcccc23f2c3f40240770c28ff3d5c94eca14c3f51198b70ba75f33a5d855df8",
+    "data\\processed\\esci_judgments.csv": "cb98d43f45ca8378078001bf24b9b25367a53b231225cf29705b0a80f2469985",
+    "results\\equivalence\\wands_equivalence_summary.csv": "d77e04866d1524343d43f1adacfab40b2062fde9b50fde3192a4f4a4b8a79df2",
+    "results\\equivalence\\esci_equivalence_summary.csv": "a0ff6623eb545b0c00f3bbe21cbb06e7406ea3e8af1e5cbaccf1a96fb2fac626"
+  }
+}

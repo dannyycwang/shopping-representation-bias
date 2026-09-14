@@ -1,0 +1,846 @@
+PHASE VI — STRUCTURAL PERMUTATION-INVARIANT PRODUCT REPRESENTATIONS
+
+Important scientific constraint
+================================
+This phase is allowed to fail.
+
+The purpose is to determine whether structural permutation-invariant
+architectures can preserve more retrieval effectiveness than the existing
+Set-Mean and Set-Attention controls.
+
+Do NOT manufacture a positive result.
+Do NOT tune on the test set.
+Do NOT redesign the full paper yet.
+Retain all negative results.
+
+==================================================
+0. BACKGROUND AND MOTIVATION
+==================================================
+
+Phase V established the following on the existing raw WANDS/BGE track:
+
+Original:
+    Recall@100 = 63.620
+    VI@20      = 11.932
+
+Canonical:
+    Recall@100 = 63.237
+    VI@20      = 0.000
+
+Set-Mean:
+    Recall@100 = 61.820
+    VI@20      = 0.000
+
+Set-Attention:
+    Recall@100 = 62.173
+    VI@20      = 0.000
+
+The existing Set-Attention implementation is NOT a full Set Transformer.
+
+Current Set-Attention:
+    frozen BGE field embedding
+    -> 768 -> 128 -> 1 scorer
+    -> scalar weight per field
+    -> weighted field mean
+    -> mix with non-attribute vector
+
+It does not perform explicit attribute-to-attribute self-attention.
+
+Interpretation of Phase V:
+- exact invariance is easy;
+- simple averaging loses retrieval-relevant information;
+- learned scalar field weighting recovers only a small amount;
+- the remaining question is whether explicitly modeling cross-field
+  interactions can recover effectiveness while keeping exact permutation
+  invariance.
+
+Phase VI therefore focuses on structural invariant encoders.
+
+==================================================
+1. PRIMARY EXPERIMENTAL SETTING
+==================================================
+
+Use the SAME raw representation track as:
+
+- Original
+- Canonical
+- Set-Mean
+- Set-Attention
+
+Primary screening:
+
+Dataset:
+    WANDS
+
+Retriever / field encoder:
+    existing pinned BGE configuration
+
+Use exactly:
+- same train/dev/test split;
+- same 42,994 product catalog;
+- same 308 Exact-eligible held-out queries;
+- same relevance labels;
+- same seven attribute schedules;
+- same scoring;
+- same normalization;
+- same stable tie handling;
+- same VI / Recall / Robust / Never definitions.
+
+Do not mix this track with the labeled PI-FT representation track.
+
+Reuse cached field embeddings whenever valid.
+
+Do NOT rerun Original, Canonical, Set-Mean, or Set-Attention unless required
+for validation/debugging.
+
+==================================================
+2. COMMON REPRESENTATION PRINCIPLE
+==================================================
+
+For a product p with attribute atoms:
+
+    A(p) = {a_1, ..., a_m}
+
+encode each complete attribute atom independently:
+
+    h_i = E_attr(a_i)
+
+where E_attr is the existing frozen BGE field encoder.
+
+Important:
+
+- preserve token order WITHIN each attribute atom;
+- remove dependence on order BETWEEN attribute atoms;
+- do not insert global serialization-position embeddings;
+- do not reorder tokens inside an attribute;
+- do not generate or rewrite product facts.
+
+The desired property is:
+
+    f(h_1, ..., h_m)
+    =
+    f(h_pi(1), ..., h_pi(m))
+
+for any permutation pi.
+
+We want:
+
+    permutation invariance across fields
+    +
+    semantic sensitivity within fields
+    +
+    useful interactions across fields.
+
+==================================================
+3. METHOD S1 — TRUE SET TRANSFORMER
+==================================================
+
+Goal
+----
+Test whether explicit self-attention across unordered attribute embeddings
+recovers retrieval effectiveness lost by Set-Mean / Set-Attention.
+
+Architecture
+------------
+
+Input:
+
+    H = [h_1, ..., h_m]
+
+Use a small permutation-equivariant self-attention encoder.
+
+Preferred initial architecture:
+
+    1 x Multi-Head Self-Attention block
+    hidden dimension: 128 or 256
+    heads: 4
+    residual connection
+    layer normalization
+    small feed-forward block
+
+No positional encoding.
+
+The attention layer must operate over the SET of attribute embeddings.
+
+Then use permutation-invariant pooling.
+
+Preferred pooling order:
+
+Option A:
+    PMA-style learned seed pooling
+
+or, if simpler:
+
+Option B:
+    attention pooling with one learned query vector
+
+Avoid ordinary mean pooling as the final primary method unless required as a
+debug baseline.
+
+Output:
+
+    v_attr(p)
+
+Normalize using the same convention as existing methods.
+
+Combine with the existing non-attribute product representation using the same
+mixing rule as Set-Mean / Set-Attention so that the architecture comparison is
+fair.
+
+Primary S1 should change only the attribute aggregator.
+
+Frozen BGE in initial screening.
+
+==================================================
+4. METHOD S2 — SET TRANSFORMER + FIELD-ID EMBEDDING
+==================================================
+
+Goal
+----
+Test whether explicit field identity helps preserve semantics that may be lost
+when attributes are treated only as anonymous content vectors.
+
+Motivation:
+
+Serialization position should not identify a field.
+
+Instead:
+
+    identity = field meaning/schema
+    position != serialization index
+
+For each attribute:
+
+    h_i = E_attr(a_i)
+
+Construct a learned field identity embedding:
+
+    e_f = embedding(field_name)
+
+Then:
+
+    x_i = projection(h_i) + e_f
+
+Feed:
+
+    {x_1, ..., x_m}
+
+into the same Set Transformer architecture as S1.
+
+Important:
+- field ID is determined from the actual attribute key/schema;
+- field identity must remain the same under reorder;
+- do not encode incoming field position;
+- unknown/unseen keys must use an explicit UNK-field embedding;
+- duplicate keys must not be silently collapsed.
+
+Do NOT manually specify semantic relations among fields.
+
+This method should learn whether:
+    color
+    material
+    dimensions
+    compatibility
+    ...
+
+need distinct schema identities while remaining globally unordered.
+
+Ablation:
+    S1 = no field ID
+    S2 = learned field ID
+
+This is the most important architectural comparison in Phase VI.
+
+==================================================
+5. METHOD S3 — CIRCULAR SCHEMA PROJECTION
+==================================================
+
+Goal
+----
+Explore whether field identity can be projected into a fixed geometric schema
+space rather than represented using arbitrary serialization positions.
+
+IMPORTANT:
+This is NOT simple ring serialization.
+
+Do NOT implement:
+
+    ABCDA
+    BCDAB
+
+as the main method, because cyclic-shift invariance does not imply arbitrary
+permutation invariance.
+
+Instead, implement an order-independent circular FIELD-IDENTITY projection.
+
+For each unique field identity f, assign or learn an angular embedding:
+
+    theta_f
+
+Represent field identity using:
+
+    c_f = [cos(theta_f), sin(theta_f)]
+
+Then combine content and field identity.
+
+Recommended formulation:
+
+    h_i = E_attr(a_i)
+
+    g_i = MLP(
+        concat(
+            projection(h_i),
+            cos(theta_fi),
+            sin(theta_fi)
+        )
+    )
+
+Aggregate with a symmetric operator.
+
+Primary version:
+
+    v_attr(p) = sum_i g_i
+or
+    v_attr(p) = mean_i g_i
+
+followed by an output MLP.
+
+Because summation/mean is symmetric, arbitrary input reorder must not change
+the output.
+
+The circular coordinates must represent FIELD IDENTITY, not input position.
+
+Test two variants only if cheap:
+
+S3-fixed:
+    deterministic evenly spaced field angles based on a stable global field
+    vocabulary ordering
+
+S3-learned:
+    theta_f is trainable
+
+If implementing both substantially increases work, prioritize S3-learned.
+
+Important interpretation:
+The circular geometry is exploratory.
+Do not claim that circular topology is inherently correct unless supported by
+results.
+
+==================================================
+6. OPTIONAL METHOD S4 — FIELD-PROJECTION DEEPSETS
+==================================================
+
+Only implement this if it is essentially free once S2/S3 infrastructure exists.
+
+Purpose:
+Separate the value of Set Transformer attention from a simpler learned
+permutation-invariant projection.
+
+For each field:
+
+    z_i = phi(h_i, field_id_i)
+
+Then:
+
+    v_attr(p) = rho(sum_i z_i)
+
+This is a learned DeepSets-style baseline.
+
+This comparison is useful:
+
+    Set-Mean
+        vs
+    Field-aware DeepSets
+        vs
+    Set Transformer
+        vs
+    Set Transformer + Field ID
+
+Do NOT prioritize S4 over S1-S3.
+
+==================================================
+7. INVARIANCE VERIFICATION
+==================================================
+
+This is mandatory.
+
+For every invariant architecture:
+
+- sample at least 100 products;
+- create all seven existing order variants;
+- recompute the representation without relying only on cached identical output;
+- compare vectors.
+
+Report:
+
+    maximum L2 difference
+    mean L2 difference
+    maximum cosine difference
+    mean cosine difference
+
+Expected:
+approximately numerical floating-point tolerance.
+
+Target:
+
+    max L2 <= 1e-5
+
+If materially larger:
+STOP and debug before retrieval evaluation.
+
+Permutation invariance must come from architecture / symmetric aggregation,
+not because all schedules accidentally reuse the same serialized text.
+
+==================================================
+8. TRAINING
+==================================================
+
+Use the existing query-product supervision.
+
+Primary screening:
+    frozen BGE
+
+Train only:
+- projection layers;
+- field-ID embeddings;
+- Set Transformer;
+- pooling module;
+- output projection.
+
+Do NOT jointly fine-tune BGE initially.
+
+Start with seed42.
+
+Do NOT immediately run seeds43/44.
+
+Use the existing development split for model selection.
+
+Keep hyperparameter search deliberately small.
+
+Suggested shared settings:
+
+    optimizer: AdamW
+    lr candidates: {1e-3, 3e-4}
+    epochs: max 10
+    early stopping on dev Recall@100
+    batch size: reuse feasible existing setting
+
+Do not run a broad grid.
+
+For S1/S2:
+test at most:
+
+    hidden dimension: 128, 256
+    blocks: 1, 2
+
+Only if necessary.
+
+==================================================
+9. FAIR COMPARISON
+==================================================
+
+Keep the following identical to Set-Mean / Set-Attention:
+
+- field encoder;
+- product field inventory;
+- non-attribute representation;
+- final embedding dimensionality;
+- normalization;
+- query embeddings;
+- ranking code;
+- catalog;
+- evaluation queries.
+
+Do not give S1/S2/S3 additional candidate slots.
+
+Do not use multiple product vectors at inference.
+
+Every method must produce:
+
+    exactly one product vector
+
+for retrieval.
+
+==================================================
+10. PRIMARY EVALUATION
+==================================================
+
+For each method report:
+
+    Recall@20
+    Recall@100
+    VI@20
+    VI@100
+    Robust@100
+    Never@100
+    worst-schedule Recall@100
+
+Methods:
+
+    Original
+    Canonical
+    Set-Mean
+    Set-Attention
+    S1 Set Transformer
+    S2 Set Transformer + Field-ID
+    S3 Circular Schema Projection
+    [S4 DeepSets, if implemented]
+
+Also report paired query-bootstrap:
+
+    Delta Recall@100 vs Original
+    Delta Recall@100 vs Canonical
+    Delta Recall@100 vs Set-Mean
+    Delta Recall@100 vs Set-Attention
+
+Use:
+    10,000 query bootstrap draws
+
+Preserve the current aggregation conventions.
+
+==================================================
+11. FULLY-FITTING SUBSET
+==================================================
+
+Reuse exactly the existing common fully-fitting raw target definition.
+
+This is important because Phase V showed a materially different pattern on
+this subset.
+
+Report the same metrics.
+
+Pay particular attention to whether S1/S2 can preserve the strong fully-fitting
+performance already observed for invariant set methods.
+
+Do NOT interpret this subset as a causal truncation decomposition.
+
+==================================================
+12. TARGET-ONLY EVALUATION
+==================================================
+
+For the strongest successful architecture(s), run the existing target-only
+analysis.
+
+Report:
+
+    Inclusion@100
+    VI@20
+    VI@100
+    Robust@100
+    Never@100
+
+Competitors must be defined consistently with the existing target-only track.
+
+Clearly state whether competitors use:
+    each method's own C0 catalog
+
+Do not call target-only inclusion a common mixed-index Recall.
+
+==================================================
+13. SUCCESS CRITERIA
+==================================================
+
+The main question is NOT whether VI reaches zero.
+
+All structural invariant methods should have near-zero VI.
+
+The real question is:
+
+    Can we achieve invariance WITHOUT losing retrieval effectiveness?
+
+STRONG SUCCESS
+--------------
+
+A method is a strong success if:
+
+    VI@20 approximately 0
+
+AND
+
+    Recall@100 >= Canonical
+
+preferably:
+
+    Recall@100 >= Original
+
+AND
+
+    Robust@100 >= Canonical
+
+Particularly strong:
+
+    Recall@100 >= 63.62
+    VI@20 ~= 0
+
+PROMISING
+---------
+
+A method is promising if:
+
+    Recall@100 > Set-Attention
+
+with clear paired improvement,
+while preserving exact invariance.
+
+Example:
+
+    Recall@100 >= 62.8
+
+would justify further confirmation even if it does not beat Canonical.
+
+FAILURE
+-------
+
+A method is not successful if:
+
+- VI=0 but Recall remains at or below Set-Mean;
+- gains over Set-Attention are trivial;
+- it requires materially larger inference/storage cost with no effectiveness gain;
+- it only looks favorable on test but not development.
+
+==================================================
+14. SEED GATE
+==================================================
+
+Run seed42 first.
+
+Run seeds43/44 ONLY if:
+
+S1/S2/S3 beats Set-Attention on development Recall@100
+
+AND
+
+does not create any invariance implementation issue.
+
+If a method also approaches/beats Canonical on development:
+
+    prioritize additional seeds immediately.
+
+Do not use test performance to decide whether to run more seeds.
+
+==================================================
+15. COST
+==================================================
+
+Report separately:
+
+Offline:
+- field encoding cost if not cached;
+- training time;
+- product-vector generation time.
+
+Online:
+- one product vector per item;
+- query encoding unchanged;
+- scoring cost relative to Original.
+
+Report parameter count for each new aggregator.
+
+One motivation of these methods is:
+
+    structural invariance without multi-view index expansion.
+
+==================================================
+16. REQUIRED TABLE
+==================================================
+
+Create:
+
+Table VI-1 — Structural invariant retrieval
+
+Columns:
+
+Method
+Params
+Recall@20
+Recall@100
+Delta R@100 vs Original
+Delta R@100 vs Canonical
+VI@20
+VI@100
+Robust@100
+Never@100
+
+Rows:
+
+Original
+Canonical
+Set-Mean
+Set-Attention
+Set Transformer
+Set Transformer + Field-ID
+Circular Projection
+DeepSets [if available]
+
+==================================================
+17. REQUIRED FIGURE
+==================================================
+
+Produce one main screening plot:
+
+x-axis:
+    Recall@100
+
+y-axis:
+    Robust@100
+
+Annotate each method.
+
+For invariant methods, VI should already be approximately zero, so the key
+comparison is effectiveness vs robust inclusion.
+
+Optionally produce:
+
+x-axis:
+    additional trainable parameters / inference cost
+
+y-axis:
+    Recall@100
+
+Do not spend substantial time on graphics.
+
+==================================================
+18. INTERPRETATION QUESTIONS
+==================================================
+
+The final report must explicitly answer:
+
+Q1.
+Does explicit cross-field self-attention improve over independent field
+weighting?
+
+Compare:
+
+    Set-Attention
+    vs
+    Set Transformer
+
+Q2.
+Does field identity help?
+
+Compare:
+
+    Set Transformer
+    vs
+    Set Transformer + Field-ID
+
+Q3.
+Does a geometric circular schema add anything beyond ordinary learned field
+identity?
+
+Compare:
+
+    Circular Projection
+    vs
+    Field-ID / DeepSets
+
+Q4.
+Can any structurally invariant architecture match Canonical?
+
+Q5.
+Can any structurally invariant architecture match or exceed Original while
+keeping VI approximately zero?
+
+Q6.
+If not, does the evidence strengthen the conclusion:
+
+    "The challenge is not achieving invariance, but preserving
+     retrieval-relevant information under invariance."
+
+==================================================
+19. DO NOT OVERCLAIM
+==================================================
+
+Do not call S3 a novel method solely because it uses a circle.
+
+Do not claim causal mechanisms from performance differences.
+
+Do not claim invariant methods improve visibility merely because VI=0.
+
+Always jointly interpret:
+
+    Recall
+    Robust
+    Never
+    VI
+
+Remember:
+
+A relevant product that is never retrieved under every representation also has
+VI=0.
+
+==================================================
+20. PHASE VI OUTPUT
+==================================================
+
+Create:
+
+    PHASE6_REPORT.md
+
+Include:
+
+1. Executive summary
+2. Motivation
+3. Exact distinction between prior Set-Attention and true Set Transformer
+4. Architecture definitions
+5. Training setup
+6. Invariance verification
+7. Development results
+8. Test results
+9. Fully-fitting subset
+10. Target-only results
+11. Bootstrap uncertainty
+12. Cost / parameters
+13. Failure analysis
+14. Scientific interpretation
+15. Recommendation for WWW paper
+
+Also create:
+
+    PHASE6_RESULTS.csv
+    PHASE6_BOOTSTRAP.csv
+    PHASE6_INVARIANCE.json
+    PHASE6_CONFIG.json
+    FINAL_DELIVERY_MANIFEST.json
+
+==================================================
+21. FINAL GO / NO-GO DECISION
+==================================================
+
+The report must select exactly one:
+
+A. KEEP CURRENT DIAGNOSIS PAPER
+No structural architecture provides a sufficiently strong effectiveness gain.
+
+B. ADD STRUCTURAL INVARIANT BASELINE
+The architecture is informative, but does not justify a new method claim.
+
+C. PROMOTE ONE METHOD TO MAIN SOLUTION
+A structural method provides a convincing robustness-effectiveness improvement
+and merits a main-paper method subsection.
+
+D. START PHASE VII CONFIRMATION
+A method is sufficiently strong on WANDS+BGE to justify confirmation on:
+    ESCI
+    and at least one additional retriever.
+
+Do not choose C or D only because VI=0.
+
+==================================================
+22. IF ONE METHOD CLEARLY WINS
+==================================================
+
+If S1/S2/S3 clearly beats Canonical or reaches Original-level Recall with
+near-zero VI:
+
+STOP expanding architecture search.
+
+Do not invent more variants.
+
+Instead:
+
+1. run seeds43/44;
+2. confirm uncertainty;
+3. recommend Phase VII cross-dataset / cross-encoder validation.
+
+The objective is evidence, not architecture proliferation.

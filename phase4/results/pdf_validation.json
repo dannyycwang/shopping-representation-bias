@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-09-07T08:33:42.167333+00:00",
+  "pages": 11,
+  "main_pages": 8,
+  "references_start_page": 9,
+  "official_max_total": 12,
+  "compile_success": true,
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "table_labels": 14,
+  "figure_labels": 4,
+  "integrity_tests_passed": 9,
+  "visual_review": "All final pages reviewed via contact sheets and key individual renders; no clipping or overlap; first Introduction paragraph is uninterrupted.",
+  "render_directory": "phase4/results/pdf_final_review",
+  "pdf_sha256": "4518c152add7b25b7dc0b2578bc25bcabab890e8e5e3f26b79ab7820713f402e",
+  "official_source": "https://www2027.thewebconf.org/research-track-papers/"
+}

@@ -1,0 +1,9 @@
+dataset,model,method,index_vector_bytes,vectors_per_product,encoding_seconds,evaluation_seconds
+wands,minilm,minilm_Original,66038784,1,0.0,2.194424799992703
+wands,minilm,minilm_hybrid,118698552,1,0.0,2.039520199992694
+wands,minilm,minilm_canonical,66038784,1,0.0,2.0942129999166355
+wands,minilm,minilm_canonical_raw,66038784,1,51.14834429998882,2.5533292999025434
+wands,minilm,minilm_set_mean,66038784,1,27.358325900044292,2.399169299984351
+wands,minilm,minilm_rule_appearance,66038784,1,45.14031279995106,2.446411299984902
+wands,minilm,minilm_centroid_2,66038784,1,101.32522540003993,2.3030846000183374
+wands,minilm,minilm_max_2,132077568,2,101.32522540003993,2.116359299980104

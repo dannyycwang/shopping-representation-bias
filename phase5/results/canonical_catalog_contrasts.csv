@@ -1,0 +1,13 @@
+dataset,model,method_a,method_b,metric,queries,delta,ci_low,ci_high,source
+wands,bge_base,canonical_raw,Original,Recall@20,308,-0.00032165544352153136,-0.005206142868575723,0.0043876470726301,phase4 frozen full-catalog ranks
+wands,bge_base,canonical_raw,Original,Recall@100,308,0.000659607820912872,-0.015047842561319157,0.01617923310456206,phase4 frozen full-catalog ranks
+wands,bge_base,canonical_raw,Original,cNDCG@10,383,-0.001604056648306547,-0.005963633517108683,0.0026641343495531614,phase4 frozen full-catalog ranks
+wands,minilm,canonical_raw,Original,Recall@20,308,-0.020858172168951722,-0.04030961025841967,-0.0026709304286350426,phase4 frozen full-catalog ranks
+wands,minilm,canonical_raw,Original,Recall@100,308,-0.018342618474448142,-0.031735865941249865,-0.006399272385603155,phase4 frozen full-catalog ranks
+wands,minilm,canonical_raw,Original,cNDCG@10,383,-0.001671900413054151,-0.00822877940154354,0.004921186120860509,phase4 frozen full-catalog ranks
+esci,bge_base,canonical_raw,Original,Recall@20,499,-0.002630785469510587,-0.006575808380424838,0.0009278619106280253,phase4 frozen full-catalog ranks
+esci,bge_base,canonical_raw,Original,Recall@100,499,0.0006750087258931028,-0.0003808269992812992,0.0017497752403705601,phase4 frozen full-catalog ranks
+esci,bge_base,canonical_raw,Original,cNDCG@10,500,0.0014641745680282648,-0.0024907277451113445,0.005373160552327769,phase4 frozen full-catalog ranks
+esci,minilm,canonical_raw,Original,Recall@20,499,-0.004555193009992148,-0.009816696399358766,0.0004374428093829814,phase4 frozen full-catalog ranks
+esci,minilm,canonical_raw,Original,Recall@100,499,0.002758347197224953,-0.0004769750122956539,0.007791880380808235,phase4 frozen full-catalog ranks
+esci,minilm,canonical_raw,Original,cNDCG@10,500,0.00022823659521895888,-0.002732224513908427,0.0032514750900071586,phase4 frozen full-catalog ranks

@@ -1,0 +1,26 @@
+{
+  "validated_utc": "2026-09-07T23:19:59.182672+00:00",
+  "pdf": "paper_www2027/main.pdf",
+  "sha256": "0ff775ec6ef9d0752977bad2c36b8cdfbb4505ea9e3c0144f44e5ef75e1073cd",
+  "pages_total": 11,
+  "main_pages": 8,
+  "references_start_page": 9,
+  "appendix_start_page": 9,
+  "page_size": "US Letter",
+  "anonymous_review_mode": true,
+  "log_checks": {
+    "undefined_warning_present": false,
+    "overfull_boxes": false,
+    "fatal_errors": false
+  },
+  "visual_qa": {
+    "rendered_pages": 11,
+    "contact_sheet": "phase5/pdf_pages_final3_20260908/contact.png",
+    "first_page_figure_after_complete_intro_paragraphs": true,
+    "page_8_contains_discussion_limitations_conclusion": true,
+    "tables_clipped": false,
+    "overlap_observed": false,
+    "all_pages_inspected": true
+  },
+  "tests": "27 passed in isolated suites; phase5 final manifest all_pass=true"
+}

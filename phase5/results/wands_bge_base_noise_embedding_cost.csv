@@ -1,0 +1,2 @@
+dataset,model,mode,encoded_unique_texts,embedding_seconds,retriever_max_tokens,fraction_unique_texts_truncated,mean_tokens,p95_tokens
+wands,bge_base,noise,189,1.2225942611694336,512,0.08994708994708994,268.3121693121693,552.6

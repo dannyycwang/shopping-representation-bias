@@ -1,0 +1,39 @@
+\section{Problem Formulation}
+
+\subsection{Representation Robustness for Web Items}
+
+Let $p$ be a Web item with underlying semantic information $F(p)$, and let
+$\mathcal{R}(F(p))=\{r_1(p),\ldots,r_m(p)\}$ be representations that preserve that information for the task. For a query $q$, human relevance $\operatorname{Rel}(q,p)$ is fixed across this equivalence class. A retrieval model assigns score
+\begin{equation}
+ z(q,r_i(p))=\langle E_q(q),E_p(r_i(p))\rangle.
+\end{equation}
+When the differences among $r_i$ are semantically irrelevant, a representation-robust system should ideally make $z(q,r_i(p))\approx z(q,r_j(p))$, or at least keep the item's operational retrieval status unchanged. This expectation concerns robustness, not ranking quality: two systems can have similar average NDCG while assigning different visibility to the same relevant item.
+
+We instantiate $F(p)$ as a product's title, descriptive fields, and attribute-value facts. The equivalence class changes only the order of complete attribute atoms. Query, product identity, facts, catalog, labels, encoder, and ranking rule remain fixed. The induced rank is $\rho(q,p,r_i)$.
+
+\subsection{Representation-Induced Visibility Instability}
+
+For a cutoff $K$, the query--item indicator is
+\begin{equation}
+\vi@K(q,p)=\mathbb{1}\!\left[
+\min_{r_i\in\mathcal{R}}\rho(q,p,r_i)\leq K <
+\max_{r_i\in\mathcal{R}}\rho(q,p,r_i)
+\right].
+\end{equation}
+A value of one is a \emph{Top-$K$ crossing}: at least one equivalent representation makes $p$ visible and another hides it. Pair-micro VI averages over judged pairs. Query-macro VI first averages within each query and then across queries, preventing queries with many judgments from dominating. We report query-bootstrap confidence intervals for the macro estimator. Rank range, $\max_i\rho-\min_i\rho$, describes movement without selecting a cutoff.
+
+\emph{Relevance--visibility alignment} requires two properties to be assessed together. First, highly relevant items should not cross visibility boundaries because of semantically irrelevant representation changes. Second, a mitigation that improves stability should not obtain that result by degrading relevance. We therefore pair VI with condensed NDCG (cNDCG)~\cite{jarvelin2002cumulated,sakai2008alternatives} and highest-label recall. Condensed metrics remove unjudged products before discounting; complete-catalog VI retains them because they remain competitors for visibility.
+
+For a two-stage system, a relevant item is \emph{irrecoverable at 100} when it appears in the first-stage top 100 under at least one equivalent representation but is absent under another. Reranker stability is evaluated separately on products common to every candidate pool. This avoids crediting a second stage for apparent stability after representation-dependent omissions have already occurred.
+
+\subsection{What the Instability Estimator Measures}
+
+The equivalence class is finite and operational: it comprises the tested serializations, not every possible rendering of a product record. VI therefore measures whether the observed rank interval straddles a specified cutoff. It is neither the probability that a randomly chosen production serializer will fail nor an estimate over all possible attribute orders. Enlarging the tested family can reveal additional crossings even if the underlying retriever is unchanged. Comparisons consequently keep the same primary family across systems and interventions.
+
+Two features of VI are useful for interpretation. First, the measure is symmetric. A product that becomes visible under a permutation and a product that becomes hidden both exhibit representation dependence. Calling a crossing a loss relative to C0 would incorrectly treat the source serialization as a privileged semantic reference. Second, VI is local to a boundary. A large rank range entirely below the retrieval cutoff produces no crossing there, whereas a small movement across the cutoff does. Rank range and VI answer complementary questions: how far an item moves, and whether that movement changes its eligibility for retrieval.
+
+Changing the cutoff also changes the question. VI@50 need not exceed VI@20: an item can cross the smaller boundary while remaining visible under every order at the larger one. Conversely, an item invisible under every order at Top-20 may cross Top-50. Thus a cutoff sweep should be read as a profile of operational sensitivity, not as a cumulative failure curve. Reporting several boundaries helps distinguish a result tied to one evaluation convention from a broader pattern of rank instability.
+
+Pair-micro and query-macro aggregation express different populations. The former weights every judged relevant pair equally, so queries with many relevant products contribute more observations. The latter gives each eligible query equal weight after computing its within-query crossing fraction. A difference between the two is not a contradiction or a model-performance gap. It indicates that instability is distributed unevenly across queries with different numbers of judged relevant products. We retain both rather than select the larger estimate as the headline.
+
+Finally, stability alone is insufficient. A retriever that consistently hides every relevant product could have zero VI. Likewise, a constant scoring rule with deterministic ties could be stable but ineffective. Relevance--visibility alignment therefore treats relevance as an essential companion criterion rather than building a single score that could conceal a tradeoff. The empirical question is whether a representation can reduce the nuisance dependence while retaining useful query--product discrimination.

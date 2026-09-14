@@ -1,0 +1,16 @@
+{
+  "dev_rule": "lowest SHA256 20% of WANDS queries",
+  "dev_queries": 96,
+  "heldout_queries": 384,
+  "alphas": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "chosen": {
+    "late_max": 0.75,
+    "late_mean": 0.75,
+    "late_top3": 0.75,
+    "set_mean": 0.5
+  }
+}

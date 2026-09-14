@@ -1,0 +1,6 @@
+{
+  "decision": "A. PHASE VI FAILURE CONFIRMED",
+  "rationale": "Every seed42 T0/T1/T2 primary model selected epoch 0. Initialization restores Set-Attention, but learned corrections provide no development-supported gain.",
+  "generated_utc": "2026-09-11T07:28:26.424834+00:00",
+  "selection_sha256": "23c472a9e266da6c2dc6bc41b0fc383f9ea8c5a694ac8ee8258054745be1b1a6"
+}

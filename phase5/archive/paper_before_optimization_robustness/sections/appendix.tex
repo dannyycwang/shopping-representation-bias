@@ -1,0 +1,29 @@
+\appendix
+\section{Audit, Selection, and Additional Results}
+The frozen protocol and explicit query IDs precede this extension's strategy evaluation, but do not preregister the historical study. The archived prior manuscript and result artifacts remain unchanged. Gain reconciliation updates effectiveness from fixed ranks; it does not silently replace the old ESCI gain convention. The new exact rankings use stable catalog-index ties. Legacy candidate reconciliation finds small numerical/order differences but no changed highest-label Top-100 membership in any original serialization condition.
+
+\input{generated/screening}
+\input{generated/sensitivitydetail}
+\input{generated/saturation}
+\input{generated/legacyrepair}
+\input{generated/appendix_pipeline_tables}
+\input{generated/uniqueviews}
+
+\paragraph{Negative results and strategy boundaries.}
+Table~\ref{tab:screening} retains every screening outcome. Table~\ref{tab:saturation} reports both aggregation families at every fixed view count without reopening selection. Canonical-anchored view generation is a deterministic input-order-independent construction, not proof that arbitrary sampled averaging is invariant. All methods preserve complete raw atoms; text and encoded-vector multiplicities differ when small attribute sets or encoder truncation produce duplicate views. Set mean encodes atoms independently and therefore differs from full-record centroids and max retrieval.
+
+\paragraph{Meaning of candidate coverage.}
+Table~\ref{tab:allcoverage} explicitly includes persistently absent pairs. At Top-100 the historical common-pool reranker analysis excludes those pairs as well as sometimes-retrieved pairs. Its apparent stability must be interpreted conditional on survival. Table~\ref{tab:transitions} separately exposes recovered and newly lost pairs; the full artifact provides these quantities per query at every budget, normalized by the same highest-label population.
+
+\section{Reranking and Reproduction}
+The first-stage order arrays are reduced to unique product IDs before candidate selection. All candidate sources use identical canonical product text, model weights, truncation, and tie handling for reranking. The larger-budget decision is based on development recall and measured compute, not on a favorable held-out final-rank result. Full per-query metrics, final Top-20 IDs, pairwise cross-encoder scores, and paired bootstrap contrasts accompany Table~\ref{tab:rerankdetail}. Candidate-union caching reuses a pair's inference across budgets and methods.
+
+Model cache keys include input-content hashes. The reproduction scripts retain split IDs, field-priority keywords, product-dependent view seeds, encoder revisions, native pooling and normalization, official-gain repair, exact ranking, and local timing records. Nine integrity tests cover existing metric reconciliation, target insertion against explicit reranking, preserved atom multiplicity, independent metric eligibility, normalization, and product-level max reduction. Timings distinguish offline encoding, query encoding, score/sort operations, and amortized reranker inference. No ANN approximation is included.
+
+Historical set mean encoded queries in a separate cached pass. The extension instead shares the frozen Original query matrix across all methods; the audit attributes tiny baseline score differences to these query embeddings. Historical repaired comparisons retain their original ranks, while new tables use the common query matrix and stable ranking. These two conditions are explicitly distinguished rather than silently overwriting a validated result.
+
+\section{Illustrative Case and Diagnostic Scope}
+The motivating query is \emph{turquoise chair} (WANDS query 162); the Exact-relevant item is product 34536, titled ``adjustable swivel office chair computer chair task chair mesh chair , turquoise.'' Its raw attributes include ``framecolor : green,'' ``weightcapacity:250,'' and ``framematerial : steel.'' The apparent title/attribute color discrepancy is present in the source; we do not repair or rewrite it. The full atom list and all unchanged free text are stored in the case artifact. This is an intentionally inspectable, post-hoc illustration, not a representative effect-size estimate.
+\input{generated/caseorders}
+
+The fitting-input diagnostic requires every tested serialization to fit the encoder budget. Coarse rank bands compare relevance strata only where both occur in the same query. Additional descriptive bins cover score margin, maximum input length, attribute multiplicity, query length, and literal value overlap. These bins characterize association and support; they do not establish an internal positional mechanism. The earlier official ESCI judged-pool check is retained in the artifact, but its median pool of 16 cannot substantiate large-catalog Recall@100.

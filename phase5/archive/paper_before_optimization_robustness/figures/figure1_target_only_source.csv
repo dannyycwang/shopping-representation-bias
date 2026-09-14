@@ -1,0 +1,8 @@
+query,query_id,product_id,label,model,competitors,representation,rank
+turquoise chair,162,34536,Exact,minilm,all C0,C0,486
+turquoise chair,162,34536,Exact,minilm,all C0,C1,476
+turquoise chair,162,34536,Exact,minilm,all C0,C2s1,1527
+turquoise chair,162,34536,Exact,minilm,all C0,C2s2,28
+turquoise chair,162,34536,Exact,minilm,all C0,C2s3,582
+turquoise chair,162,34536,Exact,minilm,all C0,C2s4,5
+turquoise chair,162,34536,Exact,minilm,all C0,C2s5,5

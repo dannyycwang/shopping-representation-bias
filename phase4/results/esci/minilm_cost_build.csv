@@ -1,0 +1,9 @@
+dataset,model,method,index_vector_bytes,vectors_per_product,encoding_seconds,evaluation_seconds
+esci,minilm,minilm_Original,15476736,1,0.0,0.7609855000628158
+esci,minilm,minilm_hybrid,24049044,1,0.0,0.7136948000406846
+esci,minilm,minilm_canonical,15476736,1,0.0,0.7204346999060363
+esci,minilm,minilm_canonical_raw,15476736,1,13.337772400001995,0.7383645999943838
+esci,minilm,minilm_set_mean,15476736,1,6.798273999942467,0.7557400999357924
+esci,minilm,minilm_rule_appearance,15476736,1,5.1718697000760585,0.8466275000246242
+esci,minilm,minilm_centroid_2,15476736,1,11.471789499977604,0.8275173999136314
+esci,minilm,minilm_max_2,30953472,2,11.471789499977604,0.8287925999611616

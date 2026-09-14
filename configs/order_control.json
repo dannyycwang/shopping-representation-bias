@@ -1,0 +1,4 @@
+{
+  "description": "Supplementary, pre-result control: reverse attribute order only; same characters, facts, and lexical token counts.",
+  "representation": "C_order"
+}
