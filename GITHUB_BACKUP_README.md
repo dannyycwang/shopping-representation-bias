@@ -7,3 +7,6 @@ Download every research-data-*.zip from that release and extract all ZIPs into t
 Excluded only local Python virtual environments, bytecode/test caches and nested third-party .git histories. Dependencies can be recreated from requirements files. Dataset and vendored-code licenses remain those of their sources. No paper or experimental result was modified for this backup.
 
 Release asset limits: https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases
+
+After extracting the release assets, run: python GITHUB_BACKUP_VERIFY.py
+
