@@ -1,0 +1,33 @@
+# Core dependencies
+datasets
+requests
+python-dotenv
+httpx
+pydantic
+tiktoken
+
+# Web crawling dependencies
+playwright
+playwright-stealth
+beautifulsoup4
+lxml
+extruct
+trafilatura
+
+# BM25 Retriever dependencies (requires Python 3.11+ and Java 21)
+pyserini==1.5.0
+onnxruntime>=1.23
+torch>=2.9
+numpy>=2.0
+pandas
+scikit-learn
+transformers>=4.57
+
+# Neural Reranker dependencies (vLLM-based)
+vllm>=0.8
+
+# Generation & Optimization dependencies
+openai
+langchain
+langchain-openai
+langchain-core
