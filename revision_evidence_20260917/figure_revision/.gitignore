@@ -1,0 +1,7 @@
+__pycache__/
+qa/*.png
+qa/*.pdf
+qa/*.tex
+qa/*.aux
+qa/*.log
+qa/*.out

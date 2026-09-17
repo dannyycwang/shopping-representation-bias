@@ -1,0 +1,72 @@
+{
+  "schematic_only": true,
+  "entries_are_indivisible": true,
+  "raw": [
+    [
+      "A",
+      "B",
+      "C"
+    ],
+    [
+      "D",
+      "E",
+      "F"
+    ],
+    [
+      "G",
+      "H",
+      "J"
+    ]
+  ],
+  "catalog_wide": [
+    [
+      "C",
+      "A",
+      "B"
+    ],
+    [
+      "F",
+      "D",
+      "E"
+    ],
+    [
+      "J",
+      "G",
+      "H"
+    ]
+  ],
+  "target_only": [
+    [
+      "C",
+      "A",
+      "B"
+    ],
+    [
+      "D",
+      "E",
+      "F"
+    ],
+    [
+      "G",
+      "H",
+      "J"
+    ]
+  ],
+  "states": {
+    "Persistent inclusion": [
+      1,
+      1,
+      1
+    ],
+    "Cutoff crossing": [
+      1,
+      0,
+      1
+    ],
+    "Persistent omission": [
+      0,
+      0,
+      0
+    ]
+  }
+}

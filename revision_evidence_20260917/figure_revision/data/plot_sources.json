@@ -1,0 +1,20 @@
+{
+  "source_files": [
+    {
+      "path": "revision_evidence_20260917/data/rq1_target_fully_fitting_plot_data.csv",
+      "bytes": 10801,
+      "sha256": "769d2fa29dc0ca8efcebb043c2208e1792914ab7d965cdaa860e6e3006961ccd"
+    },
+    {
+      "path": "revision_evidence_20260917/data/rq2_membership_plot_data.csv",
+      "bytes": 61298,
+      "sha256": "f009e06da4e8e19ee055567faa2e38519ff1d4d585fc3d8a636bfcafd7d137ec"
+    },
+    {
+      "path": "revision_evidence_20260917/data/rq2_cancellation_companion.csv",
+      "bytes": 10063,
+      "sha256": "045c6d7c00a672b562e410abb137efaf8e2ba68b416664be2f66b26bd43f69cc"
+    }
+  ],
+  "statistics": "Existing query-macro estimates and interval endpoints reused without recomputation."
+}

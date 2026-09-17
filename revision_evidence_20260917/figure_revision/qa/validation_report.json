@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "preserved_files_checked": 267,
+  "original_plot_csvs_byte_identical": 3,
+  "filtered_csv_original_decimal_strings_preserved": true,
+  "existing_per_query_rows_checked": 29052,
+  "cancellation_comparisons_checked": 72,
+  "exact_cancellation_criterion": "newly_included == newly_omitted > 0",
+  "per_query_source": {
+    "path": "revision_evidence_20260917/data/membership_changes_per_query.csv",
+    "bytes": 48132941,
+    "sha256": "72ca97f49842d946191a1a7834f241fcf296d805cb1037daf90a620b7c99999d"
+  },
+  "schematic_height_reduction_percent": 30.208333333333325,
+  "case_audit": "PASS",
+  "figures": [
+    {
+      "name": "figure2_intervention_and_states",
+      "pages": 1,
+      "width_inches": 7.1,
+      "height_inches": 3.3499999999999996,
+      "embedded_vector_fonts": true,
+      "raster_images": 0,
+      "minimum_font_pt": 8.5,
+      "sha256": "f550426a9a589c6605e4cfb60890ebdbb412aa7b8bf33b10e34c4c51c12a5ea6"
+    },
+    {
+      "name": "rq1_vi_top20_main",
+      "pages": 1,
+      "width_inches": 7.1,
+      "height_inches": 3.25,
+      "embedded_vector_fonts": true,
+      "raster_images": 0,
+      "minimum_font_pt": 8.5,
+      "sha256": "0fb4e7a6962cbda45cfb07ff8fdfa7f0989376495745263744e514ec9dd96c11"
+    },
+    {
+      "name": "rq1_states_top20_top100_appendix",
+      "pages": 1,
+      "width_inches": 7.1,
+      "height_inches": 5.5,
+      "embedded_vector_fonts": true,
+      "raster_images": 0,
+      "minimum_font_pt": 8.0,
+      "sha256": "509197fc9160b1e79a8e77daa0e3bf5bb756bbaa63c657e7e7980c1eaa7f3628"
+    },
+    {
+      "name": "rq2_membership_top20_main",
+      "pages": 1,
+      "width_inches": 7.1,
+      "height_inches": 4.4,
+      "embedded_vector_fonts": true,
+      "raster_images": 0,
+      "minimum_font_pt": 8.5,
+      "sha256": "409ca0789c4a5c498412f0c24900d86ccc90ef2327ee52d9d581ad38ff868c32"
+    },
+    {
+      "name": "rq2_membership_top100_appendix",
+      "pages": 1,
+      "width_inches": 7.1,
+      "height_inches": 4.4,
+      "embedded_vector_fonts": true,
+      "raster_images": 0,
+      "minimum_font_pt": 8.5,
+      "sha256": "2e76a62d0b4feb7f70fcaaef71035e46f44fb4e074e29ef6c40e2788663de2fc"
+    },
+    {
+      "name": "rq2_cancellation_top20_table",
+      "pages": 1,
+      "width_inches": 3.45,
+      "height_inches": 2.0999999999999996,
+      "embedded_vector_fonts": true,
+      "raster_images": 0,
+      "minimum_font_pt": 8.0,
+      "sha256": "66414d9a480a0e1bf83b3585550a5900e2465a8757a3b7c0401a7f92e49e7aef"
+    },
+    {
+      "name": "figure1_teal_chair_candidate",
+      "pages": 1,
+      "width_inches": 3.45,
+      "height_inches": 3.9000000000000004,
+      "embedded_vector_fonts": true,
+      "raster_images": 0,
+      "minimum_font_pt": 8.0,
+      "sha256": "3860f3b73bf1e8703227ed5ddbdd0bdf7a29f47bdbcd9811c4a0a623ffaf5ca9"
+    }
+  ]
+}

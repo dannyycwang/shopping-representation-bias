@@ -1,0 +1,58 @@
+[
+  {
+    "name": "figure2_intervention_and_states",
+    "width_inches": 7.1,
+    "height_inches": 3.35,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": [],
+    "vector_only": true
+  },
+  {
+    "name": "rq1_vi_top20_main",
+    "width_inches": 7.1,
+    "height_inches": 3.25,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": [],
+    "vector_only": true
+  },
+  {
+    "name": "rq1_states_top20_top100_appendix",
+    "width_inches": 7.1,
+    "height_inches": 5.5,
+    "minimum_font_pt": 8.0,
+    "text_outside_page": [],
+    "vector_only": true
+  },
+  {
+    "name": "rq2_membership_top20_main",
+    "width_inches": 7.1,
+    "height_inches": 4.4,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": [],
+    "vector_only": true
+  },
+  {
+    "name": "rq2_membership_top100_appendix",
+    "width_inches": 7.1,
+    "height_inches": 4.4,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": [],
+    "vector_only": true
+  },
+  {
+    "name": "rq2_cancellation_top20_table",
+    "width_inches": 3.45,
+    "height_inches": 2.1,
+    "minimum_font_pt": 8.0,
+    "text_outside_page": [],
+    "vector_only": true
+  },
+  {
+    "name": "figure1_teal_chair_candidate",
+    "width_inches": 3.45,
+    "height_inches": 3.9,
+    "minimum_font_pt": 8.0,
+    "text_outside_page": [],
+    "vector_only": true
+  }
+]

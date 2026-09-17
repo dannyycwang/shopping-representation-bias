@@ -1,0 +1,8 @@
+schedule,tokens_without_special,special_tokens,tokens_including_special,encoder_limit,fully_retained
+C0,1057,2,1059,8192,True
+C1,1057,2,1059,8192,True
+C2s1,1057,2,1059,8192,True
+C2s2,1057,2,1059,8192,True
+C2s3,1057,2,1059,8192,True
+C2s4,1057,2,1059,8192,True
+C2s5,1057,2,1059,8192,True
