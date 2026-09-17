@@ -1,0 +1,288 @@
+{
+  "sources": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\wands\\C0.jsonl.gz",
+      "relative_path": "phase2/data/representations/wands/C0.jsonl.gz",
+      "bytes": 17559502,
+      "sha256": "92665fc543486eef7a83434ca7aa73c420fbf3dc9637703c55ff8ba26c8086d3"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\wands\\C1.jsonl.gz",
+      "relative_path": "phase2/data/representations/wands/C1.jsonl.gz",
+      "bytes": 17561571,
+      "sha256": "978f636be14b2224c63e742fc798a3fa6348c1f3ce35d6bfd9a739958cbf23a7"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\wands\\C2s1.jsonl.gz",
+      "relative_path": "phase2/data/representations/wands/C2s1.jsonl.gz",
+      "bytes": 18116697,
+      "sha256": "de12d50480cba3f16f670a72e8b79c24a481b798643a3ab5cd4df6b14866d834"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\wands\\C2s2.jsonl.gz",
+      "relative_path": "phase2/data/representations/wands/C2s2.jsonl.gz",
+      "bytes": 18116244,
+      "sha256": "33b83a8a0823841c307e399fd593aea6c7201f2743f5da3f9446863f0b904538"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\wands\\C2s3.jsonl.gz",
+      "relative_path": "phase2/data/representations/wands/C2s3.jsonl.gz",
+      "bytes": 18116391,
+      "sha256": "773ae4fd487926d33b6154f868bbfe8a08b7f8fee0f214202b97aaf32165ea4c"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\wands\\C2s4.jsonl.gz",
+      "relative_path": "phase2/data/representations/wands/C2s4.jsonl.gz",
+      "bytes": 18117585,
+      "sha256": "19220fe3fe8b0070ed36cf371277ac22aafe57242046ec5f673795f9574d965d"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\wands\\C2s5.jsonl.gz",
+      "relative_path": "phase2/data/representations/wands/C2s5.jsonl.gz",
+      "bytes": 18117404,
+      "sha256": "94b8efc84dea68d02b04f36c78e051ef3116ab0980db59807cd43e8ed056d89f"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer.json",
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "bytes": 466247,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer_config.json",
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "bytes": 350,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\special_tokens_map.json",
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "bytes": 112,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\tokenizer.json",
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "bytes": 711396,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\tokenizer_config.json",
+      "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "bytes": 366,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\special_tokens_map.json",
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "bytes": 125,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22\\tokenizer.json",
+      "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+      "bytes": 3583228,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22\\tokenizer_config.json",
+      "sha256": "9654072f7c873161814043cf08cb5ed72f71d0b935abcd4e267935cb34352c21",
+      "bytes": 20867,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22\\special_tokens_map.json",
+      "sha256": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049",
+      "bytes": 694,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\esci\\C0.jsonl.gz",
+      "relative_path": "phase2/data/representations/esci/C0.jsonl.gz",
+      "bytes": 4643416,
+      "sha256": "a00d61506d2158459110c93ba0ff0e299700f45010ab68cace9cbc343878be2b"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\esci\\C1.jsonl.gz",
+      "relative_path": "phase2/data/representations/esci/C1.jsonl.gz",
+      "bytes": 4641464,
+      "sha256": "c5e63a0710436f36cc9242222b5aed469e26ba5b7849e821184cfc4dd27b03c6"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\esci\\C2s1.jsonl.gz",
+      "relative_path": "phase2/data/representations/esci/C2s1.jsonl.gz",
+      "bytes": 4645592,
+      "sha256": "24fac5f7826967d2506a1c416181a8bd35d9aa7422410494f5041d3e2aceaa2a"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\esci\\C2s2.jsonl.gz",
+      "relative_path": "phase2/data/representations/esci/C2s2.jsonl.gz",
+      "bytes": 4645772,
+      "sha256": "4927a38016f4884c637e3bf80b04a8d2c778fed0ec832bec4164ce935321a616"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\esci\\C2s3.jsonl.gz",
+      "relative_path": "phase2/data/representations/esci/C2s3.jsonl.gz",
+      "bytes": 4645601,
+      "sha256": "b2b96cec32cc95df70b791aaf8b5c8271ca62804e82b3465ae3e4ba3286bbe25"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\esci\\C2s4.jsonl.gz",
+      "relative_path": "phase2/data/representations/esci/C2s4.jsonl.gz",
+      "bytes": 4645587,
+      "sha256": "4a7ed0a0c8d37e23f247b44bd444abce1ab36655d00e1f962e36fdbe518a2fb3"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\data\\representations\\esci\\C2s5.jsonl.gz",
+      "relative_path": "phase2/data/representations/esci/C2s5.jsonl.gz",
+      "bytes": 4645497,
+      "sha256": "ff59856b94897b77cd282a009aeee79f742893e84c7ff909a9ebb8e6fc742e48"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer.json",
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "bytes": 466247,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer_config.json",
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "bytes": 350,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\special_tokens_map.json",
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "bytes": 112,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\tokenizer.json",
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "bytes": 711396,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\tokenizer_config.json",
+      "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "bytes": 366,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\special_tokens_map.json",
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "bytes": 125,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22\\tokenizer.json",
+      "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+      "bytes": 3583228,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22\\tokenizer_config.json",
+      "sha256": "9654072f7c873161814043cf08cb5ed72f71d0b935abcd4e267935cb34352c21",
+      "bytes": 20867,
+      "role": "pinned tokenizer/config"
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22\\special_tokens_map.json",
+      "sha256": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049",
+      "bytes": 694,
+      "role": "pinned tokenizer/config"
+    }
+  ],
+  "models": [
+    {
+      "key": "minilm",
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "architecture": "MiniLM-L6",
+      "max_tokens": 256,
+      "native_pooling": "attention-mask mean"
+    },
+    {
+      "key": "bge_base",
+      "name": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "architecture": "BERT-base retrieval encoder",
+      "max_tokens": 512,
+      "native_pooling": "CLS"
+    },
+    {
+      "key": "gte_modernbert",
+      "name": "Alibaba-NLP/gte-modernbert-base",
+      "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "architecture": "ModernBERT long-context retrieval encoder",
+      "max_tokens": 8192,
+      "native_pooling": "CLS"
+    }
+  ],
+  "schedules": [
+    "C0",
+    "C1",
+    "C2s1",
+    "C2s2",
+    "C2s3",
+    "C2s4",
+    "C2s5"
+  ],
+  "product_prefix": "",
+  "query_prefix": "",
+  "truncation": false,
+  "add_special_tokens": true,
+  "padding": false,
+  "filter_scope": "Analyzed target pairs only; full competitor catalog retained.",
+  "historical_BGE_mask": "phase4/results/{dataset}_product_features.csv was BGE-only at 512; never applied to MiniLM or GTE here.",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\all_seven_token_lengths.csv",
+      "relative_path": "revision_evidence_20260917/data/all_seven_token_lengths.csv",
+      "bytes": 10773271,
+      "sha256": "d6d57df5c4e4c99c6478612a22c849ee4d37876dce70dfcf13c2eaf8a93a8306"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\serialization_integrity.csv",
+      "relative_path": "revision_evidence_20260917/data/serialization_integrity.csv",
+      "bytes": 1613393,
+      "sha256": "6a1aeb7e6043e56e7e6d29ddc736087987f7ea18cb1d27f87e70303a6119391e"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\canonical_serialization_audit.csv",
+      "relative_path": "revision_evidence_20260917/data/canonical_serialization_audit.csv",
+      "bytes": 757,
+      "sha256": "28a605b07df53216554e3921c3d7234969a6eb0c173830102507fd0d113177a8"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\introduction_case_audit.json",
+      "relative_path": "revision_evidence_20260917/data/introduction_case_audit.json",
+      "bytes": 1630,
+      "sha256": "b76d4b521bef35a9a57c7bd6a48d0ef0a7c7bab80e939a75343455af2e627bed"
+    }
+  ]
+}

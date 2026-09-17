@@ -1,0 +1,55 @@
+{
+  "dataset": "wands",
+  "query_id": 162,
+  "product_id": "34536",
+  "query": "turquoise chair",
+  "highest_label": "Exact",
+  "model": {
+    "key": "minilm",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "architecture": "MiniLM-L6",
+    "max_tokens": 256,
+    "native_pooling": "attention-mask mean"
+  },
+  "profile": "native",
+  "target_ranks": {
+    "C0": 486,
+    "C1": 476,
+    "C2s1": 1527,
+    "C2s2": 28,
+    "C2s3": 582,
+    "C2s4": 5,
+    "C2s5": 5
+  },
+  "full_catalog_ranks": {
+    "C0": 486,
+    "C1": 295,
+    "C2s1": 1303,
+    "C2s2": 21,
+    "C2s3": 484,
+    "C2s4": 3,
+    "C2s5": 4
+  },
+  "token_counts_including_special": {
+    "C0": 995,
+    "C1": 995,
+    "C2s1": 995,
+    "C2s2": 995,
+    "C2s3": 995,
+    "C2s4": 995,
+    "C2s5": 995
+  },
+  "fully_fits_all_orders": false,
+  "cap": 256,
+  "product_prefix": "",
+  "special_token_overhead": 2,
+  "competitors": "Full 42,994-product raw C0 catalog, target old entry removed independently.",
+  "source": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\wands_minilm_pairs.parquet",
+    "relative_path": "phase3/results/target_only_permutations/wands_minilm_pairs.parquet",
+    "bytes": 1263703,
+    "sha256": "df43654f8d25b99114ae93cb54f33aa9d50008f799293cd348590d3bb4627001"
+  },
+  "interpretation": "Illustrative post-hoc target-only case. Do not label this as fully fitting unless fully_fits_all_orders is true."
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "Schematic illustration; not empirical evidence",
+  "block_semantics": "Each letter denotes one intact complete attribute entry. Letters are not shuffled characters within an entry.",
+  "raw_C0": {
+    "target_p": [
+      "A",
+      "B",
+      "C"
+    ],
+    "competitor_u": [
+      "D",
+      "E",
+      "F"
+    ],
+    "competitor_v": [
+      "G",
+      "H",
+      "J"
+    ]
+  },
+  "catalog_wide_alternative": {
+    "target_p": [
+      "C",
+      "A",
+      "B"
+    ],
+    "competitor_u": [
+      "F",
+      "D",
+      "E"
+    ],
+    "competitor_v": [
+      "J",
+      "G",
+      "H"
+    ]
+  },
+  "target_only_alternative": {
+    "target_p": [
+      "C",
+      "A",
+      "B"
+    ],
+    "competitor_u": [
+      "D",
+      "E",
+      "F"
+    ],
+    "competitor_v": [
+      "G",
+      "H",
+      "J"
+    ]
+  },
+  "fixed": [
+    "query",
+    "encoder",
+    "catalog membership",
+    "entry contents",
+    "non-attribute text",
+    "section placement"
+  ],
+  "target_index": "Old target entry is replaced; each target defines a separate index.",
+  "inclusion_states": {
+    "persistent inclusion": [
+      1,
+      1,
+      1
+    ],
+    "cutoff crossing": [
+      1,
+      0,
+      1
+    ],
+    "persistent omission": [
+      0,
+      0,
+      0
+    ]
+  }
+}

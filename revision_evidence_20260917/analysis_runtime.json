@@ -1,0 +1,12 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0",
+    "matplotlib": "3.10.9",
+    "fonttools": "4.63.0",
+    "pypdf": "6.19.0",
+    "threadpoolctl": "3.7.0"
+  }
+}

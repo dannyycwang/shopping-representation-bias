@@ -1,0 +1,9 @@
+dataset,model,K,queries,all_saved_gain_loss_exact,source
+wands,minilm,20,308,True,phase4/results/wands_minilm_transitions.csv
+wands,minilm,100,308,True,phase4/results/wands_minilm_transitions.csv
+wands,bge_base,20,308,True,phase4/results/wands_bge_base_transitions.csv
+wands,bge_base,100,308,True,phase4/results/wands_bge_base_transitions.csv
+esci,minilm,20,499,True,phase4/results/esci_minilm_transitions.csv
+esci,minilm,100,499,True,phase4/results/esci_minilm_transitions.csv
+esci,bge_base,20,499,True,phase4/results/esci_bge_base_transitions.csv
+esci,bge_base,100,499,True,phase4/results/esci_bge_base_transitions.csv

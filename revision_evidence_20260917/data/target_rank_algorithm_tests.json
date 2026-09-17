@@ -1,0 +1,86 @@
+{
+  "brute_force_tied_score_replacements": 11600,
+  "all_passed": true,
+  "saved_function_source": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\scripts\\analyze_target_only_permutations.py",
+    "relative_path": "phase3/scripts/analyze_target_only_permutations.py",
+    "bytes": 4695,
+    "sha256": "2a745f53ff646fea6cc068a3221c177658948b5c99fb7271254ac42558acd482"
+  },
+  "reconstructed_mismatches": 1,
+  "interpretation": "Saved ranks remain authoritative; any reconstruction mismatch is disclosed, never silently substituted.",
+  "reconstruction_sources": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+      "relative_path": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+      "bytes": 737408,
+      "sha256": "b76dc0151e3c27249b48dc62d52a747af68aee260f52eb86cc4a6b1df32c7379"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+      "relative_path": "phase2/results/embeddings/wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+      "bytes": 66038912,
+      "sha256": "9e64061eb6cc75b92fed46e385b32718632545379a980a9e10053849bbf3689c"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+      "relative_path": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+      "bytes": 1474688,
+      "sha256": "a1a4ca77db4010228ad7597ef97e7c4cd1a13edd6ff9e52e01eb9821c53cc8f7"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_bge_base_native_C0_3a16535a80738388b384.npy",
+      "relative_path": "phase2/results/embeddings/wands_bge_base_native_C0_3a16535a80738388b384.npy",
+      "bytes": 132077696,
+      "sha256": "0b13f8ec61b41bbccaa99de64775a40753354ff165a433453803e38a36928f37"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.npy",
+      "relative_path": "phase2/results/embeddings/wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.npy",
+      "bytes": 1474688,
+      "sha256": "6590f3c403b7ebabf6394cf3b7fc7b24c0493d1b72255366ed5c6368ac974a29"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_gte_modernbert_native_C0_3e1a424d692784631506.npy",
+      "relative_path": "phase2/results/embeddings/wands_gte_modernbert_native_C0_3e1a424d692784631506.npy",
+      "bytes": 132077696,
+      "sha256": "ecfa08d1f7001451a5b50bc5c6ccd3e32563dea5f5dd6903bac62722a7319813"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\esci_minilm_native_queries_8f16f6931da8d3dab463.npy",
+      "relative_path": "phase2/results/embeddings/esci_minilm_native_queries_8f16f6931da8d3dab463.npy",
+      "bytes": 768128,
+      "sha256": "4b002be8bc0b79f5a98ea4d8cbd2055f3403e99897f2e5325e7314ebc31a6fcd"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\esci_minilm_native_C0_688a66533b0c9836f4e7.npy",
+      "relative_path": "phase2/results/embeddings/esci_minilm_native_C0_688a66533b0c9836f4e7.npy",
+      "bytes": 15476864,
+      "sha256": "17fb730db8097d2c342ead39397e3d17f136670d60b95c10511e940440acd2cd"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\esci_bge_base_native_queries_ea6f4a00c1fad5ae5395.npy",
+      "relative_path": "phase2/results/embeddings/esci_bge_base_native_queries_ea6f4a00c1fad5ae5395.npy",
+      "bytes": 1536128,
+      "sha256": "1c712f927ab9afa42a1ed49901cab8772d0019b770499338c74fc5480125df54"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\esci_bge_base_native_C0_1de2078d8697e6366c49.npy",
+      "relative_path": "phase2/results/embeddings/esci_bge_base_native_C0_1de2078d8697e6366c49.npy",
+      "bytes": 30953600,
+      "sha256": "7f0c777329708a6eaa54693c6ea0f5c8337d182ac8aabb9f425c41d5ea326f14"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\esci_gte_modernbert_native_queries_7bfe6a229e92a65fadd0.npy",
+      "relative_path": "phase2/results/embeddings/esci_gte_modernbert_native_queries_7bfe6a229e92a65fadd0.npy",
+      "bytes": 1536128,
+      "sha256": "da71db1ffc46ee0f6772c2457166db29da8b5ef813bb9c4e39771608cfd9babd"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\esci_gte_modernbert_native_C0_a328eaeb09f56ff3d152.npy",
+      "relative_path": "phase2/results/embeddings/esci_gte_modernbert_native_C0_a328eaeb09f56ff3d152.npy",
+      "bytes": 30953600,
+      "sha256": "6ab0e8e484c38de0c585f5dc1ece271f6e58066574b1bc42c9709dda5cc4b913"
+    }
+  ]
+}

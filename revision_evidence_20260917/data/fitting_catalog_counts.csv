@@ -1,0 +1,7 @@
+dataset,model,products,fully_fitting_products,max_observed_tokens
+esci,bge_base,10076,8195,1642
+esci,gte_modernbert,10076,10076,1921
+esci,minilm,10076,5901,1642
+wands,bge_base,42994,16560,4387
+wands,gte_modernbert,42994,42994,3910
+wands,minilm,42994,2854,4387

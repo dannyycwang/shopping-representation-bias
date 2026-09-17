@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "check": "hand-calculated four states, within-query cancellation, macro != micro",
+      "passed": true
+    },
+    {
+      "check": "all empirical query rows: accounting, exact cancellation, all 21 comparisons, fixed Hq",
+      "passed": true,
+      "rows": 212310
+    },
+    {
+      "check": "summary independently reconciled to every per-query contrast",
+      "passed": true,
+      "rows": 1008
+    },
+    {
+      "check": "inherited raw inputs, manuscript PDF and frozen source definitions preserved",
+      "passed": true
+    },
+    {
+      "check": "all three states sum to one; historical VI and PhaseVI mean-schedule metric reconciled",
+      "passed": true
+    },
+    {
+      "check": "all 18 frozen canonical conditions available; three rules retain separate outcomes",
+      "passed": true
+    },
+    {
+      "check": "final PDF dimensions/page counts and zero raster image objects",
+      "passed": true,
+      "figures": 3
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "figure2_intervention_and_states.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "raster_images": 0,
+      "sha256": "8a2e7d2cdf6509fb7600d0a5f2e39b5fb6fd1d3cba242282b2fdc4247270f9df"
+    },
+    {
+      "file": "rq2_membership_changes.pdf",
+      "pages": 2,
+      "width_inches": 7.1,
+      "raster_images": 0,
+      "sha256": "be1134ce363db2f1bff91a338f6468984b6739668bb9e58e0c761d32d92155b6"
+    },
+    {
+      "file": "rq1_target_fully_fitting.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "raster_images": 0,
+      "sha256": "869be36c694f3c4abfb79b0ac24b4dd0b3bc892d1ceb659775dce0df9a966536"
+    }
+  ],
+  "notes": "Visual proof inspection is recorded separately in qa/VISUAL_QA.md."
+}

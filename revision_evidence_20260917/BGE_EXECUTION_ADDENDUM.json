@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-09-17T15:24:03.419262+00:00",
+  "protocol_sha256": "031a2879f8fd9b7cd31f87a64a4fe19ee8e1cf12704263c848440e4ba7805cd5",
+  "reason": "BGE batch size 48 filled approximately 7,921-7,937 MiB of the 8 GiB GPU and became very slow even in a fresh process. Reduce computation batch size before any of the four new BGE conditions completes.",
+  "scope": [
+    "wands_bge_base_lexical_descending",
+    "wands_bge_base_field_priority_type",
+    "esci_bge_base_lexical_descending",
+    "esci_bge_base_field_priority_type"
+  ],
+  "configured_max_batch_size": 48,
+  "effective_max_batch_size": 16,
+  "unchanged": [
+    "canonical rules and text",
+    "model name and revision",
+    "native encoder profile",
+    "tokenizer revision and cap",
+    "empty prefixes",
+    "pooling",
+    "fp16 model and fp32 pooling/normalization",
+    "historical query embeddings",
+    "catalog and relevance judgments",
+    "rank/tie rule",
+    "query populations",
+    "bootstrap specification"
+  ],
+  "numerical_limit": "Batch partitioning can change floating-point rounding. No bitwise identity between independent forward passes is claimed.",
+  "outcome_independence": "No new BGE condition had a completed rank/source file when this execution adjustment was made. It is a memory-management adjustment, not a choice based on held-out retrieval outcomes.",
+  "completed_or_inherited_conditions_before_change": 14,
+  "runner_sha256": "08d69cacab632a76cf229f3dc0ece2e1afa5ab1ac44a990dfe6c7f22a26837c0"
+}

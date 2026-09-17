@@ -1,0 +1,7 @@
+dataset,model,all_seven_pair_alignment,highest_judgments_exact,catalog_size,highest_relevance_pairs,eligible_queries
+wands,minilm,True,True,42994,25470,379
+wands,bge_base,True,True,42994,25470,379
+wands,gte_modernbert,True,True,42994,25470,379
+esci,minilm,True,True,10076,4434,499
+esci,bge_base,True,True,10076,4434,499
+esci,gte_modernbert,True,True,10076,4434,499

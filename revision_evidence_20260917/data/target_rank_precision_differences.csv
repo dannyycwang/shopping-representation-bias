@@ -1,0 +1,2 @@
+dataset,model,schedule,query_id,product_id,inherited_rank,reconstructed_rank,membership20_changed,membership100_changed,authority
+wands,bge_base,C2s3,252,385,479,480,False,False,Inherited ranks retained; current-runtime fp32 reconstruction is an audit only.

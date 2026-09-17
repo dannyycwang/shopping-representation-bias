@@ -1,0 +1,14 @@
+ M paper_www2027/RESULT_PROVENANCE.md
+ M paper_www2027/figures/figure1_target_only.pdf
+ M paper_www2027/figures/figure1_target_only.png
+ M paper_www2027/main.aux
+ M paper_www2027/main.log
+ M paper_www2027/main.pdf
+ M paper_www2027/sections/introduction.tex
+ M phase3/scripts/make_target_only_figure.py
+?? paper_www2027/archive/
+?? paper_www2027/figure1_build.log
+?? paper_www2027/figures/figure1_attribute_cards_source.json
+?? paper_www2027/figures/figure1_target_only.drawio
+?? revision_evidence_20260917/
+?? tmp/
