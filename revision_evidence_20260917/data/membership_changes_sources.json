@@ -1,0 +1,430 @@
+{
+  "derivation": "No retrieval was run for this membership analysis.",
+  "schedules": [
+    "C0",
+    "C1",
+    "C2s1",
+    "C2s2",
+    "C2s3",
+    "C2s4",
+    "C2s5"
+  ],
+  "schedule_seeds": [
+    20260911,
+    20260912,
+    20260913,
+    20260914,
+    20260915
+  ],
+  "cutoffs": [
+    20,
+    100
+  ],
+  "models": [
+    {
+      "key": "minilm",
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "architecture": "MiniLM-L6",
+      "max_tokens": 256,
+      "native_pooling": "attention-mask mean"
+    },
+    {
+      "key": "bge_base",
+      "name": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "architecture": "BERT-base retrieval encoder",
+      "max_tokens": 512,
+      "native_pooling": "CLS"
+    },
+    {
+      "key": "gte_modernbert",
+      "name": "Alibaba-NLP/gte-modernbert-base",
+      "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "architecture": "ModernBERT long-context retrieval encoder",
+      "max_tokens": 8192,
+      "native_pooling": "CLS"
+    }
+  ],
+  "query_prefix": "",
+  "product_prefix": "",
+  "tie_rule": "Descending fp32 score, then ascending original catalog index. Catalog order is retained exactly.",
+  "baseline_names": {
+    "C0 Recall": "Within-query fraction of Hq ranked <=K in C0, then macro mean.",
+    "mean_over_seven_schedules Recall": "Mean of the seven shared-index schedule Recalls, including C0.",
+    "target inclusion": "Average independent-target inclusion; targets do not share one counterfactual index.",
+    "VI": "At least one included and at least one omitted order in the finite seven-schedule family.",
+    "Always": "Included in all seven schedules.",
+    "Never": "Omitted in all seven schedules."
+  },
+  "count_definitions": {
+    "retained": "I_ref & I_alt",
+    "newly_included": "not I_ref & I_alt",
+    "newly_omitted": "I_ref & not I_alt",
+    "absent_in_both": "not I_ref & not I_alt"
+  },
+  "fraction_denominator": "All distinct Hq products for the query, including absent_in_both.",
+  "aggregation": "query_macro first averages within query; pair_micro separately weights each highest-relevance pair equally.",
+  "cancellation": "Exact integer gains == losses > 0 before rounding. All-query and changed-query denominators exported separately. Across-query cancellation uses positive and negative query net masses; it is not within-query substitution.",
+  "uncertainty": {
+    "seed": 2026091701,
+    "draws": 10000,
+    "paired_query_clusters": true,
+    "interval": "95% percentile, descriptive, uncorrected",
+    "equivalence": false
+  },
+  "query_support_file": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\evaluation_populations.json",
+    "relative_path": "revision_evidence_20260917/data/evaluation_populations.json",
+    "bytes": 143488,
+    "sha256": "d1c9f8191bf421554602cbce8dbb65b3671feb84cf97375bc5cd6fc5a5650151"
+  },
+  "source_files": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C0.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C0.parquet",
+      "bytes": 2833065,
+      "sha256": "8e2263d54f75c4a4c51fae7240d3c879ca01aae0b6e7109e1af5ea4bcc652096",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C1.parquet",
+      "bytes": 2834144,
+      "sha256": "1677ff51e8c00240a37056380b03e447639d53ed70e3dd52ba943b780b76d148",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C2s1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s1.parquet",
+      "bytes": 2833440,
+      "sha256": "18dabe2616e9c9d125207a3327d81dbd4a7ef25472017d018a0618a426983987",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C2s2.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s2.parquet",
+      "bytes": 2833204,
+      "sha256": "364cc2c1e54b56bd738545f27f6d9b8632a6ea2f68a62fc049ad1e806e2779af",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C2s3.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s3.parquet",
+      "bytes": 2833478,
+      "sha256": "a0c02bc2454bdd9884ff8177436c1bc7f32b46dc9f43d64363fd10fb0941d683",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C2s4.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s4.parquet",
+      "bytes": 2833655,
+      "sha256": "4a25bf871b4ff3e7b5b314c9c9123390eacc60f151914145dc26b89cad8373d7",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C2s5.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s5.parquet",
+      "bytes": 2833521,
+      "sha256": "de791f1808fe06d52d605e3dd27e3c3b570d09b381c92c8c2e297a005049e5ec",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C0.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C0.parquet",
+      "bytes": 2760275,
+      "sha256": "c3d13836f3c034ae83fc2c71dea099e74b906aa7fd43b5b3bca6fd08bdc08ead",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C1.parquet",
+      "bytes": 2764057,
+      "sha256": "e6141b0ea7433b9601262279643b9ed18239beca3d6fc597120d7b895002d6f4",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s1.parquet",
+      "bytes": 2761356,
+      "sha256": "d2e00b24b43d139c2a8f03196350b4f3cbe37cb470668de17712ec621d4d6b69",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s2.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s2.parquet",
+      "bytes": 2760642,
+      "sha256": "9b42e081445191c7f18605c88af023fe93269509d57a95bf5edb46e917485102",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s3.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s3.parquet",
+      "bytes": 2761472,
+      "sha256": "53ea087dc3195da936e3c01e1e264a31e0506b52b2747a406c1f4e64c8a80523",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s4.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s4.parquet",
+      "bytes": 2761711,
+      "sha256": "7708f18a2fa417bc6bc044217d76bf4f174533a59b015e95f3327898454373ea",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_bge_base_native_C2s5.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s5.parquet",
+      "bytes": 2761096,
+      "sha256": "940eba7f9d60414c57810d80bcac95390404379d5aee4f30fd505a6ed757bca4",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_gte_modernbert_native_C0.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C0.parquet",
+      "bytes": 2774507,
+      "sha256": "44cb8ee8e9bbae7a88b4b956c8d632939eeab9655876e72e86dae5a8f1d0c06a",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_gte_modernbert_native_C1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C1.parquet",
+      "bytes": 2774660,
+      "sha256": "2d1ff7f2346c86c5e414418980bd0e016aeaec373d6a1662b8e1f522e5be3a91",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_gte_modernbert_native_C2s1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s1.parquet",
+      "bytes": 2775435,
+      "sha256": "76ba8c41c56fc4b4919c703f8f0eaea6d3f11255cc524c23cb3e94f1811d88fa",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_gte_modernbert_native_C2s2.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s2.parquet",
+      "bytes": 2774962,
+      "sha256": "a1ecf239f234930a2ab37bb1d1a1c2953b42be8f3e49d9a4bb3c33f26c1fb890",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_gte_modernbert_native_C2s3.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s3.parquet",
+      "bytes": 2774735,
+      "sha256": "4bfdc761c5bd9ea9706f4efd8153b7784fc432d03fb480de058967910fcebe14",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_gte_modernbert_native_C2s4.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s4.parquet",
+      "bytes": 2774846,
+      "sha256": "a0c2d49184720402dc6c362ef7eb56e12f785eb18aec523b56ce45d1de7024b1",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_gte_modernbert_native_C2s5.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s5.parquet",
+      "bytes": 2775831,
+      "sha256": "85d62ee0b7402b166a2b52c0ecfca5dfd216a6b13417c25289c770d4b2d1db38",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_minilm_native_C0.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_minilm_native_C0.parquet",
+      "bytes": 224666,
+      "sha256": "586a35ab0667525c7585ae69907203b4a858a50a5c07f07f3a17793d08390f8e",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_minilm_native_C1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_minilm_native_C1.parquet",
+      "bytes": 224594,
+      "sha256": "eefd4c82a2c783618005369ef5857ea9b87434aa582e3664a75d7fa401026ddf",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_minilm_native_C2s1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s1.parquet",
+      "bytes": 224590,
+      "sha256": "9f83a0b3469b59a3b65eb6cfc650ecd43baa3b48f7ee4b0729865f03e9b0e080",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_minilm_native_C2s2.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s2.parquet",
+      "bytes": 224718,
+      "sha256": "2ae6b402d4c171c3fbf6eb8406c78abb3953e2660fe62732a24b559a40e80221",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_minilm_native_C2s3.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s3.parquet",
+      "bytes": 224556,
+      "sha256": "c195e550889c9d6fcb20c91589cc93b8d93c387b4490cd7fe23d1025daced6b3",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_minilm_native_C2s4.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s4.parquet",
+      "bytes": 224615,
+      "sha256": "96807bdd880bfc14f9ea8937e314f9553adf7641e20944b4875e4635101a0486",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_minilm_native_C2s5.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s5.parquet",
+      "bytes": 224587,
+      "sha256": "837bf15f0264d4eba85f9d48a1bb1923c30bd8d98a6501fbdb97260cc093afbc",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_bge_base_native_C0.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C0.parquet",
+      "bytes": 222516,
+      "sha256": "4b1f5e94956f3b6b06da672de82af283ab0be8b4e1eca00722580fa82588c1bd",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_bge_base_native_C1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C1.parquet",
+      "bytes": 222429,
+      "sha256": "81766b212c973735736aaa07fed61b3c2903d6ffd7ca237fdd4e13e82ade2eab",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_bge_base_native_C2s1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s1.parquet",
+      "bytes": 222474,
+      "sha256": "15a0a0b215fb5b49c8b68279be3adbe7ea71fbedf091f052027453ec3f72156c",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_bge_base_native_C2s2.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s2.parquet",
+      "bytes": 222391,
+      "sha256": "87da5d1fe060b00d4de6c6b59ca3d94060a6ca209961fedcfb302a4c43b31ce5",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_bge_base_native_C2s3.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s3.parquet",
+      "bytes": 222325,
+      "sha256": "bfaa65d071ab69a797ee9cabf87c00bd2f8d1adbfd6a1bdd37840cc8a00c6212",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_bge_base_native_C2s4.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s4.parquet",
+      "bytes": 222411,
+      "sha256": "7e9c5e3b6f6214b6ba3b4d6fd42b4868d2e7fcabc47cacfd197648439d4603d7",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_bge_base_native_C2s5.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s5.parquet",
+      "bytes": 222416,
+      "sha256": "23c707ab6fa9362df9fd6a4a9f0e58c38b43567c643ddfb7875ee4960e6939c5",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_gte_modernbert_native_C0.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C0.parquet",
+      "bytes": 223124,
+      "sha256": "ae5879067690a2b2597cbd94f1ed8cf088cdd4cfe9644def0d2b85cad107afdf",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_gte_modernbert_native_C1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C1.parquet",
+      "bytes": 223280,
+      "sha256": "3b423aee69dac1b714805d57c5ec68dc58136cbd1514e382ac917932c9fb9917",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_gte_modernbert_native_C2s1.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s1.parquet",
+      "bytes": 223237,
+      "sha256": "503dfd0068f5684b9adbb77d4968ae15da0d5b103f73debfab54d405b89357df",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_gte_modernbert_native_C2s2.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s2.parquet",
+      "bytes": 223154,
+      "sha256": "fbb95739741d59d4ba30e09b17b4c708104e55a5e703fb4533b1789c5efd29db",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_gte_modernbert_native_C2s3.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s3.parquet",
+      "bytes": 223178,
+      "sha256": "7ee91a3769ad738566493a4aa5a9549209891027ffbc982d8bd8fb9cdd9bed24",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_gte_modernbert_native_C2s4.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s4.parquet",
+      "bytes": 223107,
+      "sha256": "e21dd09dbf43aa143846a6f1a53c8a8b4b3929ef4697befe61e51442628abfaf",
+      "backup_sha256_matches": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\esci_gte_modernbert_native_C2s5.parquet",
+      "relative_path": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s5.parquet",
+      "bytes": 223244,
+      "sha256": "77cc281191c0e00039736f7138a84adc91b84a7e931dce78f7a569f9e5fec9f7",
+      "backup_sha256_matches": true
+    }
+  ],
+  "context_sources": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\config\\phase2.json",
+      "relative_path": "phase2/config/phase2.json",
+      "bytes": 3436,
+      "sha256": "4bcbf5fbe0e98a5054e5bd3af4efaf70db6c02329d301f711ea03e729ebf30a8"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase4\\config\\splits.json",
+      "relative_path": "phase4/config/splits.json",
+      "bytes": 12760,
+      "sha256": "db3c3558265789191cac9e6132e216ddeb460ba62daa1cf64033a5fa05708e2c"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\src\\representations.py",
+      "relative_path": "phase2/src/representations.py",
+      "bytes": 7316,
+      "sha256": "0751cdb3cabd54e3d7256b5dd0d6a3ebebaa2d826fda080b24ee31ed0a34e027"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\src\\evaluation.py",
+      "relative_path": "phase2/src/evaluation.py",
+      "bytes": 5010,
+      "sha256": "117fa7fc31ad37fa0247dccf4af269e63ebf32f761cf8deb71917321ca140cdb"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\provenance.json",
+      "relative_path": "phase3/results/target_only_permutations/provenance.json",
+      "bytes": 2384,
+      "sha256": "54322e3315fdf461cea5534f4ea476c04ad5007745beefbe961fb3f744a00368"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\membership_changes_per_query.csv",
+      "relative_path": "revision_evidence_20260917/data/membership_changes_per_query.csv",
+      "bytes": 48132941,
+      "sha256": "72ca97f49842d946191a1a7834f241fcf296d805cb1037daf90a620b7c99999d"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\membership_changes_summary.csv",
+      "relative_path": "revision_evidence_20260917/data/membership_changes_summary.csv",
+      "bytes": 873107,
+      "sha256": "9d77fe569ad7a369250cec9040e51e2d3bd0ddff18fadf1098f3adbdf892a9a2"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\membership_integrity.csv",
+      "relative_path": "revision_evidence_20260917/data/membership_integrity.csv",
+      "bytes": 372,
+      "sha256": "ee4209b58fa9839539a0c892b13fcd65fd78d952e8dcaf7561eaafd7f3009b9b"
+    }
+  ]
+}

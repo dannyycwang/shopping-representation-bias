@@ -1,0 +1,59 @@
+{
+  "dataset": "wands",
+  "model": "minilm",
+  "query_id": 359,
+  "product_id": "12575",
+  "query": "french molding",
+  "product_title": "valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner",
+  "product_record": {
+    "product_id": 12575,
+    "title": "valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner",
+    "class": "Molding & Millwork",
+    "category": "Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork",
+    "description": "",
+    "attributes": [
+      "overallwidth-sidetoside:9.38",
+      "overallproductweight:0.19",
+      "producttype : wall nice/cove",
+      "moldinguse : corners",
+      "overallheight-toptobottom:9.38",
+      "material : urethane",
+      "color : off-white",
+      "compositewoodproductcwp : no",
+      "installationrequired : yes",
+      "countryoforigin : china"
+    ],
+    "attribute_separator": "|",
+    "section_order": [
+      "title",
+      "class",
+      "category",
+      "description",
+      "attributes"
+    ]
+  },
+  "highest_label": "Exact",
+  "cap": 256,
+  "ranks": {
+    "C0": 19,
+    "C1": 58,
+    "C2s1": 52,
+    "C2s2": 174,
+    "C2s3": 15,
+    "C2s4": 33,
+    "C2s5": 36
+  },
+  "tokens_with_special": {
+    "C0": 139,
+    "C1": 139,
+    "C2s1": 139,
+    "C2s2": 139,
+    "C2s3": 139,
+    "C2s4": 139,
+    "C2s5": 139
+  },
+  "fully_fits_all_orders": true,
+  "competitors": "full raw C0 catalog; target old entry removed",
+  "selection": "Post hoc: largest seven-order target rank range among held-out WANDS/MiniLM all-order-fitting highest-label pairs crossing K=20; ties query_id then product_id. Illustrative only, not independent population evidence.",
+  "manuscript_action": "No replacement of the Introduction example or its historical artifacts."
+}

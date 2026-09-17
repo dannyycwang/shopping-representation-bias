@@ -1,0 +1,70 @@
+{
+  "sources": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\wands_minilm_pairs.parquet",
+      "relative_path": "phase3/results/target_only_permutations/wands_minilm_pairs.parquet",
+      "bytes": 1263703,
+      "sha256": "df43654f8d25b99114ae93cb54f33aa9d50008f799293cd348590d3bb4627001"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\wands_bge_base_pairs.parquet",
+      "relative_path": "phase3/results/target_only_permutations/wands_bge_base_pairs.parquet",
+      "bytes": 1171620,
+      "sha256": "2e4f6edc2542080c017480e4b0d445a1889c74c5c1b87676c29062e6c964bd23"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\wands_gte_modernbert_pairs.parquet",
+      "relative_path": "phase3/results/target_only_permutations/wands_gte_modernbert_pairs.parquet",
+      "bytes": 1186842,
+      "sha256": "29c4c27807f9d180926dc9492016351a508c7ccd12a799767e81309344529f17"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\esci_minilm_pairs.parquet",
+      "relative_path": "phase3/results/target_only_permutations/esci_minilm_pairs.parquet",
+      "bytes": 203596,
+      "sha256": "4616dbd86e7a03b5295067aeed4d3ba6eeccfabd546a733ed93c402a3adb984d"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\esci_bge_base_pairs.parquet",
+      "relative_path": "phase3/results/target_only_permutations/esci_bge_base_pairs.parquet",
+      "bytes": 190700,
+      "sha256": "cc00b12308ab0993a5c6e1501c7f26a9a20d42cf046a2027175369c7c53fb5f1"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\esci_gte_modernbert_pairs.parquet",
+      "relative_path": "phase3/results/target_only_permutations/esci_gte_modernbert_pairs.parquet",
+      "bytes": 201873,
+      "sha256": "caf81f204826e996321d8d75f322da0b5ce89991566b3d401e90804b3ebd6355"
+    }
+  ],
+  "token_lengths": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\all_seven_token_lengths.csv",
+    "relative_path": "revision_evidence_20260917/data/all_seven_token_lengths.csv",
+    "bytes": 10773271,
+    "sha256": "d6d57df5c4e4c99c6478612a22c849ee4d37876dce70dfcf13c2eaf8a93a8306"
+  },
+  "definitions": "Always: all ranks <= K; VI: min rank <= K < max rank; Never: all ranks > K. Seven raw schedules. All three use the same aggregation and denominators.",
+  "scope": "Filtering targets only; all original competitors remain. Full-minus-fitting is descriptive, not a causal effect.",
+  "target_inclusion": "Mean across independent counterfactual target indexes; not Recall from a shared index.",
+  "phase_VI_scope": "Phase VI method target sensitivity uses that method own C0 competitors. Its raw Original baseline agrees with raw C0; other methods are not pooled with this raw intervention.",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\inclusion_states_summary.csv",
+      "relative_path": "revision_evidence_20260917/data/inclusion_states_summary.csv",
+      "bytes": 83827,
+      "sha256": "c02fbdb54211fcccff1b29ad0cf82e37de726fdbab6ab8ca4c50bc626df570a3"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\inclusion_states_per_query.csv",
+      "relative_path": "revision_evidence_20260917/data/inclusion_states_per_query.csv",
+      "bytes": 6796862,
+      "sha256": "608d6396200b7d4508e7a6b8c865be8125a3c70fca0839b79e2562820971df62"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\target_only_integrity.csv",
+      "relative_path": "revision_evidence_20260917/data/target_only_integrity.csv",
+      "bytes": 667,
+      "sha256": "df59ce7069331df8a4e5e71de99cb4df966a2f25925dfa3f869ef242feceac08"
+    }
+  ]
+}

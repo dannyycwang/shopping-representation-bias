@@ -1,0 +1,7 @@
+dataset,model,pairs,C0_rank_exact_match,all_saved_whole_ranks_exact_match,competitors,catalog_size,target_old_entry_removed
+wands,minilm,25470,True,True,raw C0,42994,verified in source code and tied-score tests
+wands,bge_base,25470,True,True,raw C0,42994,verified in source code and tied-score tests
+wands,gte_modernbert,25470,True,True,raw C0,42994,verified in source code and tied-score tests
+esci,minilm,4434,True,True,raw C0,10076,verified in source code and tied-score tests
+esci,bge_base,4434,True,True,raw C0,10076,verified in source code and tied-score tests
+esci,gte_modernbert,4434,True,True,raw C0,10076,verified in source code and tied-score tests

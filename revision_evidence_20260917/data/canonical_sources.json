@@ -1,0 +1,123 @@
+{
+  "protocol": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\PROSPECTIVE_PROTOCOL.json",
+    "relative_path": "revision_evidence_20260917/PROSPECTIVE_PROTOCOL.json",
+    "bytes": 4679,
+    "sha256": "031a2879f8fd9b7cd31f87a64a4fe19ee8e1cf12704263c848440e4ba7805cd5"
+  },
+  "sources": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_minilm_lexical_ascending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_minilm_lexical_ascending_source.json",
+      "bytes": 7592,
+      "sha256": "ca4facd3860485df8948b2033235d4c1cc4b1716cd1ac094eaba9833b64b3711"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_minilm_lexical_descending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_minilm_lexical_descending_source.json",
+      "bytes": 7572,
+      "sha256": "24b9c36df49e5c436dba5e1afc3388bccc70117806f7e23fee01fb720131769a"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_minilm_field_priority_type_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_minilm_field_priority_type_source.json",
+      "bytes": 7565,
+      "sha256": "b60d2b27ee68fc41ae509720b33f74886a54ba60bf19669bdabd22ae97b7bbf1"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_bge_base_lexical_ascending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_bge_base_lexical_ascending_source.json",
+      "bytes": 7611,
+      "sha256": "020d62dc1d9ff7bde83aab1ecd2d2006ac3e3f2fc7467016f276822a9e46c294"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_bge_base_lexical_descending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_bge_base_lexical_descending_source.json",
+      "bytes": 8154,
+      "sha256": "e6a9c229a781a67e05fd820b4588e1fe2acc49b99ffaf04e17e4c891d6b4f898"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_bge_base_field_priority_type_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_bge_base_field_priority_type_source.json",
+      "bytes": 8159,
+      "sha256": "0b7094950a69f46f27b9711507a7279d05d0fc1f7bcce01aa0c15d9e0380f59c"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_gte_modernbert_lexical_ascending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_ascending_source.json",
+      "bytes": 7629,
+      "sha256": "9cb40fe199f68c4d8992cb64c4d4ca253f4b5031961139ff85271c1ffdd291f5"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_gte_modernbert_lexical_descending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_descending_source.json",
+      "bytes": 7646,
+      "sha256": "00eb7ae18620bc56bfc7e30f153cb56a799c7c6441cb5143a35775693c4ed7eb"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\wands_gte_modernbert_field_priority_type_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/wands_gte_modernbert_field_priority_type_source.json",
+      "bytes": 7651,
+      "sha256": "767f04ebce6effadd522600c3ff6ae83ed33adccb2d13005874c08839d8917a6"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_minilm_lexical_ascending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_minilm_lexical_ascending_source.json",
+      "bytes": 8880,
+      "sha256": "5df37bd7e33611625217dbeb7d694c78303654b00581835a04a72d0808a57f1b"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_minilm_lexical_descending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_minilm_lexical_descending_source.json",
+      "bytes": 8872,
+      "sha256": "e898fd1f4fd4b61942c1c7398d7d6e477ee88dff99e434ce88bdebc83ac59fd2"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_minilm_field_priority_type_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_minilm_field_priority_type_source.json",
+      "bytes": 8878,
+      "sha256": "47d55ad902cb68f0d381f986488159f7e0efd3b9cbf4a17862b8b5626ad8006a"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_bge_base_lexical_ascending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_bge_base_lexical_ascending_source.json",
+      "bytes": 8912,
+      "sha256": "f3f92cbc60372408857b4652b2352bfcaa93a217cbbfb58810995e2c9fc88ca8"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_bge_base_lexical_descending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_bge_base_lexical_descending_source.json",
+      "bytes": 9456,
+      "sha256": "a893e63ffd9c69e43ffe3505bc3f7a53a33d84d62cf528510cfd95465cf501c2"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_bge_base_field_priority_type_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_bge_base_field_priority_type_source.json",
+      "bytes": 9461,
+      "sha256": "9cb41f909bf7c8e33611d418b1d7de89019ef1465228894ac261d68e5dc74145"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_gte_modernbert_lexical_ascending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_ascending_source.json",
+      "bytes": 8930,
+      "sha256": "a4fa13b294df67a5d682949521ead0aed1778b002942997a55bec9bf46c84be2"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_gte_modernbert_lexical_descending_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_descending_source.json",
+      "bytes": 8946,
+      "sha256": "81b643f74a282cd9ac785f286fd3ad3aed9756e50e1a4986faa4db0d749d0281"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\experiments\\esci_gte_modernbert_field_priority_type_source.json",
+      "relative_path": "revision_evidence_20260917/experiments/esci_gte_modernbert_field_priority_type_source.json",
+      "bytes": 8950,
+      "sha256": "f659c0697c2c1c488ccdf8a46f096cbed3fa92336623222a33fbc91957491943"
+    }
+  ],
+  "comparison_scope": "Same Hq support as the raw catalog analysis; primary WANDS held-out and existing ESCI evaluation sample.",
+  "no_selection": "All three frozen rules are reported; no held-out winner is selected.",
+  "old_template": "M2 changes framing/section placement and is separate from pure sorting controls.",
+  "invariance": "Canonical VI=0 follows from verified identical serialized text and reuse of one fixed index. It is not an empirical guarantee about repeated floating-point forward passes.",
+  "intervals": "10,000 paired query-cluster draws; seed 2026091701; descriptive uncorrected 95% percentile. Including zero does not demonstrate equivalence."
+}
