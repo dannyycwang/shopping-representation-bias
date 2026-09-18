@@ -1,0 +1,5 @@
+__pycache__/
+qa/*.png
+qa/*.svg
+qa/*_roundtrip.drawio
+qa/*.jsonl

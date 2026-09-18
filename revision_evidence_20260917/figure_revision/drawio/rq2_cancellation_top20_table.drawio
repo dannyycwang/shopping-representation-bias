@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="29.0.0" compressed="false">
+  <diagram id="rq2_cancellation_top20_table" name="RQ2 cancellation table">
+    <mxGraphModel dx="0" dy="0" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="331.2" pageHeight="201.6" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rq2_cancellation_top20_table-2" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.8;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8.28" y="51.08544" as="sourcePoint" />
+            <mxPoint x="322.92" y="51.08544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-3" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6ccd1;fillColor=none;strokeWidth=0.66667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8.28" y="109.79136" as="sourcePoint" />
+            <mxPoint x="322.92" y="109.79136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-4" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.8;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8.28" y="159.32448" as="sourcePoint" />
+            <mxPoint x="322.92" y="159.32448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-5" value="Exact within-query cancellation at Top-20" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=13.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="-2.93909" width="239.9" height="16.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-6" value="Dataset" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="28.41387" width="37.1" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-7" value="Encoder" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="96.3792" y="28.41387" width="41.54" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-8" value="Eligible q" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="169.3824" y="28.41387" width="47.06" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-9" value="Queries (%)" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="263.4" y="28.41387" width="60.02" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-10" value="WANDS" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="55.14315" width="40.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-11" value="MiniLM" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="96.3792" y="55.14315" width="39.5" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-12" value="308" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="199.1424" y="55.14315" width="17.3" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-13" value="16.88-21.75" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="268.2" y="55.14315" width="55.22" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-14" value="WANDS" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="71.65419" width="40.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-15" value="BGE" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="96.3792" y="71.65419" width="23.06" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-16" value="308" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="199.1424" y="71.65419" width="17.3" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-17" value="21.75-25.32" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="267.96" y="71.65419" width="55.46" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-18" value="WANDS" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="88.16523" width="40.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-19" value="GTE" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="96.3792" y="88.16523" width="22.34" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-20" value="308" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="199.1424" y="88.16523" width="17.3" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-21" value="19.81-26.30" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="268.32" y="88.16523" width="55.1" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-22" value="ESCI" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="104.67627" width="24.98" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-23" value="MiniLM" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="96.3792" y="104.67627" width="39.5" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-24" value="499" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="198.9024" y="104.67627" width="17.54" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-25" value="1.40-2.81" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="279.48" y="104.67627" width="43.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-26" value="ESCI" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="121.18731" width="24.98" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-27" value="BGE" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="96.3792" y="121.18731" width="23.06" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-28" value="499" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="198.9024" y="121.18731" width="17.54" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-29" value="2.40-3.21" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="279.36" y="121.18731" width="44.06" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-30" value="ESCI" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="137.69835" width="24.98" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-31" value="GTE" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="96.3792" y="137.69835" width="22.34" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-32" value="499" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="198.9024" y="137.69835" width="17.54" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-33" value="3.01-4.21" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="279.48" y="137.69835" width="43.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="rq2_cancellation_top20_table-34" value="Six-comparison min-max; not a confidence interval." style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8.28" y="166.67253" width="221.42" height="13.33333" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

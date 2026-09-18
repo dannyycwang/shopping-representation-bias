@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="29.0.0" compressed="false">
+  <diagram id="figure2_intervention_and_states" name="Figure 2 schematic">
+    <mxGraphModel dx="0" dy="0" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="681.6" pageHeight="321.6" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="figure2_intervention_and_states-2" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="88.2672" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-3" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="114.81552" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-4" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="141.36384" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-5" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="230.7216" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-6" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="257.26992" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-7" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="283.81824" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-8" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="88.2672" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-9" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="114.81552" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-10" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="141.36384" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-11" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="230.7216" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-12" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="257.26992" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-13" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="283.81824" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-14" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="88.2672" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-15" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="114.81552" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-16" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="141.36384" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-17" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="230.7216" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-18" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="257.26992" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-19" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="283.81824" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-20" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="424.9776" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-21" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="451.52592" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-22" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="478.07424" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-23" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="567.432" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-24" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="593.98032" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-25" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="620.52864" y="88.35638" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-26" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="424.9776" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-27" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="451.52592" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-28" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="478.07424" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-29" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="567.432" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-30" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="593.98032" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-31" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#d4ccea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="620.52864" y="114.05222" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-32" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="424.9776" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-33" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="451.52592" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-34" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="478.07424" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-35" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="567.432" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-36" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#f0d2ba;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="593.98032" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-37" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=#bbdde0;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="620.52864" y="139.74806" width="22.98696" height="17.53363" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-38" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#187c80;fillColor=#187c80;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="272.8104" y="232.8577" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-39" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#187c80;fillColor=#187c80;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="350.5128" y="232.8577" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-40" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#187c80;fillColor=#187c80;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="428.2152" y="232.8577" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-41" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#187c80;fillColor=#187c80;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="272.8104" y="257.04202" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-42" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#8c969e;fillColor=#ffffff;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="350.5128" y="257.04202" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-43" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#187c80;fillColor=#187c80;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="428.2152" y="257.04202" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-44" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#8c969e;fillColor=#ffffff;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="272.8104" y="281.22634" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-45" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#8c969e;fillColor=#ffffff;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="350.5128" y="281.22634" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-46" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#8c969e;fillColor=#ffffff;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="428.2152" y="281.22634" width="32.376" height="18.74285" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-47" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#cbd1d5;fillColor=none;strokeWidth=0.8;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="17.04" y="190.83744" as="sourcePoint" />
+            <mxPoint x="664.56" y="190.83744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-48" value="A  Attribute-order interventions" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="0.52416" width="193.34" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-49" value="Catalog-wide intervention" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=13.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="31.42123" width="149.66" height="16.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-50" value="Raw C0" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="107.5584" y="56.93888" width="39.62" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-51" value="Permuted order" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="232.4328" y="56.93888" width="74.78" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-52" value="Target p" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="84.66987" width="37.22" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-53" value="A" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="95.44068" y="84.0032" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-54" value="B" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="122.349" y="84.0032" width="8.42" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-55" value="C" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="148.83732" y="84.0032" width="8.54" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-56" value="C" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="238.19508" y="84.0032" width="8.54" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-57" value="A" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="264.4434" y="84.0032" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-58" value="B" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="291.35172" y="84.0032" width="8.42" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-59" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.05605" y="97.1232" as="sourcePoint" />
+            <mxPoint x="217.9478" y="97.1232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-60" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213.1478" y="94.7232" as="sourcePoint" />
+            <mxPoint x="213.1478" y="99.5232" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="217.9478" y="97.1232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-61" value="Other u" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="110.36571" width="34.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-62" value="D" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="95.44068" y="109.69904" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-63" value="E" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="122.589" y="109.69904" width="7.94" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-64" value="F" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="149.55732" y="109.69904" width="7.1" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-65" value="F" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="238.91508" y="109.69904" width="7.1" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-66" value="D" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="264.4434" y="109.69904" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-67" value="E" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="291.59172" y="109.69904" width="7.94" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-68" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.05605" y="122.81904" as="sourcePoint" />
+            <mxPoint x="217.9478" y="122.81904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-69" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213.1478" y="120.41904" as="sourcePoint" />
+            <mxPoint x="213.1478" y="125.21904" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="217.9478" y="122.81904" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-70" value="Other v" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="136.06155" width="34.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-71" value="G" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="95.38068" y="135.39488" width="9.26" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-72" value="H" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="121.989" y="135.39488" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-73" value="J" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="150.51732" y="135.39488" width="5.18" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-74" value="J" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="239.87508" y="135.39488" width="5.18" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-75" value="G" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="264.3834" y="135.39488" width="9.26" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-76" value="H" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="290.99172" y="135.39488" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-77" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.05605" y="148.51488" as="sourcePoint" />
+            <mxPoint x="217.9478" y="148.51488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-78" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213.1478" y="146.11488" as="sourcePoint" />
+            <mxPoint x="213.1478" y="150.91488" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="217.9478" y="148.51488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-79" value="All products reordered" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="131.2752" y="159.72224" width="108.74" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-80" value="Target-only intervention" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=13.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="353.7504" y="31.42123" width="140.18" height="16.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-81" value="Raw C0" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="444.2688" y="56.93888" width="39.62" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-82" value="Permuted order" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="569.1432" y="56.93888" width="74.78" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-83" value="Target p" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="353.7504" y="84.66987" width="37.22" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-84" value="A" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="432.15108" y="84.0032" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-85" value="B" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="459.0594" y="84.0032" width="8.42" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-86" value="C" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="485.54772" y="84.0032" width="8.54" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-87" value="C" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="574.90548" y="84.0032" width="8.54" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-88" value="A" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="601.1538" y="84.0032" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-89" value="B" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="628.06212" y="84.0032" width="8.42" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-90" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="513.76645" y="97.1232" as="sourcePoint" />
+            <mxPoint x="554.6582" y="97.1232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-91" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#202832;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.8582" y="94.7232" as="sourcePoint" />
+            <mxPoint x="549.8582" y="99.5232" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="554.6582" y="97.1232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-92" value="Other u" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="353.7504" y="110.36571" width="34.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-93" value="D" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="432.15108" y="109.69904" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-94" value="E" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="459.2994" y="109.69904" width="7.94" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-95" value="F" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="486.26772" y="109.69904" width="7.1" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-96" value="D" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="574.60548" y="109.69904" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-97" value="E" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="601.7538" y="109.69904" width="7.94" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-98" value="F" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="628.72212" y="109.69904" width="7.1" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-99" value="=" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=13.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="531.276" y="109.32571" width="8.06" height="16.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-100" value="Other v" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="353.7504" y="136.06155" width="34.94" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-101" value="G" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="432.09108" y="135.39488" width="9.26" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-102" value="H" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="458.6994" y="135.39488" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-103" value="J" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="487.22772" y="135.39488" width="5.18" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-104" value="G" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="574.54548" y="135.39488" width="9.26" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-105" value="H" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="601.1538" y="135.39488" width="9.14" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-106" value="J" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="629.68212" y="135.39488" width="5.18" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-107" value="=" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=13.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="531.276" y="135.02155" width="8.06" height="16.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-108" value="Competitors: raw C0 (fixed)" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="453.9456" y="159.72224" width="136.82" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-109" value="B  Inclusion states" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="193.99872" width="109.58" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-110" value="Order 1" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="271.5384" y="202.71147" width="35.42" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-111" value="Order 2" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="349.1808" y="202.71147" width="35.54" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-112" value="Order 3" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="426.9432" y="202.71147" width="35.42" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-113" value="Persistent inclusion" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="229.10912" width="94.1" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-114" value="1" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="285.9984" y="229.10912" width="6.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-115" value="1" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="363.7008" y="229.10912" width="6.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-116" value="1" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="441.4032" y="229.10912" width="6.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-117" value="Cutoff crossing" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="253.29344" width="74.78" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-118" value="1" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="285.9984" y="253.29344" width="6.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-119" value="0" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="363.6408" y="253.29344" width="6.62" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-120" value="1" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="441.4032" y="253.29344" width="6.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-121" value="Persistent omission" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.04" y="277.47776" width="93.38" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-122" value="0" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="285.9384" y="277.47776" width="6.62" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-123" value="0" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="363.6408" y="277.47776" width="6.62" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-124" value="0" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="441.3432" y="277.47776" width="6.62" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-125" value="1: rank ≤ K" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="528.5808" y="244.94144" width="55.46" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure2_intervention_and_states-126" value="0: rank &gt; K" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="528.5808" y="261.64544" width="55.82" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
