@@ -1,0 +1,296 @@
+{
+  "status": "PASS",
+  "case_preselected_by_user": true,
+  "post_hoc_illustrative": true,
+  "dataset": "wands",
+  "query_id": 409,
+  "query": "teal chair",
+  "product_id": "24318",
+  "model": {
+    "key": "gte_modernbert",
+    "name": "Alibaba-NLP/gte-modernbert-base",
+    "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+    "architecture": "ModernBERT long-context retrieval encoder",
+    "max_tokens": 8192,
+    "native_pooling": "CLS"
+  },
+  "heldout": true,
+  "highest_relevance_label": "Exact",
+  "relabelled": false,
+  "attribute_entry_count": 104,
+  "unique_attribute_strings": 104,
+  "repeated_strings": {},
+  "all_seven_multisets_and_multiplicities_preserved": true,
+  "all_fixed_blocks_and_separators_preserved": true,
+  "tokenizer_model_max_length": 1000000000000000019884624838656,
+  "tokenizer_length_note": "The tokenizer value is the unset-length sentinel, not the operational cap. DenseEncoder._forward_native explicitly passes max_length=8192; pinned model max_position_embeddings is 8192.",
+  "pinned_model_max_position_embeddings": 8192,
+  "pinned_model_config_sha256": "8ba54dc3d35d7194f5178a4194b649f146753e02dabd22bdca5c5cbac15069ed",
+  "effective_native_token_limit": 8192,
+  "pinned_tokenizer_files": [
+    {
+      "name": "special_tokens_map.json",
+      "sha256": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049"
+    },
+    {
+      "name": "tokenizer.json",
+      "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "9654072f7c873161814043cf08cb5ed72f71d0b935abcd4e267935cb34352c21"
+    }
+  ],
+  "empty_product_prefix": true,
+  "tokens": [
+    {
+      "schedule": "C0",
+      "tokens_without_special": 1057,
+      "special_tokens": 2,
+      "tokens_including_special": 1059,
+      "encoder_limit": 8192,
+      "fully_retained": true
+    },
+    {
+      "schedule": "C1",
+      "tokens_without_special": 1057,
+      "special_tokens": 2,
+      "tokens_including_special": 1059,
+      "encoder_limit": 8192,
+      "fully_retained": true
+    },
+    {
+      "schedule": "C2s1",
+      "tokens_without_special": 1057,
+      "special_tokens": 2,
+      "tokens_including_special": 1059,
+      "encoder_limit": 8192,
+      "fully_retained": true
+    },
+    {
+      "schedule": "C2s2",
+      "tokens_without_special": 1057,
+      "special_tokens": 2,
+      "tokens_including_special": 1059,
+      "encoder_limit": 8192,
+      "fully_retained": true
+    },
+    {
+      "schedule": "C2s3",
+      "tokens_without_special": 1057,
+      "special_tokens": 2,
+      "tokens_including_special": 1059,
+      "encoder_limit": 8192,
+      "fully_retained": true
+    },
+    {
+      "schedule": "C2s4",
+      "tokens_without_special": 1057,
+      "special_tokens": 2,
+      "tokens_including_special": 1059,
+      "encoder_limit": 8192,
+      "fully_retained": true
+    },
+    {
+      "schedule": "C2s5",
+      "tokens_without_special": 1057,
+      "special_tokens": 2,
+      "tokens_including_special": 1059,
+      "encoder_limit": 8192,
+      "fully_retained": true
+    }
+  ],
+  "ranks": [
+    {
+      "schedule": "C0",
+      "reconstructed_target_only_rank": 11,
+      "saved_target_only_rank": 11,
+      "catalog_wide_rank_not_used": 11,
+      "alternative_score": 0.6974389553070068
+    },
+    {
+      "schedule": "C1",
+      "reconstructed_target_only_rank": 468,
+      "saved_target_only_rank": 468,
+      "catalog_wide_rank_not_used": 357,
+      "alternative_score": 0.6496999263763428
+    },
+    {
+      "schedule": "C2s1",
+      "reconstructed_target_only_rank": 123,
+      "saved_target_only_rank": 123,
+      "catalog_wide_rank_not_used": 135,
+      "alternative_score": 0.6690213084220886
+    },
+    {
+      "schedule": "C2s2",
+      "reconstructed_target_only_rank": 301,
+      "saved_target_only_rank": 301,
+      "catalog_wide_rank_not_used": 313,
+      "alternative_score": 0.6565348505973816
+    },
+    {
+      "schedule": "C2s3",
+      "reconstructed_target_only_rank": 677,
+      "saved_target_only_rank": 677,
+      "catalog_wide_rank_not_used": 685,
+      "alternative_score": 0.6431988477706909
+    },
+    {
+      "schedule": "C2s4",
+      "reconstructed_target_only_rank": 435,
+      "saved_target_only_rank": 435,
+      "catalog_wide_rank_not_used": 444,
+      "alternative_score": 0.6508045792579651
+    },
+    {
+      "schedule": "C2s5",
+      "reconstructed_target_only_rank": 939,
+      "saved_target_only_rank": 939,
+      "catalog_wide_rank_not_used": 956,
+      "alternative_score": 0.636094331741333
+    }
+  ],
+  "old_target_excluded": true,
+  "competitors_fixed_raw_C0": 42993,
+  "catalog_size_after_replacement": 42994,
+  "tie_rule": "Descending fp32 score, then original catalog index.",
+  "audit_method": "One query scored against saved C0 embeddings, old target explicitly excluded. Alternate target scores read from existing rank files. No encoding, training, or new schedules.",
+  "sources": [
+    {
+      "path": "phase2/config/phase2.json",
+      "bytes": 3436,
+      "sha256": "4bcbf5fbe0e98a5054e5bd3af4efaf70db6c02329d301f711ea03e729ebf30a8"
+    },
+    {
+      "path": "phase4/config/splits.json",
+      "bytes": 12760,
+      "sha256": "db3c3558265789191cac9e6132e216ddeb460ba62daa1cf64033a5fa05708e2c"
+    },
+    {
+      "path": "phase2/data/processed/wands_queries.csv",
+      "bytes": 20516,
+      "sha256": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a"
+    },
+    {
+      "path": "phase3/results/target_only_permutations/wands_gte_modernbert_pairs.parquet",
+      "bytes": 1186842,
+      "sha256": "29c4c27807f9d180926dc9492016351a508c7ccd12a799767e81309344529f17"
+    },
+    {
+      "path": "phase3/results/target_only_permutations/candidates.csv",
+      "bytes": 25858,
+      "sha256": "225d4969a8f75b3b8f90fa28e0c7c671895386ba1dad3196f34c9a6191b18c2b"
+    },
+    {
+      "path": "phase2/data/processed/wands_products.jsonl.gz",
+      "bytes": 18232389,
+      "sha256": "a3fb53329b9ecb9d0c774641a767e582a6fee1056620fc3c1be3f7c0b145ca67"
+    },
+    {
+      "path": "revision_evidence_20260917/data/all_seven_token_lengths.csv",
+      "bytes": 10773271,
+      "sha256": "d6d57df5c4e4c99c6478612a22c849ee4d37876dce70dfcf13c2eaf8a93a8306"
+    },
+    {
+      "path": "phase2/src/representations.py",
+      "bytes": 7316,
+      "sha256": "0751cdb3cabd54e3d7256b5dd0d6a3ebebaa2d826fda080b24ee31ed0a34e027"
+    },
+    {
+      "path": "phase2/src/encoding.py",
+      "bytes": 11997,
+      "sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa"
+    },
+    {
+      "path": "phase2/data/representations/wands/C0.jsonl.gz",
+      "bytes": 17559502,
+      "sha256": "92665fc543486eef7a83434ca7aa73c420fbf3dc9637703c55ff8ba26c8086d3"
+    },
+    {
+      "path": "phase2/data/representations/wands/C1.jsonl.gz",
+      "bytes": 17561571,
+      "sha256": "978f636be14b2224c63e742fc798a3fa6348c1f3ce35d6bfd9a739958cbf23a7"
+    },
+    {
+      "path": "phase2/data/representations/wands/C2s1.jsonl.gz",
+      "bytes": 18116697,
+      "sha256": "de12d50480cba3f16f670a72e8b79c24a481b798643a3ab5cd4df6b14866d834"
+    },
+    {
+      "path": "phase2/data/representations/wands/C2s2.jsonl.gz",
+      "bytes": 18116244,
+      "sha256": "33b83a8a0823841c307e399fd593aea6c7201f2743f5da3f9446863f0b904538"
+    },
+    {
+      "path": "phase2/data/representations/wands/C2s3.jsonl.gz",
+      "bytes": 18116391,
+      "sha256": "773ae4fd487926d33b6154f868bbfe8a08b7f8fee0f214202b97aaf32165ea4c"
+    },
+    {
+      "path": "phase2/data/representations/wands/C2s4.jsonl.gz",
+      "bytes": 18117585,
+      "sha256": "19220fe3fe8b0070ed36cf371277ac22aafe57242046ec5f673795f9574d965d"
+    },
+    {
+      "path": "phase2/data/representations/wands/C2s5.jsonl.gz",
+      "bytes": 18117404,
+      "sha256": "94b8efc84dea68d02b04f36c78e051ef3116ab0980db59807cd43e8ed056d89f"
+    },
+    {
+      "path": "phase3/results/target_only_permutations/provenance.json",
+      "bytes": 2384,
+      "sha256": "54322e3315fdf461cea5534f4ea476c04ad5007745beefbe961fb3f744a00368"
+    },
+    {
+      "path": "phase2/results/embeddings/wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.npy",
+      "bytes": 1474688,
+      "sha256": "6590f3c403b7ebabf6394cf3b7fc7b24c0493d1b72255366ed5c6368ac974a29"
+    },
+    {
+      "path": "phase2/results/embeddings/wands_gte_modernbert_native_C0_3e1a424d692784631506.npy",
+      "bytes": 132077696,
+      "sha256": "ecfa08d1f7001451a5b50bc5c6ccd3e32563dea5f5dd6903bac62722a7319813"
+    },
+    {
+      "path": "phase3/scripts/analyze_target_only_permutations.py",
+      "bytes": 4695,
+      "sha256": "2a745f53ff646fea6cc068a3221c177658948b5c99fb7271254ac42558acd482"
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C0.parquet",
+      "bytes": 2774507,
+      "sha256": "44cb8ee8e9bbae7a88b4b956c8d632939eeab9655876e72e86dae5a8f1d0c06a"
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C1.parquet",
+      "bytes": 2774660,
+      "sha256": "2d1ff7f2346c86c5e414418980bd0e016aeaec373d6a1662b8e1f522e5be3a91"
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s1.parquet",
+      "bytes": 2775435,
+      "sha256": "76ba8c41c56fc4b4919c703f8f0eaea6d3f11255cc524c23cb3e94f1811d88fa"
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s2.parquet",
+      "bytes": 2774962,
+      "sha256": "a1ecf239f234930a2ab37bb1d1a1c2953b42be8f3e49d9a4bb3c33f26c1fb890"
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s3.parquet",
+      "bytes": 2774735,
+      "sha256": "4bfdc761c5bd9ea9706f4efd8153b7784fc432d03fb480de058967910fcebe14"
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s4.parquet",
+      "bytes": 2774846,
+      "sha256": "a0c2d49184720402dc6c362ef7eb56e12f785eb18aec523b56ce45d1de7024b1"
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s5.parquet",
+      "bytes": 2775831,
+      "sha256": "85d62ee0b7402b166a2b52c0ecfca5dfd216a6b13417c25289c770d4b2d1db38"
+    }
+  ]
+}

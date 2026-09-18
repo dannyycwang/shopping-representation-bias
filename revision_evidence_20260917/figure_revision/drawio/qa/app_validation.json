@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "actual_renderer": "Official draw.io GraphViewer from viewer.diagrams.net",
+  "roundtrip": "Decoded and re-encoded by the draw.io graph model, then compared semantically.",
+  "rendering_scale": 1.5625,
+  "proof_dpi": 150,
+  "proofs_crop_outer_whitespace": true,
+  "native_objects": 1297,
+  "original_manifest_files_unchanged": 57,
+  "figures": [
+    {
+      "name": "figure2_intervention_and_states",
+      "native_objects": 125,
+      "editable_labels": 71,
+      "text_styles_and_geometry_roundtrip_identical": true,
+      "combined_page_identical": true,
+      "diagram_sha256": "0a20b319833fd5934372b77f5e1af387f1d8467f819c2a5bb21db6bdebe3b1e0",
+      "proof_png_sha256": "79901ef7150e09b851f363f7842e9a8547141beca37fdeb93a408f50caf0b382"
+    },
+    {
+      "name": "rq1_vi_top20_main",
+      "native_objects": 119,
+      "editable_labels": 49,
+      "text_styles_and_geometry_roundtrip_identical": true,
+      "combined_page_identical": true,
+      "diagram_sha256": "5f03e0505ca86d3563a848691a8b11e822d4d73c6ebb6b732daf6b512c56204d",
+      "proof_png_sha256": "ff96564671a5fd0b6d8fc24ef01867fa30435af874b96e42c72a8f6ec1ff2500"
+    },
+    {
+      "name": "rq1_states_top20_top100_appendix",
+      "native_objects": 238,
+      "editable_labels": 143,
+      "text_styles_and_geometry_roundtrip_identical": true,
+      "combined_page_identical": true,
+      "diagram_sha256": "0a551266785996b3ef5e2b25816e9c2a32e7f85631b0a8c95f2b432a8607acef",
+      "proof_png_sha256": "6bde0a3956595606f1a2cd6a3377f19243cae80e174764322eadc2a294b71c98"
+    },
+    {
+      "name": "rq2_membership_top20_main",
+      "native_objects": 375,
+      "editable_labels": 77,
+      "text_styles_and_geometry_roundtrip_identical": true,
+      "combined_page_identical": true,
+      "diagram_sha256": "ea91a8cdbbbf2b92a7a97aa9736ada3fd171d6556809fba8b741508f3f5e395c",
+      "proof_png_sha256": "599d775cbf38cb33b10e5ca3715a7c6e8851a0640fae8c51ebceb5f7018afb25"
+    },
+    {
+      "name": "rq2_membership_top100_appendix",
+      "native_objects": 375,
+      "editable_labels": 77,
+      "text_styles_and_geometry_roundtrip_identical": true,
+      "combined_page_identical": true,
+      "diagram_sha256": "7136db1097f236d3e8b7fb76cf6329c271950356a3d5914b3a6f4acc93016726",
+      "proof_png_sha256": "243d96a563327127a1174e27ad5733a482b298afa8bde24307765c1af3d28a81"
+    },
+    {
+      "name": "rq2_cancellation_top20_table",
+      "native_objects": 33,
+      "editable_labels": 30,
+      "text_styles_and_geometry_roundtrip_identical": true,
+      "combined_page_identical": true,
+      "diagram_sha256": "051d203d905d7a24e1ac1e79c520a043739153441981ae2a625b8105514dd2f3",
+      "proof_png_sha256": "884ff9983f2f59e733781303293cbb304d92ea381968220004ff4e73f5f85e98"
+    },
+    {
+      "name": "figure1_teal_chair_candidate",
+      "native_objects": 32,
+      "editable_labels": 22,
+      "text_styles_and_geometry_roundtrip_identical": true,
+      "combined_page_identical": true,
+      "diagram_sha256": "3ef6df619bac58fd514648879d203cd10f48ace24d52bd8ba4881534cdf8f890",
+      "proof_png_sha256": "3b287773691d24821c34a9fd92d3c1b123f975c82a5a18d21dfc9c282657825d"
+    }
+  ]
+}

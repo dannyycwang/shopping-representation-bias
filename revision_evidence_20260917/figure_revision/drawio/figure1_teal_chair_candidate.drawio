@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="29.0.0" compressed="false">
+  <diagram id="figure1_teal_chair_candidate" name="Figure 1 candidate">
+    <mxGraphModel dx="0" dy="0" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="331.2" pageHeight="374.4" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="figure1_teal_chair_candidate-2" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#c5ccd1;fillColor=#f8f9fa;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="11.592" y="59.1552" width="144.76752" height="231.192" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-3" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#d8e9ea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.75232" y="145.58544" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-4" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#f2dfc9;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.75232" y="182.57616" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-5" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#e1d9ed;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.75232" y="219.56688" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-6" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#dce4ef;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17.75232" y="256.5576" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-7" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#c5ccd1;fillColor=#f8f9fa;strokeWidth=0.8;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="174.84048" y="59.1552" width="144.76752" height="231.192" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-8" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#e1d9ed;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="181.0008" y="145.58544" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-9" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#d8e9ea;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="181.0008" y="182.57616" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-10" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#dce4ef;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="181.0008" y="219.56688" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-11" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=#ffffff;fillColor=#f2dfc9;strokeWidth=0.66667;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="181.0008" y="256.5576" width="132.44688" height="34.50096" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-12" value="Query: &quot;teal chair&quot;" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14.66667;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="103.8" y="1.36373" width="124.1" height="18.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-13" value="Same product  |  GTE  |  Exact relevance" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="68.04" y="25.3712" width="195.62" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-14" value="C0" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=13.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="75.87576" y="59.60587" width="16.7" height="16.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-15" value="Rank 11" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=16;fontStyle=1;fontColor=#187c80;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="55.89576" y="83.6152" width="56.66" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-16" value="Inside Top-20" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#187c80;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="50.73576" y="108.956" width="66.98" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-17" value="seatheight-floortoseat:19.5" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="27.57576" y="150.51573" width="113.3" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-18" value="estimatedtimetosetup:20" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="32.49576" y="187.50645" width="103.46" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-19" value="design : armchair" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="47.37576" y="224.49717" width="73.7" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-20" value="upholsterycolor : teal" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="39.03576" y="256.38069" width="90.38" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-21" value="faux leather" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="58.89576" y="266.59509" width="50.66" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-22" value="C2s5" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=13.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="233.18424" y="59.60587" width="28.58" height="16.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-23" value="Rank 939" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=16;fontStyle=1;fontColor=#b24c36;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="214.58424" y="83.6152" width="65.78" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-24" value="Outside Top-20" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=12;fontStyle=0;fontColor=#b24c36;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="209.84424" y="108.956" width="75.26" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-25" value="design : armchair" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="210.62424" y="150.51573" width="73.7" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-26" value="seatheight-floortoseat:19.5" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="190.82424" y="187.50645" width="113.3" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-27" value="upholsterycolor : teal" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="202.28424" y="219.38997" width="90.38" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-28" value="faux leather" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="222.14424" y="229.60437" width="50.66" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-29" value="estimatedtimetosetup:20" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="195.74424" y="261.48789" width="103.46" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-30" value="Display excerpt: 4 of 104 attribute entries." style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="69.48" y="291.01947" width="192.74" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-31" value="Full input retained: 1,059 / 8,192 tokens." style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=1;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="68.1" y="309.87051" width="195.5" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-32" value="Complete record encoded in both conditions." style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=11.33333;fontStyle=0;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="63.48" y="328.72155" width="204.74" height="14.16667" as="geometry" />
+        </mxCell>
+        <mxCell id="figure1_teal_chair_candidate-33" value="Post-hoc illustrative case" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.66667;fontStyle=2;fontColor=#202832;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="110.82" y="347.52789" width="110.06" height="13.33333" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

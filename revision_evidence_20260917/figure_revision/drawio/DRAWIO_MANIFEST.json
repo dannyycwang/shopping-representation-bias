@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 64,
+      "sha256": "d80f79efc21ce1acb3ba5da18ba2ad73b9582963f5f50eafcf5674be61e49cdd"
+    },
+    {
+      "path": "all_seven_figures.drawio",
+      "bytes": 573381,
+      "sha256": "e6522782d4b898b124eb9bf283aff1acb8fb1b91c4dac45a0e286f8d06128731"
+    },
+    {
+      "path": "build_drawio.py",
+      "bytes": 11165,
+      "sha256": "4b178cd95754c5b083b5186cc9d815d4d8a636c37481a819a0866af30773f9d7"
+    },
+    {
+      "path": "figure1_teal_chair_candidate.drawio",
+      "bytes": 14926,
+      "sha256": "3ef6df619bac58fd514648879d203cd10f48ace24d52bd8ba4881534cdf8f890"
+    },
+    {
+      "path": "figure2_intervention_and_states.drawio",
+      "bytes": 54761,
+      "sha256": "0a20b319833fd5934372b77f5e1af387f1d8467f819c2a5bb21db6bdebe3b1e0"
+    },
+    {
+      "path": "finalize_drawio.py",
+      "bytes": 4395,
+      "sha256": "479097e758e67044e95a5d454a0ef2aaec0cefed477bfad0a1428bc60afe91d9"
+    },
+    {
+      "path": "qa/app_validation.json",
+      "bytes": 3251,
+      "sha256": "f54193fffbfd9dea2a8892236f72dfd26e0aaa21f98497f166818d69c9073dfb"
+    },
+    {
+      "path": "qa/build_validation.json",
+      "bytes": 12363,
+      "sha256": "00b35df67f3bd06ac22590ed1fb939eeddbc028851a0d0fd36774c13ae407204"
+    },
+    {
+      "path": "qa/VISUAL_QA.md",
+      "bytes": 1897,
+      "sha256": "920dc59c95057bb24d4606f14e5b572a5391824f3739a9ba515acb8ea6c55c54"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3840,
+      "sha256": "088fd730d20981c5000a1d63d119f710290d1bec7118bd2eeaeb1c0509fef7f6"
+    },
+    {
+      "path": "rq1_states_top20_top100_appendix.drawio",
+      "bytes": 105285,
+      "sha256": "0a551266785996b3ef5e2b25816e9c2a32e7f85631b0a8c95f2b432a8607acef"
+    },
+    {
+      "path": "rq1_vi_top20_main.drawio",
+      "bytes": 54122,
+      "sha256": "5f03e0505ca86d3563a848691a8b11e822d4d73c6ebb6b732daf6b512c56204d"
+    },
+    {
+      "path": "rq2_cancellation_top20_table.drawio",
+      "bytes": 16523,
+      "sha256": "051d203d905d7a24e1ac1e79c520a043739153441981ae2a625b8105514dd2f3"
+    },
+    {
+      "path": "rq2_membership_top100_appendix.drawio",
+      "bytes": 165225,
+      "sha256": "7136db1097f236d3e8b7fb76cf6329c271950356a3d5914b3a6f4acc93016726"
+    },
+    {
+      "path": "rq2_membership_top20_main.drawio",
+      "bytes": 163337,
+      "sha256": "ea91a8cdbbbf2b92a7a97aa9736ada3fd171d6556809fba8b741508f3f5e395c"
+    },
+    {
+      "path": "validate_in_app.py",
+      "bytes": 7964,
+      "sha256": "4019d2af04c96d8d59924f27926ea3fad1380c4d56406dee75e964a55d166c5f"
+    }
+  ]
+}

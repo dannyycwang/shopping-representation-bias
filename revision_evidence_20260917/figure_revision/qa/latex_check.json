@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "two_pass_exit_codes": [
+    0,
+    0
+  ],
+  "overfull_or_missing_glyph_warnings": [],
+  "text_width_inches": 7.1,
+  "column_width_inches": 3.45,
+  "sources": {
+    "LATEX_INSERTIONS.tex": "aa9ab7228878c2a4a674018c46bdf23f9cfef37210cb1a6b484d0937ec6dfc70",
+    "CANCELLATION_MAIN_TABLE.tex": "154b0bebb84c93cf44ed2e58a913297533ad130dae78deab8c0cad24fc072d59",
+    "CANCELLATION_APPENDIX.tex": "3739dc6566e50706d1dc5b783725f7a626bdd27642f2626a28efa639fdda249e",
+    "SETUP_SNIPPET.tex": "98367947480a2daa7bda889e557d72c986f5107f2f543062fc1dd92690753e80"
+  },
+  "scope": "Isolated article proof of LaTeX syntax, dimensions, and table fit; manuscript not compiled or edited."
+}
