@@ -1,0 +1,59 @@
+% Optional replacement material for the reproducibility appendix.
+% Integrate into the existing appendix; do not add a second \appendix command.
+\section{Additional Evaluation Details}
+\label{app:evaluation_details}
+
+\input{tables/canonical_top20_intervals.tex}
+
+Lexical canonicalization sorts each complete attribute entry by the tuple
+$(\texttt{entry.casefold()},\texttt{entry})$, ascending or descending as specified.
+The type/style rule extracts the text before the first colon and lowercases it;
+without a colon, it uses the first 40 characters instead. Entries whose extracted
+text contains \texttt{producttype}, \texttt{type}, or \texttt{style} are placed first.
+Each group uses ascending lexical order with the same tuple. Duplicate occurrences
+remain. Unkeyed entries receive no invented field names. Historical template-based
+canonicalization changes text framing and is excluded from the pure-sorting comparisons.
+
+For each shuffle seed and product identifier, the first eight bytes of
+SHA256 applied to \texttt{seed:product\_id}, interpreted as a big-endian integer,
+seed Python's random shuffle. Raw schedules start from source order; full-record
+aggregation starts from the canonical ascending list and uses its separate seed
+sequence. We retain repeated views, use the requested $M$ with equal weight, and
+record distinct texts and vectors separately. In ESCI, the complete bullet-point
+field is a single entry; with brand and color, the maximum number of distinct
+entry permutations is six.
+
+MiniLM, BGE, and GTE use pinned revision prefixes
+\texttt{1110a243fdf4}, \texttt{a5beb1e3e68b}, and \texttt{e7f32e3c00f9},
+respectively. Full repository identifiers and revisions are in the frozen protocol.
+CUDA encoding uses FP16 model weights and FP32 pooling and normalization.
+Historical query embeddings and authoritative saved ranks are reused.
+Independent floating-point encoder executions are not assumed bitwise identical.
+
+Fitting eligibility uses untruncated token counts including special tokens for
+every one of the seven inputs. Table~\ref{tab:fitting_support} gives the restricted
+supports. Retrieval keeps the complete original catalog. The illustrative
+WANDS query \emph{teal chair}, product 24318, has ranks 11 and 939 under C0 and C2s5
+with 42,993 competitors fixed. Its seven inputs each contain 1,059 tokens under
+GTE's 8,192-token limit. This post-hoc example does not estimate typical rank displacement.
+
+\input{tables/fitting_support.tex}
+\input{tables/cancellation_top20.tex}
+
+The historical WANDS split orders query identifiers by SHA256 of
+\texttt{phase3-dev:query\_id}, retaining 96 development and 384 held-out identifiers.
+ESCI selects 500 query identifiers by SHA256 of \texttt{20260904:query\_id} from
+the US small-version test split. Highest-label-free queries are excluded from
+Recall and inclusion summaries. The historical development-selected appearance
+rule is distinct from the fixed type/style rule reported here. BGE's $M=4,7$
+results retain their existing fixed-budget comparison role; a held-out maximum
+is not presented as a tuned deployment choice.
+
+The new order and canonicalization intervals use seed 2026091701. Historical
+BGE view-budget intervals, when retained in supplementary tables, used seed
+20260907; they must be identified separately or recomputed with the common
+paired-query protocol. Existing cost measurements use an Intel i7-13700H CPU
+and RTX 4060 Laptop GPU with 8 GB memory. Exact CPU scoring uses four threads,
+the first 50 queries, one warm-up, and five measured repetitions. Reported array
+storage excludes vocabulary, metadata, and approximate-search overhead.
+Cached encoding time is not treated as a matched cold-build benchmark.

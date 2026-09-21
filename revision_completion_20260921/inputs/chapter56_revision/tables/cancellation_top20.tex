@@ -1,0 +1,24 @@
+\begin{table}[!t]
+\centering
+\caption{Exact within-query cancellation across six attribute-order comparisons at Top-20.}
+\label{tab:revision-cancellation}
+\small
+\begin{tabular}{llrr}
+\toprule
+Dataset & Encoder & Eligible $q$ & Queries (\%) \\
+\midrule
+WANDS & MiniLM & 308 & 16.88--21.75 \\
+WANDS & BGE & 308 & 21.75--25.32 \\
+WANDS & GTE & 308 & 19.81--26.30 \\
+\midrule
+ESCI & MiniLM & 499 & 1.40--2.81 \\
+ESCI & BGE & 499 & 2.40--3.21 \\
+ESCI & GTE & 499 & 3.01--4.21 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\columnwidth}\small
+Newly included = newly omitted $>0$. Six-comparison min--max ranges, not confidence intervals; denominators include all eligible queries. Counts are not summed across comparisons.
+\end{minipage}
+\end{table}
+

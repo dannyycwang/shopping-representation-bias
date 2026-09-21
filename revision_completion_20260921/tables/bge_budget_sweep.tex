@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{BGE fixed view-budget sweep. Each method has structural VI=0.}
+\label{tab:bge_budget}
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Method & $M$ & R@20 & R@100 & $\Delta$R@100 vs C0 [95\% CI] \\
+\midrule
+WANDS & centroid & 2 & 36.40 & 63.96 & +0.78 [-0.09, +1.83] \\
+WANDS & max & 2 & 36.39 & 64.00 & +0.83 [+0.03, +1.84] \\
+WANDS & centroid & 4 & 36.44 & 64.39 & +1.22 [+0.34, +2.30] \\
+WANDS & max & 4 & 36.51 & 63.86 & +0.69 [-0.29, +1.84] \\
+WANDS & centroid & 7 & 36.35 & 64.16 & +0.99 [+0.02, +2.11] \\
+WANDS & max & 7 & 36.46 & 64.15 & +0.98 [-0.11, +2.22] \\
+ESCI & centroid & 2 & 73.86 & 91.07 & +0.09 [-0.08, +0.25] \\
+ESCI & max & 2 & 73.93 & 91.09 & +0.11 [-0.07, +0.28] \\
+ESCI & centroid & 4 & 73.86 & 91.01 & +0.04 [-0.12, +0.19] \\
+ESCI & max & 4 & 73.98 & 91.05 & +0.07 [-0.11, +0.25] \\
+ESCI & centroid & 7 & 73.70 & 91.01 & +0.04 [-0.12, +0.18] \\
+ESCI & max & 7 & 73.97 & 91.05 & +0.07 [-0.11, +0.25] \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\small M=2 remains the common setting. M=4 and M=7 do not replace it. All intervals are recomputed using seed 2026091701. Centroid stores one vector per product; max stores M, retaining repeated views.\end{minipage}
+\end{table*}

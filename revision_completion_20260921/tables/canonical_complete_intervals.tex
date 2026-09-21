@@ -1,0 +1,66 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Complete pure-canonical results at $K=20$. Recall and shares are percentages; differences are percentage points.}
+\label{tab:canonical_intervals20}
+\begin{tabular}{llrrrr}
+\toprule
+Dataset / encoder & Rule & Recall & $\Delta$ C0 [95\% CI] & $\Delta$ raw mean [95\% CI] & Gain / loss \\
+\midrule
+WANDS / MiniLM & Ascending & 28.72 & -2.09 [-4.03, -0.22] & -0.75 [-2.05, +0.48] & 3.72 / 5.80 \\
+WANDS / MiniLM & Descending & 29.56 & -1.25 [-2.69, +0.06] & +0.09 [-1.12, +1.30] & 3.45 / 4.70 \\
+WANDS / MiniLM & Type/style & 29.22 & -1.59 [-3.49, +0.22] & -0.25 [-1.68, +1.09] & 3.81 / 5.40 \\
+WANDS / BGE & Ascending & 36.07 & -0.03 [-0.53, +0.45] & +0.03 [-0.46, +0.53] & 2.10 / 2.13 \\
+WANDS / BGE & Descending & 36.28 & +0.17 [-0.72, +1.16] & +0.24 [-0.50, +1.09] & 2.43 / 2.26 \\
+WANDS / BGE & Type/style & 36.48 & +0.38 [-0.08, +0.89] & +0.45 [+0.00, +0.93] & 2.37 / 1.99 \\
+WANDS / GTE & Ascending & 35.75 & -0.16 [-1.08, +0.87] & +0.14 [-0.47, +0.84] & 3.18 / 3.34 \\
+WANDS / GTE & Descending & 35.00 & -0.90 [-1.70, -0.15] & -0.60 [-1.20, -0.02] & 2.63 / 3.53 \\
+WANDS / GTE & Type/style & 35.98 & +0.08 [-0.56, +0.68] & +0.38 [-0.18, +0.92] & 2.84 / 2.76 \\
+ESCI / MiniLM & Ascending & 67.50 & -0.46 [-0.98, +0.05] & -0.08 [-0.49, +0.34] & 0.52 / 0.98 \\
+ESCI / MiniLM & Descending & 67.52 & -0.43 [-1.13, +0.30] & -0.06 [-0.42, +0.32] & 0.86 / 1.29 \\
+ESCI / MiniLM & Type/style & 67.48 & -0.47 [-1.00, +0.03] & -0.10 [-0.51, +0.33] & 0.53 / 1.00 \\
+ESCI / BGE & Ascending & 73.84 & -0.26 [-0.65, +0.09] & +0.01 [-0.30, +0.33] & 0.54 / 0.80 \\
+ESCI / BGE & Descending & 73.60 & -0.51 [-0.95, -0.12] & -0.23 [-0.59, +0.09] & 0.54 / 1.05 \\
+ESCI / BGE & Type/style & 73.82 & -0.29 [-0.68, +0.08] & -0.01 [-0.32, +0.30] & 0.53 / 0.82 \\
+ESCI / GTE & Ascending & 71.61 & -0.84 [-1.70, -0.03] & -0.21 [-0.79, +0.38] & 1.12 / 1.96 \\
+ESCI / GTE & Descending & 71.64 & -0.80 [-1.60, -0.06] & -0.17 [-0.74, +0.37] & 1.06 / 1.87 \\
+ESCI / GTE & Type/style & 71.68 & -0.77 [-1.62, +0.04] & -0.13 [-0.71, +0.44] & 1.19 / 1.96 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\small Query-macro estimates, 10,000 paired query-cluster draws, seed 2026091701. Intervals are descriptive and uncorrected; zero in an interval is not equivalence. Gains/losses compare each actual canonical list to raw C0; no membership list is assigned to the raw seven-order mean.\end{minipage}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Complete pure-canonical results at $K=100$. Recall and shares are percentages; differences are percentage points.}
+\label{tab:canonical_intervals100}
+\begin{tabular}{llrrrr}
+\toprule
+Dataset / encoder & Rule & Recall & $\Delta$ C0 [95\% CI] & $\Delta$ raw mean [95\% CI] & Gain / loss \\
+\midrule
+WANDS / MiniLM & Ascending & 56.05 & -1.83 [-3.17, -0.64] & -0.56 [-1.52, +0.31] & 3.52 / 5.35 \\
+WANDS / MiniLM & Descending & 56.16 & -1.72 [-2.97, -0.58] & -0.45 [-1.36, +0.43] & 3.93 / 5.65 \\
+WANDS / MiniLM & Type/style & 57.19 & -0.70 [-2.12, +0.68] & +0.57 [-0.59, +1.77] & 4.24 / 4.94 \\
+WANDS / BGE & Ascending & 63.24 & +0.07 [-1.47, +1.65] & -0.38 [-1.40, +0.56] & 3.20 / 3.13 \\
+WANDS / BGE & Descending & 63.61 & +0.44 [-0.39, +1.47] & -0.01 [-0.61, +0.58] & 2.63 / 2.19 \\
+WANDS / BGE & Type/style & 63.56 & +0.39 [-0.97, +1.86] & -0.06 [-1.00, +0.88] & 3.26 / 2.86 \\
+WANDS / GTE & Ascending & 62.63 & -0.22 [-1.27, +0.76] & +0.06 [-0.44, +0.61] & 2.83 / 3.05 \\
+WANDS / GTE & Descending & 61.89 & -0.96 [-2.29, +0.23] & -0.68 [-1.67, +0.16] & 2.82 / 3.78 \\
+WANDS / GTE & Type/style & 62.63 & -0.22 [-1.20, +0.63] & +0.07 [-0.44, +0.56] & 2.71 / 2.93 \\
+ESCI / MiniLM & Ascending & 86.41 & +0.28 [-0.05, +0.76] & +0.22 [+0.00, +0.47] & 0.38 / 0.11 \\
+ESCI / MiniLM & Descending & 86.38 & +0.25 [-0.22, +0.81] & +0.19 [-0.04, +0.46] & 0.57 / 0.33 \\
+ESCI / MiniLM & Type/style & 86.36 & +0.22 [-0.09, +0.70] & +0.16 [-0.05, +0.40] & 0.36 / 0.14 \\
+ESCI / BGE & Ascending & 91.05 & +0.07 [-0.04, +0.18] & +0.00 [-0.10, +0.11] & 0.18 / 0.11 \\
+ESCI / BGE & Descending & 91.01 & +0.04 [-0.13, +0.19] & -0.03 [-0.13, +0.08] & 0.18 / 0.15 \\
+ESCI / BGE & Type/style & 91.09 & +0.11 [-0.01, +0.23] & +0.04 [-0.05, +0.15] & 0.22 / 0.11 \\
+ESCI / GTE & Ascending & 88.80 & -0.32 [-0.62, -0.06] & +0.03 [-0.34, +0.44] & 0.16 / 0.48 \\
+ESCI / GTE & Descending & 88.71 & -0.42 [-1.18, +0.27] & -0.06 [-0.47, +0.33] & 0.41 / 0.83 \\
+ESCI / GTE & Type/style & 88.83 & -0.30 [-0.60, -0.04] & +0.06 [-0.31, +0.47] & 0.19 / 0.48 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\small Query-macro estimates, 10,000 paired query-cluster draws, seed 2026091701. Intervals are descriptive and uncorrected; zero in an interval is not equivalence. Gains/losses compare each actual canonical list to raw C0; no membership list is assigned to the raw seven-order mean.\end{minipage}
+\end{table*}
+

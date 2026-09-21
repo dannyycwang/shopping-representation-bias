@@ -1,0 +1,13 @@
+{
+  "encoding_performed": false,
+  "canonical_rerun": false,
+  "raw_rank_policy": "historical raw ranks remain authoritative; reconstructed raw saved separately for matched fusion comparison",
+  "membership_compatible": true,
+  "runtime": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "threads": 4
+  }
+}

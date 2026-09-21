@@ -1,0 +1,15 @@
+dataset,method,products,incoming_schedules,all_inputs_identical,fingerprint,basis
+wands,lexical_ascending,42994,7,True,4bf95e2794bb7bde612200df12f96883fd56c3e725a400c51fcdc320dfb9e661,"complete entries, stable intrinsic key; multiplicities retained"
+wands,lexical_descending,42994,7,True,80567d2038a2f1df748106990a9e9c055e71d5287a304d1ab2e441e525723ca9,"complete entries, stable intrinsic key; multiplicities retained"
+wands,field_priority_type,42994,7,True,f2806629c3298987ce173150b322dff1940506fd3d65ac269f0cdf819d20c95e,"complete entries, stable intrinsic key; multiplicities retained"
+wands,set_mean,42994,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed
+wands,centroid,42994,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed
+wands,max,42994,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed
+wands,BM25,42994,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed
+esci,lexical_ascending,10076,7,True,614a6b9f0a3b5ab814432a7372096c256324a5ac7749fd33fe42e34798be80f5,"complete entries, stable intrinsic key; multiplicities retained"
+esci,lexical_descending,10076,7,True,14f5e02904a291018955aa316ff8de88f863c34c37c1786ae31154aab8c38b45,"complete entries, stable intrinsic key; multiplicities retained"
+esci,field_priority_type,10076,7,True,edbae22fc4b5990f8aa48a803e50e2e57d88d41bc5992a5cb015d8985ba775a4,"complete entries, stable intrinsic key; multiplicities retained"
+esci,set_mean,10076,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed
+esci,centroid,10076,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed
+esci,max,10076,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed
+esci,BM25,10076,7,True,,identical attribute multiset/canonical base verified for all incoming schedules; deterministic fixed index reused; BM25 source text fixed

@@ -1,0 +1,13 @@
+# Visual verification
+
+The final PDFs were rendered with Poppler and inspected, not just checked by text extraction. The seven scientific figures use vector paths and embedded fonts; all plot text is at least 8.5 pt at 7.1 inches and remains above 8 pt at the ACM proof width. No embedded raster image appears in any scientific figure PDF.
+
+- Fig. 3: reused byte-for-byte. Target-only scope, full/fitting symbols, all query/pair counts, intervals and differing dataset axes are visible. GTE's coincident supports remain explicit.
+- Fig. 4 / Top-20 and Top-100: all six panels and six C0 contrasts remain. Newly omitted extends left, newly included right. Diamonds and intervals are net Recall. Plot CSVs are byte-identical to the historical inputs. No numeric or scale change was made.
+- Catalog-wide and target-only cutoff appendices: separate figures and explicit intervention headings; full/fitting line styles remain distinct; persistent inclusion and VI are distinguished by color. The initial heading/legend collision was corrected and final PDF renders have clear separation.
+- Severity appendix: K20/K100 and both datasets are readable, with full/fitting markers, both severity thresholds and query-cluster intervals. Zero-valued markers are fully visible after adding space below zero; this does not alter the data. Panel-specific vertical ranges are disclosed.
+- Worst-rank ECDF appendix: logarithmic rank axes and conditional query weighting are explicit. K20/K100 curves and long tails are readable; no out-of-page tick text remains. Full-support curves are shown; fitting and rank-range data are retained in CSV.
+
+All eight pages of the real acmart two-column chapter/selected-appendix proof and all five pages of the separate artifact-table proof were inspected. Tables, captions, inline effects and intervals, model identifiers, and both cancellation denominators are readable. Final compilation has no overfull boxes, oversized floats, missing glyphs or unresolved references/citations. Explicit break opportunities in identifiers and dataset/encoder names, plus the proof's 3em emergency stretch, prevent line overflow without reducing the fonts.
+
+The isolated ACM proof has Chapters 5/6 and their deferred main floats on pages 1--4, selected appendix material on pages 5--7, and two real bibliography entries on page 8. Its deliberate proof boundaries leave whitespace and deferred floats. They are not proposed full-paper placements, and this is not a page-limit certification. Complete LaTeX matching PDF (6) remains necessary to place floats and check the eight-page main / twelve-page total limits.

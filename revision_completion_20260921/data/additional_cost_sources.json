@@ -1,0 +1,340 @@
+{
+  "files": [
+    {
+      "path": "phase2/results/embeddings/esci_bge_base_native_C0_1de2078d8697e6366c49.json",
+      "sha256": "2fefa63e413b0483cb6802e7142093a5b506d2107ceb59e7705a4ea605d65866"
+    },
+    {
+      "path": "phase2/results/embeddings/esci_bge_base_native_C0_1de2078d8697e6366c49.npy",
+      "sha256": "7f0c777329708a6eaa54693c6ea0f5c8337d182ac8aabb9f425c41d5ea326f14"
+    },
+    {
+      "path": "phase2/results/embeddings/esci_minilm_native_C0_688a66533b0c9836f4e7.json",
+      "sha256": "91820b770b1deb15b00c90e16f5c9058f5178de7d60eaf26e6aec9ee788a007d"
+    },
+    {
+      "path": "phase2/results/embeddings/esci_minilm_native_C0_688a66533b0c9836f4e7.npy",
+      "sha256": "17fb730db8097d2c342ead39397e3d17f136670d60b95c10511e940440acd2cd"
+    },
+    {
+      "path": "phase2/results/embeddings/wands_bge_base_native_C0_3a16535a80738388b384.json",
+      "sha256": "ed3514d9ec829fdc029fa71d123f2f58632fc818d61a3b6a45faf7c3d9a21f45"
+    },
+    {
+      "path": "phase2/results/embeddings/wands_bge_base_native_C0_3a16535a80738388b384.npy",
+      "sha256": "0b13f8ec61b41bbccaa99de64775a40753354ff165a433453803e38a36928f37"
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_C0_6ffb5b340d35d66f2b33.json",
+      "sha256": "2cc614a7caddfe341e850d5359aa2055a46f3090e4747c9751a4bff3ceb22658"
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+      "sha256": "9e64061eb6cc75b92fed46e385b32718632545379a980a9e10053849bbf3689c"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/esci_title_description_daaa4d539ffce579ad95.json",
+      "sha256": "8cc51615fd8d7153670223368341051c7cd35185d8455561ae0f65cf78e8f349"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/esci_title_description_daaa4d539ffce579ad95.npy",
+      "sha256": "72da3d7f9df96606742a79f22c7495b4af4dfd94f11b29e9526a78d15dbeec23"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/esci_unique_attributes_96cd42f4972bf4f214bc.json",
+      "sha256": "74ea3e4cf74f6c6e01a5ce23aae53c18b551f9d7e0a4a03ec9dc8943cf264d87"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/esci_unique_attributes_96cd42f4972bf4f214bc.npy",
+      "sha256": "3db3f85848118177b4f9c2fa98f967a49c6ccf63bccc3b02d61d42c945847ade"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/wands_title_description_fe78b7811d90909e8d1b.json",
+      "sha256": "11a73243cf7812b81d85ab7dbe8df9e9f958c2cf7d11e8fcd56bc609a5aaea78"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/wands_title_description_fe78b7811d90909e8d1b.npy",
+      "sha256": "0df0a6f055e706fe0f2a118a88ec620bc25644578a967f5d40ac6705aacb1532"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/wands_unique_attributes_954681113390ebb5224d.json",
+      "sha256": "53f4acfa5d4238d93180999e28cd1a55d8926f07c0f709ed70768692c8a230c6"
+    },
+    {
+      "path": "phase3/results/phase3_invariant_method/embeddings/wands_unique_attributes_954681113390ebb5224d.npy",
+      "sha256": "aecbf311a0cb3e4204ffdfe9c10a3a8d25dc247dd0f3cad24b580706aa1af36b"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_canonical_raw_05cb6417bac7aa66b86e.json",
+      "sha256": "fe394451e77db0c5c22db1cae2f99099f53bb5c23422a1c41192222fdcc9fea8"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_canonical_raw_05cb6417bac7aa66b86e.npy",
+      "sha256": "a5b952e543e4adcdf45c009ce77fbd7bd9f2402db416343be61fed231ccc6cdf"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view1_d132d089c6f6cb1fe48f.json",
+      "sha256": "d67d55dcf8ec37304337894d323d9e78e36e2d4ee69cd0032d25d30774d54dcc"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view1_d132d089c6f6cb1fe48f.npy",
+      "sha256": "e8276d36402a1e1fd8392213ab3c60b9a6a32261244c400bbeb1fadd1c1e590c"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view2_8d4ea33a4f0ccb3553cf.json",
+      "sha256": "dcff43304d54b66906d8d42a6a746c157c59415ed0150cf640d5ff7cc4d362bd"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view2_8d4ea33a4f0ccb3553cf.npy",
+      "sha256": "03767b0faee2f3f8381da06bd785c2e0f91f894d42a1e9c2dbbfdd5ac3b9f0b4"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view3_d14252fecde38eb54d69.json",
+      "sha256": "8ac9700006aa2532a0ca7e04dcf76c71107ddb8738c612e03734494e04f9c335"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view3_d14252fecde38eb54d69.npy",
+      "sha256": "2269251887d8179ce9ff10d4989e3337d46eebb44081cbd7950ba20198cf7756"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view4_b07c20fff496c32d5d35.json",
+      "sha256": "4a3a34910fa8b23cd0ad54b41a22b2b12edb2d3b06c7150eb18469e75509c2f3"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view4_b07c20fff496c32d5d35.npy",
+      "sha256": "6d54deb104414ae4f84897aeef704430d75807e28a712b9d1d38398ffa0cd053"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view5_ba2bd698d9e797fca581.json",
+      "sha256": "639d395daa97fd08d4bc4b64002a18fb6225894ef633f49afc711b9d75822cea"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view5_ba2bd698d9e797fca581.npy",
+      "sha256": "0389cb96291c96da61958d58827371361e9a75ed1c1a5671a21a378131c0f50d"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view6_5e17978dc596838bf19c.json",
+      "sha256": "37e874cd5f7090a79bd34a971b217f8a2936ca16526599b6f0f89cc35492068f"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view6_5e17978dc596838bf19c.npy",
+      "sha256": "fae3e63918eebad680f82ebb6b041ee756c363e66bff2a69ce330a7ba6d31a58"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view7_ab8219724611557ed9e8.json",
+      "sha256": "7f214c46e13de7b1af505e45823737be45bf0b08d3892cb2b6224b7158a2a72e"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_bge_base_view7_ab8219724611557ed9e8.npy",
+      "sha256": "c2482766d238719b5a48c6529f602924eda32077fc9c92c6bfff7053b4055569"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_atoms_afb0ad8951048aad61f9.json",
+      "sha256": "7019aee014fd0965dcc954b0e9e681a395669a511e2a104567c22a54afa83b75"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_atoms_afb0ad8951048aad61f9.npy",
+      "sha256": "c9097500b64bbc6dcb4680d81d0e9b6f32b97b156af303f69dc06396332011b9"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_canonical_raw_2ed2685debe1121ea491.json",
+      "sha256": "3dc3f3d64f59dfe772a80c48b966b92171a4e4e2298547200b403e8122d2f193"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_canonical_raw_2ed2685debe1121ea491.npy",
+      "sha256": "d818a1aeb0e21945c3536c6029189480b61e4146c9cae4393008cc36ae5b96ae"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_nonattributes_601bde86caf59e0250d0.json",
+      "sha256": "6f53c5224859007a0a60002d359d7fbbeac77edef505b99ecaee7087fc70eec2"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_nonattributes_601bde86caf59e0250d0.npy",
+      "sha256": "acc835310bb2c3e5f251d39125d3491ba210bf71766bed594c08218910e8eccd"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_view1_71dbf8885df202fd7a62.json",
+      "sha256": "a3e0bfffbda15b7c9e19a97230b2def33b72b07e63b0f3ff71b22c26f050d500"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_view1_71dbf8885df202fd7a62.npy",
+      "sha256": "915ff735d986277a550795ac5d217ae7a666e63078af0125aacb18c056afca78"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_view2_a8c73343b4e8701b23af.json",
+      "sha256": "a10a4080d53f1e3ead9000a9058715115a421f521d21ea127dcfc25b403fbb3a"
+    },
+    {
+      "path": "phase4/results/embeddings/esci_minilm_view2_a8c73343b4e8701b23af.npy",
+      "sha256": "5e57ee455e45ee4a86bf492f918020b3de2e655c6eb3985a19b4fefafcf94b65"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_canonical_raw_2b9aab5b9c4c396c8958.json",
+      "sha256": "389ffef812c66c88beb9406bb7c56d0b6f9c780942c825f8800f8c212048dfa2"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_canonical_raw_2b9aab5b9c4c396c8958.npy",
+      "sha256": "cf10901dea5610340feccd777bbb8d9b1fba307b761b53eacc0c8ba60657ffe9"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view1_4701f4c51a662ce874be.json",
+      "sha256": "f7d9e6ef546d1d0c894edfbac9c1a62383600bb109af9c9f2e12b2d92b92fc17"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view1_4701f4c51a662ce874be.npy",
+      "sha256": "50b9a9a4e80e4a5eaac780adcdd889d8ad93a4334ddc8afdfddaa56f5469e5c0"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view2_09e5e8d91d95321f933d.json",
+      "sha256": "3e98b268278d55a1f1e3aec3e54eac51e33fe7b38384af14156bfc93e5bf11b3"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view2_09e5e8d91d95321f933d.npy",
+      "sha256": "852d1fb1665408e93467cb5c16743bea52ad9ce387987268bf863a966dd4fe21"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view3_c6e5c3a72b1fa0bcf62c.json",
+      "sha256": "a915a5294052f63e20aaeca4abf53c5a063e41e9cdff019d7e101873f56d37e9"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view3_c6e5c3a72b1fa0bcf62c.npy",
+      "sha256": "bde1d37736083c5103b70bfeec7a6371200db38f82dc7ea1568e18bf794eb4d6"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view4_1396b025a95bf6bc4abc.json",
+      "sha256": "8303fdae489c0685cb1319fe7758e59350122b892a5e8369ba862cffa43132d5"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view4_1396b025a95bf6bc4abc.npy",
+      "sha256": "971de4746cf635dc14b6abfb93444afae586a176756b2f697ba67e541391bb17"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view5_081b4ff81b054403251c.json",
+      "sha256": "46982a8a0dce3e82cb6eafa7b82c5804f3fe83f5bf8326fae871441b7fd3deff"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view5_081b4ff81b054403251c.npy",
+      "sha256": "485e2f434bb7c3913aeb3055f5d64f9739aa616010727d781c95f3033bb4d74f"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view6_9a965f7cc62ecebe237b.json",
+      "sha256": "9dcb8e4ddea8eea5c3c31b3a4a8034ab4d27f66e87dc623b038203bdac2d5a44"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view6_9a965f7cc62ecebe237b.npy",
+      "sha256": "46b7f6e73f610238dab0bebba632f27a7a434837d1201603f3a40904bf5d3d47"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view7_1957bc4b6e6d54120170.json",
+      "sha256": "60d170ca3f899b1b8d11869bfbdbfdf0909aa1fcd9523d0f6bf557ce5141c198"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_bge_base_view7_1957bc4b6e6d54120170.npy",
+      "sha256": "112ed8d58448daae52a97ee7609402095ae79d69c3dd7af426e1a2f18e0f72e0"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_atoms_602c961a575bea3ad118.json",
+      "sha256": "c82e90b88175af77190dd783b64677bcfd935e68c507c8afbadb7cbe46bdc8e7"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_atoms_602c961a575bea3ad118.npy",
+      "sha256": "9a164f3437ef05904977a9227ff91de3a2537f9f5c6fb9fdfc89c21309c95c68"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_canonical_raw_5bb0ccfb0c8d8478f8de.json",
+      "sha256": "0bdc2938e40f5a17f1ce74fcdd01a1fd694d079f1b360005ec9e86781955bbcd"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_canonical_raw_5bb0ccfb0c8d8478f8de.npy",
+      "sha256": "e18561e326db8e9125c38aa2c11c2ac90c19825602f5151b0353dd0218991073"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_nonattributes_795ca279b219a3f1dae0.json",
+      "sha256": "f9fc439573766ce3376c3fba604aa2da655c2aa5672606eda8117523a86affb0"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_nonattributes_795ca279b219a3f1dae0.npy",
+      "sha256": "ed9a55bacf87a1d8ff80690c92b4fc56abbf3195249799fdc2e0a13afc56eb22"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_view1_ad5ef770714a24493459.json",
+      "sha256": "da896f89df3c083485b6a2fb27b32c0b04457aca5eb6285c56addc0c4e607155"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_view1_ad5ef770714a24493459.npy",
+      "sha256": "6462386dc729ed2c2a7135b344ad1a0312d4b6c68a6d4081cbbebc4ec79718da"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_view2_353f407eb911d9a4122a.json",
+      "sha256": "b6a09ff422e9178fe8fad51da6392ba1fff3c9d9b4dcae2e24901707fc680f47"
+    },
+    {
+      "path": "phase4/results/embeddings/wands_minilm_view2_353f407eb911d9a4122a.npy",
+      "sha256": "727784ad3d883c62c58ee2132a63e1b4d8783e535e89a6f3c3b7e0742f9f4a5d"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_bge_base_field_priority_type_a52ee614849023cd28a5.json",
+      "sha256": "ca7b23488c41811942388b50ecf4018219c97aee6d31c2df6e8eedbb8bdaca20"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_bge_base_field_priority_type_a52ee614849023cd28a5.npy",
+      "sha256": "76192e70536bbd11cfbfd6c4c58d9358b00862fcd9e47af2070639db0950036d"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_bge_base_lexical_descending_9b839ae59fdd7ced8085.json",
+      "sha256": "10493da34c00ae2f663c362d48d078b47a1710a19f7de5f3c9d95860514a11f7"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_bge_base_lexical_descending_9b839ae59fdd7ced8085.npy",
+      "sha256": "0ea26793eeb00ed7bb31ab5921ca4c3e786996aa107f5203fbc2d98a7de23129"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_minilm_field_priority_type_6fb7acfae5d5b6da5416.json",
+      "sha256": "0cf5f1ddeab8638a83663e928bc7f40abb9b4a9d0fae9099494a09df0b168b5f"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_minilm_field_priority_type_6fb7acfae5d5b6da5416.npy",
+      "sha256": "7651592893c121a0ee294cbd1e3b561ae23cc0c58d77c81304ad5c14fa6d645f"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_minilm_lexical_descending_819abb9b8b05e5a6319b.json",
+      "sha256": "2633fdc60e8bed1fecb9da91ce9b20cbd4890b4a7507a94364a85421f6342bf0"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/esci_minilm_lexical_descending_819abb9b8b05e5a6319b.npy",
+      "sha256": "3f55cb95287d58c32d98624c66f6d10447f1a3854fd4fe716513e2fdd84aa8ea"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_bge_base_field_priority_type_255c1261999473a04508.json",
+      "sha256": "a21f3287f2467b928002fe4b232c9f7da805c786c0883f0d52db0a9437068b42"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_bge_base_field_priority_type_255c1261999473a04508.npy",
+      "sha256": "1bddb44631bc1d63b9cf1ca57a3a17bcf210ed57e3fadb8b23bb6a1c531fa7b9"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_bge_base_lexical_descending_54af0b59e9821f1e61a6.json",
+      "sha256": "ec322df6e2bd56f5d4d71556add9f454633b3c5b9be3525f61cce6262e9db84f"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_bge_base_lexical_descending_54af0b59e9821f1e61a6.npy",
+      "sha256": "56df782fc8e6fc200daecfa6dcb028f20d1d33cdf4eef87cf3639998b1f7aebe"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_minilm_field_priority_type_94e39fdcf8cc6796dc5e.json",
+      "sha256": "5d4d3ede867b5f44ac4f9510f5cf075c980acb91277c51ce718ea8bcb10dd37f"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_minilm_field_priority_type_94e39fdcf8cc6796dc5e.npy",
+      "sha256": "6da109c4dd22cbdbcc373b4ad76a3e9db9ee4a8426126a04155f01edb9cc5f56"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_minilm_lexical_descending_6aafe240163ca5270d48.json",
+      "sha256": "2b87eaa1b20f2dde79793eff0e8d05a282693bcb2edd4d1613af99357282bedb"
+    },
+    {
+      "path": "revision_evidence_20260917/experiments/embeddings/wands_minilm_lexical_descending_6aafe240163ca5270d48.npy",
+      "sha256": "252bff9369c9c24777e9ef4b7b9490bb8326a6e62f09701ec8af5a6712b9f463"
+    }
+  ]
+}
