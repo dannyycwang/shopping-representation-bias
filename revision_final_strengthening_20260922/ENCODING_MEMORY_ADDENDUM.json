@@ -1,0 +1,17 @@
+{
+  "reason": "Observed BGE native batch 48 at longer inputs used about 7941/8188 MiB on the 8 GiB RTX 4060 Laptop GPU and slowed completed blocks from approximately 8 to 57 seconds. Execution was stopped after 50 complete WANDS blocks (51,200 inputs), retaining verified payloads.",
+  "action": "Resume remaining BGE inputs in native microbatches of at most 24 and release unused CUDA allocator memory after each complete block. Original DenseEncoder forwards, pinned parameters, tokenizer, precision, input strings, seeds, supports and ranking rules are unchanged.",
+  "before_remaining_bge_scores": true,
+  "outcome_independent": true,
+  "completed_prefix": {
+    "dataset": "wands",
+    "model": "bge_base",
+    "blocks": 50,
+    "inputs": 51200,
+    "maximum_native_batch": 48
+  },
+  "remaining_maximum_bge_batch": 24,
+  "cache_key": "Frozen semantic encoder profile plus model input; batch execution details are separately recorded in each new block metadata. Earlier block metadata without effective_batch_size use CFG.native batch (MiniLM128/BGE48). Numerical precision is separately audited; no bitwise batch-size equivalence asserted.",
+  "timing": "Block totals sum successful completed-block forward/compression time; exclude interrupted partial work, audit/reload, plan and scoring.",
+  "no_case_seed_support_replacement": true
+}

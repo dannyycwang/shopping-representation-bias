@@ -1,0 +1,13 @@
+BOUNDARY {'dataset': 'wands', 'model': 'minilm', 'pairs': 21299, 'records': 298186, 'rank_mismatches': 0, 'boundary_mismatches': 0, 'exact_threshold_ties': 0, 'elapsed_seconds': 3.3792014999780804}
+BOUNDARY {'dataset': 'wands', 'model': 'bge_base', 'pairs': 21299, 'records': 298186, 'rank_mismatches': 1, 'boundary_mismatches': 0, 'exact_threshold_ties': 0, 'elapsed_seconds': 7.162618799833581}
+BOUNDARY {'dataset': 'wands', 'model': 'gte_modernbert', 'pairs': 21299, 'records': 298186, 'rank_mismatches': 0, 'boundary_mismatches': 0, 'exact_threshold_ties': 0, 'elapsed_seconds': 6.511069100117311}
+BOUNDARY {'dataset': 'esci', 'model': 'minilm', 'pairs': 4434, 'records': 62076, 'rank_mismatches': 0, 'boundary_mismatches': 0, 'exact_threshold_ties': 0, 'elapsed_seconds': 1.277540799928829}
+BOUNDARY {'dataset': 'esci', 'model': 'bge_base', 'pairs': 4434, 'records': 62076, 'rank_mismatches': 0, 'boundary_mismatches': 0, 'exact_threshold_ties': 0, 'elapsed_seconds': 1.5159912998788059}
+BOUNDARY {'dataset': 'esci', 'model': 'gte_modernbert', 'pairs': 4434, 'records': 62076, 'rank_mismatches': 0, 'boundary_mismatches': 0, 'exact_threshold_ties': 0, 'elapsed_seconds': 1.6822405001148582}
+Traceback (most recent call last):
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\revision_final_strengthening_20260922\scripts\boundary.py", line 79, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\revision_final_strengthening_20260922\scripts\boundary.py", line 75, in main
+    for which,pos in [('minimum',np.argmin(g.score.to_numpy())),('maximum',np.argmax(g.score.to_numpy()))]:variants.append(dict(model=r.model,query_id=r.query_id,product_id=r.product_id,selection=r.selection,display=r.display,variant=which,**g.reset_index().iloc[pos].to_dict()))
+TypeError: dict() got multiple values for keyword argument 'model'
+BOUNDARY CASES COMPLETE 50

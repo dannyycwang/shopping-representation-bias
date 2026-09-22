@@ -1,0 +1,50 @@
+{
+  "model": "bge_base",
+  "query_id": 235,
+  "product_id": "7253",
+  "query": "bathroom wastebasket",
+  "variant": "maximum",
+  "schedule": "C0",
+  "display": "main_crossing",
+  "native_saved_score": 0.7741144895553589,
+  "fresh_native_fp16_score": 0.774052619934082,
+  "diagnostic_fp32_score": 0.7740871906280518,
+  "input_ids_score": 0.7740871906280518,
+  "input_ids_vs_embeds_error": 0.0,
+  "diagnostic_native_error": 2.7298927307128906e-05,
+  "fresh_fp16_native_error": 6.186962127685547e-05,
+  "native_rank": 20,
+  "native_inclusion": true,
+  "diagnostic_inclusion": true,
+  "native_margin": 9.745359420776369e-05,
+  "margin_gt_five_errors": false,
+  "variant_boundary_guard": false,
+  "token_count": 512,
+  "cap": 512,
+  "model_attention_implementation": "sdpa",
+  "query_embedding_sha256": "a1a4ca77db4010228ad7597ef97e7c4cd1a13edd6ff9e52e01eb9821c53cc8f7",
+  "baseline": "zero",
+  "baseline_score": 0.4665449559688568,
+  "score_difference": 0.30754223465919495,
+  "attribution_sum": 0.3050218082826177,
+  "completeness_residual": -0.002520426376577234,
+  "completeness_tolerance": 0.0030754223465919495,
+  "completeness_passed": true,
+  "steps": 128,
+  "attempts": [
+    {
+      "steps": 64,
+      "residual": 0.005609405898212572,
+      "tolerance": 0.0030754223465919495,
+      "passed": false
+    },
+    {
+      "steps": 128,
+      "residual": -0.002520426376577234,
+      "tolerance": 0.0030754223465919495,
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 81.30955479992554,
+  "status": "passed"
+}

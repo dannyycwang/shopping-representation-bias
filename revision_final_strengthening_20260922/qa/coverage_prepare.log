@@ -1,0 +1,13 @@
+TOKEN PLAN wands 0 6444 1
+TOKEN PLAN wands 1000 6444 103
+TOKEN PLAN wands 2000 6444 760
+TOKEN PLAN wands 3000 6444 983
+TOKEN PLAN wands 4000 6444 1087
+TOKEN PLAN wands 5000 6444 1195
+TOKEN PLAN wands 6000 6444 1323
+TOKEN PLAN esci 0 4427 1383
+TOKEN PLAN esci 1000 4427 1392
+TOKEN PLAN esci 2000 4427 1410
+TOKEN PLAN esci 3000 4427 1436
+TOKEN PLAN esci 4000 4427 1467
+COVERAGE PLAN COMPLETE [{'dataset': 'wands', 'model': 'minilm', 'products': 6444, 'schedule_records': 206208, 'distinct_full_texts': 205943, 'distinct_model_inputs': 200480, 'new_model_inputs': 156419, 'historical_reused_model_inputs': 44061, 'new_capped_tokens': 39555524, 'new_untruncated_tokens': 102974868, 'fully_fitting_pairs': 354, 'fully_fitting_queries': 48, 'full_pairs': 7125, 'full_queries': 128, 'runtime_estimate_seconds': 791.11048, 'runtime_estimate_basis': 'pre-scoring planning rate only; actual measured runtime reported later'}, {'dataset': 'wands', 'model': 'bge_base', 'products': 6444, 'schedule_records': 206208, 'distinct_full_texts': 205943, 'distinct_model_inputs': 205757, 'new_model_inputs': 160723, 'historical_reused_model_inputs': 45034, 'new_capped_tokens': 74780523, 'new_untruncated_tokens': 106817948, 'fully_fitting_pairs': 2186, 'fully_fitting_queries': 92, 'full_pairs': 7125, 'full_queries': 128, 'runtime_estimate_seconds': 8308.947, 'runtime_estimate_basis': 'pre-scoring planning rate only; actual measured runtime reported later'}, {'dataset': 'esci', 'model': 'minilm', 'products': 4427, 'schedule_records': 51094, 'distinct_full_texts': 20097, 'distinct_model_inputs': 15471, 'new_model_inputs': 3199, 'historical_reused_model_inputs': 12272, 'new_capped_tokens': 500818, 'new_untruncated_tokens': 576518, 'fully_fitting_pairs': 2578, 'fully_fitting_queries': 460, 'full_pairs': 4434, 'full_queries': 499, 'runtime_estimate_seconds': 10.01636, 'runtime_estimate_basis': 'pre-scoring planning rate only; actual measured runtime reported later'}, {'dataset': 'esci', 'model': 'bge_base', 'products': 4427, 'schedule_records': 51094, 'distinct_full_texts': 20097, 'distinct_model_inputs': 18667, 'new_model_inputs': 4199, 'historical_reused_model_inputs': 14468, 'new_capped_tokens': 1031720, 'new_untruncated_tokens': 1113287, 'fully_fitting_pairs': 3587, 'fully_fitting_queries': 488, 'full_pairs': 4434, 'full_queries': 499, 'runtime_estimate_seconds': 114.63555555555556, 'runtime_estimate_basis': 'pre-scoring planning rate only; actual measured runtime reported later'}]

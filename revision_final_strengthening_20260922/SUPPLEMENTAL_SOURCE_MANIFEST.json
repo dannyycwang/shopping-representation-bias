@@ -1,0 +1,38 @@
+[
+  {
+    "path": "revision_graded_20260922/GRADED_METRIC_AUDIT.md",
+    "sha256": "9bd38389606d881e48bbae63b56461a2a699b9087f8a85ad248b55979ff9de28",
+    "bytes": 15025,
+    "purpose": "read-only report/precision context"
+  },
+  {
+    "path": "revision_graded_20260922/tables/rq2_compact_evidence.csv",
+    "sha256": "d3cdf327943d5b735c1e331b3939fef03c4fad09435e23c5886fe8fdf0706f7d",
+    "bytes": 596,
+    "purpose": "read-only report/precision context"
+  },
+  {
+    "path": "revision_graded_20260922/tables/canonical_hybrid_costs.csv",
+    "sha256": "a83032a80eee97c5ecd012e871380202aef983f6606e1ddfd5f0c122ccd7fe3b",
+    "bytes": 4546,
+    "purpose": "read-only report/precision context"
+  },
+  {
+    "path": "revision_graded_20260922/tables/inherited_strategy_costs.csv",
+    "sha256": "4b8c98808246e39f0adf8c94aa4aacae66c3f2072b663a2affdc3488da73db22",
+    "bytes": 27582,
+    "purpose": "read-only report/precision context"
+  },
+  {
+    "path": "revision_graded_20260922/tables/canonical_hybrid_claim_verdicts.csv",
+    "sha256": "32070a5ee9bf6612b42c398b87442cf9b1559f3d0efe37b2603f490de2ac05fd",
+    "bytes": 32930,
+    "purpose": "read-only report/precision context"
+  },
+  {
+    "path": "revision_evidence_20260917/data/target_rank_precision_differences.csv",
+    "sha256": "afbd74730ce6e582692b1f4237f6eb7031ec6932122a0eafd11a1ce30a3227b5",
+    "bytes": 260,
+    "purpose": "read-only report/precision context"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "key": "minilm",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "architecture": "MiniLM-L6",
+    "max_tokens": 256,
+    "native_pooling": "attention-mask mean"
+  },
+  "max_tokens": 256,
+  "pooling": "attention-mask mean",
+  "query_prefix": "",
+  "product_prefix": "",
+  "precision": "fp16_model_fp32_pooling",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.46.2",
+  "encoder_source_sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa",
+  "protocol_sha256": "ab16a31715b095d1c1d75860632b97d625d2607ee9875909246d25adf3eafbb6",
+  "fingerprint": "8056719b7ded1fa7db01ee634d541d17ab273195c5082170c9eb2cba6bd2bbdf"
+}

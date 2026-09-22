@@ -1,0 +1,10 @@
+{
+  "torch": "2.11.0+cu128",
+  "transformers": "4.46.2",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "diagnostic_weights": "Pinned FP32 checkpoint converted to native FP16, then exact FP16-rounded parameters represented in FP32 for gradients",
+  "query_vector": "unchanged cached normalized FP32 vector",
+  "tf32": false,
+  "forward_calls_only": true,
+  "training": false
+}

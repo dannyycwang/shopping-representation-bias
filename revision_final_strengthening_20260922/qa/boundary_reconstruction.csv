@@ -1,0 +1,7 @@
+dataset,model,pairs,records,rank_mismatches,boundary_mismatches,exact_threshold_ties,elapsed_seconds
+wands,minilm,21299,298186,0,0,0,3.3792014999780804
+wands,bge_base,21299,298186,1,0,0,7.162618799833581
+wands,gte_modernbert,21299,298186,0,0,0,6.511069100117311
+esci,minilm,4434,62076,0,0,0,1.277540799928829
+esci,bge_base,4434,62076,0,0,0,1.5159912998788059
+esci,gte_modernbert,4434,62076,0,0,0,1.6822405001148582

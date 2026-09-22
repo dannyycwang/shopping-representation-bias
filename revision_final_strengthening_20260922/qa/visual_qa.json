@@ -1,0 +1,27 @@
+{
+  "inspected": true,
+  "figures": [
+    "main_query_conditioned_cases",
+    "supplement_french_molding",
+    "supplement_permutation_coverage"
+  ],
+  "formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "inspection_surface": "Rendered PNGs generated from the same Matplotlib figures as PDF/SVG",
+  "main_width_points": 687.485937,
+  "recommended_main_width_inches": 7.2,
+  "minimum_case_text_points_at_recommended_width": 7.92,
+  "checks": [
+    "Native margin panels include zero, all seven schedules and rank labels",
+    "Main crossing precision failure and stable-control completeness failure visibly labeled",
+    "Same signed attribution scale and occurrence rows, first eight source entries plus other-content total",
+    "No text overlap after moving margin labels to the right and shortening the supplementary pass note",
+    "Coverage uses numeric WANDS x positions 7,16,32; ESCI uses categorical family labels",
+    "Full/common-fit query and pair denominators visible, uncorrected interval labels explicit",
+    "Coverage checked after final numeric-axis revision"
+  ],
+  "selection_changes": false
+}
