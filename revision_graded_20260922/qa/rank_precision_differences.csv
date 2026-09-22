@@ -1,0 +1,7 @@
+dataset,model,method,schedule,query_id,product_id,label,saved_rank,computed_rank
+wands,bge_base,raw_reconstructed_for_hybrid,C2s2,0,32057,Partial,6384,6383
+wands,bge_base,raw_reconstructed_for_hybrid,C2s3,342,17755,Partial,442,441
+wands,bge_base,raw_reconstructed_for_hybrid,C2s3,423,19348,Irrelevant,4340,4341
+wands,bge_base,raw_reconstructed_for_hybrid,C2s5,158,19405,Irrelevant,5737,5738
+esci,bge_base,raw_reconstructed_for_hybrid,C2s4,1210,B017KQSD7S,I,7545,7546
+esci,bge_base,raw_reconstructed_for_hybrid,C2s5,1210,B017KQSD7S,I,7548,7549

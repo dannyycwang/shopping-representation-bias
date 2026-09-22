@@ -1,0 +1,36 @@
+M paper_www2027/RESULT_PROVENANCE.md
+ M paper_www2027/figures/figure1_target_only.pdf
+ M paper_www2027/figures/figure1_target_only.png
+ M paper_www2027/main.aux
+ M paper_www2027/main.log
+ M paper_www2027/main.pdf
+ M paper_www2027/sections/introduction.tex
+ M phase3/scripts/make_target_only_figure.py
+?? paper_www2027/archive/figure1_before_attribute_cards_20260915/figure1_target_only.drawio
+?? paper_www2027/archive/figure1_before_attribute_cards_20260915/figure1_target_only.pdf
+?? paper_www2027/archive/figure1_before_attribute_cards_20260915/figure1_target_only.png
+?? paper_www2027/archive/figure1_before_attribute_cards_20260915/introduction.tex
+?? paper_www2027/archive/figure1_before_attribute_cards_20260915/main.pdf
+?? paper_www2027/archive/figure1_before_attribute_cards_20260915/make_target_only_figure.py
+?? paper_www2027/archive/figure1_before_plain_labels_20260915/figure1_target_only.pdf
+?? paper_www2027/archive/figure1_before_plain_labels_20260915/figure1_target_only.png
+?? paper_www2027/archive/figure1_before_plain_labels_20260915/introduction.tex
+?? paper_www2027/archive/figure1_before_plain_labels_20260915/main.pdf
+?? paper_www2027/archive/figure1_before_plain_labels_20260915/make_target_only_figure.py
+?? paper_www2027/figure1_build.log
+?? paper_www2027/figures/figure1_attribute_cards_source.json
+?? paper_www2027/figures/figure1_target_only.drawio
+?? revision_graded_20260922/data/esci_catalog_ordering.csv
+?? revision_graded_20260922/data/esci_highest_support.csv
+?? revision_graded_20260922/data/esci_judged_support.parquet
+?? revision_graded_20260922/data/esci_queries_ordering.csv
+?? revision_graded_20260922/data/wands_catalog_ordering.csv
+?? revision_graded_20260922/data/wands_highest_support.csv
+?? revision_graded_20260922/data/wands_judged_support.parquet
+?? revision_graded_20260922/data/wands_queries_ordering.csv
+?? revision_graded_20260922/scripts/common.py
+?? revision_graded_20260922/scripts/prepare.py
+?? tmp/pdfs/figure1_revision/cards-01.png
+?? tmp/pdfs/figure1_revision/cards-02.png
+?? tmp/pdfs/figure1_revision/page-01.png
+?? tmp/pdfs/figure1_revision/page-02.png

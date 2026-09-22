@@ -1,0 +1,19 @@
+[
+  {
+    "dataset": "esci",
+    "raw_source": "phase2/data/esci_repo/shopping_queries_dataset/shopping_queries_dataset_examples.parquet",
+    "queries": 500,
+    "judgments": 10134,
+    "raw_labels_equal_processed": true,
+    "grade_mapping": "stored E/C/S/I=1/.1/.01/0; correction reconstructed from E/S/C/I labels"
+  },
+  {
+    "dataset": "wands",
+    "raw_source": "data/raw/label.csv",
+    "queries": 480,
+    "judgments": 231859,
+    "raw_labels_equal_processed": true,
+    "conflicting_pairs_removed": 14,
+    "grade_mapping": "unchanged Exact/Partial/Irrelevant=3/1/0"
+  }
+]

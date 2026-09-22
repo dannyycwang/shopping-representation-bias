@@ -1,0 +1,8 @@
+dataset,label,rows_all_queries,rows_eligible,stored_grade,old_gain,corrected_gain,all_stored_values_match_old
+wands,Exact,25470,21299,3.0,3.0,3.0,True
+wands,Irrelevant,60719,44353,0.0,0.0,0.0,True
+wands,Partial,145670,96566,1.0,1.0,1.0,True
+esci,C,505,505,0.1,0.1,0.01,True
+esci,E,4434,4434,1.0,1.0,1.0,True
+esci,I,1650,1650,0.0,0.0,0.0,True
+esci,S,3545,3530,0.01,0.01,0.1,True

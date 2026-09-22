@@ -1,0 +1,658 @@
+[
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C0",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_minilm_native_C0.parquet",
+    "top": "phase2/results/phase2_top50/wands_minilm_native_C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C1",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_minilm_native_C1.parquet",
+    "top": "phase2/results/phase2_top50/wands_minilm_native_C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s1",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s1.parquet",
+    "top": "phase2/results/phase2_top50/wands_minilm_native_C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s2",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s2.parquet",
+    "top": "phase2/results/phase2_top50/wands_minilm_native_C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s3",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s3.parquet",
+    "top": "phase2/results/phase2_top50/wands_minilm_native_C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s4",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s4.parquet",
+    "top": "phase2/results/phase2_top50/wands_minilm_native_C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s5",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s5.parquet",
+    "top": "phase2/results/phase2_top50/wands_minilm_native_C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/minilm_canonical_raw_pairs.parquet",
+    "embedding": "phase4/results/embeddings/wands_minilm_canonical_raw_5bb0ccfb0c8d8478f8de.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/wands_minilm_lexical_descending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/wands_minilm_lexical_descending_6aafe240163ca5270d48.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/wands_minilm_field_priority_type_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/wands_minilm_field_priority_type_94e39fdcf8cc6796dc5e.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/minilm_set_mean_pairs.parquet",
+    "top": "phase4/results/wands/minilm_set_mean_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/minilm_centroid_2_pairs.parquet",
+    "top": "phase4/results/wands/minilm_centroid_2_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "max_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/minilm_max_2_pairs.parquet",
+    "top": "phase4/results/wands/minilm_max_2_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C0",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C0.parquet",
+    "top": "phase2/results/phase2_top50/wands_bge_base_native_C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C1",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C1.parquet",
+    "top": "phase2/results/phase2_top50/wands_bge_base_native_C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s1",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s1.parquet",
+    "top": "phase2/results/phase2_top50/wands_bge_base_native_C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s2",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s2.parquet",
+    "top": "phase2/results/phase2_top50/wands_bge_base_native_C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s3",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s3.parquet",
+    "top": "phase2/results/phase2_top50/wands_bge_base_native_C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s4",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s4.parquet",
+    "top": "phase2/results/phase2_top50/wands_bge_base_native_C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s5",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s5.parquet",
+    "top": "phase2/results/phase2_top50/wands_bge_base_native_C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_canonical_raw_pairs.parquet",
+    "embedding": "phase4/results/embeddings/wands_bge_base_canonical_raw_2b9aab5b9c4c396c8958.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/wands_bge_base_lexical_descending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/wands_bge_base_lexical_descending_54af0b59e9821f1e61a6.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/wands_bge_base_field_priority_type_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/wands_bge_base_field_priority_type_255c1261999473a04508.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_set_mean_pairs.parquet",
+    "top": "phase4/results/wands/bge_base_set_mean_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_centroid_2_pairs.parquet",
+    "top": "phase4/results/wands/bge_base_centroid_2_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "max_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_max_2_pairs.parquet",
+    "top": "phase4/results/wands/bge_base_max_2_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "centroid_4",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_centroid_4_pairs.parquet",
+    "top": "phase4/results/wands/bge_base_centroid_4_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "max_4",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_max_4_pairs.parquet",
+    "top": "phase4/results/wands/bge_base_max_4_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "centroid_7",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_centroid_7_pairs.parquet",
+    "top": "phase4/results/wands/bge_base_centroid_7_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "max_7",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/bge_base_max_7_pairs.parquet",
+    "top": "phase4/results/wands/bge_base_max_7_top1000.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C0",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C0.parquet",
+    "top": "phase2/results/phase2_top50/wands_gte_modernbert_native_C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C1",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C1.parquet",
+    "top": "phase2/results/phase2_top50/wands_gte_modernbert_native_C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s1",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s1.parquet",
+    "top": "phase2/results/phase2_top50/wands_gte_modernbert_native_C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s2",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s2.parquet",
+    "top": "phase2/results/phase2_top50/wands_gte_modernbert_native_C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s3",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s3.parquet",
+    "top": "phase2/results/phase2_top50/wands_gte_modernbert_native_C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s4",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s4.parquet",
+    "top": "phase2/results/phase2_top50/wands_gte_modernbert_native_C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s5",
+    "pairs": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s5.parquet",
+    "top": "phase2/results/phase2_top50/wands_gte_modernbert_native_C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_ascending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/wands_gte_modernbert_lexical_ascending_919272ecef0357ee04dd.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_descending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/wands_gte_modernbert_lexical_descending_962914e74fcf93c38691.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/wands_gte_modernbert_field_priority_type_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/wands_gte_modernbert_field_priority_type_a5015255e8dc1e16c006.npy"
+  },
+  {
+    "dataset": "wands",
+    "model": "lexical",
+    "method": "BM25",
+    "schedule": "fixed",
+    "pairs": "phase4/results/wands/BM25_pairs.parquet",
+    "top": "phase4/results/wands/BM25_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C0",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_minilm_native_C0.parquet",
+    "top": "phase2/results/phase2_top50/esci_minilm_native_C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C1",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_minilm_native_C1.parquet",
+    "top": "phase2/results/phase2_top50/esci_minilm_native_C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s1",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s1.parquet",
+    "top": "phase2/results/phase2_top50/esci_minilm_native_C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s2",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s2.parquet",
+    "top": "phase2/results/phase2_top50/esci_minilm_native_C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s3",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s3.parquet",
+    "top": "phase2/results/phase2_top50/esci_minilm_native_C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s4",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s4.parquet",
+    "top": "phase2/results/phase2_top50/esci_minilm_native_C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s5",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s5.parquet",
+    "top": "phase2/results/phase2_top50/esci_minilm_native_C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/minilm_canonical_raw_pairs.parquet",
+    "embedding": "phase4/results/embeddings/esci_minilm_canonical_raw_2ed2685debe1121ea491.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/esci_minilm_lexical_descending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/esci_minilm_lexical_descending_819abb9b8b05e5a6319b.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/esci_minilm_field_priority_type_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/esci_minilm_field_priority_type_6fb7acfae5d5b6da5416.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/minilm_set_mean_pairs.parquet",
+    "top": "phase4/results/esci/minilm_set_mean_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/minilm_centroid_2_pairs.parquet",
+    "top": "phase4/results/esci/minilm_centroid_2_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "max_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/minilm_max_2_pairs.parquet",
+    "top": "phase4/results/esci/minilm_max_2_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C0",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C0.parquet",
+    "top": "phase2/results/phase2_top50/esci_bge_base_native_C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C1",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C1.parquet",
+    "top": "phase2/results/phase2_top50/esci_bge_base_native_C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s1",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s1.parquet",
+    "top": "phase2/results/phase2_top50/esci_bge_base_native_C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s2",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s2.parquet",
+    "top": "phase2/results/phase2_top50/esci_bge_base_native_C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s3",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s3.parquet",
+    "top": "phase2/results/phase2_top50/esci_bge_base_native_C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s4",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s4.parquet",
+    "top": "phase2/results/phase2_top50/esci_bge_base_native_C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s5",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s5.parquet",
+    "top": "phase2/results/phase2_top50/esci_bge_base_native_C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_canonical_raw_pairs.parquet",
+    "embedding": "phase4/results/embeddings/esci_bge_base_canonical_raw_05cb6417bac7aa66b86e.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/esci_bge_base_lexical_descending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/esci_bge_base_lexical_descending_9b839ae59fdd7ced8085.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/esci_bge_base_field_priority_type_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/esci_bge_base_field_priority_type_a52ee614849023cd28a5.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_set_mean_pairs.parquet",
+    "top": "phase4/results/esci/bge_base_set_mean_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_centroid_2_pairs.parquet",
+    "top": "phase4/results/esci/bge_base_centroid_2_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "max_2",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_max_2_pairs.parquet",
+    "top": "phase4/results/esci/bge_base_max_2_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "centroid_4",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_centroid_4_pairs.parquet",
+    "top": "phase4/results/esci/bge_base_centroid_4_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "max_4",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_max_4_pairs.parquet",
+    "top": "phase4/results/esci/bge_base_max_4_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "centroid_7",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_centroid_7_pairs.parquet",
+    "top": "phase4/results/esci/bge_base_centroid_7_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "max_7",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/bge_base_max_7_pairs.parquet",
+    "top": "phase4/results/esci/bge_base_max_7_top1000.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C0",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C0.parquet",
+    "top": "phase2/results/phase2_top50/esci_gte_modernbert_native_C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C1",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C1.parquet",
+    "top": "phase2/results/phase2_top50/esci_gte_modernbert_native_C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s1",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s1.parquet",
+    "top": "phase2/results/phase2_top50/esci_gte_modernbert_native_C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s2",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s2.parquet",
+    "top": "phase2/results/phase2_top50/esci_gte_modernbert_native_C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s3",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s3.parquet",
+    "top": "phase2/results/phase2_top50/esci_gte_modernbert_native_C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s4",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s4.parquet",
+    "top": "phase2/results/phase2_top50/esci_gte_modernbert_native_C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s5",
+    "pairs": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s5.parquet",
+    "top": "phase2/results/phase2_top50/esci_gte_modernbert_native_C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_ascending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/esci_gte_modernbert_lexical_ascending_7c88203ca2adccc1ce87.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_descending_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/esci_gte_modernbert_lexical_descending_fee84f47f41436d647dc.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "pairs": "revision_evidence_20260917/experiments/esci_gte_modernbert_field_priority_type_pairs.parquet",
+    "embedding": "revision_evidence_20260917/experiments/embeddings/esci_gte_modernbert_field_priority_type_58697e59c87888b89cb0.npy"
+  },
+  {
+    "dataset": "esci",
+    "model": "lexical",
+    "method": "BM25",
+    "schedule": "fixed",
+    "pairs": "phase4/results/esci/BM25_pairs.parquet",
+    "top": "phase4/results/esci/BM25_top1000.npy"
+  }
+]

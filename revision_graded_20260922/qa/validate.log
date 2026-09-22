@@ -1,0 +1,6 @@
+VERIFY HASH 0
+VERIFY HASH 100
+VERIFY HASH 200
+VERIFY HASH 300
+VERIFY HASH 400
+VALIDATION PASSED {"all_122_conditions_have_exact_frozen_support": true, "independent_dense_gain_vector_queries": 366, "historical_raw_old_gain_cndcg_reproduced": 42, "wands_gain_correction_exactly_zero": true, "historical_summary_recall_cells_reproduced": 80, "bootstrap_seed_cluster_counts_verified": true, "rq2_all_60_contrasts_membership_and_tolerance_verified": true, "input_hash_records_preserved": 469, "preexisting_working_changes_preserved": true, "head_unchanged": true, "protocol_sha256": "0810361666810b8ec8aca294cda26e9ad23fc50ea381e8ebbd686c26bab2747e"}
