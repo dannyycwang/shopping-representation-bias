@@ -1,0 +1,31 @@
+{
+  "old": {
+    "wands": {
+      "Exact": 3.0,
+      "Partial": 1.0,
+      "Irrelevant": 0.0
+    },
+    "esci": {
+      "E": 1.0,
+      "S": 0.01,
+      "C": 0.1,
+      "I": 0.0
+    }
+  },
+  "new": {
+    "wands": {
+      "Exact": 3.0,
+      "Partial": 1.0,
+      "Irrelevant": 0.0
+    },
+    "esci": {
+      "E": 1.0,
+      "S": 0.1,
+      "C": 0.01,
+      "I": 0.0
+    }
+  },
+  "source": "https://arxiv.org/pdf/2206.06588 section 3.1",
+  "source_checked_utc": "2026-09-22T10:08:16.664035+00:00",
+  "scope": "evaluation from labels; frozen ranks, labels, Hq, query embeddings and retrievers unchanged"
+}

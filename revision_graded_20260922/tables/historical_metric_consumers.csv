@@ -1,0 +1,17 @@
+source,consumer,scope
+phase2/scripts/prepare_data.py,materializes grade,ESCI numeric S/C grades reversed; raw labels unchanged
+phase2/src/evaluation.py,cNDCG@10/20/50; RelevanceVisibilitySpearman,affected graded outputs; Recall and RelevantRecall (grade>0) unchanged
+phase2/scripts/run_dense.py,frozen dense retrieval plus evaluator,graded reporting affected; embeddings and scores do not consume gains
+phase2/scripts/run_mitigations.py,"frozen text controls, evaluator, target support grade>0",graded reporting affected; positive set unchanged; no label-driven encoder training
+phase2/scripts/analyze_mitigations.py,SAR=cNDCG-lambda*VI; paired graded comparisons; success flags,ESCI graded comparisons/SAR/derived classifications affected; lambda grid not tuned
+phase2/scripts/analyze_sensitivity.py,aggregates historical cNDCG,ESCI graded summaries affected; highest-label sensitivity unchanged
+phase3/scripts/audit_metrics.py,stored-grade condensed metrics and SAR audit,affected where ESCI old grades retained
+phase3/scripts/analyze_official_esci.py,judged-candidate pool NDCG from stored grade,ESCI candidate-pool graded metric affected; not catalog-wide nDCG
+phase3/scripts/run_invariant_method.py,calls phase2 evaluator; alpha selection by WANDS dev cNDCG,ESCI reporting affected; WANDS selection gains unchanged
+phase3/scripts/run_ecommerce_retriever.py,frozen Marqo evaluation via phase2 evaluator,"ESCI reporting affected, not retriever training"
+phase3/scripts/analyze_pareto.py,comparisons of saved cNDCG,historical graded frontier/contrasts inherit old gains
+phase4/scripts/audit_and_diagnose.py,old/new gain reconciliation across saved rank artifacts,already corrected from labels; this audit predates the new package
+phase4/scripts/common.py,label-mapped corrected cNDCG@10 and highest-label Recall,already correct E/S/C/I=1/.1/.01/0
+phase4/scripts/run_methods.py,"WANDS development Recall100, cNDCG tiebreak, simplicity",unaffected WANDS selection; frozen pipelines have no new training
+phase5_mitigation/screen.py,WANDS Exact/Irrelevant triples,unaffected by ESCI mapping
+phase6_corrected/PHASE6_CONFIG.json,WANDS graded training and dev selection,uses WANDS 3/1/0; unaffected by ESCI mapping

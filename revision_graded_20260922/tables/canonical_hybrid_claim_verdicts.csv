@@ -1,0 +1,217 @@
+dataset,model,rule,reference,metric,delta,ci_low,ci_high,effectiveness_verdict,claim_of_improvement
+wands,minilm,lexical_ascending,lexical_ascending,nDCG@10,0.060796901110663,0.0442785279009262,0.0772006137276709,improves,supported
+wands,minilm,lexical_ascending,lexical_ascending,nDCG@20,0.0696053482638107,0.0557928215895777,0.0836987133390751,improves,supported
+wands,minilm,lexical_ascending,lexical_ascending,cNDCG@10,0.0392165186906726,0.026608121957541,0.0521461747507217,improves,supported
+wands,minilm,lexical_ascending,lexical_ascending,cNDCG@20,0.0356684787994805,0.0252859218462893,0.0459643983218314,improves,supported
+wands,minilm,lexical_ascending,lexical_ascending,Recall@20,0.0774091562134338,0.0564385115078848,0.1003954645350912,improves,supported
+wands,minilm,lexical_ascending,lexical_ascending,Recall@100,0.0956099978379941,0.0753592789489998,0.1175374014511708,improves,supported
+wands,minilm,lexical_ascending,BM25,nDCG@10,0.0346765111569041,0.0184565576779975,0.051184518864163,improves,supported
+wands,minilm,lexical_ascending,BM25,nDCG@20,0.0411950434173108,0.0273897107404321,0.0554612344292259,improves,supported
+wands,minilm,lexical_ascending,BM25,cNDCG@10,0.0136432295569951,0.000451980038115,0.0273316068200103,improves,supported
+wands,minilm,lexical_ascending,BM25,cNDCG@20,0.0181098764879995,0.0071437080408055,0.0296133210686192,improves,supported
+wands,minilm,lexical_ascending,BM25,Recall@20,0.0174374919819,-9.11320443388584e-05,0.0359800611014973,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_ascending,BM25,Recall@100,0.0237754360768962,0.0089887656371092,0.0394121304564351,improves,supported
+wands,minilm,lexical_ascending,raw_hybrid_seven_mean,nDCG@10,-0.003057195213127,-0.0088504627824103,0.0025842082692133,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_ascending,raw_hybrid_seven_mean,nDCG@20,-0.0023450427711701,-0.0065335923375676,0.001959063506452,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_ascending,raw_hybrid_seven_mean,cNDCG@10,-0.0001674004961881,-0.0048539104524159,0.0047490640350231,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_ascending,raw_hybrid_seven_mean,cNDCG@20,0.0001524690860549,-0.0034410294947845,0.0039085434063441,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_ascending,raw_hybrid_seven_mean,Recall@20,0.0044578757955165,-0.0031526682105649,0.0132790200575757,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_ascending,raw_hybrid_seven_mean,Recall@100,0.0006244878289576,-0.0036812383837407,0.0051573240733431,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,lexical_descending,nDCG@10,0.061097317083761,0.0435820919561143,0.0783523367822387,improves,supported
+wands,minilm,lexical_descending,lexical_descending,nDCG@20,0.0638130537420837,0.0492956916261655,0.0786394057385507,improves,supported
+wands,minilm,lexical_descending,lexical_descending,cNDCG@10,0.038014037243657,0.0247936964972465,0.050935244789349,improves,supported
+wands,minilm,lexical_descending,lexical_descending,cNDCG@20,0.033226108233159,0.0223962736105123,0.0439523529460567,improves,supported
+wands,minilm,lexical_descending,lexical_descending,Recall@20,0.066322865983716,0.0458714604068888,0.0888684685731337,improves,supported
+wands,minilm,lexical_descending,lexical_descending,Recall@100,0.0912553026974332,0.0719142491071668,0.1119036558326418,improves,supported
+wands,minilm,lexical_descending,BM25,nDCG@10,0.0378013928146959,0.0211530181862071,0.0547041060505291,improves,supported
+wands,minilm,lexical_descending,BM25,nDCG@20,0.043128551731675,0.0288080917659331,0.0575659591367632,improves,supported
+wands,minilm,lexical_descending,BM25,cNDCG@10,0.0127357618904243,-0.0002350821701869,0.0261755434565871,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,BM25,cNDCG@20,0.0167122052887319,0.0059757390870336,0.0279656987735549,improves,supported
+wands,minilm,lexical_descending,BM25,Recall@20,0.0146844204276448,-0.0011195365219107,0.0316490400933878,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,BM25,Recall@100,0.0205457229389215,0.0051642440078033,0.0366078395290937,improves,supported
+wands,minilm,lexical_descending,raw_hybrid_seven_mean,nDCG@10,6.768644466469808e-05,-0.0056495180051857,0.0059120908835849,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,raw_hybrid_seven_mean,nDCG@20,-0.0004115344568059,-0.0049924063031316,0.0042616927004008,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,raw_hybrid_seven_mean,cNDCG@10,-0.0010748681627589,-0.00639599828779,0.0043017752519935,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,raw_hybrid_seven_mean,cNDCG@20,-0.0012452021132126,-0.0051278414387878,0.0026766631550799,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,raw_hybrid_seven_mean,Recall@20,0.0017048042412612,-0.004995092067317,0.0089704579327419,inconclusive; equivalence not established,inconclusive
+wands,minilm,lexical_descending,raw_hybrid_seven_mean,Recall@100,-0.0026052253090169,-0.0071117775201704,0.0020560806302129,inconclusive; equivalence not established,inconclusive
+wands,minilm,field_priority_type,field_priority_type,nDCG@10,0.0635621567303601,0.0473803181801406,0.0795656108265665,improves,supported
+wands,minilm,field_priority_type,field_priority_type,nDCG@20,0.0676053552925851,0.05402274666315,0.081225321861847,improves,supported
+wands,minilm,field_priority_type,field_priority_type,cNDCG@10,0.0399326615840175,0.026409598668246,0.0531202733048153,improves,supported
+wands,minilm,field_priority_type,field_priority_type,cNDCG@20,0.0355975753251742,0.0252645385066066,0.0457929118035238,improves,supported
+wands,minilm,field_priority_type,field_priority_type,Recall@20,0.0737418254199106,0.0532238382197199,0.0967688640303395,improves,supported
+wands,minilm,field_priority_type,field_priority_type,Recall@100,0.0852318970859269,0.0669327159248549,0.105409121575889,improves,supported
+wands,minilm,field_priority_type,BM25,nDCG@10,0.038648575842505,0.0227625748272013,0.0549676239691184,improves,supported
+wands,minilm,field_priority_type,BM25,nDCG@20,0.0440538337573862,0.0298356675261491,0.0589277835512551,improves,supported
+wands,minilm,field_priority_type,BM25,cNDCG@10,0.012587778152162,0.0002187267047089,0.0257072035236584,improves,supported
+wands,minilm,field_priority_type,BM25,cNDCG@20,0.0175618500259854,0.0068516821172368,0.028958266202362,improves,supported
+wands,minilm,field_priority_type,BM25,Recall@20,0.0187527364669125,0.0018730013941966,0.036896616716342,improves,supported
+wands,minilm,field_priority_type,BM25,Recall@100,0.0247747197936583,0.0097394002441633,0.0410192607710229,improves,supported
+wands,minilm,field_priority_type,raw_hybrid_seven_mean,nDCG@10,0.0009148694724738,-0.0044762852154908,0.0063879646431107,inconclusive; equivalence not established,inconclusive
+wands,minilm,field_priority_type,raw_hybrid_seven_mean,nDCG@20,0.0005137475689053,-0.0040291094168119,0.0051883318443153,inconclusive; equivalence not established,inconclusive
+wands,minilm,field_priority_type,raw_hybrid_seven_mean,cNDCG@10,-0.0012228519010212,-0.0057998797589234,0.0033202371362709,inconclusive; equivalence not established,inconclusive
+wands,minilm,field_priority_type,raw_hybrid_seven_mean,cNDCG@20,-0.0003955573759591,-0.0037038251772242,0.0030061707823322,inconclusive; equivalence not established,inconclusive
+wands,minilm,field_priority_type,raw_hybrid_seven_mean,Recall@20,0.0057731202805289,-0.0010275882651722,0.0127204472321991,inconclusive; equivalence not established,inconclusive
+wands,minilm,field_priority_type,raw_hybrid_seven_mean,Recall@100,0.0016237715457197,-0.0029734684903555,0.0065775256492797,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_ascending,lexical_ascending,nDCG@10,0.0228308547583444,0.0092990619230672,0.0359943318613632,improves,supported
+wands,bge_base,lexical_ascending,lexical_ascending,nDCG@20,0.0258806907252608,0.0141624513890891,0.0378231745744123,improves,supported
+wands,bge_base,lexical_ascending,lexical_ascending,cNDCG@10,0.0038675435829116,-0.0073376580566174,0.0148403510989033,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_ascending,lexical_ascending,cNDCG@20,0.0024636305144007,-0.0066184665181364,0.0112842717606237,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_ascending,lexical_ascending,Recall@20,0.0137724671608347,0.0024246842066852,0.0257652666342529,improves,supported
+wands,bge_base,lexical_ascending,lexical_ascending,Recall@100,0.0491530540192423,0.0305682681998443,0.069044600903948,improves,supported
+wands,bge_base,lexical_ascending,BM25,nDCG@10,0.06713880724492,0.0516645086905089,0.0836955751968483,improves,supported
+wands,bge_base,lexical_ascending,BM25,nDCG@20,0.0691444594907566,0.0553607429761182,0.083209892218567,improves,supported
+wands,bge_base,lexical_ascending,BM25,cNDCG@10,0.0398564816459117,0.0276696240633938,0.0523116693378415,improves,supported
+wands,bge_base,lexical_ascending,BM25,cNDCG@20,0.0404172836685448,0.0299272886166892,0.0513384818076331,improves,supported
+wands,bge_base,lexical_ascending,BM25,Recall@20,0.0272981564377343,0.0084239762468798,0.0465534925177298,improves,supported
+wands,bge_base,lexical_ascending,BM25,Recall@100,0.0491966427758704,0.0302009896176978,0.069054499615658,improves,supported
+wands,bge_base,lexical_ascending,raw_hybrid_seven_mean,nDCG@10,-0.0012292861908696,-0.0049381765940574,0.0023470995207579,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_ascending,raw_hybrid_seven_mean,nDCG@20,-0.0014451341253958,-0.004016856312736,0.0010970987963983,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_ascending,raw_hybrid_seven_mean,cNDCG@10,-0.0025441360969575,-0.005484877367835,0.0003371492247821,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_ascending,raw_hybrid_seven_mean,cNDCG@20,-0.0019615482733764,-0.0042094278613844,0.0001415916105082,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_ascending,raw_hybrid_seven_mean,Recall@20,-0.0062411140542628,-0.0136984610206394,-0.0008446712560079,reduces,unsupported
+wands,bge_base,lexical_ascending,raw_hybrid_seven_mean,Recall@100,0.0037951018257106,-0.0013143746884284,0.0103735090857836,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,lexical_descending,nDCG@10,0.0231365423389347,0.009615248986566,0.0363459486042857,improves,supported
+wands,bge_base,lexical_descending,lexical_descending,nDCG@20,0.0248639144094886,0.0129013087876552,0.0365578711007439,improves,supported
+wands,bge_base,lexical_descending,lexical_descending,cNDCG@10,0.0053684684986659,-0.0056022391276702,0.0163076773037122,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,lexical_descending,cNDCG@20,0.0045315954980169,-0.0045076012416535,0.0136343438429068,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,lexical_descending,Recall@20,0.0209742311419793,0.0071448922523486,0.0358517377659864,improves,supported
+wands,bge_base,lexical_descending,lexical_descending,Recall@100,0.0431878802338533,0.0277478531463942,0.0595937784805979,improves,supported
+wands,bge_base,lexical_descending,BM25,nDCG@10,0.0669187897967508,0.0507659166485209,0.0835407032660589,improves,supported
+wands,bge_base,lexical_descending,BM25,nDCG@20,0.0724104106719054,0.0581504111970971,0.0869431251567717,improves,supported
+wands,bge_base,lexical_descending,BM25,cNDCG@10,0.0424164760594899,0.0300674070945675,0.0551593536030835,improves,supported
+wands,bge_base,lexical_descending,BM25,cNDCG@20,0.044150572405966,0.0337677300678104,0.0551777283424579,improves,supported
+wands,bge_base,lexical_descending,BM25,Recall@20,0.0365311323054824,0.0188006716024009,0.0551490458556294,improves,supported
+wands,bge_base,lexical_descending,BM25,Recall@100,0.0469542057563783,0.0280848799969201,0.0663353170833088,improves,supported
+wands,bge_base,lexical_descending,raw_hybrid_seven_mean,nDCG@10,-0.0014493036390389,-0.0049783995245031,0.0020160627954131,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,raw_hybrid_seven_mean,nDCG@20,0.0018208170557529,-0.0008677421792978,0.0044936078306785,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,raw_hybrid_seven_mean,cNDCG@10,1.5858316620723234e-05,-0.0033443509864959,0.0033304026603547,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,raw_hybrid_seven_mean,cNDCG@20,0.0017717404640447,-0.0006776153298003,0.0043659332484906,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,raw_hybrid_seven_mean,Recall@20,0.0029918618134852,-0.0016081424968514,0.0082470757418845,inconclusive; equivalence not established,inconclusive
+wands,bge_base,lexical_descending,raw_hybrid_seven_mean,Recall@100,0.0015526648062185,-0.0048460108307055,0.0101593476869312,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,field_priority_type,nDCG@10,0.0205723226305829,0.0077947386355009,0.0328989210929378,improves,supported
+wands,bge_base,field_priority_type,field_priority_type,nDCG@20,0.0232113958919383,0.0115596654767318,0.034943775666093,improves,supported
+wands,bge_base,field_priority_type,field_priority_type,cNDCG@10,0.0030660395504346,-0.007585109381147,0.0135052611896769,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,field_priority_type,cNDCG@20,0.0023209887202537,-0.0065031190474609,0.0109382214468744,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,field_priority_type,Recall@20,0.0113675462552828,-0.000118443578079,0.0233541606021484,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,field_priority_type,Recall@100,0.0426516032274155,0.0258018416042594,0.0607085928521243,improves,supported
+wands,bge_base,field_priority_type,BM25,nDCG@10,0.0681902643574743,0.052205208180488,0.0847869624153343,improves,supported
+wands,bge_base,field_priority_type,BM25,nDCG@20,0.0714043914348134,0.0572327044049601,0.0860229179263526,improves,supported
+wands,bge_base,field_priority_type,BM25,cNDCG@10,0.0418889795031594,0.0294870636451303,0.0546553869697358,improves,supported
+wands,bge_base,field_priority_type,BM25,cNDCG@20,0.0416392709283713,0.0307489034120896,0.053032872395111,improves,supported
+wands,bge_base,field_priority_type,BM25,Recall@20,0.0290009445601879,0.0102516586063164,0.0483563076962366,improves,supported
+wands,bge_base,field_priority_type,BM25,Recall@100,0.0459743055399752,0.0277054297426577,0.0642324471524393,improves,supported
+wands,bge_base,field_priority_type,raw_hybrid_seven_mean,nDCG@10,-0.0001778290783154,-0.003554739272361,0.0033237660669229,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,raw_hybrid_seven_mean,nDCG@20,0.0008147978186609,-0.0018313280496323,0.0035210737527846,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,raw_hybrid_seven_mean,cNDCG@10,-0.0005116382397098,-0.0032800322518947,0.0022432077433919,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,raw_hybrid_seven_mean,cNDCG@20,-0.0007395610135499,-0.002883045713035,0.0013732874649465,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,raw_hybrid_seven_mean,Recall@20,-0.0045383259318092,-0.0117168061349023,0.0003539097986395,inconclusive; equivalence not established,inconclusive
+wands,bge_base,field_priority_type,raw_hybrid_seven_mean,Recall@100,0.0005727645898154,-0.003110445388267,0.0039593444295733,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,lexical_ascending,nDCG@10,0.0409221578543924,0.0242355792213016,0.0573096332652744,improves,supported
+esci,minilm,lexical_ascending,lexical_ascending,nDCG@20,0.0376914828393602,0.0231200876028823,0.0517521585321241,improves,supported
+esci,minilm,lexical_ascending,lexical_ascending,cNDCG@10,0.008478061245282,-0.002231251691053,0.0190444111200548,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,lexical_ascending,cNDCG@20,0.0039180335972394,-0.0037482071674079,0.0113631184086308,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,lexical_ascending,Recall@20,0.0398218664918551,0.0206134395027011,0.0591113491587408,improves,supported
+esci,minilm,lexical_ascending,lexical_ascending,Recall@100,0.0309500097568022,0.0189305765915872,0.0440475689349491,improves,supported
+esci,minilm,lexical_ascending,BM25,nDCG@10,0.01522420483294,0.0021129277209577,0.0279953085049364,improves,supported
+esci,minilm,lexical_ascending,BM25,nDCG@20,0.024135097917565,0.0123492521163498,0.0358454128663735,improves,supported
+esci,minilm,lexical_ascending,BM25,cNDCG@10,0.0141355691517745,0.0027097660935236,0.0256895832979278,improves,supported
+esci,minilm,lexical_ascending,BM25,cNDCG@20,0.0077616185171881,-0.0007669241747713,0.016193416327079,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,BM25,Recall@20,0.0379367559575947,0.0208624268070721,0.0549552528095782,improves,supported
+esci,minilm,lexical_ascending,BM25,Recall@100,0.0667478668671202,0.0515978662478723,0.0827594697706389,improves,supported
+esci,minilm,lexical_ascending,raw_hybrid_seven_mean,nDCG@10,-0.0006035462200648,-0.0035107211895232,0.0019026266651169,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,raw_hybrid_seven_mean,nDCG@20,-0.0011879455139963,-0.0039337919391598,0.0010446669155101,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,raw_hybrid_seven_mean,cNDCG@10,-0.0004765641456962,-0.0033597563818527,0.0019767880820087,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,raw_hybrid_seven_mean,cNDCG@20,-0.000763497071068,-0.0034064953366119,0.0013538094464368,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,raw_hybrid_seven_mean,Recall@20,-0.0001237106551795,-0.0026101142057897,0.0022079957378417,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_ascending,raw_hybrid_seven_mean,Recall@100,-0.0006031696537708,-0.0020435817909783,0.0006742414579964,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,lexical_descending,nDCG@10,0.0414171382829958,0.0247938526462572,0.0575461761433961,improves,supported
+esci,minilm,lexical_descending,lexical_descending,nDCG@20,0.0396724135538973,0.0253613014570785,0.053324431844007,improves,supported
+esci,minilm,lexical_descending,lexical_descending,cNDCG@10,0.0097002199541689,-0.0006262376691179,0.0199570176538841,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,lexical_descending,cNDCG@20,0.0050400795043508,-0.0026902036275169,0.0125911539633242,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,lexical_descending,Recall@20,0.0403431538400987,0.0222431696097301,0.0587411509322055,improves,supported
+esci,minilm,lexical_descending,lexical_descending,Recall@100,0.0327436254782736,0.0204990921435473,0.046108065481472,improves,supported
+esci,minilm,lexical_descending,BM25,nDCG@10,0.0159642367457876,0.0030572285610096,0.0285878468378101,improves,supported
+esci,minilm,lexical_descending,BM25,nDCG@20,0.0253945256066567,0.013853129255526,0.0369186135094604,improves,supported
+esci,minilm,lexical_descending,BM25,cNDCG@10,0.013313019223162,0.0020888679822143,0.0247450092512188,improves,supported
+esci,minilm,lexical_descending,BM25,cNDCG@20,0.0072916410575428,-0.0008057724594562,0.0153985853818175,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,BM25,Recall@20,0.0387001186956421,0.0217979868732697,0.0556710807514104,improves,supported
+esci,minilm,lexical_descending,BM25,Recall@100,0.068239104605853,0.0530481518771217,0.0842003719703775,improves,supported
+esci,minilm,lexical_descending,raw_hybrid_seven_mean,nDCG@10,0.0001364856927826,-0.0021853219820889,0.0024521872207418,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,raw_hybrid_seven_mean,nDCG@20,7.148217509532465e-05,-0.0019147247547624,0.0019352152071769,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,raw_hybrid_seven_mean,cNDCG@10,-0.0012991140743087,-0.003419064056394,0.0006831908930624,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,raw_hybrid_seven_mean,cNDCG@20,-0.0012334745307132,-0.0029412199517801,0.0002348835674317,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,raw_hybrid_seven_mean,Recall@20,0.0006396520828678,-0.0023078831727686,0.0036579790831424,inconclusive; equivalence not established,inconclusive
+esci,minilm,lexical_descending,raw_hybrid_seven_mean,Recall@100,0.0008880680849618,-0.0005837984101207,0.0026544386529535,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,field_priority_type,nDCG@10,0.040751043335846,0.024068042272136,0.0569752203332369,improves,supported
+esci,minilm,field_priority_type,field_priority_type,nDCG@20,0.0378411474659203,0.0233531888714762,0.0518567260055527,improves,supported
+esci,minilm,field_priority_type,field_priority_type,cNDCG@10,0.0081962978376029,-0.0023883054348546,0.0186898595324193,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,field_priority_type,cNDCG@20,0.0036212737219831,-0.0040325139198286,0.0110292861279724,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,field_priority_type,Recall@20,0.0401174070679568,0.0209407595447803,0.0595051973614363,improves,supported
+esci,minilm,field_priority_type,field_priority_type,Recall@100,0.0318457406124529,0.0198360389240764,0.0449971663472994,improves,supported
+esci,minilm,field_priority_type,BM25,nDCG@10,0.0151021654997494,0.0020733036608068,0.0278493905026504,improves,supported
+esci,minilm,field_priority_type,BM25,nDCG@20,0.0240682959027581,0.0122661579576975,0.0357640806943488,improves,supported
+esci,minilm,field_priority_type,BM25,cNDCG@10,0.0139831135933007,0.0024921137920809,0.025553408328394,improves,supported
+esci,minilm,field_priority_type,BM25,cNDCG@20,0.0076334506226192,-0.0008371500273369,0.0161174856022964,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,BM25,Recall@20,0.0380703564919968,0.0210341393154999,0.055065870896432,improves,supported
+esci,minilm,field_priority_type,BM25,Recall@100,0.0670970500820349,0.0519378991356484,0.0831472393552942,improves,supported
+esci,minilm,field_priority_type,raw_hybrid_seven_mean,nDCG@10,-0.0007255855532554,-0.0036318481362961,0.001780881071508,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,raw_hybrid_seven_mean,nDCG@20,-0.0012547475288032,-0.0039884944502317,0.0009719780612832,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,raw_hybrid_seven_mean,cNDCG@10,-0.00062901970417,-0.0035007302944784,0.0017890697901058,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,raw_hybrid_seven_mean,cNDCG@20,-0.0008916649656369,-0.003526523733342,0.0012024400615033,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,raw_hybrid_seven_mean,Recall@20,9.88987922258425e-06,-0.0024806875532582,0.0023344253017246,inconclusive; equivalence not established,inconclusive
+esci,minilm,field_priority_type,raw_hybrid_seven_mean,Recall@100,-0.0002539864388561,-0.0018115299893588,0.001281738279931,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,lexical_ascending,nDCG@10,0.0085085563526095,-0.0065526283429715,0.0236539572942793,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,lexical_ascending,nDCG@20,0.0077604920203402,-0.0063647463135825,0.0215064373714068,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,lexical_ascending,cNDCG@10,-0.0086927891266605,-0.0196435732692187,0.0022874725268572,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,lexical_ascending,cNDCG@20,-0.0082567031966414,-0.0167955024741697,0.0003193857835236,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,lexical_ascending,Recall@20,0.0116618712036832,-0.0067527401060799,0.0297948716482923,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,lexical_ascending,Recall@100,0.0050932592653199,-0.0032468942489934,0.0134802139149033,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,BM25,nDCG@10,0.0480906954377952,0.0360365092822679,0.0601839794360628,improves,supported
+esci,bge_base,lexical_ascending,BM25,nDCG@20,0.0558502917405582,0.0454016218641754,0.0663395864253808,improves,supported
+esci,bge_base,lexical_ascending,BM25,cNDCG@10,0.0234217522796758,0.0131825786318091,0.0338472542242286,improves,supported
+esci,bge_base,lexical_ascending,BM25,cNDCG@20,0.0154607438766635,0.0079619504095322,0.0232490209043384,improves,supported
+esci,bge_base,lexical_ascending,BM25,Recall@20,0.0732270661463254,0.0573092087297571,0.0901979581887014,improves,supported
+esci,bge_base,lexical_ascending,BM25,Recall@100,0.0872250231632049,0.0706335546184873,0.1046263084477145,improves,supported
+esci,bge_base,lexical_ascending,raw_hybrid_seven_mean,nDCG@10,0.0017535579607619,-0.0006871272823066,0.0044304186108547,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,raw_hybrid_seven_mean,nDCG@20,0.0020035706916784,0.0001529342999879,0.0042584518895817,improves,supported
+esci,bge_base,lexical_ascending,raw_hybrid_seven_mean,cNDCG@10,0.0019988923205165,-0.0001937734760003,0.004513645041027,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,raw_hybrid_seven_mean,cNDCG@20,0.0013182616290605,-0.000312061500273,0.0034351443565528,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,raw_hybrid_seven_mean,Recall@20,0.0016954129276193,-0.0002539186575204,0.0037564831510573,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_ascending,raw_hybrid_seven_mean,Recall@100,-0.0005568837854527,-0.0016932483444972,0.000420254740868,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,lexical_descending,nDCG@10,0.0099748659183766,-0.005042833570231,0.0250949246239254,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,lexical_descending,nDCG@20,0.0077611539130486,-0.005929334640418,0.0213250248729638,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,lexical_descending,cNDCG@10,-0.0108111875989936,-0.0218466341644876,8.108046240217973e-05,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,lexical_descending,cNDCG@20,-0.0076067567481145,-0.0160549609578357,0.0007533600808195,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,lexical_descending,Recall@20,0.0116517401788052,-0.0065324766992016,0.0296483706100328,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,lexical_descending,Recall@100,0.0053875138878821,-0.0028483377146231,0.0137263929150621,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,BM25,nDCG@10,0.0462477536668633,0.0340521813529058,0.0582709788966305,improves,supported
+esci,bge_base,lexical_descending,BM25,nDCG@20,0.053887833739373,0.0433040949921805,0.0646289247228601,improves,supported
+esci,bge_base,lexical_descending,BM25,cNDCG@10,0.0197568682468044,0.0092699514126521,0.0302003093485389,improves,supported
+esci,bge_base,lexical_descending,BM25,cNDCG@20,0.0140696560804619,0.0064246477533959,0.0219449348864011,improves,supported
+esci,bge_base,lexical_descending,BM25,Recall@20,0.0707631683505313,0.0548286691268999,0.0876941763244137,improves,supported
+esci,bge_base,lexical_descending,BM25,Recall@100,0.087197593363731,0.0705565879013365,0.10475668221626,improves,supported
+esci,bge_base,lexical_descending,raw_hybrid_seven_mean,nDCG@10,-8.938381016989381e-05,-0.0025738003873234,0.0025365934042146,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,raw_hybrid_seven_mean,nDCG@20,4.1112690493233305e-05,-0.0019283968738558,0.0022946763076134,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,raw_hybrid_seven_mean,cNDCG@10,-0.0016659917123548,-0.0041283033472531,0.0009903684811333,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,raw_hybrid_seven_mean,cNDCG@20,-7.282616714104755e-05,-0.00190335165548,0.0020860546858342,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,raw_hybrid_seven_mean,Recall@20,-0.0007684848681747,-0.0032590832623736,0.0017055873511874,inconclusive; equivalence not established,inconclusive
+esci,bge_base,lexical_descending,raw_hybrid_seven_mean,Recall@100,-0.0005843135849266,-0.0022034966950243,0.001024581342807,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,field_priority_type,nDCG@10,0.0081964621420036,-0.0068365186579885,0.0232714821586004,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,field_priority_type,nDCG@20,0.0079573621049552,-0.0062629112856608,0.0216780904061073,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,field_priority_type,cNDCG@10,-0.0092070059102289,-0.0201854895390354,0.0018269943327949,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,field_priority_type,cNDCG@20,-0.0082201523918314,-0.0167920946641892,0.0003755874457063,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,field_priority_type,Recall@20,0.0121390159694051,-0.0063394383000503,0.0302773028148516,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,field_priority_type,Recall@100,0.0048427582633158,-0.0034636461303055,0.0132364954607678,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,BM25,nDCG@10,0.0474482214648987,0.0353999572987611,0.0595570174866783,improves,supported
+esci,bge_base,field_priority_type,BM25,nDCG@20,0.0558021217925753,0.0452971188477774,0.0663059747473011,improves,supported
+esci,bge_base,field_priority_type,BM25,cNDCG@10,0.0231214437233476,0.0129119575404296,0.0335648151796014,improves,supported
+esci,bge_base,field_priority_type,BM25,cNDCG@20,0.0154874130698297,0.0079671068252646,0.0232490480175808,improves,supported
+esci,bge_base,field_priority_type,BM25,Recall@20,0.0734775671483294,0.0575462529729218,0.0904967889976508,improves,supported
+esci,bge_base,field_priority_type,BM25,Recall@100,0.0873791776259766,0.0707746401886727,0.1048673268474729,improves,supported
+esci,bge_base,field_priority_type,raw_hybrid_seven_mean,nDCG@10,0.0011110839878655,-0.0013317669508851,0.0038247336511387,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,raw_hybrid_seven_mean,nDCG@20,0.0019554007436955,9.022716469063736e-05,0.00419195857264,improves,supported
+esci,bge_base,field_priority_type,raw_hybrid_seven_mean,cNDCG@10,0.0016985837641883,-0.0005223122945004,0.004226288592928,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,raw_hybrid_seven_mean,cNDCG@20,0.0013449308222268,-0.0003034841380043,0.0034806188491015,inconclusive; equivalence not established,inconclusive
+esci,bge_base,field_priority_type,raw_hybrid_seven_mean,Recall@20,0.0019459139296233,1.1407263388322816e-05,0.0040186382727155,improves,supported
+esci,bge_base,field_priority_type,raw_hybrid_seven_mean,Recall@100,-0.000402729322681,-0.0014981746276712,0.0005541118007121,inconclusive; equivalence not established,inconclusive

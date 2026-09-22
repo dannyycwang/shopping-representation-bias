@@ -1,0 +1,9 @@
+{
+  "condition_count": 122,
+  "per_query_records": 49227,
+  "encoding_performed": false,
+  "elapsed_seconds": 254.46498310007155,
+  "recall_and_Hq_gain_swap_invariance_verified_every_record": true,
+  "all_judged_support_verified_every_record": true,
+  "protocol_sha256": "0810361666810b8ec8aca294cda26e9ad23fc50ea381e8ebbd686c26bab2747e"
+}

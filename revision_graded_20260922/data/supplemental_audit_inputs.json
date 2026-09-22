@@ -1,0 +1,125 @@
+{
+  "files": [
+    {
+      "path": "phase2/data/esci_repo/shopping_queries_dataset/shopping_queries_dataset_examples.parquet",
+      "sha256": "4a735b693b4a424a6fc67f5be6e4c811495c488bbf66d02a602d308b2744263a",
+      "bytes": 51286808
+    },
+    {
+      "path": "data/raw/label.csv",
+      "sha256": "c11fe81ad62f17f56f316b0ec9630ebe8fbe1393578cb0ca4f05c17253a180ef",
+      "bytes": 5736234
+    },
+    {
+      "path": "phase2/scripts/analyze_mitigations.py",
+      "sha256": "1d2ccb088c7a0baa74a3585c4e9d24447ff8619fa9143ccdfe7d9457449ea7a7",
+      "bytes": 16062
+    },
+    {
+      "path": "phase2/scripts/analyze_sensitivity.py",
+      "sha256": "3ec1478edf548a817858ee24a960dbdfd64c180731d70dd6be9cdbbe2531bb1c",
+      "bytes": 11519
+    },
+    {
+      "path": "phase2/scripts/run_dense.py",
+      "sha256": "da25a23dd0e5a779df2ece6029df42739664cefe635419c91594cc9d405cdb6a",
+      "bytes": 3731
+    },
+    {
+      "path": "phase2/scripts/run_mitigations.py",
+      "sha256": "7a07500e4644e8ef77d0a04b16dd4c3a38035af9bbb6352bc1d6e3cc2575feae",
+      "bytes": 9802
+    },
+    {
+      "path": "phase2/src/encoding.py",
+      "sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa",
+      "bytes": 11997
+    },
+    {
+      "path": "phase3/scripts/audit_metrics.py",
+      "sha256": "d9fb79da21861189c755cd2209adf6f69ef57acfe793b4a33eedc9e9f5890509",
+      "bytes": 6213
+    },
+    {
+      "path": "phase3/scripts/analyze_official_esci.py",
+      "sha256": "38a2f360d251222e2735fb1f514d87812be2e2db7b1ff254747d2e5303a5db71",
+      "bytes": 3340
+    },
+    {
+      "path": "phase3/scripts/run_invariant_method.py",
+      "sha256": "a6ebc1b4c33852751952bed6b0b14d46a5aa9e50ce001940b76027bf9fc5fe95",
+      "bytes": 8662
+    },
+    {
+      "path": "phase3/scripts/run_ecommerce_retriever.py",
+      "sha256": "cafed1ce2c5395a0d960fe24de4216a192f40609b9318f7599be67265251e64f",
+      "bytes": 5594
+    },
+    {
+      "path": "phase3/scripts/analyze_pareto.py",
+      "sha256": "234c522af0febf65d42da67ad822334dcbe2a3004e2c603c7b881898b1c93761",
+      "bytes": 3080
+    },
+    {
+      "path": "phase4/scripts/audit_and_diagnose.py",
+      "sha256": "2660b10d064ec7200da36a158bcd6b975543cdf54c162598e437f9e3becf2689",
+      "bytes": 6770
+    },
+    {
+      "path": "phase4/scripts/common.py",
+      "sha256": "6084ed13bd9a93483e69e1ee27dfb2b53b04b67ceb09fe56282426c4956eccdf",
+      "bytes": 6270
+    },
+    {
+      "path": "phase4/scripts/run_methods.py",
+      "sha256": "5b81da6e3dc4261a0cebb936638be8912383a6ff6f582ceb59642b56f65a56f9",
+      "bytes": 6129
+    },
+    {
+      "path": "phase4/results/esci_gain_repair.csv",
+      "sha256": "fe12f18d9c1225fff09fa291823cd7509cc866bc357edd3b22e1fb0e0684044d",
+      "bytes": 13811
+    },
+    {
+      "path": "phase5_mitigation/screen.py",
+      "sha256": "b2e1ada20341cd1f6aa5c65bad428e8bb98f21f4819437aeb0ea6b458f059641",
+      "bytes": 17732
+    },
+    {
+      "path": "phase6_corrected/PHASE6_CONFIG.json",
+      "sha256": "f14e0184935a2235b600dd475c2d8dead931e1ccd851da660c655ea87fdd4a5b",
+      "bytes": 18541
+    },
+    {
+      "path": "revision_completion_20260921/tables/strategy_costs.csv",
+      "sha256": "7211a101b08b351abb644748303d2ddd63ddf9c01e7d838cd69268fa0b347dad",
+      "bytes": 27642
+    },
+    {
+      "path": "revision_completion_20260921/data/structural_invariance_audit.csv",
+      "sha256": "211ba33996abd6c6598cf3f966cc7b45e4d3fd70bdfa0e684ae357ba4ce2aef9",
+      "bytes": 2422
+    },
+    {
+      "path": "phase4/results/wands/minilm_canonical_raw_scores.npy",
+      "sha256": "5c5f6b6b6e8ca61f0454d77de2ce1509dca3ac6e3b3f2661e09bd58f236066c3",
+      "bytes": 82548608
+    },
+    {
+      "path": "phase4/results/wands/bge_base_canonical_raw_scores.npy",
+      "sha256": "c6ca9b45ffbdd931c41e33edc0fed8fc2c589a0387d2cd5165e6e7bab581c5b5",
+      "bytes": 82548608
+    },
+    {
+      "path": "phase4/results/esci/minilm_canonical_raw_scores.npy",
+      "sha256": "e04f75c399f876e2a3ca18a14ba3758a7e0f4030b93425470a99f0713e39cf44",
+      "bytes": 20152128
+    },
+    {
+      "path": "phase4/results/esci/bge_base_canonical_raw_scores.npy",
+      "sha256": "fdaf6be9b4ae5c9877f9328e65ecfa8b89faae3fa93a59808486d4344c1fd0fc",
+      "bytes": 20152128
+    }
+  ],
+  "scope": "read-only label trace, consumer audit, and inherited cost/state validation; no design change"
+}
