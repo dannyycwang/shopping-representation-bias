@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\centering
+\caption{Recall@100 (\%) on the common query populations. Values are descriptive point estimates; hybrid uses the source-order dense branch.}
+\label{tab:platform_recall}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{WANDS} & \multicolumn{2}{c}{ESCI} \\
+Method & MiniLM & BGE & MiniLM & BGE \\
+\midrule
+Raw source order & 57.88 & 63.17 & 86.14 & 90.98 \\
+Lexical ascending & 56.05 & 63.24 & 86.41 & 91.05 \\
+Set-Mean & 58.81 & 61.82 & 84.50 & 88.95 \\
+Centroid ($M=2$) & 56.44 & 63.96 & 86.33 & 91.07 \\
+Multi-vector ($M=2$) & 57.04 & 64.00 & 86.35 & 91.09 \\
+BM25 & 63.23 & 63.23 & 82.83 & 82.83 \\
+Hybrid (source order) & 65.32 & 68.06 & 89.57 & 91.51 \\
+\bottomrule
+\end{tabular}
+\end{table}

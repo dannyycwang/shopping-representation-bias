@@ -1,0 +1,49 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Joint strategy states and paired mean-Recall differences at $K=20$. Percentages and percentage points.}
+\label{tab:joint_states20}
+\begin{tabular}{llrrrrr}
+\toprule
+Cell & Method & Mean R & VI & Always & Never & $\Delta R$ C0 [95\% CI] \\
+\midrule
+WANDS/MiniLM & Raw (seven schedules) & 29.47 & 19.58 & 20.95 & 59.47 & -1.34 [-2.53, -0.22] \\
+WANDS/MiniLM & Canonical ascending & 28.72 & 0.00 & 28.72 & 71.28 & -2.09 [-4.03, -0.22] \\
+WANDS/MiniLM & Canonical descending & 29.56 & 0.00 & 29.56 & 70.44 & -1.25 [-2.69, +0.06] \\
+WANDS/MiniLM & Canonical type/style & 29.22 & 0.00 & 29.22 & 70.78 & -1.59 [-3.49, +0.22] \\
+WANDS/MiniLM & Set-Mean & 31.59 & 0.00 & 31.59 & 68.41 & +0.78 [-1.24, +2.80] \\
+WANDS/MiniLM & Centroid, $M=2$ & 29.57 & 0.00 & 29.57 & 70.43 & -1.24 [-2.84, +0.31] \\
+WANDS/MiniLM & Multi-vector max, $M=2$ & 29.77 & 0.00 & 29.77 & 70.23 & -1.04 [-2.69, +0.55] \\
+WANDS/MiniLM & BM25 & 34.72 & 0.00 & 34.72 & 65.28 & +3.91 [+1.37, +6.44] \\
+WANDS/MiniLM & Hybrid (seven schedules) & 36.02 & 13.70 & 29.49 & 56.81 & +5.21 [+3.45, +7.12] \\
+WANDS/BGE & Raw (seven schedules) & 36.04 & 11.93 & 30.47 & 57.60 & -0.07 [-0.43, +0.28] \\
+WANDS/BGE & Canonical ascending & 36.07 & 0.00 & 36.07 & 63.93 & -0.03 [-0.53, +0.45] \\
+WANDS/BGE & Canonical descending & 36.28 & 0.00 & 36.28 & 63.72 & +0.17 [-0.72, +1.16] \\
+WANDS/BGE & Canonical type/style & 36.48 & 0.00 & 36.48 & 63.52 & +0.38 [-0.08, +0.89] \\
+WANDS/BGE & Set-Mean & 35.30 & 0.00 & 35.30 & 64.70 & -0.80 [-1.99, +0.32] \\
+WANDS/BGE & Centroid, $M=2$ & 36.40 & 0.00 & 36.40 & 63.60 & +0.30 [-0.06, +0.66] \\
+WANDS/BGE & Multi-vector max, $M=2$ & 36.39 & 0.00 & 36.39 & 63.61 & +0.29 [-0.06, +0.64] \\
+WANDS/BGE & BM25 & 34.72 & 0.00 & 34.72 & 65.28 & -1.38 [-3.77, +0.95] \\
+WANDS/BGE & Hybrid (seven schedules) & 38.07 & 7.52 & 34.30 & 58.18 & +1.97 [+0.76, +3.28] \\
+ESCI/MiniLM & Raw (seven schedules) & 67.58 & 4.04 & 65.47 & 30.49 & -0.38 [-0.83, +0.08] \\
+ESCI/MiniLM & Canonical ascending & 67.50 & 0.00 & 67.50 & 32.50 & -0.46 [-0.98, +0.05] \\
+ESCI/MiniLM & Canonical descending & 67.52 & 0.00 & 67.52 & 32.48 & -0.43 [-1.13, +0.30] \\
+ESCI/MiniLM & Canonical type/style & 67.48 & 0.00 & 67.48 & 32.52 & -0.47 [-1.00, +0.03] \\
+ESCI/MiniLM & Set-Mean & 66.43 & 0.00 & 66.43 & 33.57 & -1.53 [-3.08, +0.08] \\
+ESCI/MiniLM & Centroid, $M=2$ & 67.90 & 0.00 & 67.90 & 32.10 & -0.06 [-0.59, +0.47] \\
+ESCI/MiniLM & Multi-vector max, $M=2$ & 67.69 & 0.00 & 67.69 & 32.31 & -0.27 [-0.74, +0.22] \\
+ESCI/MiniLM & BM25 & 67.69 & 0.00 & 67.69 & 32.31 & -0.27 [-2.90, +2.38] \\
+ESCI/MiniLM & Hybrid (seven schedules) & 71.49 & 3.27 & 69.85 & 26.89 & +3.54 [+1.66, +5.44] \\
+ESCI/BGE & Raw (seven schedules) & 73.83 & 3.66 & 71.89 & 24.44 & -0.27 [-0.55, -0.02] \\
+ESCI/BGE & Canonical ascending & 73.84 & 0.00 & 73.84 & 26.16 & -0.26 [-0.65, +0.09] \\
+ESCI/BGE & Canonical descending & 73.60 & 0.00 & 73.60 & 26.40 & -0.51 [-0.95, -0.12] \\
+ESCI/BGE & Canonical type/style & 73.82 & 0.00 & 73.82 & 26.18 & -0.29 [-0.68, +0.08] \\
+ESCI/BGE & Set-Mean & 71.98 & 0.00 & 71.98 & 28.02 & -2.13 [-3.74, -0.57] \\
+ESCI/BGE & Centroid, $M=2$ & 73.86 & 0.00 & 73.86 & 26.14 & -0.24 [-0.64, +0.10] \\
+ESCI/BGE & Multi-vector max, $M=2$ & 73.93 & 0.00 & 73.93 & 26.07 & -0.17 [-0.48, +0.13] \\
+ESCI/BGE & BM25 & 67.69 & 0.00 & 67.69 & 32.31 & -6.42 [-8.93, -3.97] \\
+ESCI/BGE & Hybrid (seven schedules) & 74.84 & 2.31 & 73.69 & 24.00 & +0.73 [-1.12, +2.56] \\
+\bottomrule
+\end{tabular}
+\end{table*}

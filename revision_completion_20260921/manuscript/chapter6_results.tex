@@ -1,0 +1,65 @@
+% Replacement for Section 6. All numerical prose below is supported by the checked snapshot.
+% Copy the accompanying figures/ and tables/ directories into the manuscript root.
+% Updated from revision_completion_20260921; P1/P2/P3 computed from audited saved inputs.
+\section{Results}
+\label{sec:results}
+
+We first examine candidate inclusion under attribute permutations, then quantify membership changes relative to Recall, and finally compare representation and retrieval controls. All main estimates use the primary query populations in Section~\ref{sec:evaluation_populations}.
+
+\subsection{RQ1: Attribute Order and Relevant-Product Inclusion}
+\label{sec:results_rq1}
+
+Catalog-wide permutations change relevant-product inclusion in every dataset--encoder setting. Across the seven schedules, VI@20 is 19.58\%, 11.93\%, and 14.47\% on WANDS for MiniLM, BGE, and GTE, respectively; the corresponding ESCI values are 4.04\%, 3.66\%, and 6.91\%. These proportions measure crossing within the tested family, rather than the probability of omission after one arbitrary update.
+
+The effect persists when only a target's representation changes. With every competitor fixed at its source-order representation, target-only VI@20 is 19.45\%, 10.83\%, and 14.55\% on WANDS, and 2.91\%, 2.42\%, and 5.88\% on ESCI. A product's own attribute order is therefore sufficient to change its candidate status in these controlled comparisons. Figure~1 illustrates one such case; the population estimates establish its broader scope.
+
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/rq1_vi_top20_main.pdf}
+  \caption{Target-only VI@20 for all eligible targets and fully-fitting targets. Bars show 95\% query-cluster intervals; labels report query/pair counts. Dataset panels use different horizontal scales.}
+  \label{fig:rq1_target_fitting}
+  \Description{For each of three encoders and two datasets, the plot compares target-only cutoff crossing on full and fully-fitting target populations. Every competitor remains at source order. GTE has identical full and fitting populations.}
+\end{figure*}
+
+Truncation is not necessary for this sensitivity. Among targets whose seven inputs all fit, VI@20 remains 10.59\%, 7.16\%, and 14.55\% on WANDS and 3.20\%, 2.55\%, and 5.88\% on ESCI (Figure~\ref{fig:rq1_target_fitting}). All GTE catalog inputs fit its 8,192-token limit. MiniLM and BGE fitting supports differ from their full populations and from each other; their differences cannot isolate a truncation effect or rank intrinsic encoder sensitivity.
+
+Persistent omission also remains substantial. For example, WANDS/\allowbreak BGE catalog-wide retrieval at $K=100$ yields 57.18\% persistent inclusion, 12.30\% VI, and 30.51\% persistent omission. All three states must be considered: lower instability alone does not establish broader access to relevant products.
+
+
+Increasing the cutoff improves persistent inclusion but need not reduce VI monotonically. For example, WANDS/\allowbreak MiniLM target-only VI rises from 19.45\% at $K=20$ to 22.45\% at $K=100$, then falls to 10.45\% at $K=1000$ on the same support. Crossings are not uniformly confined to the cutoff neighborhood: at $K=20$, 12.77\% of all WANDS/\allowbreak MiniLM targets cross and have worst rank above 40, and 5.25\% cross and exceed 100, using query-macro shares. Corresponding ESCI shares are smaller. The supplementary cutoff and severity analyses distinguish all-target shares from conditional crossing proportions and from source-order losses; rank movement alone does not identify an attention mechanism.
+
+\subsection{RQ2: Recall Changes and Relevant-Product Membership}
+\label{sec:results_rq2}
+
+Net Recall changes can understate changes in which relevant products are retrieved. Across the six source-order comparisons at $K=20$, WANDS membership change is 8.23--10.52\% for MiniLM, 4.31--4.77\% for BGE, and 5.75--6.36\% for GTE. Corresponding net Recall changes range from $-2.60$ to $-0.95$, $-0.46$ to $+0.14$, and $-0.92$ to $+0.14$ percentage points. Thus aggregate changes are not uniformly small, but they do not describe the full extent of membership changes. ESCI exhibits smaller changes, which remain nonzero in every encoder/cutoff setting.
+
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/rq2_membership_top20_main.pdf}
+  \caption{Catalog-wide membership changes relative to source order at $K=20$. Left/right bars show newly omitted/included shares of $H_q$; diamonds show net Recall changes with 95\% paired intervals.}
+  \label{fig:rq2_membership}
+  \Description{Six dataset--encoder panels show all six alternative orders relative to source order. Newly omitted and newly included relevant-product fractions extend left and right; their difference is net Recall change. Intervals belong to net Recall changes.}
+\end{figure*}
+
+Figure~\ref{fig:rq2_membership} separates the two sides of this exchange. For WANDS/\allowbreak BGE under reversal, newly included and newly omitted shares are 2.357\% and 2.263\%, respectively. Their sum is 4.621\%, while net Recall changes by only $+0.094$ points. Shares use all highest-relevance products within each query before macro aggregation; they are not fractions of the top-20 list.
+
+Cancellation also occurs within individual queries. Across the six WANDS comparisons, exactly equal positive gain and loss counts occur for 52--67 of 308 queries with MiniLM, 67--78 with BGE, and 61--81 with GTE: 16.88--21.75\%, 21.75--25.32\%, and 19.81--26.30\%, respectively. Each affected query has unchanged Recall despite different relevant-product membership. ESCI ranges are 1.40--2.81\%, 2.40--3.21\%, and 3.01--4.21\%. These are ranges over comparisons, not confidence intervals or disjoint query groups. Membership tracking therefore adds information even to a per-query Recall comparison.
+
+\subsection{RQ3: Effectiveness and Consistent Inclusion under Controls}
+\label{sec:results_rq3}
+
+Pure canonicalization removes incoming-order dependence by construction. Its effectiveness nevertheless depends on the fixed rule and evaluation setting (Table~\ref{tab:canonical_top20}). At $K=20$, all three rules have lower point estimates than source order for WANDS/\allowbreak MiniLM and for each ESCI encoder; WANDS/\allowbreak BGE and WANDS/\allowbreak GTE include both increases and decreases. A uniform effectiveness cost of invariance is therefore unsupported.
+
+\input{tables/canonical_top20.tex}
+
+The reference matters. WANDS/\allowbreak BGE lexical ascending yields 63.237\% Recall@100: $+0.066$ points relative to source order (63.171\%), but $-0.383$ relative to the raw seven-order mean (63.620\%). Stability also does not preserve source-order membership. At $K=20$, the same rule adds 2.097\% and omits 2.129\% of relevant products, despite a net change of only $-0.032$ points. Canonicalization fixes an inclusion decision; that decision still requires evaluation.
+
+Aggregation outcomes are likewise setting-dependent (Table~\ref{tab:strategy_joint}). Set-Mean has lower Recall@100 than source order in both BGE settings and on ESCI/\allowbreak MiniLM, but increases it on WANDS/\allowbreak MiniLM. Full-record aggregation with $M=2$ improves point estimates for BGE on both datasets and for ESCI/\allowbreak MiniLM, while reducing them for WANDS/\allowbreak MiniLM. These observations do not identify a single encoding-unit effect.
+
+\input{tables/strategy_joint_main.tex}
+
+More views do not produce monotonic Recall improvements. For WANDS/\allowbreak BGE, centroid Recall@100 is 63.956\%, 64.394\%, and 64.156\% at $M=2,4,7$; corresponding ESCI values are 91.066\%, 91.014\%, and 91.013\%. The BGE $M=7$ family produces a mean of 6.995 distinct text views per WANDS product but only 3.402 per ESCI product. Centroids retain one retrieval vector, whereas multi-vector retrieval stores $M$ vectors. View diversity and encoding/storage costs therefore accompany effectiveness comparisons; these results do not establish that diversity causes the dataset differences.
+
+Hybrid increases seven-schedule mean Recall@100 from 56.613\% to 65.548\% for WANDS/\allowbreak MiniLM, 63.620\% to 67.773\% for WANDS/\allowbreak BGE, 86.193\% to 89.567\% for ESCI/\allowbreak MiniLM, and 91.041\% to 91.610\% for ESCI/\allowbreak BGE. Paired changes are $+8.93$ [7.21, 10.82], $+4.15$ [2.55, 5.82], $+3.37$ [2.18, 4.69], and $+0.57$ [$-0.21$, 1.37] percentage points, respectively. VI@100 decreases by 10.81, 5.26, and 0.85 points in the first three settings, while ESCI/\allowbreak BGE increases by 0.025 points with an interval of [$-0.409$, 0.572]. The last setting provides descriptive co-occurrence of higher mean Recall and VI, but neither interval excludes zero. It does not establish a general effectiveness--instability trade-off.
+
+Persistent inclusion also increases at $K=100$, by 15.01, 7.08, 3.79, and 0.52 points in the same order. These joint outcomes differ from a single source-order Recall comparison. Deterministic controls remove incoming-order variation but still retrieve different products; hybrid retains order dependence while often reducing its measured extent. The evidence supports evaluating effectiveness, consistent inclusion, product membership, and cost together.

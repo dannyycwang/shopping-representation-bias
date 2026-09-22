@@ -1,0 +1,52 @@
+[
+  {
+    "name": "rq1_vi_top20_main",
+    "width_inches": 7.1,
+    "height_inches": 3.25,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": [],
+    "reused_byte_identical": true
+  },
+  {
+    "name": "rq2_membership_top20_main",
+    "width_inches": 7.1,
+    "height_inches": 4.4,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": []
+  },
+  {
+    "name": "rq2_membership_top100_appendix",
+    "width_inches": 7.1,
+    "height_inches": 4.4,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": []
+  },
+  {
+    "name": "cutoff_catalog_wide_appendix",
+    "width_inches": 7.1,
+    "height_inches": 4.6,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": []
+  },
+  {
+    "name": "cutoff_target_only_appendix",
+    "width_inches": 7.1,
+    "height_inches": 4.6,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": []
+  },
+  {
+    "name": "crossing_severity_appendix",
+    "width_inches": 7.1,
+    "height_inches": 4.9,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": []
+  },
+  {
+    "name": "crossing_worst_rank_ecdf_appendix",
+    "width_inches": 7.1,
+    "height_inches": 4.4,
+    "minimum_font_pt": 8.5,
+    "text_outside_page": []
+  }
+]

@@ -1,0 +1,8 @@
+__pycache__/
+qa/*.png
+qa/*.aux
+qa/*.log
+qa/*.out
+qa/*.bbl
+qa/*.blg
+*.zip

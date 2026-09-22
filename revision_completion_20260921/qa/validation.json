@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "verified_source_hash_records": 688,
+  "hybrid_conditions": 28,
+  "canonical_conditions": 18,
+  "primary_joint_cells": 4,
+  "preserved_user_edits": [
+    "paper_www2027/RESULT_PROVENANCE.md",
+    "paper_www2027/figures/figure1_target_only.pdf",
+    "paper_www2027/figures/figure1_target_only.png",
+    "paper_www2027/main.aux",
+    "paper_www2027/main.log",
+    "paper_www2027/main.pdf",
+    "paper_www2027/sections/introduction.tex",
+    "phase3/scripts/make_target_only_figure.py"
+  ],
+  "highest_rank_reconstruction_mismatches": 0,
+  "old_states_reconciled_rows": 96,
+  "figures": [
+    {
+      "path": "figures/crossing_severity_appendix.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "embedded_raster_images": 0
+    },
+    {
+      "path": "figures/crossing_worst_rank_ecdf_appendix.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "embedded_raster_images": 0
+    },
+    {
+      "path": "figures/cutoff_catalog_wide_appendix.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "embedded_raster_images": 0
+    },
+    {
+      "path": "figures/cutoff_target_only_appendix.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "embedded_raster_images": 0
+    },
+    {
+      "path": "figures/rq1_vi_top20_main.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "embedded_raster_images": 0
+    },
+    {
+      "path": "figures/rq2_membership_top100_appendix.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "embedded_raster_images": 0
+    },
+    {
+      "path": "figures/rq2_membership_top20_main.pdf",
+      "pages": 1,
+      "width_inches": 7.1,
+      "embedded_raster_images": 0
+    }
+  ],
+  "checks": [
+    "all Hq including absent-in-both",
+    "states sum one",
+    "integer membership partition and gain-loss identity",
+    "exact positive cancellation",
+    "C0 hybrid full-score/rank equality",
+    "fixed cutoff support",
+    "monotone persistent inclusion/omission",
+    "shared historical query/cache compatibility",
+    "all structural VI zero",
+    "7 vector figures at 7.1 inches",
+    "ACM/table compile no overflow or unresolved references"
+  ],
+  "full_manuscript_layout": "not verified; matching complete LaTeX not supplied"
+}

@@ -1,0 +1,3 @@
+dataset,bm25_full_scores_exact,bm25_highest_ranks_exact,sparse_array_bytes,catalog_size
+wands,True,True,52659768,42994
+esci,True,True,8572308,10076

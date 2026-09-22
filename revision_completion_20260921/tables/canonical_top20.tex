@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Raw C0 Recall@20 (\%) and paired canonical differences (pp).}
+\label{tab:canonical_top20}
+\begin{tabular}{lrrrr}
+\toprule
+Dataset / encoder & C0 & Asc. & Desc. & Type \\
+\midrule
+WANDS / MiniLM & 30.81 & -2.09 & -1.25 & -1.59 \\
+WANDS / BGE & 36.10 & -0.03 & +0.17 & +0.38 \\
+WANDS / GTE & 35.90 & -0.16 & -0.90 & +0.08 \\
+ESCI / MiniLM & 67.95 & -0.46 & -0.43 & -0.47 \\
+ESCI / BGE & 74.10 & -0.26 & -0.51 & -0.29 \\
+ESCI / GTE & 72.45 & -0.84 & -0.80 & -0.77 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\small Asc., Desc., and Type are the three fixed pure rules. Each has structural VI=0. Full paired 95\% intervals are supplied in Table~\ref{tab:canonical_intervals20} and the artifact; no held-out rule is selected.\end{minipage}
+\end{table}

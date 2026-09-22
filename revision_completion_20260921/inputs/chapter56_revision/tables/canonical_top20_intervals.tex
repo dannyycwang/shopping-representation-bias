@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+\centering
+\caption{Pure canonicalization at $K=20$. Changes from source-order Recall are in percentage points, with descriptive 95\% paired intervals. Each fixed rule has VI=0 by construction.}
+\label{tab:canonical_top20_intervals}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Encoder & Source Recall (\%) & Ascending & Descending & Type/style \\
+\midrule
+WANDS & MiniLM & 30.81 & $-2.09\,[-4.03,-0.22]$ & $-1.25\,[-2.69,+0.06]$ & $-1.59\,[-3.49,+0.22]$ \\
+WANDS & BGE & 36.10 & $-0.03\,[-0.53,+0.45]$ & $+0.17\,[-0.72,+1.16]$ & $+0.38\,[-0.08,+0.89]$ \\
+WANDS & GTE & 35.90 & $-0.16\,[-1.08,+0.87]$ & $-0.90\,[-1.70,-0.15]$ & $+0.08\,[-0.56,+0.68]$ \\
+\midrule
+ESCI & MiniLM & 67.95 & $-0.46\,[-0.98,+0.05]$ & $-0.43\,[-1.13,+0.30]$ & $-0.47\,[-1.00,+0.03]$ \\
+ESCI & BGE & 74.10 & $-0.26\,[-0.65,+0.09]$ & $-0.51\,[-0.95,-0.12]$ & $-0.29\,[-0.68,+0.08]$ \\
+ESCI & GTE & 72.45 & $-0.84\,[-1.70,-0.03]$ & $-0.80\,[-1.60,-0.06]$ & $-0.77\,[-1.62,+0.04]$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

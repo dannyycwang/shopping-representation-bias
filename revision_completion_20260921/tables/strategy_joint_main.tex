@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Joint strategy evaluation: mean Recall@100 / VI@100 (\%).}
+\label{tab:strategy_joint}
+\begin{tabular}{lrrrr}
+\toprule
+ & \multicolumn{2}{c}{WANDS} & \multicolumn{2}{c}{ESCI} \\
+Method & MiniLM & BGE & MiniLM & BGE \\
+\midrule
+Raw (seven schedules) & 56.61 / 21.89 & 63.62 / 12.30 & 86.19 / 1.41 & 91.04 / 0.72 \\
+Canonical ascending & 56.05 / 0.00 & 63.24 / 0.00 & 86.41 / 0.00 & 91.05 / 0.00 \\
+Canonical descending & 56.16 / 0.00 & 63.61 / 0.00 & 86.38 / 0.00 & 91.01 / 0.00 \\
+Canonical type/style & 57.19 / 0.00 & 63.56 / 0.00 & 86.36 / 0.00 & 91.09 / 0.00 \\
+Set-Mean & 58.81 / 0.00 & 61.82 / 0.00 & 84.50 / 0.00 & 88.95 / 0.00 \\
+Centroid, $M=2$ & 56.44 / 0.00 & 63.96 / 0.00 & 86.33 / 0.00 & 91.07 / 0.00 \\
+Multi-vector max, $M=2$ & 57.04 / 0.00 & 64.00 / 0.00 & 86.35 / 0.00 & 91.09 / 0.00 \\
+BM25 & 63.23 / 0.00 & 63.23 / 0.00 & 82.83 / 0.00 & 82.83 / 0.00 \\
+Hybrid (seven schedules) & 65.55 / 11.08 & 67.77 / 7.05 & 89.57 / 0.56 & 91.61 / 0.74 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\small Raw and hybrid average all seven schedules. Canonical, Set-Mean, canonical-seeded centroid/max and BM25 use a fixed input-order independent index: their per-schedule Recall is identical and structural VI is zero. All three canonical rules are retained. WANDS: 308 queries, 21,299 Exact pairs; ESCI: 499 queries, 4,434 E pairs. Source-order Recall, persistent states, paired intervals, membership counts and cost are reported in the artifact tables.\end{minipage}
+\end{table*}

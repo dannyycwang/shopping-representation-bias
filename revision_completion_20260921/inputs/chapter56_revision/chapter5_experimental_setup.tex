@@ -1,0 +1,28 @@
+% Replacement for Section 5. Evidence snapshot: b73e52ae4a787e33c5773673694464b8f2743e56.
+% Requires the existing chen2022wands and reddy2022shopping bibliography entries.
+% Author-only completion tasks are in CODEX_EXECUTION_PROMPT.md, not asserted as results here.
+\section{Experimental Setup}
+\label{sec:experimental_setup}
+
+\subsection{Data and Evaluation Populations}
+\label{sec:evaluation_populations}
+
+We evaluate WANDS~\cite{chen2022wands} and the US English portion of the small-version ESCI test split~\cite{reddy2022shopping}. WANDS retains its full catalog of 42,994 products. We use the existing split of 96 development and 384 held-out queries; the 308 held-out queries with at least one Exact product contribute 21,299 query--product pairs. ESCI uses the existing deterministic sample of 500 queries and the union of their judged products, yielding a fixed catalog of 10,076 products. Its 499 queries with at least one E-labeled product contribute 4,434 pairs. Every comparison within a dataset retains the same catalog and eligible query population. These are evaluations with incomplete relevance judgments, not estimates of access to every truly relevant product.
+
+WANDS attributes are the complete pipe-separated entries in its product-features field. ESCI attributes are the nonempty brand, color, and complete bullet-point fields; the bullet-point field is retained as one entry. ESCI therefore has at most three entries per product. Titles, descriptions, and other non-attribute fields retain their text and section placement. Duplicate attribute occurrences are preserved. Data preparation removes duplicate judgments and excludes contradictory WANDS query--product labels.
+
+\subsection{Encoders and Ordering Schedules}
+\label{sec:encoders_schedules}
+
+The sensitivity and pure-canonicalization experiments use frozen \texttt{all-MiniLM-L6-v2}, \texttt{bge-base-en-v1.5}, and \texttt{gte-modernbert-base}, abbreviated MiniLM, BGE, and GTE. Their input limits are 256, 512, and 8,192 tokens, respectively; MiniLM uses attention-mask mean pooling, and BGE and GTE use CLS pooling. We retain empty query prefixes and unit-normalized embeddings. Retrieval uses exact FP32 dot-product scores and resolves ties by ascending fixed catalog index. Pinned revisions and execution details accompany the artifacts.
+
+The seven schedules are source order (C0), reverse attribute order (C1), and five product-dependent shuffles (C2s1--C2s5), using seeds 20260911--20260915. Both interventions follow Section~3. Fully-fitting eligibility requires every complete input, including special tokens, to fit the corresponding encoder limit under all seven schedules; only evaluated targets are filtered, while all competitors remain.
+
+The three canonical rules are fixed and all are reported. Aggregation and hybrid comparisons cover BGE and MiniLM on both datasets. Full-record aggregation uses $M=2$ for this common comparison; the existing BGE sweep additionally covers $M=4,7$. Its view seeds, 20260971--20260977, differ from the evaluation-schedule seeds. Set-Mean uses equal weights, BM25 uses $k_1=1.2$ and $b=0.75$, and hybrid retrieval uses RRF with constant 60.
+
+\subsection{Evaluation and Comparison Protocol}
+\label{sec:comparison_protocol}
+
+We report query-macro Recall, persistent inclusion, VI, and persistent omission at $K=20,100$, with pair-micro results kept separate. Membership comparisons use the same $H_q$ and distinguish gains, losses, and their net difference. Exact within-query cancellation requires equal positive integer gain and loss counts. Source-order Recall and the raw seven-schedule mean are separate references; target-only inclusion is not labeled catalog-wide Recall.
+
+Order and canonicalization analyses use 10,000 paired query-cluster bootstrap draws with seed 2026091701 and descriptive 95\% percentile intervals. Each draw retains a query's products and compared conditions together. Intervals are uncorrected for multiple comparisons; containing zero does not establish equivalence. The common aggregation table reports point estimates from saved query-level results. Historical strategy selection used WANDS development queries, whereas the three pure canonical rules were fixed before their additional retrieval runs. Earlier outcomes had already been inspected; these analyses are not a newly untouched confirmation set, and no test-set winner is selected. Cost distinguishes offline encoding from stored retrieval vectors and query-time scoring.

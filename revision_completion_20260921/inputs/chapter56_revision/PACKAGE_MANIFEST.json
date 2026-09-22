@@ -1,0 +1,114 @@
+{
+  "repository": "dannyycwang/shopping-representation-bias",
+  "commit": "b73e52ae4a787e33c5773673694464b8f2743e56",
+  "source_pdf": "Same_Product__Different_Visibility__Representation_Robustness_in_Neural_E_Commerce_Retrieval (6).pdf",
+  "reused_figures": [
+    {
+      "name": "rq1_vi_top20_main.pdf",
+      "path": "revision_evidence_20260917/figure_revision/figures/rq1_vi_top20_main.pdf",
+      "git_blob_sha": "4c419316a6b7ca8e63fe5ee69c3a5792e3cd1761"
+    },
+    {
+      "name": "rq2_membership_top20_main.pdf",
+      "path": "revision_evidence_20260917/figure_revision/figures/rq2_membership_top20_main.pdf",
+      "git_blob_sha": "f74155c38c7f136f138f34d0742c0a681cfae0d7"
+    },
+    {
+      "name": "rq1_states_top20_top100_appendix.pdf",
+      "path": "revision_evidence_20260917/figure_revision/figures/rq1_states_top20_top100_appendix.pdf",
+      "git_blob_sha": "18d682957d9d6f85b9208c7f6dc161c3dcae0e19"
+    },
+    {
+      "name": "rq2_membership_top100_appendix.pdf",
+      "path": "revision_evidence_20260917/figure_revision/figures/rq2_membership_top100_appendix.pdf",
+      "git_blob_sha": "f526f8b3410e7fddc078078c088c78df991ba73a"
+    }
+  ],
+  "files": [
+    {
+      "path": "CODEX_EXECUTION_PROMPT.md",
+      "sha256": "5d56162f42c68a740b7b0f60ce9803be5f720d30c9e742be78a0c7f3d571774c",
+      "bytes": 15583
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "24b56fc2aea7d9dc73e76e9fd909d0c98d87e7c5e7e3e0916ccd29a62eda6a64",
+      "bytes": 9589
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "c1ad19dd99f40000e31f0602197e8781be2bce651efbcb3869594265d69061f9",
+      "bytes": 3032
+    },
+    {
+      "path": "appendix_evaluation_details.tex",
+      "sha256": "07a9c20e865b1078951a259a36a50f59eada8f1499799eeee84dedc615f9f05b",
+      "bytes": 3711
+    },
+    {
+      "path": "canonical_complete_results.csv",
+      "sha256": "77e7ca9f67cafd9005cc098bf421d34e76b818cc600cb9f030a22b9b1796b26b",
+      "bytes": 36012
+    },
+    {
+      "path": "chapter5_experimental_setup.tex",
+      "sha256": "0fadde9d1c13d92917dfd113fdebd8d442ff616e3c33d493b094768b2ad0e69f",
+      "bytes": 4495
+    },
+    {
+      "path": "chapter6_results.tex",
+      "sha256": "daafbab40793f6a00e0a5fc48566bf30e083e9e65a7fef17c6592251cef1cf04",
+      "bytes": 7971
+    },
+    {
+      "path": "figures/rq1_states_top20_top100_appendix.pdf",
+      "sha256": "509197fc9160b1e79a8e77daa0e3bf5bb756bbaa63c657e7e7980c1eaa7f3628",
+      "bytes": 18878
+    },
+    {
+      "path": "figures/rq1_vi_top20_main.pdf",
+      "sha256": "0fb4e7a6962cbda45cfb07ff8fdfa7f0989376495745263744e514ec9dd96c11",
+      "bytes": 17475
+    },
+    {
+      "path": "figures/rq2_membership_top100_appendix.pdf",
+      "sha256": "2e76a62d0b4feb7f70fcaaef71035e46f44fb4e074e29ef6c40e2788663de2fc",
+      "bytes": 20485
+    },
+    {
+      "path": "figures/rq2_membership_top20_main.pdf",
+      "sha256": "409ca0789c4a5c498412f0c24900d86ccc90ef2327ee52d9d581ad38ff868c32",
+      "bytes": 20584
+    },
+    {
+      "path": "platform_recall100_points.csv",
+      "sha256": "f5f28a181b9f988d623bf7404bb4a1d46d1339fc97d12980d143be1cac4bc353",
+      "bytes": 2728
+    },
+    {
+      "path": "tables/cancellation_top20.tex",
+      "sha256": "fea50b668c1755d094e5f6ad1146f21a60e2bc5708a3d36dd4130fca7f512bd1",
+      "bytes": 761
+    },
+    {
+      "path": "tables/canonical_top20.tex",
+      "sha256": "a3fbca484bc54112a4125d4aac85596e9ae3c85d8f42ec55ba36b21a050e2da7",
+      "bytes": 727
+    },
+    {
+      "path": "tables/canonical_top20_intervals.tex",
+      "sha256": "94905512621290cccb52d206f32e0043c4d98228a8f2c7b5ad4747bf45527759",
+      "bytes": 1048
+    },
+    {
+      "path": "tables/fitting_support.tex",
+      "sha256": "22e701905cefec0e6d91d83a106164bfbfc7e6490a515529a25d958b8422a5c4",
+      "bytes": 474
+    },
+    {
+      "path": "tables/platform_recall100.tex",
+      "sha256": "a0d8406438654147a30e1451fdf73f1f490ed1984dbaf4c0446c9e1e0685fd3a",
+      "bytes": 765
+    }
+  ]
+}
