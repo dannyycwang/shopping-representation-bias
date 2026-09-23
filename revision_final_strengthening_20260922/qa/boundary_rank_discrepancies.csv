@@ -1,0 +1,2 @@
+dataset,model,query_id,product_id,schedule,saved_rank,reconstructed_rank,score,C0_score,exact_tie_competitors
+wands,bge_base,252,385,C2s3,479,480,0.7454689145088196,0.7475236058235168,0

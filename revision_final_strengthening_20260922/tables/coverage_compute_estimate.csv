@@ -1,0 +1,5 @@
+dataset,model,products,schedule_records,distinct_full_texts,distinct_model_inputs,new_model_inputs,historical_reused_model_inputs,new_capped_tokens,new_untruncated_tokens,fully_fitting_pairs,fully_fitting_queries,full_pairs,full_queries,runtime_estimate_seconds,runtime_estimate_basis
+wands,minilm,6444,206208,205943,200480,156419,44061,39555524,102974868,354,48,7125,128,791.11048,pre-scoring planning rate only; actual measured runtime reported later
+wands,bge_base,6444,206208,205943,205757,160723,45034,74780523,106817948,2186,92,7125,128,8308.947,pre-scoring planning rate only; actual measured runtime reported later
+esci,minilm,4427,51094,20097,15471,3199,12272,500818,576518,2578,460,4434,499,10.01636,pre-scoring planning rate only; actual measured runtime reported later
+esci,bge_base,4427,51094,20097,18667,4199,14468,1031720,1113287,3587,488,4434,499,114.63555555555556,pre-scoring planning rate only; actual measured runtime reported later

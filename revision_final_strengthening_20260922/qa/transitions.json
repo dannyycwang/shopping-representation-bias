@@ -1,0 +1,8 @@
+{
+  "configurations": 48,
+  "summary_rows": 576,
+  "identity_records": 617592,
+  "row_partition_verified": true,
+  "column_fixed_recall_verified": true,
+  "identities_not_aggregate_subtraction": true
+}

@@ -1,0 +1,8 @@
+{
+  "model": "minilm",
+  "profile_fingerprint": "8056719b7ded1fa7db01ee634d541d17ab273195c5082170c9eb2cba6bd2bbdf",
+  "new_inputs": 159618,
+  "seconds": 390.7159423006233,
+  "blocks": 157,
+  "all_blocks_complete": true
+}

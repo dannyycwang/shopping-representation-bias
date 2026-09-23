@@ -1,0 +1,215 @@
+loaded BAAI/bge-base-en-v1.5@a5beb1e3e68b9ab74eb54cfd186867f64f240e1a on cuda; hidden=768
+ENCODED wands bge_base 1024 / 160723 seconds 1.7
+ENCODED wands bge_base 2048 / 160723 seconds 2.2
+ENCODED wands bge_base 3072 / 160723 seconds 2.5
+ENCODED wands bge_base 4096 / 160723 seconds 2.6
+ENCODED wands bge_base 5120 / 160723 seconds 2.9
+ENCODED wands bge_base 6144 / 160723 seconds 3.0
+ENCODED wands bge_base 7168 / 160723 seconds 2.9
+ENCODED wands bge_base 8192 / 160723 seconds 3.0
+ENCODED wands bge_base 9216 / 160723 seconds 3.2
+ENCODED wands bge_base 10240 / 160723 seconds 3.4
+ENCODED wands bge_base 11264 / 160723 seconds 3.4
+ENCODED wands bge_base 12288 / 160723 seconds 3.5
+ENCODED wands bge_base 13312 / 160723 seconds 3.6
+ENCODED wands bge_base 14336 / 160723 seconds 3.8
+ENCODED wands bge_base 15360 / 160723 seconds 3.8
+ENCODED wands bge_base 16384 / 160723 seconds 3.9
+ENCODED wands bge_base 17408 / 160723 seconds 4.1
+ENCODED wands bge_base 18432 / 160723 seconds 5.5
+ENCODED wands bge_base 19456 / 160723 seconds 4.1
+ENCODED wands bge_base 20480 / 160723 seconds 4.8
+ENCODED wands bge_base 21504 / 160723 seconds 5.1
+ENCODED wands bge_base 22528 / 160723 seconds 5.0
+ENCODED wands bge_base 23552 / 160723 seconds 5.8
+ENCODED wands bge_base 24576 / 160723 seconds 5.2
+ENCODED wands bge_base 25600 / 160723 seconds 4.7
+ENCODED wands bge_base 26624 / 160723 seconds 6.9
+ENCODED wands bge_base 27648 / 160723 seconds 5.5
+ENCODED wands bge_base 28672 / 160723 seconds 6.3
+ENCODED wands bge_base 29696 / 160723 seconds 6.5
+ENCODED wands bge_base 30720 / 160723 seconds 7.1
+ENCODED wands bge_base 31744 / 160723 seconds 6.4
+ENCODED wands bge_base 32768 / 160723 seconds 6.5
+ENCODED wands bge_base 33792 / 160723 seconds 7.3
+ENCODED wands bge_base 34816 / 160723 seconds 6.7
+ENCODED wands bge_base 35840 / 160723 seconds 7.4
+ENCODED wands bge_base 36864 / 160723 seconds 7.0
+ENCODED wands bge_base 37888 / 160723 seconds 7.6
+ENCODED wands bge_base 38912 / 160723 seconds 8.6
+ENCODED wands bge_base 39936 / 160723 seconds 8.1
+ENCODED wands bge_base 40960 / 160723 seconds 8.5
+ENCODED wands bge_base 41984 / 160723 seconds 8.6
+ENCODED wands bge_base 43008 / 160723 seconds 7.9
+ENCODED wands bge_base 44032 / 160723 seconds 8.7
+ENCODED wands bge_base 45056 / 160723 seconds 7.8
+ENCODED wands bge_base 46080 / 160723 seconds 8.7
+ENCODED wands bge_base 47104 / 160723 seconds 20.4
+ENCODED wands bge_base 48128 / 160723 seconds 41.7
+ENCODED wands bge_base 49152 / 160723 seconds 52.1
+ENCODED wands bge_base 50176 / 160723 seconds 55.7
+ENCODED wands bge_base 51200 / 160723 seconds 56.9
+loaded BAAI/bge-base-en-v1.5@a5beb1e3e68b9ab74eb54cfd186867f64f240e1a on cuda; hidden=768
+CACHE wands bge_base 0
+CACHE wands bge_base 1
+CACHE wands bge_base 2
+CACHE wands bge_base 3
+CACHE wands bge_base 4
+CACHE wands bge_base 5
+CACHE wands bge_base 6
+CACHE wands bge_base 7
+CACHE wands bge_base 8
+CACHE wands bge_base 9
+CACHE wands bge_base 10
+CACHE wands bge_base 11
+CACHE wands bge_base 12
+CACHE wands bge_base 13
+CACHE wands bge_base 14
+CACHE wands bge_base 15
+CACHE wands bge_base 16
+CACHE wands bge_base 17
+CACHE wands bge_base 18
+CACHE wands bge_base 19
+CACHE wands bge_base 20
+CACHE wands bge_base 21
+CACHE wands bge_base 22
+CACHE wands bge_base 23
+CACHE wands bge_base 24
+CACHE wands bge_base 25
+CACHE wands bge_base 26
+CACHE wands bge_base 27
+CACHE wands bge_base 28
+CACHE wands bge_base 29
+CACHE wands bge_base 30
+CACHE wands bge_base 31
+CACHE wands bge_base 32
+CACHE wands bge_base 33
+CACHE wands bge_base 34
+CACHE wands bge_base 35
+CACHE wands bge_base 36
+CACHE wands bge_base 37
+CACHE wands bge_base 38
+CACHE wands bge_base 39
+CACHE wands bge_base 40
+CACHE wands bge_base 41
+CACHE wands bge_base 42
+CACHE wands bge_base 43
+CACHE wands bge_base 44
+CACHE wands bge_base 45
+CACHE wands bge_base 46
+CACHE wands bge_base 47
+CACHE wands bge_base 48
+CACHE wands bge_base 49
+ENCODED wands bge_base 52224 / 160723 seconds 7.2
+ENCODED wands bge_base 53248 / 160723 seconds 8.8
+ENCODED wands bge_base 54272 / 160723 seconds 7.5
+ENCODED wands bge_base 55296 / 160723 seconds 7.6
+ENCODED wands bge_base 56320 / 160723 seconds 9.4
+ENCODED wands bge_base 57344 / 160723 seconds 9.1
+ENCODED wands bge_base 58368 / 160723 seconds 9.0
+ENCODED wands bge_base 59392 / 160723 seconds 9.6
+ENCODED wands bge_base 60416 / 160723 seconds 10.6
+ENCODED wands bge_base 61440 / 160723 seconds 9.7
+ENCODED wands bge_base 62464 / 160723 seconds 10.5
+ENCODED wands bge_base 63488 / 160723 seconds 9.2
+ENCODED wands bge_base 64512 / 160723 seconds 9.6
+ENCODED wands bge_base 65536 / 160723 seconds 9.7
+ENCODED wands bge_base 66560 / 160723 seconds 10.2
+ENCODED wands bge_base 67584 / 160723 seconds 10.6
+ENCODED wands bge_base 68608 / 160723 seconds 9.0
+ENCODED wands bge_base 69632 / 160723 seconds 10.0
+ENCODED wands bge_base 70656 / 160723 seconds 10.5
+ENCODED wands bge_base 71680 / 160723 seconds 9.7
+ENCODED wands bge_base 72704 / 160723 seconds 10.6
+ENCODED wands bge_base 73728 / 160723 seconds 10.3
+ENCODED wands bge_base 74752 / 160723 seconds 9.9
+ENCODED wands bge_base 75776 / 160723 seconds 10.1
+ENCODED wands bge_base 76800 / 160723 seconds 10.6
+ENCODED wands bge_base 77824 / 160723 seconds 11.2
+ENCODED wands bge_base 78848 / 160723 seconds 10.0
+ENCODED wands bge_base 79872 / 160723 seconds 10.4
+ENCODED wands bge_base 80896 / 160723 seconds 9.7
+ENCODED wands bge_base 81920 / 160723 seconds 9.7
+ENCODED wands bge_base 82944 / 160723 seconds 10.3
+ENCODED wands bge_base 83968 / 160723 seconds 10.0
+ENCODED wands bge_base 84992 / 160723 seconds 10.7
+ENCODED wands bge_base 86016 / 160723 seconds 9.7
+ENCODED wands bge_base 87040 / 160723 seconds 10.5
+ENCODED wands bge_base 88064 / 160723 seconds 10.4
+ENCODED wands bge_base 89088 / 160723 seconds 10.4
+ENCODED wands bge_base 90112 / 160723 seconds 10.4
+ENCODED wands bge_base 91136 / 160723 seconds 10.3
+ENCODED wands bge_base 92160 / 160723 seconds 10.2
+ENCODED wands bge_base 93184 / 160723 seconds 10.4
+ENCODED wands bge_base 94208 / 160723 seconds 10.3
+ENCODED wands bge_base 95232 / 160723 seconds 10.1
+ENCODED wands bge_base 96256 / 160723 seconds 9.9
+ENCODED wands bge_base 97280 / 160723 seconds 10.0
+ENCODED wands bge_base 98304 / 160723 seconds 11.3
+ENCODED wands bge_base 99328 / 160723 seconds 10.3
+ENCODED wands bge_base 100352 / 160723 seconds 9.9
+ENCODED wands bge_base 101376 / 160723 seconds 11.2
+ENCODED wands bge_base 102400 / 160723 seconds 10.2
+ENCODED wands bge_base 103424 / 160723 seconds 10.4
+ENCODED wands bge_base 104448 / 160723 seconds 10.4
+ENCODED wands bge_base 105472 / 160723 seconds 10.1
+ENCODED wands bge_base 106496 / 160723 seconds 10.3
+ENCODED wands bge_base 107520 / 160723 seconds 9.6
+ENCODED wands bge_base 108544 / 160723 seconds 9.6
+ENCODED wands bge_base 109568 / 160723 seconds 10.2
+ENCODED wands bge_base 110592 / 160723 seconds 9.9
+ENCODED wands bge_base 111616 / 160723 seconds 10.1
+ENCODED wands bge_base 112640 / 160723 seconds 10.2
+ENCODED wands bge_base 113664 / 160723 seconds 10.4
+ENCODED wands bge_base 114688 / 160723 seconds 10.4
+ENCODED wands bge_base 115712 / 160723 seconds 10.2
+ENCODED wands bge_base 116736 / 160723 seconds 10.3
+ENCODED wands bge_base 117760 / 160723 seconds 10.4
+ENCODED wands bge_base 118784 / 160723 seconds 10.5
+ENCODED wands bge_base 119808 / 160723 seconds 10.3
+ENCODED wands bge_base 120832 / 160723 seconds 10.3
+ENCODED wands bge_base 121856 / 160723 seconds 11.0
+ENCODED wands bge_base 122880 / 160723 seconds 10.5
+ENCODED wands bge_base 123904 / 160723 seconds 10.3
+ENCODED wands bge_base 124928 / 160723 seconds 10.0
+ENCODED wands bge_base 125952 / 160723 seconds 10.5
+ENCODED wands bge_base 126976 / 160723 seconds 10.4
+ENCODED wands bge_base 128000 / 160723 seconds 10.1
+ENCODED wands bge_base 129024 / 160723 seconds 10.6
+ENCODED wands bge_base 130048 / 160723 seconds 10.3
+ENCODED wands bge_base 131072 / 160723 seconds 10.5
+ENCODED wands bge_base 132096 / 160723 seconds 10.4
+ENCODED wands bge_base 133120 / 160723 seconds 10.4
+ENCODED wands bge_base 134144 / 160723 seconds 10.6
+ENCODED wands bge_base 135168 / 160723 seconds 10.2
+ENCODED wands bge_base 136192 / 160723 seconds 10.4
+ENCODED wands bge_base 137216 / 160723 seconds 10.4
+ENCODED wands bge_base 138240 / 160723 seconds 11.3
+ENCODED wands bge_base 139264 / 160723 seconds 10.4
+ENCODED wands bge_base 140288 / 160723 seconds 10.4
+ENCODED wands bge_base 141312 / 160723 seconds 10.3
+ENCODED wands bge_base 142336 / 160723 seconds 10.9
+ENCODED wands bge_base 143360 / 160723 seconds 10.3
+ENCODED wands bge_base 144384 / 160723 seconds 10.4
+ENCODED wands bge_base 145408 / 160723 seconds 10.2
+ENCODED wands bge_base 146432 / 160723 seconds 10.3
+ENCODED wands bge_base 147456 / 160723 seconds 10.5
+ENCODED wands bge_base 148480 / 160723 seconds 10.2
+ENCODED wands bge_base 149504 / 160723 seconds 10.8
+ENCODED wands bge_base 150528 / 160723 seconds 11.3
+ENCODED wands bge_base 151552 / 160723 seconds 10.3
+ENCODED wands bge_base 152576 / 160723 seconds 10.5
+ENCODED wands bge_base 153600 / 160723 seconds 10.4
+ENCODED wands bge_base 154624 / 160723 seconds 11.3
+ENCODED wands bge_base 155648 / 160723 seconds 9.7
+ENCODED wands bge_base 156672 / 160723 seconds 10.4
+ENCODED wands bge_base 157696 / 160723 seconds 9.9
+ENCODED wands bge_base 158720 / 160723 seconds 11.3
+ENCODED wands bge_base 159744 / 160723 seconds 10.2
+ENCODED wands bge_base 160723 / 160723 seconds 10.1
+ENCODED esci bge_base 1024 / 4199 seconds 2.6
+ENCODED esci bge_base 2048 / 4199 seconds 3.4
+ENCODED esci bge_base 3072 / 4199 seconds 5.0
+ENCODED esci bge_base 4096 / 4199 seconds 9.4
+ENCODED esci bge_base 4199 / 4199 seconds 0.7
+ENCODING COMPLETE bge_base

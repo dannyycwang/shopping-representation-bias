@@ -1,0 +1,56 @@
+{
+  "model": "bge_base",
+  "query_id": 473,
+  "product_id": "4373",
+  "query": "chair pillow cushion",
+  "variant": "maximum",
+  "schedule": "C0",
+  "display": "supplement",
+  "native_saved_score": 0.7127278447151184,
+  "fresh_native_fp16_score": 0.7127279043197632,
+  "diagnostic_fp32_score": 0.7127887606620789,
+  "input_ids_score": 0.7127887606620789,
+  "input_ids_vs_embeds_error": 0.0,
+  "diagnostic_native_error": 6.091594696044922e-05,
+  "fresh_fp16_native_error": 5.960464477539063e-08,
+  "native_rank": 129,
+  "native_inclusion": false,
+  "diagnostic_inclusion": false,
+  "native_margin": -0.0312134623527526,
+  "margin_gt_five_errors": true,
+  "variant_boundary_guard": true,
+  "token_count": 243,
+  "cap": 512,
+  "model_attention_implementation": "sdpa",
+  "query_embedding_sha256": "a1a4ca77db4010228ad7597ef97e7c4cd1a13edd6ff9e52e01eb9821c53cc8f7",
+  "baseline": "zero",
+  "baseline_score": 0.47807005047798157,
+  "score_difference": 0.2347187101840973,
+  "attribution_sum": 0.2332670220239379,
+  "completeness_residual": -0.0014516881601593923,
+  "completeness_tolerance": 0.002347187101840973,
+  "completeness_passed": true,
+  "steps": 256,
+  "attempts": [
+    {
+      "steps": 64,
+      "residual": 0.021483460825038492,
+      "tolerance": 0.002347187101840973,
+      "passed": false
+    },
+    {
+      "steps": 128,
+      "residual": -0.01583459916218999,
+      "tolerance": 0.002347187101840973,
+      "passed": false
+    },
+    {
+      "steps": 256,
+      "residual": -0.0014516881601593923,
+      "tolerance": 0.002347187101840973,
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 34.67682070005685,
+  "status": "passed"
+}

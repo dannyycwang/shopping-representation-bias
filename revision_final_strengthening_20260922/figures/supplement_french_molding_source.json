@@ -1,0 +1,607 @@
+[
+  {
+    "display": "supplement_historical",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "variant": "minimum",
+    "schedule": "C2s2",
+    "query": "french molding",
+    "full_text": "valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner\nMolding & Millwork\nHome Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork\noverallwidth-sidetoside:9.38|material : urethane|countryoforigin : china|compositewoodproductcwp : no|color : off-white|overallproductweight:0.19|producttype : wall nice/cove|moldinguse : corners|overallheight-toptobottom:9.38|installationrequired : yes",
+    "serializer_spans": [
+      [
+        0,
+        69,
+        "fixed_title",
+        "valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner"
+      ],
+      [
+        69,
+        70,
+        "separator",
+        "section separator"
+      ],
+      [
+        70,
+        88,
+        "fixed_class",
+        "Molding & Millwork"
+      ],
+      [
+        88,
+        89,
+        "separator",
+        "section separator"
+      ],
+      [
+        89,
+        192,
+        "fixed_category",
+        "Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork"
+      ],
+      [
+        192,
+        193,
+        "separator",
+        "section separator"
+      ],
+      [
+        193,
+        221,
+        "attr_000",
+        "overallwidth-sidetoside:9.38"
+      ],
+      [
+        221,
+        222,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        222,
+        241,
+        "attr_005",
+        "material : urethane"
+      ],
+      [
+        241,
+        242,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        242,
+        265,
+        "attr_009",
+        "countryoforigin : china"
+      ],
+      [
+        265,
+        266,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        266,
+        294,
+        "attr_007",
+        "compositewoodproductcwp : no"
+      ],
+      [
+        294,
+        295,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        295,
+        312,
+        "attr_006",
+        "color : off-white"
+      ],
+      [
+        312,
+        313,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        313,
+        338,
+        "attr_001",
+        "overallproductweight:0.19"
+      ],
+      [
+        338,
+        339,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        339,
+        367,
+        "attr_002",
+        "producttype : wall nice/cove"
+      ],
+      [
+        367,
+        368,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        368,
+        388,
+        "attr_003",
+        "moldinguse : corners"
+      ],
+      [
+        388,
+        389,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        389,
+        419,
+        "attr_004",
+        "overallheight-toptobottom:9.38"
+      ],
+      [
+        419,
+        420,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        420,
+        446,
+        "attr_008",
+        "installationrequired : yes"
+      ]
+    ],
+    "display_entry_ids": [
+      "attr_000",
+      "attr_001",
+      "attr_002",
+      "attr_003",
+      "attr_004",
+      "attr_005",
+      "attr_006",
+      "attr_007",
+      "other_content"
+    ],
+    "display_values": [
+      0.014561355172190815,
+      0.014243226847611368,
+      0.03910862043267116,
+      0.025380954379215837,
+      0.023039027539198287,
+      0.0073715461185202,
+      0.02432595193386078,
+      0.010922170724370517,
+      0.18193060538033023
+    ],
+    "baseline": "zero",
+    "complete_original_attributes": [
+      "overallwidth-sidetoside:9.38",
+      "overallproductweight:0.19",
+      "producttype : wall nice/cove",
+      "moldinguse : corners",
+      "overallheight-toptobottom:9.38",
+      "material : urethane",
+      "color : off-white",
+      "compositewoodproductcwp : no",
+      "installationrequired : yes",
+      "countryoforigin : china"
+    ],
+    "native_margin": -0.104453444480896,
+    "native_rank": 174,
+    "completeness_passed": true,
+    "boundary_guard": true
+  },
+  {
+    "display": "supplement_historical",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "variant": "maximum",
+    "schedule": "C2s3",
+    "query": "french molding",
+    "full_text": "valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner\nMolding & Millwork\nHome Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork\noverallproductweight:0.19|moldinguse : corners|overallheight-toptobottom:9.38|installationrequired : yes|material : urethane|producttype : wall nice/cove|overallwidth-sidetoside:9.38|compositewoodproductcwp : no|color : off-white|countryoforigin : china",
+    "serializer_spans": [
+      [
+        0,
+        69,
+        "fixed_title",
+        "valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner"
+      ],
+      [
+        69,
+        70,
+        "separator",
+        "section separator"
+      ],
+      [
+        70,
+        88,
+        "fixed_class",
+        "Molding & Millwork"
+      ],
+      [
+        88,
+        89,
+        "separator",
+        "section separator"
+      ],
+      [
+        89,
+        192,
+        "fixed_category",
+        "Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork"
+      ],
+      [
+        192,
+        193,
+        "separator",
+        "section separator"
+      ],
+      [
+        193,
+        218,
+        "attr_001",
+        "overallproductweight:0.19"
+      ],
+      [
+        218,
+        219,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        219,
+        239,
+        "attr_003",
+        "moldinguse : corners"
+      ],
+      [
+        239,
+        240,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        240,
+        270,
+        "attr_004",
+        "overallheight-toptobottom:9.38"
+      ],
+      [
+        270,
+        271,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        271,
+        297,
+        "attr_008",
+        "installationrequired : yes"
+      ],
+      [
+        297,
+        298,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        298,
+        317,
+        "attr_005",
+        "material : urethane"
+      ],
+      [
+        317,
+        318,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        318,
+        346,
+        "attr_002",
+        "producttype : wall nice/cove"
+      ],
+      [
+        346,
+        347,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        347,
+        375,
+        "attr_000",
+        "overallwidth-sidetoside:9.38"
+      ],
+      [
+        375,
+        376,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        376,
+        404,
+        "attr_007",
+        "compositewoodproductcwp : no"
+      ],
+      [
+        404,
+        405,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        405,
+        422,
+        "attr_006",
+        "color : off-white"
+      ],
+      [
+        422,
+        423,
+        "separator",
+        "attribute separator"
+      ],
+      [
+        423,
+        446,
+        "attr_009",
+        "countryoforigin : china"
+      ]
+    ],
+    "display_entry_ids": [
+      "attr_000",
+      "attr_001",
+      "attr_002",
+      "attr_003",
+      "attr_004",
+      "attr_005",
+      "attr_006",
+      "attr_007",
+      "other_content"
+    ],
+    "display_values": [
+      0.03584286163095385,
+      0.011344271595589817,
+      0.04800594167318195,
+      0.012941836728714406,
+      0.017498065484687686,
+      0.025766654638573527,
+      0.0001389544049743563,
+      0.022721944085787982,
+      0.27401355881011114
+    ],
+    "baseline": "zero",
+    "complete_original_attributes": [
+      "overallwidth-sidetoside:9.38",
+      "overallproductweight:0.19",
+      "producttype : wall nice/cove",
+      "moldinguse : corners",
+      "overallheight-toptobottom:9.38",
+      "material : urethane",
+      "color : off-white",
+      "compositewoodproductcwp : no",
+      "installationrequired : yes",
+      "countryoforigin : china"
+    ],
+    "native_margin": 0.0028471946716308,
+    "native_rank": 15,
+    "completeness_passed": true,
+    "boundary_guard": true
+  },
+  {
+    "schedule": "C0",
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "K": 20,
+    "catalog_index": 12575,
+    "score": 0.4918966591358185,
+    "competitor_threshold_score": 0.4912347197532654,
+    "competitor_threshold_id": "9834",
+    "competitor_threshold_index": 9834,
+    "signed_margin": 0.0006619393825531006,
+    "reconstructed_rank": 19,
+    "saved_rank": 19,
+    "inclusion": true,
+    "reconstructed_inclusion": true,
+    "token_length": 139,
+    "tokenizer_cap": 256,
+    "fully_fitting": true,
+    "rank_mismatch": false,
+    "unresolved_boundary": false,
+    "exact_threshold_tie": false,
+    "precision": "saved fp32; no epsilon in ranking",
+    "catalog_size": 42994,
+    "competitors": 42993,
+    "record_type": "native_margin",
+    "display": "supplement_historical"
+  },
+  {
+    "schedule": "C1",
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "K": 20,
+    "catalog_index": 12575,
+    "score": 0.4490737020969391,
+    "competitor_threshold_score": 0.4912347197532654,
+    "competitor_threshold_id": "9834",
+    "competitor_threshold_index": 9834,
+    "signed_margin": -0.042161017656326294,
+    "reconstructed_rank": 58,
+    "saved_rank": 58,
+    "inclusion": false,
+    "reconstructed_inclusion": false,
+    "token_length": 139,
+    "tokenizer_cap": 256,
+    "fully_fitting": true,
+    "rank_mismatch": false,
+    "unresolved_boundary": false,
+    "exact_threshold_tie": false,
+    "precision": "saved fp32; no epsilon in ranking",
+    "catalog_size": 42994,
+    "competitors": 42993,
+    "record_type": "native_margin",
+    "display": "supplement_historical"
+  },
+  {
+    "schedule": "C2s1",
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "K": 20,
+    "catalog_index": 12575,
+    "score": 0.4534992575645447,
+    "competitor_threshold_score": 0.4912347197532654,
+    "competitor_threshold_id": "9834",
+    "competitor_threshold_index": 9834,
+    "signed_margin": -0.0377354621887207,
+    "reconstructed_rank": 52,
+    "saved_rank": 52,
+    "inclusion": false,
+    "reconstructed_inclusion": false,
+    "token_length": 139,
+    "tokenizer_cap": 256,
+    "fully_fitting": true,
+    "rank_mismatch": false,
+    "unresolved_boundary": false,
+    "exact_threshold_tie": false,
+    "precision": "saved fp32; no epsilon in ranking",
+    "catalog_size": 42994,
+    "competitors": 42993,
+    "record_type": "native_margin",
+    "display": "supplement_historical"
+  },
+  {
+    "schedule": "C2s2",
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "K": 20,
+    "catalog_index": 12575,
+    "score": 0.3867812752723694,
+    "competitor_threshold_score": 0.4912347197532654,
+    "competitor_threshold_id": "9834",
+    "competitor_threshold_index": 9834,
+    "signed_margin": -0.104453444480896,
+    "reconstructed_rank": 174,
+    "saved_rank": 174,
+    "inclusion": false,
+    "reconstructed_inclusion": false,
+    "token_length": 139,
+    "tokenizer_cap": 256,
+    "fully_fitting": true,
+    "rank_mismatch": false,
+    "unresolved_boundary": false,
+    "exact_threshold_tie": false,
+    "precision": "saved fp32; no epsilon in ranking",
+    "catalog_size": 42994,
+    "competitors": 42993,
+    "record_type": "native_margin",
+    "display": "supplement_historical"
+  },
+  {
+    "schedule": "C2s3",
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "K": 20,
+    "catalog_index": 12575,
+    "score": 0.49408191442489624,
+    "competitor_threshold_score": 0.4912347197532654,
+    "competitor_threshold_id": "9834",
+    "competitor_threshold_index": 9834,
+    "signed_margin": 0.0028471946716308594,
+    "reconstructed_rank": 15,
+    "saved_rank": 15,
+    "inclusion": true,
+    "reconstructed_inclusion": true,
+    "token_length": 139,
+    "tokenizer_cap": 256,
+    "fully_fitting": true,
+    "rank_mismatch": false,
+    "unresolved_boundary": false,
+    "exact_threshold_tie": false,
+    "precision": "saved fp32; no epsilon in ranking",
+    "catalog_size": 42994,
+    "competitors": 42993,
+    "record_type": "native_margin",
+    "display": "supplement_historical"
+  },
+  {
+    "schedule": "C2s4",
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "K": 20,
+    "catalog_index": 12575,
+    "score": 0.4671149253845215,
+    "competitor_threshold_score": 0.4912347197532654,
+    "competitor_threshold_id": "9834",
+    "competitor_threshold_index": 9834,
+    "signed_margin": -0.024119794368743896,
+    "reconstructed_rank": 33,
+    "saved_rank": 33,
+    "inclusion": false,
+    "reconstructed_inclusion": false,
+    "token_length": 139,
+    "tokenizer_cap": 256,
+    "fully_fitting": true,
+    "rank_mismatch": false,
+    "unresolved_boundary": false,
+    "exact_threshold_tie": false,
+    "precision": "saved fp32; no epsilon in ranking",
+    "catalog_size": 42994,
+    "competitors": 42993,
+    "record_type": "native_margin",
+    "display": "supplement_historical"
+  },
+  {
+    "schedule": "C2s5",
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 359,
+    "product_id": "12575",
+    "K": 20,
+    "catalog_index": 12575,
+    "score": 0.46428894996643066,
+    "competitor_threshold_score": 0.4912347197532654,
+    "competitor_threshold_id": "9834",
+    "competitor_threshold_index": 9834,
+    "signed_margin": -0.026945769786834717,
+    "reconstructed_rank": 36,
+    "saved_rank": 36,
+    "inclusion": false,
+    "reconstructed_inclusion": false,
+    "token_length": 139,
+    "tokenizer_cap": 256,
+    "fully_fitting": true,
+    "rank_mismatch": false,
+    "unresolved_boundary": false,
+    "exact_threshold_tie": false,
+    "precision": "saved fp32; no epsilon in ranking",
+    "catalog_size": 42994,
+    "competitors": 42993,
+    "record_type": "native_margin",
+    "display": "supplement_historical"
+  }
+]

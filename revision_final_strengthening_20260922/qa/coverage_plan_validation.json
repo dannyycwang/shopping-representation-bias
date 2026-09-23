@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "dataset": "wands",
+      "model": "minilm",
+      "old_seven_token_counts_identical": true,
+      "targets": 6444,
+      "schedule_records": 206208
+    },
+    {
+      "dataset": "wands",
+      "model": "bge_base",
+      "old_seven_token_counts_identical": true,
+      "targets": 6444,
+      "schedule_records": 206208
+    },
+    {
+      "dataset": "esci",
+      "model": "minilm",
+      "old_seven_token_counts_identical": true,
+      "targets": 4427,
+      "schedule_records": 51094
+    },
+    {
+      "dataset": "esci",
+      "model": "bge_base",
+      "old_seven_token_counts_identical": true,
+      "targets": 4427,
+      "schedule_records": 51094
+    }
+  ],
+  "all_original_token_lengths_match": true,
+  "whole_entry_multisets_preserved": true,
+  "all_text_hashes_match": true,
+  "esci_at_most_six_distinct_orders": true
+}

@@ -1,0 +1,20 @@
+{
+  "pairs": 25,
+  "variants": 50,
+  "baseline_runs": 100,
+  "completed_runs": 100,
+  "completeness_passes": 98,
+  "failures": 2,
+  "all_cases_retained": true,
+  "token_rows": 29036,
+  "entry_rows": 3180,
+  "token_entry_sum_match": true,
+  "max_forward_ids_embeds_error": 0.0,
+  "max_diagnostic_native_error": 0.0001639127731323,
+  "changed_diagnostic_inclusions": 0,
+  "steps_counts": {
+    "64": 81,
+    "128": 11,
+    "256": 8
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "records": 228000,
+    "original_rank_discrepancies": 0,
+    "boundary_discrepancies": 0,
+    "monotonicity_passed": true,
+    "original_seven_ranks_preserved": true,
+    "new_input_vectors": 160723
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "records": 51181,
+    "original_rank_discrepancies": 0,
+    "boundary_discrepancies": 0,
+    "monotonicity_passed": true,
+    "original_seven_ranks_preserved": true,
+    "new_input_vectors": 4199
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "key": "bge_base",
+    "name": "BAAI/bge-base-en-v1.5",
+    "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "architecture": "BERT-base retrieval encoder",
+    "max_tokens": 512,
+    "native_pooling": "CLS"
+  },
+  "max_tokens": 512,
+  "pooling": "CLS",
+  "query_prefix": "",
+  "product_prefix": "",
+  "precision": "fp16_model_fp32_pooling",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.46.2",
+  "encoder_source_sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa",
+  "protocol_sha256": "ab16a31715b095d1c1d75860632b97d625d2607ee9875909246d25adf3eafbb6",
+  "fingerprint": "540e472f66422a7b753c47f59b74a425ae3be68067322b1a164c8cd1c3ce3978"
+}

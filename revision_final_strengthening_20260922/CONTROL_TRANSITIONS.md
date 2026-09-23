@@ -1,0 +1,27 @@
+# C. Identity transitions under fixed controls
+
+All 48 dataset×encoder×family×rule×K comparisons retain every canonical rule, both dense and hybrid families, and K=20/100. Reference rows are always-in/crossing/always-out across the respective raw catalog-wide seven-schedule family. Columns are included/omitted in the corresponding fixed index. Unlike A/D, these references use coherent saved query rankings.
+
+Highest-support and inclusion identities are recovered from the graded per-query records. Each product falls in exactly one of six cells; row totals equal reference state masses and the included column reproduces fixed-control highest-label Recall. Full product identities and per-query cells are exported.
+
+All six cells are fractions of Hq, query macro primary and pair micro secondary, with 10,000 uncorrected query-cluster bootstrap draws. Conditional inclusion is a ratio of query-macro cell masses, not the mean per-query within-state rate. Explicit pair/query denominators are supplied; zero-denominator conditions are NA. The full table includes K100 and every interval.
+
+The proposed compact K20 main table shows always-in products lost, always-out gained and both destinations of crossing products, retaining both families and all rules. Values are percentage points:
+| Dataset / encoder / rule | Dense lost | gained | crossing in | out | Hybrid lost | gained | crossing in | out |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| wands / minilm / asc | 0.23 | 0.43 | 7.57 | 12.01 | 0.21 | 0.42 | 6.77 | 6.93 |
+| wands / minilm / desc | 0.42 | 0.60 | 8.43 | 11.15 | 0.27 | 0.50 | 6.48 | 7.23 |
+| wands / minilm / field | 0.63 | 0.57 | 8.33 | 11.25 | 0.13 | 0.46 | 6.78 | 6.92 |
+| wands / bge_base / asc | 0.17 | 0.40 | 5.37 | 6.56 | 0.09 | 0.13 | 3.11 | 4.41 |
+| wands / bge_base / desc | 0.20 | 0.22 | 5.79 | 6.15 | 0.14 | 0.34 | 3.88 | 3.65 |
+| wands / bge_base / field | 0.18 | 0.48 | 5.70 | 6.23 | 0.13 | 0.12 | 3.33 | 4.19 |
+| esci / minilm / asc | 0.03 | 0.01 | 2.04 | 2.00 | 0.03 | 0.01 | 1.65 | 1.62 |
+| esci / minilm / desc | 0.02 | 0.04 | 2.03 | 2.00 | 0.02 | 0.06 | 1.67 | 1.60 |
+| esci / minilm / field | 0.03 | 0.02 | 2.02 | 2.02 | 0.03 | 0.01 | 1.66 | 1.60 |
+| esci / bge_base / asc | 0.09 | 0.08 | 1.95 | 1.71 | 0.06 | 0.03 | 1.34 | 0.97 |
+| esci / bge_base / desc | 0.13 | 0.08 | 1.75 | 1.91 | 0.01 | 0.01 | 1.08 | 1.23 |
+| esci / bge_base / field | 0.09 | 0.08 | 1.93 | 1.73 | 0.06 | 0.03 | 1.36 | 0.94 |
+
+All cells are percentage points of highest-label support, query macro, K=20. Lost = reference always-in but fixed-control omitted; gained = reference always-out but fixed-control included. Crossing columns partition reference crossing mass. Dense and hybrid use their respective raw catalog-wide seven-schedule references. Full six-cell tables, denominators, conditional rates and uncorrected query-cluster intervals are in control_transitions.csv.
+
+A deterministic zero VI does not specify which products the policy consistently includes. Loss/gain columns refer to each family's own raw reference and do not estimate seller harm or human utility. No rule is chosen from these outcomes. Retain graded effectiveness and cost evidence alongside the identity table.

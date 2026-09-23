@@ -1,0 +1,7 @@
+{
+  "before_new_outcomes": true,
+  "protocol_sha256": "ab16a31715b095d1c1d75860632b97d625d2607ee9875909246d25adf3eafbb6",
+  "rule": "Every full text SHA256 is retained. Texts whose complete truncated input_ids, token_type_ids and attention masks are identical under the pinned profile alias one vector; historical original-seven ranks remain authoritative. New input groups use one representative forward pass. This saves redundant computation without changing model inputs, string counts, supports, seeds or schedules.",
+  "selection": "first record in dataset, catalog product order, old schedules first, then fixed new schedule order; no scores examined",
+  "cache": "full text hash plus encoder profile resolves via explicit model-input-hash alias manifest"
+}
