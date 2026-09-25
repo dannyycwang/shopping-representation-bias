@@ -1,0 +1,115 @@
+% Include after \appendix. References and labels are unique to this update.
+\section{Additional Evidence for Section 6}
+\label{app:ch6_evidence}
+
+\subsection{Encoder-Level Results and Native Score Boundaries}
+\label{app:ch6_boundaries}
+
+Attribute order changes relevant-product inclusion in every dataset--encoder setting. Across the seven catalog-wide schedules, VI@20 is 19.58\%, 11.93\%, and 14.47\% on WANDS for MiniLM, BGE, and GTE, respectively; the corresponding ESCI values are 4.04\%, 3.66\%, and 6.91\%. These estimates measure whether a relevant product crosses the cutoff within the tested family, rather than its probability of omission under future orders.
+
+Changing only the target's representation is sufficient to produce this sensitivity. With all competitors fixed at source order, WANDS VI@20 remains 19.45\%, 10.83\%, and 14.55\%, and ESCI VI@20 remains 2.91\%, 2.42\%, and 5.88\%. Thus, simultaneous changes to competing products are not required. The two interventions answer complementary questions; their VI difference does not decompose target and competitor effects.
+
+Sensitivity persists when the complete target input fits under every tested order (Figure~\ref{fig:rq1_target_fitting}). Fully-fitting target-only VI@20 is 10.59\%, 7.16\%, and 14.55\% on WANDS and 3.20\%, 2.55\%, and 5.88\% on ESCI. All catalog inputs fit GTE's 8,192-token limit. MiniLM and BGE have different restricted populations, so comparing these rates with the full-population estimates does not identify a causal truncation effect. It establishes that truncation is not necessary for inclusion sensitivity.
+
+The score boundary connects these population results to individual decisions. For target $p$, let $t_K(q,p)$ be the score of the $K$th competitor after removing $p$'s original entry, and let $m_s(q,p)=z(q,x_s(p))-t_K(q,p)$. A positive margin places the target inside Top-$K$; equality follows the fixed tie rule. The reconstructed boundaries agree with every audited Top-20 and Top-100 inclusion decision. Figure~\ref{fig:rq1_native_cases} shows a fully-fitting BGE product moving between ranks 20 and 39, while the stable control remains between ranks 14 and 19. Larger excursions also occur: the 139-token MiniLM \emph{french molding} example spans ranks 15--174. Across all WANDS/MiniLM relevant targets, 5.25\% both cross Top-20 and reach a worst rank above 100. The cases illustrate these effects; the population estimates establish their extent.
+
+\begin{figure*}[!tbp]
+  \centering
+  \includegraphics[width=\textwidth]{figures/native_boundary_cases.pdf}
+  \caption{Native score margins for a preselected BGE crossing case and stable control. Labels give target-only ranks across seven orders, with all competitors fixed. Both inputs fit the token limit.}
+  \label{fig:rq1_native_cases}
+  \Description{The bathroom-wastebasket target crosses the zero-margin Top-20 boundary, with ranks 20 to 39. The retractable-side-awning control stays above the boundary, with ranks 14 to 19. The points denote ordering schedules, not time.}
+\end{figure*}
+
+\subsection{Graded Effectiveness and Membership}
+\label{app:ch6_graded}
+
+All graded comparisons retain the primary 308 WANDS and 499 ESCI queries and all their judged labels. Direct gains are Exact/Partial/Irrelevant $=3/1/0$ and E/S/C/I $=1/0.1/0.01/0$. Full-ranking nDCG discounts at original catalog ranks; assigning zero gain to unjudged products is a computational convention. Condensed cNDCG removes unjudged products before discounting. JudgedCoverage measures the judged fraction of the original candidate list, including zero-gain judgments. Neither convention resolves incomplete relevance assessment.
+
+Table~\ref{tab:ch6_graded_membership} retains the six source-order contrasts for each dataset--encoder setting as ranges. Each conditional statistic uses that contrast's changed-query denominator. Thresholds are descriptive and are not equivalence margins. Numerical equality uses absolute tolerance $10^{-12}$ and zero relative tolerance, separately from exact integer Recall cancellation. Table~\ref{tab:ch6_graded_context} provides companion graded and coverage values for the main controls; the released repository retains complete per-query records and paired intervals.
+
+Recall measures the balance between newly included and newly omitted relevant products. Their sum measures how much membership changes (Figure~\ref{fig:rq2_membership}). Across the six WANDS comparisons with source order at $K=20$, this sum ranges from 8.23--10.52\% for MiniLM, 4.31--4.77\% for BGE, and 5.75--6.36\% for GTE. The corresponding net Recall changes range from $-2.60$ to $-0.95$, $-0.46$ to $+0.14$, and $-0.92$ to $+0.14$ pp. Net changes therefore provide an incomplete account of the affected products.
+
+For example, reversing WANDS attributes with BGE newly includes 2.357\% and newly omits 2.263\% of relevant products. Their combined share is 4.621\%, although Recall changes by only $+0.094$ pp (95\% CI $[-0.409,0.563]$). Each query's denominator is $|H_q|$, not the candidate-set size. This cancellation also occurs within queries: 67--78 of the 308 WANDS queries have equal, positive BGE gain and loss counts in each source-order comparison. Their Recall is exactly unchanged despite different retrieved products. These counts are ranges across comparisons, not disjoint query groups. The corresponding ESCI/BGE share is 2.40--3.21\%.
+
+Graded effectiveness reveals additional changes. Among queries with changed Top-20 relevant-product membership, the median absolute nDCG@20 difference ranges from 0.0226 to 0.0399 on WANDS and 0.0388 to 0.0482 on ESCI across encoders and schedules. The fraction exceeding the prespecified descriptive threshold 0.01 is 64.1--79.2\% and 81.1--96.2\%, respectively. Thus, membership changes usually accompany appreciable graded-score differences under this threshold. These conditional percentages do not describe all evaluated queries.
+
+Query-mean nDCG@20 differences are smaller, ranging from $-0.01101$ to $+0.00151$ on WANDS and $-0.00393$ to $+0.00092$ on ESCI. Five of the 36 uncorrected paired intervals lie entirely below zero; the others include zero, without establishing equivalence. Numerical nDCG equality with changed membership nevertheless occurs in 18--29 WANDS queries per raw comparison and 0--2 ESCI queries, using absolute tolerance $10^{-12}$. This bounded result complements the exact integer cancellation in Recall. It does not support a general claim of unchanged effectiveness.
+
+\input{tables/graded_membership_supplement.tex}
+\input{tables/graded_context_supplement.tex}
+
+\subsection{Coverage of Target Attribute Orders}
+\label{app:ch6_coverage}
+
+The WANDS expansion fixes 128 queries selected by a deterministic hash of eligible query IDs, retaining all 7,125 highest-label pairs. The original seven schedules form the prefix of nested families of 16 and 32 schedules. New product-dependent random orders use the same serialization function and seeds 2026092201--2026092225. All competitors remain at their original source representations. The full support remains fixed throughout; the common fitting support includes only pairs that fit under all 32 orders. It contains 48 queries/354 pairs for MiniLM and 92 queries/2,186 pairs for BGE.
+
+For ESCI, each target contains at most three permutable whole entries. Enumeration covers every distinct serialization, at most six per product, on all 499 queries/4,434 pairs. Duplicate entries and fixed text are preserved. The common fully-fitting supports contain 460 queries/2,578 pairs for MiniLM and 488 queries/3,587 pairs for BGE. Exhaustiveness concerns an individual target with fixed competitors and does not enumerate joint catalog configurations.
+
+Figure~\ref{fig:ch6_coverage} and Table~\ref{tab:ch6_coverage} separate full and fitting supports. At $K=20$, the 16-to-32 increment on the full WANDS supplement is 3.71 pp for MiniLM (95\% CI $[2.68,4.88]$) and 2.52 pp for BGE ($[1.57,3.72]$). These increments do not establish saturation. At a fixed support, adding schedules can only increase or preserve VI and decrease or preserve persistent inclusion and omission. This monotonicity is structural.
+
+The expansion reuses historical arrays and adds new forward passes with the pinned weights and tokenizer, FP16 model computation, and FP32 pooling. Current and historical Transformer-library versions differ, and a memory-driven BGE batch-size adjustment was recorded. Original-seven ranks remain authoritative. Repeated-input probes measure numerical differences on 16 fixed products per dataset/encoder, not a global error bound. The WANDS/BGE probe happens to match cached vectors exactly, while separate BGE case forwards differ from native saved scores. A zero sampled discrepancy therefore cannot certify every new representation or batch shape. These supplemental rates are conditional on the documented execution profile.
+
+Target-only inclusion frequency averages separate counterfactual decisions and is not catalog-wide Recall. WANDS frequency weights the requested schedules, including repeated strings. ESCI's expanded observation family retains the seven original observations and adds each missing distinct text once; its frequency is not a uniform average over unique permutations. Its inclusion states nevertheless cover all distinct target orders.
+
+The size of the tested family also matters. On a fixed 128-query WANDS supplement containing 7,125 relevant pairs, target-only VI@20 increases from 20.85\% to 24.50\% to 28.21\% for MiniLM as the family expands from 7 to 16 to 32 schedules; BGE increases from 11.40\% to 15.03\% to 17.55\%. On each encoder's fixed all-32-fitting support, the respective seven-to-32 changes are 11.36\% to 16.61\% and 8.74\% to 17.60\%. Enumerating all distinct whole-entry orders per ESCI target increases MiniLM VI@20 from 2.91\% to 3.25\% and BGE from 2.42\% to 3.13\%. Nested VI is nondecreasing by definition; the empirical finding is the additional crossing mass. These supplementary executions do not establish WANDS saturation or exhaust joint catalog configurations.
+
+\input{tables/coverage_supplement.tex}
+\begin{figure*}[!tbp]
+\centering
+\includegraphics[width=\textwidth]{supplement/figures/supplement_permutation_coverage.pdf}
+\caption{Target-only VI under larger ordering families, with fixed full and common fitting supports. WANDS uses 128 queries; ESCI enumerates distinct orders per target. Intervals are uncorrected 95\% query-cluster intervals.}
+\label{fig:ch6_coverage}
+\Description{Four panels show Top-20 and Top-100 crossing for MiniLM and BGE on WANDS and ESCI. Full and fitting populations are separately labeled with support sizes.}
+\end{figure*}
+
+\subsection{Query-Conditioned Attribution and Its Limits}
+\label{app:ch6_xai}
+
+We use Integrated Gradients~\cite{sundararajan2017axiomatic} for the scalar similarity between a fixed cached query vector and the normalized product embedding. The gradient-enabled adapter preserves native pooling, positions, masks, and frozen FP16-rounded weights represented in FP32. This is a numerical diagnostic of the retriever; saved native scores determine inclusion. The product encoder itself does not receive the query, so raw product self-attention would not constitute a query-conditioned explanation.
+
+The panel contains four crossing, four persistently included, and four persistently omitted all-seven-fitting pairs per MiniLM/BGE, selected by a fixed hash before attribution. The historical French-molding pair is additional, giving 25 pairs and 50 minimum/maximum-score variants. This stratification does not estimate population prevalence. Each variant uses a zero-word-embedding baseline and a PAD-vector sensitivity baseline, with fixed special tokens and attention masks. Gauss--Legendre integration uses 64 nodes, increasing to 128 and then 256 if needed. Completeness requires residual at most $\max(10^{-4},0.01|F(x)-F(x')|)$. Token contributions are summed by original entry occurrence, with fixed content and boundary tokens separately accounted for.
+
+All 100 baseline runs completed; 98 passed completeness and two failures were retained. The input-ID and embedding-input adapter scores agree, and none of the 50 diagnostic forwards changes the native inclusion decision. The largest diagnostic/native score discrepancy is $1.64\times10^{-4}$. For the preselected BGE crossing, however, the positive native margin is $9.75\times10^{-5}$ and the diagnostic discrepancy is $2.73\times10^{-5}$. It fails the prespecified requirement that the absolute margin exceed five times that discrepancy. The stable control's maximum-order zero-baseline run fails completeness at 256 nodes. Figure~\ref{fig:ch6_xai_original} retains these cases and explicitly marks their limits; Figure~\ref{fig:rq1_native_cases} uses only their authoritative native scores.
+
+Baseline sensitivity further limits mechanistic interpretation. Across the selected panel, median agreement in the sign of entry-attribution changes is 0.585 and median correlation between the two baselines' change vectors is 0.290. These are exploratory panel summaries. The historical MiniLM case passes both checks and has sign agreement 0.857. Both baselines assign positive maximum-minus-minimum changes to width, product type and material, and a negative change to molding use; the color change reverses sign between baselines. Figure~\ref{fig:ch6_french} illustrates this bounded result. Since baseline scores may differ across orders, differences between attribution sums need not equal the entire similarity-score difference. These observations do not establish a unique causal mechanism.
+
+\begin{figure*}[!tbp]
+\centering
+\includegraphics[width=\textwidth]{supplement/figures/main_query_conditioned_cases.pdf}
+\caption{Preselected BGE attribution cases, retained with failed checks. The crossing fails numerical separation and the stable control has a completeness failure. Native ranks remain valid; heatmaps do not establish an explanation of the crossing.}
+\label{fig:ch6_xai_original}
+\Description{Aligned entry attribution and native score margins for the fixed crossing case and stable control. The original figure annotates both diagnostic limitations.}
+\end{figure*}
+
+\begin{figure*}[!tbp]
+\centering
+\includegraphics[width=\textwidth]{supplement/figures/supplement_french_molding.pdf}
+\caption{Post-hoc MiniLM example: the same 139-token French-molding product spans ranks 15--174 with fixed competitors. Attribution is baseline-dependent; complete values and both reference checks accompany the example.}
+\label{fig:ch6_french}
+\Description{Two fact-equivalent attribute orders, query-conditioned entry attribution, and native margins for the historical French-molding illustration.}
+\end{figure*}
+
+\subsection{Control Transitions and Comparison Scope}
+\label{app:ch6_transitions}
+
+\input{tables/all_transitions_supplement.tex}
+
+Each identity transition compares a raw seven-schedule catalog-wide family with a corresponding fixed index. Dense and hybrid families retain their own reference rankings. The three reference states and two fixed outcomes partition each query's highest-label support into six cells. Query-macro estimates first divide cell counts by $|H_q|$ and then average across queries. Conditional inclusion in the exported tables is the ratio of query-macro cell masses, not an equal-query mean of conditional probabilities. Pair-micro estimates and zero-denominator cases are separately recorded.
+
+Table~\ref{tab:ch6_all_transitions} reports all canonical rules at $K=20$. The complete evidence files retain both cutoffs, all six cells, identities, denominators and intervals. An always-in product lost by canonicalization need not have been unstable under the original seven orders: the canonical input is a distinct fixed policy, which can lie outside that observed family. Likewise, a raw always-out product can become included. Neither outcome contradicts structural VI=0.
+
+All 12 canonical--BM25 controls fuse full-catalog branch ranks with equal-weight RRF and constant 60, using the existing three canonical rules without new weight tuning. They retain one dense vector per product plus the fixed sparse index. Existing cost records separate construction, array storage and local scoring work. Multi-vector scoring remains proportional to the retained view count; the implementation does not provide cost-free online aggregation. No new ANN or deployment-latency benchmark is claimed.
+
+Canonicalization does not impose a uniform effectiveness penalty or gain. For example, WANDS/BGE ascending Recall@100 is 63.24\%, compared with 63.17\% at source order and 63.62\% averaged over the seven raw schedules. The reference therefore matters even for the direction of a small difference. We retain all three rules rather than selecting a test-set winner.
+
+Identity transitions show what a zero VI conceals (Table~\ref{tab:control_destinations}). Under WANDS/MiniLM ascending dense retrieval at $K=20$, 7.57\% of relevant support moves from crossing to fixed inclusion, while 12.01\% moves from crossing to fixed omission. The same control omits 0.23\% that was included under every raw schedule and includes 0.43\% that was omitted under every raw schedule. These are query-macro shares of all relevant support, not conditional rescue or failure rates. A fixed representation determines which outcome persists; elimination of crossing alone does not establish preservation of relevant coverage.
+
+Alternative aggregation strategies also have setting-dependent effects. Set-Mean has higher Recall@100 than raw dense retrieval on WANDS/MiniLM and lower Recall in the other three settings. Its zero VI consequently cannot establish retrieval quality. Increasing full-record view count is not uniformly beneficial either: WANDS/BGE centroid Recall@100 is 63.96\%, 64.39\%, and 64.16\% at $M=2,4,7$, while ESCI remains near 91.01--91.07\%. At $M=7$, ESCI yields only 3.40 distinct text views per product on average, compared with approximately 7.00 on WANDS. These observations describe the tested budgets without identifying the cause of effectiveness differences.
+
+Adding lexical evidence improves both Recall and stability in several settings. Relative to raw dense seven-schedule means, raw hybrid Recall@100 increases by 8.93 pp on WANDS/MiniLM, 4.15 pp on WANDS/BGE, and 3.37 pp on ESCI/MiniLM, while VI@100 decreases by 10.81, 5.26, and 0.85 pp. Each paired interval supports its stated direction. ESCI/BGE differences remain inconclusive. Raw hybrid nevertheless retains nonzero VI in all four settings.
+
+Canonical--BM25 hybrids combine lexical evidence with a fixed dense representation. All 12 dataset--encoder--rule configurations have positive uncorrected nDCG@20 intervals versus BM25, and nine do versus their corresponding canonical dense branch; the three ESCI/BGE dense-branch comparisons remain inconclusive. Against the raw-hybrid seven-schedule mean, ten nDCG@20 contrasts are inconclusive and two ESCI/BGE contrasts are positive. All Recall@100 intervals against that reference include zero. At $K=20$, WANDS/BGE ascending instead reduces Recall by 0.624 pp (95\% CI $[-1.370,-0.084]$). Lexical benefits can therefore coexist with structural order invariance, but the evidence supports neither universal preservation nor a general effectiveness--instability trade-off.
+
+The controls also differ in cost. Canonicalization stores one dense vector per product; canonical hybrid adds a sparse BM25 index and scores both branches. Centroid retrieval requires $M$ construction encodings but stores one vector, whereas multi-vector retrieval retains and scores $M$ vectors. In the historical WANDS/BGE CPU benchmark, median exact retrieval time increases from 8.56 ms for raw dense retrieval to 13.11 ms for $M=2$ multi-vector retrieval; centroid retrieval takes 8.31 ms. These warm-cache measurements exclude query encoding and do not establish deployment or approximate-index latency. Effectiveness, persistent inclusion and omission, product transitions, and cost together determine the practical value of each control.
+

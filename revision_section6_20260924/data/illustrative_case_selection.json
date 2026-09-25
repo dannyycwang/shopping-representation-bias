@@ -1,0 +1,22 @@
+{
+  "selection_rule": "Minimum SHA256(section6-replacement-v1|wands|bge_base|C1|20|query_id) among exact positive integer replacement cases; WANDS/BGE/reversal chosen by manuscript example, not effect size.",
+  "selection_time_utc": "2026-09-25T13:24:45.631220+00:00",
+  "eligible_cases": 73,
+  "query_id": 231,
+  "selection_hash": "068cc8a89c58452b45f1ecf764b2470b0ee9c0cfd25966ba3762301c265cfb9d",
+  "illustrative": true,
+  "all_fitting_required": false,
+  "source_numerator": 20,
+  "alternative_numerator": 20,
+  "denominator": 307,
+  "recall": 0.06514657980456026,
+  "gain_count": 5,
+  "loss_count": 5,
+  "query": "anti fatigue mat",
+  "dataset": "wands",
+  "model": "bge_base",
+  "intervention": "catalog_wide",
+  "catalog_size": 42994,
+  "source_schedule": "C0",
+  "alternative_schedule": "C1"
+}

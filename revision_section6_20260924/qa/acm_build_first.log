@@ -1,0 +1,205 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(qa/section6_acm_proof.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-04-11>
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/acmart\acmart.cls
+Document Class: acmart 2026/08/16 v2.20 Typesetting articles for the Associatio
+n for Computing Machinery
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdfte
+x.def)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg))
+ (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+)) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/totpages\totpages.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.sty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+)) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefineke
+ys.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.s
+ty)) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+ (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitle
+string.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty))
+) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.s
+ty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
+heck.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecou
+nter.sty)))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/hyperxmp\hyperxmp.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\ifdraft.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+))) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\manyfoot.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccfoots.sty))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.t
+ex) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty<<t1.cmap
+>>)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/libertine\libertine.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes-v1.sty)
+)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibertine_I.
+tex)) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+amsthm NOT loaded
+) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd))
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-ams-smf.s
+to))) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+Special comment 'acks'
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertin
+et-tlf.fd)) Excluding comment 'screenonly' Include comment 'printonly'
+Include comment 'anonsuppress'
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
+x.def)
+No file section6_acm_proof.aux.
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ot1linuxliberti
+net-tlf.fd)<<ot1.cmap>><<oml.cmap>>
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
+e.sty
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty)
+(manuscript/section6_revised.tex
+
+LaTeX Warning: Reference `fig:rq1_target_fitting' on page 1 undefined on input 
+line 8.
+
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg)
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg)
+
+LaTeX Warning: Reference `fig:rq2_membership' on page 1 undefined on input line
+ 22.
+
+
+LaTeX Warning: Reference `tab:strategy_joint' on page 1 undefined on input line
+ 34.
+
+(tables/main_table_candidate.tex) [1.1{C:/Users/ycw/AppData/Local/MiKTeX/fonts/
+map/pdftex/pdftex.map}{C:/Users/ycw/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
+ps/libertine/lbtn_nh77jq.enc}{C:/Users/ycw/AppData/Local/Programs/MiKTeX/fonts/
+enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/ycw/AppData/Local/Programs/MiKTeX
+/fonts/enc/dvips/libertine/lbtn_oexx6f.enc} <./figures/figure3_target_fitting.p
+df>] (tables/transition_single.tex)
+
+LaTeX Warning: Reference `tab:control_destinations' on page 2 undefined on inpu
+t line 54.
+
+
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxbiolinum
+t-tlf.fd) [2.2{C:/Users/ycw/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/liber
+tine/lbtn_25tcsq.enc} <./figures/figure4_membership_replacement.pdf>]) [3.3]
+(C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
+) (C:\Users\ycw\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+) [4.3]
+(C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shoppi
+ng-representation-bias\revision_section6_20260924\qa\section6_acm_proof.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+
+
+Package rerunfilecheck Warning: File `section6_acm_proof.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )<C:/Users/ycw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Libertin
+eMathMI.pfb><C:/Users/ycw/AppData/Local/Programs/MiKTeX/fonts/type1/public/newt
+x/LibertineMathMI7.pfb><C:/Users/ycw/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/libertine/LinBiolinumT.pfb><C:/Users/ycw/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/libertine/LinLibertineT.pfb><C:/Users/ycw/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/ycw/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/ycw/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
+Output written on "C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\
+New project\shopping-representation-bias\revision_section6_20260924\qa\section6
+_acm_proof.pdf" (4 pages, 340087 bytes).
+Transcript written on "C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Docume
+nts\New project\shopping-representation-bias\revision_section6_20260924\qa\sect
+ion6_acm_proof.log".

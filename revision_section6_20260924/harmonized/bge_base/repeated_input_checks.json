@@ -1,0 +1,370 @@
+[
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 214417,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 168574,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 110816,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 47322,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 23736,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 245123,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 234491,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 264878,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 9255,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 33201,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 127520,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 39428,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 173974,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 138162,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 16,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 86549,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 100516,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 126003,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 81194,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 170541,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 231015,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 111273,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 250893,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "hash-fixed repeated input",
+    "vector_index": 39461,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 425,
+    "product_id": "8836",
+    "schedule": "C2s3",
+    "vector_index": 110355,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 100,
+    "repeated_rank": 100,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 148,
+    "product_id": "35517",
+    "schedule": "C2s4",
+    "vector_index": 154566,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 100,
+    "repeated_rank": 100,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 123,
+    "product_id": "29516",
+    "schedule": "C2s5",
+    "vector_index": 143064,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 101,
+    "repeated_rank": 101,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 226,
+    "product_id": "27528",
+    "schedule": "C2s3",
+    "vector_index": 202077,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 20,
+    "repeated_rank": 20,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "esci",
+    "query_id": 87048,
+    "product_id": "B016BAOKK8",
+    "schedule": "C2s2",
+    "vector_index": 26399,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 100,
+    "repeated_rank": 100,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 37,
+    "product_id": "25883",
+    "schedule": "C2s2",
+    "vector_index": 47286,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 20,
+    "repeated_rank": 20,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "esci",
+    "query_id": 92627,
+    "product_id": "B06WD3TL6F",
+    "schedule": "C2s5",
+    "vector_index": 20288,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 20,
+    "repeated_rank": 20,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 235,
+    "product_id": "7253",
+    "schedule": "C0",
+    "vector_index": 77531,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 21,
+    "repeated_rank": 21,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 122,
+    "product_id": "24118",
+    "schedule": "C2s1",
+    "vector_index": 201609,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 101,
+    "repeated_rank": 101,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "esci",
+    "query_id": 5094,
+    "product_id": "B00LI4NKUE",
+    "schedule": "C2s3",
+    "vector_index": 8811,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 20,
+    "repeated_rank": 20,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 242,
+    "product_id": "31877",
+    "schedule": "C2s4",
+    "vector_index": 46061,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 101,
+    "repeated_rank": 101,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "esci",
+    "query_id": 92627,
+    "product_id": "B06WD3TL6F",
+    "schedule": "C2s1",
+    "vector_index": 20288,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 20,
+    "repeated_rank": 20,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 160,
+    "product_id": "27140",
+    "schedule": "C2s4",
+    "vector_index": 238408,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 100,
+    "repeated_rank": 100,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "esci",
+    "query_id": 87048,
+    "product_id": "B016BAOKK8",
+    "schedule": "C2s4",
+    "vector_index": 27854,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 99,
+    "repeated_rank": 99,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 270,
+    "product_id": "13190",
+    "schedule": "C2s1",
+    "vector_index": 132234,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 21,
+    "repeated_rank": 21,
+    "decision20_changed": false,
+    "decision100_changed": false
+  },
+  {
+    "kind": "changed-decision repeat",
+    "dataset": "wands",
+    "query_id": 26,
+    "product_id": "17383",
+    "schedule": "C2s1",
+    "vector_index": 115217,
+    "max_abs_vector_error": 0.0,
+    "bitwise_identical": true,
+    "saved_rank": 21,
+    "repeated_rank": 21,
+    "decision20_changed": false,
+    "decision100_changed": false
+  }
+]

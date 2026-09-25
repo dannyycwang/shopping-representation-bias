@@ -1,0 +1,34 @@
+{
+  "time_utc": "2026-09-25T16:40:40.560420+00:00",
+  "all_final_assets_reviewed": true,
+  "two_column_proof_reviewed": true,
+  "proof_pages": 3,
+  "reviewer": "Codex visual inspection of rendered PDFs",
+  "findings": "All five vector assets and all three ACM proof pages inspected. No clipped text, overlap, unreadable labels or missing glyphs; single main transition table.",
+  "files": [
+    {
+      "path": "figures/figure3_target_fitting.pdf",
+      "sha256": "3d6223ae8cbcbfea3806e8e88b7502b9c0e5fff4d8927f8b73c2c0bace6d1a07"
+    },
+    {
+      "path": "figures/figure4_membership_replacement.pdf",
+      "sha256": "9b5639470b51cf68c010c124224dbe4a58569a11cc3f3d72b6b65c23a720a684"
+    },
+    {
+      "path": "figures/illustrative_replacement_case.pdf",
+      "sha256": "434b00f8b5bcc358d35be5b72f2365861570c89b1e4cdd13e9530b730ff10af3"
+    },
+    {
+      "path": "figures/table1_controls_candidate.pdf",
+      "sha256": "d601ca5ebb9fb5e56846efe15701ef8edce4be7cd25219770bc0ee267ae50451"
+    },
+    {
+      "path": "figures/table2_transition_single.pdf",
+      "sha256": "5ff12f808d6dd38ef1e15799850d6cdcc9edcc89c559b1cacfea5c5884a71104"
+    },
+    {
+      "path": "qa/section6_acm_proof.pdf",
+      "sha256": "b058c51d76d8c60f97f32386f973709e71af53bae628157b5a1489861d40dcd9"
+    }
+  ]
+}

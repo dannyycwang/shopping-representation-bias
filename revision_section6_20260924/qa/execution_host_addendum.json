@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-25T15:45:03.244563+00:00",
+  "capture_timing": "during BGE encoding, after MiniLM completion; additional host detail, not retrospectively claimed pre-frozen",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "gpu_driver": "name, driver_version, pci.bus_id, compute_cap\nNVIDIA GeForce RTX 4060 Laptop GPU, 580.97, 00000000:01:00.0, 8.9",
+  "original_environment": "qa/environment.json",
+  "encoding_profiles": [
+    "harmonized/minilm/profile.json",
+    "harmonized/bge_base/profile.json"
+  ]
+}

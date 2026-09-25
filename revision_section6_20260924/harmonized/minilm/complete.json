@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-09-25T15:37:19.233107+00:00",
+  "profile": "855096a198cfffae5286ea8c1b48b4a2e68a32741168e43c7abdf2c084f6a3ed",
+  "unique_vectors": 258757,
+  "alias_rows": 310999,
+  "encoding_seconds": 7986.108425295912,
+  "vectors_sha256": "aa8ef03b6b0ee0d48283b18c7eb1db6d6dda7a19934314e056122d8a2076b33e",
+  "all_repeated_inputs_identical": true,
+  "changed_decision_checks": 16,
+  "new_inference_only_for_harmonized_supplement": true
+}

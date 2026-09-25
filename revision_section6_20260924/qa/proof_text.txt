@@ -1,0 +1,413 @@
+Full
+
+Fully fitting
+
+WANDS
+
+ESCI
+VI (%) | queries/pairs
+
+VI (%) | queries/pairs
+
+19.45 | 308/21,299
+
+MiniLM
+
+10.83 | 308/21,299
+
+BGE
+
+14.55 | 308/21,299
+
+0
+
+5
+
+10
+
+15
+
+20
+
+3.20 | 460/2,578
+2.42 | 499/4,434
+
+BGE
+
+7.16 | 239/6,797
+
+GTE*
+
+2.91 | 499/4,434
+
+MiniLM
+
+10.59 | 118/925
+
+2.55 | 488/3,587
+
+5.88 | 499/4,434
+
+GTE*
+
+25
+
+0
+
+VI@20 (%) | axis: 0–25%
+
+2
+
+4
+
+6
+
+8
+
+VI@20 (%) | axis: 0–8%
+
+* GTE: Full = fully fitting. Whiskers: 95% query-cluster intervals. Competitors stay at source order.
+
+Figure 3: Target-only VI@20 with 95% query-cluster intervals and query/pair support. GTE shows one estimate for identical
+full and fitting populations. Panel axis ranges differ explicitly; competitors remain fixed.
+
+6
+
+Results
+
+Unless stated otherwise, we report query-macro percentages on the primary populations, percentage-point (pp) differences, and nDCG on
+the 0–1 scale.
+
+6.1
+
+Attribute-Order Sensitivity (RQ1)
+
+Across the seven catalog-wide schedules, VI@20 ranges from 11.93–19.58% on WANDS and 3.66–6.91% on ESCI. These estimates describe
+crossing within the tested family, not a probability of omission under future orders.
+With every competitor fixed at source order, changing only the target yields VI@20 of 10.83–19.45% on WANDS and 2.42–5.88% on
+ESCI. The interventions answer complementary questions; their difference does not decompose target and competitor effects. Sensitivity
+remains when every tested target input fits completely: fully-fitting VI@20 ranges from 7.16–14.55% and 2.55–5.88%, respectively (Figure 3).
+GTE’s full and fitting populations coincide. MiniLM and BGE fitting subsets differ from the full populations and from one another, so these
+comparisons do not isolate a causal truncation or architecture effect.
+The expanded-order experiment is retained as a historical supplement pending harmonized execution; its mixed-runtime increase is not
+used here as an order-only conclusion.
+
+6.2
+
+Aggregate Effectiveness and Product Membership (RQ2)
+
+Gains and losses can be substantially larger than their net Recall change. Reversing WANDS attributes with BGE newly includes 2.357%
+and newly omits 2.263% of highest-label support. The full-precision sum rounds to 4.621%, while Recall changes by only +0.094 pp (95% CI
+[−0.409, 0.563]). Each share is divided by |𝐻𝑞 | within a query before macro averaging.
+Exact replacement also occurs within individual queries. For this reversal, 73 of 308 WANDS/BGE queries (23.70%) have equal positive gain
+and loss counts. Across the six contrasts, counts range from 67 to 78 (21.75–25.32% per contrast), not a union of distinct queries. Figure 4 uses
+reversal as the same definition-based editorial contrast in every setting, selected after historical outcomes; all original schedules remain in
+companion outputs. An illustrative hash-selected query, “anti fatigue mat,” exchanges five Exact products in each direction while Recall@20
+remains exactly 20/307. The case companion records every changed ID, name, label, rank and order.
+Graded effectiveness is complementary. Conditional on changed Top-20 relevant membership, median absolute nDCG@20 differences
+range from 0.0226–0.0399 on WANDS and 0.0388–0.0482 on ESCI. Signed means over all eligible queries range from −0.01101 to +0.00151
+and −0.00393 to +0.00092, respectively. These summarize different populations and quantities. The companion retains each named contrast,
+its unadjusted interval, condensed nDCG and judged coverage; intervals containing zero do not establish equality.
+
+6.3
+
+Effectiveness and Consistent Inclusion under Controls (RQ3)
+
+Canonical, set-based, fixed-view and lexical controls remove incoming-order dependence by construction. Their zero VI is structural;
+effectiveness and which products are persistently included remain empirical questions. Table 1 retains all three canonical rules without
+choosing a test winner. Raw dense and raw hybrid effectiveness average seven schedules; source-order results remain separately labelled in
+the companion.
+1
+
+Author proof
+
+Lost (negative for display)
+
+Gained
+
+WANDS
+
+Net Recall, 95% CI
+
+ESCI
+Equal gains/losses
+Queries (%)
+57/308
+(18.5%)
+
+MiniLM
+
+Equal gains/losses
+Queries (%)
+14/499
+(2.8%)
+
+MiniLM
+
+BGE
+
+73/308
+(23.7%)
+
+BGE
+
+16/499
+(3.2%)
+
+GTE
+
+61/308
+(19.8%)
+
+GTE
+
+21/499
+(4.2%)
+
+−7
+
+0
+
+7
+
+−2.5
+
+Share (%) / ΔRecall (pp)
+
+0.0
+
+2.5
+
+Share (%) / ΔRecall (pp)
+
+Right column: gain count = loss count > 0; denominator is all eligible queries.
+Reverse vs source in every setting; shares use |Hq|. All six contrasts remain in companion outputs. Panel scales differ.
+
+Figure 4: Reverse versus source at 𝐾 = 20. Bars show query-macro gained/lost shares of 𝐻𝑞 ; losses are nonnegative quantities
+drawn left only for display. Diamonds show net Recall differences with 95% paired intervals. Counts require equal positive
+integer gains and losses and use all eligible queries as denominator.
+Table 1: Common-support controls. Recall (R) and VI are percentages; nDCG uses 0–1. R@100/VI@100 assess candidate inclusion,
+whereas nDCG@20 assesses ranking near the top. All fixed controls have structural VI=0. The companion includes R@20,
+paired intervals, source-order references, GTE and every view budget.
+Method
+R@100
+
+MiniLM
+VI@100 nDCG@20
+
+R@100
+
+BGE
+VI@100
+
+nDCG@20
+
+WANDS
+Raw dense (7 mean)
+Canonical: ascending
+Canonical: descending
+Canonical: type priority
+BM25
+Raw hybrid (7 mean)
+Canonical hybrid: ascending
+Canonical hybrid: descending
+Canonical hybrid: type priority
+Set-Mean
+
+56.61
+56.05
+56.16
+57.19
+63.23
+65.55
+65.61
+65.29
+65.71
+58.81
+
+21.89
+0.00
+0.00
+0.00
+0.00
+11.08
+0.00
+0.00
+0.00
+0.00
+
+0.6323
+0.6264
+0.6341
+0.6312
+0.6548
+0.6983
+0.6960
+0.6979
+0.6988
+0.6366
+
+63.62
+63.24
+63.61
+63.56
+63.23
+67.77
+68.15
+67.93
+67.83
+61.82
+
+12.30
+0.00
+0.00
+0.00
+0.00
+7.05
+0.00
+0.00
+0.00
+0.00
+
+0.7008
+0.6981
+0.7023
+0.7030
+0.6548
+0.7254
+0.7239
+0.7272
+0.7262
+0.6841
+
+ESCI
+Raw dense (7 mean)
+Canonical: ascending
+Canonical: descending
+Canonical: type priority
+BM25
+Raw hybrid (7 mean)
+Canonical hybrid: ascending
+Canonical hybrid: descending
+Canonical hybrid: type priority
+Set-Mean
+
+86.19
+86.41
+86.38
+86.36
+82.83
+89.57
+89.51
+89.66
+89.54
+84.50
+
+1.41
+0.00
+0.00
+0.00
+0.00
+0.56
+0.00
+0.00
+0.00
+0.00
+
+0.6019
+0.6015
+0.6008
+0.6013
+0.6151
+0.6404
+0.6392
+0.6405
+0.6392
+0.5887
+
+91.04
+91.05
+91.01
+91.09
+82.83
+91.61
+91.55
+91.55
+91.57
+88.95
+
+0.72
+0.00
+0.00
+0.00
+0.00
+0.74
+0.00
+0.00
+0.00
+0.00
+
+0.6623
+0.6632
+0.6612
+0.6629
+0.6151
+0.6690
+0.6710
+0.6690
+0.6709
+0.6371
+
+Simple controls have setting-dependent effectiveness. Set-Mean’s Recall@100 exceeds the raw dense seven-schedule mean on
+WANDS/MiniLM and is lower in the other three MiniLM/BGE settings. Raw hybrid minus raw dense changes WANDS/BGE mean Recall@100
+by +4.152 pp (95% CI [2.551, 5.819]); full paired comparisons for all settings accompany the table. These observations do not establish a
+general effectiveness–instability trade-off.
+For a convention-based canonical example, WANDS/BGE ascending canonical hybrid changes nDCG@20 by +0.0691 (95% CI
+[0.0554, 0.0832]) versus BM25 and +0.0259 (95% CI [0.0142, 0.0378]) versus its corresponding ascending dense branch. Against the raw-hybrid
+seven-schedule mean, its Recall@20 changes by −0.624 pp (95% CI [−1.370, −0.084]). This counterexample remains visible even though the
+main table reports R@100. Each interval is unadjusted; neither an interval crossing zero nor structural invariance establishes universal
+preservation.
+2
+
+Section 6: isolated editorial proof
+
+Table 2: One transition illustration: WANDS/MiniLM ascending at 𝐾 = 20. Cells are query-macro percentages of all highest-label
+support. Dense and hybrid use their own raw families; each six-cell block sums to 100% before rounding.
+Raw reference state
+Persistent inclusion
+Crossing
+Persistent omission
+
+Dense
+Included Omitted
+20.72
+7.57
+0.43
+
+0.23
+12.01
+59.04
+
+Hybrid
+Included Omitted
+29.27
+6.77
+0.42
+
+0.21
+6.93
+56.40
+
+The fixed order can place a previously crossing product on either side of the cutoff (Table 2). In the dense example, 7.57% of all support
+moves from crossing to inclusion and 12.01% to omission. The control also omits 0.23% that was persistently included and includes 0.43%
+that was persistently omitted. These are unconditional accounting shares, not newly caused losses or failure probabilities. The two small
+stable-state cells alone do not recover total Recall change because crossing products also contribute. The canonical order may lie outside the
+seven raw orders.
+Cost provides a separate comparison. Canonicalization retains one dense vector; centroid construction encodes 𝑀 views but retains and
+scores one vector, whereas multi-vector retrieval stores and scores 𝑀 vectors. Hybrid adds sparse storage and branch scoring. Existing
+cost measurements use warm-cache CPU exact retrieval and exclude query encoding; they are not ANN deployment latency. Effectiveness,
+persistent inclusion/omission, identities and cost therefore accompany VI.
+
+3
+
+

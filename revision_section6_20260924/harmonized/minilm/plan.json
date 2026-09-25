@@ -1,0 +1,10 @@
+{
+  "time_utc": "2026-09-25T13:23:14.737158+00:00",
+  "profile": "855096a198cfffae5286ea8c1b48b4a2e68a32741168e43c7abdf2c084f6a3ed",
+  "unique_inputs": 258757,
+  "alias_rows": 310999,
+  "inputs_sha256": "b378316375bb098b92705b7690976b4482585c3e591e3d86d08ba80d15981f2d",
+  "aliases_sha256": "fc89daef50a65be05fa9a9a802dec605be041cb4454fc7b484aa475fe93a6d28",
+  "script_sha256": "7714f817df486cadf7d0333992bcd46119be669a31034747c0a7df4281e73dc0",
+  "note": "Frozen before this supplement inference; original schedules/support reused after prior outcomes."
+}

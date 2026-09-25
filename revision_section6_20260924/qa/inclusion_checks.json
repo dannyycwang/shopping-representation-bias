@@ -1,0 +1,482 @@
+[
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 118,
+    "pairs": 925,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 118,
+    "pairs": 925,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 118,
+    "pairs": 925,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 118,
+    "pairs": 925,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 239,
+    "pairs": 6797,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 239,
+    "pairs": 6797,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 239,
+    "pairs": 6797,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 239,
+    "pairs": 6797,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 308,
+    "pairs": 21299,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 460,
+    "pairs": 2578,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 460,
+    "pairs": 2578,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 460,
+    "pairs": 2578,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 460,
+    "pairs": 2578,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 488,
+    "pairs": 3587,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 488,
+    "pairs": 3587,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 488,
+    "pairs": 3587,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 488,
+    "pairs": 3587,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "full",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "target_only",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "full",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 20,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "intervention": "catalog_wide",
+    "support": "fully_fitting",
+    "K": 100,
+    "queries": 499,
+    "pairs": 4434,
+    "partition": true
+  }
+]

@@ -1,0 +1,1222 @@
+[
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C0",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C0.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C1",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C1.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s1",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s1.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s2",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s2.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s3",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s3.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s4",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s4.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s5",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s5.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/minilm_set_mean_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/minilm_centroid_2_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "max_2",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/minilm_max_2_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C0",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C0.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C1",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C1.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s1",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s1.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s2",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s2.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s3",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s3.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s4",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s4.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s5",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s5.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_set_mean_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_centroid_2_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "max_2",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_max_2_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "centroid_4",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_centroid_4_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "max_4",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_max_4_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "centroid_7",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_centroid_7_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "max_7",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_max_7_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C0",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C0.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C1",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C1.parquet",
+    "rows": 308,
+    "max_existing_error": 6.661338147750939e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s1",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s1.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s2",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s2.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s3",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s3.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s4",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s4.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s5",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s5.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "lexical",
+    "method": "BM25",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/BM25_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 5.551115123125783e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/minilm_canonical_raw_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "source": "phase4/results/wands/bge_base_canonical_raw_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_ascending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 6.661338147750939e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/wands_minilm_lexical_descending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_lexical_descending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/wands_bge_base_lexical_descending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_descending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_descending_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/wands_minilm_field_priority_type_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 5.551115123125783e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_field_priority_type_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 5.551115123125783e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/wands_bge_base_field_priority_type_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_field_priority_type_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/wands_gte_modernbert_field_priority_type_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C0_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C1_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s1_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 5.551115123125783e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s2_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s3_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s4_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 6.661338147750939e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s5_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C0_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C1_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s1_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s2_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s3_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 6.661338147750939e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s4_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s5_pairs.parquet",
+    "rows": 308,
+    "max_existing_error": 6.661338147750939e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C0",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C0.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C1",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C1.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s1",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s1.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s2",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s2.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s3",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s3.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s4",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s4.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s5",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s5.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/minilm_set_mean_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/minilm_centroid_2_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "max_2",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/minilm_max_2_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C0",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C0.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C1",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C1.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s1",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s1.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s2",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s2.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s3",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s3.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s4",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s4.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s5",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s5.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_set_mean_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_centroid_2_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 5.551115123125783e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "max_2",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_max_2_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "centroid_4",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_centroid_4_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "max_4",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_max_4_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "centroid_7",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_centroid_7_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "max_7",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_max_7_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C0",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C0.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C1",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C1.parquet",
+    "rows": 499,
+    "max_existing_error": 2.220446049250313e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s1",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s1.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s2",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s2.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s3",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s3.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s4",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s4.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s5",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s5.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "lexical",
+    "method": "BM25",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/BM25_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/minilm_canonical_raw_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "source": "phase4/results/esci/bge_base_canonical_raw_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_ascending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/esci_minilm_lexical_descending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_lexical_descending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/esci_bge_base_lexical_descending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_lexical_descending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_descending_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/esci_minilm_field_priority_type_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_field_priority_type_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/esci_bge_base_field_priority_type_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_field_priority_type_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "source": "revision_evidence_20260917/experiments/esci_gte_modernbert_field_priority_type_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 3.3306690738754696e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C0_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C1_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s1_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s2_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s3_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s4_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s5_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C0_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C1_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s1_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s2_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 5.551115123125783e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s3_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s4_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s5_pairs.parquet",
+    "rows": 499,
+    "max_existing_error": 4.440892098500626e-16,
+    "nDCG100": "recomputed from saved all-judged ranks"
+  }
+]

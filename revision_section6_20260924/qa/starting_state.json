@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-09-25T13:15:32.029509+00:00",
+  "revision": "13531f653db51234d70c51ae4b107e73f92a912d",
+  "branch": "codex/final-strengthening-20260922",
+  "status": "M paper_www2027/RESULT_PROVENANCE.md\n M paper_www2027/figures/figure1_target_only.pdf\n M paper_www2027/figures/figure1_target_only.png\n M paper_www2027/main.aux\n M paper_www2027/main.log\n M paper_www2027/main.pdf\n M paper_www2027/sections/introduction.tex\n M phase3/scripts/make_target_only_figure.py\n?? paper_www2027/archive/\n?? paper_www2027/figure1_build.log\n?? paper_www2027/figures/figure1_attribute_cards_source.json\n?? paper_www2027/figures/figure1_target_only.drawio\n?? revision_section6_20260924/\n?? tmp/",
+  "preexisting_files": {
+    "paper_www2027/RESULT_PROVENANCE.md": "f09dcb2964ded4d003540e1c59955f09e00dab27ee0bbe201c3bba7dbae280d9",
+    "paper_www2027/figures/figure1_target_only.pdf": "5795104c0cf8ed8cd083975b1f13bb24b2fc30d9194366018f2eb736f7f21914",
+    "paper_www2027/figures/figure1_target_only.png": "be8a5bf00bfa894c6a939ebf79a5413ac9f03f2b239aed42877ea767f22b91d8",
+    "paper_www2027/main.aux": "18f4691062aae2262fcef89d216e9292ba286e9d068cf82b5468e7f9eb55eba3",
+    "paper_www2027/main.log": "5303b1baf00649369f72535fe2099ec8921b735e5dd6a09996d008c9704f4849",
+    "paper_www2027/main.pdf": "33439584a1d2e2c7424bea26464562933151fd6a6986c21ac517b00d33ff9b83",
+    "paper_www2027/sections/introduction.tex": "05a56fcf8522921affc6f4673b72fafa02b1b5d5c84ea8636f4d9190e52fe288",
+    "phase3/scripts/make_target_only_figure.py": "67b92c4796d94b901caa4cba39a7acd7f39181164ebb60628d57c13c582a45c6"
+  }
+}

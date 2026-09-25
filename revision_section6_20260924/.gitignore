@@ -1,0 +1,12 @@
+# Large newly generated vectors are local scientific payloads, not implicitly distributed.
+harmonized/*/vectors.npy
+scripts/__pycache__/
+# Local review bundle and redundant rendering/build intermediates.
+section6_review_package.zip
+qa/package.json
+qa/push_receipt.json
+qa/source_pages/
+qa/render_*.png
+qa/proof-*.png
+qa/*.aux
+qa/*.out

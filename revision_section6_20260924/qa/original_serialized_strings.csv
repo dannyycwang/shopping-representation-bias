@@ -1,0 +1,15 @@
+dataset,schedule,products,source,sha256,original_strings_exact,whole_entry_multiplicities,fixed_nonattribute_text
+wands,C0,42994,phase2/data/representations/wands/C0.jsonl.gz,92665fc543486eef7a83434ca7aa73c420fbf3dc9637703c55ff8ba26c8086d3,True,True,True
+wands,C1,42994,phase2/data/representations/wands/C1.jsonl.gz,978f636be14b2224c63e742fc798a3fa6348c1f3ce35d6bfd9a739958cbf23a7,True,True,True
+wands,C2s1,42994,phase2/data/representations/wands/C2s1.jsonl.gz,de12d50480cba3f16f670a72e8b79c24a481b798643a3ab5cd4df6b14866d834,True,True,True
+wands,C2s2,42994,phase2/data/representations/wands/C2s2.jsonl.gz,33b83a8a0823841c307e399fd593aea6c7201f2743f5da3f9446863f0b904538,True,True,True
+wands,C2s3,42994,phase2/data/representations/wands/C2s3.jsonl.gz,773ae4fd487926d33b6154f868bbfe8a08b7f8fee0f214202b97aaf32165ea4c,True,True,True
+wands,C2s4,42994,phase2/data/representations/wands/C2s4.jsonl.gz,19220fe3fe8b0070ed36cf371277ac22aafe57242046ec5f673795f9574d965d,True,True,True
+wands,C2s5,42994,phase2/data/representations/wands/C2s5.jsonl.gz,94b8efc84dea68d02b04f36c78e051ef3116ab0980db59807cd43e8ed056d89f,True,True,True
+esci,C0,10076,phase2/data/representations/esci/C0.jsonl.gz,a00d61506d2158459110c93ba0ff0e299700f45010ab68cace9cbc343878be2b,True,True,True
+esci,C1,10076,phase2/data/representations/esci/C1.jsonl.gz,c5e63a0710436f36cc9242222b5aed469e26ba5b7849e821184cfc4dd27b03c6,True,True,True
+esci,C2s1,10076,phase2/data/representations/esci/C2s1.jsonl.gz,24fac5f7826967d2506a1c416181a8bd35d9aa7422410494f5041d3e2aceaa2a,True,True,True
+esci,C2s2,10076,phase2/data/representations/esci/C2s2.jsonl.gz,4927a38016f4884c637e3bf80b04a8d2c778fed0ec832bec4164ce935321a616,True,True,True
+esci,C2s3,10076,phase2/data/representations/esci/C2s3.jsonl.gz,b2b96cec32cc95df70b791aaf8b5c8271ca62804e82b3465ae3e4ba3286bbe25,True,True,True
+esci,C2s4,10076,phase2/data/representations/esci/C2s4.jsonl.gz,4a7ed0a0c8d37e23f247b44bd444abce1ab36655d00e1f962e36fdbe518a2fb3,True,True,True
+esci,C2s5,10076,phase2/data/representations/esci/C2s5.jsonl.gz,ff59856b94897b77cd282a009aeee79f742893e84c7ff909a9ebb8e6fc742e48,True,True,True
