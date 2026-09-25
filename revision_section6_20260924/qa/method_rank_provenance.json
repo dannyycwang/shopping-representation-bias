@@ -1,0 +1,9 @@
+{
+  "time_utc": "2026-09-25T15:58:08.321518+00:00",
+  "conditions": 122,
+  "historical_hash_status_counts": {
+    "MATCH": 122
+  },
+  "exact_source_manifest": "b5172a170d52509e1702fd893cfcbe71d876822715caf8928a8f526d19061a53",
+  "note": "Current full source hashes plus available sidecars; unrecorded runtime fields remain unavailable. New graded-derived rank outputs need not occur in the earlier input-only manifest."
+}

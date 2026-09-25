@@ -1,0 +1,137 @@
+[
+  {
+    "check": "wands primary support",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "wands catalog ordering",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "WANDS deterministic 96/384 split",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "WANDS 308 = heldout with Exact",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "wands C0: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 42994
+  },
+  {
+    "check": "wands C1: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 42994
+  },
+  {
+    "check": "wands C2s1: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 42994
+  },
+  {
+    "check": "wands C2s2: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 42994
+  },
+  {
+    "check": "wands C2s3: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 42994
+  },
+  {
+    "check": "wands C2s4: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 42994
+  },
+  {
+    "check": "wands C2s5: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 42994
+  },
+  {
+    "check": "esci primary support",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "esci catalog ordering",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ESCI hash sample of 500",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ESCI pooled 10076 catalog",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "esci C0: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 10076
+  },
+  {
+    "check": "esci C1: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 10076
+  },
+  {
+    "check": "esci C2s1: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 10076
+  },
+  {
+    "check": "esci C2s2: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 10076
+  },
+  {
+    "check": "esci C2s3: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 10076
+  },
+  {
+    "check": "esci C2s4: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 10076
+  },
+  {
+    "check": "esci C2s5: whole-entry multiplicities and exact original serializer",
+    "status": "PASS",
+    "detail": 10076
+  },
+  {
+    "check": "fully fitting includes complete native token counts",
+    "status": "PASS",
+    "detail": "Special tokens included, empty prefixes; tokenizer hashes and prior token audit retained."
+  },
+  {
+    "check": "wands GTE full equals fully fitting",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "esci GTE full equals fully fitting",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "historical target-only focused tests available",
+    "status": "PASS",
+    "detail": "11,600 tied replacements; one deep historical reconstruction discrepancy retained."
+  },
+  {
+    "check": "fresh single-target replacement and deterministic tied ranks",
+    "status": "PASS",
+    "detail": "12,700 explicit replacements; old copy removed"
+  }
+]

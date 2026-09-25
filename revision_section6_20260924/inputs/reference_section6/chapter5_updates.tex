@@ -1,0 +1,31 @@
+% Required alignment edits to the manuscript supplied as version (8).
+% Apply these before presenting the updated Section 6 as fully specified.
+
+% ADD at the end of Section 4.3.
+We additionally fuse BM25 with each pure canonical dense index using the same full-catalog RRF rule. Both branches are then independent of the incoming attribute order, yielding a fixed canonical--lexical hybrid index.
+
+% REPLACE the first paragraph of Section 5.1.
+We evaluate WANDS, with its full catalog of 42,994 products, and the US English ESCI test split, using 10,076 products pooled from 500 sampled queries. For WANDS, the historical split reserves 96 of 480 queries for development; 308 of the remaining 384 queries contain at least one Exact-labeled product, yielding 21,299 evaluated Exact pairs. ESCI retains 499 queries containing at least one E-labeled product, yielding 4,434 E pairs. We preserve these catalogs and eligible query IDs in all primary comparisons. Recall and inclusion refer to the available judgments rather than complete catalog-wide relevance assessment.
+
+% REPLACE Section 5.3. Remove the historical "tDCG" spelling and definition.
+\subsection{Evaluation and Comparison Protocol}
+\label{sec:evaluation_protocol}
+
+We report query-macro Recall, persistent inclusion, VI, and persistent omission at $K\in\{20,100\}$, keeping pair-micro estimates separate. Gains and losses track the identities of highest-label products relative to the stated reference. Equal positive gain and loss counts give exact within-query Recall cancellation. Source-order results and per-query means across seven schedules are distinct references; target-only inclusion frequencies are never treated as catalog-wide Recall.
+
+Graded effectiveness uses all judged labels for the same eligible queries. Direct gains are Exact/Partial/Irrelevant $=3/1/0$ for WANDS and E/S/C/I $=1/0.1/0.01/0$ for ESCI, with no exponential transformation. Full-ranking nDCG@10 and nDCG@20 discount at original catalog positions and normalize by the ideal ordering of the query's available judged gains. Unjudged products contribute zero gain for this computation only. We also report condensed cNDCG, which removes unjudged items before discounting, and JudgedCoverage on the original top lists. The audited label-derived gains correct the historical Phase II Substitute--Complement mapping without changing frozen ranks or highest-label support.
+
+Comparisons use 95\% percentile intervals from 10,000 paired query-cluster bootstrap resamples, with seed 2026091701. Each draw retains a query's products and compared schedules or methods together. Intervals are uncorrected for multiple comparisons and conditional on fixed catalogs and models. An interval containing zero does not establish equivalence. For nDCG--membership diagnostics, descriptive absolute-change thresholds of 0.001, 0.005, and 0.01 are fixed in advance of the follow-up analysis; numerical equality uses absolute tolerance $10^{-12}$ and zero relative tolerance.
+
+Strategy development used WANDS development queries. We retain all three canonical rules and distinguish the controlled follow-up from an independent blind confirmation study, since earlier outcomes were inspected during iteration. No rule is selected as a test-set winner. Cost reporting separates offline construction, retained vectors and sparse storage, and measured exact retrieval work.
+
+% ADD as Section 5.4.
+\subsection{Boundary, Attribution, and Coverage Diagnostics}
+\label{sec:additional_diagnostics}
+
+For every highest-label pair, we reconstruct target-only Top-20 and Top-100 decisions from saved target scores and the source-order competitor catalog, explicitly removing the original target. Case analysis uses the margin above the $K$th remaining competitor, with the same catalog-index tie rule. Authoritative saved ranks are preserved and reconstruction discrepancies are audited.
+
+A fixed WANDS panel contains four crossing, four persistently included, and four persistently omitted fully-fitting pairs per MiniLM/BGE, sampled by a deterministic hash. The historical French-molding illustration is additional. Query-conditioned Integrated Gradients uses each pair's minimum- and maximum-score schedules, a fixed cached query vector, native pooling and normalization, and two word-embedding baselines. Forward agreement, score-margin separation, completeness and baseline sensitivity are checked before interpretation. All selected cases and failures are retained; detailed numerical settings appear in Appendix~\ref{app:ch6_xai}.
+
+A separate target-only coverage supplement selects 128 WANDS queries by a fixed hash, retains all their 7,125 highest-label pairs, and expands the original seven schedules to nested families of 16 and 32. For ESCI, we enumerate all distinct whole-entry target orders on the primary 499-query support. Each encoder's fitting comparison uses one support that fits across its entire expanded family. New inference uses pinned model weights and tokenizers; runtime and batch differences from historical inference are documented separately. Competitors remain fixed at source order throughout these diagnostics.
+

@@ -1,0 +1,8 @@
+{
+  "rows": 383,
+  "status_counts": {
+    "PASS": 379,
+    "NEEDS_CORRECTION": 4
+  },
+  "scope": "v11 Section 6 prose, Figure 3/4 marks and support labels, Table 1 and duplicate Tables 2/3; structural/cost prose in editorial handoff"
+}

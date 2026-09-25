@@ -1,0 +1,22 @@
+% Small earlier-section edits required by the completed evidence.
+% These are scoped replacements, not a new Introduction.
+
+% REPLACE the final sentence of Section 4.2.2, which currently claims both
+% methods avoid online overhead.
+Both strategies construct their view embeddings offline. Centroid retrieval stores and scores one aggregated vector per product, whereas multi-vector retrieval retains and scores all $M$ vectors.
+
+% REPLACE the three contribution bullets with the following wording.
+\begin{itemize}
+\item We characterize attribute-order sensitivity at the level of relevant-product candidate inclusion, using catalog-wide and target-only interventions and distinguishing persistent inclusion, cutoff crossing, and persistent omission.
+\item Across two benchmarks and three frozen retrievers, we find inclusion changes with fixed competitors and without target truncation. We relate these changes to Recall and graded effectiveness, showing when aggregate scores leave product membership unspecified.
+\item We evaluate canonicalization, set and view aggregation, and lexical hybrids jointly for effectiveness, consistent inclusion, product-state transitions, and cost. The results identify useful simple controls without establishing a universally superior strategy.
+\end{itemize}
+
+% OPTIONAL replacement for the unsupported broad embedding-density claim
+% in the Introduction. The actual empirical score-boundary evidence is in 6.1.
+A relevant product near the candidate boundary can enter or leave the retrieved set when its matching score changes. Measuring the identities of retrieved products therefore complements aggregate effectiveness.
+
+% Correct "what extent" to "to what extent" in RQ2.
+% Section 5.2's canonical rules are defined in Section 4, not Section 3.
+% The primary population is full; fully-fitting is a separate restricted analysis.
+

@@ -1,0 +1,13 @@
+dataset,model,family,rule,K,reference_state,control_state,estimate,ci_low,ci_high,queries,pairs,weighting
+wands,minilm,dense,lexical_ascending,20,persistent_inclusion,included,0.20718356724079659,0.1736027930668993,0.24261800746847029,308,21299,query_macro
+wands,minilm,dense,lexical_ascending,20,persistent_inclusion,omitted,0.0023190235491175998,0.0013631397219552,0.0034537251693302,308,21299,query_macro
+wands,minilm,dense,lexical_ascending,20,crossing,included,0.075730540930427206,0.062089661269866599,0.091276871098592893,308,21299,query_macro
+wands,minilm,dense,lexical_ascending,20,crossing,omitted,0.1200632769647566,0.1026397654245345,0.139266156904153,308,21299,query_macro
+wands,minilm,dense,lexical_ascending,20,persistent_omission,included,0.0043127764224779996,0.0029652190561006999,0.0058687229594660004,308,21299,query_macro
+wands,minilm,dense,lexical_ascending,20,persistent_omission,omitted,0.59039081489242384,0.55185540842452674,0.62770176398678401,308,21299,query_macro
+wands,minilm,hybrid,lexical_ascending,20,persistent_inclusion,included,0.29273095029612828,0.25489559253523458,0.33238974989909909,308,21299,query_macro
+wands,minilm,hybrid,lexical_ascending,20,persistent_inclusion,omitted,0.0021392875364176999,0.00094281611567339997,0.0037242583797732999,308,21299,query_macro
+wands,minilm,hybrid,lexical_ascending,20,crossing,included,0.067743499674860597,0.054708006027876101,0.082698502051737205,308,21299,query_macro
+wands,minilm,hybrid,lexical_ascending,20,crossing,omitted,0.069271232960609094,0.059112018291084402,0.080713322027849893,308,21299,query_macro
+wands,minilm,hybrid,lexical_ascending,20,persistent_omission,included,0.0041615908361467002,0.0016558619876709999,0.0081519870988830002,308,21299,query_macro
+wands,minilm,hybrid,lexical_ascending,20,persistent_omission,omitted,0.56395343869583725,0.52459002388637177,0.60201137992652287,308,21299,query_macro

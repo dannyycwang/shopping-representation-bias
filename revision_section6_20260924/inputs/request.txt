@@ -1,0 +1,85 @@
+Prepared 2026-09-24 from the 17-page manuscript titled Same Product, Different Visibility: Attribute-Order Sensitivity in Dense Retrieval, uploaded as version (11).
+這份指令用於現有 shopping-representation-bias 專案。先完成 P0 稽核，再依證據缺口執行 P1；沒有必要全面重跑或新增方法。這是對 PDF 的審查所產生的待辦，尚未檢查目前 repository 的最新輸出，因此「稿內未展示」不等於「程式尚未完成」。
+所有待辦先分類為：already complete / presentation only / recompute from saved outputs / new forward pass required / unavailable。已完成且可重現的工作直接沿用。不要為了符合稿件舊數值而調整程式；若數字不同，查明原因並保留稽核紀錄。
+研究主張限定為：固定商品事實下，屬性順序可能影響候選納入；平均效果無法完整描述商品身分變動；簡單 invariant controls 可以消除順序依賴，其效果與持續納入哪些商品仍需實證評估。不要預設 robustness–effectiveness trade-off，或預設 canonicalization 必然有害。
+Work in the existing repository, expected project: [https://github.com/dannyycwang/shopping-representation-bias](https://github.com/dannyycwang/shopping-representation-bias) . Follow applicable repository instructions. Preserve the current results, manuscript sources, and historical experiments. Create a scoped revision or new output directory consistent with the repository workflow. Do not publish, push, or send anything unless separately authorized by the repository/session instructions.
+The aim is a defensible evidence package for Section 6 and compact publication figures, followed by an editorial handoff. Do not create a new method, retrain all models, or rewrite the entire manuscript in this task. Do not infer that missing PDF content means experiments are missing from the repository.
+Find current paper sources, figure scripts, per-query/per-pair outputs, score/rank arrays, experiment manifests, data splits, serializer implementations, and validation reports. Record the repository revision and output provenance. Treat source-order scores and seven-schedule means as different references.
+Create a claim ledger with one row per Section 6 quantitative claim. Include:
+- manuscript location and claim;
+- dataset, encoder, intervention, cutoff, schedule family;
+- query and pair support, relevance definition, weighting;
+- comparator (source order, raw schedule mean, BM25, canonical dense, raw hybrid, etc.);
+- source file, columns, run ID, and model/serializer revision where available;
+- full-precision recomputation, formatted manuscript value, discrepancy/status;
+- bootstrap population, pairing, resamples, seed, and interval if relevant.
+The draft's counts are 308 queries / 21,299 highest-label pairs for WANDS, and 499 / 4,434 for ESCI. These are audit anchors, not numbers to force. Document precisely how the 308 WANDS queries were selected and how development/validation/test inspection affected choices. Document the 500-query ESCI sampling and the 10,076-product pooled catalog. Distinguish development feedback from a blind confirmation claim.
+Use existing validation tools where possible. Add only focused checks that address these concrete risks:
+- Original seven schedules: source, reverse, five product-dependent random schedules. Preserve existing seeds and serialized strings.
+- Permutations preserve the multiset of full attribute entries, duplicate occurrences, fixed non-attribute text, and relevance labels.
+- Rank scoring uses the intended model, query representation, pooling, normalization, precision, catalog support, and schedule-independent tie rule. Record catalog ordering; deterministic catalog-index ties require a stable mapping.
+- Target-only evaluation replaces a single product and does not leave the original copy as a competitor.
+- Persistent inclusion + crossing + persistent omission = 1 under the same support and weighting.
+- Fixed canonical, set, fixed-view and lexical controls have structural order invariance; do not treat repeated zero VI as a learned empirical success.
+- For each query and raw comparison, gains and losses are disjoint set differences; net Recall difference = (gain count - loss count)/|Hq|. Exact same-Recall membership replacement requires gain count = loss count > 0.
+- All fitting decisions count the complete native encoder input, including special tokens and prefixes if present. Distinguish full support from each encoder's fitting support.
+- Macro estimates average within-query proportions before averaging queries. They are not pooled product/pair percentages.
+- For fixed controls, persistent inclusion equals Recall and persistent omission equals one minus Recall, for matching cutoff/support/weighting.
+- All six transition cells sum to 1; row sums recover raw inclusion states and column sums recover the fixed control's inclusion/omission.
+Verify nDCG and condensed nDCG definitions, gains, discounts, IDCG support, unjudged handling and coverage. Explicitly record whether graded gains are used directly or transformed. Condensed nDCG must remove unjudged items before reranking/discounting according to the implemented convention. Neither convention makes incomplete judgments complete.
+For the BGE WANDS reversal example, the draft lists gain 2.357%, loss 2.263%, turnover 4.621%, and net +0.094 pp. Derive all values from full precision. A 0.001 rounding discrepancy in the sum of displayed values is not, by itself, an error.
+Export:
+- section6_claim_ledger.csv;
+- section6_audit.md, with PASS / NEEDS_CORRECTION / UNRESOLVED status;
+- section6_scope_and_provenance.md, including sampling, development history, and execution metadata;
+- authoritative full-precision query-level companion tables for all subsequently plotted results.
+Reuse existing equivalent files rather than creating duplicate pipelines. Do not initiate new model inference unless saved outputs cannot answer a material question.
+Keep target-only full versus fully-fitting results, 95% query-cluster intervals, and support counts. Preserve the GTE evidence that full and fitting populations coincide. Show a single GTE estimate marked Full = fully fitting if that improves readability; do not imply two independent observations.
+The WANDS fitting subsets differ materially: the draft gives MiniLM 118 queries / 925 pairs and BGE 239 / 6,797, versus full 308 / 21,299. Do not interpret differences between full and fitting estimates as a causal truncation effect. Do not interpret cross-model or cross-dataset differences as architecture/length effects without matched analyses.
+Export one complete companion table for catalog-wide and target-only interventions, full/fitting support, all three encoders, both datasets, and K=20/100 wherever actually evaluated. Missing cells must be marked unavailable, not inferred from other settings. This supports the catalog-wide ranges currently reported only in prose.
+Use dataset panels with clear axis ranges. A shared range is preferable if legibility is retained; otherwise keep distinct scales explicitly labeled. Use color-independent markers, readable text at final ACM print size, and no connecting line implying a paired truncation intervention.
+From the existing catalog-wide rankings, produce for every source-vs-alternative contrast:
+- all eligible query count;
+- changed relevant-membership query count;
+- query count with gain count = loss count > 0;
+- the latter share using all eligible queries, and separately using changed queries;
+- macro gained/lost relevant shares, their sum, and net Recall difference;
+- nDCG difference over all queries, and conditional |delta nDCG| summaries only over changed queries.
+Keep the six contrasts separate. Do not sum their query counts or describe their range as a union of distinct queries. The draft's WANDS/BGE 67–78 of 308 corresponds to about 21.8–25.3% per contrast; verify the exact counts.
+Redesign Figure 4 to communicate two distinct findings compactly:
+1. Relevant-item gains/losses can be much larger than net Recall changes.
+2. Positive equal gains and losses occur within individual queries.
+Retain all original schedules in companion outputs. For a smaller main figure, use reversal as the common, definition-based displayed contrast across all dataset–encoder settings and transparently label this editorial choice. It was not newly preregistered. Do not pick the best-looking schedule per model. Alternatively, retain the current complete figure and use a small table for within-query equality if that fits better.
+Use Reverse and Shuffle 1–5 instead of unexplained C labels when helpful. Mark omitted bars as negative for display only; omissions are nonnegative counts. Label percentage versus percentage-point units and the |Hq| denominator. Individual contrast intervals do not jointly establish global equivalence.
+Provide one small factual replacement case if the necessary data already exist: same query and fixed catalog, exact unchanged Recall@20, positive equal gains/losses, different judged-relevant product IDs. Select deterministically among eligible cases (e.g. fixed hash of query ID), record this new selection rule and time, and disclose the case is illustrative. Show query, source/alternative orders, product IDs/names, relevance labels, ranks, and unchanged numerator/denominator. Include factual attributes only if present in the data. Do not infer user harm, price preferences, fairness, sales loss, or agent failure.
+Export CSV plus a compact figure/table artifact and a short prose explanation. If no case is eligible under a desired extra condition such as all-fitting, say so instead of silently changing the condition.
+Audit all method comparisons on common support. Keep raw source-order and raw seven-schedule mean values separately labeled. Preserve all three canonical rules, even if only a convention-based reference is used in an illustration; do not select a test winner or construct a synthetic best-per-column method.
+Generate a complete companion table with Recall, VI, persistent inclusion, persistent omission, nDCG, comparator deltas and paired intervals at K=20 and K=100 where available. Add invariant-by-construction and vectors-per-product metadata separately from numerical gains.
+Provide a compact main-table candidate emphasizing raw dense, all three pure canonical rules, BM25, raw hybrid, and canonical hybrids; retain Set-Mean if space permits. Centroid/multi-vector variants and view-budget sweeps may move to the appendix. Preserve every method in full outputs. If the main table mixes R@100/VI@100 and nDCG@20, state why these cutoffs differ. Keep the reported WANDS/BGE ascending Recall@20 loss visible in text or a companion entry; do not hide it by showing only K=100.
+For inferential statements, provide effect sizes and paired intervals against explicitly named comparators. An interval containing zero does not establish equality, noninferiority, or preservation. Existing unadjusted intervals may be reported as such. If the manuscript retains claims based on counting significant results across many contrasts, define the comparison family and provide a suitable multiplicity sensitivity analysis from existing per-query records. Do not invent adjusted tests or infer them from CI endpoints; soften the prose instead if necessary. Do not retrofit an equivalence margin merely to claim no loss.
+Keep exactly one main transition table. Verify all six cells and add the small persistent-omission-to-inclusion cell to the interpretation: the draft's WANDS/MiniLM ascending dense example has 0.23% persistent-inclusion-to-omission and 0.43% persistent-omission-to-inclusion, as macro shares. These cannot be subtracted to recover total Recall change because crossing products also contribute.
+Do not describe crossing-to-omission mass as newly caused loss, a failure probability, or a conditional rate. The canonical order can fall outside the seven raw schedules. Keep dense and hybrid reference families distinct. The transition partition is explanatory accounting, not a new algorithm or proof that canonicalization is harmful.
+The manuscript reports combining historical arrays with new forward passes under different Transformers versions and a changed BGE batch size. First inspect manifests: determine exactly which queries, competitors, original target representations, and additional orders share compatible execution settings.
+If results are to support the claim that expanding the order family reveals additional crossings, generate a harmonized supplement. Freeze the existing 128 WANDS query IDs / 7,125 relevant pairs; do not select a new cohort based on outcomes. Recompute all 32 schedules, including the original seven, using one pinned execution profile. Build the fixed source-order competitor index and query embeddings under that same profile, or establish exact compatible provenance before reusing them. Use identical model/tokenizer revisions, serializer, pooling, normalization, precision, query prefixes, hardware/kernel settings and a deterministic documented batching/padding policy. Cache identical serialized target strings so repeated strings reuse the same vector. Keep historical primary seven-schedule results intact as historical results; export the supplement as a separate version.
+Re-evaluate full fixed support and common all-32-fitting support. For ESCI, harmonize all distinct target orders, fixed competitors and queries in the same way if its exhaustive extension has the same provenance issue. Exhaustive means all distinct orders of one target with competitors fixed, not all joint catalog configurations.
+Perform focused repeated-input and changed-decision checks to distinguish order effects from execution differences. Preserve the deterministic exact tie rule; do not introduce a score tolerance chosen to force rank agreement. Record any remaining discrepancies and their effect on the claims.
+Report original-seven versus harmonized-seven differences, 7/16/32 results, paired increments and intervals, and fully-fitting supports. VI monotonicity for nested fixed-support families is a structural property, not an empirical discovery. Do not claim saturation from 32 schedules.
+If resources or artifacts prevent harmonization, mark the expansion claim unresolved, supply the runnable scoped command and requirements, and omit it from strong manuscript conclusions. Complete the other tasks. Do not delete the historical record or conceal why the claim is limited.
+Create section6_editorial_handoff.md mapping each original paragraph and figure/table to keep / rewrite / merge / appendix / omit-from-submission, with a verified result reference.
+Recommended Section 6 flow:
+- Opening: one short reporting-convention sentence; move repeated statistical definitions to setup.
+- RQ1: observed catalog-wide sensitivity; fixed-competitor evidence; fully-fitting evidence. Expanded schedules get at most one sentence after harmonization, otherwise a limitation/appendix note.
+- RQ2: macro gain/loss cancellation; exact within-query replacement; bounded statement that graded effectiveness can change and is complementary.
+- RQ3: structural zero VI; effectiveness of simple controls; one balanced identity-transition illustration; brief cost comparison.
+Remove duplicate Table 2/3 and duplicated paragraph on page 8. Fix broken references and tDCG if it is a typo. Do not invent missing citations or generate placeholders as completed figures. Check all assets at final two-column size. Produce vector PDF and PNG previews for figures, along with source scripts and plotted CSVs.
+The native score-margin example can remain optional in the appendix. Do not spend this task repairing or expanding IG/attention heatmaps. Retain their historical outputs and failure records; they do not establish a unique causal mechanism and are not needed for the central claims. Remove their manuscript references only when removing that analysis from the submission draft.
+Correct the multi-vector cost statement: centroid retains one vector after multiple construction encodings; multi-vector stores and scores M vectors. Preserve benchmark caveats (warm cache, CPU, excludes query encoding, exact scoring, not ANN deployment latency). No new latency study is required to fix the claim.
+Do not start PI-FT reproduction, another large model sweep, new data collection, user studies, downstream agent evaluations, or a new architecture in this pass. If any is proposed, place it in a separate optional-future-work list with the concrete unresolved claim it would answer.
+Finish with:
+1. Completed/reused/recomputed/unresolved checklist.
+2. Claim ledger and verified source outputs.
+3. Revised figure/table assets and scripts.
+4. Historical-to-harmonized supplement comparison, if run.
+5. Paragraph-level editorial handoff and concise remaining limitations.
+6. Exact commands and environment metadata needed to reproduce the revised evidence.
+Stop when these concrete evidence and presentation gaps are resolved. Do not broaden experiments solely to obtain stronger-looking results.

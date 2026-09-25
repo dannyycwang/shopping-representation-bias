@@ -1,0 +1,11 @@
+dataset,model,intervention,target_support,K,status,schedule_family,catalog_size,metric,estimate,ci_low,ci_high,queries,pairs,weighting,bootstrap_seed,bootstrap_resamples,interval
+wands,minilm,target_only,full,20,available,original seven,42994,VI,0.19446508831837639,0.17117692686520231,0.21943483597560451,308,21299,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+wands,minilm,target_only,fully_fitting,20,available,original seven,42994,VI,0.1059200326030364,0.070149551821354905,0.1450896585650408,118,925,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+wands,bge_base,target_only,full,20,available,original seven,42994,VI,0.1083173463674557,0.0929123020246828,0.12547551318148389,308,21299,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+wands,bge_base,target_only,fully_fitting,20,available,original seven,42994,VI,0.071604002889741003,0.057710088920954201,0.087316470921764894,239,6797,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+wands,gte_modernbert,target_only,full,20,available,original seven,42994,VI,0.1455063312533377,0.1284425932083342,0.1631562354808283,308,21299,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+esci,minilm,target_only,full,20,available,original seven,10076,VI,0.0290919832935762,0.0214280619938691,0.038054150573753498,499,4434,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+esci,minilm,target_only,fully_fitting,20,available,original seven,10076,VI,0.032046670317380802,0.022539541895261601,0.042545743073099697,460,2578,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+esci,bge_base,target_only,full,20,available,original seven,10076,VI,0.024236389741890602,0.017583465808046501,0.0317870853116244,499,4434,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+esci,bge_base,target_only,fully_fitting,20,available,original seven,10076,VI,0.025527283248947201,0.018684840148412301,0.033155603461303397,488,3587,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile
+esci,gte_modernbert,target_only,full,20,available,original seven,10076,VI,0.058833297431182,0.048260698162853499,0.070190907720132797,499,4434,query_macro,2026091701,10000,95% unadjusted paired query-cluster percentile

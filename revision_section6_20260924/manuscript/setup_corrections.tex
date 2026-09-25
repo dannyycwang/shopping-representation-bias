@@ -1,0 +1,14 @@
+% Targeted setup/cost corrections; no new citations are added.
+% Section 5.1: restore the historical development/heldout selection disclosure.
+WANDS reserves the lowest 96 of 480 query IDs under SHA256(`phase3-dev:query_id') for development; the other 384 form the historical held-out set. The 308 with an Exact judgment contribute 21,299 pairs. ESCI uses the first 500 US small-version test queries sorted by SHA256(`20260904:query_id'), with the union of judged products forming the 10,076-product catalog; 499 queries have E labels. Earlier outcomes were inspected during development and follow-up, so this is not a blind confirmation claim.
+
+% Section 5.2: primary support is FULL; fully-fitting is a separate restriction.
+Primary analyses use full eligible support. Fully-fitting diagnostics retain targets whose complete native inputs, including special tokens and any prefixes, fit under every evaluated schedule; competitors are never filtered. The three canonical rules are defined in the methods section, not the problem-definition section.
+
+% Section 5.3: replace tDCG and explicitly define graded evaluation.
+Graded gains are used directly, without exponentiation: WANDS Exact/Partial/Irrelevant $=3/1/0$, and ESCI E/S/C/I $=1/0.1/0.01/0$. nDCG uses $1/\log_2(r+1)$ at full-catalog ranks and normalizes by the top-$K$ ideal ordering of all available judged gains. Unjudged items contribute zero to this calculation only. Condensed cNDCG removes unjudged items before assigning discount positions; JudgedCoverage is the judged fraction of the original top-$K$ list. Neither convention completes the judgments.
+
+Query-macro estimates average within-query proportions before averaging queries. Intervals use 10,000 paired query-cluster percentile resamples, seed 2026091701, retaining every product and compared condition in the selected query. They are unadjusted and conditional on fixed catalogs and models. An interval containing zero does not demonstrate equality, equivalence or noninferiority. Source-order and raw seven-schedule means are separately labelled.
+
+% Section 4.2.2: replace the claim of no online overhead for both aggregators.
+Both strategies construct view embeddings offline. A centroid retains and scores one vector after $M$ construction encodings; multi-vector retrieval retains and scores all $M$ vectors. Historical warm-cache CPU exact-scoring timings exclude query encoding and do not establish approximate-index deployment latency.

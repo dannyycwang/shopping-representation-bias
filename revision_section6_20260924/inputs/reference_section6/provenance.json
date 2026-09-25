@@ -1,0 +1,27 @@
+{
+  "zip_path": "C:\\Users\\ycw\\Downloads\\chapter6_threepage_package.zip",
+  "zip_sha256": "ab46fd16f5b14bf88f8f6975a7cc6d4193b05a749a8ad01f7dc370f90e185c83",
+  "relationship": "Section 6 prose matches v11; full PDF contains duplicate table/paragraph not present in this component source. Not a full matching manuscript checkout.",
+  "files": [
+    {
+      "zip_member": "chapter6_threepage_20260923/chapter6_results.tex",
+      "saved": "revision_section6_20260924\\inputs\\reference_section6\\chapter6_results.tex",
+      "sha256": "13f89bd3d489694fc3b3c07be88674fb8f6236a4832ba655fced435079ec7917"
+    },
+    {
+      "zip_member": "chapter6_threepage_20260923/chapter5_updates.tex",
+      "saved": "revision_section6_20260924\\inputs\\reference_section6\\chapter5_updates.tex",
+      "sha256": "fb379d83a9e5c92b16c7108ae180a46a28413494d30038939923e66d44ab73f3"
+    },
+    {
+      "zip_member": "chapter6_threepage_20260923/earlier_chapter_corrections.tex",
+      "saved": "revision_section6_20260924\\inputs\\reference_section6\\earlier_chapter_corrections.tex",
+      "sha256": "50434eb0ebc06025df4b50cf2413dc318f7ab4e680c0411d8690c40bffdece4b"
+    },
+    {
+      "zip_member": "chapter6_threepage_20260923/chapter6_supplement.tex",
+      "saved": "revision_section6_20260924\\inputs\\reference_section6\\chapter6_supplement.tex",
+      "sha256": "125e2a8527453b17604317142dc9a1b53bb3e403801ea7c1e73785d2be22dae6"
+    }
+  ]
+}

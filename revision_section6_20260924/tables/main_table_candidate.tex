@@ -1,0 +1,31 @@
+% Audited candidate. Requires booktabs. Two-column table; R/VI@100 for candidates, nDCG@20 for top ranks.
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & \multicolumn{3}{c}{MiniLM} & \multicolumn{3}{c}{BGE} \\
+ & R@100 & VI@100 & nDCG@20 & R@100 & VI@100 & nDCG@20 \\
+\midrule
+\multicolumn{7}{l}{WANDS} \\
+Raw dense (7 mean) & 56.61 & 21.89 & 0.6323 & 63.62 & 12.30 & 0.7008 \\
+Canonical: ascending & 56.05 & 0.00 & 0.6264 & 63.24 & 0.00 & 0.6981 \\
+Canonical: descending & 56.16 & 0.00 & 0.6341 & 63.61 & 0.00 & 0.7023 \\
+Canonical: type priority & 57.19 & 0.00 & 0.6312 & 63.56 & 0.00 & 0.7030 \\
+BM25 & 63.23 & 0.00 & 0.6548 & 63.23 & 0.00 & 0.6548 \\
+Raw hybrid (7 mean) & 65.55 & 11.08 & 0.6983 & 67.77 & 7.05 & 0.7254 \\
+Canonical hybrid: ascending & 65.61 & 0.00 & 0.6960 & 68.15 & 0.00 & 0.7239 \\
+Canonical hybrid: descending & 65.29 & 0.00 & 0.6979 & 67.93 & 0.00 & 0.7272 \\
+Canonical hybrid: type priority & 65.71 & 0.00 & 0.6988 & 67.83 & 0.00 & 0.7262 \\
+Set-Mean & 58.81 & 0.00 & 0.6366 & 61.82 & 0.00 & 0.6841 \\
+\midrule
+\multicolumn{7}{l}{ESCI} \\
+Raw dense (7 mean) & 86.19 & 1.41 & 0.6019 & 91.04 & 0.72 & 0.6623 \\
+Canonical: ascending & 86.41 & 0.00 & 0.6015 & 91.05 & 0.00 & 0.6632 \\
+Canonical: descending & 86.38 & 0.00 & 0.6008 & 91.01 & 0.00 & 0.6612 \\
+Canonical: type priority & 86.36 & 0.00 & 0.6013 & 91.09 & 0.00 & 0.6629 \\
+BM25 & 82.83 & 0.00 & 0.6151 & 82.83 & 0.00 & 0.6151 \\
+Raw hybrid (7 mean) & 89.57 & 0.56 & 0.6404 & 91.61 & 0.74 & 0.6690 \\
+Canonical hybrid: ascending & 89.51 & 0.00 & 0.6392 & 91.55 & 0.00 & 0.6710 \\
+Canonical hybrid: descending & 89.66 & 0.00 & 0.6405 & 91.55 & 0.00 & 0.6690 \\
+Canonical hybrid: type priority & 89.54 & 0.00 & 0.6392 & 91.57 & 0.00 & 0.6709 \\
+Set-Mean & 84.50 & 0.00 & 0.5887 & 88.95 & 0.00 & 0.6371 \\
+\bottomrule
+\end{tabular}

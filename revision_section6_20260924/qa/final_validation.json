@@ -1,0 +1,141 @@
+{
+  "time_utc": "2026-09-25T16:41:57.426267+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "historical source and pre-existing edit preservation",
+      "status": "PASS",
+      "detail": {
+        "audited_revision": "13531f653db51234d70c51ae4b107e73f92a912d",
+        "current_revision": "13531f653db51234d70c51ae4b107e73f92a912d",
+        "delivery_changes_confined_to_revision": true,
+        "sources": 514,
+        "preexisting_edits": 8
+      }
+    },
+    {
+      "check": "P0 and saved graded ranks",
+      "status": "PASS",
+      "detail": {
+        "p0_checks": 27,
+        "graded_conditions": 122,
+        "graded_records": 49227
+      }
+    },
+    {
+      "check": "all method rank sources",
+      "status": "PASS",
+      "detail": "122 saved conditions mapped to exact payload hashes and available embedding sidecars; missing runtime fields remain explicit"
+    },
+    {
+      "check": "complete inclusion companion",
+      "status": "PASS",
+      "detail": "48 evaluated setting/support/cutoff cells; partition and unique query rows"
+    },
+    {
+      "check": "membership accounting",
+      "status": "PASS",
+      "detail": "48,420 records; disjoint identities, exact positive integer replacement, net identity"
+    },
+    {
+      "check": "fixed controls and transitions",
+      "status": "PASS",
+      "detail": "152 method/reference/cutoff cells; 48 complete six-cell partitions"
+    },
+    {
+      "check": "factual case selection",
+      "status": "PASS",
+      "detail": {
+        "query_id": 231,
+        "rule": "Minimum SHA256(section6-replacement-v1|wands|bge_base|C1|20|query_id) among exact positive integer replacement cases; WANDS/BGE/reversal chosen by manuscript example, not effect size.",
+        "eligible": 73
+      }
+    },
+    {
+      "check": "claim reconciliation",
+      "status": "PASS",
+      "detail": {
+        "rows": 383,
+        "matched_numeric_displays": 383,
+        "historical_provenance_corrections": 4
+      }
+    },
+    {
+      "check": "minilm harmonized provenance and repeat checks",
+      "status": "PASS",
+      "detail": {
+        "unique_vectors": 258757,
+        "aliases": 310999,
+        "probes": 40,
+        "exact_numeric_equality": true,
+        "changed_repeat_membership": 0
+      }
+    },
+    {
+      "check": "bge_base harmonized provenance and repeat checks",
+      "status": "PASS",
+      "detail": {
+        "unique_vectors": 267231,
+        "aliases": 310999,
+        "probes": 40,
+        "exact_numeric_equality": true,
+        "changed_repeat_membership": 0
+      }
+    },
+    {
+      "check": "expanded families",
+      "status": "PASS",
+      "detail": "Fixed full/common-fitting support, nested states and exact repeated-input checks passed"
+    },
+    {
+      "check": "publication assets",
+      "status": "PASS",
+      "detail": [
+        {
+          "file": "figure3_target_fitting.pdf",
+          "width_inches": 7,
+          "pages": 1,
+          "vector": true,
+          "embedded_fonts": true
+        },
+        {
+          "file": "figure4_membership_replacement.pdf",
+          "width_inches": 7,
+          "pages": 1,
+          "vector": true,
+          "embedded_fonts": true
+        },
+        {
+          "file": "illustrative_replacement_case.pdf",
+          "width_inches": 7,
+          "pages": 1,
+          "vector": true,
+          "embedded_fonts": true
+        },
+        {
+          "file": "table1_controls_candidate.pdf",
+          "width_inches": 7,
+          "pages": 1,
+          "vector": true,
+          "embedded_fonts": true
+        },
+        {
+          "file": "table2_transition_single.pdf",
+          "width_inches": 7,
+          "pages": 1,
+          "vector": true,
+          "embedded_fonts": true
+        }
+      ]
+    },
+    {
+      "check": "editorial handoff and ACM proof",
+      "status": "PASS",
+      "detail": "Single transition table, resolved local references, no overfull boxes; full manuscript integration remains explicitly unavailable"
+    }
+  ],
+  "limitations": [
+    "The matching full manuscript source is unavailable; its integrated page count/float placement remains an author check.",
+    "Primary historical execution metadata has documented gaps; the new supplement does not retroactively erase them."
+  ]
+}

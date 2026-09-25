@@ -1,0 +1,482 @@
+[
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "dense",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_ascending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "lexical_descending",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 20,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "family": "hybrid",
+    "rule": "field_priority_type",
+    "K": 100,
+    "six_cells": true,
+    "row_sums": true,
+    "column_sums": true
+  }
+]

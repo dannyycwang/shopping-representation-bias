@@ -1,0 +1,16 @@
+INCLUSION wands minilm
+INCLUSION wands bge_base
+INCLUSION wands gte_modernbert
+INCLUSION esci minilm
+INCLUSION esci bge_base
+INCLUSION esci gte_modernbert
+GRADED 49227
+MEMBERSHIP 48420
+Traceback (most recent call last):
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\revision_section6_20260924\scripts\analyze_saved.py", line 150, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\revision_section6_20260924\scripts\analyze_saved.py", line 147, in main
+    inclusion();pq=graded();membership(pq);controls(pq);transitions()
+  File "C:\Users\ycw\OneDrive - H\xf8gskulen p\xe5 Vestlandet\Documents\New project\shopping-representation-bias\revision_section6_20260924\scripts\analyze_saved.py", line 110, in controls
+    if schedule=='fixed':assert np.allclose(z.persistent_inclusion,z.Recall,atol=1e-15,rtol=0) and (z.VI==0).all()
+AssertionError
