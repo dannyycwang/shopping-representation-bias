@@ -1,0 +1,125 @@
+{
+  "manifest_sha256": "9faacfc3580a144ea101a48754fb53b2a5e3863de3cd76274356451e0bba2bf8",
+  "files": [
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\config.json",
+      "exists": true,
+      "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "expected_sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\model.safetensors",
+      "exists": true,
+      "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "expected_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\special_tokens_map.json",
+      "exists": true,
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "expected_sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer.json",
+      "exists": true,
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "expected_sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer_config.json",
+      "exists": true,
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "expected_sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\vocab.txt",
+      "exists": true,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "expected_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "passed": true
+    },
+    {
+      "path": "phase2/data/processed/wands_products.jsonl.gz",
+      "exists": true,
+      "sha256": "a3fb53329b9ecb9d0c774641a767e582a6fee1056620fc3c1be3f7c0b145ca67",
+      "expected_sha256": "a3fb53329b9ecb9d0c774641a767e582a6fee1056620fc3c1be3f7c0b145ca67",
+      "passed": true
+    },
+    {
+      "path": "phase2/data/processed/wands_queries.csv",
+      "exists": true,
+      "sha256": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a",
+      "expected_sha256": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_C0_6ffb5b340d35d66f2b33.json",
+      "exists": true,
+      "sha256": "2cc614a7caddfe341e850d5359aa2055a46f3090e4747c9751a4bff3ceb22658",
+      "expected_sha256": "2cc614a7caddfe341e850d5359aa2055a46f3090e4747c9751a4bff3ceb22658",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+      "exists": true,
+      "sha256": "9e64061eb6cc75b92fed46e385b32718632545379a980a9e10053849bbf3689c",
+      "expected_sha256": "9e64061eb6cc75b92fed46e385b32718632545379a980a9e10053849bbf3689c",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_C1_3ee547664d76abcf96a3.json",
+      "exists": true,
+      "sha256": "2527b9a7a20fb0aafe081a949a1083112ef3d9f749a8ba732fc3ef2fe1523037",
+      "expected_sha256": "2527b9a7a20fb0aafe081a949a1083112ef3d9f749a8ba732fc3ef2fe1523037",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_C1_3ee547664d76abcf96a3.npy",
+      "exists": true,
+      "sha256": "4527db37fe9a45e9107e17632ed32139218512b71f0e6ac32b7d2c1b62119307",
+      "expected_sha256": "4527db37fe9a45e9107e17632ed32139218512b71f0e6ac32b7d2c1b62119307",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.json",
+      "exists": true,
+      "sha256": "a474e2cb8f6a2d347ef331611b3f7c38e530f32b96f8c1107efe31366e8f5a6a",
+      "expected_sha256": "a474e2cb8f6a2d347ef331611b3f7c38e530f32b96f8c1107efe31366e8f5a6a",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+      "exists": true,
+      "sha256": "b76dc0151e3c27249b48dc62d52a747af68aee260f52eb86cc4a6b1df32c7379",
+      "expected_sha256": "b76dc0151e3c27249b48dc62d52a747af68aee260f52eb86cc4a6b1df32c7379",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C0.parquet",
+      "exists": true,
+      "sha256": "8e2263d54f75c4a4c51fae7240d3c879ca01aae0b6e7109e1af5ea4bcc652096",
+      "expected_sha256": "8e2263d54f75c4a4c51fae7240d3c879ca01aae0b6e7109e1af5ea4bcc652096",
+      "passed": true
+    },
+    {
+      "path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C1.parquet",
+      "exists": true,
+      "sha256": "1677ff51e8c00240a37056380b03e447639d53ed70e3dd52ba943b780b76d148",
+      "expected_sha256": "1677ff51e8c00240a37056380b03e447639d53ed70e3dd52ba943b780b76d148",
+      "passed": true
+    },
+    {
+      "path": "phase3/results/target_only_permutations/wands_minilm_pairs.parquet",
+      "exists": true,
+      "sha256": "df43654f8d25b99114ae93cb54f33aa9d50008f799293cd348590d3bb4627001",
+      "expected_sha256": "df43654f8d25b99114ae93cb54f33aa9d50008f799293cd348590d3bb4627001",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "zip_name": "french_c0_c1_captum_rerun.zip",
+  "zip_sha256": "928b9aa6923a2752f63afbb1747062d3b0fa32cb9a72cc4edbb5cc50ff0b7262",
+  "original_files_sha256": {
+    "french_c0_c1_captum/CODEX_PROMPT.txt": "b4bb010ddd028cf21dabe79314522655f250cdb07bc29bc17a525199b6fb9ce4",
+    "french_c0_c1_captum/PREPARATION_CHECKS.json": "d7f9a31487ee98b906f216e6afa344cf80ce27fadcd091116cd9d6ad7e97d697",
+    "french_c0_c1_captum/README.txt": "9e57e28b0ead54141d330e1a6ee94c8407ddde1469826710ee8a56feb0d29059",
+    "french_c0_c1_captum/case_inputs.json": "50247135ecc79d3d0bafdaf4053d442f69ce2b6928c4dff8c12e99b9a543c33c",
+    "french_c0_c1_captum/native_drawio.py": "a372c43ad754fe4f34f83663c4ba6cc7209ada1ba634b5590e5bd6cc6f50ec68",
+    "french_c0_c1_captum/plot_c0_c1.py": "6d09572cc56154dbadbeb50c99301d73698b7f92ccf2a2ecf0c05b4e34ad41e7",
+    "french_c0_c1_captum/run_c0_c1_captum.py": "a979239d47ca2cdc2ff6dfab2b634e74e0226d39e363f31f2bc3435aadee1fe7"
+  }
+}

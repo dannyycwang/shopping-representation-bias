@@ -1,0 +1,86 @@
+French molding: C0 -> C1, official Captum results
+Final execution: rerun_02 (2026-10-01)
+
+Scope: target-only reversal; baseline-dependent attribution diagnostic.
+WANDS / MiniLM; query 359; product 12575. C1 reverses the complete 10-entry
+attribute list. The cached query and all 42,993 C0 competitors remain fixed.
+Both inputs retain every one of 139 tokens under the unchanged 256-token cap.
+
+Native target-only ranks: 19 -> 58 (Top-20 included -> omitted).
+Native scores: 0.4918966591358185 -> 0.4490737020969391
+Fixed competitor cutoff: 0.4912347197532654 (product 9834)
+Native C1-C0 score difference: -0.0428229570388794
+FP32 diagnostic C1-C0 score difference: -0.0428287088871002
+
+All four runs pass completeness at 64 Gauss-Legendre nodes:
+Run       Residual          Tolerance         Captum delta
+C0/zero  -3.9891747292e-05  4.4594033435e-03  -3.9905309677e-05
+C0/pad   -3.5210687201e-06  4.6031141654e-03  -3.5166740417e-06
+C1/zero  -2.8062408092e-05  4.0311162546e-03  -2.8043985367e-05
+C1/pad    7.2245602496e-06  4.1748270765e-03   7.2121620178e-06
+
+The tolerance was unchanged: max(1e-4, 0.01 * abs(F(input)-F(reference))).
+Fresh native and FP32 diagnostic cutoff decisions match the frozen native
+decisions for both orders; both margins exceed five times their respective
+score discrepancies. input_ids and inputs_embeds forward scores agree exactly.
+
+Attribute occurrence differences (always C1 minus C0):
+ID        Zero difference   PAD difference    Original entry text
+attr_000  -0.0022811455   0.0168234986  overallwidth-sidetoside:9.38
+attr_001   0.0019654603   0.0040192892  overallproductweight:0.19
+attr_002   0.0214378418   0.0056587349  producttype : wall nice/cove
+attr_003   0.0098930858   0.0037841989  moldinguse : corners
+attr_004   0.0023807690   0.0000446967  overallheight-toptobottom:9.38
+attr_005  -0.0055663543  -0.0033964424  material : urethane
+attr_006  -0.0084755921  -0.0041565784  color : off-white
+attr_007  -0.0108980031  -0.0118306454  compositewoodproductcwp : no
+attr_008  -0.0062237438  -0.0000061754  installationrequired : yes
+attr_009  -0.0212989040  -0.0187715155  countryoforigin : china
+
+Baseline-dependent signs:
+- Width (attr_000) changes from negative under Zero to positive under PAD.
+- The fixed category-text block also changes sign: Zero +0.0036513112,
+  PAD -0.0112745721. The combined fixed-text/boundary row is negative for both.
+- The other nine attribute differences have the same computed sign, but PAD
+  height (+0.0000446967) and installation (-0.0000061754) are near zero.
+  Completeness is a global identity check, not an attribute-wise sign bound.
+
+Consistent descriptions within this diagnostic:
+- Product weight, product type and molding use have positive differences.
+- Material, color, composite-wood status and country of origin have negative
+  differences. Country of origin has the largest negative attribute difference
+  for each reference choice. These are aligned attribution differences, not
+  estimates of an independent effect of changing any attribute.
+- The combined fixed text/boundaries and the total difference are negative
+  under both references, while attribution allocation depends on the reference.
+
+zero: attribute sum -0.0190665858972352; fixed/boundary sum -0.0237502936506644; total -0.0428168795478996.
+  Reference scores C0=0.0459767989814281, C1=0.0459767989814281.
+pad: attribute sum -0.0078309388482012; fixed/boundary sum -0.0349870244099293; total -0.0428179632581305.
+  Reference scores C0=0.0316057167947292, C1=0.0316057167947292.
+
+In this particular case each reference score is equal between orders.
+The contrast sums therefore approximate the FP32 diagnostic score difference,
+with their recorded completeness residuals; they are not asserted to equal
+the native FP16 score difference. The connecting lines in the figure pair
+Zero/PAD choices and do not represent confidence intervals.
+
+Checks: all 129 automated checks pass; no final failed checks. PDF/PNG and
+actual draw.io rendering were visually inspected. The ten attributes, fixed
+row, legends, contrast direction and data coordinates agree across formats.
+First-run export/validator issues and outputs are retained in the parent
+directory. Final token/entry/aligned CSVs are byte-identical to the first run.
+No older figures, historical C2s3/C2s2 attribution values, or benchmark results
+were overwritten. The protected-file hashes all remain unchanged.
+
+Environment: Python 3.10.0, Captum 0.9.0, PyTorch 2.11.0+cu128, Transformers 4.46.2.
+Only Captum was added; existing package versions are unchanged.
+MiniLM revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+Model parameters are rounded to FP16 for native retrieval, then those same
+rounded parameters are represented in FP32 for IG. Masked mean pooling uses
+FP32, followed by L2 normalization and the unchanged cached query dot product.
+
+This historical single case does not establish prevalence or an independent
+causal effect for any attribute. No benchmark-wide inference is made.
+See REPRODUCE.txt, run_report.json and artifact_qa.json here, plus
+../DELIVERY_MANIFEST.json for reproduction and provenance.

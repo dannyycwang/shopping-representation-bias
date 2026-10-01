@@ -1,0 +1,42 @@
+Run from the shopping-representation-bias repository root in the original
+CUDA Python environment. The original pinned model and embedding caches must
+be present and match original_input_hash_checks.json. No models or embeddings
+are downloaded or replaced by these commands.
+
+Original interpreter:
+C:\Users\ycw\AppData\Local\Programs\Python\Python310\python.exe
+
+Captum installation performed once, after pip --dry-run showed no dependency changes:
+python -m pip install --no-deps captum==0.9.0
+
+Exact final execution (output directory was absent at execution):
+python -X utf8 tools/french_c0_c1_captum/run_c0_c1_captum.py --repo . --output revision_french_c0_c1_captum_20261001/rerun_02 --plot
+
+To repeat, use a NEW directory, preserving all earlier runs:
+python -X utf8 tools/french_c0_c1_captum/run_c0_c1_captum.py --repo . --output revision_french_c0_c1_captum_20261001/rerun_03 --plot
+python -X utf8 tools/french_c0_c1_captum/validate_results.py revision_french_c0_c1_captum_20261001/rerun_03 --repo .
+
+Validate the delivered final outputs without model inference:
+python -X utf8 tools/french_c0_c1_captum/validate_results.py revision_french_c0_c1_captum_20261001/rerun_02 --repo .
+
+Rebuild only the figures from the verified CSVs, without changing attributions:
+python -X utf8 tools/french_c0_c1_captum/plot_c0_c1.py revision_french_c0_c1_captum_20261001/rerun_02
+
+PDF visual review (pdftoppm from the existing Poppler installation):
+pdftoppm -scale-to 1900 -png -singlefile revision_french_c0_c1_captum_20261001/rerun_02/french_molding_c0_c1_captum.pdf tmp/c0_c1_final_pdf_render
+
+Open the .drawio file in draw.io for editable-object review. Arial must be
+available in both Matplotlib and the viewing browser to retain the reviewed
+font metrics. The PDF embeds the figure font. The PNG is rendered at 260 dpi.
+
+Method: official captum.attr.IntegratedGradients, multiply_by_inputs=True,
+gausslegendre, nodes 64/128/256 only as needed, internal_batch_size=8.
+Native model: FP16; diagnostic: the same FP16-rounded weights in FP32.
+Pooling: attention-mask mean in FP32, then L2 normalization.
+The original cached normalized query vector is unchanged. The ranking uses
+the original full-query FP32 matrix multiplication on cached C0 products and
+the saved C1 target score, with ascending stable catalog index for exact ties.
+Completeness tolerance: max(1e-4, 0.01 * abs(F(input)-F(reference))).
+
+Official API reference: https://captum.ai/api/integrated_gradients.html
+Installed release: https://pypi.org/project/captum/0.9.0/

@@ -1,0 +1,41 @@
+{
+  "python_compile": "passed",
+  "serialization_and_occurrence_alignment": "passed",
+  "character_multiset": "passed",
+  "model_inference": "NOT RUN - weights, original caches and model runtime unavailable",
+  "plot_render": "NOT RUN - requires new model outputs",
+  "inputs": [
+    {
+      "schedule": "C0",
+      "text_sha256": "0d32c126b534ce8acbf1ac586bce0be3444e5b04658ed0bae7565309e0ed1abb",
+      "source_order_ids": [
+        "attr_000",
+        "attr_001",
+        "attr_002",
+        "attr_003",
+        "attr_004",
+        "attr_005",
+        "attr_006",
+        "attr_007",
+        "attr_008",
+        "attr_009"
+      ]
+    },
+    {
+      "schedule": "C1",
+      "text_sha256": "b16aa4fda0f9e7abcb0ad06b216af3daeb537d997344a92826a92439cc2d3c42",
+      "source_order_ids": [
+        "attr_009",
+        "attr_008",
+        "attr_007",
+        "attr_006",
+        "attr_005",
+        "attr_004",
+        "attr_003",
+        "attr_002",
+        "attr_001",
+        "attr_000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.46.2",
+    "captum": "0.9.0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.7.0"
+  },
+  "existing_dependencies_unchanged": {
+    "torch": true,
+    "transformers": true,
+    "numpy": true,
+    "pandas": true,
+    "matplotlib": true,
+    "threadpoolctl": true
+  }
+}

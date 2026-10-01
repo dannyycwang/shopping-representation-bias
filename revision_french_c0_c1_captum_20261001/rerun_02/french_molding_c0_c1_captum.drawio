@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="29.0.0" compressed="false">
+  <diagram id="french_molding_c0_c1_captum" name="french molding c0 c1 captum">
+    <mxGraphModel dx="0" dy="0" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="676.8" pageHeight="350.4" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="french_molding_c0_c1_captum-2" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=none;fillColor=#ffffff;strokeWidth=0;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="98.136" y="73.584" width="187.4736" height="185.712" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-3" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=#a9adb1;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140.1077" y="259.296" as="sourcePoint" />
+            <mxPoint x="140.1077" y="263.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-4" value="−0.04" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="127.5077" y="260.68267" width="25.7" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-5" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=#a9adb1;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196.06997" y="259.296" as="sourcePoint" />
+            <mxPoint x="196.06997" y="263.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-6" value="−0.02" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="183.52997" y="260.68267" width="25.58" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-7" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=#a9adb1;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.03224" y="259.296" as="sourcePoint" />
+            <mxPoint x="252.03224" y="263.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-8" value="0.00" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="242.37224" y="260.68267" width="19.82" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-9" value="Native score − Top-20 threshold" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10.66667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="116.4528" y="274.99433" width="151.34" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-10" value="C0  ·  19" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10.66667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="52.42933" y="119.89949" width="41.54" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-11" value="C1  ·  58" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10.66667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="52.42933" y="191.32718" width="41.54" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-12" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#687078;fillColor=none;strokeWidth=1.2;opacity=100;dashed=1;dashPattern=2.7 2.7;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.03224" y="259.296" as="sourcePoint" />
+            <mxPoint x="252.03224" y="73.584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-13" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#147d70;fillColor=none;strokeWidth=1.86667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.03224" y="130.72615" as="sourcePoint" />
+            <mxPoint x="253.88442" y="130.72615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-14" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#147d70;fillColor=#147d70;strokeWidth=1.6;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="250.81775" y="127.65949" width="6.13333" height="6.13333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-15" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#ac533c;fillColor=none;strokeWidth=1.86667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.03224" y="202.15385" as="sourcePoint" />
+            <mxPoint x="134.06093" y="202.15385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-16" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#ac533c;fillColor=#ac533c;strokeWidth=1.6;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.99426" y="205.22051" as="sourcePoint" />
+            <mxPoint x="137.1276" y="199.08718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-17" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#ac533c;fillColor=#ac533c;strokeWidth=1.6;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.99426" y="199.08718" as="sourcePoint" />
+            <mxPoint x="137.1276" y="205.22051" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-18" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=none;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="98.136" y="259.296" as="sourcePoint" />
+            <mxPoint x="285.6096" y="259.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-19" value="Order · rank" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.86667;fontStyle=0;fontColor=#687078;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="37.71706" y="53.21741" width="53.42" height="12.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-20" value="(a) Source-to-reverse inclusion" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=11.2;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="115.4928" y="39.8128" width="153.26" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-21" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#147d70;fillColor=#147d70;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="81.01215" y="309.75611" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-22" value="Included" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.86667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="98.33215" y="303.34277" width="37.58" height="12.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-23" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#ac533c;fillColor=#ac533c;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149.17215" y="317.75611" as="sourcePoint" />
+            <mxPoint x="157.17215" y="309.75611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-24" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#ac533c;fillColor=#ac533c;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149.17215" y="309.75611" as="sourcePoint" />
+            <mxPoint x="157.17215" y="317.75611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-25" value="Omitted" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.86667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="166.49215" y="303.34277" width="34.94" height="12.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-26" value="" style="shape=rectangle;html=0;rounded=0;shadow=0;strokeColor=none;fillColor=#ffffff;strokeWidth=0;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="510.3072" y="73.584" width="150.2496" height="185.712" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-27" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=#a9adb1;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514.08242" y="259.296" as="sourcePoint" />
+            <mxPoint x="514.08242" y="263.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-28" value="−0.04" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="501.48242" y="260.68267" width="25.7" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-29" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=#a9adb1;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.03122" y="259.296" as="sourcePoint" />
+            <mxPoint x="557.03122" y="263.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-30" value="−0.02" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="544.49122" y="260.68267" width="25.58" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-31" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=#a9adb1;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.98003" y="259.296" as="sourcePoint" />
+            <mxPoint x="599.98003" y="263.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-32" value="0.00" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="590.32003" y="260.68267" width="19.82" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-33" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=#a9adb1;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642.92884" y="259.296" as="sourcePoint" />
+            <mxPoint x="642.92884" y="263.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-34" value="0.02" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="633.26884" y="260.68267" width="19.82" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-35" value="IG(C1) − IG(C0)" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10.66667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="547.452" y="274.94933" width="76.46" height="13.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-36" value="Width: 9.38" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="456.25387" y="74.02655" width="49.22" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-37" value="Product weight: 0.19" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="417.25387" y="90.46124" width="88.22" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-38" value="Product type: wall nice/cove" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="385.69387" y="106.89593" width="119.78" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-39" value="Molding use: corners" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="415.21387" y="123.33062" width="90.26" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-40" value="Height: 9.38" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="453.25387" y="139.76531" width="52.22" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-41" value="Material: urethane" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="427.21387" y="156.2" width="78.26" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-42" value="Color: off-white" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="440.17387" y="172.63469" width="65.3" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-43" value="Composite wood product: no" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="382.09387" y="189.06938" width="123.38" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-44" value="Installation required: yes" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="400.21387" y="205.50407" width="105.26" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-45" value="Country of origin: China" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="403.57387" y="221.93876" width="101.9" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-46" value="Fixed text / boundaries" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.6;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="407.41387" y="238.37345" width="98.06" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-47" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#687078;fillColor=none;strokeWidth=1.06667;opacity=100;dashed=1;dashPattern=2.4 2.4;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.98003" y="259.296" as="sourcePoint" />
+            <mxPoint x="599.98003" y="73.584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-48" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#d5d9dc;fillColor=none;strokeWidth=0.93333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.3072" y="240.39611" as="sourcePoint" />
+            <mxPoint x="660.5568" y="240.39611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-49" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595.08141" y="84.26655" as="sourcePoint" />
+            <mxPoint x="636.10749" y="84.26655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-50" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="604.20074" y="100.70124" as="sourcePoint" />
+            <mxPoint x="608.61121" y="100.70124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-51" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="646.01652" y="117.13593" as="sourcePoint" />
+            <mxPoint x="612.13183" y="117.13593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-52" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="621.22484" y="133.57062" as="sourcePoint" />
+            <mxPoint x="608.10637" y="133.57062" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-53" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605.09259" y="150.00531" as="sourcePoint" />
+            <mxPoint x="600.07601" y="150.00531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-54" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="588.02662" y="166.44" as="sourcePoint" />
+            <mxPoint x="592.68637" y="166.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-55" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581.7792" y="182.87469" as="sourcePoint" />
+            <mxPoint x="591.05403" y="182.87469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-56" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576.57722" y="199.30938" as="sourcePoint" />
+            <mxPoint x="574.57443" y="199.30938" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-57" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586.61491" y="215.74407" as="sourcePoint" />
+            <mxPoint x="599.96677" y="215.74407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-58" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554.24191" y="232.17876" as="sourcePoint" />
+            <mxPoint x="559.66932" y="232.17876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-59" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#c6cbcd;fillColor=none;strokeWidth=1.33333;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="548.97769" y="248.61345" as="sourcePoint" />
+            <mxPoint x="524.84748" y="248.61345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-60" value="" style="edgeStyle=none;endArrow=none;startArrow=none;noEdgeStyle=1;html=0;rounded=0;shadow=0;strokeColor=#a9adb1;fillColor=none;strokeWidth=1.06667;opacity=100;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.3072" y="259.296" as="sourcePoint" />
+            <mxPoint x="660.5568" y="259.296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-61" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="592.49942" y="80.36978" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-62" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="601.61875" y="96.80447" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-63" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="643.43453" y="113.23917" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-64" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="618.64285" y="129.67386" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-65" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="602.5106" y="146.10855" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-66" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="585.44463" y="162.54324" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-67" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="579.19721" y="178.97793" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-68" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="573.99523" y="195.41262" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-69" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="584.03292" y="211.84731" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-70" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="551.65992" y="228.282" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-71" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="546.3957" y="244.71669" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-72" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="633.44082" y="82.91466" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-73" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="605.94455" y="99.34935" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-74" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="609.46516" y="115.78404" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-75" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="605.43971" y="132.21873" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-76" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="597.40935" y="148.65342" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-77" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="590.01971" y="165.08811" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-78" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="588.38736" y="181.5228" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-79" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="571.90776" y="197.95749" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-80" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="597.3001" y="214.39218" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-81" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="557.00265" y="230.82687" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-82" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="522.18082" y="247.26156" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-83" value="(b) Attribution change after reversal" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=11.2;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="355.09488" y="39.8128" width="175.7" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-84" value="" style="shape=ellipse;html=0;rounded=0;shadow=0;strokeColor=#24618c;fillColor=#24618c;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="486.73481" y="312.03745" width="5.16398" height="5.16398" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-85" value="Zero baseline" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.86667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="502.6368" y="303.34277" width="59.9" height="12.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-86" value="" style="shape=triangle;direction=north;html=0;rounded=0;shadow=0;strokeColor=#c27328;fillColor=#c27328;strokeWidth=1.33333;opacity=100;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="577.13013" y="311.95277" width="5.33333" height="5.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-87" value="PAD baseline" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.86667;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="593.1168" y="303.34277" width="59.06" height="12.33333" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-88" value="WANDS / MiniLM · “french molding” · C0 → C1" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=12.4;fontStyle=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="209.46" y="4.8586" width="258.38" height="15.5" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-89" value="139 / 256 tokens · complete attribute reversal · 42,993 fixed competitors" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=10.13333;fontStyle=0;fontColor=#49515a;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="177.72" y="23.72607" width="321.86" height="12.66667" as="geometry" />
+        </mxCell>
+        <mxCell id="french_molding_c0_c1_captum-90" value="Target-only reversal · Captum IG · baseline-dependent attribution diagnostic" style="text;html=0;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingLeft=0;spacingRight=0;spacingBottom=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=9.86667;fontStyle=0;fontColor=#49515a;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="173.52" y="328.30613" width="330.26" height="12.33333" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

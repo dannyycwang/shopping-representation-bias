@@ -1,0 +1,7 @@
+{
+  "byte_identical_to_first_run": {
+    "token_attributions.csv": true,
+    "entry_attributions.csv": true,
+    "aligned_entry_changes.csv": true
+  }
+}
