@@ -1,0 +1,12 @@
+{
+  "minilm": {
+    "script_git_revision": "ada2829",
+    "inference_script_sha256": "6b0d185f190c6a578030b758dc2e540af350493f8581dd485a1b0909dfebd684"
+  },
+  "bge_base": {
+    "script_git_revision": "ada2829 plus explicit package/snapshot integrity checks",
+    "inference_script_sha256": "8d6d5a6d5974052f3f19e5f0b9c52670f6986f256f1af822404255c362391d7b"
+  },
+  "difference": "Before BGE launch, Engine gained assertions that every recorded package version and model snapshot hash still matches the frozen profile. No numerical, cohort, scoring, confirmation, or analysis change.",
+  "recorded_during": "BGE inference, after MiniLM completion; retrospective code provenance, not a new scientific freeze"
+}

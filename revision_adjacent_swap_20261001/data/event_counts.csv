@@ -1,0 +1,9 @@
+dataset,model,K,queries,targets,swaps,affected_targets,confirmed_affected_targets,loss_targets,gain_targets,confirmed_loss_targets,confirmed_gain_targets,observed_flips,confirmed_flips,unresolved_flips,unresolved_targets,affected_queries
+esci,bge_base,20,128,769,1318,14,14,2,12,2,12,16,16,0,0,12
+esci,bge_base,100,128,769,1318,9,9,4,5,4,5,10,10,0,0,7
+esci,minilm,20,128,641,1089,21,21,15,6,15,6,23,23,0,0,17
+esci,minilm,100,128,641,1089,9,9,4,5,4,5,10,10,0,0,9
+wands,bge_base,20,128,1319,46211,58,58,27,31,27,31,249,249,0,0,39
+wands,bge_base,100,128,1319,46211,76,76,34,42,34,42,338,338,0,0,52
+wands,minilm,20,117,712,12807,48,48,29,19,29,19,140,140,0,0,31
+wands,minilm,100,117,712,12807,57,57,33,24,33,24,213,213,0,0,36

@@ -1,0 +1,39 @@
+# Frozen follow-up protocol: one adjacent attribute swap
+
+This is a prospectively frozen local follow-up after the previous schedule analyses, not an externally preregistered study. All cohort and analysis choices below are fixed before new adjacent-swap retrieval outcomes are examined. Starting revision and timing are in execution_profile.json and freeze_manifest.json.
+
+## Population and selection
+
+Use the existing held-out eligible query IDs in revision_graded_20260922/PROTOCOL.json and highest-label judgments (WANDS Exact; ESCI E), the original processed catalogs in their saved order, and phase2/src/representations.py::_plain. No development queries or selection based on ranks, margins, previous crossings, or attribution results. Products must have at least one distinct non-no-op adjacent swap and the complete C0 and every distinct swap must fit the pinned encoder limit, counting special tokens. Competitors may retain their original native truncation; the fitting restriction applies to tested targets.
+
+Enumerate each adjacent transposition of complete serialized attribute entries, excluding identical-entry and serialized-input no-ops. Deduplicate identical complete serializations and retain all 1-based source swap positions. Preserve all fixed fields, separators, multiplicities and other entries' relative order. The canonical check sorts entries by (entry.casefold(), entry), matching the established ascending rule.
+
+Hash UTF-8 compact JSON arrays with SHA-256; all components are strings. A query's priority is SHA256(["20261001","query",dataset,query_id]); a target's priority is SHA256(["20261001","target",dataset,query_id,product_id]). IDs use dataset-native product strings and decimal query integers. Select up to 128 queries with eligible targets, then up to 16 eligible targets per query. Hash ordering excludes encoder identity. Tie fallback is ascending canonical ID tuple. Record the full eligibility inventory and exclusion reasons before selecting. Never enlarge the sample based on outcomes.
+
+## Execution and audit
+
+Four settings: WANDS/MiniLM, WANDS/BGE, ESCI/MiniLM, ESCI/BGE. Pinned model revisions and native pooling/context limits come from phase2/config/phase2.json. Query and document prefixes are empty. L2-normalized FP32 embeddings, FP16 CUDA model, eager attention, deterministic algorithms, disabled TF32, four CPU threads, native tokenizer special tokens, right padding/truncation. Fixed batches of 64 (MiniLM) or 16 (BGE), padding to the smallest of 32/64/128/256/512 covering the capped length; incomplete batches repeat the last input. No silent precision or OOM fallback.
+
+Explicitly validate model/software/device/serializer compatibility and hashes before reusing the harmonized Section 6 vectors. Cache text/input aliases are checked against fresh tokenization. An incompatible cache requires a fresh consistent C0 catalog and queries under the frozen local profile, never mixing references. New unique inputs are encoded once per encoder and reused across queries and identical inputs; extra passes are solely numerical checks. Save every source and output hash, input alias, and encoding block for resumability.
+
+Hold queries and all competitor C0 vectors/scores fixed. Remove the target's original catalog entry before inserting its variant. Score every source and target with identical NumPy FP32 elementwise multiplication and axis reduction. Rank descending exact native score, breaking exact ties by ascending fixed catalog index; no epsilon modifies inclusion. For each K=20/100, margin is target score minus the Kth competitor score after target removal. Also save the boundary competitor index and exact-tie decision.
+
+Before the sweep, replay every selected distinct C0 target through the intended forward profile and verify its native rank/inclusion against reference. Save discrepancies and stop inference on any changed K=20/100 baseline decision pending resolution. Representation audit failures also stop inference, never silently drop targets. Verify identity serialization and canonical invariance for every tested variant; the latter is structural, not evidence from a retrieval experiment.
+
+Every observed crossing at either cutoff receives three new C0 and three swapped-target forward passes under the same profile, in batches of repeated copies of that input to probe batch composition differences. Scores, ranks, margins, embedding discrepancies and decisions are retained. A crossing is confirmed at K only if all repetitions reproduce both the saved C0 decision and saved opposite variant decision. All other observed crossings are numerically unresolved, remain in denominators, and are reported. No epsilon or numerical guard changes membership. Descriptive observed estimates are accompanied by confirmed lower and observed-possible upper bounds if unresolved cases exist; these are bounds on observed events, not unobserved numerical effects elsewhere. No-op discrepancies without membership changes are disclosed.
+
+## Measurements and uncertainty
+
+For each query, A is the mean over its sampled targets of any swap changing C0 inclusion; F is the mean over targets of the fraction of distinct swaps changing inclusion. Report query-macro A and F, primary K=20, secondary K=100. Uniform means only the enumerated finite swap family. Loss and gain shares use all sampled targets per query as denominator and sum to A. They are not conditional failure rates. Baseline inclusion is a target-only descriptor, not catalog-wide Recall.
+
+Use 10,000 query-cluster percentile bootstrap resamples, NumPy default_rng seed 2026100101, sorted numeric query IDs, quantiles .025/.975 with linear interpolation, 95% unadjusted intervals. Resample queries and retain targets/swaps intact; no target resampling. Intervals describe query variation within this frozen experiment, not all possible target samples or permutations. Report zero event counts and support explicitly; [0,0] does not prove zero population probability.
+
+Provide per-variant, per-target, per-query and aggregate records. Supporting breakdowns use distinct-swap-count bins 1, 2-3, 4-7, 8-15, 16+ and C0 rank bins 1-10, 11-20, 21-40, >40 (the same rank bins at both cutoffs). Each breakdown averages within represented query/stratum then across represented queries, with query/target/swap support; it is descriptive, not a new hypothesis or resampled cohort. Save native scores/margins and rank-change summaries.
+
+## Figures, case selection and interpretation
+
+The primary two-panel figure shows query-macro A and F at K=20 across all four settings with the prespecified bootstrap intervals. K=100 is supplementary. If unresolved cases occur, label observed estimates and show confirmed lower endpoints separately.
+
+For the case, first use numerically confirmed K=20 losses across all four settings; if none, use confirmed gains; if none, report no case. Pair priority is SHA256(["20261001","case",dataset,model,query_id,product_id]). Within the selected pair, choose the confirmed crossing swap minimizing SHA256(["20261001","case_swap",dataset,model,query_id,product_id,positions_json,text_sha256]). Positions are compact JSON of the 1-based position list. Do not select magnitude. Disclose conditioning on crossing. Provide all serializations/outcomes for that target, unchanged-content notice, native scores/ranks/margins/inclusion, context lengths and fixed competitors. No attention or semantic-causation claim and no attribution heatmaps.
+
+Prevalence is scoped to this sampled fully-fitting eligible population and adjacent-swap family. Different fitting populations prevent causal cross-encoder interpretation. Do not compare these percentages directly with seven-/32-schedule VI as the same estimand. Report weak/null settings. The potential distinct finding is sufficiency of one adjacent transposition under fixed competitors; manuscript placement depends on completed evidence.

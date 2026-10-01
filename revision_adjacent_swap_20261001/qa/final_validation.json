@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-10-01T09:35:28.416658+00:00",
+  "passed": true,
+  "checks": {
+    "preexisting_tracked_edits_preserved": true,
+    "cohort_hash_selection_reconstructed": true,
+    "full_serializations_reconstructed_from_source": true,
+    "every_tested_serialization_audited_and_fitting": true,
+    "ranks_ties_self_exclusion_and_estimands_consistent": true,
+    "bootstrap_intervals_recomputed": true,
+    "every_crossing_repeated_and_classified": true,
+    "case_hash_selection_verified": true,
+    "pdfs_rendered": true,
+    "current_pdf_visual_review_recorded": true
+  },
+  "original_worktree_preservation_check": true,
+  "pairs": 3441,
+  "variant_rows": 61425,
+  "audit_rows": 59983,
+  "figures": 3,
+  "tracked_inventory_files": 70
+}

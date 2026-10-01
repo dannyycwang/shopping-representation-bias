@@ -1,0 +1,18 @@
+{
+  "reviewed_utc": "2026-10-01T09:35:01.262696+00:00",
+  "passed": true,
+  "review_method": "Inspected all three final PDFs through their independently rendered 150-dpi Poppler PNGs.",
+  "checks": [
+    "No clipping or overlapping text",
+    "Readable labels, intervals, native scores and margins",
+    "Correct setting order and source-data values",
+    "Case shows original positions 23/24 and unchanged-content disclosure",
+    "Confirmed-crossing conditional selection disclosed"
+  ],
+  "repair": "Initial aggregate footer overlapped x-axis labels; adjusted subplot bottom margin and footer position, regenerated PDFs and re-inspected every final render.",
+  "pdf_sha256": {
+    "figures/aggregate_K20.pdf": "063f9ad317950367e1dc5a0e2f00f7aa4cee6e8194b4448b948ab1a6e3340c87",
+    "figures/aggregate_K100.pdf": "bcabd3abbe28ee408e2ba43084cbe5d5dfe60d7327f0cec44d756a5489a645f8",
+    "figures/illustrative_case.pdf": "101113d97c8c623b8ddcfb745a47657d490952f7c8f7d59caee532730550dfb6"
+  }
+}

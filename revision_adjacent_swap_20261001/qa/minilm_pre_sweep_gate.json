@@ -1,0 +1,37 @@
+{
+  "completed_utc": "2026-10-01T08:48:12.757304+00:00",
+  "passed": true,
+  "replayed_pairs": 1353,
+  "distinct_replayed_inputs": 1320,
+  "maximum_score_discrepancy": 0.0,
+  "maximum_vector_discrepancy": 0.0,
+  "rank_discrepancies": 0,
+  "catalog_checks": [
+    {
+      "dataset": "wands",
+      "catalog_size": 42994,
+      "all_c0_serialization_hashes_match": true,
+      "fixed_catalog_order_sha256": "7bae97647f9e29becd5c8226ee45291d3e072882249b88d6ca02e6516024a34e"
+    },
+    {
+      "dataset": "esci",
+      "catalog_size": 10076,
+      "all_c0_serialization_hashes_match": true,
+      "fixed_catalog_order_sha256": "c5c8b37f7b0f484fb548f55f0af4a642d9671ae526ae6f20f808437024e4a39b"
+    }
+  ],
+  "cache_compatibility": {
+    "torch": true,
+    "transformers": true,
+    "tokenizers": true,
+    "cuda": true,
+    "gpu": true,
+    "serializer": true,
+    "model": true,
+    "profile_complete": true,
+    "vectors": true,
+    "inputs": true,
+    "aliases": true,
+    "settings": true
+  }
+}
