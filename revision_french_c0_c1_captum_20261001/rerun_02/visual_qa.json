@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "reviewed_files": {
+    "french_molding_c0_c1_captum.drawio": "f2224a19c325f2860f69350b1cdd155c184ca6f202da453e4cdac252c315709e",
+    "french_molding_c0_c1_captum.pdf": "6406d892ee4314ed900e12d22359687a0ee888abbc9cb5d90f60f6bd9a8a27eb",
+    "french_molding_c0_c1_captum.png": "cb08aa1881aaa389074f413539a9d228158db08cc6494e6ee4d3569c744a7b92",
+    "french_molding_c0_c1_captum.svg": "eea9ab6a7a7394c6921d088906a5debd577c9091edcbaea7428c9256395e343e"
+  },
+  "pdf": "Poppler raster reviewed; all labels and legends legible, no clipping or overlap",
+  "png": "Generated PNG reviewed with same complete figure layout",
+  "drawio": "Loaded the exact generated XML in app.diagrams.net through browser-local hash data; actual editable rendering reviewed",
+  "drawio_observed_figure_text_objects": 32,
+  "drawio_observed_font": "Arial",
+  "data_checks": "All 22 attribution markers match the CSV-derived positions; all 32 figure text objects match SVG and draw.io; PDF contains all labels and legends",
+  "retained_first_run_issues": [
+    "CRLF versus LF text export",
+    "DejaVu Sans unavailable in browser, serif fallback",
+    "validator compared NumPy reduction instead of the exact CUDA reduction",
+    "PDF extractor inserted spaces in kerned words"
+  ],
+  "attributions_hand_edited": false
+}

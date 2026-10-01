@@ -1,0 +1,22 @@
+[
+  {
+    "schedule": "C0",
+    "reconstructed_score": 0.4918966591358185,
+    "cache_dot_score": 0.4918965995311737,
+    "reconstructed_rank": 19,
+    "threshold": 0.4912347197532654,
+    "passed": true,
+    "competitor_count": 42993,
+    "tie_break": "descending saved FP32 score, ascending catalog index; no epsilon"
+  },
+  {
+    "schedule": "C1",
+    "reconstructed_score": 0.4490737020969391,
+    "cache_dot_score": 0.44907379150390625,
+    "reconstructed_rank": 58,
+    "threshold": 0.4912347197532654,
+    "passed": true,
+    "competitor_count": 42993,
+    "tie_break": "descending saved FP32 score, ascending catalog index; no epsilon"
+  }
+]

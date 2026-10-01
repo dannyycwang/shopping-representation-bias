@@ -1,0 +1,46 @@
+Integration into the original shopping-representation-bias environment
+
+Original supplied ZIP and its source hashes are preserved as
+original_package.zip and PACKAGE_SOURCE.json. The supplied README.txt,
+case_inputs.json, PREPARATION_CHECKS.json and CODEX_PROMPT.txt are unchanged.
+No applicable AGENTS.md was found in the repository or its ancestors.
+
+Changes to run_c0_c1_captum.py:
+- Verify the 17 original input/model/cache hashes before inference.
+- Check model identity, revision, cap and native pooling.
+- Match the original ranking interface: full-query FP32 cache GEMM for C0
+  competitors, saved phase2 C1 target score, exact deterministic ranks and
+  exact frozen cutoff. The separate cached-vector dot diagnostic retains the
+  supplied 2e-6 consistency tolerance. No ranking epsilon is introduced.
+- Save fixed query, all competitor scores/IDs, raw attribute occurrence
+  orders, tokenization/masks/positions/spans and feature-level IG arrays.
+- Retain per-run exceptions and save tables incrementally; require all four
+  runs to pass before plotting. Apply the five-error margin guard to both
+  fresh-native and FP32 diagnostic score discrepancies.
+- Save versions, dependency checks, runner/helper/data and Captum source hashes.
+- Write input text with explicit LF bytes on Windows. This affects exported
+  text files only; both runs fed the same LF strings to the tokenizer.
+
+Changes to plot_c0_c1.py / native_drawio.py:
+- Use Arial in both Matplotlib and editable draw.io objects. DejaVu Sans was
+  unavailable to the browser, causing a visible serif fallback in run 1.
+- Identify the figure as a target-only reversal and baseline-dependent
+  attribution diagnostic. Keep every attribute and fixed-text/boundary row.
+- Export SVG text, exact figure data, marker coordinates and source hashes.
+
+The first post-run validator reported two real text-file hash mismatches
+(CRLF versus LF), plus a CPU/GPU reduction comparison issue and a PDF kerning
+extraction issue. Its failed report remains in the first output directory.
+validate_results.py now replays the exact original CUDA FP32 feature reduction
+and compares full label characters with PDF extraction whitespace removed.
+The former numerical comparison is strengthened to exact equality; model
+completeness, cutoff and ranking criteria were not loosened.
+
+The final second run passes all 129 automated checks. The three attribution
+CSVs are byte-identical between runs. Both four-run executions are retained.
+Visual review used a Poppler-rendered PDF, the generated PNG and the actual
+draw.io browser renderer, with 32 figure text objects observed in Arial.
+
+Only Captum 0.9.0 was added. Existing Python package versions were unchanged.
+environment_before.json and captum_install_report.json preserve the original
+environment inventory and the official PyPI wheel URL/hash.

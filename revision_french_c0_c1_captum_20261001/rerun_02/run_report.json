@@ -1,0 +1,338 @@
+{
+  "status": "passed",
+  "plot_ready": true,
+  "contrast": "C1 minus C0",
+  "historical_case": true,
+  "native": [
+    {
+      "schedule": "C0",
+      "dataset": "wands",
+      "model": "minilm",
+      "query_id": 359,
+      "product_id": "12575",
+      "K": 20,
+      "catalog_index": 12575,
+      "score": 0.4918966591358185,
+      "competitor_threshold_score": 0.4912347197532654,
+      "competitor_threshold_id": "9834",
+      "competitor_threshold_index": 9834,
+      "signed_margin": 0.0006619393825531006,
+      "reconstructed_rank": 19,
+      "saved_rank": 19,
+      "inclusion": true,
+      "reconstructed_inclusion": true,
+      "token_length": 139,
+      "tokenizer_cap": 256,
+      "fully_fitting": true,
+      "rank_mismatch": false,
+      "unresolved_boundary": false,
+      "exact_threshold_tie": false,
+      "precision": "saved fp32; no epsilon in ranking",
+      "catalog_size": 42994,
+      "competitors": 42993,
+      "record_type": "native_margin",
+      "display": "supplement_historical"
+    },
+    {
+      "schedule": "C1",
+      "dataset": "wands",
+      "model": "minilm",
+      "query_id": 359,
+      "product_id": "12575",
+      "K": 20,
+      "catalog_index": 12575,
+      "score": 0.4490737020969391,
+      "competitor_threshold_score": 0.4912347197532654,
+      "competitor_threshold_id": "9834",
+      "competitor_threshold_index": 9834,
+      "signed_margin": -0.042161017656326294,
+      "reconstructed_rank": 58,
+      "saved_rank": 58,
+      "inclusion": false,
+      "reconstructed_inclusion": false,
+      "token_length": 139,
+      "tokenizer_cap": 256,
+      "fully_fitting": true,
+      "rank_mismatch": false,
+      "unresolved_boundary": false,
+      "exact_threshold_tie": false,
+      "precision": "saved fp32; no epsilon in ranking",
+      "catalog_size": 42994,
+      "competitors": 42993,
+      "record_type": "native_margin",
+      "display": "supplement_historical"
+    }
+  ],
+  "checks": [
+    {
+      "schedule": "C0",
+      "baseline": "zero",
+      "nodes": 64,
+      "status": "passed",
+      "token_count": 139,
+      "input_ids_vs_embeds_error": 0.0,
+      "unchanged_special_and_padding": true,
+      "native_score": 0.4918966591358185,
+      "native_rank": 19,
+      "native_margin": 0.0006619393825531006,
+      "fresh_native_score": 0.4918965995311737,
+      "fresh_native_included": true,
+      "fresh_native_error": 5.960464477539063e-08,
+      "diagnostic_score": 0.49191713333129883,
+      "diagnostic_native_error": 2.047419548034668e-05,
+      "diagnostic_included": true,
+      "boundary_guard": true,
+      "baseline_score": 0.045976798981428146,
+      "attribution_sum": 0.44590044260257855,
+      "completeness_residual": -3.9891747292131186e-05,
+      "completeness_tolerance": 0.004459403343498707,
+      "completeness_passed": true,
+      "captum_delta": -3.9905309677124023e-05,
+      "attempts": [
+        {
+          "nodes": 64,
+          "residual": -3.9891747292131186e-05,
+          "tolerance": 0.004459403343498707,
+          "captum_delta": -3.9905309677124023e-05,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "schedule": "C0",
+      "baseline": "pad",
+      "nodes": 64,
+      "status": "passed",
+      "token_count": 139,
+      "input_ids_vs_embeds_error": 0.0,
+      "unchanged_special_and_padding": true,
+      "native_score": 0.4918966591358185,
+      "native_rank": 19,
+      "native_margin": 0.0006619393825531006,
+      "fresh_native_score": 0.4918965995311737,
+      "fresh_native_included": true,
+      "fresh_native_error": 5.960464477539063e-08,
+      "diagnostic_score": 0.49191713333129883,
+      "diagnostic_native_error": 2.047419548034668e-05,
+      "diagnostic_included": true,
+      "boundary_guard": true,
+      "baseline_score": 0.03160571679472923,
+      "attribution_sum": 0.46030789546784945,
+      "completeness_residual": -3.5210687201470137e-06,
+      "completeness_tolerance": 0.004603114165365696,
+      "completeness_passed": true,
+      "captum_delta": -3.516674041748047e-06,
+      "attempts": [
+        {
+          "nodes": 64,
+          "residual": -3.5210687201470137e-06,
+          "tolerance": 0.004603114165365696,
+          "captum_delta": -3.516674041748047e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "schedule": "C1",
+      "baseline": "zero",
+      "nodes": 64,
+      "status": "passed",
+      "token_count": 139,
+      "input_ids_vs_embeds_error": 0.0,
+      "unchanged_special_and_padding": true,
+      "native_score": 0.4490737020969391,
+      "native_rank": 58,
+      "native_margin": -0.042161017656326294,
+      "fresh_native_score": 0.44907379150390625,
+      "fresh_native_included": false,
+      "fresh_native_error": 8.940696716308594e-08,
+      "diagnostic_score": 0.4490884244441986,
+      "diagnostic_native_error": 1.4722347259521484e-05,
+      "diagnostic_included": false,
+      "boundary_guard": true,
+      "baseline_score": 0.045976798981428146,
+      "attribution_sum": 0.40308356305467896,
+      "completeness_residual": -2.80624080915004e-05,
+      "completeness_tolerance": 0.004031116254627705,
+      "completeness_passed": true,
+      "captum_delta": -2.804398536682129e-05,
+      "attempts": [
+        {
+          "nodes": 64,
+          "residual": -2.80624080915004e-05,
+          "tolerance": 0.004031116254627705,
+          "captum_delta": -2.804398536682129e-05,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "schedule": "C1",
+      "baseline": "pad",
+      "nodes": 64,
+      "status": "passed",
+      "token_count": 139,
+      "input_ids_vs_embeds_error": 0.0,
+      "unchanged_special_and_padding": true,
+      "native_score": 0.4490737020969391,
+      "native_rank": 58,
+      "native_margin": -0.042161017656326294,
+      "fresh_native_score": 0.44907379150390625,
+      "fresh_native_included": false,
+      "fresh_native_error": 8.940696716308594e-08,
+      "diagnostic_score": 0.4490884244441986,
+      "diagnostic_native_error": 1.4722347259521484e-05,
+      "diagnostic_included": false,
+      "boundary_guard": true,
+      "baseline_score": 0.03160571679472923,
+      "attribution_sum": 0.417489932209719,
+      "completeness_residual": 7.224560249596834e-06,
+      "completeness_tolerance": 0.004174827076494694,
+      "completeness_passed": true,
+      "captum_delta": 7.212162017822266e-06,
+      "attempts": [
+        {
+          "nodes": 64,
+          "residual": 7.224560249596834e-06,
+          "tolerance": 0.004174827076494694,
+          "captum_delta": 7.212162017822266e-06,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "repo_head": "0f9c54f5346fa28070e92fb449a3b974cb418674",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.46.2",
+  "captum": "0.9.0",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "model_spec": {
+    "key": "minilm",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "architecture": "MiniLM-L6",
+    "max_tokens": 256,
+    "native_pooling": "attention-mask mean"
+  },
+  "attention_implementation": "sdpa",
+  "environment": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.46.2",
+      "captum": "0.9.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "matplotlib": "3.10.9",
+      "threadpoolctl": "3.7.0"
+    },
+    "existing_dependencies_unchanged": {
+      "torch": true,
+      "transformers": true,
+      "numpy": true,
+      "pandas": true,
+      "matplotlib": true,
+      "threadpoolctl": true
+    }
+  },
+  "query_row_index": 353,
+  "product_catalog_index": 12575,
+  "method": {
+    "implementation": "captum.attr.IntegratedGradients",
+    "multiply_by_inputs": true,
+    "integration": "gausslegendre",
+    "nodes": [
+      64,
+      128,
+      256
+    ],
+    "internal_batch_size": 8
+  },
+  "tf32": false,
+  "pooling": "attention-mask mean in FP32 then L2 normalization",
+  "sources": {
+    "query": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+      "sha256": "b76dc0151e3c27249b48dc62d52a747af68aee260f52eb86cc4a6b1df32c7379"
+    },
+    "C0_products": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+      "sha256": "9e64061eb6cc75b92fed46e385b32718632545379a980a9e10053849bbf3689c"
+    },
+    "common": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_final_strengthening_20260922\\scripts\\common.py",
+      "sha256": "ae16fb8128cd0f7b43d12ec87367b7f9c9267a09347fed560b741a21eaebf1b8"
+    },
+    "target_only_ranks": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase3\\results\\target_only_permutations\\wands_minilm_pairs.parquet",
+      "sha256": "df43654f8d25b99114ae93cb54f33aa9d50008f799293cd348590d3bb4627001"
+    },
+    "C0_rank_source": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C0.parquet",
+      "sha256": "8e2263d54f75c4a4c51fae7240d3c879ca01aae0b6e7109e1af5ea4bcc652096"
+    },
+    "C1_products": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\embeddings\\wands_minilm_native_C1_3ee547664d76abcf96a3.npy",
+      "sha256": "4527db37fe9a45e9107e17632ed32139218512b71f0e6ac32b7d2c1b62119307"
+    },
+    "C1_rank_source": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\results\\phase2_pair_ranks\\wands_minilm_native_C1.parquet",
+      "sha256": "1677ff51e8c00240a37056380b03e447639d53ed70e3dd52ba943b780b76d148"
+    },
+    "runner_audit_support.py": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\audit_support.py",
+      "sha256": "dfe9c597969cabf06404c1d2dc05e62a2649a573427b89f184071c77272cd15f"
+    },
+    "runner_native_drawio.py": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\native_drawio.py",
+      "sha256": "1f1520731984cb3c212d86c455e9291f556949a5e48c06b759682fd63bab93f7"
+    },
+    "runner_plot_c0_c1.py": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\plot_c0_c1.py",
+      "sha256": "645da170a0bfaa7ef14b74b1988c8e1ed59a193c64a27eddcd29c13b317804ed"
+    },
+    "runner_run_c0_c1_captum.py": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\run_c0_c1_captum.py",
+      "sha256": "db10ff8b19fdd24caa86e4e6fd764eff790c2ec1acf0e8e992136fa818279a1a"
+    },
+    "runner_validate_results.py": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\validate_results.py",
+      "sha256": "84a0090585defc100a3ce859a2b2d02b5eec04e01de01683851ca0c35a2d75d3"
+    },
+    "case_inputs.json": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\case_inputs.json",
+      "sha256": "50247135ecc79d3d0bafdaf4053d442f69ce2b6928c4dff8c12e99b9a543c33c"
+    },
+    "PACKAGE_SOURCE.json": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\PACKAGE_SOURCE.json",
+      "sha256": "05040af2ed48929c9bcb074fffcfcaa06b08457a81bd6e333981564eef4279cb"
+    },
+    "captum_install_report.json": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\tools\\french_c0_c1_captum\\captum_install_report.json",
+      "sha256": "6d5c47ee279f9908ef0f618e962b90bc1eb948a5571cd8b7c831947964c4084e"
+    },
+    "phase2/config/phase2.json": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\config\\phase2.json",
+      "sha256": "4bcbf5fbe0e98a5054e5bd3af4efaf70db6c02329d301f711ea03e729ebf30a8"
+    },
+    "phase2/src/representations.py": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\src\\representations.py",
+      "sha256": "0751cdb3cabd54e3d7256b5dd0d6a3ebebaa2d826fda080b24ee31ed0a34e027"
+    },
+    "revision_final_strengthening_20260922/PROTOCOL.json": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_final_strengthening_20260922\\PROTOCOL.json",
+      "sha256": "ab16a31715b095d1c1d75860632b97d625d2607ee9875909246d25adf3eafbb6"
+    },
+    "revision_evidence_20260917/data/encoder_profiles_and_rank_sources.csv": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\encoder_profiles_and_rank_sources.csv",
+      "sha256": "40c0e3ced81e5302aa4d0b1ee30cb9f82b7bde72ea2b95efbb7b9036a8d33c3e"
+    },
+    "captum_implementation": {
+      "path": "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\captum\\attr\\_core\\integrated_gradients.py",
+      "sha256": "1bee5bcc801038e4bd73da2ba24cdac8e3dfc9a4319848588998c0db535d0f3f"
+    }
+  },
+  "precision": "FP16-rounded frozen model parameters in FP32 for IG; cached normalized query unchanged"
+}

@@ -1,0 +1,789 @@
+{
+  "status": "failed",
+  "check_count": 129,
+  "failed_checks": [
+    {
+      "name": "C0_frozen_serialization",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_feature_to_token_sum",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "C1_frozen_serialization",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "pdf_has_all_labels_and_legends",
+      "passed": false,
+      "detail": null
+    }
+  ],
+  "checks": [
+    {
+      "name": "official_captum_and_contrast",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_frozen_input_hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_dependencies_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four_runs_passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_C0_C1_attribute_occurrence_orders",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_frozen_serialization",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "C0_139_tokens_masks_and_positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_full_tokens_and_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_token_mapping_by_occurrence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_signed_token_entry_sums",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_unchanged_completeness_rule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_captum_delta_consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_native_and_diagnostic_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_feature_to_token_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_special_embeddings_and_attributions_fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_zero_baseline_word_vectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_full_tokens_and_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_token_mapping_by_occurrence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_signed_token_entry_sums",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_unchanged_completeness_rule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_captum_delta_consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_native_and_diagnostic_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_feature_to_token_sum",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_special_embeddings_and_attributions_fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_pad_baseline_word_vectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_frozen_serialization",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "C1_139_tokens_masks_and_positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_full_tokens_and_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_token_mapping_by_occurrence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_signed_token_entry_sums",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_unchanged_completeness_rule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_captum_delta_consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_native_and_diagnostic_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_feature_to_token_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_special_embeddings_and_attributions_fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_zero_baseline_word_vectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_full_tokens_and_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_token_mapping_by_occurrence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_signed_token_entry_sums",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_unchanged_completeness_rule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_captum_delta_consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_native_and_diagnostic_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_feature_to_token_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_special_embeddings_and_attributions_fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_pad_baseline_word_vectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "character_multiset_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "42993_fixed_C0_competitors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C0_rank_and_cutoff_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C1_rank_and_cutoff_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_query_vector_bitwise_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_005",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_008",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_attr_009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_fixed_category",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_fixed_class",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_fixed_title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_separator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_zero_special",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_005",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_008",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_attr_009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_fixed_category",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_fixed_class",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_fixed_title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_separator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aligned_pad_special",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_contains_all_10_attributes_and_fixed_row",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_005",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_005",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_008",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_008",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_attr_009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_attr_009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_zero_fixed_text_and_boundaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure_data_pad_fixed_text_and_boundaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_all_text_matches_renderer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "svg_text_matches_drawio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pdf_has_all_labels_and_legends",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_005",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_008",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_attr_009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_zero_fixed_text_and_boundaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_003",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_004",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_005",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_008",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_attr_009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "drawio_marker_pad_fixed_text_and_boundaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "old_figures_and_existing_edits_unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "completeness": [
+    {
+      "schedule": "C0",
+      "baseline": "zero",
+      "nodes": 64,
+      "baseline_score": 0.045976798981428146,
+      "completeness_residual": -3.9891747292131186e-05,
+      "completeness_tolerance": 0.004459403343498707,
+      "captum_delta": -3.9905309677124023e-05
+    },
+    {
+      "schedule": "C0",
+      "baseline": "pad",
+      "nodes": 64,
+      "baseline_score": 0.03160571679472923,
+      "completeness_residual": -3.5210687201470137e-06,
+      "completeness_tolerance": 0.004603114165365696,
+      "captum_delta": -3.516674041748047e-06
+    },
+    {
+      "schedule": "C1",
+      "baseline": "zero",
+      "nodes": 64,
+      "baseline_score": 0.045976798981428146,
+      "completeness_residual": -2.80624080915004e-05,
+      "completeness_tolerance": 0.004031116254627705,
+      "captum_delta": -2.804398536682129e-05
+    },
+    {
+      "schedule": "C1",
+      "baseline": "pad",
+      "nodes": 64,
+      "baseline_score": 0.03160571679472923,
+      "completeness_residual": 7.224560249596834e-06,
+      "completeness_tolerance": 0.004174827076494694,
+      "captum_delta": 7.212162017822266e-06
+    }
+  ],
+  "attribute_sign_comparison": [
+    {
+      "entry_id": "attr_000",
+      "entry_text": "overallwidth-sidetoside:9.38",
+      "zero": -0.002281145512824878,
+      "pad": 0.01682349859038368,
+      "sign_changes": true
+    },
+    {
+      "entry_id": "attr_001",
+      "entry_text": "overallproductweight:0.19",
+      "zero": 0.0019654603383969516,
+      "pad": 0.004019289161078632,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_002",
+      "entry_text": "producttype : wall nice/cove",
+      "zero": 0.021437841816805303,
+      "pad": 0.005658734851749614,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_003",
+      "entry_text": "moldinguse : corners",
+      "zero": 0.009893085807561874,
+      "pad": 0.0037841988960281014,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_004",
+      "entry_text": "overallheight-toptobottom:9.38",
+      "zero": 0.0023807690013200045,
+      "pad": 4.469667328521609e-05,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_005",
+      "entry_text": "material : urethane",
+      "zero": -0.005566354317124933,
+      "pad": -0.0033964423928409815,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_006",
+      "entry_text": "color : off-white",
+      "zero": -0.008475592127069831,
+      "pad": -0.004156578448601067,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_007",
+      "entry_text": "compositewoodproductcwp : no",
+      "zero": -0.010898003092734143,
+      "pad": -0.011830645351437852,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_008",
+      "entry_text": "installationrequired : yes",
+      "zero": -0.006223743781447411,
+      "pad": -6.175367161631584e-06,
+      "sign_changes": false
+    },
+    {
+      "entry_id": "attr_009",
+      "entry_text": "countryoforigin : china",
+      "zero": -0.021298904030118138,
+      "pad": -0.018771515460684896,
+      "sign_changes": false
+    }
+  ],
+  "scope": "target-only reversal; baseline-dependent attribution diagnostic",
+  "limitations": [
+    "No independent attribute causal effects or population prevalence.",
+    "Completeness is a global identity check, not a per-attribute sign uncertainty bound.",
+    "PAD height and installation differences are near zero; their tiny signs are not emphasized."
+  ]
+}

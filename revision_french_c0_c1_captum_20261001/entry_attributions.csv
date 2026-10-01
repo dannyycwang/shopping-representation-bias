@@ -1,0 +1,61 @@
+schedule,baseline,entry_id,entry_text,attribution
+C0,zero,special,special token,0.0
+C0,zero,fixed_title,valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner,0.0014065009308978915
+C0,zero,fixed_class,Molding & Millwork,0.051062330370768905
+C0,zero,fixed_category,"Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork",0.1556756526697427
+C0,zero,attr_000,overallwidth-sidetoside:9.38,0.012274845474166796
+C0,zero,separator,attribute separator,0.013403427903540432
+C0,zero,attr_001,overallproductweight:0.19,0.011143309471663088
+C0,zero,attr_002,producttype : wall nice/cove,0.026143871597014368
+C0,zero,attr_003,moldinguse : corners,0.014761455939151347
+C0,zero,attr_004,overallheight-toptobottom:9.38,0.026551131857559085
+C0,zero,attr_005,material : urethane,0.026816073106601834
+C0,zero,attr_006,color : off-white,0.02345383306965232
+C0,zero,attr_007,compositewoodproductcwp : no,0.026884465158218518
+C0,zero,attr_008,installationrequired : yes,0.014695155143272132
+C0,zero,attr_009,countryoforigin : china,0.04162838991032913
+C0,pad,special,special token,0.0
+C0,pad,fixed_title,valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner,0.1074571751523763
+C0,pad,fixed_class,Molding & Millwork,0.053898417158052325
+C0,pad,fixed_category,"Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork",0.1139525071484968
+C0,pad,attr_000,overallwidth-sidetoside:9.38,0.0010063353111036122
+C0,pad,separator,attribute separator,0.018293729284778237
+C0,pad,attr_001,overallproductweight:0.19,0.00257583090569824
+C0,pad,attr_002,producttype : wall nice/cove,0.01747461498598568
+C0,pad,attr_003,moldinguse : corners,0.04251359694171697
+C0,pad,attr_004,overallheight-toptobottom:9.38,0.01786947762593627
+C0,pad,attr_005,material : urethane,0.021366523811593652
+C0,pad,attr_006,color : off-white,0.017093893140554428
+C0,pad,attr_007,compositewoodproductcwp : no,0.02366426441585645
+C0,pad,attr_008,installationrequired : yes,-0.002427521685604006
+C0,pad,attr_009,countryoforigin : china,0.025569051271304488
+C1,zero,special,special token,0.0
+C1,zero,fixed_title,valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner,-0.0011762898648157716
+C1,zero,fixed_class,Molding & Millwork,0.04205763805657625
+C1,zero,fixed_category,"Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork",0.15932696382515132
+C1,zero,attr_009,countryoforigin : china,0.020329485880210996
+C1,zero,separator,attribute separator,-0.0024106937926262617
+C1,zero,attr_008,installationrequired : yes,0.008471411361824721
+C1,zero,attr_007,compositewoodproductcwp : no,0.015986462065484375
+C1,zero,attr_006,color : off-white,0.014978240942582488
+C1,zero,attr_005,material : urethane,0.0212497187894769
+C1,zero,attr_004,overallheight-toptobottom:9.38,0.02893190085887909
+C1,zero,attr_003,moldinguse : corners,0.02465454174671322
+C1,zero,attr_002,producttype : wall nice/cove,0.04758171341381967
+C1,zero,attr_001,overallproductweight:0.19,0.01310876981006004
+C1,zero,attr_000,overallwidth-sidetoside:9.38,0.009993699961341918
+C1,pad,special,special token,0.0
+C1,pad,fixed_title,valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner,0.10565447225235403
+C1,pad,fixed_class,Molding & Millwork,0.04578891536220908
+C1,pad,fixed_category,"Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork",0.10267793500679545
+C1,pad,attr_009,countryoforigin : china,0.006797535810619593
+C1,pad,separator,attribute separator,0.004493481712415814
+C1,pad,attr_008,installationrequired : yes,-0.0024336970527656376
+C1,pad,attr_007,compositewoodproductcwp : no,0.011833619064418599
+C1,pad,attr_006,color : off-white,0.012937314691953361
+C1,pad,attr_005,material : urethane,0.01797008141875267
+C1,pad,attr_004,overallheight-toptobottom:9.38,0.017914174299221486
+C1,pad,attr_003,moldinguse : corners,0.04629779583774507
+C1,pad,attr_002,producttype : wall nice/cove,0.023133349837735295
+C1,pad,attr_001,overallproductweight:0.19,0.006595120066776872
+C1,pad,attr_000,overallwidth-sidetoside:9.38,0.01782983390148729

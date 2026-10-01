@@ -1,0 +1,32 @@
+Original input fields and attribute occurrences
+
+Fixed text prefix (identical in C0 and C1):
+valeriano 9 3/8 '' h x 9 3/8 '' w french ribbon panel moulding corner
+Molding & Millwork
+Home Improvement / Flooring, Walls & Ceiling / Flooring Installation & Accessories / Molding & Millwork
+
+Attribute separator: '|'
+
+C0 attribute order:
+attr_000  overallwidth-sidetoside:9.38
+attr_001  overallproductweight:0.19
+attr_002  producttype : wall nice/cove
+attr_003  moldinguse : corners
+attr_004  overallheight-toptobottom:9.38
+attr_005  material : urethane
+attr_006  color : off-white
+attr_007  compositewoodproductcwp : no
+attr_008  installationrequired : yes
+attr_009  countryoforigin : china
+
+C1 attribute order:
+attr_009  countryoforigin : china
+attr_008  installationrequired : yes
+attr_007  compositewoodproductcwp : no
+attr_006  color : off-white
+attr_005  material : urethane
+attr_004  overallheight-toptobottom:9.38
+attr_003  moldinguse : corners
+attr_002  producttype : wall nice/cove
+attr_001  overallproductweight:0.19
+attr_000  overallwidth-sidetoside:9.38

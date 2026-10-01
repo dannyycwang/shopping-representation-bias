@@ -1,0 +1,429 @@
+{
+  "final_results": "revision_french_c0_c1_captum_20261001/rerun_02",
+  "base_repo_commit": "0f9c54f5346fa28070e92fb449a3b974cb418674",
+  "run_report_source_hashes_match_current_files": {
+    "query": true,
+    "C0_products": true,
+    "common": true,
+    "target_only_ranks": true,
+    "C0_rank_source": true,
+    "C1_products": true,
+    "C1_rank_source": true,
+    "runner_audit_support.py": true,
+    "runner_native_drawio.py": true,
+    "runner_plot_c0_c1.py": true,
+    "runner_run_c0_c1_captum.py": true,
+    "runner_validate_results.py": true,
+    "case_inputs.json": true,
+    "PACKAGE_SOURCE.json": true,
+    "captum_install_report.json": true,
+    "phase2/config/phase2.json": true,
+    "phase2/src/representations.py": true,
+    "revision_final_strengthening_20260922/PROTOCOL.json": true,
+    "revision_evidence_20260917/data/encoder_profiles_and_rank_sources.csv": true,
+    "captum_implementation": true
+  },
+  "protected_files_unchanged": true,
+  "files": [
+    {
+      "path": "revision_french_c0_c1_captum_20261001/aligned_entry_changes.csv",
+      "bytes": 3267,
+      "sha256": "f86b5aa92c1bf1ee43e62ee4cc9654d880bd9458ea32b2d79746f14134c6e322"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/artifact_qa.json",
+      "bytes": 17911,
+      "sha256": "54e27a6ae587bcafb24b269f35b261c59643a92f8b4366dc5841a7c90fa054d8"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/attribute_sequences.csv",
+      "bytes": 847,
+      "sha256": "b474dc5481f89bed1aab80c69da05b35f33516a6dbfaf9bd3c33b21ac9d0ce24"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C0_input.txt",
+      "bytes": 449,
+      "sha256": "8e7041167d412f825bc4a67a1f00fa735fb3a46d110f3983d5bdc3fb6d5569eb"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C0_pad_features.npz",
+      "bytes": 295482,
+      "sha256": "61d3d92c86e3f10162783628d43ab63a43acf1bf2e943ca761de99851e5e721a"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C0_pad_qa.json",
+      "bytes": 1052,
+      "sha256": "fc707e2c2d68928cb447c9289d5bed98227c17b45f3e72797be6bf6d3352188a"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C0_tokenized_input.json",
+      "bytes": 16898,
+      "sha256": "4099b015dc3dd8d7f8619ec2d88352253f2311832737125fc2890ba4ff26775d"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C0_zero_features.npz",
+      "bytes": 293644,
+      "sha256": "ce4687a0414a3cde7d809e2d243c19516b5f09ab8b991fa8724567bdf8078364"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C0_zero_qa.json",
+      "bytes": 1056,
+      "sha256": "c44dc0d0314b4b3b1c2e751b8c05806021c03cf507fe3026ad89f50ba9ab08b8"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C1_input.txt",
+      "bytes": 449,
+      "sha256": "ff02e8f25a7ab1ef29613fa2a3d49bdd80a641262adebfc6cb39d940b7d9c033"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C1_pad_features.npz",
+      "bytes": 294650,
+      "sha256": "a6d30f6b07954bb218fce33a01a95402a7642f441cdd20a906117c6cf82f6935"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C1_pad_qa.json",
+      "bytes": 1047,
+      "sha256": "c8d6db2c2a5e3a8dd33926d397cf8f6aa9d17f8880c9cf983a0e34813bc9465a"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C1_tokenized_input.json",
+      "bytes": 16898,
+      "sha256": "347530a7e9d210c4017adac17ce9d03bd1f7914609deee6e9cb3e5232f7b3071"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C1_zero_features.npz",
+      "bytes": 292843,
+      "sha256": "0f066c964b8c52b18db1a0373d17c3415fac5f8fd9b715bf86e0d19a76c25947"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/C1_zero_qa.json",
+      "bytes": 1053,
+      "sha256": "a20d48fc363fac0da175e6fe8347d05c66837457ef127786ca1aad89abdc3f6d"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/cache_checks.json",
+      "bytes": 672,
+      "sha256": "ed7b0667e3f4f978f1d62d86c8277c454b3fdea5222f61a7cc9a529726391a49"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/entry_attributions.csv",
+      "bytes": 4255,
+      "sha256": "0d54294e3ebe19bbe4e384cfa41b1a628a91908c11efdfefd72d880bfd7c2d40"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/environment.json",
+      "bytes": 639,
+      "sha256": "e5c36e9a4ab0b8c83cad398549f643c87796aeda1b3035f59b5b45ab436e8543"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/figure_data.json",
+      "bytes": 7883,
+      "sha256": "d854746465deb4f7a3e79a085866e6604fa136fc877e9ed9bc0e1acdc83ec429"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/fixed_competitors.csv",
+      "bytes": 1386225,
+      "sha256": "20baea3a81d9b7c22aafff2a2b29811ee474aae724c66c25b95e88efd1e3f40f"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/fixed_query_embedding.npy",
+      "bytes": 1664,
+      "sha256": "324cf1a25d0fda0d86bc07dee6cd39630db60751f72a38862cba6bc91168dce9"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/french_molding_c0_c1_captum.drawio",
+      "bytes": 39769,
+      "sha256": "173eadd442b6e73ef8bf97f755f883722383e9d4bddc57062146d170de286a94"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/french_molding_c0_c1_captum.pdf",
+      "bytes": 19072,
+      "sha256": "f9df99c2245bce814eb46a93cf762984ccad45de59cb46d107e755c4e686022f"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/french_molding_c0_c1_captum.png",
+      "bytes": 146226,
+      "sha256": "ccbbf2fffa69cf12dfb14b13fdb6254003bd6ce6db9dacabe860ae8fd75ed696"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/french_molding_c0_c1_captum.svg",
+      "bytes": 20405,
+      "sha256": "723927d28a325908bd2aa3f7d054dc29552a4d51360ea41fdd7c6aa0377b240c"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/original_input_hash_checks.json",
+      "bytes": 6205,
+      "sha256": "bc6bb02efac560823af89b6c7f709e15ca83d6c4be505fc69b604eee682120f8"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/README.txt",
+      "bytes": 2170,
+      "sha256": "4159554bc18f6128ecb767dabc76afdba50c9985bcc800822862e3d39763592a"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/aligned_entry_changes.csv",
+      "bytes": 3267,
+      "sha256": "f86b5aa92c1bf1ee43e62ee4cc9654d880bd9458ea32b2d79746f14134c6e322"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/artifact_qa.json",
+      "bytes": 17481,
+      "sha256": "d860b3fd9e327f4fd44a9bc2d8a652631f5f0faf8aa3e89492c4838c5acc8443"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/attribute_sequences.csv",
+      "bytes": 847,
+      "sha256": "b474dc5481f89bed1aab80c69da05b35f33516a6dbfaf9bd3c33b21ac9d0ce24"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/attribute_sequences.txt",
+      "bytes": 1062,
+      "sha256": "0ee23a5ef52287c3b461f9e720114ce466220041183db9e8c97278aea40f21e4"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C0_input.txt",
+      "bytes": 446,
+      "sha256": "0d32c126b534ce8acbf1ac586bce0be3444e5b04658ed0bae7565309e0ed1abb"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C0_pad_features.npz",
+      "bytes": 295482,
+      "sha256": "61d3d92c86e3f10162783628d43ab63a43acf1bf2e943ca761de99851e5e721a"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C0_pad_qa.json",
+      "bytes": 1052,
+      "sha256": "fc707e2c2d68928cb447c9289d5bed98227c17b45f3e72797be6bf6d3352188a"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C0_tokenized_input.json",
+      "bytes": 16898,
+      "sha256": "4099b015dc3dd8d7f8619ec2d88352253f2311832737125fc2890ba4ff26775d"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C0_zero_features.npz",
+      "bytes": 293644,
+      "sha256": "ce4687a0414a3cde7d809e2d243c19516b5f09ab8b991fa8724567bdf8078364"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C0_zero_qa.json",
+      "bytes": 1056,
+      "sha256": "c44dc0d0314b4b3b1c2e751b8c05806021c03cf507fe3026ad89f50ba9ab08b8"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C1_input.txt",
+      "bytes": 446,
+      "sha256": "b16aa4fda0f9e7abcb0ad06b216af3daeb537d997344a92826a92439cc2d3c42"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C1_pad_features.npz",
+      "bytes": 294650,
+      "sha256": "a6d30f6b07954bb218fce33a01a95402a7642f441cdd20a906117c6cf82f6935"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C1_pad_qa.json",
+      "bytes": 1047,
+      "sha256": "c8d6db2c2a5e3a8dd33926d397cf8f6aa9d17f8880c9cf983a0e34813bc9465a"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C1_tokenized_input.json",
+      "bytes": 16898,
+      "sha256": "347530a7e9d210c4017adac17ce9d03bd1f7914609deee6e9cb3e5232f7b3071"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C1_zero_features.npz",
+      "bytes": 292843,
+      "sha256": "0f066c964b8c52b18db1a0373d17c3415fac5f8fd9b715bf86e0d19a76c25947"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/C1_zero_qa.json",
+      "bytes": 1053,
+      "sha256": "a20d48fc363fac0da175e6fe8347d05c66837457ef127786ca1aad89abdc3f6d"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/cache_checks.json",
+      "bytes": 672,
+      "sha256": "ed7b0667e3f4f978f1d62d86c8277c454b3fdea5222f61a7cc9a529726391a49"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/completeness_summary.csv",
+      "bytes": 494,
+      "sha256": "ff497c2a931ddc107f958c1f5b227a34f4b0b2de624ee1f355639d8ed6385db0"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/entry_attributions.csv",
+      "bytes": 4255,
+      "sha256": "0d54294e3ebe19bbe4e384cfa41b1a628a91908c11efdfefd72d880bfd7c2d40"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/environment.json",
+      "bytes": 639,
+      "sha256": "e5c36e9a4ab0b8c83cad398549f643c87796aeda1b3035f59b5b45ab436e8543"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/environment_change_audit.json",
+      "bytes": 136,
+      "sha256": "8f66c65fb3e43d0a3117a0b56152a3a25cf9ab0f0d93656d2405e9c95c2c79c5"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/figure_data.json",
+      "bytes": 7883,
+      "sha256": "73a6a714c4d229b14671e4c604d90ad8773c98e86c9a8b094e2600e9bd16c8d7"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/fixed_competitors.csv",
+      "bytes": 1386225,
+      "sha256": "20baea3a81d9b7c22aafff2a2b29811ee474aae724c66c25b95e88efd1e3f40f"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/fixed_query_embedding.npy",
+      "bytes": 1664,
+      "sha256": "324cf1a25d0fda0d86bc07dee6cd39630db60751f72a38862cba6bc91168dce9"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/french_molding_c0_c1_captum.drawio",
+      "bytes": 39569,
+      "sha256": "f2224a19c325f2860f69350b1cdd155c184ca6f202da453e4cdac252c315709e"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/french_molding_c0_c1_captum.pdf",
+      "bytes": 37664,
+      "sha256": "6406d892ee4314ed900e12d22359687a0ee888abbc9cb5d90f60f6bd9a8a27eb"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/french_molding_c0_c1_captum.png",
+      "bytes": 148145,
+      "sha256": "cb08aa1881aaa389074f413539a9d228158db08cc6494e6ee4d3569c744a7b92"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/french_molding_c0_c1_captum.svg",
+      "bytes": 20198,
+      "sha256": "eea9ab6a7a7394c6921d088906a5debd577c9091edcbaea7428c9256395e343e"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/original_input_hash_checks.json",
+      "bytes": 6205,
+      "sha256": "bc6bb02efac560823af89b6c7f709e15ca83d6c4be505fc69b604eee682120f8"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/REPRODUCE.txt",
+      "bytes": 2528,
+      "sha256": "284cf72100fd8c1088c4173f952b7b04ba08cd8e5260244d1a3cc25988c57c39"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/rerun_numeric_comparison.json",
+      "bytes": 160,
+      "sha256": "e8bc9856c0a5b55fed1e14da437a0a745f6e5ece164ea7c4de8bb8197396f030"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/RESULTS.txt",
+      "bytes": 5135,
+      "sha256": "b312d0a09833c18d7778aabe0cbfc487b880823873a5417cf1a8b0567fea5aef"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/run_report.json",
+      "bytes": 14582,
+      "sha256": "0ef9c79a651fef2f44d2dd1ca78db0637904749e5b795e972e007993c01fb82d"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/token_attributions.csv",
+      "bytes": 59301,
+      "sha256": "2d1b456fab072aa3e1942ab91100bde5df205075001c46cf2ce3912f8f4901ea"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/rerun_02/visual_qa.json",
+      "bytes": 1341,
+      "sha256": "075bf46ee02bbd97a436d1ecdfd5276c5cd9fe6ceacedac5fdf3d672c0bc53b5"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/run_report.json",
+      "bytes": 14279,
+      "sha256": "1bfcf6989dd3ec4930ff7f516e134953b213f9fb8b1b71ca09019591a1b00cb1"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/source_before_export_repairs.zip",
+      "bytes": 18725,
+      "sha256": "0311fe712eee5f0fed71b49278cf9da32d3fc031eab1ad1805dfc7c24509a8c5"
+    },
+    {
+      "path": "revision_french_c0_c1_captum_20261001/token_attributions.csv",
+      "bytes": 59301,
+      "sha256": "2d1b456fab072aa3e1942ab91100bde5df205075001c46cf2ce3912f8f4901ea"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/audit_support.py",
+      "bytes": 2781,
+      "sha256": "dfe9c597969cabf06404c1d2dc05e62a2649a573427b89f184071c77272cd15f"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/captum_install_report.json",
+      "bytes": 26306,
+      "sha256": "6d5c47ee279f9908ef0f618e962b90bc1eb948a5571cd8b7c831947964c4084e"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/case_inputs.json",
+      "bytes": 2693,
+      "sha256": "50247135ecc79d3d0bafdaf4053d442f69ce2b6928c4dff8c12e99b9a543c33c"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/CODEX_PROMPT.txt",
+      "bytes": 2260,
+      "sha256": "b4bb010ddd028cf21dabe79314522655f250cdb07bc29bc17a525199b6fb9ce4"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/environment_before.json",
+      "bytes": 4852,
+      "sha256": "b88f6e62981eea423a131263b0f30fcbcd4bae45fed3b44daf367af46bbe24bf"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/INTEGRATION_NOTES.txt",
+      "bytes": 2843,
+      "sha256": "a102207a4fa53f7d1385aed25b368958e51af26d91f75329f54aedac6b40640b"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/native_drawio.py",
+      "bytes": 7466,
+      "sha256": "1f1520731984cb3c212d86c455e9291f556949a5e48c06b759682fd63bab93f7"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/original_package.zip",
+      "bytes": 17604,
+      "sha256": "928b9aa6923a2752f63afbb1747062d3b0fa32cb9a72cc4edbb5cc50ff0b7262"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/PACKAGE_SOURCE.json",
+      "bytes": 965,
+      "sha256": "05040af2ed48929c9bcb074fffcfcaa06b08457a81bd6e333981564eef4279cb"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/plot_c0_c1.py",
+      "bytes": 7798,
+      "sha256": "645da170a0bfaa7ef14b74b1988c8e1ed59a193c64a27eddcd29c13b317804ed"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/PREPARATION_CHECKS.json",
+      "bytes": 1007,
+      "sha256": "d7f9a31487ee98b906f216e6afa344cf80ce27fadcd091116cd9d6ad7e97d697"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/protected_files_before.json",
+      "bytes": 1491,
+      "sha256": "5598eba74577cb8acf7bf7405475169b2dd96b2b9a96fec484037aac374b236a"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/README.txt",
+      "bytes": 5681,
+      "sha256": "9e57e28b0ead54141d330e1a6ee94c8407ddde1469826710ee8a56feb0d29059"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/run_c0_c1_captum.py",
+      "bytes": 22027,
+      "sha256": "db10ff8b19fdd24caa86e4e6fd764eff790c2ec1acf0e8e992136fa818279a1a"
+    },
+    {
+      "path": "tools/french_c0_c1_captum/validate_results.py",
+      "bytes": 12687,
+      "sha256": "84a0090585defc100a3ce859a2b2d02b5eec04e01de01683851ca0c35a2d75d3"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "contrast": "C1 minus C0",
+  "rows": [
+    {
+      "entry_id": "attr_000",
+      "label": "Width: 9.38",
+      "zero_C1_minus_C0": -0.002281145512824878,
+      "pad_C1_minus_C0": 0.01682349859038368,
+      "zero_marker_display": [
+        619.8764652184342,
+        278.5919026548673
+      ],
+      "pad_marker_display": [
+        662.6119682056885,
+        275.8527876106195
+      ]
+    },
+    {
+      "entry_id": "attr_001",
+      "label": "Product weight: 0.19",
+      "zero_C1_minus_C0": 0.0019654603383969516,
+      "pad_C1_minus_C0": 0.004019289161078632,
+      "zero_marker_display": [
+        629.3757699979512,
+        261.47243362831864
+      ],
+      "pad_marker_display": [
+        633.9700145864847,
+        258.73331858407084
+      ]
+    },
+    {
+      "entry_id": "attr_002",
+      "label": "Product type: wall nice/cove",
+      "zero_C1_minus_C0": 0.021437841816805303,
+      "pad_C1_minus_C0": 0.005658734851749614,
+      "zero_marker_display": [
+        672.933870967742,
+        244.35296460176994
+      ],
+      "pad_marker_display": [
+        637.637318506548,
+        241.61384955752214
+      ]
+    },
+    {
+      "entry_id": "attr_003",
+      "label": "Molding use: corners",
+      "zero_C1_minus_C0": 0.009893085807561874,
+      "pad_C1_minus_C0": 0.0037841988960281014,
+      "zero_marker_display": [
+        647.1092101023096,
+        227.23349557522127
+      ],
+      "pad_marker_display": [
+        633.4441371783495,
+        224.49438053097347
+      ]
+    },
+    {
+      "entry_id": "attr_004",
+      "label": "Height: 9.38",
+      "zero_C1_minus_C0": 0.0023807690013200045,
+      "pad_C1_minus_C0": 4.469667328521609e-05,
+      "zero_marker_display": [
+        630.3047810022442,
+        210.1140265486726
+      ],
+      "pad_marker_display": [
+        625.0791811211972,
+        207.3749115044248
+      ]
+    },
+    {
+      "entry_id": "attr_005",
+      "label": "Material: urethane",
+      "zero_C1_minus_C0": -0.005566354317124933,
+      "pad_C1_minus_C0": -0.0033964423928409815,
+      "zero_marker_display": [
+        612.527725827558,
+        192.9945575221239
+      ],
+      "pad_marker_display": [
+        617.381638678347,
+        190.2554424778761
+      ]
+    },
+    {
+      "entry_id": "attr_006",
+      "label": "Color: off-white",
+      "zero_C1_minus_C0": -0.008475592127069831,
+      "pad_C1_minus_C0": -0.004156578448601067,
+      "zero_marker_display": [
+        606.0200023417982,
+        175.87508849557526
+      ],
+      "pad_marker_display": [
+        615.6812774203114,
+        173.13597345132746
+      ]
+    },
+    {
+      "entry_id": "attr_007",
+      "label": "Composite wood product: no",
+      "zero_C1_minus_C0": -0.010898003092734143,
+      "pad_C1_minus_C0": -0.011830645351437852,
+      "zero_marker_display": [
+        600.6012700953221,
+        158.75561946902656
+      ],
+      "pad_marker_display": [
+        598.5150267809975,
+        156.01650442477876
+      ]
+    },
+    {
+      "entry_id": "attr_008",
+      "label": "Installation required: yes",
+      "zero_C1_minus_C0": -0.006223743781447411,
+      "pad_C1_minus_C0": -6.175367161631584e-06,
+      "zero_marker_display": [
+        611.0572001656,
+        141.63615044247788
+      ],
+      "pad_marker_display": [
+        624.9653845895926,
+        138.8970353982301
+      ]
+    },
+    {
+      "entry_id": "attr_009",
+      "label": "Country of origin: China",
+      "zero_C1_minus_C0": -0.021298904030118138,
+      "pad_C1_minus_C0": -0.018771515460684896,
+      "zero_marker_display": [
+        577.3353180745221,
+        124.51668141592921
+      ],
+      "pad_marker_display": [
+        582.9888765064652,
+        121.77756637168143
+      ]
+    },
+    {
+      "entry_id": "fixed_text_and_boundaries",
+      "label": "Fixed text / boundaries",
+      "zero_C1_minus_C0": -0.02375029365066439,
+      "pad_C1_minus_C0": -0.03498702440992929,
+      "zero_marker_display": [
+        571.8517629825859,
+        107.39721238938054
+      ],
+      "pad_marker_display": [
+        546.7161290322582,
+        104.65809734513275
+      ]
+    }
+  ],
+  "native": [
+    {
+      "schedule": "C0",
+      "dataset": "wands",
+      "model": "minilm",
+      "query_id": 359,
+      "product_id": "12575",
+      "K": 20,
+      "catalog_index": 12575,
+      "score": 0.4918966591358185,
+      "competitor_threshold_score": 0.4912347197532654,
+      "competitor_threshold_id": "9834",
+      "competitor_threshold_index": 9834,
+      "signed_margin": 0.0006619393825531006,
+      "reconstructed_rank": 19,
+      "saved_rank": 19,
+      "inclusion": true,
+      "reconstructed_inclusion": true,
+      "token_length": 139,
+      "tokenizer_cap": 256,
+      "fully_fitting": true,
+      "rank_mismatch": false,
+      "unresolved_boundary": false,
+      "exact_threshold_tie": false,
+      "precision": "saved fp32; no epsilon in ranking",
+      "catalog_size": 42994,
+      "competitors": 42993,
+      "record_type": "native_margin",
+      "display": "supplement_historical"
+    },
+    {
+      "schedule": "C1",
+      "dataset": "wands",
+      "model": "minilm",
+      "query_id": 359,
+      "product_id": "12575",
+      "K": 20,
+      "catalog_index": 12575,
+      "score": 0.4490737020969391,
+      "competitor_threshold_score": 0.4912347197532654,
+      "competitor_threshold_id": "9834",
+      "competitor_threshold_index": 9834,
+      "signed_margin": -0.042161017656326294,
+      "reconstructed_rank": 58,
+      "saved_rank": 58,
+      "inclusion": false,
+      "reconstructed_inclusion": false,
+      "token_length": 139,
+      "tokenizer_cap": 256,
+      "fully_fitting": true,
+      "rank_mismatch": false,
+      "unresolved_boundary": false,
+      "exact_threshold_tie": false,
+      "precision": "saved fp32; no epsilon in ranking",
+      "catalog_size": 42994,
+      "competitors": 42993,
+      "record_type": "native_margin",
+      "display": "supplement_historical"
+    }
+  ],
+  "source_hashes": {
+    "plot_c0_c1.py": "22e235a3a3f2ee5530a05a8167e6c8f791b40332f7d35b59cf3620d90b5cdec7",
+    "native_drawio.py": "a372c43ad754fe4f34f83663c4ba6cc7209ada1ba634b5590e5bd6cc6f50ec68",
+    "aligned_entry_changes.csv": "f86b5aa92c1bf1ee43e62ee4cc9654d880bd9458ea32b2d79746f14134c6e322",
+    "run_report.json": "1bfcf6989dd3ec4930ff7f516e134953b213f9fb8b1b71ca09019591a1b00cb1"
+  },
+  "width_pixels": 705.0,
+  "height_pixels": 365.0,
+  "dpi": 100.0,
+  "drawio_scale": 0.96,
+  "drawio_object_counts": {
+    "text": 32,
+    "rectangle": 2,
+    "ellipse": 14,
+    "triangle": 12,
+    "rhombus": 0,
+    "polyline": 29
+  },
+  "figure_text": [
+    "\u22120.04",
+    "\u22120.02",
+    "0.00",
+    "Native score \u2212 Top-20 threshold",
+    "C0  \u00b7  19",
+    "C1  \u00b7  58",
+    "Order \u00b7 rank",
+    "(a) Source-to-reverse inclusion",
+    "Included",
+    "Omitted",
+    "\u22120.04",
+    "\u22120.02",
+    "0.00",
+    "0.02",
+    "IG(C1) \u2212 IG(C0)",
+    "Width: 9.38",
+    "Product weight: 0.19",
+    "Product type: wall nice/cove",
+    "Molding use: corners",
+    "Height: 9.38",
+    "Material: urethane",
+    "Color: off-white",
+    "Composite wood product: no",
+    "Installation required: yes",
+    "Country of origin: China",
+    "Fixed text / boundaries",
+    "(b) Attribution change after reversal",
+    "Zero baseline",
+    "PAD baseline",
+    "WANDS / MiniLM \u00b7 \u201cfrench molding\u201d \u00b7 C0 \u2192 C1",
+    "139 / 256 tokens \u00b7 complete attribute reversal \u00b7 42,993 fixed competitors",
+    "Target-only reversal \u00b7 Captum IG \u00b7 baseline-dependent attribution diagnostic"
+  ],
+  "connector": "Pairs the Zero and PAD reference choices; not a confidence interval"
+}

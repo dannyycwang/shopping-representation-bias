@@ -1,0 +1,26 @@
+在原始 shopping-representation-bias 實驗環境執行這個小型補算。
+
+目標：把 french molding 案例從 C2s3/C2s2 改為 C0（source）→ C1（完整反轉）。
+使用官方 Captum，計算 IG(C1)-IG(C0)。固定 WANDS/MiniLM、query 359、product 12575，
+以及原有 query embedding 和全部 C0 competitors。沿用既有模型版本、pooling、輸入上限、
+模型權重精度和 deterministic ranking。不要重跑整個 benchmark 或改動既有結果。
+
+1. 先讀適用的 AGENTS.md，以及本包 README.txt 和 run_c0_c1_captum.py。
+2. 確認原始模型和 embedding 快取可用；若缺失，說明缺哪些，不能用新模型/新 query
+   embedding 冒充原始執行設定。若尚未安裝 Captum，在原環境安裝並記錄版本，避免
+   不必要地升级既有 PyTorch/Transformers。
+3. 執行 run_c0_c1_captum.py --repo <repo-path> --plot。此腳本在準備端只有語法與
+   serialization 檢查，尚未在模型環境完成整合測試；若需修正介面，保持指定方法和資料。
+4. 完整保留 C0/C1 × Zero/PAD 四次結果及各自 completeness。核對原始排名19→58，
+   完整139-token輸入，固定42,993 competitors，以及 fresh native/FP32 diagnostic
+   與原始 cutoff decision 一致。失敗如實保留，不能换案例、倒转差值方向或放寬檢查。
+5. 保留逐token與逐attribute的C0、C1歸因，按相同attribute occurrence ID對齊，
+   分別計算兩種baseline的C1-C0。圖中保留全部10個attributes和fixed text/boundaries。
+6. 檢查PDF/PNG與draw.io檔的文字、圖例、標籤及數據一致性。若PDF或draw.io排版需要
+   調整，修繪圖程式並重建，不能手改歸因數字。將圖與原始C0/C1屬性序列一起輸出。
+7. 回報哪些檢查通過或失敗、baseline是否改變某些差值符號、哪些解讀一致。
+   措辭限定為target-only reversal下的baseline-dependent attribution diagnostic，
+   不能把屬性歸因差解釋成獨立屬性的因果效果或群體發生率。
+
+交付：新CSV、QA JSON、固定輸入、版本/source hashes、PDF/PNG/SVG/draw.io及重現命令。
+不要以舊的C2s3/C2s2圖改標籤交付。新結果完成前，不覆蓋舊圖或宣稱已有Captum結果。
