@@ -9,6 +9,7 @@ import argparse, time
 class Engine:
     def __init__(self, model):
         import torch, transformers, tokenizers
+        import importlib.metadata
         from transformers import AutoTokenizer, AutoModel
         self.torch=torch;self.key=model;self.spec=MODEL_SPECS[model]
         self.meta=read(HERE/'execution_profile.json');self.profile=self.meta['profiles'][model]
@@ -16,6 +17,11 @@ class Engine:
         for p,v in [('torch',torch.__version__),('transformers',transformers.__version__),('tokenizers',tokenizers.__version__)]:
             assert v==self.meta['versions'][p], (p,v,self.meta['versions'][p])
         assert torch.cuda.get_device_name()==self.meta['gpu'] and torch.version.cuda==self.meta['cuda']
+        for package,version in self.meta['versions'].items():
+            assert importlib.metadata.version(package)==version, ('Frozen environment changed',package)
+        snapshot=Path.home()/'.cache/huggingface/hub'/('models--'+self.spec['name'].replace('/','--'))/'snapshots'/self.spec['revision']
+        for filename,expected in self.profile['model_snapshot_hashes'].items():
+            assert sha(snapshot/filename)==expected, ('Frozen model snapshot changed',filename)
         torch.set_num_threads(4);torch.manual_seed(20261001);torch.cuda.manual_seed_all(20261001)
         torch.use_deterministic_algorithms(True);torch.backends.cuda.matmul.allow_tf32=False
         torch.backends.cudnn.allow_tf32=False;torch.backends.cudnn.benchmark=False

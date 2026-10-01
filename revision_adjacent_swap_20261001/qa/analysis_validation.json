@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-10-01T09:33:02.168107+00:00",
+  "variant_rows": 61425,
+  "target_cutoff_rows": 6882,
+  "query_cutoff_rows": 1002,
+  "loss_plus_gain_equals_A": true,
+  "confirmation_partitions_observed_flips": true,
+  "query_cluster_bootstrap": "10000 resamples, seed 2026100101, retained complete per-query measurements",
+  "unresolved_variant_cutoff_events": 0
+}

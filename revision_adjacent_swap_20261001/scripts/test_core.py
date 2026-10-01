@@ -29,5 +29,17 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(selection_hash('query','wands',2),digest('["20261001","query","wands","2"]'))
         p=dict(product_id='a',title='Fixed',description='',attributes=['a','a'],attribute_separator='|',section_order=['title','attributes'])
         self.assertEqual(variants(p),([],1))
+    def test_query_macro_does_not_pool_swaps_or_targets(self):
+        from analyze import query_means, METRICS
+        # Query 1: one of one and one of nine swaps flip; query 2: zero of two.
+        # Correct F=( (1 + 1/9)/2 + 0 )/2=5/18, neither 2/12 nor (1+1/9)/3.
+        rows=[]
+        for q,n,frequency in [(1,1,1.),(1,9,1/9),(2,2,0.)]:
+            row={m:0. for m in METRICS};row.update(query_id=q,distinct_swaps=n,A=float(frequency>0),F=frequency)
+            rows.append(row)
+        result=query_means(pd.DataFrame(rows))
+        self.assertAlmostEqual(result.F.mean(),5/18)
+        self.assertAlmostEqual(result.A.mean(),.5)
+        self.assertEqual(result.targets.tolist(),[2,1])
 
 if __name__=='__main__':unittest.main()

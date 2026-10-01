@@ -23,7 +23,8 @@ def aggregate(k):
     estimates=pd.read_csv(HERE/'data/aggregate_estimates.csv');counts=pd.read_csv(HERE/'data/event_counts.csv')
     source=estimates[estimates.K.eq(k)&estimates.metric.isin(['A','F','A_confirmed','F_confirmed'])]
     csv(source,HERE/f'figures/aggregate_K{k}_source.csv')
-    fig,axes=plt.subplots(1,2,figsize=(8.2,3.1),sharey=True,gridspec_kw={'wspace':.12})
+    fig,axes=plt.subplots(1,2,figsize=(8.2,3.35),sharey=True,gridspec_kw={'wspace':.12})
+    fig.subplots_adjust(bottom=.23,top=.86)
     y=np.arange(4)[::-1]
     for ax,metric,title in zip(axes,['A','F'],['A  Targets affected by any swap','B  Mean one-swap flip frequency']):
         vals=[]
@@ -41,13 +42,13 @@ def aggregate(k):
     unresolved=int(counts[counts.K.eq(k)].unresolved_flips.sum())
     note=f'Top-{k} | Fixed C0 competitors | Fully fitting sampled targets | 95% query-cluster bootstrap intervals'
     if unresolved:note+='\nCircles: observed; red diamonds: confirmed lower bounds.'
-    fig.text(.5,-.015,note,ha='center',fontsize=8,color='#444444')
+    fig.text(.5,.035,note,ha='center',fontsize=8,color='#444444')
     save(fig,f'aggregate_K{k}')
 
 def case_figure():
     c=read(HERE/'data/case_selection.json')
     if c['status']!='selected':return
-    r=c['selected'];b=c['original_entries'];v=c['swapped_entries']
+    r=c['selected'];b=c['original_entries'];v=c['swapped_entries'];position=json.loads(r['positions'])[0]
     source={k:value for k,value in c.items() if k!='all_serializations'}
     dump(HERE/'figures/case_source.json',source)
     fig=plt.figure(figsize=(8.2,5.8));fig.patch.set_facecolor('white')
@@ -62,9 +63,9 @@ def case_figure():
         ax=fig.add_axes([x,.405,.425,.30]);ax.set_axis_off()
         ax.text(0,1,head,va='top',fontweight='bold',fontsize=10,color=color)
         first='\n'.join(textwrap.wrap(entries[0],width=48));second='\n'.join(textwrap.wrap(entries[1],width=48))
-        ax.text(0,.77,'1  '+first,va='top',fontsize=8.7,linespacing=1.2)
+        ax.text(0,.77,f'{position}  '+first,va='top',fontsize=8.7,linespacing=1.2)
         y2=.77-max(2,len(first.splitlines())+1)*.12
-        ax.text(0,y2,'2  '+second,va='top',fontsize=8.7,linespacing=1.2)
+        ax.text(0,y2,f'{position+1}  '+second,va='top',fontsize=8.7,linespacing=1.2)
     fig.text(.035,.391,'All remaining content, entry multiplicities, and separators are unchanged.',fontsize=9,fontweight='bold')
     cols=['','C0','Adjacent swap']
     vals=[['Input tokens / limit',f"{r['c0_tokens']} / {r['context_limit']}",f"{r['tokens']} / {r['context_limit']}"],

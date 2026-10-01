@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-10-01T08:53:54.163348+00:00",
+  "model": "minilm",
+  "pair_variants": 13896,
+  "observed_crossing_variants": 386,
+  "repeated_distinct_inputs": 520,
+  "new_forward_inputs": 12161,
+  "reused_unique_inputs": 2599,
+  "numerical_repeat_rows": 1158,
+  "repetitions": 3,
+  "encoding_plan": {
+    "freeze_sha256": "638a9b0ec6f6dafdb846ff23b2176905369873759c10dfd639066ac4e44434c8",
+    "reference_vectors_sha256": "aa8ef03b6b0ee0d48283b18c7eb1db6d6dda7a19934314e056122d8a2076b33e",
+    "reference_origin": "section6_harmonized",
+    "unique_inputs": 14760,
+    "new_inputs": 12161,
+    "new_query_inputs": 70,
+    "aliases_sha256": "806b8c80e327f06a61f1d6f43fa9d911889dc3abe34c8301d03b9f5d2e8edfce",
+    "new_plan_sha256": "b7cbd2dcf9ff323994b34ee3cd6a2840567a5ee2bdec88e287ac71245424d72e"
+  },
+  "maximum_replay_score_error": 0.0,
+  "maximum_crossing_c0_score_error": 0.0,
+  "maximum_crossing_swap_score_error": 0.0,
+  "counts": {
+    "20": {
+      "observed": 163,
+      "confirmed": 163,
+      "unresolved": 0
+    },
+    "100": {
+      "observed": 223,
+      "confirmed": 223,
+      "unresolved": 0
+    }
+  },
+  "elapsed_seconds": 408.17877197265625,
+  "new_vectors_sha256": "3ef5828ae38ea50a89067b699cb8f0ce175bf2d5c8b78ef0bceb3d9dec9783d8",
+  "results_sha256": "60aec913e39a061d8ce791056f98e9bceb4679f5c810516a782919a9d1e77783"
+}
