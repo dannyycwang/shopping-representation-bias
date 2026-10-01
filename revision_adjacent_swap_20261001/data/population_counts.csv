@@ -1,0 +1,5 @@
+dataset,model,catalog_products,held_out_queries,highest_label_pairs,eligible_queries,eligible_pairs,eligible_products,excluded_no_swaps,excluded_context,sampled_queries,sampled_pairs,sampled_products,tested_pair_swaps,distinct_product_swaps
+wands,minilm,42994,308,21299,117,917,871,8,20374,117,712,679,12807,12108
+wands,bge_base,42994,308,21299,239,6789,6187,8,14502,128,1319,1301,46211,45468
+esci,minilm,10076,499,4434,427,2200,2196,441,1793,128,641,641,1089,1089
+esci,bge_base,10076,499,4434,461,3166,3161,441,827,128,769,769,1318,1318

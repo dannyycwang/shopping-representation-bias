@@ -1,0 +1,7 @@
+{
+  "variants_audited": 59983,
+  "failures": 0,
+  "all_targets_fit_every_variant": true,
+  "canonical_invariance": "Structural equality for every variant; no independent retrieval experiment",
+  "population_tokenized_before_selection": true
+}
