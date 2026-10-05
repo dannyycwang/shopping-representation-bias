@@ -1,0 +1,17 @@
+{
+  "status": "passed_native_only",
+  "reviewed_utc": "2026-10-02T20:57:06.925063+00:00",
+  "scope": "Native panel only. Attribution plot withheld unless PAD numerical gate passes.",
+  "pdf": "Actual Poppler PNG inspected at 1900 pixels: all seven schedules, ranks, axis labels and footnotes legible; no clipping or overlap.",
+  "drawio": "Exact exported XML imported from Device in app.diagrams.net; native text, point and line rendering visually inspected. All 35 figure text objects were present in browser accessibility output. Arial rendered normally.",
+  "native_text_objects": 35,
+  "native_scene_objects": 55,
+  "bitmap_objects": 0,
+  "files": {
+    "figures\\native_candidate_inclusion-1.png": "797b4a089cb7ebf092d19cde1093e05d1abeaa7008e60079b779e38206bdb222",
+    "figures\\native_candidate_inclusion.drawio": "59684dfeb7cbcec14ce99a287440348a38d43f713ee6a993678a610bfd687ddc",
+    "figures\\native_candidate_inclusion.pdf": "ee1ca66f6d0c438602295e4f86dfd38a143fa845bd63189b2720cfee23efea53",
+    "figures\\native_candidate_inclusion.svg": "a1be5935a7ecb8238e73975f0ca6ab838b957265d2cce56d93f5129aa97f3809"
+  },
+  "final_same_raster_svg_drawio": true
+}

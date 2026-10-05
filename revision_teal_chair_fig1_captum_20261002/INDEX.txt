@@ -1,0 +1,70 @@
+Revisiting the Figure 1 teal-chair case — delivery index
+
+Start here:
+  run_report.json             Machine-readable outcome and PAD plot gate
+  RESULTS.txt                 中文結果、数值限制與可用範圍
+  REPRODUCE.txt               Exact commands and dependencies
+  caption.txt                 Scope-limited English caption
+  paper_paragraph.txt         Short English manuscript paragraph
+
+Protocol / provenance:
+  PROTOCOL.json, PROTOCOL.sha256
+  environment/start.json                 Starting commit and complete dirty status
+  environment/runtime.json, pip_freeze.txt, nvidia_smi.txt
+  environment/source_hashes.json          Model/tokenizer/cache/input/source hashes
+  environment/model_profile.json         Native and gradient precision; compile state
+  environment/modernbert_forward_source.txt
+  environment/protected_files_before.json Existing French/Figure 1/manuscript hashes
+
+Input / native retrieval:
+  inputs/product_record.json
+  inputs/C0.txt ... C2s5.txt                Seven exact serialized inputs (UTF-8, LF)
+  inputs/input_checks.json                 Hash/length/serializer checks
+  inputs/attribute_sequences.csv           Stable occurrence IDs and 1-based positions
+  inputs/occurrence_spans.csv               Raw text; character and token spans
+  inputs/*_tokenization.json, token_spans.csv
+  native_records.csv, cache_checks.json
+  fixed_query_embedding.npy, fixed_competitors.csv
+  forward_checks.csv, native_contrast_check.json
+  native_precision_audit.csv               Separate forward-only execution audit
+  environment/native_precision_audit.json  Historical length-bucket companions
+
+Attribution / bounded convergence (when inference executes):
+  inputs/*_PAD_embeddings.npz, *_Zero_embeddings.npz
+  baseline_score_checks.json
+  attempts/{PAD,Zero}/n{064,128,256,512}/{C0,C2s5}/
+      started.json, qa.json, feature_attributions.npz,
+      token_attributions.csv, entry_attributions.csv
+  attempts/{PAD,Zero}/n*/aligned_entry_changes.csv
+  completeness_attempts.csv, step_convergence.csv
+  token_attributions.csv, entry_attributions.csv
+  aligned_entry_changes.csv and separate _PAD.csv / _Zero.csv
+  baseline_sensitivity.csv
+  Top-level attribution CSVs hold the final attempted paired step for each baseline;
+  inspect status before interpreting. Every earlier attempt is retained unchanged.
+  Tensor reductions use FP64 accounting over saved FP32 Captum tensors.
+  Character spans and token indices are zero-based half-open; attribute positions
+  are one-based list positions. Retrieval rank is a separate quantity.
+
+Figures / QA:
+  figures/native_candidate_inclusion.{pdf,svg,drawio}, native_candidate_inclusion-1.png
+  figure_data/native_plotted_values.csv, native_candidate_inclusion_scene.json
+  If PAD passes: figures/PAD_attribution_full.pdf (multi-page), per-page SVG/PNG,
+      multi-page native .drawio; corresponding compact artifacts and plotted_values.
+  If PAD fails: these attribution figure files are deliberately absent.
+  qa/*_export_checks.json                  Bounds/object/export checks
+  qa/artifact_and_numeric_audit.json       Independent accounting and source audit
+  qa/visual_qa.json                        Actual PDF/draw.io inspection
+  qa/gradient_direction_checks.{csv,json}  Bounded midpoint derivative sanity check;
+      identical FP16-rounded parameter hash and endpoint/baseline score checks.
+      This does not override failed completeness or stability.
+  qa/four_IG_final_status.json             Four final residuals and pass flags
+  DELIVERY_MANIFEST.json                   SHA256/size index of all delivered files
+  run_report_inference.json                Preserved original inference outcome
+
+Runnable sources:
+  run_teal_captum.py, audit_native_precision.py, plot_teal.py, validate_teal.py
+  check_gradient_direction.py, finalize_delivery.py
+  execution.log, native_precision_audit.log
+
+No existing manuscript, Figure 1, French molding file or experimental cache is replaced.

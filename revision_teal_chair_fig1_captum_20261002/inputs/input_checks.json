@@ -1,0 +1,58 @@
+[
+  {
+    "schedule": "C0",
+    "sha256": "70eae558fd2c68ff869dd48c197d929b53c2952be467f692ff353e3b06c0cf80",
+    "tokens": 1059,
+    "frozen_serializer_equal": true,
+    "saved_serialization_equal": true,
+    "original_characters_preserved": true
+  },
+  {
+    "schedule": "C1",
+    "sha256": "ed472b323d69ef57eb9ef73357237f07fa806158c110eccdd2b5493c023797a5",
+    "tokens": 1059,
+    "frozen_serializer_equal": true,
+    "saved_serialization_equal": true,
+    "original_characters_preserved": true
+  },
+  {
+    "schedule": "C2s1",
+    "sha256": "c221da79360561c8e66031e503f893573c48f6590ea4d5c696c69b9a3ef6d695",
+    "tokens": 1059,
+    "frozen_serializer_equal": true,
+    "saved_serialization_equal": true,
+    "original_characters_preserved": true
+  },
+  {
+    "schedule": "C2s2",
+    "sha256": "ff1b72defc7ee20bceca7381ec8f154fc7ad33d2e5810ac8ff1bdae6ad30c4b0",
+    "tokens": 1059,
+    "frozen_serializer_equal": true,
+    "saved_serialization_equal": true,
+    "original_characters_preserved": true
+  },
+  {
+    "schedule": "C2s3",
+    "sha256": "34444aceb1647924ac4c72a6435377bac4c63bac1f7a3b8a6b51d33a56685b29",
+    "tokens": 1059,
+    "frozen_serializer_equal": true,
+    "saved_serialization_equal": true,
+    "original_characters_preserved": true
+  },
+  {
+    "schedule": "C2s4",
+    "sha256": "4c1d0e9ea48071fe41fe84c9a9f2b354dae5106158ca1e4688cdc7d5e4532c25",
+    "tokens": 1059,
+    "frozen_serializer_equal": true,
+    "saved_serialization_equal": true,
+    "original_characters_preserved": true
+  },
+  {
+    "schedule": "C2s5",
+    "sha256": "9d19a9294bf539ee723d5e846f42746b1ff785e480ef39ae373d8985bd1c52c2",
+    "tokens": 1059,
+    "frozen_serializer_equal": true,
+    "saved_serialization_equal": true,
+    "original_characters_preserved": true
+  }
+]

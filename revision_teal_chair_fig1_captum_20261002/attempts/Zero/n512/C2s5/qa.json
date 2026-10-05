@@ -1,0 +1,18 @@
+{
+  "baseline": "Zero",
+  "schedule": "C2s5",
+  "nodes": 512,
+  "status": "failed",
+  "F_x": 0.6358664631843567,
+  "F_b": 0.4015517830848694,
+  "tensor_sum": -0.06274978165566902,
+  "token_sum": -0.06274978165566901,
+  "entry_sum": -0.06274978165566901,
+  "residual": -0.29706446175515633,
+  "tolerance": 0.0002343146800994873,
+  "completeness_passed": false,
+  "aggregation_passed": true,
+  "captum_delta": -0.2970644235610962,
+  "seconds": 110.88717629999155,
+  "peak_cuda_bytes": 1590457344
+}

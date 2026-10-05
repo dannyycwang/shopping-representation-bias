@@ -1,0 +1,60 @@
+本輪固定 Figure 1 的 WANDS query 409「teal chair」、product_id 24318；C0 → C2s5。
+原始檢索與 gradient diagnostic 分開報告。以下 saved native 是權威值：
+C0: score=0.69743889570236206; saved rank=11; reconstructed rank=11; margin=+0.0083567500114440918
+C1: score=0.64969992637634277; saved rank=468; reconstructed rank=468; margin=-0.039382219314575195
+C2s1: score=0.66902130842208862; saved rank=123; reconstructed rank=123; margin=-0.020060837268829346
+C2s2: score=0.65653485059738159; saved rank=301; reconstructed rank=301; margin=-0.032547295093536377
+C2s3: score=0.64319884777069092; saved rank=677; reconstructed rank=677; margin=-0.045883297920227051
+C2s4: score=0.65080457925796509; saved rank=435; reconstructed rank=435; margin=-0.038277566432952881
+C2s5: score=0.63609433174133301; saved rank=939; reconstructed rank=939; margin=-0.052987813949584961
+七個輸入均為 1059 tokens（含 special tokens），低於 8192 cap。104 個 occurrences 保留原始字串及身份。
+overall_status=inconclusive; native_ready=True; PAD_plot_ready=False。
+使用現存 phase2/.venv；未安裝或更新套件。FP16 native 後，將同一模型的 FP16-rounded parameters 轉為 FP32 做梯度。
+SDPA、原生 ModernBERT norm、RoPE、全域/局部 attention 和 CLS pooling 都保留；不求 rank 的梯度。
+compile 狀態：native=True; diagnostic=True; changes=[]。
+歷史 cache 未記錄 compile 狀態，而且本輪 fresh target 單筆 forward 與原長度分桶 batch 不同；不宣稱 execution profile 完全相同。
+C0: fresh=0.69670629501342773, diagnostic=0.69664514064788818, boundary_guard=True, input_ids/embeds error=2.38e-07。
+C2s5: fresh=0.63590371608734131, diagnostic=0.63586646318435669, boundary_guard=True, input_ids/embeds error=0。
+PAD 驗收：{"status": "inconclusive", "passed": false, "nodes": 512, "A_passed": false, "B_passed": false, "C_passed": false, "reason": "A/B/C not simultaneously satisfied"}
+Zero 驗收：{"status": "inconclusive", "passed": false, "nodes": 512, "A_passed": false, "B_passed": false, "C_passed": false, "reason": "A/B/C not simultaneously satisfied"}
+PAD reference: F(b_C0)=0.50915533304214478, F(b_C2s5)=0.50915533304214478; baseline tensor hashes 相同=True; mask 相同=True; reference score difference=0.0。
+Zero reference: F(b_C0)=0.40155178308486938, F(b_C2s5)=0.40155178308486938; baseline tensor hashes 相同=True; mask 相同=True; reference score difference=0.0。
+注意：以下 PAD 數值未通過完整驗收，僅保存作 failure diagnostic，不可據此聲稱主要屬性機制或寫入論文的歸因結論。未輸出主歸因圖。
+PAD 歸因差值 IG(C2s5)-IG(C0)，以下最大絕對差值僅作數值摘要；全部 occurrences 仍在完整 CSV，未依故事篩選：
+attr_003 upholsterycolor : teal faux leather (4→85): -0.042640430
+attr_021 seatdepth-fronttoback:21.65 (22→54): +0.004375869
+attr_103 supplierintendedandapproveduse : residential use (104→7): +0.003779224
+attr_011 backheight-seattotopofback:13.5 (12→103): -0.003557030
+attr_004 overallwidth-sidetoside:29.5 (5→48): +0.003510615
+attr_039 foamdensity:1.9 lbs./cu . ft. and over (40→90): -0.003468397
+attr_010 countryoforigin-additionaldetails : made in vietnam (11→40): -0.003376655
+attr_055 numberofchairsincluded:1 (56→100): +0.003185120
+非屬性群組完整分項：
+fixed_title: C0=+0.053384646; C2s5=+0.073077009; Δ=+0.019692363
+fixed_class: C0=-0.006118871; C2s5=+0.006304592; Δ=+0.012423463
+fixed_category: C0=+0.034431174; C2s5=+0.025021717; Δ=-0.009409458
+fixed_description: C0=+0.076481118; C2s5=+0.121954951; Δ=+0.045473833
+attribute_separators: C0=+0.012865190; C2s5=+0.003370409; Δ=-0.009494781
+section_separators: C0=-0.015832777; C2s5=+0.006761997; Δ=+0.022594774
+boundary: C0=+0.000000000; C2s5=+0.000000000; Δ=+0.000000000
+special: C0=+0.000000000; C2s5=+0.000000000; Δ=+0.000000000
+padding: C0=+0.000000000; C2s5=+0.000000000; Δ=+0.000000000
+PAD/Zero 逐項方向分類（兩邊各自的 order contrast；|Δ|≤1e-4 為近零）：{'same_direction': 60, 'opposite_direction': 47, 'one_near_zero': 3, 'both_near_zero': 3}
+至少一個 baseline 未通過數值驗收，因此方向分類僅屬未驗證診斷；不能宣稱 baseline-robust，也不能把未收斂差異解讀成有意義的 baseline 矛盾。
+此近零門檻是事前固定的描述分類，非統計顯著性或逐項誤差界。不能以微小符號變化宣稱強烈矛盾。
+A/B/C 收斂歷程：
+baseline  nodes  previous_nodes  A_passed  contrast_sum  expected_contrast  contrast_residual  B_tolerance  B_passed  L1_difference  Linf_difference     D_L1  C_tolerance  C_passed
+     PAD     64             NaN     False     -0.098996          -0.060779          -0.038217     0.000608     False            NaN              NaN 0.294831     0.005897     False
+     PAD    128            64.0     False      0.018474          -0.060779           0.079253     0.000608     False       0.256912         0.088509 0.307787     0.006156     False
+     PAD    256           128.0     False     -0.069436          -0.060779          -0.008657     0.000608     False       0.205260         0.058242 0.225282     0.004506     False
+     PAD    512           256.0     False      0.009707          -0.060779           0.070486     0.000608     False       0.191921         0.074210 0.280673     0.005613     False
+    Zero     64             NaN     False     -0.335521          -0.060779          -0.274742     0.000608     False            NaN              NaN 3.465014     0.069300     False
+    Zero    128            64.0     False      0.575269          -0.060779           0.636048     0.000608     False      10.152555         1.056054 9.467873     0.189357     False
+    Zero    256           128.0     False      0.487696          -0.060779           0.548474     0.000608     False      10.538850         1.439299 3.057643     0.061153     False
+    Zero    512           256.0     False     -0.414148          -0.060779          -0.353369     0.000608     False       4.872478         0.776272 4.419340     0.088387     False
+本案例為既有 Figure 1 的選定個案，不是新的代表性抽樣；歸因只描述共享 baseline 下的分配變化。
+不得把單一属性 IG 當作獨立因果效果，不宣稱唯一機制、普遍位置偏好或人口層級规律。
+有限階梯穩定性不是信賴區間，也不是真實誤差上界。
+既有 Figure 1、French molding 與稿件均保留，不自動替換。
+額外 28 個 forward-only 精度核對已重建原長度分桶的真實 companion，比較 reference_compile on/off 與 singleton/original batch；全部保留在 native_precision_audit.csv。
+此有限核對未取得與歷史 cache 逐位相同的 product vectors；歷史 kernel/compile 狀態未被完整記錄，不能把差異歸因為單一已證實原因。所有 saved ranks 保留。這些不是額外 IG 或屬性局部移動實驗。

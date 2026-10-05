@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "schedule": "C0",
+      "passed": true,
+      "rank_mismatch": false
+    },
+    {
+      "schedule": "C1",
+      "passed": true,
+      "rank_mismatch": false
+    },
+    {
+      "schedule": "C2s1",
+      "passed": true,
+      "rank_mismatch": false
+    },
+    {
+      "schedule": "C2s2",
+      "passed": true,
+      "rank_mismatch": false
+    },
+    {
+      "schedule": "C2s3",
+      "passed": true,
+      "rank_mismatch": false
+    },
+    {
+      "schedule": "C2s4",
+      "passed": true,
+      "rank_mismatch": false
+    },
+    {
+      "schedule": "C2s5",
+      "passed": true,
+      "rank_mismatch": false
+    }
+  ],
+  "query_index": 403,
+  "catalog_index": 24318,
+  "query_norm": 0.9999999403953552,
+  "product_norm_min": 0.9999998807907104,
+  "product_norm_max": 1.0000001192092896,
+  "query_vector_hash": "db7ad4d7d668ff2086ef12858aae1ed7391476efc498a879dc53c4a46a1b1a77",
+  "score_computation": "full 480 x 768 @ 768 x 42994 FP32 GEMM; target excluded; stable original catalog-index ties; no epsilon"
+}

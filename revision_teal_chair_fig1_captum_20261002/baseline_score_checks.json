@@ -1,0 +1,28 @@
+[
+  {
+    "baseline": "PAD",
+    "same_baseline_tensor": true,
+    "same_masks": true,
+    "same_special_positions": true,
+    "C0_baseline_hash": "5c68d6371ec7e26abf0cdd141a1677439d91631745f7ce4998e663e808eedc88",
+    "C2s5_baseline_hash": "5c68d6371ec7e26abf0cdd141a1677439d91631745f7ce4998e663e808eedc88",
+    "F_C0": 0.6966451406478882,
+    "F_C2s5": 0.6358664631843567,
+    "F_b_C0": 0.5091553330421448,
+    "F_b_C2s5": 0.5091553330421448,
+    "baseline_score_difference": 0.0
+  },
+  {
+    "baseline": "Zero",
+    "same_baseline_tensor": true,
+    "same_masks": true,
+    "same_special_positions": true,
+    "C0_baseline_hash": "1968da5a5a599ce36a21ebe1b0401dd2ac0522c7036ed4bd9ba7e69c7aed5289",
+    "C2s5_baseline_hash": "1968da5a5a599ce36a21ebe1b0401dd2ac0522c7036ed4bd9ba7e69c7aed5289",
+    "F_C0": 0.6966451406478882,
+    "F_C2s5": 0.6358664631843567,
+    "F_b_C0": 0.4015517830848694,
+    "F_b_C2s5": 0.4015517830848694,
+    "baseline_score_difference": 0.0
+  }
+]

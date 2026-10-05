@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "name": "(a) Native candidate inclusion",
+      "objects": 55,
+      "text_objects": 35,
+      "bounds_passed": true
+    }
+  ],
+  "drawio_native_objects": true,
+  "embedded_images": 0,
+  "pdf_rendered": true
+}

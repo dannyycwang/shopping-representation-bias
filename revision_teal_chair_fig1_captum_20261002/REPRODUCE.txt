@@ -1,0 +1,59 @@
+工作目錄：shopping-representation-bias repository 根目錄。
+沿用現有 phase2/.venv/Scripts/python.exe（Python 3.10.0、torch 2.11.0+cu128、
+transformers 4.55.4、captum 0.9.0）。未安裝、升級或變更既有套件。
+完整版本與 interpreter 絕對路徑見 environment/runtime.json、pip_freeze.txt。
+
+本輪實際執行（PowerShell）：
+& 'phase2/.venv/Scripts/python.exe' -X utf8 -u revision_teal_chair_fig1_captum_20261002/run_teal_captum.py --repo . --output revision_teal_chair_fig1_captum_20261002 *> revision_teal_chair_fig1_captum_20261002/execution.log
+
+完整重跑必須使用不存在結果的新子目錄，保留所有舊結果：
+& 'phase2/.venv/Scripts/python.exe' -X utf8 -u revision_teal_chair_fig1_captum_20261002/run_teal_captum.py --repo . --output revision_teal_chair_fig1_captum_20261002/run_02
+
+runner 在 native/cache/環境失敗時 exit 2、status=blocked；在跑滿有限階梯後
+未通過時 exit 2、status=inconclusive。這些是保留失敗證據的正常退出，不能
+刪除結果再重跑以掩蓋。若 run_02 已有結果，改用 run_03 等不存在結果的目錄。
+PROTOCOL.json 在任何 IG 之前保存並寫入 SHA256；每個 attempt 再記錄該 hash。
+
+獨立的有限 native 精度追查（28 次 forward，不更改 IG profile、不改 saved ranks）：
+& 'phase2/.venv/Scripts/python.exe' -X utf8 -u revision_teal_chair_fig1_captum_20261002/audit_native_precision.py --repo . --output revision_teal_chair_fig1_captum_20261002
+
+重現圖、caption 與中文報告（從保存的結果製圖，不執行模型）：
+python -X utf8 revision_teal_chair_fig1_captum_20261002/plot_teal.py revision_teal_chair_fig1_captum_20261002
+
+独立數值／檔案驗證（不執行模型）：
+& 'phase2/.venv/Scripts/python.exe' -X utf8 revision_teal_chair_fig1_captum_20261002/validate_teal.py revision_teal_chair_fig1_captum_20261002
+
+有限的梯度方向診斷（4 個組合在 alpha=0.5，比較 autograd 與三個有限差分步幅；
+非另一種 IG 積分、不放寬驗收，也不替代失敗結果）：
+& 'phase2/.venv/Scripts/python.exe' -X utf8 -u revision_teal_chair_fig1_captum_20261002/check_gradient_direction.py revision_teal_chair_fig1_captum_20261002
+
+完成圖表與 QA 後，補充交付狀態並生成完整 hash manifest：
+python -X utf8 revision_teal_chair_fig1_captum_20261002/finalize_delivery.py revision_teal_chair_fig1_captum_20261002
+首次執行 finalizer 會保留原始 run_report 為 run_report_inference.json。
+
+對新的 run_02，把上述後處理命令最後一個 output 參數改為 run_02。
+若 PAD_plot_ready=false，製圖程式只輸出已核對的 native panel，不輸出主歸因圖；
+仍保留所有步數的完整 token/entry/contrast 表與 feature tensors，不能以 failure
+diagnostic 數字撰寫屬性機制結論。
+
+繪圖依賴：reportlab 5.0.1、pypdf 6.19.0、numpy、pandas、Windows Arial 字體，
+以及 PATH 上的 pdftoppm。此機器已有這些套件／工具。圖以同一 scene 同步輸出
+PDF、SVG、原生 draw.io 文字/線/點；PNG 是使用 Poppler 真正渲染 PDF 的結果。
+draw.io QA：在 app.diagrams.net 以 Import from Device 開啟輸出的 .drawio；
+不是把 PNG 放進 diagram。檔案沒有嵌入 raster images。
+
+模型固定 revision：e7f32e3c00f91d699e8c43b53106206bcc72bb22。
+HF_HUB_OFFLINE=1、local_files_only=True；未下載替代模型。模型與 tokenizer
+來源檔、embedding caches、frozen serializer 與 rank sources 的精確 hash/path
+均在 environment/source_hashes.json。所有結果使用官方 Captum：
+https://captum.ai/api/integrated_gradients.html
+
+native 與 diagnostic 的 SDPA 由原 ModernBERT 執行；inputs_embeds 會經過
+原生 embedding norm/dropout、局部/全域 attention、RoPE 與 CLS pooling。
+不傳 token_type_ids，不外加 position_ids。原生模型先 FP16，然後同一模型
+直接 float()，並核對 FP16→FP32→FP16 roundtrip exact。沒有重載另一份
+FP32 權重作 IG。所有有效非 special 內容都套用 PAD/Zero 規則。
+
+歷史 cache 的 compile/kernel 狀態沒有完整保存；本輪保留全部數值差異，
+沒有宣稱 execution profile 逐位相同。saved native ranks 才是 panel (a) 權威。
+方法不能提供單一屬性獨立因果效果，有限 step stability 也不是統計信賴區間。

@@ -1,0 +1,29 @@
+PREPARED: 104 occurrences; seven 1059-token inputs; ranks [11, 468, 123, 301, 677, 435, 939]
+W1002 22:34:53.217931 49692 site-packages\torch\_inductor\utils.py:1731] [1/0_1] Not enough SMs to use max_autotune_gemm mode
+C:\Users\ycw\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_inductor\compile_fx.py:322: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+IG PAD C0: 64 Gauss-Legendre nodes, internal_batch_size=1
+IG PAD C2s5: 64 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED PAD 64 {'baseline': 'PAD', 'nodes': 64, 'previous_nodes': None, 'A_passed': False, 'contrast_sum': -0.0989958080887764, 'expected_contrast': -0.060778677463531494, 'contrast_residual': -0.0382171306252449, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': None, 'Linf_difference': None, 'D_L1': 0.29483068919901423, 'C_tolerance': 0.0058966137839802845, 'C_passed': False}
+IG PAD C0: 128 Gauss-Legendre nodes, internal_batch_size=1
+IG PAD C2s5: 128 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED PAD 128 {'baseline': 'PAD', 'nodes': 128, 'previous_nodes': 64, 'A_passed': False, 'contrast_sum': 0.018474227177703577, 'expected_contrast': -0.060778677463531494, 'contrast_residual': 0.07925290464123508, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': 0.2569123371738176, 'Linf_difference': 0.08850948443583749, 'D_L1': 0.3077867470551211, 'C_tolerance': 0.006155734941102422, 'C_passed': False}
+IG PAD C0: 256 Gauss-Legendre nodes, internal_batch_size=1
+IG PAD C2s5: 256 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED PAD 256 {'baseline': 'PAD', 'nodes': 256, 'previous_nodes': 128, 'A_passed': False, 'contrast_sum': -0.06943597494078306, 'expected_contrast': -0.060778677463531494, 'contrast_residual': -0.008657297477251566, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': 0.2052596929146452, 'Linf_difference': 0.05824196420330163, 'D_L1': 0.2252821382617114, 'C_tolerance': 0.004505642765234228, 'C_passed': False}
+IG PAD C0: 512 Gauss-Legendre nodes, internal_batch_size=1
+IG PAD C2s5: 512 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED PAD 512 {'baseline': 'PAD', 'nodes': 512, 'previous_nodes': 256, 'A_passed': False, 'contrast_sum': 0.009707071261059536, 'expected_contrast': -0.060778677463531494, 'contrast_residual': 0.07048574872459103, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': 0.1919214433877283, 'Linf_difference': 0.07420998208069284, 'D_L1': 0.28067283522477754, 'C_tolerance': 0.005613456704495551, 'C_passed': False}
+IG Zero C0: 64 Gauss-Legendre nodes, internal_batch_size=1
+IG Zero C2s5: 64 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED Zero 64 {'baseline': 'Zero', 'nodes': 64, 'previous_nodes': None, 'A_passed': False, 'contrast_sum': -0.3355205557113993, 'expected_contrast': -0.060778677463531494, 'contrast_residual': -0.27474187824786783, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': None, 'Linf_difference': None, 'D_L1': 3.465014295891909, 'C_tolerance': 0.06930028591783818, 'C_passed': False}
+IG Zero C0: 128 Gauss-Legendre nodes, internal_batch_size=1
+IG Zero C2s5: 128 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED Zero 128 {'baseline': 'Zero', 'nodes': 128, 'previous_nodes': 64, 'A_passed': False, 'contrast_sum': 0.5752692633523455, 'expected_contrast': -0.060778677463531494, 'contrast_residual': 0.636047940815877, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': 10.152554750432984, 'Linf_difference': 1.0560542953120606, 'D_L1': 9.467873004246886, 'C_tolerance': 0.18935746008493773, 'C_passed': False}
+IG Zero C0: 256 Gauss-Legendre nodes, internal_batch_size=1
+IG Zero C2s5: 256 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED Zero 256 {'baseline': 'Zero', 'nodes': 256, 'previous_nodes': 128, 'A_passed': False, 'contrast_sum': 0.4876956015398184, 'expected_contrast': -0.060778677463531494, 'contrast_residual': 0.5484742790033499, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': 10.538849653575939, 'Linf_difference': 1.4392990223575814, 'D_L1': 3.0576428691578132, 'C_tolerance': 0.06115285738315627, 'C_passed': False}
+IG Zero C0: 512 Gauss-Legendre nodes, internal_batch_size=1
+IG Zero C2s5: 512 Gauss-Legendre nodes, internal_batch_size=1
+PAIRED Zero 512 {'baseline': 'Zero', 'nodes': 512, 'previous_nodes': 256, 'A_passed': False, 'contrast_sum': -0.41414768382778394, 'expected_contrast': -0.060778677463531494, 'contrast_residual': -0.35336900636425245, 'B_tolerance': 0.0006077867746353149, 'B_passed': False, 'L1_difference': 4.872478125240149, 'Linf_difference': 0.7762721187492228, 'D_L1': 4.419339517823326, 'C_tolerance': 0.08838679035646653, 'C_passed': False}
+FINAL inconclusive native_ready True PAD_plot_ready False
