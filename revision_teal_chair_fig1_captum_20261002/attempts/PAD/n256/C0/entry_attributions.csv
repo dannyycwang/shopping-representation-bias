@@ -1,0 +1,114 @@
+baseline,schedule,nodes,entry_id,entry_text,attribution,position
+PAD,C0,256,attr_000,seatheight-floortoseat:19.5,0.0029476550066298568,1
+PAD,C0,256,attr_001,estimatedtimetosetup:20,9.4053689686734998e-05,2
+PAD,C0,256,attr_002,design : armchair,0.0029910410054267977,3
+PAD,C0,256,attr_003,upholsterycolor : teal faux leather,0.043981486544806381,4
+PAD,C0,256,attr_004,overallwidth-sidetoside:29.5,-0.001068455616009642,5
+PAD,C0,256,attr_005,seatfillmaterialdetails:2.2 density foam,0.0020367137717408057,6
+PAD,C0,256,attr_006,cushionconstruction : foam,0.0011243033584917295,7
+PAD,C0,256,attr_007,upholsterycolor : camel,0.00025924005532085292,8
+PAD,C0,256,attr_008,overallheight-toptobottom:33.5,0.0023947464057290924,9
+PAD,C0,256,attr_009,upholsterycolor : caramel,0.00043522784491922817,10
+PAD,C0,256,attr_010,countryoforigin-additionaldetails : made in vietnam,0.0031213031101172128,11
+PAD,C0,256,attr_011,backheight-seattotopofback:13.5,-0.00010469852555727854,12
+PAD,C0,256,attr_012,legheight-toptobottom:6.25,-0.00071649323338785278,13
+PAD,C0,256,attr_013,woodspecies : rubberwood,-9.5159133933778173e-05,14
+PAD,C0,256,attr_014,overallproductweight:37.5,-0.00037705338009486056,15
+PAD,C0,256,attr_015,mainwoodjoinerymethod : mortise and tenon,0.00097338474937716524,16
+PAD,C0,256,attr_016,seatwidth-sidetoside:19.3,-0.001585224332583568,17
+PAD,C0,256,attr_017,fauxleathertype : pu,0.00044699765210702569,18
+PAD,C0,256,attr_018,seatfillmaterial : foam,0.00027893988298910433,19
+PAD,C0,256,attr_019,upholsterycolor : navy,0.0017796886878053142,20
+PAD,C0,256,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust,-0.0019301952475104245,21
+PAD,C0,256,attr_021,seatdepth-fronttoback:21.65,-0.0017223861401295532,22
+PAD,C0,256,attr_022,productcare : wipe clean with a dry cloth,0.00023332851643508012,23
+PAD,C0,256,attr_023,legmaterial : solid wood,-0.00029924530438128066,24
+PAD,C0,256,attr_024,durability : no extra resistance,-0.00047223925710593306,25
+PAD,C0,256,attr_025,dsprimaryproductstyle : lodge,-0.00030914979556533051,26
+PAD,C0,256,attr_026,upholsterymaterialdetails:100 % leather gel,-0.00016193003050965493,27
+PAD,C0,256,attr_027,joinery : mortise & tenon,0.00028957772167119422,28
+PAD,C0,256,attr_028,waterrepellant : no resiliency,-0.0014757544898344466,29
+PAD,C0,256,attr_029,pattern : solid color,-0.00012801536009196535,30
+PAD,C0,256,attr_030,overalldepth-fronttoback:30,-0.00032043319284570659,31
+PAD,C0,256,attr_031,dssecondaryproductstyle : mountain lodge,0.00067167192739109316,32
+PAD,C0,256,attr_032,seatconstruction : sinuous springs,-0.00024281905168198337,33
+PAD,C0,256,attr_033,backfillmaterialdetails : density foam,0.00099668351672715927,34
+PAD,C0,256,attr_034,backtype : tight back,0.0010116081403820365,35
+PAD,C0,256,attr_035,upholsterymaterial : faux leather,0.0011763999363448852,36
+PAD,C0,256,attr_036,basestyle : basic four leg,0.0018266254823438022,37
+PAD,C0,256,attr_037,weightcapacity:300,-0.00074052385983947033,38
+PAD,C0,256,attr_038,additionaltoolsrequirednotincluded : tool free assembly,0.0032482103718883826,39
+PAD,C0,256,attr_039,foamdensity:1.9 lbs./cu . ft. and over,0.0022664064372721199,40
+PAD,C0,256,attr_040,armtype : rolled arms,0.0013683108252897647,41
+PAD,C0,256,attr_041,warrantylength:1 year,0.00088058850923120047,42
+PAD,C0,256,attr_042,legmaterialdetails : birch,0.0010680089346744581,43
+PAD,C0,256,attr_043,framematerialdetails : hardwood,-9.2239510045888373e-05,44
+PAD,C0,256,attr_044,legcolor : ebony,-0.00016227146738467813,45
+PAD,C0,256,attr_045,levelofassembly : partial assembly,0.00072077427951033196,46
+PAD,C0,256,attr_046,minimumdoorwidth-sidetoside:30,0.0011645183767177714,47
+PAD,C0,256,attr_047,upholsterycolor : red,0.00048318023902671481,48
+PAD,C0,256,attr_048,armmaterialdetails:100 % leather gel,0.0014788245954680812,49
+PAD,C0,256,attr_049,armmaterial : leather,-0.00012947435546706298,50
+PAD,C0,256,attr_050,upholsterycolor : charcoal,-2.5068280141746224e-05,51
+PAD,C0,256,attr_051,framematerial : solid + manufactured wood,0.0015645384869355516,52
+PAD,C0,256,attr_052,armheight-floortoarm:26,0.0008018244966646812,53
+PAD,C0,256,attr_053,backfillmaterial : synthetic fiber,0.001059203592639002,54
+PAD,C0,256,attr_054,suggestednumberofpeopleforassemblyinstall:1,0.00027046401627017769,55
+PAD,C0,256,attr_055,numberofchairsincluded:1,-0.0015414019841844262,56
+PAD,C0,256,attr_056,removablecushions : no,0.00091287333848982799,57
+PAD,C0,256,attr_057,soffacompliant : no,0.00083409015979067636,58
+PAD,C0,256,attr_058,swivel : no,0.00070083367782747263,59
+PAD,C0,256,attr_059,generalcertificateofconformitygcc : no,0.00087221797326869632,60
+PAD,C0,256,attr_060,containsflameretardantmaterials : no,0.00042870006543566097,61
+PAD,C0,256,attr_061,mattressincluded : no,0.00059724076160996842,62
+PAD,C0,256,attr_062,nfpacompliant : no,0.00070575317412732708,63
+PAD,C0,256,attr_063,canadaproductrestriction : no,0.0005618733790818467,64
+PAD,C0,256,attr_064,customproduct : no,0.00045155086863024607,65
+PAD,C0,256,attr_065,anti-microbial : no,0.0011145400449011356,66
+PAD,C0,256,attr_066,legaldocumentation : no,0.00048092001245875204,67
+PAD,C0,256,attr_067,oeko-texcertified : no,0.00035628286489618058,68
+PAD,C0,256,attr_068,taacompliant : no,0.00095052800629622652,69
+PAD,C0,256,attr_069,organic : no,0.00025017950678107859,70
+PAD,C0,256,attr_070,ansibifmax54loungepublicseating : no,0.00075472743104726403,71
+PAD,C0,256,attr_071,treatment : no,0.00022888330396021728,72
+PAD,C0,256,attr_072,doublerubtested : no,0.00081840969839151734,73
+PAD,C0,256,attr_073,commercialwarranty : no,0.00073781653327635588,74
+PAD,C0,256,attr_074,madetoorder : no,-1.1168814910755831e-05,75
+PAD,C0,256,attr_075,scscertified : no,-0.00042436355077637988,76
+PAD,C0,256,attr_076,ottomanincluded : no,0.00014237239580032479,77
+PAD,C0,256,attr_077,slipcovered : no,-2.3965943441672799e-05,78
+PAD,C0,256,attr_078,tosspillowsincluded : no,-0.0001719213931439395,79
+PAD,C0,256,attr_079, : no,-2.011161258128058e-05,80
+PAD,C0,256,attr_080,ansibifmax51officeseating : no,-0.00014129141112034782,81
+PAD,C0,256,attr_081,tuftedcushions : no,-0.00083045459970086666,82
+PAD,C0,256,attr_082,gsaapproved : no,0.00026340761696105885,83
+PAD,C0,256,attr_083,cushionticking : no,-5.895651053117526e-05,84
+PAD,C0,256,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no,-0.0002858117579550689,85
+PAD,C0,256,attr_085,suitableforhighuse : no,-0.00062523225009301908,86
+PAD,C0,256,attr_086,tscatitlevicompliantformaldehydeemissions : yes,-0.00042980713231532963,87
+PAD,C0,256,attr_087,weightcapacitygreaterthan250lbs : yes,8.3031492815188734e-05,88
+PAD,C0,256,attr_088,caltb117-2013compliant : yes,-0.00022483604660034073,89
+PAD,C0,256,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes,0.0001327841175234705,90
+PAD,C0,256,attr_090,nailheadtrim : yes,0.00045510359934441968,91
+PAD,C0,256,attr_091,armsincluded : yes,0.00034778903177246079,92
+PAD,C0,256,attr_092,caltb116compliant : yes,-0.0004391510809818866,93
+PAD,C0,256,attr_093,productwarranty : yes,-0.00077370232619269896,94
+PAD,C0,256,attr_094,kiln-driedwood : yes,-0.00053048486430345987,95
+PAD,C0,256,attr_095,compositewoodproductcwp : yes,-0.00018678694026831588,96
+PAD,C0,256,attr_096,eligibleforhardwarepacks : yes,0.00038983498347669454,97
+PAD,C0,256,attr_097,carbphaseiicompliantformaldehydeemissions : yes,-0.00077006616271002581,98
+PAD,C0,256,attr_098,upholstered : yes,-0.0012532315256592388,99
+PAD,C0,256,attr_099,adultassemblyrequired : yes,0.0019572268589534009,100
+PAD,C0,256,attr_100,countryoforigin : china,0.00013318389126815156,101
+PAD,C0,256,attr_101,fullorlimitedwarranty : limited,-0.0031082029980967207,102
+PAD,C0,256,attr_102,purposefuldistressingtype : no distressing,-0.0037436138353215132,103
+PAD,C0,256,attr_103,supplierintendedandapproveduse : residential use,0.0036752725403160214,104
+PAD,C0,256,fixed_title,gail 29.5 '' wide armchair,0.060966231003497739,
+PAD,C0,256,fixed_class,Accent Chairs,-0.0010241534162673815,
+PAD,C0,256,fixed_category,Furniture / Living Room Furniture / Chairs & Seating / Accent Chairs,0.017494233589982255,
+PAD,C0,256,fixed_description,"this armchair creates an essential spot to sit and enjoy a good book or catch up on your favorite show . it 's built with a solid and engineered wood frame and has tapered legs , rolled arms , and a barrel-like back to create a traditional silhouette . the faux leather upholstery is filled with foam and has a spring seat construction for just the right amount of support that bounces back . a nailhead trim lines the front of the arms to add a hint of embellishment to the armchair .",0.049618883339558759,
+PAD,C0,256,attribute_separators,attribute separators,0.012913607205015474,
+PAD,C0,256,section_separators,section separators,0.0011535128042574616,
+PAD,C0,256,boundary,boundary,0,
+PAD,C0,256,special,special,0,
+PAD,C0,256,padding,padding,0,

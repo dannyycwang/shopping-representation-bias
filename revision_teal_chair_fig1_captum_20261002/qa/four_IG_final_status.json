@@ -1,0 +1,38 @@
+[
+  {
+    "baseline": "PAD",
+    "schedule": "C0",
+    "nodes": 512,
+    "absolute_completeness_residual": 0.03998459069768498,
+    "completeness_tolerance": 0.00018748980760574342,
+    "endpoint_passed": false,
+    "paired_status": "inconclusive"
+  },
+  {
+    "baseline": "PAD",
+    "schedule": "C2s5",
+    "nodes": 512,
+    "absolute_completeness_residual": 0.11047033942227602,
+    "completeness_tolerance": 0.00012671113014221192,
+    "endpoint_passed": false,
+    "paired_status": "inconclusive"
+  },
+  {
+    "baseline": "Zero",
+    "schedule": "C0",
+    "nodes": 512,
+    "absolute_completeness_residual": 0.05630454460909623,
+    "completeness_tolerance": 0.0002950933575630188,
+    "endpoint_passed": false,
+    "paired_status": "inconclusive"
+  },
+  {
+    "baseline": "Zero",
+    "schedule": "C2s5",
+    "nodes": 512,
+    "absolute_completeness_residual": 0.29706446175515633,
+    "completeness_tolerance": 0.0002343146800994873,
+    "endpoint_passed": false,
+    "paired_status": "inconclusive"
+  }
+]

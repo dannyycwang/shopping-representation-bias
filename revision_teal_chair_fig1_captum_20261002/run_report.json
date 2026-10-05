@@ -1,0 +1,100 @@
+{
+  "overall_status": "inconclusive",
+  "native_ready": true,
+  "PAD_plot_ready": false,
+  "forward_ready": true,
+  "case": {
+    "dataset": "wands",
+    "query_id": 409,
+    "query": "teal chair",
+    "product_id": "24318"
+  },
+  "contrast": "IG(C2s5; b_C2s5) - IG(C0; b_C0)",
+  "protocol_sha256": "818447b94cbe94be1bbbdbbd79380b59dd3210f432d57e45c87a69624a9d2a40",
+  "baselines": {
+    "PAD": {
+      "status": "inconclusive",
+      "passed": false,
+      "nodes": 512,
+      "A_passed": false,
+      "B_passed": false,
+      "C_passed": false,
+      "reason": "A/B/C not simultaneously satisfied"
+    },
+    "Zero": {
+      "status": "inconclusive",
+      "passed": false,
+      "nodes": 512,
+      "A_passed": false,
+      "B_passed": false,
+      "C_passed": false,
+      "reason": "A/B/C not simultaneously satisfied"
+    }
+  },
+  "failure_reasons": [
+    "PAD: finite Gauss-Legendre ladder ended at 512 nodes without jointly passing endpoint completeness (A), paired contrast accounting (B), and contrast-vector stability (C).",
+    "Zero: finite Gauss-Legendre ladder ended at 512 nodes without jointly passing endpoint completeness (A), paired contrast accounting (B), and contrast-vector stability (C)."
+  ],
+  "environment": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.55.4",
+      "captum": "0.9.0",
+      "tokenizers": "0.21.4",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.9",
+      "pyarrow": "24.0.0"
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cuda": "12.8",
+    "gpu_total_bytes": 8585216000,
+    "existing_environment_reused": true,
+    "packages_installed_or_upgraded": false,
+    "threads": 4,
+    "native_dtype": "FP16 model, FP32 CLS and L2 normalization",
+    "gradient_dtype": "FP16-rounded parameters represented in FP32",
+    "tf32": false
+  },
+  "four_IG_statuses": {
+    "C0/PAD": {
+      "endpoint_completeness": false,
+      "paired_validation_status": "inconclusive",
+      "nodes": 512
+    },
+    "C2s5/PAD": {
+      "endpoint_completeness": false,
+      "paired_validation_status": "inconclusive",
+      "nodes": 512
+    },
+    "C0/Zero": {
+      "endpoint_completeness": false,
+      "paired_validation_status": "inconclusive",
+      "nodes": 512
+    },
+    "C2s5/Zero": {
+      "endpoint_completeness": false,
+      "paired_validation_status": "inconclusive",
+      "nodes": 512
+    }
+  },
+  "baseline_robust_claim_allowed": false,
+  "execution_profile_identical_claim_allowed": false,
+  "paper_usability": {
+    "native_panel": true,
+    "PAD_attribution_panel": false,
+    "baseline_robust_claim": false,
+    "independent_attribute_causal_claim": false,
+    "scope": "Saved native observation only; failed numerical attributions cannot support attribute-level interpretation."
+  },
+  "native_precision_limitation": "Cached ranks reconstruct exactly. Current singleton and restored original length-bucket forwards differ from saved vectors under both reference_compile settings. Historical kernel/compile state is incompletely recorded. Do not claim bitwise execution-profile identity.",
+  "source_model_tokenizer_revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+  "attribution_attempts_retained": 16,
+  "validation_audit": "passed",
+  "visual_qa": "passed_native_only",
+  "delivery_index": "INDEX.txt"
+}

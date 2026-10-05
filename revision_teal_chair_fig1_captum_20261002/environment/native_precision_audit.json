@@ -1,0 +1,125 @@
+{
+  "scope": "28 forward-only checks of original seven orders; no extra IG or local moves",
+  "token_lengths_source": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_evidence_20260917\\data\\all_seven_token_lengths.csv",
+  "token_lengths_source_sha256": "d6d57df5c4e4c99c6478612a22c849ee4d37876dce70dfcf13c2eaf8a93a8306",
+  "companions": {
+    "C0": {
+      "catalog_indices": [
+        21190,
+        24318
+      ],
+      "product_ids": [
+        "21190",
+        "24318"
+      ],
+      "saved_token_lengths": [
+        1059,
+        1059
+      ],
+      "stable_sorted_offset": 41540,
+      "target_slot": 1
+    },
+    "C1": {
+      "catalog_indices": [
+        21190,
+        24318
+      ],
+      "product_ids": [
+        "21190",
+        "24318"
+      ],
+      "saved_token_lengths": [
+        1059,
+        1059
+      ],
+      "stable_sorted_offset": 41540,
+      "target_slot": 1
+    },
+    "C2s1": {
+      "catalog_indices": [
+        21190,
+        24318
+      ],
+      "product_ids": [
+        "21190",
+        "24318"
+      ],
+      "saved_token_lengths": [
+        1059,
+        1059
+      ],
+      "stable_sorted_offset": 41540,
+      "target_slot": 1
+    },
+    "C2s2": {
+      "catalog_indices": [
+        21190,
+        24318
+      ],
+      "product_ids": [
+        "21190",
+        "24318"
+      ],
+      "saved_token_lengths": [
+        1059,
+        1059
+      ],
+      "stable_sorted_offset": 41540,
+      "target_slot": 1
+    },
+    "C2s3": {
+      "catalog_indices": [
+        21190,
+        24318
+      ],
+      "product_ids": [
+        "21190",
+        "24318"
+      ],
+      "saved_token_lengths": [
+        1059,
+        1059
+      ],
+      "stable_sorted_offset": 41540,
+      "target_slot": 1
+    },
+    "C2s4": {
+      "catalog_indices": [
+        21190,
+        24318
+      ],
+      "product_ids": [
+        "21190",
+        "24318"
+      ],
+      "saved_token_lengths": [
+        1059,
+        1059
+      ],
+      "stable_sorted_offset": 41540,
+      "target_slot": 1
+    },
+    "C2s5": {
+      "catalog_indices": [
+        24318,
+        38481
+      ],
+      "product_ids": [
+        "24318",
+        "38481"
+      ],
+      "saved_token_lengths": [
+        1059,
+        1059
+      ],
+      "stable_sorted_offset": 41540,
+      "target_slot": 0
+    }
+  },
+  "all_historical_tokens_verified": true,
+  "attention": "sdpa",
+  "pooling": "FP32 CLS then L2",
+  "tf32": false,
+  "IG_profile_unchanged": true,
+  "saved_native_ranks_unchanged": true
+}

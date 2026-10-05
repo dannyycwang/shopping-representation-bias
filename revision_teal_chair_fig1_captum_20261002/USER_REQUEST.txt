@@ -1,0 +1,175 @@
+請在目前的 shopping-representation-bias repository 中，實際執行以下個案重跑、數值驗證和製圖。不要只提出計畫。沿用原實驗資料與已保存的模型/cache，將所有新程式與結果存入新目錄 revision_teal_chair_fig1_captum_20261002/；若目錄已有結果，建立 run_02 等新子目錄，保留之前的紀錄。先閱讀並遵守適用的 AGENTS.md。
+
+研究目的
+========
+分析論文 Figure 1 的同一個 teal chair 案例：同一商品只改屬性順序，在所有競爭商品維持 C0 的情況下，由第 11 名變成第 939 名。這次要把「原始檢索結果」與「相同 baseline 下的歸因重新分配」串起來。
+固定此案例和比較方向；不要另找 Fixed text 較小、歸因較漂亮或 PAD/Zero 更一致的案例。不要把 IG 當成個別屬性的獨立因果效果。不要修改主文、Figure 1 或既有結果。
+
+1. 固定案例與權威來源
+===================
+Repository: https://github.com/dannyycwang/shopping-representation-bias
+dataset: wands
+query_id: 409
+query: teal chair
+product_id: 24318（從 product_id 解析 catalog index，不要把 ID 當成列索引的通則）
+model key: gte_modernbert
+model: Alibaba-NLP/gte-modernbert-base
+revision: e7f32e3c00f91d699e8c43b53106206bcc72bb22
+native pooling: CLS，然後 FP32 L2 normalization
+native attention implementation: sdpa
+token cap: 8192
+primary comparison: C0 -> C2s5
+attribution difference: IG(C2s5; b) - IG(C0; b)
+
+重要：11 -> 939 是 C0 -> C2s5，不是 C0 -> C1。C1 的原始排名是 468。本輪只對 C0、C2s5 做 IG，不額外擴成七種排法全部 IG，也不加入新的局部移動實驗。
+
+優先閱讀：
+- phase2/config/phase2.json
+- phase2/src/encoding.py
+- phase2/src/representations.py
+- revision_final_strengthening_20260922/scripts/common.py
+- revision_final_strengthening_20260922/data/historical_case_boundary.csv
+- revision_final_strengthening_20260922/BOUNDARY_AUDIT.md
+- revision_evidence_20260917/data/encoder_profiles_and_rank_sources.csv
+- revision_french_c0_c1_captum_20261001/rerun_02/ 的 run_report、QA、REPRODUCE 與資料格式；必要時追查產生這些結果的程式。
+
+French molding 可作為 Captum 與輸出格式的參考，但不能直接套用它的 MiniLM mean pooling、256-token cap、模型版本或 C0/C1 序列建構。
+
+已核對的原始紀錄如下。以 repo 的對應紀錄與來源 cache 驗證，不能修改資料來符合下面的數字：
+order   score                 rank
+C0      0.6974388957023621      11
+C1      0.6496999263763428     468
+C2s1    0.6690213084220886     123
+C2s2    0.6565348505973816     301
+C2s3    0.6431988477706909     677
+C2s4    0.6508045792579651     435
+C2s5    0.636094331741333      939
+
+七個輸入原始 token length 均為 1059，包括 special tokens。
+Catalog 共 42994 個商品，排除 target 後固定競爭者共 42993 個。
+Top-20 competitor threshold: 0.689082145690918
+threshold competitor_id / 原紀錄 index: 22752 / 22752
+C0 native margin: +0.008356750011444092
+C2s5 native margin: -0.05298781394958496
+
+記錄工作開始的 repo commit、dirty status、相關來源檔 hash、模型/tokenizer revision、cache 路徑與 hash、軟體版本、GPU、dtype、pooling 與 attention backend。
+
+2. 還原輸入及原始檢索結果
+=======================
+使用現有 frozen serializer 與 permutation implementation，保存全部七種排法的完整輸入和 hash。保留 title、description、class、category、attribute separator、section order 及所有原始字元；只改完整 attribute occurrences 的排列。
+
+C2s5 使用既有 per-product deterministic permutation 與 seed 20260915，不可改用新的 random.shuffle 設定。為每個 C0 occurrence 建立穩定 ID，例如 attr_000、attr_001；對 occurrence indices 套用相同 permutation，再檢查得到的文字和既有 serializer 完全相同。重複屬性仍是不同 occurrences，不可用文字作唯一 key、去重或以排序後結果替代。
+
+用 truncation=False 查核完整 tokenization；確認七種排法的 token 數與原始紀錄一致且不超過 cap。保存各 occurrence 的原始字串、C0/C2s5 中的 1-based 屬性位置、字元 spans、token spans。位置是 attribute-list position，不是 retrieval rank。
+
+從原始 cache 取出固定且 normalized 的 query vector，計算 target-only 分數和門檻。所有競爭者始終是 C0，先排除舊 target 再放入新 target。沿用原始 deterministic tie-breaking 和精確比較規則，不能加 epsilon 改變名次。檢查七種排法的 score、rank、inclusion 及 threshold。
+
+Native saved ranks 是圖 (a) 的權威數據。另存 reconstructed ranks 和 fresh native forward scores；如發現差異，追查原始精度與 cache provenance，保留差異，不能默默把新 rank 改成舊 rank。若無法確認同一案例與 execution profile，將 run 標記 blocked，交付診斷，不製作宣稱驗證成功的歸因圖。
+
+3. GTE 專用 differentiable forward 與官方 Captum
+=============================================
+本輪只算四組：C0/PAD、C2s5/PAD、C0/Zero、C2s5/Zero。
+使用官方 captum.attr.IntegratedGradients，multiply_by_inputs=True、method='gausslegendre'、return_convergence_delta=True。不要沿用自製 IG 積分器，也不要以 attention weights 代替 IG。
+官方 API 參考：https://captum.ai/api/integrated_gradients.html
+
+解釋的 scalar：
+F_q(x) = dot(fixed cached normalized query vector, normalized GTE product CLS vector).
+歸因針對 product word embeddings；query vector 固定，不對 rank 或 Top-20 布林值求梯度。
+
+先重現原 native forward（FP16 model、FP32 CLS/normalization），再建立 FP32 gradient diagnostic：將同一份 native FP16-rounded weights 轉為 FP32 表示，eval mode，關閉 dropout 和 TF32，不訓練模型。不要混用另一份重新以不同精度載入的權重。
+
+保留 ModernBERT 的原始計算，包括其注意力結構、position/RoPE、mask、embedding 後處理、CLS pooling。優先使用相同 SDPA backend。不要複製 BERT/MiniLM forward 去替代 ModernBERT；也不要為了 inputs_embeds 支援而跳過 embedding normalization 等運算。
+
+檢查目前模型是否支援 inputs_embeds；若需注入 embedding，注入位置必須是 word-embedding lookup 的輸出、原模型後續處理的輸入。所有梯度都必須穿過原本的後續 forward。先驗證 original input_ids 和注入 actual embeddings 的 diagnostic scores，相差 <= 1e-6，並確認梯度有限且能回傳。只傳該模型實際支援的 arguments，不盲目加 token_type_ids 或強制套用別的模型的 position_ids。
+
+優先用現有原始 CUDA 環境和 pinned model cache。若套件相容性需要調整，使用隔離環境並記錄差異，勿直接升級既有實驗環境。缺少 checkpoint 時只可取得上述精確 revision，不能換成 latest。若只能切換 attention backend 或停用 compile，明確記錄並重做 forward equivalence、native agreement 與 boundary 檢查，不能宣稱 execution profile 完全相同。
+
+4. Baseline 定義與完整歸因帳務
+============================
+PAD 是主分析，Zero 是補充敏感度分析。
+- PAD：將所有有效、非 special、非 padding 位置的 word vectors 替換成同一模型的 PAD word vector。
+- Zero：同樣位置的 word vectors 替換成零向量。
+- 保留 special/padding vectors、sequence length、有效 token 的 attention mask 和位置設定。
+- 替換成 PAD embedding 不代表把有效位置的 attention mask 改成 0。
+- title、description、class、category、separators 等非 special 有效內容也遵守相同 baseline 規則，不為了降低 Fixed text 而偷偷固定這些 embeddings 或排除其歸因。
+
+在每個 baseline 內比較 C0 與 C2s5，不能把 PAD - Zero 當作 order effect。保存 baseline tensors 的 hash、F(C0)、F(C2s5)、F(b_C0)、F(b_C2s5)，檢查同一 baseline 的兩個 reference inputs 與 scores 是否相同；如果不同，先找出原因，不可假設為零。
+
+依 tokenizer offsets 將 token 歸因對齊至 occurrence IDs；每個 token 只能計入一次。跨 content boundary 的 token 明確列成 boundary 類，不任意分配給其中一個欄位。
+保留 signed attribution，不做每排法各自除以總和、min-max scaling、softmax 或取絕對值後相減。
+
+逐項輸出：
+- 每個 attribute occurrence。
+- 各個實際存在的 fixed field：title、description、class、category。
+- separators、跨界 boundary tokens、special/padding contribution（有則保存，零值亦在完整資料保留）。
+不要在主圖把以上所有非屬性內容合併成一列 Fixed text。
+
+對全部 tokens/entries 驗證：
+sum_i IG_i(x;b) ≈ F_q(x) - F_q(b).
+對同一 baseline 的 order contrast 驗證：
+sum_i [IG_i(C2s5;b_C2s5) - IG_i(C0;b_C0)]
+≈ [F_q(C2s5)-F_q(C0)] - [F_q(b_C2s5)-F_q(b_C0)].
+不能把 baseline score 的差異或積分殘差默默塞進某個屬性。
+
+5. 數值驗證、收斂與有限重試
+=========================
+先寫入 PROTOCOL.json 再跑 IG，下面是本輪的數值驗收設定，不是聲稱 Captum 的通用標準。
+
+對每個 endpoint 記錄 saved native、fresh native、diagnostic scores 及三者差異。要求 fresh native 和 diagnostic 都維持原 Top-20 decision，且 abs(native margin) > 5 * max(abs(diagnostic-native), abs(fresh-native))。
+同時記錄 diagnostic score contrast 與 native score contrast 的差異；要求 <= max(1e-4, 0.01*abs(native contrast))。
+
+Gauss-Legendre nodes 使用 64 -> 128 -> 256 -> 512 的有限階梯。從 internal_batch_size=1 開始，保留所有嘗試，不降低長度或更換模型來省記憶體。每個 baseline 的兩個 endpoints 使用相同 n_steps 評估配對 contrast，至少比較兩個連續階梯。
+
+每次計算：
+A. endpoint completeness residual 絕對值 <= max(1e-4, 0.001*abs(F(x)-F(b)))。
+B. 配對 contrast accounting residual 絕對值 <= max(1e-4, 0.01*abs(F(C2s5)-F(C0)))。
+C. 令 D_n 是 occurrence-aligned、包含所有 fixed/boundary groups 的 signed order-difference vector，輸出 D_n 與前一階梯的 L1/Linf 差及逐項差異。數值穩定驗收為 sum(abs(D_n-D_prev)) <= max(1e-4, 0.02*sum(abs(D_n)))。
+
+同一 baseline 的 A/B/C 同時通過才停止升階。C 是有限精度的穩定性檢查，不是統計信賴區間或真實誤差上界。另檢查 tensor/token/entry 三層相加一致，避免聚合漏項。
+
+PAD 通過所有核心檢查才可將主歸因圖標記 plot_ready=true。Zero 若失敗，主圖可保留通過的 PAD 結果，但必須明確報告 Zero failure，不能聲稱 baseline-robust。任何檢查失敗，都保留該案例和所有 attempts；不得更換案例、放寬門檻或改 baseline 來取得成功標記。512 steps 後仍失敗就交付 failure/inconclusive report，保留 native 圖，不製作沒有標示限制的最終歸因圖。
+
+6. 圖與表的交付規格
+=================
+主題：Revisiting the Figure 1 teal-chair case。
+
+(a) Native candidate inclusion
+- 全部 C0、C1、C2s1、C2s2、C2s3、C2s4、C2s5 都要顯示。
+- x 軸 native score minus fixed Top-20 competitor threshold，0 為門檻。
+- 標示原始 rank；清楚標出 C0 和 C2s5 是本輪歸因比較的 endpoints。
+- 不把七種排法連成時間序列。
+
+(b) PAD attribution before/after reordering
+- 依 C0 的原始 occurrence order 排列，不依歸因大小或故事需要重排。
+- 每列包含：原始 attribute key/value（過長可換行）、C0 position -> C2s5 position、signed IG(C0)、signed IG(C2s5)、signed difference plot。
+- Difference 一律是 IG(C2s5)-IG(C0)；不能寫 reversal、C1-C0 或 PAD-Zero。
+- 原始數值表以可讀精度顯示，差值由全精度計算；完整 CSV 保存足夠精度。
+- 非屬性欄位分項列於獨立區塊，不給它們虛構 attribute position，不合成單一 Fixed text。
+- 所有差值共用同一座標尺度。
+
+先製作涵蓋所有 attributes 與 fixed fields 的完整版本。若列數太多，使用可讀的多頁/分塊版，或分開 native panel 與完整 attribution 圖，勿把字縮到不可讀。
+若另輸出主文 compact 版，選列規則須在算 IG 前固定為 C0 前 10 個 occurrences；其餘屬性以清楚標示的 Other attributes (N entries) 精確加總，固定文字仍分項。完整版本必須同時交付，不得只展示對結論有利的屬性。
+
+Zero 只另做 supplement/sensitivity table；呈現兩種 baseline 各自的 C2s5-C0 差值、逐項方向一致性及數值差异。接近零的項目要與明顯變化區分，不能用微小值的符號翻轉宣稱強烈矛盾。不要用 baseline 之間的差值取代 order contrast。
+
+輸出 PDF、PNG、SVG、可在 diagrams.net 編輯的原生 draw.io 物件（文字、點、線，不是貼入整張 PNG），及重現圖的程式。多頁完整版本可用 draw.io 多頁。實際 render PDF 和檢查 draw.io：所有 rows/數字對得上、字體正常、無裁切/重疊，且有可追溯的 plotted_values。
+
+7. 最終交付與報告
+================
+目錄至少包含以下內容，檔名可合理調整，但要有索引：
+- PROTOCOL.json、environment/provenance、source hashes。
+- 可重跑的 run_teal_captum.py、製圖程式、精確執行命令和依賴說明。
+- 七種 serialized inputs、attribute_sequences/positions、tokenization/spans。
+- native_records.csv、cache/native/forward checks。
+- token_attributions、entry_attributions、aligned_entry_changes（PAD 和 Zero 分開標識）。
+- completeness_attempts、baseline score checks、step-convergence、baseline sensitivity。
+- figure_data/plotted_values、圖檔和可編輯 draw.io。
+- run_report.json，包含 overall status、每個 baseline 的 status、native_ready、PAD_plot_ready 和失敗原因。
+- RESULTS.txt：以中文說明核對到的分數/排名、主要歸因變化、fixed fields 的變化、PAD/Zero 的一致與不一致、數值驗證結果。
+- caption.txt 與一段精簡英文論文文字，僅在結果支持的範圍內敘述。
+
+報告要清楚區分 native retrieval observations 和 gradient diagnostic。描述 attribution redistribution，不聲稱找到唯一機制、單一屬性獨立造成掉出門檻、模型普遍偏好前面/後面或人口層級規律。此案例是既有 Figure 1 的選定個案，不是新的代表性抽樣。
+
+使用合理判斷完成可逆的環境設定、程式修正、有限重跑與檔案輸出，不要只回報需要做什麼。若原模型、cache、資料或 GPU 確實不可用，完成能驗證的輸入/原始資料部分，保存可執行 runner，明確列出阻塞；不得填入猜測的 IG、換模型或假裝已完成推論。
+
+完成後回覆：輸出目錄、確切執行命令、四組 IG 的驗證狀態、是否可用於論文、主要發現，以及任何尚未解決的限制。保留現有 French molding 與 Figure 1 檔案，不自動替換稿件。

@@ -1,0 +1,18 @@
+{
+  "baseline": "PAD",
+  "schedule": "C0",
+  "nodes": 512,
+  "status": "failed",
+  "F_x": 0.6966451406478882,
+  "F_b": 0.5091553330421448,
+  "tensor_sum": 0.22747439830342842,
+  "token_sum": 0.2274743983034284,
+  "entry_sum": 0.2274743983034284,
+  "residual": 0.03998459069768498,
+  "tolerance": 0.00018748980760574342,
+  "completeness_passed": false,
+  "aggregation_passed": true,
+  "captum_delta": 0.03998458385467529,
+  "seconds": 112.94244539999636,
+  "peak_cuda_bytes": 1590457344
+}

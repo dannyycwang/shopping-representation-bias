@@ -1,0 +1,19 @@
+{
+  "protocol": "teal-chair-fig1-captum-20261002-v1",
+  "case": {"dataset": "wands", "query_id": 409, "query": "teal chair", "product_id": "24318"},
+  "model": {"key": "gte_modernbert", "name": "Alibaba-NLP/gte-modernbert-base", "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22", "max_tokens": 8192, "pooling": "CLS FP32 then L2 normalization", "attention": "sdpa"},
+  "comparison": ["C0", "C2s5"],
+  "difference": "IG(C2s5; b_C2s5) - IG(C0; b_C0)",
+  "permutation_seed": 20260915,
+  "scalar": "dot(unchanged cached normalized query, normalized product CLS)",
+  "baselines": ["PAD", "Zero"],
+  "baseline_rule": "Replace every active non-special non-padding word vector, including fixed fields and separators; retain masks, specials, padding and model-native positions.",
+  "diagnostic": "The same native FP16-rounded parameters converted to FP32, eval, no training, no TF32.",
+  "method": {"implementation": "captum.attr.IntegratedGradients", "multiply_by_inputs": true, "method": "gausslegendre", "return_convergence_delta": true, "nodes": [64,128,256,512], "internal_batch_size": 1, "paired_steps": true, "minimum_consecutive_steps": 2},
+  "acceptance": {"endpoint": "abs(residual) <= max(1e-4, 0.001*abs(F(x)-F(b)))", "contrast": "abs(residual) <= max(1e-4, 0.01*abs(F(C2s5)-F(C0)))", "stability": "L1(D_n-D_prev) <= max(1e-4,0.02*L1(D_n))", "equivalence": 0.000001, "boundary": "both fresh and diagnostic preserve native inclusion; abs(native margin) > 5*max(abs(diagnostic-native),abs(fresh-native))", "native_contrast": "abs(diagnostic_contrast-native_contrast) <= max(1e-4,0.01*abs(native_contrast))", "aggregation_absolute_tolerance": 1e-9},
+  "sensitivity_near_zero": 0.0001,
+  "figures": {"native_authority": "saved Phase III target-only ranks", "full_order": "C0 occurrence order then separate fixed fields/separators/boundary/special/padding", "compact_selection": "first 10 C0 occurrences; exact sum of remaining 94 attributes; separate fixed groups", "shared_difference_scale": true, "compact_enabled": true},
+  "limits": "Only this case, four IG combinations; no local moves, no extra orders for IG; no case substitution or relaxed thresholds. Stability is not a confidence interval or true error bound.",
+  "failure_policy": "Retain every attempt. PAD plot only if all core checks pass. Zero failure is explicit. No unlabeled failed attribution figure. Preserve native figure when diagnostic fails.",
+  "api_reference": "https://captum.ai/api/integrated_gradients.html"
+}

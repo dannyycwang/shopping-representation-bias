@@ -1,0 +1,25 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.55.4",
+    "captum": "0.9.0",
+    "tokenizers": "0.21.4",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9",
+    "pyarrow": "24.0.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cuda": "12.8",
+  "gpu_total_bytes": 8585216000,
+  "existing_environment_reused": true,
+  "packages_installed_or_upgraded": false,
+  "threads": 4,
+  "native_dtype": "FP16 model, FP32 CLS and L2 normalization",
+  "gradient_dtype": "FP16-rounded parameters represented in FP32",
+  "tf32": false
+}
