@@ -1,0 +1,112 @@
+[
+  {
+    "run": "C0",
+    "method": "raw",
+    "schedule": "C0",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C0.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C0.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "C1",
+    "method": "raw",
+    "schedule": "C1",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C1.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C1.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "C2s1",
+    "method": "raw",
+    "schedule": "C2s1",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s1.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s1.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "C2s2",
+    "method": "raw",
+    "schedule": "C2s2",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s2.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s2.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "C2s3",
+    "method": "raw",
+    "schedule": "C2s3",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s3.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s3.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "C2s4",
+    "method": "raw",
+    "schedule": "C2s4",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s4.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s4.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "C2s5",
+    "method": "raw",
+    "schedule": "C2s5",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s5.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s5.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "lexical_ascending",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "top_path": "revision_graded_20260922/data/wands_bge_base_lexical_ascending_top1000.npz",
+    "pairs_path": "phase4/results/wands/bge_base_canonical_raw_pairs.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "canonical_hybrid_lexical_ascending",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "top_path": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_ascending_top1000.npz",
+    "pairs_path": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "lexical_descending",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "top_path": "revision_graded_20260922/data/wands_bge_base_lexical_descending_top1000.npz",
+    "pairs_path": "revision_evidence_20260917/experiments/wands_bge_base_lexical_descending_pairs.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  },
+  {
+    "run": "canonical_hybrid_lexical_descending",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "top_path": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_descending_top1000.npz",
+    "pairs_path": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_descending_pairs.parquet",
+    "queries": 308,
+    "k": 20,
+    "catalog_size": 42994
+  }
+]

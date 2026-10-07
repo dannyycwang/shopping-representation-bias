@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "frozen_before_option_results": true,
+  "fields": {"material": ["material"], "shape": ["shape"], "color": ["color"]},
+  "scope": "Literal generic raw keys only. No primary/main/component/detail/finish aliases are merged. This measures recorded descriptor labels, not an exhaustive ontology or atomic physical properties.",
+  "parsing": "Use the existing Phase II product_features pipe-separated entries; partition each entry on its first colon. Match the key after Unicode NFC, casefold, trim and whitespace collapse. Keep raw entry, raw key, raw value and zero-based entry index.",
+  "normalization": "Unicode NFC (not compatibility folding), casefold, trim and collapse Unicode whitespace. No spelling, synonym, morphology, punctuation, material or shade mergers.",
+  "multi_value": "No native value lists or within-value delimiter are documented. Each scalar remains one complete recorded descriptor, including slashes, commas, plus signs and conjunctions. Repeated identical normalized values deduplicate; distinct duplicate-key values are conflicting/unknown, not a list of options.",
+  "missing_sentinels": ["", "unknown", "not known", "unspecified", "not specified", "n/a", "na", "null", "nan", "not applicable", "varies", "other"],
+  "field_specific_unknown": {"material": ["none", "yes", "no"], "shape": ["none", "yes", "no"], "color": ["yes", "no"]},
+  "none_policy": "A literal color value 'none' is retained as a recorded absence-of-color descriptor; it is not mapped to clear or transparent. Material/shape 'none' does not identify a material/shape and is unknown. No mapped none values occurred in the initial census.",
+  "ambiguity": "Missing keys, any missing/unknown value, malformed mapped entries, or more than one distinct normalized value exclude that product-field. A known value plus an unknown value is still unknown. Full source duplicates are retained in provenance.",
+  "audit_selection": "For each field take up to 30 records with the mapped raw key present, sorted by SHA256('20261007:attribute-audit:' + field + ':' + product_id). Selection uses the complete catalog, never ranking transitions.",
+  "case_selection": "Within eligible primary cancellation query-fields choose the query with smallest SHA256('20261007:case:' + query_id), separately for any eligible field with option loss and any eligible field with unchanged option set. Use material, shape, color order to choose the illustrating field. No claim of all-field completeness.",
+  "deferred": ["numeric size/dimensions", "price", "inferred preferences", "joint combinations", "component-specific fields", "generic aliases without harmonization evidence"]
+}

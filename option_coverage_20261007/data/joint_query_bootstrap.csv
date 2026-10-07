@@ -1,0 +1,25 @@
+field,contrast,common_query_n,query_ids,mean,ci_low,ci_high,tiny_support,degenerate
+material,raw_C0_vs_C1,2,"[109, 231]",0.0,0.0,0.0,True,True
+material,raw_C0_vs_C2s1,2,"[109, 231]",0.0,0.0,0.0,True,True
+material,raw_C0_vs_C2s2,2,"[109, 231]",0.0,0.0,0.0,True,True
+material,raw_C0_vs_C2s3,2,"[109, 231]",0.5,0.0,1.0,True,False
+material,raw_C0_vs_C2s4,2,"[109, 231]",0.5,0.0,1.0,True,False
+material,raw_C0_vs_C2s5,2,"[109, 231]",0.0,0.0,0.0,True,True
+material,five_shuffle_mean_per_query,2,"[109, 231]",0.2,0.0,0.4,True,False
+material,five_shuffle_mean_minus_reversal,2,"[109, 231]",0.2,0.0,0.4,True,False
+shape,raw_C0_vs_C1,2,"[182, 231]",0.5,0.0,1.0,True,False
+shape,raw_C0_vs_C2s1,2,"[182, 231]",0.5,0.0,1.0,True,False
+shape,raw_C0_vs_C2s2,2,"[182, 231]",0.5,0.0,1.0,True,False
+shape,raw_C0_vs_C2s3,2,"[182, 231]",0.0,0.0,0.0,True,True
+shape,raw_C0_vs_C2s4,2,"[182, 231]",0.5,0.0,1.0,True,False
+shape,raw_C0_vs_C2s5,2,"[182, 231]",0.0,0.0,0.0,True,True
+shape,five_shuffle_mean_per_query,2,"[182, 231]",0.3,0.0,0.6,True,False
+shape,five_shuffle_mean_minus_reversal,2,"[182, 231]",-0.2,-0.4,0.0,True,False
+color,raw_C0_vs_C1,4,"[163, 172, 438, 470]",0.75,0.25,1.0,True,False
+color,raw_C0_vs_C2s1,4,"[163, 172, 438, 470]",1.0,1.0,1.0,True,True
+color,raw_C0_vs_C2s2,4,"[163, 172, 438, 470]",0.75,0.25,1.0,True,False
+color,raw_C0_vs_C2s3,4,"[163, 172, 438, 470]",1.0,1.0,1.0,True,True
+color,raw_C0_vs_C2s4,4,"[163, 172, 438, 470]",1.0,1.0,1.0,True,True
+color,raw_C0_vs_C2s5,4,"[163, 172, 438, 470]",0.75,0.25,1.0,True,False
+color,five_shuffle_mean_per_query,4,"[163, 172, 438, 470]",0.9,0.7000000000000001,1.0,True,False
+color,five_shuffle_mean_minus_reversal,4,"[163, 172, 438, 470]",0.15,0.0,0.44999999999999996,True,False

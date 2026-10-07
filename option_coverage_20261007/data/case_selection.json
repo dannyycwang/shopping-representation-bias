@@ -1,0 +1,46 @@
+{
+  "rule": "SHA256('20261007:case:' + query_id), ascending; existing query 231 and already selected query IDs excluded. Field priority material, shape, color. Categories are field-specific, not a claim of completeness across fields.",
+  "selected": [
+    {
+      "category": "existing_anti_fatigue_mat",
+      "query_id": 231,
+      "illustrating_field": "shape"
+    },
+    {
+      "category": "additional_cancellation_option_loss",
+      "query_id": 341,
+      "illustrating_field": "color"
+    },
+    {
+      "category": "additional_cancellation_no_field_option_change",
+      "query_id": 453,
+      "illustrating_field": "material"
+    }
+  ],
+  "candidates": [
+    {
+      "category": "additional_cancellation_option_loss",
+      "query_ids_in_hash_order": [
+        341,
+        438,
+        159,
+        172,
+        65,
+        470,
+        28
+      ]
+    },
+    {
+      "category": "additional_cancellation_no_field_option_change",
+      "query_ids_in_hash_order": [
+        453,
+        163,
+        109,
+        355,
+        182,
+        129,
+        437
+      ]
+    }
+  ]
+}

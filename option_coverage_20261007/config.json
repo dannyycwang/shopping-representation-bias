@@ -1,0 +1,17 @@
+{
+  "dataset": "wands", "model": "bge_base", "profile": "native", "k": 20,
+  "seed": 20261007, "bootstrap_draws": 10000, "tiny_support_threshold": 20,
+  "support_protocol": "revision_graded_20260922/PROTOCOL.json",
+  "conditions": "revision_graded_20260922/data/conditions.json",
+  "catalog": "phase2/data/processed/wands_products.jsonl.gz",
+  "queries": "phase2/data/processed/wands_queries.csv",
+  "qrels": "phase2/data/processed/wands_judgments.csv",
+  "catalog_axis": "revision_graded_20260922/data/wands_catalog_ordering.csv",
+  "query_axis": "revision_graded_20260922/data/wands_queries_ordering.csv",
+  "splits": "phase4/config/splits.json",
+  "saved_metrics": "revision_graded_20260922/data/wands_per_query.parquet",
+  "raw_schedules": ["C0", "C1", "C2s1", "C2s2", "C2s3", "C2s4", "C2s5"],
+  "canonical_rules": ["lexical_ascending", "lexical_descending"],
+  "anchors_for_checks_only": {"evaluation_queries": 308, "primary_cancellation_queries": 73},
+  "execution_scope": "Saved raw catalog-wide dense runs and saved fixed canonical dense/hybrid runs. Canonical ascending/descending share scientific settings but historical BGE batch ceilings differ (48/16); report this execution limitation, never silently regenerate or substitute harmonized runs."
+}

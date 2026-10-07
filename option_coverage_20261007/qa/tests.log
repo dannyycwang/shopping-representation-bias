@@ -1,0 +1,19 @@
+test_cancellation_independent_of_rank_order (test_core.SetLogic) ... ok
+test_cancellation_not_recomputed_after_metadata_filtering (test_core.SetLogic) ... ok
+test_duplicate_identical_and_malformed (test_core.SetLogic) ... ok
+test_empty (test_core.SetLogic) ... ok
+test_equal_counts_different_identities (test_core.SetLogic) ... ok
+test_field_specific_none (test_core.SetLogic) ... ok
+test_identical (test_core.SetLogic) ... ok
+test_missing_and_conflicts (test_core.SetLogic) ... ok
+test_normalization_and_preserved_distinctions (test_core.SetLogic) ... ok
+test_retained_supplier (test_core.SetLogic) ... ok
+test_scalar_delimiters_and_aliases (test_core.SetLogic) ... ok
+test_swap_symmetry (test_core.SetLogic) ... ok
+test_unknown_ids_and_rankings (test_core.SetLogic) ... ok
+test_value_deduplication (test_core.SetLogic) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK

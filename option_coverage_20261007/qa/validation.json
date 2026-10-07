@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "unit_tests": 14,
+  "unit_test_failures": 0,
+  "independent_bootstrap_checks": 3,
+  "input_hash_records_checked": 81,
+  "protected_files_checked": 119,
+  "product_fields": 128982,
+  "membership_records": 2464,
+  "query_field_records": 7392,
+  "strict_eligible_query_fields": 765,
+  "summary_rows_checked": 48,
+  "case_count": 3,
+  "figure_table_same_saved_data": true,
+  "candidate_paragraph_words": 106,
+  "extraction_spec_sha256": "56a074bc095c4206f46435142564cb90ea82109469c2745b2df382ee0e8f5e87",
+  "runtime_packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0",
+    "matplotlib": "3.10.9",
+    "Pillow": "12.3.0"
+  },
+  "source_and_manuscript_unchanged": true
+}
