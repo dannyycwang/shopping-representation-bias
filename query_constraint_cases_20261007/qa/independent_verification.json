@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "catalog_size": 42994,
+  "all_queries": 480,
+  "heldout_queries": 384,
+  "no_exact_heldout": 76,
+  "eligible_queries": 308,
+  "highest_pairs": 21299,
+  "raw_qrel_conflicting_pairs_removed": 14,
+  "raw_duplicate_rows_removed": 1559,
+  "clean_judged_pairs": 231859,
+  "query_comparisons": 3696,
+  "all_summary_rows": 3768,
+  "assessed_clause_comparisons": 816,
+  "independent_metric_max_tolerance": 1e-13,
+  "tolerance_purpose": "Arithmetic verification only; equality labels use identical gain sequence or exact computed equality.",
+  "evidence_records": 4493,
+  "cases": [
+    {
+      "query_id": 367,
+      "union_complete": true,
+      "all_saved_source_records_match": true,
+      "all_metrics_verified": true,
+      "top20_cache_reproduction": true,
+      "grade": "A"
+    },
+    {
+      "query_id": 292,
+      "union_complete": true,
+      "all_saved_source_records_match": true,
+      "all_metrics_verified": true,
+      "top20_cache_reproduction": true,
+      "grade": "C"
+    },
+    {
+      "query_id": 300,
+      "union_complete": true,
+      "all_saved_source_records_match": true,
+      "all_metrics_verified": true,
+      "top20_cache_reproduction": true,
+      "grade": "B"
+    }
+  ],
+  "protected_files": 165,
+  "protected_file_changes": [],
+  "input_and_cache_hashes_verified": true,
+  "semantic_scope": "Independent arithmetic; not an independent human adjudicator. Source-description caveats remain visible."
+}

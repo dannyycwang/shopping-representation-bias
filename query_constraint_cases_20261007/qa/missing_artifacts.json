@@ -1,0 +1,20 @@
+{
+  "required_ranking_data_missing": [],
+  "required_selected_caches_tokenizers_missing": [],
+  "unknown_historical_metadata": [
+    "per-batch actual grouping and padding",
+    "OOM subdivisions",
+    "per-artifact GPU model",
+    "complete model-forward telemetry"
+  ],
+  "unavailable_semantic_schema": [
+    "reliable global units and axes for numeric dimensions"
+  ],
+  "not_performed": [
+    "fresh matched encoder forward (comparable cached vectors reused)",
+    "external product-page/image adjudication",
+    "fourth detailed case after source-audit downgrade"
+  ],
+  "missingness_table": "missingness_summary.csv",
+  "historical_union_items_with_unknown_exact_outside_rank": 1
+}

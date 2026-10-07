@@ -1,0 +1,110 @@
+[
+  {
+    "path": "phase2/data/representations/wands/C0.jsonl.gz",
+    "role": "saved full-catalog serialized representation",
+    "bytes": 17559502,
+    "sha256": "92665fc543486eef7a83434ca7aa73c420fbf3dc9637703c55ff8ba26c8086d3"
+  },
+  {
+    "path": "phase2/data/representations/wands/C1.jsonl.gz",
+    "role": "saved full-catalog serialized representation",
+    "bytes": 17561571,
+    "sha256": "978f636be14b2224c63e742fc798a3fa6348c1f3ce35d6bfd9a739958cbf23a7"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\tokenizer.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 711396,
+    "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\tokenizer_config.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 366,
+    "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\special_tokens_map.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 125,
+    "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\vocab.txt",
+    "role": "pinned local tokenizer/config",
+    "bytes": 231508,
+    "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--BAAI--bge-base-en-v1.5\\snapshots\\a5beb1e3e68b9ab74eb54cfd186867f64f240e1a\\config.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 777,
+    "sha256": "bc00af31a4a31b74040d73370aa83b62da34c90b75eb77bfa7db039d90abd591"
+  },
+  {
+    "path": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "role": "query embedding payload",
+    "bytes": 1474688,
+    "sha256": "a1a4ca77db4010228ad7597ef97e7c4cd1a13edd6ff9e52e01eb9821c53cc8f7"
+  },
+  {
+    "path": "phase2/results/embeddings/wands_bge_base_native_C0_3a16535a80738388b384.npy",
+    "role": "product embedding payload",
+    "bytes": 132077696,
+    "sha256": "0b13f8ec61b41bbccaa99de64775a40753354ff165a433453803e38a36928f37"
+  },
+  {
+    "path": "phase2/results/embeddings/wands_bge_base_native_C1_b252c980dd5208f38418.npy",
+    "role": "product embedding payload",
+    "bytes": 132077696,
+    "sha256": "91826454aabc0c4c84bc4784e29920206400d4bd4a0173c117e94fa8dde5fa57"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 466247,
+    "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\tokenizer_config.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 350,
+    "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\special_tokens_map.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 112,
+    "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\vocab.txt",
+    "role": "pinned local tokenizer/config",
+    "bytes": 231508,
+    "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  },
+  {
+    "path": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2\\snapshots\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41\\config.json",
+    "role": "pinned local tokenizer/config",
+    "bytes": 612,
+    "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41"
+  },
+  {
+    "path": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "role": "query embedding payload",
+    "bytes": 737408,
+    "sha256": "b76dc0151e3c27249b48dc62d52a747af68aee260f52eb86cc4a6b1df32c7379"
+  },
+  {
+    "path": "phase2/results/embeddings/wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+    "role": "product embedding payload",
+    "bytes": 66038912,
+    "sha256": "9e64061eb6cc75b92fed46e385b32718632545379a980a9e10053849bbf3689c"
+  },
+  {
+    "path": "phase2/results/embeddings/wands_minilm_native_C1_3ee547664d76abcf96a3.npy",
+    "role": "product embedding payload",
+    "bytes": 66038912,
+    "sha256": "4527db37fe9a45e9107e17632ed32139218512b71f0e6ac32b7d2c1b62119307"
+  }
+]

@@ -1,0 +1,13 @@
+comparison,primary,evaluation_queries,attribute_queries,clause_rows,cancellation_queries,equal_recall_queries,candidates,candidate_queries,grade_A,grade_B,grade_C,proved_decrease,proved_increase,confirmed_decrease_uncertain,confirmed_increase_uncertain,confirmed_unchanged
+bge_base_C0_C1,True,308,62,68,73,194,7,7,1,4,2,1,1,11,14,41
+bge_base_C0_C2s1,False,308,62,68,78,207,2,2,1,1,0,1,1,11,15,40
+bge_base_C0_C2s2,False,308,62,68,78,202,4,4,0,3,1,0,2,9,11,46
+bge_base_C0_C2s3,False,308,62,68,68,195,3,3,0,3,0,2,1,19,7,39
+bge_base_C0_C2s4,False,308,62,68,69,195,4,4,1,2,1,2,0,13,14,39
+bge_base_C0_C2s5,False,308,62,68,67,193,3,3,0,2,1,0,1,14,14,39
+minilm_C0_C1,False,308,62,68,57,154,12,11,1,2,9,4,0,18,15,31
+minilm_C0_C2s1,False,308,62,68,52,153,7,7,1,2,4,2,0,11,16,39
+minilm_C0_C2s2,False,308,62,68,60,170,9,9,0,5,4,1,0,16,13,38
+minilm_C0_C2s3,False,308,62,68,59,172,7,6,1,0,6,3,0,12,15,38
+minilm_C0_C2s4,False,308,62,68,64,176,9,9,0,3,6,0,0,16,15,37
+minilm_C0_C2s5,False,308,62,68,67,173,9,9,1,4,4,3,0,15,9,41

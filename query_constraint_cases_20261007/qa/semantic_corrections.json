@@ -1,0 +1,18 @@
+[
+  {
+    "stage": "after initial complete 12-comparison scan, before case selection/token/cache audit",
+    "issue": "Nonmatching class substring was incorrectly treated as a contradiction. Patio Rockers & Gliders and Porch Swings|Hammocks can contain explicitly titled chairs.",
+    "fix": "Apply globally: chair title plus compatible rocker/glider/swing class supports chair; otherwise unmatched class is insufficient evidence (UNKNOWN), not automatic CONTRADICTION. Explicit cover/cushion exclusions remain.",
+    "affects": "Product-type/joint status and preliminary grade only; no attribute mapping, clause count, candidate eligibility, metric, support, or bounds changed.",
+    "initial_screen_archive": "design_history/initial_screen",
+    "action": "Rerun all 12 comparisons; keep original protocol and clause design frozen."
+  },
+  {
+    "stage": "After three-case selection and full source-description reading",
+    "issue": "Phrase-limited text checker missed material mixtures in collection-level viscose wording and metal rocking-base descriptions.",
+    "fix": "Conservatively flag a recorded material decision AMBIGUOUS for explicit alternative-fiber collection variants, and frame decisions for incompatible structural-base material. Apply globally to all evidence and all 12 comparisons.",
+    "affects": "Attribute and joint counts, bounds and grades can change; no promotion, new query/constraint, K, field map, schedule or support change. Fixed selected queries stay 367/292/300 even if final screen ranking changes.",
+    "initial_screen_archive": "design_history/before_full_text_audit",
+    "rationale": "Implement existing no-ignored-conflict/variant rule; disclose this post-result correction rather than calling all final adjudication pre-result."
+  }
+]

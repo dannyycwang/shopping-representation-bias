@@ -1,0 +1,142 @@
+{
+  "protocol_sha256": "f0e8da857627ea6d5e8a067dc0d5b8fa0d856ef089d45d216b3a9ffe908d5764",
+  "run_checks": [
+    {
+      "model": "minilm",
+      "schedule": "C0",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "minilm",
+      "schedule": "C1",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "minilm",
+      "schedule": "C2s1",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "minilm",
+      "schedule": "C2s2",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "minilm",
+      "schedule": "C2s3",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "minilm",
+      "schedule": "C2s4",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "minilm",
+      "schedule": "C2s5",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "bge_base",
+      "schedule": "C0",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "bge_base",
+      "schedule": "C1",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "bge_base",
+      "schedule": "C2s1",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "bge_base",
+      "schedule": "C2s2",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "bge_base",
+      "schedule": "C2s3",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "bge_base",
+      "schedule": "C2s4",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    },
+    {
+      "model": "bge_base",
+      "schedule": "C2s5",
+      "queries": 308,
+      "complete_unique_lists": true,
+      "qrels_agree": true,
+      "judged_ranks_agree": true,
+      "metrics_agree": true
+    }
+  ],
+  "eligible_queries": 308,
+  "primary_cancellation": 73,
+  "candidate_records": 76,
+  "query_comparison_count": 3696,
+  "clause_summary_rows": 3768,
+  "scanned_clause_rows": 816,
+  "evidence_records": 4493,
+  "unique_products": 3614,
+  "unknown_top20_ids": 0,
+  "saved_rank_mismatches": 0,
+  "saved_metric_mismatches": 0
+}

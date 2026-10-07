@@ -1,0 +1,156 @@
+[
+  {
+    "model": "minilm",
+    "schedule": "C0",
+    "top_path": "phase2/results/phase2_top50/wands_minilm_native_C0.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C0.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_minilm_native_C0_6ffb5b340d35d66f2b33.npy",
+    "query_embedding": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "minilm",
+    "schedule": "C1",
+    "top_path": "phase2/results/phase2_top50/wands_minilm_native_C1.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C1.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_minilm_native_C1_3ee547664d76abcf96a3.npy",
+    "query_embedding": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "minilm",
+    "schedule": "C2s1",
+    "top_path": "phase2/results/phase2_top50/wands_minilm_native_C2s1.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s1.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_minilm_native_C2s1_45a99b07f4ca9c5d5955.npy",
+    "query_embedding": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "minilm",
+    "schedule": "C2s2",
+    "top_path": "phase2/results/phase2_top50/wands_minilm_native_C2s2.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s2.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_minilm_native_C2s2_5151741b5fee5b3e0e51.npy",
+    "query_embedding": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "minilm",
+    "schedule": "C2s3",
+    "top_path": "phase2/results/phase2_top50/wands_minilm_native_C2s3.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s3.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_minilm_native_C2s3_aedd8c4e450966998fc9.npy",
+    "query_embedding": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "minilm",
+    "schedule": "C2s4",
+    "top_path": "phase2/results/phase2_top50/wands_minilm_native_C2s4.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s4.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_minilm_native_C2s4_3edebedc49da2802393b.npy",
+    "query_embedding": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "minilm",
+    "schedule": "C2s5",
+    "top_path": "phase2/results/phase2_top50/wands_minilm_native_C2s5.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s5.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_minilm_native_C2s5_ad55c02317988c151d70.npy",
+    "query_embedding": "phase2/results/embeddings/wands_minilm_native_queries_dd4ec9d25c9825426d5d.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "bge_base",
+    "schedule": "C0",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C0.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C0.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_bge_base_native_C0_3a16535a80738388b384.npy",
+    "query_embedding": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "bge_base",
+    "schedule": "C1",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C1.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C1.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_bge_base_native_C1_b252c980dd5208f38418.npy",
+    "query_embedding": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "bge_base",
+    "schedule": "C2s1",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s1.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s1.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_bge_base_native_C2s1_99243d606aecfe6e2e17.npy",
+    "query_embedding": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "bge_base",
+    "schedule": "C2s2",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s2.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s2.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_bge_base_native_C2s2_d018d3290df3f3e4eb05.npy",
+    "query_embedding": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "bge_base",
+    "schedule": "C2s3",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s3.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s3.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_bge_base_native_C2s3_5204e915443fc9e769b4.npy",
+    "query_embedding": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "bge_base",
+    "schedule": "C2s4",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s4.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s4.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_bge_base_native_C2s4_b7437acffd0f07fb0059.npy",
+    "query_embedding": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  },
+  {
+    "model": "bge_base",
+    "schedule": "C2s5",
+    "top_path": "phase2/results/phase2_top50/wands_bge_base_native_C2s5.parquet",
+    "pairs_path": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s5.parquet",
+    "product_embedding": "phase2/results/embeddings/wands_bge_base_native_C2s5_cf8b89c3bcbb7482a813.npy",
+    "query_embedding": "phase2/results/embeddings/wands_bge_base_native_queries_38883e33627c0c4689f6.npy",
+    "available_rankings": true,
+    "cache_available": true,
+    "missing": []
+  }
+]

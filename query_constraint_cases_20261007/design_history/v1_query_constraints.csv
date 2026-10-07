@@ -1,0 +1,350 @@
+query_id,query,constraint_id,query_span,span_start,span_end,constraint_type,normalized_value,modifier,scope,query_ambiguous,included,inclusion_reason,exclusion_reason,other_explicit_clauses,scope_narrowed,known_seed
+0,salon chair,0:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+1,smart coffee table,1:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+2,dinosaur,2:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+3,turquoise pillows,3:color:0,turquoise,0.0,9.0,color,turquoise,pillow,whole,False,True,Literal attribute modifier,,[],False,False
+4,chair and a half recliner,4:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+5,sofa with ottoman,5:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+6,acrylic clear chair,6:material:0,acrylic,0.0,7.0,material,acrylic,chair,whole,False,True,Literal attribute modifier,,[],False,False
+6,acrylic clear chair,6:color:1,clear,8.0,13.0,color,clear,chair,whole,False,True,Literal attribute modifier,,[],False,False
+7,driftwood mirror,7:material:0,driftwood,0.0,9.0,material,driftwood,mirror,frame,False,True,Literal attribute modifier,,[],True,False
+9,coffee table fire pit,9:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+10,king poster bed,10:none,,,,deferred,,,,False,False,,king: nominal bed size,[],False,False
+11,ombre rug,11:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+13,outdoor privacy wall,13:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+14,beds that have leds,14:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+16,blk 18x18 seat cushions,16:color:0,blk,0.0,3.0,color,black,seat cushion,whole,False,True,Literal attribute modifier,,"[""18x18: units and dimensional axes unspecified""]",False,False
+16,blk 18x18 seat cushions,16:unassessed,18x18: units and dimensional axes unspecified,,,unassessed_context,,seat cushion,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""18x18: units and dimensional axes unspecified""]",False,False
+17,closet storage with zipper,17:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+20,foutains with brick look,20:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+22,light and navy blue decorative pillow,22:color:0,light and navy blue,0.0,19.0,color,light and navy blue,pillow,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""conjunction of shades; single or multiple items not specified""]",False,False
+22,light and navy blue decorative pillow,22:unassessed,conjunction of shades; single or multiple items not specified,,,unassessed_context,,pillow,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""conjunction of shades; single or multiple items not specified""]",False,False
+26,leather chairs,26:material:0,leather,0.0,7.0,material,leather,chair,upholstery,False,True,Literal attribute modifier,,[],True,False
+27,outdoor welcome rug,27:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+28,rooster decor,28:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+31,burnt orange curtains,31:color:0,burnt orange,0.0,12.0,color,burnt orange,curtain,whole,False,True,Literal attribute modifier,,[],False,False
+35,enclosed shoe rack,35:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+36,laundry basket with wheels,36:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+37,bar stool 24 inches height,37:none,,,,deferred,,,,False,False,,24 inches height: seat versus overall height unspecified; raw units not documented,[],False,False
+38,calvin patio chair,38:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+39,door jewelry organizer,39:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+40,elegant executive chair,40:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+41,closet pull out valet rod,41:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+42,toddler couch fold out,42:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+44,chrome shower head and valve,44:none,,,,deferred,,,,False,False,,"chrome: surface finish, not assumed bulk material or color",[],False,False
+45,70s inspired furniture,45:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+46,beach blue headboard,46:color:0,blue,6.0,10.0,color,blue,headboard,whole,False,True,Literal attribute modifier,,"[""beach: style or shade qualifier not resolved""]",False,False
+46,beach blue headboard,46:unassessed,beach: style or shade qualifier not resolved,,,unassessed_context,,headboard,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""beach: style or shade qualifier not resolved""]",False,False
+48,arwen table lamp,48:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+50,tufted chair with gold legs,50:color:0,gold,18.0,22.0,color,gold,chair,legs,False,True,Literal attribute modifier,,"[""tufted""]",False,False
+50,tufted chair with gold legs,50:unassessed,tufted,,,unassessed_context,,chair,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""tufted""]",False,False
+51,kohen 5 drawer dresser,51:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+54,wayfair sleep zippered,54:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+55,tollette teal outdoor rug,55:color:0,teal,9.0,13.0,color,teal,rug,whole,False,True,Literal attribute modifier,,"[""tollette: named product identity""]",False,False
+55,tollette teal outdoor rug,55:unassessed,tollette: named product identity,,,unassessed_context,,rug,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""tollette: named product identity""]",False,False
+59,broadway lever,59:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+60,capricorn chest,60:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+62,7qt slow cooker,62:none,,,,deferred,,,,False,False,,7qt: capacity outside dimensional scope,[],False,False
+63,monthly calendar,63:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+64,zachary 72.5,64:none,,,,deferred,,,,False,False,,72.5: unit/direction absent,[],False,False
+65,gnome fairy garden,65:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+66,novara pergola,66:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+68,nautical platters,68:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+69,wall sconce with usb port,69:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+70,annex dresser,70:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+71,infant girl crib bedding,71:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+72,fold in half table,72:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+74,serta kleinmon,74:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+75,sheffield home bath set,75:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+76,46 inch closet door,76:none,,,,deferred,,,,False,False,,46 inch: width/height unspecified,[],False,False
+77,sancroft armchair,77:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+78,dorel vanity,78:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+81,orren ellis l shape desk,81:shape:0,l shape,12.0,19.0,shape,l-shaped,desk,whole,False,True,Literal attribute modifier,,"[""orren ellis: brand""]",False,False
+81,orren ellis l shape desk,81:unassessed,orren ellis: brand,,,unassessed_context,,desk,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""orren ellis: brand""]",False,False
+82,bathroom vanity with counter space,82:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+84,full metal bed rose gold,84:material:0,metal,5.0,10.0,material,metal,bed,frame,False,True,Literal attribute modifier,,"[""full: nominal bed size deferred""]",True,False
+84,full metal bed rose gold,84:color:1,rose gold,15.0,24.0,color,rose gold,bed,whole,False,True,Literal attribute modifier,,"[""full: nominal bed size deferred""]",False,False
+84,full metal bed rose gold,84:unassessed,full: nominal bed size deferred,,,unassessed_context,,bed,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""full: nominal bed size deferred""]",False,False
+86,aloe vera plant pot,86:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+88,rose gold lounge,88:color:0,rose gold,0.0,9.0,color,rose gold,lounge,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""lounge has no unambiguous product head""]",False,False
+88,rose gold lounge,88:unassessed,lounge has no unambiguous product head,,,unassessed_context,,lounge,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""lounge has no unambiguous product head""]",False,False
+89,whimsical solar lights,89:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+91,industrial pipe dining  table,91:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+93,outdoor sectional dining,93:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+94,kohler whitehaven farmhouse kitchen sink,94:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+95,entertainment stand end table,95:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+97,regner power loom red,97:color:0,red,18.0,21.0,color,red,rug,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""regner: named product; rug head omitted; power loom""]",False,False
+97,regner power loom red,97:unassessed,regner: named product; rug head omitted; power loom,,,unassessed_context,,rug,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""regner: named product; rug head omitted; power loom""]",False,False
+101,48 in entry table with side by side drawer,101:none,,,,deferred,,,,False,False,,48 in: axis unspecified,[],False,False
+102,flamingo,102:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+104,flour and sugar containers,104:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+107,front porch furniture sets,107:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+108,ayesha curry kitchen,108:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+109,hillsby oriental rug,109:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+111,delta trinsic,111:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+112,pineapple,112:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+114,geralyn upholstered storage platform bed,114:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+115,peacock,115:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+119,welcome sign,119:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+120,zodiac pillow,120:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+121,upholstered bed,121:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+122,king size bed,122:none,,,,deferred,,,,False,False,,king size: nominal size,[],False,False
+123,entrance table,123:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+124,unique coffee tables,124:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+125,boho bed frame,125:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+126,leather dining chairs,126:material:0,leather,0.0,7.0,material,leather,chair,upholstery,False,True,Literal attribute modifier,,"[""dining use""]",True,False
+126,leather dining chairs,126:unassessed,dining use,,,unassessed_context,,chair,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""dining use""]",False,False
+127,wine bar,127:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+128,block coffee table,128:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+129,wainscoting ideas,129:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+130,entertainment console,130:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+131,kids chair,131:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+132,farmhouse cabinet,132:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+137,orren ellis l shaped desk,137:shape:0,l shaped,12.0,20.0,shape,l-shaped,desk,whole,False,True,Literal attribute modifier,,"[""orren ellis: brand""]",False,False
+137,orren ellis l shaped desk,137:unassessed,orren ellis: brand,,,unassessed_context,,desk,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""orren ellis: brand""]",False,False
+138,glass doors for bath,138:material:0,glass,0.0,5.0,material,glass,door,whole,False,True,Literal attribute modifier,,"[""for bath: compatibility""]",False,False
+138,glass doors for bath,138:unassessed,for bath: compatibility,,,unassessed_context,,door,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""for bath: compatibility""]",False,False
+140,wire basket with dividers,140:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+141,podium with locking cabinet,141:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+142,kitchen wooden stand,142:material:0,wooden,8.0,14.0,material,wood,stand,whole,False,True,Literal attribute modifier,,"[""kitchen use""]",False,False
+142,kitchen wooden stand,142:unassessed,kitchen use,,,unassessed_context,,stand,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""kitchen use""]",False,False
+143,queen wingback chair,143:none,,,,deferred,,,,False,False,,queen may be a product-name modifier on chair,[],False,False
+144,rug plum,144:color:0,plum,4.0,8.0,color,plum,rug,whole,False,True,Literal attribute modifier,,[],False,False
+145,liberty hardware francisco,145:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+146,laundry vanity cabinet,146:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+147,drum picture,147:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+148,industrial,148:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+150,dumbbells,150:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+151,leather chair,151:material:0,leather,0.0,7.0,material,leather,chair,upholstery,False,True,Literal attribute modifier,,[],True,False
+153,bohemian,153:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+155,floating bed,155:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+158,led nightstand,158:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+159,meditation,159:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+160,marble,160:material:0,marble,0.0,6.0,material,marble,,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""no product head; material or marble pattern unresolved""]",False,False
+160,marble,160:unassessed,no product head; material or marble pattern unresolved,,,unassessed_context,,,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""no product head; material or marble pattern unresolved""]",False,False
+161,accent chair recliner,161:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+163,dual monitor stand,163:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+164,modern outdoor furniture,164:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+165,kitchen storage shelves,165:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+166,feather wall art,166:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+167,camper,167:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+169,coffee bar buffet,169:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+170,zen,170:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+172,picasso,172:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+173,bedroom accessories,173:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+175,basket planter,175:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+176,mexican art,176:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+177,rustic storage cabinet,177:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+178,almost heaven sauna,178:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+180,outdoor lounge cushions,180:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+182,penny round tile,182:shape:0,round,6.0,11.0,shape,round,tile,whole,False,True,Literal attribute modifier,,"[""penny: nominal mosaic scale not independently verified""]",False,False
+182,penny round tile,182:unassessed,penny: nominal mosaic scale not independently verified,,,unassessed_context,,tile,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""penny: nominal mosaic scale not independently verified""]",False,False
+183,farmhouse bread box,183:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+184,sugar canister,184:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+185,lunch bag,185:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+186,board game storage cabinet,186:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+189,big basket for dirty cloths,189:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+190,benjiamino faux leather power lift chair,190:material:0,faux leather,11.0,23.0,material,faux leather,chair,upholstery,False,True,Literal attribute modifier,,"[""benjiamino: identity"", ""power lift""]",True,False
+190,benjiamino faux leather power lift chair,190:unassessed,benjiamino: identity; power lift,,,unassessed_context,,chair,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""benjiamino: identity"", ""power lift""]",False,False
+195,black freestanding tub  with faucet,195:color:0,black,0.0,5.0,color,black,bathtub,whole,False,True,Literal attribute modifier,,"[""freestanding"", ""with faucet""]",False,False
+195,black freestanding tub  with faucet,195:unassessed,freestanding; with faucet,,,unassessed_context,,bathtub,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""freestanding"", ""with faucet""]",False,False
+197,desk for kids tjat ate 10 year old,197:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+198,cake plates with tops,198:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+200,ceramic tile sea shell,200:material:0,ceramic,0.0,7.0,material,ceramic,tile,whole,False,True,Literal attribute modifier,,"[""sea shell: pattern or shape not specified""]",False,False
+200,ceramic tile sea shell,200:unassessed,sea shell: pattern or shape not specified,,,unassessed_context,,tile,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""sea shell: pattern or shape not specified""]",False,False
+202,full mattress padded liner,202:none,,,,deferred,,,,False,False,,full: nominal mattress size,[],False,False
+203,ge top loading washer 4.5,203:none,,,,deferred,,,,False,False,,4.5: capacity/unit omitted,[],False,False
+204,fleur de lis living candle wall sconce bronze,204:none,,,,deferred,,,,False,False,,bronze: finish/material ambiguity,[],False,False
+206,grill cover 73,206:none,,,,deferred,,,,False,False,,73: unit/direction absent,[],False,False
+210,love seat wide faux leather tuxedo arm sofa,210:material:0,faux leather,15.0,27.0,material,faux leather,sofa,upholstery,False,True,Literal attribute modifier,,"[""love seat: capacity"", ""wide: no numeric bound"", ""tuxedo arm""]",True,False
+210,love seat wide faux leather tuxedo arm sofa,210:unassessed,love seat: capacity; wide: no numeric bound; tuxedo arm,,,unassessed_context,,sofa,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""love seat: capacity"", ""wide: no numeric bound"", ""tuxedo arm""]",False,False
+212,nettie 5 pc bar set,212:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+213,kraus kitchen sink faucet oletto kpf 2820 sfs,213:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+215,king adjustable bed including mattress,215:none,,,,deferred,,,,False,False,,king: nominal bed size,[],False,False
+216,music plug wall plate,216:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+220,sheets for twinxl,220:none,,,,deferred,,,,False,False,,twinxl: nominal bedding size,[],False,False
+221,small space dining table and chairs sets,221:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+222,small loving roomtables,222:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+223,wisdom stone river 3-3/4,223:none,,,,deferred,,,,False,False,,3-3/4: unit/direction absent,[],False,False
+226,power lift chair,226:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+227,owl,227:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+229,waterfall faucet,229:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+230,gold,230:color:0,gold,0.0,4.0,color,gold,,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""no product head; color versus precious metal unresolved""]",False,False
+230,gold,230:unassessed,no product head; color versus precious metal unresolved,,,unassessed_context,,,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""no product head; color versus precious metal unresolved""]",False,False
+231,anti fatigue mat,231:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+232,storage dresser,232:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+233,kelly clarkson light fixtures,233:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+234,artificial orchid arrangement,234:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+235,bathroom wastebasket,235:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+236,3 piece rug set with runners,236:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+238,outdoor seat/back cushion,238:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+239,bathroom single faucet,239:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+241,decorative wall clocks,241:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+242,accent leather chair,242:material:0,leather,7.0,14.0,material,leather,chair,upholstery,False,True,Literal attribute modifier,,"[""accent style""]",True,False
+242,accent leather chair,242:unassessed,accent style,,,unassessed_context,,chair,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""accent style""]",False,False
+243,indoor multi tiered plant stand,243:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+244,pull out sleeper loveseat,244:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+245,anchor decor,245:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+246,clear shower curtain,246:color:0,clear,0.0,5.0,color,clear,shower curtain,whole,False,True,Literal attribute modifier,,[],False,False
+247,beaded curtains,247:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+248,surge protector,248:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+249,bistro table and chairs,249:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+250,multi color rug,250:color:0,multi color,0.0,11.0,color,multicolor,rug,whole,False,True,Literal attribute modifier,,[],False,False
+251,coffee container,251:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+252,accent chairs living room,252:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+253,antique brass faucet,253:none,,,,deferred,,,,False,False,,"antique brass: finish, not bulk material",[],False,False
+254,comfortable accent chair,254:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+255,desk and chair set,255:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+257,living room coffee table sets,257:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+260,retractable side awning,260:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+263,small curtain rods,263:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+264,cortez pillow,264:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+266,champagne velvet desk chair,266:color:0,champagne,0.0,9.0,color,champagne,chair,whole,False,True,Literal attribute modifier,,"[""desk use""]",False,False
+266,champagne velvet desk chair,266:material:1,velvet,10.0,16.0,material,velvet,chair,upholstery,False,True,Literal attribute modifier,,"[""desk use""]",True,False
+266,champagne velvet desk chair,266:unassessed,desk use,,,unassessed_context,,chair,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""desk use""]",False,False
+267,dolomite subway tile,267:material:0,dolomite,0.0,8.0,material,dolomite,tile,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""dolomite may be collection/pattern; subway format""]",False,False
+267,dolomite subway tile,267:unassessed,dolomite may be collection/pattern; subway format,,,unassessed_context,,tile,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""dolomite may be collection/pattern; subway format""]",False,False
+268,betty resin free standing umbrella,268:material:0,resin,6.0,11.0,material,resin,umbrella,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""betty: identity; resin could modify base rather than canopy/frame"", ""free standing""]",False,False
+268,betty resin free standing umbrella,268:unassessed,betty: identity; resin could modify base rather than canopy/frame; free standing,,,unassessed_context,,umbrella,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""betty: identity; resin could modify base rather than canopy/frame"", ""free standing""]",False,False
+270,edge chair mat,270:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+271,chinese flower stand,271:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+273,stainless steel free standing shower caddy,273:material:0,stainless steel,0.0,15.0,material,stainless steel,shower caddy,whole,False,True,Literal attribute modifier,,"[""free standing""]",False,False
+273,stainless steel free standing shower caddy,273:unassessed,free standing,,,unassessed_context,,shower caddy,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""free standing""]",False,False
+274,gowdy height adjustable standing desk,274:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+275,hinged square ottoman,275:shape:0,square,7.0,13.0,shape,square,ottoman,whole,False,True,Literal attribute modifier,,"[""hinged""]",False,False
+275,hinged square ottoman,275:unassessed,hinged,,,unassessed_context,,ottoman,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""hinged""]",False,False
+277,barstool patio sets,277:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+278,parakeet toy,278:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+279,marlon tufted queen bed,279:none,,,,deferred,,,,False,False,,queen: nominal bed size,[],False,False
+281,brunk ship wheel,281:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+282,grantola wall mirror,282:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+285,"48"" sliding single track , barn door for laundry",285:none,,,,deferred,,,,False,False,,48 inch: door dimension unspecified,[],False,False
+289,coma inducer comforter king set,289:none,,,,deferred,,,,False,False,,king: nominal bedding size,[],False,False
+291,front door cabinet with doors,291:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+292,decorative white pillow,292:color:0,white,11.0,16.0,color,white,pillow,whole,False,True,Literal attribute modifier,,[],False,True
+295,end table between recliners,295:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+296,zakariyah twin platform,296:none,,,,deferred,,,,False,False,,twin: nominal bed size,[],False,False
+297,seat cushions desk,297:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+298,small woven pouf,298:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+300,animal print handmade tufted wool beige/black area rug by allmodern,300:material:0,wool,29.0,33.0,material,wool,rug,whole,False,True,Literal attribute modifier,,"[""animal print"", ""handmade"", ""tufted"", ""by allmodern: brand""]",False,False
+300,animal print handmade tufted wool beige/black area rug by allmodern,300:color:1,beige/black,34.0,45.0,color,beige/black,rug,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""animal print"", ""handmade"", ""tufted"", ""by allmodern: brand""]",False,False
+300,animal print handmade tufted wool beige/black area rug by allmodern,300:unassessed,animal print; handmade; tufted; by allmodern: brand,,,unassessed_context,,rug,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""animal print"", ""handmade"", ""tufted"", ""by allmodern: brand""]",False,False
+301,circle cabinet pulls,301:shape:0,circle,0.0,6.0,shape,round,cabinet pull,whole,False,True,Literal attribute modifier,,[],False,False
+302,mattress foam topper queen,302:material:0,foam,9.0,13.0,material,foam,mattress topper,whole,False,True,Literal attribute modifier,,"[""queen: nominal size""]",False,False
+302,mattress foam topper queen,302:unassessed,queen: nominal size,,,unassessed_context,,mattress topper,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""queen: nominal size""]",False,False
+303,hawaii vintage art,303:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+305,ligth bulb,305:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+306,mobley zero gravity adjustable bed with wireless remote,306:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+307,real touch roses floral arrangements in glass vase,307:material:0,glass,40.0,45.0,material,glass,floral arrangement,vase,False,True,Literal attribute modifier,,"[""real touch"", ""roses""]",True,False
+307,real touch roses floral arrangements in glass vase,307:unassessed,real touch; roses,,,unassessed_context,,floral arrangement,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""real touch"", ""roses""]",False,False
+308,led 60,308:none,,,,deferred,,,,False,False,,60: role/unit absent,[],False,False
+310,meade mirror,310:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+311,odum velvet,311:material:0,velvet,5.0,11.0,material,velvet,,upholstery,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""odum: identity; product head omitted""]",True,False
+311,odum velvet,311:unassessed,odum: identity; product head omitted,,,unassessed_context,,,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""odum: identity; product head omitted""]",False,False
+313,malachi sled,313:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+315,medium clips,315:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+316,rolande heavy duty power lift assist recliner,316:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+317,hulmeville writing desk with hutch,317:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+319,landis wall mounted bathroom shelves,319:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+320,blaylock bookcase headboard,320:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+323,hub leaning full length mirror,323:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+325,outdoor waterproof chest,325:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+326,bowersville ladder writing desk,326:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+327,kohler purist brushed bronze,327:none,,,,deferred,,,,False,False,,brushed bronze: finish,[],False,False
+328,golub dining table,328:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+329,wayfair tension rod,329:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+330,kari 2 piece,330:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+331,upholstered girls bed,331:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+332,attleboro drum coffee table,332:shape:0,drum,10.0,14.0,shape,drum,coffee table,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""attleboro: identity; drum is form/style rather than unique geometric category""]",False,False
+332,attleboro drum coffee table,332:unassessed,attleboro: identity; drum is form/style rather than unique geometric category,,,unassessed_context,,coffee table,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""attleboro: identity; drum is form/style rather than unique geometric category""]",False,False
+333,stainless steel colander set,333:material:0,stainless steel,0.0,15.0,material,stainless steel,colander,whole,False,True,Literal attribute modifier,,"[""set: cardinality not specified""]",False,False
+333,stainless steel colander set,333:unassessed,set: cardinality not specified,,,unassessed_context,,colander,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""set: cardinality not specified""]",False,False
+334,itchington butterfly,334:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+335,canadian,335:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+337,iittala bowl,337:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+339,ruckus chair,339:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+341,canvas map art,341:material:0,canvas,0.0,6.0,material,canvas,wall art,art surface,False,True,Literal attribute modifier,,"[""map subject""]",True,False
+341,canvas map art,341:unassessed,map subject,,,unassessed_context,,wall art,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""map subject""]",False,False
+342,brendon counter stool,342:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+346,nesting tray set,346:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+349,mud room sign,349:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+352,amarillo,352:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+353,pennfield playhouse,353:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+355,argenteuil,355:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+357,tall free standing pet gate,357:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+358,sliding closet mirror,358:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+359,french molding,359:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+367,wooden chair outdoor,367:material:0,wooden,0.0,6.0,material,wood,chair,frame,False,True,Literal attribute modifier,,[],True,True
+368,pasta tools,368:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+369,wrought tv stand,369:none,,,,deferred,,,,False,False,,wrought: incomplete material expression,[],False,False
+370,rug for teen room,370:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+371,milk cow chair,371:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+372,verden callan,372:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+376,island estate coffee table,376:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+380,gravity feeder,380:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+382,counter top one cup hot water dispenser,382:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+389,brush nickel faucet bathroom,389:none,,,,deferred,,,,False,False,,"brush nickel: finish, not bulk nickel",[],False,False
+396,alyse 8 light,396:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+398,super bright lights,398:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+402,modern farmhouse lighting semi flush mount,402:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+403,wood rack wide,403:material:0,wood,0.0,4.0,material,wood,rack,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""wood may be stored firewood, not rack material"", ""wide: no numeric bound""]",False,False
+403,wood rack wide,403:unassessed,"wood may be stored firewood, not rack material; wide: no numeric bound",,,unassessed_context,,rack,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""wood may be stored firewood, not rack material"", ""wide: no numeric bound""]",False,False
+404,large cushion outdoor chair,404:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+406,refrigerator with ice an water in door,406:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+407,huge bookcase,407:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+408,girl reading statue,408:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+409,teal chair,409:color:0,teal,0.0,4.0,color,teal,chair,whole,False,True,Literal attribute modifier,,[],False,False
+410,pool floats,410:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+412,jennie tufted upholstered low profile platform bed,412:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+415,toilet paper stand,415:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+417,twin bed frame,417:none,,,,deferred,,,,False,False,,twin: nominal bed size,[],False,False
+418,writing desk,418:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+419,living room ideas,419:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+420,tile backsplash,420:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+421,dining room tables,421:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+422,ergonomic chair,422:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+423,wall shelves,423:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+425,side table with storage,425:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+426,outdoor storage,426:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+428,kitchen storage cabinet,428:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+429,gray dresser,429:color:0,gray,0.0,4.0,color,gray,dresser,whole,False,True,Literal attribute modifier,,[],False,False
+431,shoe bench entryway,431:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+432,butcher block island,432:none,,,,deferred,,,,False,False,,"butcher block: construction/style, not explicit wood value",[],False,False
+433,trundle daybed,433:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+434,bathroom lighting,434:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+435,shoe closet,435:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+436,full bed with trundle,436:none,,,,deferred,,,,False,False,,full: nominal bed size,[],False,False
+437,kitchen islands with seating,437:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+438,indoor water fountain,438:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+439,parsons chairs,439:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+440,wood bar stools,440:material:0,wood,0.0,4.0,material,wood,stool,frame,False,True,Literal attribute modifier,,"[""bar: nominal seat height/use not independently verified""]",True,False
+440,wood bar stools,440:unassessed,bar: nominal seat height/use not independently verified,,,unassessed_context,,stool,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""bar: nominal seat height/use not independently verified""]",False,False
+441,desk for kids,441:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+442,above toilet cabinet,442:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+443,patio design,443:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+444,outdoor lounge chair,444:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+445,chaise lounge couch,445:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+446,card table,446:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+447,tall buffet cabinet,447:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+448,bed side table,448:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+453,midcentury tv unit,453:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+455,deer coat hooks,455:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+456,wall design shelf,456:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+459,tye dye duvet cover,459:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+460,small wardrobe grey,460:color:0,grey,15.0,19.0,color,gray,wardrobe,whole,False,True,Literal attribute modifier,,"[""small: no numeric bound""]",False,False
+460,small wardrobe grey,460:unassessed,small: no numeric bound,,,unassessed_context,,wardrobe,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""small: no numeric bound""]",False,False
+461,luau string lights,461:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+464,cake cutlery,464:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+465,white abstract,465:color:0,white,0.0,5.0,color,white,,whole,True,True,Literal query span with fixed field mapping; ambiguous spans remain exploratory C only,,"[""abstract: no product head; may refer to artwork""]",False,False
+465,white abstract,465:unassessed,abstract: no product head; may refer to artwork,,,unassessed_context,,,,True,False,,Retained restriction; outside reliable mapped clause audit,"[""abstract: no product head; may refer to artwork""]",False,False
+466,rock climbing wall kids,466:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+468,glow in the dark silent wall clock,468:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+469,garage sports storage rack,469:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+470,elephant framed,470:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+471,adjustable height artist stool,471:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+472,window wall accent,472:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+473,chair pillow cushion,473:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+476,hardwood beds,476:material:0,hardwood,0.0,8.0,material,hardwood,bed,frame,False,True,Literal attribute modifier,,[],True,False
+481,emma headboard,481:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
+482,48 inch kitchen hood,482:none,,,,deferred,,,,False,False,,48 inch: likely nominal width but units of raw width field not documented,[],False,False
+483,rustic twig,483:none,,,,none,,,,False,False,,No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names,[],False,False
