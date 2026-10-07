@@ -1,0 +1,78 @@
+{
+  "started_utc": "2026-10-07T13:25:11.628328+00:00",
+  "source_head": "be9f8ab795a09f3da106526b4cf6bee80565dd2f",
+  "source_branch": "codex/option-coverage-20261007",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\query_constraint_cases_20261007\\prepare.py"
+      ],
+      "cwd": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+      "exit_code": 0,
+      "seconds": 0.91,
+      "output": "qa/run_logs/prepare.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\query_constraint_cases_20261007\\test_semantics.py"
+      ],
+      "cwd": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+      "exit_code": 0,
+      "seconds": 0.32,
+      "output": "qa/run_logs/test_semantics.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\query_constraint_cases_20261007\\scan.py"
+      ],
+      "cwd": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+      "exit_code": 0,
+      "seconds": 11.334,
+      "output": "qa/run_logs/scan.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\query_constraint_cases_20261007\\audit_cases.py"
+      ],
+      "cwd": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+      "exit_code": 0,
+      "seconds": 12.369,
+      "output": "qa/run_logs/audit_cases.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\query_constraint_cases_20261007\\verify.py"
+      ],
+      "cwd": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+      "exit_code": 0,
+      "seconds": 7.563,
+      "output": "qa/run_logs/verify.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\query_constraint_cases_20261007\\report.py"
+      ],
+      "cwd": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+      "exit_code": 0,
+      "seconds": 1.522,
+      "output": "qa/run_logs/report.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\query_constraint_cases_20261007\\report.py"
+      ],
+      "cwd": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+      "exit_code": 0,
+      "seconds": 1.033,
+      "output": "qa/run_logs/report_final.log",
+      "reason": "Final prose review: disclose retained outdoor UNKNOWN and format table as two-column float."
+    }
+  ]
+}

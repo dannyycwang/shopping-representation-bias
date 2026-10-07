@@ -1,0 +1,22 @@
+{
+  "selected": [
+    {
+      "query_id": 367,
+      "comparison": "bge_base_C0_C1",
+      "constraint_id": "367:material:0"
+    },
+    {
+      "query_id": 292,
+      "comparison": "bge_base_C0_C1",
+      "constraint_id": "292:color:0"
+    },
+    {
+      "query_id": 300,
+      "comparison": "minilm_C0_C1",
+      "constraint_id": "300:material:0"
+    }
+  ],
+  "reason": "Two required seed audits plus first distinct additional query in fixed preliminary ranking; execution audit can downgrade but cannot trigger a fourth case.",
+  "all_comparisons_completed": true,
+  "candidates": 76
+}

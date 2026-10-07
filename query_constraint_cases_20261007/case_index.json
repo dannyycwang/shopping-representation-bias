@@ -1,0 +1,83 @@
+[
+  {
+    "case_name": "q367_bge_base_C0_C1",
+    "query_id": 367,
+    "comparison": "bge_base_C0_C1",
+    "constraint_id": "367:material:0",
+    "final_grade": "A",
+    "reproduced": true,
+    "token_summary": {
+      "query_tokens_with_special": 5,
+      "query_fully_fitting": true,
+      "union_products": 24,
+      "union_schedule_sequences": 48,
+      "union_fitting_sequences": 10,
+      "changed_products": 8,
+      "changed_schedule_sequences": 16,
+      "changed_fitting_sequences": 0,
+      "changed_min_tokens": 555,
+      "changed_max_tokens": 870,
+      "union_min_tokens": 333,
+      "union_max_tokens": 1036,
+      "tokenizer_class": "BertTokenizerFast",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "max_length": 512,
+      "padding_side": "right",
+      "truncation_side": "right"
+    }
+  },
+  {
+    "case_name": "q292_bge_base_C0_C1",
+    "query_id": 292,
+    "comparison": "bge_base_C0_C1",
+    "constraint_id": "292:color:0",
+    "final_grade": "C",
+    "reproduced": true,
+    "token_summary": {
+      "query_tokens_with_special": 5,
+      "query_fully_fitting": true,
+      "union_products": 27,
+      "union_schedule_sequences": 54,
+      "union_fitting_sequences": 8,
+      "changed_products": 14,
+      "changed_schedule_sequences": 28,
+      "changed_fitting_sequences": 2,
+      "changed_min_tokens": 494,
+      "changed_max_tokens": 702,
+      "union_min_tokens": 366,
+      "union_max_tokens": 787,
+      "tokenizer_class": "BertTokenizerFast",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "max_length": 512,
+      "padding_side": "right",
+      "truncation_side": "right"
+    }
+  },
+  {
+    "case_name": "q300_minilm_C0_C1",
+    "query_id": 300,
+    "comparison": "minilm_C0_C1",
+    "constraint_id": "300:material:0",
+    "final_grade": "B",
+    "reproduced": true,
+    "token_summary": {
+      "query_tokens_with_special": 18,
+      "query_fully_fitting": true,
+      "union_products": 25,
+      "union_schedule_sequences": 50,
+      "union_fitting_sequences": 4,
+      "changed_products": 10,
+      "changed_schedule_sequences": 20,
+      "changed_fitting_sequences": 2,
+      "changed_min_tokens": 203,
+      "changed_max_tokens": 838,
+      "union_min_tokens": 203,
+      "union_max_tokens": 838,
+      "tokenizer_class": "BertTokenizerFast",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "max_length": 256,
+      "padding_side": "right",
+      "truncation_side": "right"
+    }
+  }
+]

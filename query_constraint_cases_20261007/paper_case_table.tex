@@ -1,0 +1,29 @@
+% Standalone table fragment; requires booktabs in the eventual manuscript.
+% Kept in analysis directory: manuscript is not edited.
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{llrrl}
+\toprule
+Product ID & Name & C0 rank & C1 rank & Recorded frame \\
+\midrule
+26196 & Joetta & 6 & 23 & Solid wood (acacia) \\
+36317 & Vandergriff & 12 & 69 & Solid wood (mahogany) \\
+26195 & Jettie & 30 & 20 & Solid wood (acacia) \\
+32126 & Lewallen & 38 & 17 & Plastic/resin \\
+\midrule
+\multicolumn{5}{l}{Full Top-20 M/C/U/A: $8/3/1/8 \to 6/5/1/8$} \\
+\multicolumn{5}{l}{Exact subset M/C/U/A: $5/0/1/1 \to 4/1/1/1$} \\
+\bottomrule
+\end{tabular}
+\caption{Exploratory WANDS/BGE native, catalog-wide C0-to-C1 case for
+\texttt{wooden chair outdoor}. All four Exact-labeled membership changes
+are shown, including the plastic/resin-frame item. There are four total
+departures and four arrivals; the remaining changes are documented in the
+analysis. M/C/U/A denote recorded frame MATCH/CONTRADICTION/UNKNOWN/AMBIGUOUS.
+Recall remains $7/42$; nDCG changes $0.43436\to0.42901$.
+After cancelling shared uncertain items, full-set and Exact-subset
+differences are $-2$ and $-1$. All eight changed products exceed the
+512-token limit. No claim of whole-query satisfaction or direct displacement.}
+\label{tab:query-constraint-illustration}
+\end{table*}

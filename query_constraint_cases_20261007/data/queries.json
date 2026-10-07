@@ -1,0 +1,3338 @@
+[
+  {
+    "query_id": 0,
+    "query": "salon chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 1,
+    "query": "smart coffee table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 2,
+    "query": "dinosaur",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 3,
+    "query": "turquoise pillows",
+    "product_head": "pillow",
+    "constraints": [
+      "3:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 4,
+    "query": "chair and a half recliner",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 5,
+    "query": "sofa with ottoman",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 6,
+    "query": "acrylic clear chair",
+    "product_head": "chair",
+    "constraints": [
+      "6:material:0",
+      "6:color:1"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 7,
+    "query": "driftwood mirror",
+    "product_head": "mirror",
+    "constraints": [
+      "7:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 9,
+    "query": "coffee table fire pit",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 10,
+    "query": "king poster bed",
+    "product_head": "bed",
+    "constraints": [
+      "10:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "poster"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 11,
+    "query": "ombre rug",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 13,
+    "query": "outdoor privacy wall",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 14,
+    "query": "beds that have leds",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 16,
+    "query": "blk 18x18 seat cushions",
+    "product_head": "seat cushion",
+    "constraints": [
+      "16:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "18x18: units and dimensional axes unspecified"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 17,
+    "query": "closet storage with zipper",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 20,
+    "query": "foutains with brick look",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 22,
+    "query": "light and navy blue decorative pillow",
+    "product_head": "pillow",
+    "constraints": [
+      "22:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "conjunction of shades; single or multiple items not specified"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 26,
+    "query": "leather chairs",
+    "product_head": "chair",
+    "constraints": [
+      "26:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 27,
+    "query": "outdoor welcome rug",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 28,
+    "query": "rooster decor",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 31,
+    "query": "burnt orange curtains",
+    "product_head": "curtain",
+    "constraints": [
+      "31:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 35,
+    "query": "enclosed shoe rack",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 36,
+    "query": "laundry basket with wheels",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 37,
+    "query": "bar stool 24 inches height",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "24 inches height: seat versus overall height unspecified; raw units not documented"
+  },
+  {
+    "query_id": 38,
+    "query": "calvin patio chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 39,
+    "query": "door jewelry organizer",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 40,
+    "query": "elegant executive chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 41,
+    "query": "closet pull out valet rod",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 42,
+    "query": "toddler couch fold out",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 44,
+    "query": "chrome shower head and valve",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "chrome: surface finish, not assumed bulk material or color"
+  },
+  {
+    "query_id": 45,
+    "query": "70s inspired furniture",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 46,
+    "query": "beach blue headboard",
+    "product_head": "headboard",
+    "constraints": [
+      "46:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "beach: style or shade qualifier not resolved"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 48,
+    "query": "arwen table lamp",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 50,
+    "query": "tufted chair with gold legs",
+    "product_head": "chair",
+    "constraints": [
+      "50:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "tufted"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 51,
+    "query": "kohen 5 drawer dresser",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 54,
+    "query": "wayfair sleep zippered",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 55,
+    "query": "tollette teal outdoor rug",
+    "product_head": "rug",
+    "constraints": [
+      "55:color:0"
+    ],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [
+      "tollette: named product identity"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 59,
+    "query": "broadway lever",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 60,
+    "query": "capricorn chest",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 62,
+    "query": "7qt slow cooker",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "7qt: capacity outside dimensional scope"
+  },
+  {
+    "query_id": 63,
+    "query": "monthly calendar",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 64,
+    "query": "zachary 72.5",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "72.5: unit/direction absent"
+  },
+  {
+    "query_id": 65,
+    "query": "gnome fairy garden",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 66,
+    "query": "novara pergola",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 68,
+    "query": "nautical platters",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 69,
+    "query": "wall sconce with usb port",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 70,
+    "query": "annex dresser",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 71,
+    "query": "infant girl crib bedding",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 72,
+    "query": "fold in half table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 74,
+    "query": "serta kleinmon",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 75,
+    "query": "sheffield home bath set",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 76,
+    "query": "46 inch closet door",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "46 inch: width/height unspecified"
+  },
+  {
+    "query_id": 77,
+    "query": "sancroft armchair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 78,
+    "query": "dorel vanity",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 81,
+    "query": "orren ellis l shape desk",
+    "product_head": "desk",
+    "constraints": [
+      "81:shape:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "orren ellis: brand"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 82,
+    "query": "bathroom vanity with counter space",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 84,
+    "query": "full metal bed rose gold",
+    "product_head": "bed",
+    "constraints": [
+      "84:material:0",
+      "84:color:1",
+      "84:nominal_size:2"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 86,
+    "query": "aloe vera plant pot",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 88,
+    "query": "rose gold lounge",
+    "product_head": "lounge",
+    "constraints": [
+      "88:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "lounge has no unambiguous product head"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 89,
+    "query": "whimsical solar lights",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 91,
+    "query": "industrial pipe dining  table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 93,
+    "query": "outdoor sectional dining",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 94,
+    "query": "kohler whitehaven farmhouse kitchen sink",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 95,
+    "query": "entertainment stand end table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 97,
+    "query": "regner power loom red",
+    "product_head": "rug",
+    "constraints": [
+      "97:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "regner: named product; rug head omitted; power loom"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 101,
+    "query": "48 in entry table with side by side drawer",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "48 in: axis unspecified"
+  },
+  {
+    "query_id": 102,
+    "query": "flamingo",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 104,
+    "query": "flour and sugar containers",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 107,
+    "query": "front porch furniture sets",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 108,
+    "query": "ayesha curry kitchen",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 109,
+    "query": "hillsby oriental rug",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 111,
+    "query": "delta trinsic",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 112,
+    "query": "pineapple",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 114,
+    "query": "geralyn upholstered storage platform bed",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 115,
+    "query": "peacock",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 119,
+    "query": "welcome sign",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 120,
+    "query": "zodiac pillow",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 121,
+    "query": "upholstered bed",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 122,
+    "query": "king size bed",
+    "product_head": "bed",
+    "constraints": [
+      "122:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 123,
+    "query": "entrance table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 124,
+    "query": "unique coffee tables",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 125,
+    "query": "boho bed frame",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 126,
+    "query": "leather dining chairs",
+    "product_head": "chair",
+    "constraints": [
+      "126:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "dining use"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 127,
+    "query": "wine bar",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 128,
+    "query": "block coffee table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 129,
+    "query": "wainscoting ideas",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 130,
+    "query": "entertainment console",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 131,
+    "query": "kids chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 132,
+    "query": "farmhouse cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 137,
+    "query": "orren ellis l shaped desk",
+    "product_head": "desk",
+    "constraints": [
+      "137:shape:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "orren ellis: brand"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 138,
+    "query": "glass doors for bath",
+    "product_head": "door",
+    "constraints": [
+      "138:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "for bath: compatibility"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 140,
+    "query": "wire basket with dividers",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 141,
+    "query": "podium with locking cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 142,
+    "query": "kitchen wooden stand",
+    "product_head": "stand",
+    "constraints": [
+      "142:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "kitchen use"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 143,
+    "query": "queen wingback chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "queen may be a product-name modifier on chair"
+  },
+  {
+    "query_id": 144,
+    "query": "rug plum",
+    "product_head": "rug",
+    "constraints": [
+      "144:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 145,
+    "query": "liberty hardware francisco",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 146,
+    "query": "laundry vanity cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 147,
+    "query": "drum picture",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 148,
+    "query": "industrial",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 150,
+    "query": "dumbbells",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 151,
+    "query": "leather chair",
+    "product_head": "chair",
+    "constraints": [
+      "151:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 153,
+    "query": "bohemian",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 155,
+    "query": "floating bed",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 158,
+    "query": "led nightstand",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 159,
+    "query": "meditation",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 160,
+    "query": "marble",
+    "product_head": "",
+    "constraints": [
+      "160:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "no product head; material or marble pattern unresolved"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 161,
+    "query": "accent chair recliner",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 163,
+    "query": "dual monitor stand",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 164,
+    "query": "modern outdoor furniture",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 165,
+    "query": "kitchen storage shelves",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 166,
+    "query": "feather wall art",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 167,
+    "query": "camper",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 169,
+    "query": "coffee bar buffet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 170,
+    "query": "zen",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 172,
+    "query": "picasso",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 173,
+    "query": "bedroom accessories",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 175,
+    "query": "basket planter",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 176,
+    "query": "mexican art",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 177,
+    "query": "rustic storage cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 178,
+    "query": "almost heaven sauna",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 180,
+    "query": "outdoor lounge cushions",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 182,
+    "query": "penny round tile",
+    "product_head": "tile",
+    "constraints": [
+      "182:shape:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "penny: nominal mosaic scale not independently verified"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 183,
+    "query": "farmhouse bread box",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 184,
+    "query": "sugar canister",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 185,
+    "query": "lunch bag",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 186,
+    "query": "board game storage cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 189,
+    "query": "big basket for dirty cloths",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 190,
+    "query": "benjiamino faux leather power lift chair",
+    "product_head": "chair",
+    "constraints": [
+      "190:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "benjiamino: identity",
+      "power lift"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 195,
+    "query": "black freestanding tub  with faucet",
+    "product_head": "bathtub",
+    "constraints": [
+      "195:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "freestanding",
+      "with faucet"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 197,
+    "query": "desk for kids tjat ate 10 year old",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 198,
+    "query": "cake plates with tops",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 200,
+    "query": "ceramic tile sea shell",
+    "product_head": "tile",
+    "constraints": [
+      "200:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "sea shell: pattern or shape not specified"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 202,
+    "query": "full mattress padded liner",
+    "product_head": "mattress liner",
+    "constraints": [
+      "202:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "padded"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 203,
+    "query": "ge top loading washer 4.5",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "4.5: capacity/unit omitted"
+  },
+  {
+    "query_id": 204,
+    "query": "fleur de lis living candle wall sconce bronze",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "bronze: finish/material ambiguity"
+  },
+  {
+    "query_id": 206,
+    "query": "grill cover 73",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "73: unit/direction absent"
+  },
+  {
+    "query_id": 210,
+    "query": "love seat wide faux leather tuxedo arm sofa",
+    "product_head": "sofa",
+    "constraints": [
+      "210:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "love seat: capacity",
+      "wide: no numeric bound",
+      "tuxedo arm"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 212,
+    "query": "nettie 5 pc bar set",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 213,
+    "query": "kraus kitchen sink faucet oletto kpf 2820 sfs",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 215,
+    "query": "king adjustable bed including mattress",
+    "product_head": "bed",
+    "constraints": [
+      "215:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "adjustable",
+      "including mattress"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 216,
+    "query": "music plug wall plate",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 220,
+    "query": "sheets for twinxl",
+    "product_head": "sheet",
+    "constraints": [
+      "220:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 221,
+    "query": "small space dining table and chairs sets",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 222,
+    "query": "small loving roomtables",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 223,
+    "query": "wisdom stone river 3-3/4",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "3-3/4: unit/direction absent"
+  },
+  {
+    "query_id": 226,
+    "query": "power lift chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 227,
+    "query": "owl",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 229,
+    "query": "waterfall faucet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 230,
+    "query": "gold",
+    "product_head": "",
+    "constraints": [
+      "230:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "no product head; color versus precious metal unresolved"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 231,
+    "query": "anti fatigue mat",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 232,
+    "query": "storage dresser",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 233,
+    "query": "kelly clarkson light fixtures",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 234,
+    "query": "artificial orchid arrangement",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 235,
+    "query": "bathroom wastebasket",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 236,
+    "query": "3 piece rug set with runners",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 238,
+    "query": "outdoor seat/back cushion",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 239,
+    "query": "bathroom single faucet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 241,
+    "query": "decorative wall clocks",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 242,
+    "query": "accent leather chair",
+    "product_head": "chair",
+    "constraints": [
+      "242:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "accent style"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 243,
+    "query": "indoor multi tiered plant stand",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "indoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 244,
+    "query": "pull out sleeper loveseat",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 245,
+    "query": "anchor decor",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 246,
+    "query": "clear shower curtain",
+    "product_head": "shower curtain",
+    "constraints": [
+      "246:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 247,
+    "query": "beaded curtains",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 248,
+    "query": "surge protector",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 249,
+    "query": "bistro table and chairs",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 250,
+    "query": "multi color rug",
+    "product_head": "rug",
+    "constraints": [
+      "250:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 251,
+    "query": "coffee container",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 252,
+    "query": "accent chairs living room",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 253,
+    "query": "antique brass faucet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "antique brass: finish, not bulk material"
+  },
+  {
+    "query_id": 254,
+    "query": "comfortable accent chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 255,
+    "query": "desk and chair set",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 257,
+    "query": "living room coffee table sets",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 260,
+    "query": "retractable side awning",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 263,
+    "query": "small curtain rods",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 264,
+    "query": "cortez pillow",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 266,
+    "query": "champagne velvet desk chair",
+    "product_head": "chair",
+    "constraints": [
+      "266:color:0",
+      "266:material:1"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "desk use"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 267,
+    "query": "dolomite subway tile",
+    "product_head": "tile",
+    "constraints": [
+      "267:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "dolomite may be collection/pattern; subway format"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 268,
+    "query": "betty resin free standing umbrella",
+    "product_head": "umbrella",
+    "constraints": [
+      "268:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "betty: identity; resin could modify base rather than canopy/frame",
+      "free standing"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 270,
+    "query": "edge chair mat",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 271,
+    "query": "chinese flower stand",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 273,
+    "query": "stainless steel free standing shower caddy",
+    "product_head": "shower caddy",
+    "constraints": [
+      "273:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "free standing"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 274,
+    "query": "gowdy height adjustable standing desk",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 275,
+    "query": "hinged square ottoman",
+    "product_head": "ottoman",
+    "constraints": [
+      "275:shape:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "hinged"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 277,
+    "query": "barstool patio sets",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 278,
+    "query": "parakeet toy",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 279,
+    "query": "marlon tufted queen bed",
+    "product_head": "bed",
+    "constraints": [
+      "279:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "marlon: identity",
+      "tufted"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 281,
+    "query": "brunk ship wheel",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 282,
+    "query": "grantola wall mirror",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 285,
+    "query": "48\" sliding single track , barn door for laundry",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "48 inch: door dimension unspecified"
+  },
+  {
+    "query_id": 289,
+    "query": "coma inducer comforter king set",
+    "product_head": "comforter",
+    "constraints": [
+      "289:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "coma inducer: identity",
+      "set"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 291,
+    "query": "front door cabinet with doors",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 292,
+    "query": "decorative white pillow",
+    "product_head": "pillow",
+    "constraints": [
+      "292:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": true,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 295,
+    "query": "end table between recliners",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 296,
+    "query": "zakariyah twin platform",
+    "product_head": "bed",
+    "constraints": [
+      "296:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "zakariyah: identity",
+      "platform"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 297,
+    "query": "seat cushions desk",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 298,
+    "query": "small woven pouf",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 300,
+    "query": "animal print handmade tufted wool beige/black area rug by allmodern",
+    "product_head": "rug",
+    "constraints": [
+      "300:material:0",
+      "300:color:1"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "animal print",
+      "handmade",
+      "tufted",
+      "by allmodern: brand"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 301,
+    "query": "circle cabinet pulls",
+    "product_head": "cabinet pull",
+    "constraints": [
+      "301:shape:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 302,
+    "query": "mattress foam topper queen",
+    "product_head": "mattress topper",
+    "constraints": [
+      "302:material:0",
+      "302:nominal_size:1"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 303,
+    "query": "hawaii vintage art",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 305,
+    "query": "ligth bulb",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 306,
+    "query": "mobley zero gravity adjustable bed with wireless remote",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 307,
+    "query": "real touch roses floral arrangements in glass vase",
+    "product_head": "floral arrangement",
+    "constraints": [
+      "307:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "real touch",
+      "roses"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 308,
+    "query": "led 60",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "60: role/unit absent"
+  },
+  {
+    "query_id": 310,
+    "query": "meade mirror",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 311,
+    "query": "odum velvet",
+    "product_head": "",
+    "constraints": [
+      "311:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "odum: identity; product head omitted"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 313,
+    "query": "malachi sled",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 315,
+    "query": "medium clips",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 316,
+    "query": "rolande heavy duty power lift assist recliner",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 317,
+    "query": "hulmeville writing desk with hutch",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 319,
+    "query": "landis wall mounted bathroom shelves",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 320,
+    "query": "blaylock bookcase headboard",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 323,
+    "query": "hub leaning full length mirror",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 325,
+    "query": "outdoor waterproof chest",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 326,
+    "query": "bowersville ladder writing desk",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 327,
+    "query": "kohler purist brushed bronze",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "brushed bronze: finish"
+  },
+  {
+    "query_id": 328,
+    "query": "golub dining table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 329,
+    "query": "wayfair tension rod",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 330,
+    "query": "kari 2 piece",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 331,
+    "query": "upholstered girls bed",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 332,
+    "query": "attleboro drum coffee table",
+    "product_head": "coffee table",
+    "constraints": [
+      "332:shape:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "attleboro: identity; drum is form/style rather than unique geometric category"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 333,
+    "query": "stainless steel colander set",
+    "product_head": "colander",
+    "constraints": [
+      "333:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "set: cardinality not specified"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 334,
+    "query": "itchington butterfly",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 335,
+    "query": "canadian",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 337,
+    "query": "iittala bowl",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 339,
+    "query": "ruckus chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 341,
+    "query": "canvas map art",
+    "product_head": "wall art",
+    "constraints": [
+      "341:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "map subject"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 342,
+    "query": "brendon counter stool",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 346,
+    "query": "nesting tray set",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 349,
+    "query": "mud room sign",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 352,
+    "query": "amarillo",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 353,
+    "query": "pennfield playhouse",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 355,
+    "query": "argenteuil",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 357,
+    "query": "tall free standing pet gate",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 358,
+    "query": "sliding closet mirror",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 359,
+    "query": "french molding",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 367,
+    "query": "wooden chair outdoor",
+    "product_head": "chair",
+    "constraints": [
+      "367:material:0"
+    ],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": true,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 368,
+    "query": "pasta tools",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 369,
+    "query": "wrought tv stand",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "wrought: incomplete material expression"
+  },
+  {
+    "query_id": 370,
+    "query": "rug for teen room",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 371,
+    "query": "milk cow chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 372,
+    "query": "verden callan",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 376,
+    "query": "island estate coffee table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 380,
+    "query": "gravity feeder",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 382,
+    "query": "counter top one cup hot water dispenser",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 389,
+    "query": "brush nickel faucet bathroom",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "brush nickel: finish, not bulk nickel"
+  },
+  {
+    "query_id": 396,
+    "query": "alyse 8 light",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 398,
+    "query": "super bright lights",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 402,
+    "query": "modern farmhouse lighting semi flush mount",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 403,
+    "query": "wood rack wide",
+    "product_head": "rack",
+    "constraints": [
+      "403:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "wood may be stored firewood, not rack material",
+      "wide: no numeric bound"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 404,
+    "query": "large cushion outdoor chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 406,
+    "query": "refrigerator with ice an water in door",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 407,
+    "query": "huge bookcase",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 408,
+    "query": "girl reading statue",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 409,
+    "query": "teal chair",
+    "product_head": "chair",
+    "constraints": [
+      "409:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 410,
+    "query": "pool floats",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 412,
+    "query": "jennie tufted upholstered low profile platform bed",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 415,
+    "query": "toilet paper stand",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 417,
+    "query": "twin bed frame",
+    "product_head": "bed",
+    "constraints": [
+      "417:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 418,
+    "query": "writing desk",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 419,
+    "query": "living room ideas",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 420,
+    "query": "tile backsplash",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 421,
+    "query": "dining room tables",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 422,
+    "query": "ergonomic chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 423,
+    "query": "wall shelves",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 425,
+    "query": "side table with storage",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 426,
+    "query": "outdoor storage",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 428,
+    "query": "kitchen storage cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 429,
+    "query": "gray dresser",
+    "product_head": "dresser",
+    "constraints": [
+      "429:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 431,
+    "query": "shoe bench entryway",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 432,
+    "query": "butcher block island",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "butcher block: construction/style, not explicit wood value"
+  },
+  {
+    "query_id": 433,
+    "query": "trundle daybed",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 434,
+    "query": "bathroom lighting",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 435,
+    "query": "shoe closet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 436,
+    "query": "full bed with trundle",
+    "product_head": "bed",
+    "constraints": [
+      "436:nominal_size:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "with trundle"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 437,
+    "query": "kitchen islands with seating",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 438,
+    "query": "indoor water fountain",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "indoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 439,
+    "query": "parsons chairs",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 440,
+    "query": "wood bar stools",
+    "product_head": "stool",
+    "constraints": [
+      "440:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "bar: nominal seat height/use not independently verified"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 441,
+    "query": "desk for kids",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 442,
+    "query": "above toilet cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 443,
+    "query": "patio design",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 444,
+    "query": "outdoor lounge chair",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [
+      "outdoor"
+    ],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 445,
+    "query": "chaise lounge couch",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 446,
+    "query": "card table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 447,
+    "query": "tall buffet cabinet",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 448,
+    "query": "bed side table",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 453,
+    "query": "midcentury tv unit",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 455,
+    "query": "deer coat hooks",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 456,
+    "query": "wall design shelf",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 459,
+    "query": "tye dye duvet cover",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 460,
+    "query": "small wardrobe grey",
+    "product_head": "wardrobe",
+    "constraints": [
+      "460:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "small: no numeric bound"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 461,
+    "query": "luau string lights",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 464,
+    "query": "cake cutlery",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 465,
+    "query": "white abstract",
+    "product_head": "",
+    "constraints": [
+      "465:color:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [
+      "abstract: no product head; may refer to artwork"
+    ],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 466,
+    "query": "rock climbing wall kids",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 468,
+    "query": "glow in the dark silent wall clock",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 469,
+    "query": "garage sports storage rack",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 470,
+    "query": "elephant framed",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 471,
+    "query": "adjustable height artist stool",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 472,
+    "query": "window wall accent",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 473,
+    "query": "chair pillow cushion",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 476,
+    "query": "hardwood beds",
+    "product_head": "bed",
+    "constraints": [
+      "476:material:0"
+    ],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": ""
+  },
+  {
+    "query_id": 481,
+    "query": "emma headboard",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  },
+  {
+    "query_id": 482,
+    "query": "48 inch kitchen hood",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "48 inch: likely nominal width but units of raw width field not documented"
+  },
+  {
+    "query_id": 483,
+    "query": "rustic twig",
+    "product_head": "",
+    "constraints": [],
+    "use_clauses": [],
+    "other_explicit_clauses": [],
+    "known_seed": false,
+    "exclusion_reason": "No unambiguous explicit color/material/shape/dimension modifier in the bounded families; no inference from style or product names"
+  }
+]
