@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "artifact": "figures/option_coverage.pdf",
+  "renderer": "Poppler pdftoppm, scale-to 1800, PNG",
+  "render": "qa/option_coverage_pdf_render.png",
+  "pages": 1,
+  "page_points": [748.8, 360.0],
+  "review": "Inspected the rendered PDF image: title, cohort counts, field labels, eligibility bars, conditional-event points and intervals, legend and limitations are readable. No text clipping or overlap. Field denominators are explicit, and the 100% product-substitution reference is labeled as conditional on cancellation. PDF uses vector Matplotlib elements and embedded fonts.",
+  "latest_render_check": "The latest regenerated PDF render is pixel-identical to the initially inspected render (PIL ImageChops difference bounding box is None).",
+  "table_scope": "table_option_coverage.tex is an unintegrated booktabs table fragment; numerical cells were checked against saved summary records. No manuscript or standalone table document was compiled."
+}

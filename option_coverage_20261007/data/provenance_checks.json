@@ -1,0 +1,172 @@
+{
+  "actual_anchors": {
+    "evaluation_queries": 308,
+    "primary_cancellation_queries": 73
+  },
+  "expected_check_only": {
+    "evaluation_queries": 308,
+    "primary_cancellation_queries": 73
+  },
+  "anchors_match": true,
+  "catalog_size": 42994,
+  "heldout_queries": 384,
+  "no_exact_heldout": 76,
+  "eligible_queries": 308,
+  "highest_pairs": 21299,
+  "raw_conflicting_qrel_pairs": 14,
+  "raw_duplicate_rows_removed": 1559,
+  "unknown_top20_ids": 0,
+  "duplicate_top20_ids": 0,
+  "incomplete_top20_lists": 0,
+  "judged_rank_mismatches": 0,
+  "recall_saved_mismatches": 0,
+  "ndcg_saved_mismatches": 0,
+  "validated_query_run_records": 3388,
+  "raw_profile": {
+    "model": {
+      "key": "bge_base",
+      "name": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "architecture": "BERT-base retrieval encoder",
+      "max_tokens": 512,
+      "native_pooling": "CLS"
+    },
+    "profile": {
+      "key": "native",
+      "chunk_tokens": null,
+      "overlap": 0,
+      "pooling": "model_native"
+    },
+    "source_sha256": "98274dc0d074d78409eb762e7c26a5b46135a33d1824c5c52813879173c77c9e",
+    "seed": 20260904,
+    "implementation": "phase2-encoder-v1",
+    "precision": "fp16_model_fp32_pooling",
+    "mean_wordpieces_with_special": 614.2483369772526,
+    "p95_wordpieces_with_special": 1069.0,
+    "fraction_truncated": 0.6148299762757594,
+    "fingerprint": "3a16535a80738388b384",
+    "shape": [
+      42994,
+      768
+    ],
+    "seconds": 244.06537103652954,
+    "tokenizer_class": "BertTokenizerFast",
+    "model_class": "BertModel",
+    "device": "cuda"
+  },
+  "canonical_profiles": [
+    {
+      "model": {
+        "key": "bge_base",
+        "name": "BAAI/bge-base-en-v1.5",
+        "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+        "architecture": "BERT-base retrieval encoder",
+        "max_tokens": 512,
+        "native_pooling": "CLS"
+      },
+      "profile": {
+        "key": "native",
+        "chunk_tokens": null,
+        "overlap": 0,
+        "pooling": "model_native"
+      },
+      "source_sha256": "db1d60f48615f47c6cac36313877be67657e7fe2e2743fb63d6b25fae6f853f8",
+      "seed": 20260904,
+      "implementation": "phase2-encoder-v3-length-bucket-sdpa",
+      "attention_implementation": "model_default",
+      "dynamic_batching": "GTE: base through 500 tokens, then 8/4/2/1 above 500/768/1024/1500; stable length buckets restored to source order",
+      "precision": "fp16_model_fp32_pooling",
+      "mean_wordpieces_with_special": 614.2483369772526,
+      "p95_wordpieces_with_special": 1069.0,
+      "fraction_truncated": 0.6148299762757594,
+      "fingerprint": "2b9aab5b9c4c396c8958",
+      "shape": [
+        42994,
+        768
+      ],
+      "seconds": 214.5103850364685,
+      "tokenizer_class": "BertTokenizerFast",
+      "model_class": "BertModel",
+      "device": "cuda"
+    },
+    {
+      "model": {
+        "key": "bge_base",
+        "name": "BAAI/bge-base-en-v1.5",
+        "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+        "architecture": "BERT-base retrieval encoder",
+        "max_tokens": 512,
+        "native_pooling": "CLS"
+      },
+      "profile": {
+        "key": "native",
+        "chunk_tokens": null,
+        "overlap": 0,
+        "pooling": "model_native"
+      },
+      "source_sha256": "ee80b5ed10e460e885f72a00994a804bc3a18e56e8d92baf854aab8ae1edb2ca",
+      "seed": 20260904,
+      "implementation": "phase2-encoder-v3-length-bucket-sdpa",
+      "attention_implementation": "model_default",
+      "dynamic_batching": "GTE: base through 500 tokens, then 8/4/2/1 above 500/768/1024/1500; stable length buckets restored to source order",
+      "precision": "fp16_model_fp32_pooling",
+      "mean_wordpieces_with_special": 614.2483369772526,
+      "p95_wordpieces_with_special": 1069.0,
+      "fraction_truncated": 0.6148299762757594,
+      "fingerprint": "54af0b59e9821f1e61a6",
+      "shape": [
+        42994,
+        768
+      ],
+      "seconds": 856.1758875846863,
+      "tokenizer_class": "BertTokenizerFast",
+      "model_class": "BertModel",
+      "device": "cuda"
+    }
+  ],
+  "canonical_execution_caveat": "Ascending inherited configured ceiling 48; descending effective ceiling 16 under frozen addendum. Scientific settings, encoder implementation, precision, query vectors and catalog match; numerical forward execution is not identical. Strict batch-matched saved canonical pair unavailable. Comparisons describe these fixed artifacts, not isolated causal sorting effects.",
+  "batching_addendum": {
+    "frozen_utc": "2026-09-17T15:24:03.419262+00:00",
+    "protocol_sha256": "031a2879f8fd9b7cd31f87a64a4fe19ee8e1cf12704263c848440e4ba7805cd5",
+    "reason": "BGE batch size 48 filled approximately 7,921-7,937 MiB of the 8 GiB GPU and became very slow even in a fresh process. Reduce computation batch size before any of the four new BGE conditions completes.",
+    "scope": [
+      "wands_bge_base_lexical_descending",
+      "wands_bge_base_field_priority_type",
+      "esci_bge_base_lexical_descending",
+      "esci_bge_base_field_priority_type"
+    ],
+    "configured_max_batch_size": 48,
+    "effective_max_batch_size": 16,
+    "unchanged": [
+      "canonical rules and text",
+      "model name and revision",
+      "native encoder profile",
+      "tokenizer revision and cap",
+      "empty prefixes",
+      "pooling",
+      "fp16 model and fp32 pooling/normalization",
+      "historical query embeddings",
+      "catalog and relevance judgments",
+      "rank/tie rule",
+      "query populations",
+      "bootstrap specification"
+    ],
+    "numerical_limit": "Batch partitioning can change floating-point rounding. No bitwise identity between independent forward passes is claimed.",
+    "outcome_independence": "No new BGE condition had a completed rank/source file when this execution adjustment was made. It is a memory-management adjustment, not a choice based on held-out retrieval outcomes.",
+    "completed_or_inherited_conditions_before_change": 14,
+    "runner_sha256": "08d69cacab632a76cf229f3dc0ece2e1afa5ab1ac44a990dfe6c7f22a26837c0"
+  },
+  "missing_artifacts": [],
+  "not_saved_or_unavailable": [
+    "Strict identical-batch ascending/descending canonical rankings (both dense and derived hybrid); not required for the descriptive saved-artifact contrast, required to isolate sorting from execution roundoff."
+  ],
+  "tie_rule": "descending stored float32 scores then ascending original catalog index; saved ranks authoritative",
+  "gain_mapping": {
+    "Exact": 3,
+    "Partial": 1,
+    "Irrelevant": 0
+  },
+  "unjudged_policy": "Unknown relevance; zero gain only for full-rank nDCG calculation",
+  "bootstrap_seed": 20261007,
+  "bootstrap_draws": 10000
+}

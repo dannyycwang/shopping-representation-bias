@@ -1,0 +1,23 @@
+{
+  "reviewer": "Codex; manual inspection of deterministic source-entry sample plus automatic byte-for-byte raw-entry checks",
+  "reviewed_records": 90,
+  "source_mismatches": 0,
+  "extraction_errors": 0,
+  "mapping_changes_after_review": 0,
+  "reviewed_before_option_results": true,
+  "by_field": {
+    "material": {"reviewed": 30, "valid": 28, "conflicting_unknown": 2, "errors": 0},
+    "shape": {"reviewed": 30, "valid": 29, "conflicting_unknown": 1, "errors": 0},
+    "color": {"reviewed": 30, "valid": 23, "conflicting_unknown": 7, "errors": 0}
+  },
+  "examples": [
+    {"product_id": 30144, "field": "material", "raw": ["cotton blend", "polyester"], "decision": "Unknown: two distinct values; schema does not establish a native multivalue list."},
+    {"product_id": 39607, "field": "material", "raw": ["microfiber / polyester"], "decision": "One recorded descriptor, no slash split or synonym merging."},
+    {"product_id": 516, "field": "shape", "raw": ["rectangular", "square"], "decision": "Unknown conflicting values."},
+    {"product_id": 24767, "field": "shape", "raw": ["standard lip"], "decision": "Retain the literal chairmat shape descriptor; no geometry inference."},
+    {"product_id": 34060, "field": "color", "decision": "19 different color entries: conflicting/unknown, not 19 selectable variants."},
+    {"product_id": 30585, "field": "color", "raw": ["soda"], "decision": "Opaque manufacturer descriptor recorded under color; preserve literally, never translate to a physical color."},
+    {"product_id": 41859, "field": "color", "raw": ["taupe , burnt orange"], "decision": "One whole recorded descriptor; comma is not a documented within-value delimiter."}
+  ],
+  "limitations": "This source fidelity audit does not validate physical truth or resolve opaque manufacturer labels. Conflicting duplicates could encode variants or components, but neither interpretation is licensed by this schema; they remain unknown. Generic and component keys remain separate. No ranking membership informed selection or mapping."
+}
