@@ -1,0 +1,31 @@
+model,dataset,stage,status,reason,profile
+embeddinggemma2,esci,smoke,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,esci,encode,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,esci,evaluate,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,esci,boundary,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,esci,canonical,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,wands,smoke,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,wands,encode,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,wands,evaluate,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,wands,boundary,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+embeddinggemma2,wands,canonical,running,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\batch1_20261017
+harrier06b,esci,smoke,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,esci,encode,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,esci,evaluate,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,esci,boundary,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,esci,canonical,not_run,Queued after Gemma; no Harrier formal result exists,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,wands,smoke,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,wands,encode,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,wands,evaluate,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,wands,boundary,completed,,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+harrier06b,wands,canonical,not_run,Queued after Gemma; no Harrier formal result exists,C:\Users\ycw\OneDrive - Høgskulen på Vestlandet\Documents\New project\shopping-representation-bias\revision_recent_models_20261016\profiles\harrier_20261019
+qwen3_4b,esci,smoke,not_run,Deferred by explicit user request,
+qwen3_4b,esci,encode,not_run,Deferred by explicit user request,
+qwen3_4b,esci,evaluate,not_run,Deferred by explicit user request,
+qwen3_4b,esci,boundary,not_run,Deferred by explicit user request,
+qwen3_4b,esci,canonical,not_run,Deferred by explicit user request,
+qwen3_4b,wands,smoke,not_run,Deferred by explicit user request,
+qwen3_4b,wands,encode,not_run,Deferred by explicit user request,
+qwen3_4b,wands,evaluate,not_run,Deferred by explicit user request,
+qwen3_4b,wands,boundary,not_run,Deferred by explicit user request,
+qwen3_4b,wands,canonical,not_run,Deferred by explicit user request,

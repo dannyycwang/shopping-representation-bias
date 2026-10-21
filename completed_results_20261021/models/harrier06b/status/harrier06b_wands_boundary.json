@@ -1,0 +1,19 @@
+{
+  "stage": "boundary",
+  "model": "harrier06b",
+  "dataset": "wands",
+  "status": "completed",
+  "updated_utc": "2026-10-21T16:57:15.863358+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\boundary_audit.json",
+      "sha256": "14facf3d1a2ed7e1f5183d53eb6fd0e8c6d7807d4f7ea31e39473ef845a2c3d0",
+      "bytes": 1682
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\boundary_repeats.parquet",
+      "sha256": "efd2b98bcab0d01925603b477ee34fdbb9090d9e44d05687f76bdb86fc93b331",
+      "bytes": 9315
+    }
+  ]
+}
