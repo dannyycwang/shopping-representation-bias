@@ -1,0 +1,18 @@
+[
+  {
+    "path": "C:\\Users\\ycw\\OneDrive - H\u00f8gskulen p\u00e5 Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Lib\\site-packages\\transformers\\models\\embedding_gemma2\\modeling_embedding_gemma2.py",
+    "sha256": "f0376b13fb5230b349ce269c4fb40906931744a84df57c1d208f46032941eda7"
+  },
+  {
+    "path": "C:\\Users\\ycw\\OneDrive - H\u00f8gskulen p\u00e5 Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3\\modeling_qwen3.py",
+    "sha256": "ca9535e36ea4e689c76d7d753b91aec9ea00da837fbf223c8ea4c01a3b50cac0"
+  },
+  {
+    "path": "C:\\Users\\ycw\\OneDrive - H\u00f8gskulen p\u00e5 Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Lib\\site-packages\\sentence_transformers\\base\\modules\\transformer.py",
+    "sha256": "895603634b3b63325cb7e5eaa2e8e2cdbc708b3b0e31a5c8b277ecd711a24be4"
+  },
+  {
+    "path": "C:\\Users\\ycw\\OneDrive - H\u00f8gskulen p\u00e5 Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Lib\\site-packages\\sentence_transformers\\sentence_transformer\\modules\\pooling.py",
+    "sha256": "b6e96e0eac50ebc33d6310ef3b8d35b7cd2b7e0e521809552bba34c05c13d43d"
+  }
+]

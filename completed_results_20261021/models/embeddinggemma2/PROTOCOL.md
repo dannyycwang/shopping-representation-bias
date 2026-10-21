@@ -1,0 +1,28 @@
+# Readable follow-up protocol
+
+User scope amendment, 2026-10-17: Qwen3-Embedding-4B is deferred until explicit user resumption. Only EmbeddingGemma 2 remains active, on both original datasets. Canonical prerequisites apply to those two active-model datasets, including boundary audits. The request arrived after the completed Gemma/ESCI result. The prior protocol and control code are preserved under `audit/protocol_history/before_qwen_deferral_20261017/`; `USER_SCOPE_AMENDMENT.json` records the exact request and unchanged numerical settings. Retained Qwen configuration/downloads/technical evidence do not constitute executed Qwen retrieval experiments.
+
+Current execution profile: `batch1_20261017`. Following the original Gemma/ESCI CUDA OOM, both primary models use batch size 1. Gemma alone changed batching; its new query and catalog embeddings are recomputed in this directory. No max-length, dtype, backend, dimension, dataset, schedule, metric or analysis choice changes. See `PROFILE_DEVIATION.json` and any provenance-only amendments in `audit/protocol_history/`.
+
+This is a new-model follow-up designed after inspecting the historical paper and results, not a preregistration of the whole study. `PROTOCOL.json` is frozen before any new held-out encoding/effectiveness output; `PROTOCOL.sha256` protects it. Development-only adapter checks may precede this freeze. Optional Harrier is disabled.
+
+Reuse the exact processed full catalogs, existing query split/sample, labels, serializer, seven schedules and seeds, and three canonical rules in SOURCE_MAP.md. Highest labels are Exact/E. Main support includes all eligible highest-label pairs; fitting support requires all seven model-native target inputs to fit and never reduces the competitor catalog. Query-macro PI + VI + PO must equal one on the same support. Pair counts, query counts, unique serialized-view counts, truncation lengths, and competitor truncation rates remain available. Cross-model fitting comparisons, if both models complete, use an explicitly reported common pair intersection as a supplement.
+
+Models use their own official retrieval prefixes, pooling/projection, full dimension, native supported effective length, and BF16 precision. No training, prompt search, reranking, rewriting, images, paid API, quantization or dimensionality reduction. Each dataset/model has one fixed query matrix and seven full-catalog document views. Content caching preserves all catalog rows and duplicate attributes.
+
+Both interventions use identical saved exact FP32 scores. Catalog-wide ranking reorders all products; target-only ranking replaces one target while removing its original C0 entry. Descending scores then ascending original index define exact ranks. K=20 and 100 are fixed. No ANN or rank epsilon.
+
+Catalog-wide Recall divides highest-label Top-K counts by that query's total highest-label support. Standard nDCG uses absolute ranks and zero gain for unjudged items only for computation. Condensed nDCG removes unjudged items before discounting. Both use IDCG from all judged gains. Gains are direct: WANDS 3/1/0; ESCI E/S/C/I 1/.1/.01/0. Judged coverage includes judged zero-gain products.
+
+Primary contrast is C1 minus C0; all five random-versus-C0 contrasts are supplementary. Save integer relevant losses/gains/net/turnover, changed ID sets, and separate all-product Top-K turnover. Exact equal Recall with changed relevant membership is equal positive gain/loss counts, not rounded Recall. nDCG equality is evaluated independently. Target-only inclusion is never labeled shared-index Recall.
+
+Use 10,000 paired query-cluster resamples, seed 2026091701, unadjusted 95% percentile intervals. Same support means identical sorted query IDs and bootstrap draws across conditions. An interval including zero is not evidence of equivalence.
+
+After both primary models finish RQ1/RQ2, evaluate ascending, descending, and type/style-priority canonical dense inputs. Verify input invariance over all seven incoming orders. Compare each rule with each query's seven-raw mean; retain all six PI/crossing/PO to included/omitted transitions. A rule's structural VI=0 does not imply better retrieval and different rules are never pooled as one invariant input family.
+
+Technical samples use development IDs/hashes, not held-out effectiveness. Official-reference tolerance is atol=1e-3, rtol=1e-3, cosine≥0.9999, reflecting BF16 component rounding; exact token IDs and prefix application are separately required. This tolerance does not alter ranking. Repeated input runs store vectors, scores and ranks. Fixed-policy production batching is benchmarked separately and estimates are labeled as estimates.
+
+Crossing witnesses retain an in and out schedule, target score, target-excluded Kth competitor, margin, exact tie, index tie-break and token length. Boundary audits select all exact ties and cases within the measured repeated-score range, plus the first eight pair IDs by a fixed salted hash per intervention/K. Re-execute their original query/target/competitor batches with all batch companions, then recompute full-catalog scores in the original matrix shape. Other vectors retain the identical compatible profile. Keep original outcomes and mark numerical ambiguity if repeated cutoff decisions change.
+
+Checkpoints require input/profile fingerprints and output hashes. All outputs remain in this revision. OOMs are logged and never trigger a silent length change. Batch-policy changes require a separately recorded profile/deviation and a different cache, with fresh matching queries and competitors. Reports must identify completed, blocked, not-run or running stages; an incomplete catalog must never generate a full-dataset result.
+

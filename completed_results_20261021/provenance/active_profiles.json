@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-10-19T08:39:55.172582+00:00",
+  "status": "active",
+  "active_models": [
+    "embeddinggemma2",
+    "harrier06b"
+  ],
+  "deferred_models": {
+    "qwen3_4b": {
+      "status": "deferred_by_user",
+      "requires_explicit_user_resumption": true
+    }
+  },
+  "profiles": [
+    {
+      "model": "embeddinggemma2",
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017",
+      "protocol_sha256": "3f3004b166a855287ad7435ff0b9c278d983640bfb5f20a11bc2ec3ebeaa876c"
+    },
+    {
+      "model": "harrier06b",
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019",
+      "protocol_sha256": "7153798d3c03023dba8fb62df34d04fcefd0618474afe44602c056690d3903a4"
+    }
+  ],
+  "scope_amendment": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\USER_SCOPE_AMENDMENT.json",
+    "sha256": "81d686cb121ec798a38523ad9814fe3f2fe2a19a9226ea52293268c1f791dcab",
+    "bytes": 1868
+  },
+  "schedule": "Preserve Gemma queue; Harrier waits for prior supervisors/workers to exit, then smoke, dev benchmark, both datasets primary/boundary, per-profile gated canonical, reports. No concurrent GPU workers.",
+  "completion_scope": "Both active models on both datasets through canonical plus verified combined deliverables; Qwen excluded",
+  "combined_reporting_script": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\scripts\\refresh_multi_profile.py",
+    "sha256": "d420fc97d2cad101b4d1468c15501893709f9ef29119d6ee5cd7f29a31e93cb8",
+    "bytes": 10756
+  },
+  "updated_utc": "2026-10-19T09:03:48.647731+00:00",
+  "sequence_correction": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\EXECUTION_SEQUENCE_CORRECTION_20261019.json",
+    "sha256": "43b4fee4cda6096ca3a9b7659307bf70f1b5a7cc3712c6e7634609c66e5995d8",
+    "bytes": 5800
+  },
+  "runtime_compatibility_amendment": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\RUNTIME_COMPATIBILITY_AMENDMENT.json",
+    "sha256": "ced9b1a5f2843549ec61f3680bbbcda988ae6faf7fbc765b372bd058f99f54f4",
+    "bytes": 2508
+  }
+}

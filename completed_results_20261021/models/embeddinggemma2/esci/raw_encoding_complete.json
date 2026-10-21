@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-17T20:53:32.095710+00:00",
+  "inputs_fingerprint": "e88b2b3721e51e50cd82a0cba7d9efe285a2416b08cf01193e63fe6f3c375cd2",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\embeddings.npy",
+      "sha256": "c5109f4b8191f3245f534a5758d9be3b97931de869183596418cd69508fca7e3",
+      "bytes": 216674432
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\lengths.npy",
+      "sha256": "21aa8653f3dd99d09770b3afe48362c00218417f36968e5700e780162c3c8e74",
+      "bytes": 282256
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\plan.json",
+      "sha256": "781b6c193cb2270aa92822b5336b682ed01a16a4e1f4f2f28b088959455054f9",
+      "bytes": 4317090
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\unique_inputs.jsonl.gz",
+      "sha256": "78c528112a50d92d8a3e0ce4192ccd0de30596efbe879222a39aadf655686c1f",
+      "bytes": 18981367
+    }
+  ],
+  "total_inputs": 70532,
+  "unique_inputs": 34793,
+  "seconds": 2790.400298833847,
+  "cache_key_contents": "model/tokenizer SHA, complete raw inputs plus role prefixes, projection, pooling, dtype, backend, length, software, adapter hash, batching"
+}
