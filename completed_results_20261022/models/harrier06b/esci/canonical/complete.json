@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-21T21:26:16.054043+00:00",
+  "inputs_fingerprint": "5db378fe92c42ee054368a7c4fc0da2b0f047c1e447b1790951942d15e16de79",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\field_priority_type_scores.npy",
+      "sha256": "477daee917b04cea20595e755a36327d075b8ebab0a90188f57701e58ed063b8",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\lexical_ascending_scores.npy",
+      "sha256": "82ce631fb95505c9c7bbcd6b65bbafef0550c293298059ea0b23d7d7421014b4",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\lexical_descending_scores.npy",
+      "sha256": "0db87e2795056e9f118224ef0f3ce39e3189cd00225b878319142caa49193367",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\pair_ranks.parquet",
+      "sha256": "23d25cc53102716efa786ecc7d919084e7640ecb94b34e3f046ffc90fc14d391",
+      "bytes": 80578
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\query_metrics.parquet",
+      "sha256": "efa98070614d71820965f2a09e100be653643a88538379da6442e4c642b21244",
+      "bytes": 805568
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\query_transitions.parquet",
+      "sha256": "6af73c8a208cc59e51de9ea9f2bb2ff90a6ae5b764c8cdef47243d3efc4d2268",
+      "bytes": 21607
+    }
+  ],
+  "C0_reconciled": false,
+  "full_catalog": 10076,
+  "queries": 499,
+  "highest_pairs": 4434
+}

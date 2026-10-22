@@ -1,0 +1,7 @@
+% Supplement only; original manuscript is not overwritten.
+% This is a new-model follow-up after inspection of historical outcomes.
+% Amend Section 4.2: the original no-prefix / mean-or-CLS descriptions apply only to the original three encoders.
+\paragraph{Recent-model follow-up.} We retained the original catalogs, query supports, judgments, and seven attribute schedules. Dedicated model-native preprocessing, pooling, and projection were used with full-dimensional unit-normalized embeddings and exact FP32 ranking. This follow-up was specified after inspecting the historical study results.
+Qwen3-Embedding-4B was deferred at the user's request after the EmbeddingGemma 2/ESCI result became available. It has no completed retrieval result in this follow-up. Harrier-OSS-v1-0.6B was added at the user's explicit request after the Gemma/ESCI outcome was known; it is a subsequent extension, not prospectively enabled third-model inclusion. Harrier uses its own frozen profile and fresh embeddings. The Gemma profile remains unchanged.
+For harrier06b on WANDS, source-order Recall@20 was 0.3882; target-only VI@20 was 8.49\% (95\% query-bootstrap CI [7.11, 10.06]).
+For harrier06b on ESCI, source-order Recall@20 was 0.7879; target-only VI@20 was 1.81\% (95\% query-bootstrap CI [1.38, 2.29]).

@@ -1,0 +1,19 @@
+{
+  "stage": "boundary",
+  "model": "harrier06b",
+  "dataset": "esci",
+  "status": "completed",
+  "updated_utc": "2026-10-21T16:18:09.507794+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\boundary_audit.json",
+      "sha256": "f1d1db4299ffca6537c0eb9bab8a6a8a28e7e1cfbd2ba06a09e5e50e1004878d",
+      "bytes": 1679
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\boundary_repeats.parquet",
+      "sha256": "ca983de8e7259e7f8aa6af1e29f1d3af97279ca46ec044fb5f3609c8fb3ce01b",
+      "bytes": 9391
+    }
+  ]
+}

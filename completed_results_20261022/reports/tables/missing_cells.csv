@@ -1,0 +1,5 @@
+dataset,model,status,reason
+wands,qwen3_4b,not_run,No complete evaluated full-catalog checkpoint
+esci,qwen3_4b,not_run,No complete evaluated full-catalog checkpoint
+wands,embeddinggemma2,not_run,No complete evaluated full-catalog checkpoint
+esci,embeddinggemma2,not_run,No complete evaluated full-catalog checkpoint

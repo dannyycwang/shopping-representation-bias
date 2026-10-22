@@ -1,0 +1,44 @@
+[
+  {
+    "path": "phase2/data/processed/wands_products.jsonl.gz",
+    "current": "a3fb53329b9ecb9d0c774641a767e582a6fee1056620fc3c1be3f7c0b145ca67",
+    "historical": "a3fb53329b9ecb9d0c774641a767e582a6fee1056620fc3c1be3f7c0b145ca67",
+    "match": true
+  },
+  {
+    "path": "phase2/data/processed/wands_queries.csv",
+    "current": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a",
+    "historical": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a",
+    "match": true
+  },
+  {
+    "path": "phase2/data/processed/wands_judgments.csv",
+    "current": "8cdd742427852822fe9a1252f05439b4fc33feeabb4afa0854cf86e8a188e0b6",
+    "historical": "8cdd742427852822fe9a1252f05439b4fc33feeabb4afa0854cf86e8a188e0b6",
+    "match": true
+  },
+  {
+    "path": "phase2/data/processed/esci_products.jsonl.gz",
+    "current": "825b2b9a570cfbb73ba683c6cb951d1925b211dbf12af158d604557783c2c987",
+    "historical": "825b2b9a570cfbb73ba683c6cb951d1925b211dbf12af158d604557783c2c987",
+    "match": true
+  },
+  {
+    "path": "phase2/data/processed/esci_queries.csv",
+    "current": "4dcccc23f2c3f40240770c28ff3d5c94eca14c3f51198b70ba75f33a5d855df8",
+    "historical": "4dcccc23f2c3f40240770c28ff3d5c94eca14c3f51198b70ba75f33a5d855df8",
+    "match": true
+  },
+  {
+    "path": "phase2/data/processed/esci_judgments.csv",
+    "current": "cb98d43f45ca8378078001bf24b9b25367a53b231225cf29705b0a80f2469985",
+    "historical": "cb98d43f45ca8378078001bf24b9b25367a53b231225cf29705b0a80f2469985",
+    "match": true
+  },
+  {
+    "path": "phase4/config/splits.json",
+    "current": "db3c3558265789191cac9e6132e216ddeb460ba62daa1cf64033a5fa05708e2c",
+    "historical": "db3c3558265789191cac9e6132e216ddeb460ba62daa1cf64033a5fa05708e2c",
+    "match": true
+  }
+]
