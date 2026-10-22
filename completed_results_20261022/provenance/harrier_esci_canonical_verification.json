@@ -1,0 +1,91 @@
+{
+  "status": "Harrier_ESCI_canonical_verified_report_refreshed_WANDS_running",
+  "verified_utc": "2026-10-21T21:30:02.528360+00:00",
+  "outputs_verified": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_esci_can_20261021\\outputs_verified.json",
+    "sha256": "b7e987cfd1a35410e3d5465b9330ed7c43d3dc8bcb7bf78a40e5d7ef23ed7ee8",
+    "bytes": 5738
+  },
+  "report_manifest": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_esci_can_20261021\\report\\manifest_multi_profile.json",
+    "sha256": "ea8eb6e5247eb5d0d3b840211d6a9807c0e398150c136cbf2aa2a7393ab5e1ee",
+    "bytes": 18907
+  },
+  "report_files_hash_verified": 10,
+  "completed_primary_cells": [
+    "embeddinggemma2/esci",
+    "embeddinggemma2/wands",
+    "harrier06b/esci",
+    "harrier06b/wands"
+  ],
+  "canonical_cells_complete": [
+    "embeddinggemma2/esci",
+    "embeddinggemma2/wands",
+    "harrier06b/esci"
+  ],
+  "Harrier_supervisor_and_children": [
+    {
+      "pid": 36296,
+      "ppid": 21416,
+      "create_time": 1792614729.1810513,
+      "command": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/scripts/canonical_snapshot_20261021/recover_supervisor.py",
+        "--model",
+        "harrier06b",
+        "--phase",
+        "canonical",
+        "--resume"
+      ]
+    },
+    {
+      "pid": 38020,
+      "ppid": 36296,
+      "create_time": 1792617979.5909393,
+      "command": [
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Scripts\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py",
+        "canonical",
+        "--model",
+        "harrier06b",
+        "--dataset",
+        "wands"
+      ]
+    },
+    {
+      "pid": 13192,
+      "ppid": 38020,
+      "create_time": 1792617979.6838803,
+      "command": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py",
+        "canonical",
+        "--model",
+        "harrier06b",
+        "--dataset",
+        "wands"
+      ]
+    }
+  ],
+  "active_process": {
+    "status": "running",
+    "pid": 38020,
+    "command": [
+      "revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py",
+      "canonical",
+      "--model",
+      "harrier06b",
+      "--dataset",
+      "wands"
+    ],
+    "log": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\harrier06b_wands_canonical.log",
+    "started_utc": "2026-10-21T21:26:19.570798+00:00",
+    "supervisor_pid": 36296
+  },
+  "whole_scope_complete": false,
+  "Harrier_whole_model_complete": false,
+  "pending_summary_CIs": "Harrier canonical profile summaries and CIs are generated at phase end; do not confuse this status refresh with final model results."
+}

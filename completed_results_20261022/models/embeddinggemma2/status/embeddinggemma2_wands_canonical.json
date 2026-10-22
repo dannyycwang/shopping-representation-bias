@@ -1,0 +1,14 @@
+{
+  "stage": "canonical",
+  "model": "embeddinggemma2",
+  "dataset": "wands",
+  "status": "completed",
+  "updated_utc": "2026-10-21T20:27:41.622343+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\canonical\\complete.json",
+      "sha256": "2247b43534f889ca04f01f56578085d737c930b24ab75ff246c097c92d20eaf4",
+      "bytes": 2634
+    }
+  ]
+}

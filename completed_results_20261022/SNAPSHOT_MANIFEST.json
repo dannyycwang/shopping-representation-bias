@@ -1,0 +1,1978 @@
+{
+  "schema_version": 1,
+  "snapshot_utc": "2026-10-22T09:33:31.093485+00:00",
+  "original_workspace": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias",
+  "source_git_head": "f42a4435f1a9e39a4dc0e73333e4c2749692cfa0",
+  "active_models": [
+    "embeddinggemma2",
+    "harrier06b"
+  ],
+  "completed_primary_cells": [
+    "embeddinggemma2/esci",
+    "embeddinggemma2/wands",
+    "harrier06b/esci",
+    "harrier06b/wands"
+  ],
+  "completed_canonical_cells": [
+    "embeddinggemma2/esci",
+    "embeddinggemma2/wands",
+    "harrier06b/esci"
+  ],
+  "incomplete_canonical_cells": [
+    "harrier06b/wands"
+  ],
+  "full_experiment_complete": false,
+  "cancelled_models": [
+    "jina_nano"
+  ],
+  "deferred_models": [
+    "qwen3_4b"
+  ],
+  "publication_scope": "Portable completed-results snapshot, not a complete checkpoint/model/dataset backup. Original receipt and protocol bytes unchanged.",
+  "completed_models": [
+    "embeddinggemma2"
+  ],
+  "previous_snapshot": "completed_results_20261021",
+  "source_hashes_freshly_verified": 315,
+  "combined_report_updated_utc": "2026-10-21T21:29:32.660479+00:00",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 158,
+      "sha256": "40aeaf75a14971a7832e718cc226bc44b7b79d04d802c4da72b7062cd91c873c",
+      "category": "snapshot_documentation_and_verifier"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4425,
+      "sha256": "06c8663198495ed347da57e030a20e576fd334a18ef7ad1d8b02cff831a62c08",
+      "category": "snapshot_documentation_and_verifier"
+    },
+    {
+      "path": "models/embeddinggemma2/MANUSCRIPT_ADDITIONS.tex",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/MANUSCRIPT_ADDITIONS.tex",
+      "bytes": 1173,
+      "sha256": "20e801245a9be52b9bdaf4ee807e03b8454e8d57c229c9d4e3461d0998a66071",
+      "category": "profile_report_or_manifest_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/MODEL_AUDIT.md",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/MODEL_AUDIT.md",
+      "bytes": 4054,
+      "sha256": "1a6f611a9128d81269c7d58f08d4b3457fea778305083c95d40755876e4a4fec",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/embeddinggemma2/PROFILE_DEVIATION.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/PROFILE_DEVIATION.json",
+      "bytes": 1575,
+      "sha256": "c9fd5313a24fb42790719e85c3f8491c43eb4c4d27fe263c0100379562b4f4bb",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/embeddinggemma2/PROTOCOL.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/PROTOCOL.json",
+      "bytes": 61311,
+      "sha256": "3f3004b166a855287ad7435ff0b9c278d983640bfb5f20a11bc2ec3ebeaa876c",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/embeddinggemma2/PROTOCOL.md",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/PROTOCOL.md",
+      "bytes": 5724,
+      "sha256": "7448becfe3eccb3841cf6572ddede66b9a881c6f30b3486527a8f1e3896b64c3",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/embeddinggemma2/PROTOCOL.sha256",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/PROTOCOL.sha256",
+      "bytes": 66,
+      "sha256": "01c4c45611eea9568454d3a7bc66ae8862688d2b84bc4f4f613e8612b9496819",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/embeddinggemma2/REPORT_zh.md",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/REPORT_zh.md",
+      "bytes": 3147,
+      "sha256": "2c7200db05567b96bd32e6c049acd3d81fcbae8ca9749c632141d608218b2e39",
+      "category": "profile_report_or_manifest_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/USER_SCOPE_AMENDMENT.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/USER_SCOPE_AMENDMENT.json",
+      "bytes": 7087,
+      "sha256": "33ac4469b6dc13c03112df633a42394e5e206f55588631c7a3400631bd0c08a8",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/embeddinggemma2/audit/implementation_sources.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/implementation_sources.json",
+      "bytes": 1377,
+      "sha256": "e65bdba249abc4070424ce4d26002f27a31519a15dfa9970b8fb83fb5e5eb545",
+      "category": "provenance"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/canonical/complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/complete.json",
+      "bytes": 2626,
+      "sha256": "c3c412f17f5a0c33eb0856e22048718bb00969ccd21b92177a5d219b547e4996",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/canonical/pair_ranks.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/pair_ranks.parquet",
+      "bytes": 80082,
+      "sha256": "db71278d301071cd291330a156da2a018ae2c91f568304a1718e255cbb3056d2",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/canonical/query_metrics.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/query_metrics.parquet",
+      "bytes": 761297,
+      "sha256": "7e3ab267fd1f4d94ca4bc4978cd2098cdfa995136b99d0969069098f7d9137b4",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/canonical/query_transitions.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/query_transitions.parquet",
+      "bytes": 21295,
+      "sha256": "9362abb8568d4b452f4cd33e2679dc17b9a5ccb10ff4118a3a1d15a12594e461",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/canonical_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/canonical/complete.json",
+      "bytes": 1915,
+      "sha256": "ced7861e3deccca2ef47838d91067b21895da54abc11d81ed027de764d7a208f",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/boundary_audit.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/boundary_audit.json",
+      "bytes": 1676,
+      "sha256": "eed098a962c734aead4873e55bd767c27afb2061e26b5d40a3298388ee2bbef0",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/boundary_repeats.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/boundary_repeats.parquet",
+      "bytes": 9246,
+      "sha256": "8160e4133deda96682a79fabfbac9a7d77904446841601e538bd49d143263f18",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/boundary_selected.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/boundary_selected.parquet",
+      "bytes": 16688,
+      "sha256": "8f2260b99ab30935838b6c6870fe040a2fb5efc9b86cbbf613535ff8748eafc4",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/complete.json",
+      "bytes": 4792,
+      "sha256": "b4daf03185d8a25a150489c40e02364ddd6c574be9a11f0cb349ecc115b173ea",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/crossing_witnesses.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/crossing_witnesses.parquet",
+      "bytes": 31139,
+      "sha256": "dc30761aa63ed7c38e9a5f153e1448bbcc4291171a355e16e98ae8164d47c27d",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/pair_ranks.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/pair_ranks.parquet",
+      "bytes": 159849,
+      "sha256": "4b30cd713cb99a45cd6944a2b37d22cb4b4f5fc5bd249ff72cba676325676a0a",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/query_membership.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/query_membership.parquet",
+      "bytes": 73354,
+      "sha256": "406d94baba2b28527524c279847b1f07568a20c0560fd1dc8d7a426f557d5239",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/query_metrics.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/query_metrics.parquet",
+      "bytes": 1429420,
+      "sha256": "290c5331154b7d215732422dda39f3cb137c215d757c7129c18f27f419c0f65b",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/primary/query_states.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/query_states.parquet",
+      "bytes": 19760,
+      "sha256": "7e42b134b83d6942fd323cff6561ae0991ab8803b96ced24a69f59044d2961e8",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/queries_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/queries/complete.json",
+      "bytes": 1895,
+      "sha256": "80ea496116bb60ae879da0353fb4717fd93bf800eb27a4d009ff0a38506939f3",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/esci/raw_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/raw/complete.json",
+      "bytes": 1892,
+      "sha256": "ca2be7594b7b3d7026beb2c691d50c5474954d8044b192663e506c85a188921d",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/manifest.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/manifest.json",
+      "bytes": 77735,
+      "sha256": "19006b0e7fa8e394e6fdc6cade0f47526529bdec9be38a9d9e520d1764a235f5",
+      "category": "profile_report_or_manifest_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/requirements.txt",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/requirements.txt",
+      "bytes": 335,
+      "sha256": "e2dbbf310bef73194425bedfef44f316796e3424ebcf26f3943d31f0824d917f",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/embeddinggemma2/source/adapters.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/adapters.py",
+      "bytes": 5094,
+      "sha256": "fdf5d9b31f608485346d1f40268d2d65a4c2143ac872e41f14bfdb51a98e7b49",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/analyze.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/analyze.py",
+      "bytes": 8207,
+      "sha256": "e8f60c85f53138d5c1e9892d628fea073187b83284de2fa618186e39e837b5bf",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/benchmark.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/benchmark.py",
+      "bytes": 2740,
+      "sha256": "7b7a5940805d8f046a5e5802e3522ee55c14dc973be525a4cf05387bc1345193",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/boundary.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/boundary.py",
+      "bytes": 4050,
+      "sha256": "69ee0c19c4d783305a7109b002ce0cceec6243c32f40b7ee01e84e41140ce884",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/common.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/common.py",
+      "bytes": 5144,
+      "sha256": "20bc231165328d030ba348d75ed6476668992d84ee6e12445203a1c8ae53d4e8",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/create_batch1_profile.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/create_batch1_profile.py",
+      "bytes": 4338,
+      "sha256": "fee337898632b6e8bca825d39ac296029b8613094b6e3a48b53a30f377909503",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/download_models.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/download_models.py",
+      "bytes": 1443,
+      "sha256": "c9100f252ef4943c4f7f450c3ca95b588b78f39b22ba5a648594ab50ffb4a381",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/encode.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/encode.py",
+      "bytes": 7106,
+      "sha256": "a6d223d291f9853e8a5972a458f9c087bdce20d97c5a4a571a18abc1b380cd0b",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/evaluate.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/evaluate.py",
+      "bytes": 8623,
+      "sha256": "d1502cb8c62d6a8ffabbf3017fb461e604d08fa0f386a3f215c4907da9734179",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/finalize_manifest.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/finalize_manifest.py",
+      "bytes": 1075,
+      "sha256": "9b165ea7d561f21ca7df7608882f5a88824e539db32816f23fda97b469214886",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/freeze.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/freeze.py",
+      "bytes": 6332,
+      "sha256": "67d4540e399993cb7c3e3b5a4cf90a99205bf59f819620e894cd0ecd6ae9bcb6",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/memory_probe.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/memory_probe.py",
+      "bytes": 1535,
+      "sha256": "b96cb4cd944e071adcb05db6492c0ab222a9aacc21e612a507ae6038eb1f168b",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/metrics.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/metrics.py",
+      "bytes": 3118,
+      "sha256": "32aacbc272d34a00469cf58a2b0a381a2327f9b32b9928dd1ffc0ee67db58851",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/preflight.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/preflight.py",
+      "bytes": 6117,
+      "sha256": "714f747cce6b8d159bc50ce57623c6f84ffffee22361b66b43633ef1041537cd",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/report.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/report.py",
+      "bytes": 7058,
+      "sha256": "da6ac005f73d2a784ed6b615dfe0ad349940339bda84577aee526f7934d420d3",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/run.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/run.py",
+      "bytes": 2073,
+      "sha256": "7368a608ce7f6d17ca3ef13ed964d49db9a33ed3e08caa40165a3e9b48b9be30",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/smoke.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/smoke.py",
+      "bytes": 6269,
+      "sha256": "e80c27de9bf28223e71fbdda90f2d8c32c487909de77bc7c064d17103b6a801d",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/supervise.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/supervise.py",
+      "bytes": 6837,
+      "sha256": "6db68c178b2a22d63675733611b8fc2f20f49f966e012b2e46a8f12ed806e4e4",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/source/token_summary.py",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/scripts/token_summary.py",
+      "bytes": 2175,
+      "sha256": "b8dac828f09545fb48a3c2a1b9d6fbfb89dde72520de82b04e7d108b1fea2e92",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_esci_boundary.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_esci_boundary.json",
+      "bytes": 934,
+      "sha256": "6bf0c893e5854afdf872050a58a0526ba176cc70b0f1d24e986a740ce9f0047f",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_esci_canonical.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_esci_canonical.json",
+      "bytes": 557,
+      "sha256": "16facaea1502b203560be46c88644a32f583a1100050c0021474f33c6657fe8c",
+      "category": "completed_canonical_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_esci_encode.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_esci_encode.json",
+      "bytes": 288,
+      "sha256": "280a4b444eac9aea7d91834080a203de8603599fd849584b0d9ccf127bc7c2d3",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_esci_evaluate.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_esci_evaluate.json",
+      "bytes": 550,
+      "sha256": "df4444e3a5c946d19f9cd6132eb15f0460f8f4b507c7a1f2ddc8af80880c38ba",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_wands_boundary.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_wands_boundary.json",
+      "bytes": 937,
+      "sha256": "6aaa7865b6c3dd33427b9836947c783ea41d1341248fcd5bbf943bf43fda3e2f",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_wands_canonical.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_wands_canonical.json",
+      "bytes": 559,
+      "sha256": "73ef89dfd5379fb6095fff7484dae02d4279222ec7bd5f83a9f73db12c7e36eb",
+      "category": "completed_canonical_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_wands_encode.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_wands_encode.json",
+      "bytes": 289,
+      "sha256": "d202c180a9ecb234471ea184b516985a2e549e727e04e2b8162a445ca4e9c743",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/status/embeddinggemma2_wands_evaluate.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/status/embeddinggemma2_wands_evaluate.json",
+      "bytes": 552,
+      "sha256": "449491103100f95e84e3b55276e3baa9131ecd7d3d170879976ed29d52bc86f8",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/support/esci_catalog.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/esci_catalog.csv",
+      "bytes": 170284,
+      "sha256": "9f855551f61a39f1c91d665a039a617ef4d98981d3bd83d7cb0be7e53c589ee5",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/support/esci_eligible_queries.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/esci_eligible_queries.csv",
+      "bytes": 23562,
+      "sha256": "8c910994e69c91a01c0b24394469d0fab79f2af6f8b04acdcb8523b96307bf49",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/support/esci_highest_support.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/esci_highest_support.csv",
+      "bytes": 88677,
+      "sha256": "1a12bbbaf28d0e362706cc54dfa10cff542875b78d5a7ffdd445e7dc9f17eebf",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/support/esci_serialization.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/esci_serialization.csv",
+      "bytes": 282249,
+      "sha256": "5b702de6766a58763c3b30a30de42616c53294a59cbf5a204f76ebdb360018d9",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/support/wands_catalog.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/wands_catalog.csv",
+      "bytes": 536728,
+      "sha256": "de353b0b343aab6af12aa713f674ad87b34f6f3b0f9a51e79b2d2eaa50210304",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/support/wands_eligible_queries.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/wands_eligible_queries.csv",
+      "bytes": 12912,
+      "sha256": "25a9d68c45ff0fc5d55df9ee13f2dc65319acfcc3c1a4d499a6082accd8fdc8f",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/support/wands_highest_support.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/wands_highest_support.csv",
+      "bytes": 352944,
+      "sha256": "50b15e1f1a0385fb97d822f6db4482d6a5dab1a713812d3bdb8ee3a04701d231",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/support/wands_serialization.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/audit/wands_serialization.csv",
+      "bytes": 1022896,
+      "sha256": "04611dbc98ef398ffa0b47a01dec51870fa1403ae4c6a0f7a100c645c9c1fbba",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/appendix_K100.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/appendix_K100.csv",
+      "bytes": 689,
+      "sha256": "84509717f78866914216998789e7e482ae91361012f516950d429e69caceb1d6",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/cpu_token_fit_summary.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/cpu_token_fit_summary.csv",
+      "bytes": 1238,
+      "sha256": "8cdd6c3b19a2e40b086910c34a04e1baf210bf5651c844b1082fa1508ed0d3c5",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/cross_model_VI.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/cross_model_VI.csv",
+      "bytes": 1300,
+      "sha256": "cb738078006a6d47620e2cb1dfb54ce37c4defe3133196dafd919d0829446941",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/cross_model_VI.png",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/cross_model_VI.png",
+      "bytes": 46701,
+      "sha256": "be167777f48b229a4b6db22fe148f96dd6c553945976c1009de22fd5c368acb0",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/main_candidates.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/main_candidates.csv",
+      "bytes": 700,
+      "sha256": "fce8f77cf0037480618620557f45c8565228971f69d4806c4b2e5d4154c0a165",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/missing_cells.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/missing_cells.csv",
+      "bytes": 152,
+      "sha256": "9d7882f47c7f4899bfaa1a7b937f1f632c068481c142c719a229b17b63976bb3",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/stage_status.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/stage_status.csv",
+      "bytes": 1529,
+      "sha256": "711bc13f1638fccc81bce4a1271e81488f24181ce1df0d37bf842c854f300de5",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/tables/summary.csv",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/tables/summary.csv",
+      "bytes": 82266,
+      "sha256": "568a7eddde9ac940a6140904d62cb0a0173bf3a03f58e7b654228d9ca83422cb",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/canonical/complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/complete.json",
+      "bytes": 2634,
+      "sha256": "2247b43534f889ca04f01f56578085d737c930b24ab75ff246c097c92d20eaf4",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/canonical/pair_ranks.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/pair_ranks.parquet",
+      "bytes": 245994,
+      "sha256": "60ed9770e97309d2ace4c93644ef860ba0c8cf6b913ddecfc2fea631036c4664",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/canonical/query_metrics.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/query_metrics.parquet",
+      "bytes": 486525,
+      "sha256": "448e439050c536fa64419fccc14aed2712b0e983ea14203b7ceb37968c5d3005",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/canonical/query_transitions.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/query_transitions.parquet",
+      "bytes": 27813,
+      "sha256": "30f09f135e2c09bbdd3d6e74df03274b4350ad2d6c2721b2b1859c79bbab2bd0",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/canonical_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/canonical/complete.json",
+      "bytes": 1923,
+      "sha256": "c8388b03ac6bd0eb5a117aaaf6b53f6039cc872bb53017e4a60cbae25c3262c2",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/boundary_audit.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/boundary_audit.json",
+      "bytes": 1682,
+      "sha256": "ee55e9434860ebaed90c366abc037b76d9793ff5c0256bb6e54cd534a0285419",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/boundary_repeats.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/boundary_repeats.parquet",
+      "bytes": 9336,
+      "sha256": "96363a6241294f3e5a2d374cbfb857da3e25d8efd9762bc46f289470eb39c292",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/boundary_selected.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/boundary_selected.parquet",
+      "bytes": 16635,
+      "sha256": "45f15a22710f8ee4b66a5b1add9688755d1efead3413bdedc06e1de8cd1ae87a",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/complete.json",
+      "bytes": 4806,
+      "sha256": "89632f7a3458784364d86bd2055f67a5e837941a360bc61139384d8dc6c3a91f",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/crossing_witnesses.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/crossing_witnesses.parquet",
+      "bytes": 479036,
+      "sha256": "e06d78914af9eb552041eedafe912e21d3a1dc67c599d7767d081988c39aed23",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/pair_ranks.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/pair_ranks.parquet",
+      "bytes": 675509,
+      "sha256": "9c88e06f7d508736a3b243b765066a71c6ca155380f99999fb2dc8576eb8a7a1",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/query_membership.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/query_membership.parquet",
+      "bytes": 121852,
+      "sha256": "1fdec2ae2d8c93c3ca5ba0a9fc1234cf79c2847e75417300b218319ae3ecc7c7",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/query_metrics.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/query_metrics.parquet",
+      "bytes": 971567,
+      "sha256": "dc243db9a0d326ad6eb232d2d95885e3b42809b2579f44f4649942fb1adbb6c3",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/primary/query_states.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/query_states.parquet",
+      "bytes": 26046,
+      "sha256": "2d2cfe794cf777820f11d0ee2c1d4739b2e74a066aeb6b498e38c5cbc008d226",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/queries_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/queries/complete.json",
+      "bytes": 1899,
+      "sha256": "52fb4a51ffab892d4049c2b0a429a4b921e99fa8334202a857689fa95ecfb250",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/embeddinggemma2/wands/raw_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/raw/complete.json",
+      "bytes": 1902,
+      "sha256": "06e39188ab2e328e7a23bef24e3a3045ed755c8fc4c13e359c2c9058d6c8a0cb",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/harrier06b/MANUSCRIPT_ADDITIONS.tex",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/MANUSCRIPT_ADDITIONS.tex",
+      "bytes": 1303,
+      "sha256": "3392cc89fa02cc70b283010734ae12a09c31fd4a69566660f7142f107565462c",
+      "category": "profile_report_or_manifest_at_export"
+    },
+    {
+      "path": "models/harrier06b/MODEL_AUDIT.md",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/MODEL_AUDIT.md",
+      "bytes": 2838,
+      "sha256": "95752ea73871fa0cb51b5da09e6ab6481775995f518eab978b35f93888af0720",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/harrier06b/PROTOCOL.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/PROTOCOL.json",
+      "bytes": 66363,
+      "sha256": "7153798d3c03023dba8fb62df34d04fcefd0618474afe44602c056690d3903a4",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/harrier06b/PROTOCOL.md",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/PROTOCOL.md",
+      "bytes": 1872,
+      "sha256": "835a9fd379f715b2f7372872ac17959f7bc8ade474f68bab123ee2cac5f314c1",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/harrier06b/PROTOCOL.sha256",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/PROTOCOL.sha256",
+      "bytes": 66,
+      "sha256": "0eb31699c16dc948a04494aa3b8431a928f3a2c5729eee39063eaa91f21c93f2",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/harrier06b/REPORT_zh.md",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/REPORT_zh.md",
+      "bytes": 2841,
+      "sha256": "44f663d1efff21c8dbe2691a01e7529e5b7881213a997fd0cf98943578a167bf",
+      "category": "profile_report_or_manifest_at_export"
+    },
+    {
+      "path": "models/harrier06b/RUNTIME_COMPATIBILITY_AMENDMENT.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/RUNTIME_COMPATIBILITY_AMENDMENT.json",
+      "bytes": 2508,
+      "sha256": "ced9b1a5f2843549ec61f3680bbbcda988ae6faf7fbc765b372bd058f99f54f4",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/harrier06b/USER_SCOPE_AMENDMENT.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/USER_SCOPE_AMENDMENT.json",
+      "bytes": 1868,
+      "sha256": "81d686cb121ec798a38523ad9814fe3f2fe2a19a9226ea52293268c1f791dcab",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/harrier06b/audit/implementation_sources.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/implementation_sources.json",
+      "bytes": 1377,
+      "sha256": "e65bdba249abc4070424ce4d26002f27a31519a15dfa9970b8fb83fb5e5eb545",
+      "category": "provenance"
+    },
+    {
+      "path": "models/harrier06b/esci/canonical/complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/complete.json",
+      "bytes": 2602,
+      "sha256": "965309cb25f29fb7fc7f89b1758cb32bccc7b5696d87ffbeb87b9dd9f1bb330b",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/canonical/pair_ranks.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/pair_ranks.parquet",
+      "bytes": 80578,
+      "sha256": "23d25cc53102716efa786ecc7d919084e7640ecb94b34e3f046ffc90fc14d391",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/canonical/query_metrics.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/query_metrics.parquet",
+      "bytes": 805568,
+      "sha256": "efa98070614d71820965f2a09e100be653643a88538379da6442e4c642b21244",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/canonical/query_transitions.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/query_transitions.parquet",
+      "bytes": 21607,
+      "sha256": "6af73c8a208cc59e51de9ea9f2bb2ff90a6ae5b764c8cdef47243d3efc4d2268",
+      "category": "completed_canonical_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/canonical_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/canonical/complete.json",
+      "bytes": 1901,
+      "sha256": "e5d5c5ac112dc9392c62ac2ec2a854c13cf97a596af7982b6550c15c35342cf9",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/boundary_audit.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/boundary_audit.json",
+      "bytes": 1679,
+      "sha256": "f1d1db4299ffca6537c0eb9bab8a6a8a28e7e1cfbd2ba06a09e5e50e1004878d",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/boundary_repeats.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/boundary_repeats.parquet",
+      "bytes": 9391,
+      "sha256": "ca983de8e7259e7f8aa6af1e29f1d3af97279ca46ec044fb5f3609c8fb3ce01b",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/boundary_selected.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/boundary_selected.parquet",
+      "bytes": 17013,
+      "sha256": "772ba50eece0e22ab6875f962a0542afa08bbcd12873fd71a8440e045b555d42",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/complete.json",
+      "bytes": 4744,
+      "sha256": "15b9ef7f0fff83cdbf8992ef88e984305c03c4ce1b908fe87e9ecabba36b030f",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/crossing_witnesses.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/crossing_witnesses.parquet",
+      "bytes": 35482,
+      "sha256": "b4d0cd36552af86fb02c26d14ce39063963c70e119e8c658a59eb090b6e94677",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/pair_ranks.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/pair_ranks.parquet",
+      "bytes": 162369,
+      "sha256": "5746fc2cf5005267206f6963992a92dd80636d5cbaff9e88b0907ba293ca2fa8",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/query_membership.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/query_membership.parquet",
+      "bytes": 80130,
+      "sha256": "d462f0836d4400f5ad4a81cba3f5ee84df5ffe69f27544096980021850af6f8f",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/query_metrics.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/query_metrics.parquet",
+      "bytes": 1551880,
+      "sha256": "80be559ff516ee0b59b028fcf3049b489966daeba171dc492387b055fe4dc531",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/primary/query_states.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/query_states.parquet",
+      "bytes": 20470,
+      "sha256": "58d1e68c3d652e6fec390ac2fa4991ba0a7cafd02cb73b7724f1350ede8cc33c",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/esci/queries_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/queries/complete.json",
+      "bytes": 1878,
+      "sha256": "df4e03c743f5160d9e2643078d44532ff97e2e090fcf1cca03794bc018252688",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/harrier06b/esci/raw_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/raw/complete.json",
+      "bytes": 1875,
+      "sha256": "6175876f831f4b5ea5939a510b19ca697781249e754d217c5a37294a9ee68c14",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/harrier06b/manifest.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/manifest.json",
+      "bytes": 74012,
+      "sha256": "520f39cc38a2065f86e05a8f67bf3a08c25072d588ab7f2a2806841cd5976240",
+      "category": "profile_report_or_manifest_at_export"
+    },
+    {
+      "path": "models/harrier06b/requirements.txt",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/requirements.txt",
+      "bytes": 335,
+      "sha256": "e2dbbf310bef73194425bedfef44f316796e3424ebcf26f3943d31f0824d917f",
+      "category": "frozen_design"
+    },
+    {
+      "path": "models/harrier06b/source/adapters.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/adapters.py",
+      "bytes": 6142,
+      "sha256": "fc825501e44130443e64bbb188ce935f5664b5dcedf21034e539707e80bca780",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/analyze.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/analyze.py",
+      "bytes": 8227,
+      "sha256": "a444cc4d8c55158afd388c1a6c197902e9ac0027578f2b72cefb1864e2605926",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/benchmark.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/benchmark.py",
+      "bytes": 2740,
+      "sha256": "7b7a5940805d8f046a5e5802e3522ee55c14dc973be525a4cf05387bc1345193",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/boundary.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/boundary.py",
+      "bytes": 4050,
+      "sha256": "69ee0c19c4d783305a7109b002ce0cceec6243c32f40b7ee01e84e41140ce884",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/common.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/common.py",
+      "bytes": 5438,
+      "sha256": "b7dc55d1306b7797c1e9739c7ec13fbfedd2e0e2503f9ab0ac89bcfbf56af631",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/encode.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/encode.py",
+      "bytes": 7106,
+      "sha256": "a6d223d291f9853e8a5972a458f9c087bdce20d97c5a4a571a18abc1b380cd0b",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/evaluate.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/evaluate.py",
+      "bytes": 8623,
+      "sha256": "d1502cb8c62d6a8ffabbf3017fb461e604d08fa0f386a3f215c4907da9734179",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/finalize_manifest.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/finalize_manifest.py",
+      "bytes": 1075,
+      "sha256": "9b165ea7d561f21ca7df7608882f5a88824e539db32816f23fda97b469214886",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/freeze.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/freeze.py",
+      "bytes": 1207,
+      "sha256": "2b9e1f5fae3b2c4723444475ccda18153026623a56c8a5e483c36b4d10b0c81a",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/metrics.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/metrics.py",
+      "bytes": 3118,
+      "sha256": "32aacbc272d34a00469cf58a2b0a381a2327f9b32b9928dd1ffc0ee67db58851",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/preflight.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/preflight.py",
+      "bytes": 6117,
+      "sha256": "714f747cce6b8d159bc50ce57623c6f84ffffee22361b66b43633ef1041537cd",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/report.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/report.py",
+      "bytes": 7386,
+      "sha256": "b838b0b33493f11c25e87f300d0455fbc1eba0520cb3ea230cfa2d766dc21b84",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/run.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py",
+      "bytes": 2057,
+      "sha256": "ce4ac4c705d925d0675c8eb4bc354b8c07867d5cb241829740708a7d7f18ad80",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/smoke.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/smoke.py",
+      "bytes": 6269,
+      "sha256": "e80c27de9bf28223e71fbdda90f2d8c32c487909de77bc7c064d17103b6a801d",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/supervise.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/supervise.py",
+      "bytes": 9422,
+      "sha256": "2017834335fe58ee96e0ff80d46c2ea69e0cf8ff504abe444feebf4c5cb4d42b",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/source/token_summary.py",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/token_summary.py",
+      "bytes": 2175,
+      "sha256": "b8dac828f09545fb48a3c2a1b9d6fbfb89dde72520de82b04e7d108b1fea2e92",
+      "category": "frozen_scientific_source"
+    },
+    {
+      "path": "models/harrier06b/status/harrier06b_esci_boundary.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/status/harrier06b_esci_boundary.json",
+      "bytes": 921,
+      "sha256": "c0417b7e36949cff477fe0d5042d0b979ff8fc124e9f766f30bcc6a24bf2d667",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/harrier06b/status/harrier06b_esci_canonical.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/status/harrier06b_esci_canonical.json",
+      "bytes": 548,
+      "sha256": "ce0a2e954bd5e6030af33240a1598db31e50cfbcf2dd16c517c811d68228bec8",
+      "category": "completed_canonical_receipt"
+    },
+    {
+      "path": "models/harrier06b/status/harrier06b_esci_encode.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/status/harrier06b_esci_encode.json",
+      "bytes": 283,
+      "sha256": "a7c34fbaa9766f9c181d25e51e4fbc61790486bfe6a227c158092e4f737074ec",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/harrier06b/status/harrier06b_esci_evaluate.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/status/harrier06b_esci_evaluate.json",
+      "bytes": 541,
+      "sha256": "66160ba9b1cdf524a312db01231b55e9aafbac063882046dc37b5b91cdd2f9a9",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/harrier06b/status/harrier06b_wands_boundary.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/status/harrier06b_wands_boundary.json",
+      "bytes": 924,
+      "sha256": "16065ac00bdffac8e83bfbaae25d354fab238b4142f9ef9d3f507b6a031e05c6",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/harrier06b/status/harrier06b_wands_encode.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/status/harrier06b_wands_encode.json",
+      "bytes": 284,
+      "sha256": "252e0b5901be2312d3a187f4352c86ff03fd54e8c36f1cc95473d44943b25ffd",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/harrier06b/status/harrier06b_wands_evaluate.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/status/harrier06b_wands_evaluate.json",
+      "bytes": 543,
+      "sha256": "faeec29764445b6604cf2270b635f611340e01acd6215bf376c37c092b5e5060",
+      "category": "completed_stage_receipt"
+    },
+    {
+      "path": "models/harrier06b/support/esci_catalog.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/esci_catalog.csv",
+      "bytes": 170284,
+      "sha256": "9f855551f61a39f1c91d665a039a617ef4d98981d3bd83d7cb0be7e53c589ee5",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/support/esci_eligible_queries.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/esci_eligible_queries.csv",
+      "bytes": 23562,
+      "sha256": "8c910994e69c91a01c0b24394469d0fab79f2af6f8b04acdcb8523b96307bf49",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/support/esci_highest_support.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/esci_highest_support.csv",
+      "bytes": 88677,
+      "sha256": "1a12bbbaf28d0e362706cc54dfa10cff542875b78d5a7ffdd445e7dc9f17eebf",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/support/esci_serialization.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/esci_serialization.csv",
+      "bytes": 282249,
+      "sha256": "5b702de6766a58763c3b30a30de42616c53294a59cbf5a204f76ebdb360018d9",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/support/wands_catalog.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/wands_catalog.csv",
+      "bytes": 536728,
+      "sha256": "de353b0b343aab6af12aa713f674ad87b34f6f3b0f9a51e79b2d2eaa50210304",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/support/wands_eligible_queries.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/wands_eligible_queries.csv",
+      "bytes": 12912,
+      "sha256": "25a9d68c45ff0fc5d55df9ee13f2dc65319acfcc3c1a4d499a6082accd8fdc8f",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/support/wands_highest_support.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/wands_highest_support.csv",
+      "bytes": 352944,
+      "sha256": "50b15e1f1a0385fb97d822f6db4482d6a5dab1a713812d3bdb8ee3a04701d231",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/support/wands_serialization.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/audit/wands_serialization.csv",
+      "bytes": 1022896,
+      "sha256": "04611dbc98ef398ffa0b47a01dec51870fa1403ae4c6a0f7a100c645c9c1fbba",
+      "category": "population_and_serialization_audit"
+    },
+    {
+      "path": "models/harrier06b/tables/appendix_K100.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/tables/appendix_K100.csv",
+      "bytes": 679,
+      "sha256": "9e6d2174f6972bad431b279dc19722ff8c66a76db82943a6f1172ce96ff22b50",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/harrier06b/tables/cross_model_VI.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/tables/cross_model_VI.csv",
+      "bytes": 1260,
+      "sha256": "de5b979eabe9b199a6e9450db8d21b231e1e9bccf81810dafa6e9a6fd470dc44",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/harrier06b/tables/cross_model_VI.png",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/tables/cross_model_VI.png",
+      "bytes": 39003,
+      "sha256": "7678faddbae96654a910b784ef7b5e1f8014431a197dddb36786c2d3612b22e7",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/harrier06b/tables/main_candidates.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/tables/main_candidates.csv",
+      "bytes": 690,
+      "sha256": "a2a592013215f95569af6006ad970863c0379b8c8dcae24dd7dff402f602c5a5",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/harrier06b/tables/missing_cells.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/tables/missing_cells.csv",
+      "bytes": 29,
+      "sha256": "79859105bcfc190761d9904c4ffda921e249ccbcb33d4c7b8839f22361c0af51",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/harrier06b/tables/stage_status.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/tables/stage_status.csv",
+      "bytes": 500,
+      "sha256": "10bbd0094a0ea5072d61169e8e3e1a619cedb67e3db4704a58a6327f5a7a40ad",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/harrier06b/tables/summary.csv",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/tables/summary.csv",
+      "bytes": 50662,
+      "sha256": "dc9ebb55f38bc4933e86ef08c484cae0b1b9800574deacce2ebc15bbeb3f907e",
+      "category": "profile_tables_at_export"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/boundary_audit.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/boundary_audit.json",
+      "bytes": 1682,
+      "sha256": "14facf3d1a2ed7e1f5183d53eb6fd0e8c6d7807d4f7ea31e39473ef845a2c3d0",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/boundary_repeats.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/boundary_repeats.parquet",
+      "bytes": 9315,
+      "sha256": "efd2b98bcab0d01925603b477ee34fdbb9090d9e44d05687f76bdb86fc93b331",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/boundary_selected.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/boundary_selected.parquet",
+      "bytes": 16638,
+      "sha256": "035298fcfb9afcc98b02c0a915fd6834716d8f02ab98496aef7f1d605c1cdc68",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/complete.json",
+      "bytes": 4758,
+      "sha256": "7125f6b84ab1eeb18d138e7f101a451afce3231d1982ecf421cbe4dd4420271c",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/crossing_witnesses.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/crossing_witnesses.parquet",
+      "bytes": 363328,
+      "sha256": "3e72bf4ca5b436de73e75b37c941f5a0213301ce0f59c60cf59d2318dbfcd17d",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/pair_ranks.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/pair_ranks.parquet",
+      "bytes": 732128,
+      "sha256": "695b0c13f032aa06481ef4d9c13cf3830277a51fc90f8fc03214e2d40fef9661",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/query_membership.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/query_membership.parquet",
+      "bytes": 107086,
+      "sha256": "c4e6f507614c9659b0751340949f0bc4b583093a00e4c9049bbeed19ba9f10d2",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/query_metrics.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/query_metrics.parquet",
+      "bytes": 944432,
+      "sha256": "9014eeb22994d1436ee2ed1734018cf315d1485e1507f49bb4c202de3de814ed",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/primary/query_states.parquet",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/query_states.parquet",
+      "bytes": 25710,
+      "sha256": "bdf009256a481f3db4525ac5aca6966eb23f0402b17e802fc600686e232cbb4a",
+      "category": "completed_primary_evidence"
+    },
+    {
+      "path": "models/harrier06b/wands/queries_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/queries/complete.json",
+      "bytes": 1883,
+      "sha256": "e10c67fb044b0370831f7e2cd2d5584787b1e7c799b24d93ff38d653d44e391a",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "models/harrier06b/wands/raw_encoding_complete.json",
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/raw/complete.json",
+      "bytes": 1887,
+      "sha256": "7d3bf7e7cd89f9e214a777f17250067de127f91d697ec49a876d99c517fe782e",
+      "category": "encoding_receipt"
+    },
+    {
+      "path": "provenance/EXECUTION_RQ_FIRST_20261021.json",
+      "original_path": "revision_recent_models_20261016/EXECUTION_RQ_FIRST_20261021.json",
+      "bytes": 4444,
+      "sha256": "7f74bdb030b6733f8e3ff729cab7efe3b0941048b05224746f88d1e2bf0ebc87",
+      "category": "scope_history"
+    },
+    {
+      "path": "provenance/SOURCE_MAP.md",
+      "original_path": "revision_recent_models_20261016/SOURCE_MAP.md",
+      "bytes": 5270,
+      "sha256": "9f9c8b146b5fea8c318c5bb49b3a0acf7201af162dcfc2e9eaa492462eb6c2ee",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "provenance/USER_SCOPE_CANCELLATION_20261021.json",
+      "original_path": "revision_jina_nano_20261019/USER_SCOPE_CANCELLATION_20261021.json",
+      "bytes": 1479,
+      "sha256": "68acc1c7b984e900a0a8203e1aa370d6246ed714940f489cc255843f72ca8e07",
+      "category": "scope_history"
+    },
+    {
+      "path": "provenance/active_profiles.json",
+      "original_path": "revision_recent_models_20261016/audit/active_profiles.json",
+      "bytes": 2761,
+      "sha256": "238e80d6d6f524895821179ac50f396a757d399c6fdc36f765a4b91107cf884f",
+      "category": "provenance"
+    },
+    {
+      "path": "provenance/all_primary_completion_notified_20261021.json",
+      "original_path": "revision_recent_models_20261016/audit/primary_first_20261021/all_primary_completion_notified_20261021.json",
+      "bytes": 7391,
+      "sha256": "4a88b3ba18a874c911a0ca326c4802047797dfb77f6503929ea80d6e9a909290",
+      "category": "completion_verification"
+    },
+    {
+      "path": "provenance/all_primary_verified_20261021_1658.json",
+      "original_path": "revision_recent_models_20261016/audit/primary_first_20261021/all_primary_verified_20261021_1658.json",
+      "bytes": 12407,
+      "sha256": "a6adc85cd120cbe70b3dccdcaaa10264beccbbdc598f4966a881869d3cfcc0ed",
+      "category": "completion_verification"
+    },
+    {
+      "path": "provenance/environment-lock.txt",
+      "original_path": "revision_recent_models_20261016/audit/environment-lock.txt",
+      "bytes": 3330,
+      "sha256": "aeddfc63210041f6c3dd1c13cda20bd4042212b6b91ff399aa04cb842f31a0e8",
+      "category": "provenance"
+    },
+    {
+      "path": "provenance/gemma_canonical_outputs_verified.json",
+      "original_path": "revision_recent_models_20261016/audit/gemma_full_20261021/canonical_outputs_verified.json",
+      "bytes": 11642,
+      "sha256": "144597b4d9583e66d41d89e251fb11eee8dd7e648217f9a4cc45c32684622e5c",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "provenance/gemma_esci_canonical_verification.json",
+      "original_path": "revision_recent_models_20261016/audit/canonical_esci_20261021/verification.json",
+      "bytes": 12642,
+      "sha256": "b6376c85d2f6abd482e95f902bd708fa898090bfdeb396625c2365bab321bb73",
+      "category": "completion_verification"
+    },
+    {
+      "path": "provenance/gemma_full_inspection.json",
+      "original_path": "revision_recent_models_20261016/audit/gemma_full_20261021/inspection.json",
+      "bytes": 7211,
+      "sha256": "0f6f3dd6087c0f0156b74b57c21e5e477e9408b0c9f655fb446ee0b4b47d3e12",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "provenance/gemma_full_verification.json",
+      "original_path": "revision_recent_models_20261016/audit/gemma_full_20261021/verification.json",
+      "bytes": 6236,
+      "sha256": "a58855ebe5db33cf36e4e2084c005d41b84cb4f253a0c5b00c205b157b9187c2",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "provenance/harrier_esci_canonical_inspection.json",
+      "original_path": "revision_recent_models_20261016/audit/harrier_esci_can_20261021/inspection.json",
+      "bytes": 6767,
+      "sha256": "74d72f0973be150c8c443acac2eaebc7f280bc90756c5cfb5cb4bb62eeb71285",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "provenance/harrier_esci_canonical_outputs_verified.json",
+      "original_path": "revision_recent_models_20261016/audit/harrier_esci_can_20261021/outputs_verified.json",
+      "bytes": 5738,
+      "sha256": "b7e987cfd1a35410e3d5465b9330ed7c43d3dc8bcb7bf78a40e5d7ef23ed7ee8",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "provenance/harrier_esci_canonical_verification.json",
+      "original_path": "revision_recent_models_20261016/audit/harrier_esci_can_20261021/verification.json",
+      "bytes": 3380,
+      "sha256": "8d3642531482161089089b927ec2f0797737baebfdff51bd1a888ed8004668f7",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "provenance/historical_data_hash_reconciliation.json",
+      "original_path": "revision_recent_models_20261016/audit/historical_data_hash_reconciliation.json",
+      "bytes": 1801,
+      "sha256": "8e7982c2faa2250fcb0c1186cf7925957cb1b438c3acb24b4cff64060b17e864",
+      "category": "completion_or_comparability_evidence"
+    },
+    {
+      "path": "reports/MANUSCRIPT_ADDITIONS.tex",
+      "original_path": "revision_recent_models_20261016/MANUSCRIPT_ADDITIONS.tex",
+      "bytes": 2633,
+      "sha256": "f5dbc37940be322853e6c7f607d35fd62058dcc9f8693f19f3275f083aeb353e",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/REPORT_zh.md",
+      "original_path": "revision_recent_models_20261016/REPORT_zh.md",
+      "bytes": 4252,
+      "sha256": "9f51034c8f28c203ef8b374aa2a5795bb7bb3b4d9ba9aca8b9e78a0583b14ca6",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/original_manifest_multi_profile.json",
+      "original_path": "revision_recent_models_20261016/manifest_multi_profile.json",
+      "bytes": 18907,
+      "sha256": "ea8eb6e5247eb5d0d3b840211d6a9807c0e398150c136cbf2aa2a7393ab5e1ee",
+      "category": "original_manifest"
+    },
+    {
+      "path": "reports/tables/appendix_K100.csv",
+      "original_path": "revision_recent_models_20261016/tables/appendix_K100.csv",
+      "bytes": 1092,
+      "sha256": "0a70d75341b21ae9b6d6836f86470313dcee269b68707f2c29186aa004663211",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/tables/cross_model_VI.csv",
+      "original_path": "revision_recent_models_20261016/tables/cross_model_VI.csv",
+      "bytes": 1336,
+      "sha256": "7cd900051d3bce310bc9ac4ed7aaed1421593f9d30336e45e5a0258b9b907eed",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/tables/cross_model_VI.png",
+      "original_path": "revision_recent_models_20261016/tables/cross_model_VI.png",
+      "bytes": 72136,
+      "sha256": "95399e8d2aec2ba9618344d315051209221dc61b862d0791da8a0e9ff7dc8a8e",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/tables/main_candidates.csv",
+      "original_path": "revision_recent_models_20261016/tables/main_candidates.csv",
+      "bytes": 1119,
+      "sha256": "9fa53363a00c052eb43ff9d0cd5ae3ec117fb8a1e43cc5715a226ad442f4ba39",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/tables/missing_cells.csv",
+      "original_path": "revision_recent_models_20261016/tables/missing_cells.csv",
+      "bytes": 321,
+      "sha256": "f4e9e4fc652a3a1b35ce555365db058e80e8fcda739ada84c0d474c7cc89704c",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/tables/stage_status.csv",
+      "original_path": "revision_recent_models_20261016/tables/stage_status.csv",
+      "bytes": 4662,
+      "sha256": "eca7f29613b143319f9922c543176ffa3ba99d63a604f24deae3714a71ab1f85",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/tables/summary.csv",
+      "original_path": "revision_recent_models_20261016/tables/summary.csv",
+      "bytes": 130721,
+      "sha256": "ab7e30c8612670301f51b56af41891003044a659cc722230a23ed9b6bf683c64",
+      "category": "combined_report"
+    },
+    {
+      "path": "reports/tables/token_fit_summary.csv",
+      "original_path": "revision_recent_models_20261016/tables/token_fit_summary.csv",
+      "bytes": 597,
+      "sha256": "e2a5a486518980754d2e68a44a85153ca4b47a1a3dca01e891ec1013426a7df9",
+      "category": "combined_report"
+    },
+    {
+      "path": "verify_snapshot.py",
+      "bytes": 3502,
+      "sha256": "6ff9e4357efea4c6f10261d002f05889aeeb1c79b6cd5d16c4eca661d81a4183",
+      "category": "snapshot_documentation_and_verifier"
+    }
+  ],
+  "receipt_files": [
+    "models/embeddinggemma2/status/embeddinggemma2_esci_encode.json",
+    "models/embeddinggemma2/status/embeddinggemma2_esci_evaluate.json",
+    "models/embeddinggemma2/status/embeddinggemma2_esci_boundary.json",
+    "models/embeddinggemma2/esci/queries_encoding_complete.json",
+    "models/embeddinggemma2/esci/raw_encoding_complete.json",
+    "models/embeddinggemma2/esci/primary/complete.json",
+    "models/embeddinggemma2/status/embeddinggemma2_esci_canonical.json",
+    "models/embeddinggemma2/esci/canonical_encoding_complete.json",
+    "models/embeddinggemma2/esci/canonical/complete.json",
+    "models/embeddinggemma2/status/embeddinggemma2_wands_encode.json",
+    "models/embeddinggemma2/status/embeddinggemma2_wands_evaluate.json",
+    "models/embeddinggemma2/status/embeddinggemma2_wands_boundary.json",
+    "models/embeddinggemma2/wands/queries_encoding_complete.json",
+    "models/embeddinggemma2/wands/raw_encoding_complete.json",
+    "models/embeddinggemma2/wands/primary/complete.json",
+    "models/harrier06b/status/harrier06b_esci_encode.json",
+    "models/harrier06b/status/harrier06b_esci_evaluate.json",
+    "models/harrier06b/status/harrier06b_esci_boundary.json",
+    "models/harrier06b/esci/queries_encoding_complete.json",
+    "models/harrier06b/esci/raw_encoding_complete.json",
+    "models/harrier06b/esci/primary/complete.json",
+    "models/harrier06b/status/harrier06b_wands_encode.json",
+    "models/harrier06b/status/harrier06b_wands_evaluate.json",
+    "models/harrier06b/status/harrier06b_wands_boundary.json",
+    "models/harrier06b/wands/queries_encoding_complete.json",
+    "models/harrier06b/wands/raw_encoding_complete.json",
+    "models/harrier06b/wands/primary/complete.json",
+    "models/embeddinggemma2/status/embeddinggemma2_wands_canonical.json",
+    "models/embeddinggemma2/wands/canonical_encoding_complete.json",
+    "models/embeddinggemma2/wands/canonical/complete.json",
+    "models/harrier06b/status/harrier06b_esci_canonical.json",
+    "models/harrier06b/esci/canonical_encoding_complete.json",
+    "models/harrier06b/esci/canonical/complete.json"
+  ],
+  "omitted_receipt_outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\embeddings.npy",
+      "sha256": "04d3e60e821a3bf9f1815003f09c00cbbe3babdd089301f54c9e2664e9249346",
+      "bytes": 92860544,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/canonical/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\lengths.npy",
+      "sha256": "5ccf5839e66f09b1ae36c2a35655acbc473765035c29e28aca414c61a03cb28f",
+      "bytes": 121040,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/canonical/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\plan.json",
+      "sha256": "16a38490abc6441ffaad6b8a287392fe6198fb17321b254fa6510037616e4ad6",
+      "bytes": 2274379,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/canonical/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\unique_inputs.jsonl.gz",
+      "sha256": "3b373f14222c0d15f68e789a3941d5043a289ae242e2c2eead94c6ee9805bf0c",
+      "bytes": 10201671,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/canonical/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\field_priority_type_scores.npy",
+      "sha256": "05bb55e998ea40e9dd900c1ea58946c2b7a78eceb85b36a4be021d6c3bcd09a8",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/field_priority_type_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\lexical_ascending_scores.npy",
+      "sha256": "30f1bf9949e3202e58e8c7f6576cf47256371c6ba90e57449574cffc864baa3a",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/lexical_ascending_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\lexical_descending_scores.npy",
+      "sha256": "2814697463600149ca13df4bcd2505cf66de7226df261dbd5430ffb9be5408a6",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/lexical_descending_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\C0_scores.npy",
+      "sha256": "33a1a29883e9a380df1108cb322fdc7681b1553b9ae4ee9fac44785376f1371f",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C0_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\C1_scores.npy",
+      "sha256": "3591df7945fee5023d0eb0d5c058cb0d996a7a2eff6652dbb7a2ce70344aad6a",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\C2s1_scores.npy",
+      "sha256": "5cdbfd8e12ef9001cf3be1696f0d4770cc4ffa98335a30940fda756348454c1f",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\C2s2_scores.npy",
+      "sha256": "49c12f751990aa9955ec999e9711519f03a750015437b396b2101afb620283b2",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s2_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\C2s3_scores.npy",
+      "sha256": "f859fd0debf2ac961fb16dfa2edfb64000ead2814aefb368ea25b5402f50a6e7",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s3_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\C2s4_scores.npy",
+      "sha256": "6ed4d42f3f212aeac8203bdf4fde8522b96f01627757a11f24e76406e10d9717",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s4_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\C2s5_scores.npy",
+      "sha256": "e232ddaf8829457087a95d3839c955354f15272801c1d645e97cf5cbbb55ee66",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s5_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\queries\\embeddings.npy",
+      "sha256": "e2462059cf783c8ab28d866f14838000cd681e7bfc361c326295353746bfbba6",
+      "bytes": 1533056,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/queries/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\queries\\lengths.npy",
+      "sha256": "dbb4de8ec152e8939c7de2b7bbeecf0a10863aa6dfadba9f3bdfc9e80d02e0e8",
+      "bytes": 2124,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/queries/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\queries\\plan.json",
+      "sha256": "8ad9bbafd7db8429b897c57900b2d7f42014ba47c89a155e2f7117d7a185fe74",
+      "bytes": 54279,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/queries/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\queries\\unique_inputs.jsonl.gz",
+      "sha256": "82bdd2269d901429f473de389624e06b1cce754ca1e58c632fdda84546fab9b0",
+      "bytes": 29544,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/queries/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\embeddings.npy",
+      "sha256": "c5109f4b8191f3245f534a5758d9be3b97931de869183596418cd69508fca7e3",
+      "bytes": 216674432,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/raw/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\lengths.npy",
+      "sha256": "21aa8653f3dd99d09770b3afe48362c00218417f36968e5700e780162c3c8e74",
+      "bytes": 282256,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/raw/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\plan.json",
+      "sha256": "781b6c193cb2270aa92822b5336b682ed01a16a4e1f4f2f28b088959455054f9",
+      "bytes": 4317090,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/raw/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\raw\\unique_inputs.jsonl.gz",
+      "sha256": "78c528112a50d92d8a3e0ce4192ccd0de30596efbe879222a39aadf655686c1f",
+      "bytes": 18981367,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/raw/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\canonical\\embeddings.npy",
+      "sha256": "9e01c2aa1a6526f34596f08c549e0b6e3f746783771a23f08597592fee52f4ed",
+      "bytes": 396232832,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/canonical/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\canonical\\lengths.npy",
+      "sha256": "708a2a319ee5dee0576884ffda9a7f24439f07bcc17c12bc0099fd5f5e43eb94",
+      "bytes": 516056,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/canonical/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\canonical\\plan.json",
+      "sha256": "7c221b2fdee4ff07fc6bdca37a965e657e01c52b43d18f6ddd48945d1d78138d",
+      "bytes": 14563621,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/canonical/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\canonical\\unique_inputs.jsonl.gz",
+      "sha256": "273c680c8dd8fb985f574cfcbdc5386971d240cc50c9a4389961c8e16370d047",
+      "bytes": 53807231,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/canonical/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\canonical\\field_priority_type_scores.npy",
+      "sha256": "7f4b15eebd39641f46ca930e93648aeb3734e758d41694711b9f2078e9bfc087",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/field_priority_type_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\canonical\\lexical_ascending_scores.npy",
+      "sha256": "578211d5f7d2441635a61a6b29284061c7280d5ff0ada3befead407c8624a305",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/lexical_ascending_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\canonical\\lexical_descending_scores.npy",
+      "sha256": "3eb824de168220407eea798fda1bd056e69d9276c4f49031adbd4cef58125f43",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/lexical_descending_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\C0_scores.npy",
+      "sha256": "639d93ce66b6b1be027dba4d5e81d76d53bd9e9f6bf6ac80b92bbe6f757e2ac7",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C0_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\C1_scores.npy",
+      "sha256": "9c2f4985a8959abe52f6f3ac5be199ee8f20d8f820987329f98388f53bded6ee",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\C2s1_scores.npy",
+      "sha256": "f9e5871648f84a24ebaa75479f0a39afa98925144f35a6a56de4c6e4a115d411",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\C2s2_scores.npy",
+      "sha256": "da9f09cc760860a182b7d2f97ca7a51d7be24ddeed3a273d10a6790694e2d4a5",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s2_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\C2s3_scores.npy",
+      "sha256": "f9c3efdd4e9ea12e821623667ec5a7c9c1415c4fd02966e9f657eb0aabcfb679",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s3_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\C2s4_scores.npy",
+      "sha256": "3b3ab417e83dd11f15542efaf74529ce7f80da8e3c217ee21a309d84df9771d1",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s4_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\C2s5_scores.npy",
+      "sha256": "68a49bfb46201f08695f5950ef3baf3a7870a8e1e783f2d49f5e7bd58298e790",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s5_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\queries\\embeddings.npy",
+      "sha256": "c83a96d5840313f699a38d0e5f815ce58c3fc1486ad5216b4ceca81c8c486ccd",
+      "bytes": 946304,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/queries/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\queries\\lengths.npy",
+      "sha256": "9aed1380d6ed2765e1b26f46c13f86200bdb7e03b60f8cf48f73f840d03e5dae",
+      "bytes": 1360,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/queries/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\queries\\plan.json",
+      "sha256": "6f9cef316a222f851b5cff68584dc8d717b18c04642fed3857faf235d6e048a7",
+      "bytes": 33460,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/queries/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\queries\\unique_inputs.jsonl.gz",
+      "sha256": "d045f38ea9001909ff58fe296ca0aeffbec73dfe18dfee458f521e63ffe1064f",
+      "bytes": 17446,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/queries/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\raw\\embeddings.npy",
+      "sha256": "de062519c8a30454ccdb086ed0fbba53c93d52ee25749533ca3e7ab9821c4ac9",
+      "bytes": 924543104,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/raw/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\raw\\lengths.npy",
+      "sha256": "71e23800b5c3bde737896ebdc60fb41bf28c196fff1618fc80d298f0bc374544",
+      "bytes": 1203960,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/raw/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\raw\\plan.json",
+      "sha256": "80adf5c261ec54df295023aefdc1a1fa69379214e1f39c84f4923811eeb68e93",
+      "bytes": 34367773,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/raw/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\raw\\unique_inputs.jsonl.gz",
+      "sha256": "ea90701424fe32f3903a94e4428a799bc2a32c14561cf300a595e20e7f32b61f",
+      "bytes": 141896024,
+      "original_path": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/raw/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\canonical\\embeddings.npy",
+      "sha256": "3c8a1c6160b174bd8a24edad6d25485b9f90644cc79d9af19ed2410c66e81b53",
+      "bytes": 123814016,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/canonical/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\canonical\\lengths.npy",
+      "sha256": "60abfbd3febb386070533ec5b9954fcffa5df2a2ea77f1155f944fddcd691885",
+      "bytes": 121040,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/canonical/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\canonical\\plan.json",
+      "sha256": "9a80a5d3d807e8ee4cd552846dfd8aab29975abc8dd6c604bddae1cfd5df743c",
+      "bytes": 2045732,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/canonical/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\canonical\\unique_inputs.jsonl.gz",
+      "sha256": "1cc0c63f56ce99ab305c9aac5157ffb5b9e6bfe41ae1881e99d9d5b9c9747109",
+      "bytes": 10201555,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/canonical/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\field_priority_type_scores.npy",
+      "sha256": "477daee917b04cea20595e755a36327d075b8ebab0a90188f57701e58ed063b8",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/field_priority_type_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\lexical_ascending_scores.npy",
+      "sha256": "82ce631fb95505c9c7bbcd6b65bbafef0550c293298059ea0b23d7d7421014b4",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/lexical_ascending_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\lexical_descending_scores.npy",
+      "sha256": "0db87e2795056e9f118224ef0f3ce39e3189cd00225b878319142caa49193367",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/lexical_descending_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\C0_scores.npy",
+      "sha256": "1befefe405051058bb5f4b1b88eb60865305610164dc5809b5604327d421b6bc",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C0_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\C1_scores.npy",
+      "sha256": "2ab20ba45e53842af8ab406c69a486670315349016e80867bcb48e52dd8d8b7b",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\C2s1_scores.npy",
+      "sha256": "ff4ab432cb9ecbb1d984e2fb8a2640bf1bcdc36e81ef4e9c9e7a4794f900ecc2",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\C2s2_scores.npy",
+      "sha256": "95355102fa0590a27e4def78d5c7f1d832d9550b63fa66851ba0743e6f414c42",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s2_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\C2s3_scores.npy",
+      "sha256": "2e203bd1a13cb2a98e19190b029182319ad32b727ff5f2703920688906eb7df1",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s3_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\C2s4_scores.npy",
+      "sha256": "decc399969b40ff75faf09cd59dfbb0f19b2ecb958964bd8c6cba1e3ae39faaf",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s4_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\raw\\C2s5_scores.npy",
+      "sha256": "e102377d65c1730a2cc046d6a263f52c0e1717cccbab426ef44f12d3d22ee4cb",
+      "bytes": 20111824,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s5_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\queries\\embeddings.npy",
+      "sha256": "b969b2935870dfc8292b87696f8a6bba0cafb61e27717d88d7d7de42e024a05a",
+      "bytes": 2044032,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/queries/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\queries\\lengths.npy",
+      "sha256": "d8089446157a96a15430a48d5d03fe25af527bed71c271c23b7450c098e04e66",
+      "bytes": 2124,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/queries/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\queries\\plan.json",
+      "sha256": "94f0d74eb3b21af624b7c0726bb99f3bf0327d3e73870a667fd039f5ef0d41e6",
+      "bytes": 48176,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/queries/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\queries\\unique_inputs.jsonl.gz",
+      "sha256": "18ec8f07b1c15abcde41ee15efb1f0e293ebac974d535c5c9d8c53b3cab4a082",
+      "bytes": 29570,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/queries/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\raw\\embeddings.npy",
+      "sha256": "008f68bd77d5c895d225d923ba3546a04f6355392e9661fe534f5144ae166889",
+      "bytes": 288899200,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/raw/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\raw\\lengths.npy",
+      "sha256": "3d84f13b5e30649a64b0ccb18be017e917c5e189e40b5b9fec5171fb76289364",
+      "bytes": 282256,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/raw/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\raw\\plan.json",
+      "sha256": "ef11f4a504213dcd621c13f42f680bcd85457d2abb73445c7cbfc33a38752c9c",
+      "bytes": 3904651,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/raw/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\raw\\unique_inputs.jsonl.gz",
+      "sha256": "71ffcf252b7db7dd7fb76366d103e5346bc185f2d5fa596bbf77e444e1abf0e5",
+      "bytes": 18980966,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/raw/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C0_scores.npy",
+      "sha256": "d4c14ef042cd0bec1c8b2455e64df66ddf4999af4747869ea93f7eae56ba9533",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C0_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C1_scores.npy",
+      "sha256": "5c9c532465c3226ab1e048d81b58f3689becb8c01a815c4a3e156735901da5aa",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s1_scores.npy",
+      "sha256": "ae0c3b8a7da702d76a67faa92904ef94a09503e6b87f485b553becb2480ec7c1",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s1_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s2_scores.npy",
+      "sha256": "7e06c778de8aca9c819643c21c4e36af2cfe5b9b08773c20d3382d91785e415e",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s2_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s3_scores.npy",
+      "sha256": "ff9042e100507f4b40687348fd63fc30153afb43aaf533c533327e272d51d935",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s3_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s4_scores.npy",
+      "sha256": "e56b26bd41b04d6c8570a8ea87e765d273f1710c1ccc0e1ae0d54fac3a90bf87",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s4_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s5_scores.npy",
+      "sha256": "7721b5a008fef63eaf5492b99b83614e8c8a3e316001fb44db7f4ee242db33fa",
+      "bytes": 52968736,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s5_scores.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\queries\\embeddings.npy",
+      "sha256": "8fd5c28dffc2f734ae77e946c78013e78fd4ffa921fc429dd9908e34dfd690a2",
+      "bytes": 1261696,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/queries/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\queries\\lengths.npy",
+      "sha256": "2d6e4b9c3ee5b92a60d22fe95a62ce6195e548342fbc02cae26cbf78132c56f4",
+      "bytes": 1360,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/queries/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\queries\\plan.json",
+      "sha256": "e1805860d901a1d7bff498de2537aec069a593c14eae8705d38bed99b0ecce9d",
+      "bytes": 29695,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/queries/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\queries\\unique_inputs.jsonl.gz",
+      "sha256": "8f7b36d59f0b4471c9dcfb9123288f488ca5e9ba23b94e485ab9d635633944e8",
+      "bytes": 17438,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/queries/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\raw\\embeddings.npy",
+      "sha256": "bec30ad8ea045320d835b4ea6b1ec7c97d11f881b8f805c50e15862833aa86c9",
+      "bytes": 1232724096,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/raw/embeddings.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\raw\\lengths.npy",
+      "sha256": "c22fb428884893ce4ac38b9b727ce3b6b0e33ddee88bc6ef079747142a70cffc",
+      "bytes": 1203960,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/raw/lengths.npy",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\raw\\plan.json",
+      "sha256": "9e7f4963642b71ad455f587d35cea8200f49d66feb957ce4c6758a5a6829aa5b",
+      "bytes": 31018162,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/raw/plan.json",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\raw\\unique_inputs.jsonl.gz",
+      "sha256": "d5f516a5bd4d77d513f4e4c3611f7e17d726e621f03c0c7230b8feb38d4f4ea2",
+      "bytes": 141896838,
+      "original_path": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/raw/unique_inputs.jsonl.gz",
+      "reason": "Encoding/cache or score-matrix artifact retained locally; size and SHA-256 freshly verified during export."
+    }
+  ]
+}

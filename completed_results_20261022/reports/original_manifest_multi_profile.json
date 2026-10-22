@@ -1,0 +1,470 @@
+{
+  "updated_utc": "2026-10-21T21:29:32.660479+00:00",
+  "registry": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\active_profiles.json",
+    "sha256": "238e80d6d6f524895821179ac50f396a757d399c6fdc36f765a4b91107cf884f",
+    "bytes": 2761
+  },
+  "profiles": [
+    {
+      "model": "embeddinggemma2",
+      "protocol": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\PROTOCOL.json",
+        "sha256": "3f3004b166a855287ad7435ff0b9c278d983640bfb5f20a11bc2ec3ebeaa876c",
+        "bytes": 61311
+      },
+      "model_spec": {
+        "key": "embeddinggemma2",
+        "name": "google/embeddinggemma-2",
+        "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+        "tokenizer_revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+        "native_supported_length": 8192,
+        "config_max_position_embeddings": 262144,
+        "max_length": 8192,
+        "dimension": 768,
+        "pooling": "attention-mask mean including prompt after native projection",
+        "projection": "512->768 native per-token",
+        "dtype": "bfloat16",
+        "pooling_dtype": "bfloat16 official operation order",
+        "normalization": "official native L2 followed by FP32 unit normalization",
+        "scoring": "numpy FP32 matmul; 4 BLAS threads; full query matrix per schedule",
+        "attention_backend": "sdpa",
+        "padding_side": "right",
+        "device": "cuda",
+        "prompt_names": {
+          "query": "SearchQuery",
+          "document": "Document"
+        },
+        "prefixes": {
+          "query": "task: search result | query: ",
+          "document": "title: none | text: "
+        },
+        "document_wrapper": "Document default wrapper; full inherited text retained as content; no separate title",
+        "execution_seed": 2026101601,
+        "batching": {
+          "base": 1,
+          "order": "stable ascending effective token length then input content hash",
+          "limits": [
+            [
+              8192,
+              1
+            ]
+          ],
+          "oom_policy": "Do not reuse partial batch. Log event, stop profile; batch=1 retry uses a separately fingerprinted deviation, never alter length silently."
+        },
+        "use_cache": false,
+        "text_only": true,
+        "quantization": false,
+        "truncate_dim": null
+      },
+      "profile_manifest": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\manifest.json",
+        "sha256": "19006b0e7fa8e394e6fdc6cade0f47526529bdec9be38a9d9e520d1764a235f5",
+        "bytes": 77735
+      },
+      "verified_primary_datasets": [
+        "esci",
+        "wands"
+      ],
+      "verified_canonical_datasets": [
+        "esci",
+        "wands"
+      ]
+    },
+    {
+      "model": "harrier06b",
+      "protocol": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\PROTOCOL.json",
+        "sha256": "7153798d3c03023dba8fb62df34d04fcefd0618474afe44602c056690d3903a4",
+        "bytes": 66363
+      },
+      "model_spec": {
+        "key": "harrier06b",
+        "name": "microsoft/harrier-oss-v1-0.6b",
+        "revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+        "tokenizer_revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+        "native_supported_length": 32768,
+        "config_max_position_embeddings": 32768,
+        "tokenizer_declared_max_length": 131072,
+        "max_length": 32768,
+        "dimension": 1024,
+        "pooling": "last nonpadding token",
+        "projection": "none",
+        "dtype": "bfloat16",
+        "pooling_dtype": "bfloat16 official operation order",
+        "normalization": "official native L2 followed by FP32 unit normalization",
+        "scoring": "numpy FP32 matmul; 4 BLAS threads; full query matrix per schedule",
+        "attention_backend": "sdpa",
+        "padding_side": "left",
+        "device": "cuda",
+        "prompt_names": {
+          "query": "web_search_query",
+          "document": null
+        },
+        "prefixes": {
+          "query": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+          "document": ""
+        },
+        "document_wrapper": "none; complete inherited serialized document without chat template or instruction",
+        "execution_seed": 2026101601,
+        "batching": {
+          "base": 8,
+          "order": "stable ascending effective token length then input content hash",
+          "limits": [
+            [
+              512,
+              8
+            ],
+            [
+              1024,
+              4
+            ],
+            [
+              2048,
+              2
+            ],
+            [
+              32768,
+              1
+            ]
+          ],
+          "oom_policy": "Stop and preserve profile evidence; any batch-size deviation requires a separate fingerprinted profile; never shorten input length."
+        },
+        "use_cache": false,
+        "text_only": true,
+        "quantization": false,
+        "truncate_dim": null
+      },
+      "profile_manifest": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\manifest.json",
+        "sha256": "520f39cc38a2065f86e05a8f67bf3a08c25072d588ab7f2a2806841cd5976240",
+        "bytes": 74012
+      },
+      "verified_primary_datasets": [
+        "esci",
+        "wands"
+      ],
+      "verified_canonical_datasets": [
+        "esci"
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "model": "embeddinggemma2",
+      "dataset": "esci",
+      "stage": "smoke",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "esci",
+      "stage": "encode",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "esci",
+      "stage": "evaluate",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "esci",
+      "stage": "boundary",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "esci",
+      "stage": "canonical",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "wands",
+      "stage": "smoke",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "wands",
+      "stage": "encode",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "wands",
+      "stage": "evaluate",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "wands",
+      "stage": "boundary",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "embeddinggemma2",
+      "dataset": "wands",
+      "stage": "canonical",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "esci",
+      "stage": "smoke",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "esci",
+      "stage": "encode",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "esci",
+      "stage": "evaluate",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "esci",
+      "stage": "boundary",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "esci",
+      "stage": "canonical",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "wands",
+      "stage": "smoke",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "wands",
+      "stage": "encode",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "wands",
+      "stage": "evaluate",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "wands",
+      "stage": "boundary",
+      "status": "completed",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "harrier06b",
+      "dataset": "wands",
+      "stage": "canonical",
+      "status": "running",
+      "reason": "",
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019"
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "esci",
+      "stage": "smoke",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "esci",
+      "stage": "encode",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "esci",
+      "stage": "evaluate",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "esci",
+      "stage": "boundary",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "esci",
+      "stage": "canonical",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "wands",
+      "stage": "smoke",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "wands",
+      "stage": "encode",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "wands",
+      "stage": "evaluate",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "wands",
+      "stage": "boundary",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    },
+    {
+      "model": "qwen3_4b",
+      "dataset": "wands",
+      "stage": "canonical",
+      "status": "not_run",
+      "reason": "Deferred by explicit user request",
+      "profile": ""
+    }
+  ],
+  "all_active_experiments_completed": false,
+  "completed_primary_cells": [
+    "embeddinggemma2/esci",
+    "embeddinggemma2/wands",
+    "harrier06b/esci",
+    "harrier06b/wands"
+  ],
+  "deferred_models": {
+    "qwen3_4b": {
+      "status": "deferred_by_user",
+      "requires_explicit_user_resumption": true
+    }
+  },
+  "preexisting_modified_files_preserved": {
+    "paper_www2027/RESULT_PROVENANCE.md": true,
+    "paper_www2027/figures/figure1_target_only.pdf": true,
+    "paper_www2027/figures/figure1_target_only.png": true,
+    "paper_www2027/main.aux": true,
+    "paper_www2027/main.log": true,
+    "paper_www2027/main.pdf": true,
+    "paper_www2027/sections/introduction.tex": true,
+    "phase3/scripts/make_target_only_figure.py": true
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\appendix_K100.csv",
+      "sha256": "0a70d75341b21ae9b6d6836f86470313dcee269b68707f2c29186aa004663211",
+      "bytes": 1092
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\cross_model_VI.csv",
+      "sha256": "7cd900051d3bce310bc9ac4ed7aaed1421593f9d30336e45e5a0258b9b907eed",
+      "bytes": 1336
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\cross_model_VI.png",
+      "sha256": "95399e8d2aec2ba9618344d315051209221dc61b862d0791da8a0e9ff7dc8a8e",
+      "bytes": 72136
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\main_candidates.csv",
+      "sha256": "9fa53363a00c052eb43ff9d0cd5ae3ec117fb8a1e43cc5715a226ad442f4ba39",
+      "bytes": 1119
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\missing_cells.csv",
+      "sha256": "f4e9e4fc652a3a1b35ce555365db058e80e8fcda739ada84c0d474c7cc89704c",
+      "bytes": 321
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\stage_status.csv",
+      "sha256": "eca7f29613b143319f9922c543176ffa3ba99d63a604f24deae3714a71ab1f85",
+      "bytes": 4662
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\summary.csv",
+      "sha256": "ab7e30c8612670301f51b56af41891003044a659cc722230a23ed9b6bf683c64",
+      "bytes": 130721
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\token_fit_summary.csv",
+      "sha256": "e2a5a486518980754d2e68a44a85153ca4b47a1a3dca01e891ec1013426a7df9",
+      "bytes": 597
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\REPORT_zh.md",
+      "sha256": "9f51034c8f28c203ef8b374aa2a5795bb7bb3b4d9ba9aca8b9e78a0583b14ca6",
+      "bytes": 4252
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\MANUSCRIPT_ADDITIONS.tex",
+      "sha256": "f5dbc37940be322853e6c7f607d35fd62058dcc9f8693f19f3275f083aeb353e",
+      "bytes": 2633
+    }
+  ],
+  "evidence_location": "Full vectors, scores and immutable completion receipts remain in each original profile; no partial cache is promoted to a complete result."
+}

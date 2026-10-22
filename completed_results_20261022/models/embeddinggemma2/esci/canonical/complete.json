@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-21T17:53:37.822933+00:00",
+  "inputs_fingerprint": "5af2edc57b680cddae1005324bdb8d0e30a21b4881e7f54b188fac5df49aa59e",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\field_priority_type_scores.npy",
+      "sha256": "05bb55e998ea40e9dd900c1ea58946c2b7a78eceb85b36a4be021d6c3bcd09a8",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\lexical_ascending_scores.npy",
+      "sha256": "30f1bf9949e3202e58e8c7f6576cf47256371c6ba90e57449574cffc864baa3a",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\lexical_descending_scores.npy",
+      "sha256": "2814697463600149ca13df4bcd2505cf66de7226df261dbd5430ffb9be5408a6",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\pair_ranks.parquet",
+      "sha256": "db71278d301071cd291330a156da2a018ae2c91f568304a1718e255cbb3056d2",
+      "bytes": 80082
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\query_metrics.parquet",
+      "sha256": "7e3ab267fd1f4d94ca4bc4978cd2098cdfa995136b99d0969069098f7d9137b4",
+      "bytes": 761297
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\query_transitions.parquet",
+      "sha256": "9362abb8568d4b452f4cd33e2679dc17b9a5ccb10ff4118a3a1d15a12594e461",
+      "bytes": 21295
+    }
+  ],
+  "C0_reconciled": false,
+  "full_catalog": 10076,
+  "queries": 499,
+  "highest_pairs": 4434
+}

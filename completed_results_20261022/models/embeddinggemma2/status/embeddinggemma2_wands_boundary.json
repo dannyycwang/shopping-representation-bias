@@ -1,0 +1,19 @@
+{
+  "stage": "boundary",
+  "model": "embeddinggemma2",
+  "dataset": "wands",
+  "status": "completed",
+  "updated_utc": "2026-10-21T15:42:20.333587+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\boundary_audit.json",
+      "sha256": "ee55e9434860ebaed90c366abc037b76d9793ff5c0256bb6e54cd534a0285419",
+      "bytes": 1682
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\wands\\evaluation\\raw\\boundary_repeats.parquet",
+      "sha256": "96363a6241294f3e5a2d374cbfb857da3e25d8efd9762bc46f289470eb39c292",
+      "bytes": 9336
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-21T16:51:38.782049+00:00",
+  "inputs_fingerprint": "bf5b0839b4beff2198b97ff65f8258c403bd38a3d93835ce8f2f9f3ee373d94e",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C0_scores.npy",
+      "sha256": "d4c14ef042cd0bec1c8b2455e64df66ddf4999af4747869ea93f7eae56ba9533",
+      "bytes": 52968736
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C1_scores.npy",
+      "sha256": "5c9c532465c3226ab1e048d81b58f3689becb8c01a815c4a3e156735901da5aa",
+      "bytes": 52968736
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s1_scores.npy",
+      "sha256": "ae0c3b8a7da702d76a67faa92904ef94a09503e6b87f485b553becb2480ec7c1",
+      "bytes": 52968736
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s2_scores.npy",
+      "sha256": "7e06c778de8aca9c819643c21c4e36af2cfe5b9b08773c20d3382d91785e415e",
+      "bytes": 52968736
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s3_scores.npy",
+      "sha256": "ff9042e100507f4b40687348fd63fc30153afb43aaf533c533327e272d51d935",
+      "bytes": 52968736
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s4_scores.npy",
+      "sha256": "e56b26bd41b04d6c8570a8ea87e765d273f1710c1ccc0e1ae0d54fac3a90bf87",
+      "bytes": 52968736
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\C2s5_scores.npy",
+      "sha256": "7721b5a008fef63eaf5492b99b83614e8c8a3e316001fb44db7f4ee242db33fa",
+      "bytes": 52968736
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\crossing_witnesses.parquet",
+      "sha256": "3e72bf4ca5b436de73e75b37c941f5a0213301ce0f59c60cf59d2318dbfcd17d",
+      "bytes": 363328
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\pair_ranks.parquet",
+      "sha256": "695b0c13f032aa06481ef4d9c13cf3830277a51fc90f8fc03214e2d40fef9661",
+      "bytes": 732128
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\query_membership.parquet",
+      "sha256": "c4e6f507614c9659b0751340949f0bc4b583093a00e4c9049bbeed19ba9f10d2",
+      "bytes": 107086
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\query_metrics.parquet",
+      "sha256": "9014eeb22994d1436ee2ed1734018cf315d1485e1507f49bb4c202de3de814ed",
+      "bytes": 944432
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\raw\\query_states.parquet",
+      "sha256": "bdf009256a481f3db4525ac5aca6966eb23f0402b17e802fc600686e232cbb4a",
+      "bytes": 25710
+    }
+  ],
+  "C0_reconciled": true,
+  "full_catalog": 42994,
+  "queries": 308,
+  "highest_pairs": 21299
+}

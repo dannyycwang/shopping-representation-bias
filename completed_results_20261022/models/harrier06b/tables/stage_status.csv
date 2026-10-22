@@ -1,0 +1,11 @@
+model,dataset,stage,status,reason
+harrier06b,wands,smoke,completed,
+harrier06b,wands,encode,completed,
+harrier06b,wands,evaluate,completed,
+harrier06b,wands,boundary,completed,
+harrier06b,wands,canonical,not_run,Queued after Gemma; no Harrier formal result exists
+harrier06b,esci,smoke,completed,
+harrier06b,esci,encode,completed,
+harrier06b,esci,evaluate,completed,
+harrier06b,esci,boundary,completed,
+harrier06b,esci,canonical,not_run,Queued after Gemma; no Harrier formal result exists

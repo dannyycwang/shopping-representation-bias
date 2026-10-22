@@ -1,0 +1,230 @@
+{
+  "time_utc": "2026-10-21T18:00:01.112147+00:00",
+  "status": "Gemma_ESCI_all_three_canonical_rules_verified_WANDS_running",
+  "isolated_inspector": {
+    "checked_utc": "2026-10-21T17:58:05.598241+00:00",
+    "primary_complete": true,
+    "esci_canonical": true,
+    "wands_canonical": false
+  },
+  "protocol": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\PROTOCOL.json",
+    "sha256": "3f3004b166a855287ad7435ff0b9c278d983640bfb5f20a11bc2ec3ebeaa876c",
+    "bytes": 61311
+  },
+  "canonical_stage": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_esci_canonical.json",
+    "sha256": "16facaea1502b203560be46c88644a32f583a1100050c0021474f33c6657fe8c",
+    "bytes": 557
+  },
+  "canonical_encoding": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\complete.json",
+    "sha256": "ced7861e3deccca2ef47838d91067b21895da54abc11d81ed027de764d7a208f",
+    "bytes": 1915
+  },
+  "canonical_evaluation": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\complete.json",
+    "sha256": "c3c412f17f5a0c33eb0856e22048718bb00969ccd21b92177a5d219b547e4996",
+    "bytes": 2626
+  },
+  "rules": [
+    "field_priority_type",
+    "lexical_ascending",
+    "lexical_descending"
+  ],
+  "full_catalog": 10076,
+  "queries": 499,
+  "highest_pairs": 4434,
+  "verified_outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\complete.json",
+      "sha256": "c3c412f17f5a0c33eb0856e22048718bb00969ccd21b92177a5d219b547e4996",
+      "bytes": 2626
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\embeddings.npy",
+      "sha256": "04d3e60e821a3bf9f1815003f09c00cbbe3babdd089301f54c9e2664e9249346",
+      "bytes": 92860544
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\lengths.npy",
+      "sha256": "5ccf5839e66f09b1ae36c2a35655acbc473765035c29e28aca414c61a03cb28f",
+      "bytes": 121040
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\plan.json",
+      "sha256": "16a38490abc6441ffaad6b8a287392fe6198fb17321b254fa6510037616e4ad6",
+      "bytes": 2274379
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\canonical\\unique_inputs.jsonl.gz",
+      "sha256": "3b373f14222c0d15f68e789a3941d5043a289ae242e2c2eead94c6ee9805bf0c",
+      "bytes": 10201671
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\field_priority_type_scores.npy",
+      "sha256": "05bb55e998ea40e9dd900c1ea58946c2b7a78eceb85b36a4be021d6c3bcd09a8",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\lexical_ascending_scores.npy",
+      "sha256": "30f1bf9949e3202e58e8c7f6576cf47256371c6ba90e57449574cffc864baa3a",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\lexical_descending_scores.npy",
+      "sha256": "2814697463600149ca13df4bcd2505cf66de7226df261dbd5430ffb9be5408a6",
+      "bytes": 20111824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\pair_ranks.parquet",
+      "sha256": "db71278d301071cd291330a156da2a018ae2c91f568304a1718e255cbb3056d2",
+      "bytes": 80082
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\query_metrics.parquet",
+      "sha256": "7e3ab267fd1f4d94ca4bc4978cd2098cdfa995136b99d0969069098f7d9137b4",
+      "bytes": 761297
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\query_transitions.parquet",
+      "sha256": "9362abb8568d4b452f4cd33e2679dc17b9a5ccb10ff4118a3a1d15a12594e461",
+      "bytes": 21295
+    }
+  ],
+  "report_manifest": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\canonical_esci_20261021\\manifest_multi_profile.json",
+    "sha256": "a5504b2e58767e5a20345a86f0d3cf532d467156b2c1c94012138bb8dc0e0dec",
+    "bytes": 18963
+  },
+  "report": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\canonical_esci_20261021\\REPORT_zh.md",
+    "sha256": "14e2e4a9540b8d0edb95cfee44ed9196d69589b1caba8ba95abe48dcea3bf082",
+    "bytes": 3488
+  },
+  "report_files_verified": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\appendix_K100.csv",
+      "sha256": "0a70d75341b21ae9b6d6836f86470313dcee269b68707f2c29186aa004663211",
+      "bytes": 1092
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\cross_model_VI.csv",
+      "sha256": "d420f5c17da1a0712aeb3453e52295f9c3a24b46bdbef4af8d68feac9927c6ec",
+      "bytes": 1294
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\cross_model_VI.png",
+      "sha256": "95399e8d2aec2ba9618344d315051209221dc61b862d0791da8a0e9ff7dc8a8e",
+      "bytes": 72136
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\main_candidates.csv",
+      "sha256": "9fa53363a00c052eb43ff9d0cd5ae3ec117fb8a1e43cc5715a226ad442f4ba39",
+      "bytes": 1119
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\missing_cells.csv",
+      "sha256": "f4e9e4fc652a3a1b35ce555365db058e80e8fcda739ada84c0d474c7cc89704c",
+      "bytes": 321
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\stage_status.csv",
+      "sha256": "bba14cb32920977b7d6eadcdb4d6e28b9d7d1676f912c6fcc12572e57281ce64",
+      "bytes": 4760
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\summary.csv",
+      "sha256": "12ed1b8840bbba581232a709dfbee0afca06bc027631e91209a20b8bfbfb7822",
+      "bytes": 100857
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\token_fit_summary.csv",
+      "sha256": "e2a5a486518980754d2e68a44a85153ca4b47a1a3dca01e891ec1013426a7df9",
+      "bytes": 597
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\REPORT_zh.md",
+      "sha256": "14e2e4a9540b8d0edb95cfee44ed9196d69589b1caba8ba95abe48dcea3bf082",
+      "bytes": 3488
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\MANUSCRIPT_ADDITIONS.tex",
+      "sha256": "8c83b11e78d3fcd8db297ec0734755863fb6d92bcc53981774d0f310dae51b9d",
+      "bytes": 1590
+    }
+  ],
+  "canonical_contrast_summary_status": "Profile summary tables/CIs will be regenerated by unchanged supervisor at phase end; no new quality-improvement or VI-zero claim from this stage notification.",
+  "monitor": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\canonical_esci_20261021\\heartbeat_last_check.json",
+    "sha256": "3d24bc74fbe34e19c7d2294e842b29587161a0192671a42fceff50badc166742",
+    "bytes": 7938
+  },
+  "actual_processes": [
+    {
+      "pid": 25248,
+      "ppid": 8204,
+      "create_time": 1792602316.931825,
+      "command": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/scripts/canonical_snapshot_20261021/recover_supervisor.py",
+        "--model",
+        "embeddinggemma2",
+        "--phase",
+        "canonical",
+        "--resume",
+        "--continue-snapshot-failure"
+      ]
+    },
+    {
+      "pid": 8204,
+      "ppid": 38976,
+      "create_time": 1792602316.8405519,
+      "command": [
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Scripts\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/scripts/canonical_snapshot_20261021/recover_supervisor.py",
+        "--model",
+        "embeddinggemma2",
+        "--phase",
+        "canonical",
+        "--resume",
+        "--continue-snapshot-failure"
+      ]
+    },
+    {
+      "pid": 4436,
+      "ppid": 30108,
+      "create_time": 1792605221.211681,
+      "command": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/batch1_20261017/scripts/run.py",
+        "canonical",
+        "--model",
+        "embeddinggemma2",
+        "--dataset",
+        "wands"
+      ]
+    },
+    {
+      "pid": 30108,
+      "ppid": 25248,
+      "create_time": 1792605221.117123,
+      "command": [
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Scripts\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/batch1_20261017/scripts/run.py",
+        "canonical",
+        "--model",
+        "embeddinggemma2",
+        "--dataset",
+        "wands"
+      ]
+    }
+  ],
+  "full_model_complete": false,
+  "numerical_or_frozen_source_changes": false,
+  "next_action": "Preserve Gemma WANDS canonical, then verify complete model before starting the reserved Harrier canonical."
+}

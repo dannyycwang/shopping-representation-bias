@@ -1,0 +1,21 @@
+model,dataset,stage,status,reason
+qwen3_4b,wands,smoke,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,wands,encode,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,wands,evaluate,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,wands,boundary,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,wands,canonical,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,esci,smoke,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,esci,encode,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,esci,evaluate,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,esci,boundary,not_run,Deferred by explicit user request; do not resume until explicitly requested
+qwen3_4b,esci,canonical,not_run,Deferred by explicit user request; do not resume until explicitly requested
+embeddinggemma2,wands,smoke,completed,
+embeddinggemma2,wands,encode,completed,
+embeddinggemma2,wands,evaluate,completed,
+embeddinggemma2,wands,boundary,completed,
+embeddinggemma2,wands,canonical,completed,
+embeddinggemma2,esci,smoke,completed,
+embeddinggemma2,esci,encode,completed,
+embeddinggemma2,esci,evaluate,completed,
+embeddinggemma2,esci,boundary,completed,
+embeddinggemma2,esci,canonical,completed,

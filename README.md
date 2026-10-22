@@ -1,5 +1,11 @@
 # Product representation sensitivity: WANDS Phase 1
 
+## Latest supplementary results
+
+The [2026-10-22 Gemma2 and Harrier snapshot](completed_results_20261022/README.md) contains all four completed ESCI/WANDS primary cells and boundary audits, Gemma2's complete three-rule canonical results on both datasets, and Harrier's completed ESCI canonical results. Harrier WANDS canonical is still running; the two-model suite is not yet complete. Reports, nDCG/cNDCG results, confidence intervals, query/pair evidence, frozen protocols, and a portable SHA-256 verifier are included.
+
+The [2026-10-21 snapshot](completed_results_20261021/README.md) remains available as a historical partial release. The Phase 1 description below documents the earlier pilot; use the new snapshot's [source map](completed_results_20261022/provenance/SOURCE_MAP.md) for the supplementary experiment's populations and corrected evaluation protocol.
+
 This is a separate research pilot inside an existing workspace. It does not modify the parent application's source files. Outputs are real WANDS experiments, not simulated data. Start with `results/REPORT_zh.md` and `paper/PAPER_DRAFT.md` after a completed run.
 
 ## Run
