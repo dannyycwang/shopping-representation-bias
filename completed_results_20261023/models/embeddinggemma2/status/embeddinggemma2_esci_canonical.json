@@ -1,0 +1,14 @@
+{
+  "stage": "canonical",
+  "model": "embeddinggemma2",
+  "dataset": "esci",
+  "status": "completed",
+  "updated_utc": "2026-10-21T17:53:38.009610+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\canonical\\complete.json",
+      "sha256": "c3c412f17f5a0c33eb0856e22048718bb00969ccd21b92177a5d219b547e4996",
+      "bytes": 2626
+    }
+  ]
+}

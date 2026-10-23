@@ -1,0 +1,19 @@
+{
+  "stage": "boundary",
+  "model": "embeddinggemma2",
+  "dataset": "esci",
+  "status": "completed",
+  "updated_utc": "2026-10-17T20:55:18.718318+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\boundary_audit.json",
+      "sha256": "eed098a962c734aead4873e55bd767c27afb2061e26b5d40a3298388ee2bbef0",
+      "bytes": 1676
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\runs\\embeddinggemma2\\esci\\evaluation\\raw\\boundary_repeats.parquet",
+      "sha256": "8160e4133deda96682a79fabfbac9a7d77904446841601e538bd49d143263f18",
+      "bytes": 9246
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "canonical",
+  "model": "harrier06b",
+  "dataset": "wands",
+  "status": "completed",
+  "updated_utc": "2026-10-22T23:52:18.416154+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\wands\\evaluation\\canonical\\complete.json",
+      "sha256": "d96b53b2219a0dcf69f4f37914c2067623aebfd320f1ca7d5769e98752d8b7d2",
+      "bytes": 2610
+    }
+  ]
+}

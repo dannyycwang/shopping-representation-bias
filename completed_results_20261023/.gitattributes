@@ -1,0 +1,5 @@
+* -text
+# Preserve archived evidence byte-for-byte, including its original whitespace.
+models/** -whitespace
+reports/** -whitespace
+provenance/** -whitespace

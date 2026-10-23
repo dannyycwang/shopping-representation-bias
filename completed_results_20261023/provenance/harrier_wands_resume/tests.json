@@ -1,0 +1,10 @@
+{
+  "verified_utc": "2026-10-22T17:08:38.243891+00:00",
+  "status": "passed",
+  "tests_run": 7,
+  "errors": 0,
+  "failures": 0,
+  "scope": "CPU-only operational guard and checkpoint integrity tests using temporary fixtures; no inference",
+  "wrapper_sha256": "27317b97884eec834bef15d9d5ed3c4fa1fc62dbe8ffc73951083f80a28ee6a3",
+  "test_source_sha256": "33cfc25065f5a07c89a44b41a8cf80e16cb0c02377a214190ae2424286012845"
+}

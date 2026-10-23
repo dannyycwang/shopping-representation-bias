@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-10-19T08:29:34.898549+00:00",
+  "authority": "Explicit human instruction in this chat",
+  "user_request": "`harrier-oss-v1-0.6b`  也要跑",
+  "active_models_across_profiles": [
+    "embeddinggemma2",
+    "harrier06b"
+  ],
+  "deferred_models": [
+    "qwen3_4b"
+  ],
+  "new_model": "microsoft/harrier-oss-v1-0.6b",
+  "known_results_at_request": [
+    "EmbeddingGemma 2 / ESCI full RQ1/RQ2 and boundary audit completed; VI@20 and Recall were discussed with the user",
+    "EmbeddingGemma 2 / WANDS encoding partial; no WANDS result",
+    "No Harrier technical or held-out model output has been computed"
+  ],
+  "timing": "User-requested extension after Gemma/ESCI outcomes; supersedes the task-book default and timing restriction. Not a prospectively enabled third model and not whole-study preregistration.",
+  "parent_profile": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\PROTOCOL.json",
+    "sha256": "3f3004b166a855287ad7435ff0b9c278d983640bfb5f20a11bc2ec3ebeaa876c",
+    "bytes": 61311
+  },
+  "existing_gemma_changes": "None; preserve its worker, frozen sources, numerical settings and checkpoint profile",
+  "cache_policy": "No query/document vectors or model-output caches reused from Gemma/Qwen; fresh Harrier profile",
+  "schedule": "Preserve the existing Gemma queue, including canonical jobs. Harrier GPU work waits until prior queue/worker exits; independently continue Harrier if a prior cell is blocked and no GPU worker remains.",
+  "canonical_gate": "Within each isolated profile, both datasets RQ1/RQ2 and boundary must complete before its three fixed canonical rules.",
+  "qwen_policy": "Deferred by user; do not run or resume without explicit human request"
+}

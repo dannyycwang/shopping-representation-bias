@@ -1,0 +1,157 @@
+{
+  "time_utc": "2026-10-21T16:59:09.554839+00:00",
+  "status": "all_four_primary_cells_and_boundaries_verified_report_delivered_before_canonical",
+  "primary_gate": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\primary_first_20261021\\all_primary_verified_20261021_1658.json",
+    "sha256": "a6adc85cd120cbe70b3dccdcaaa10264beccbbdc598f4966a881869d3cfcc0ed",
+    "bytes": 12407
+  },
+  "completed_primary_cells": [
+    "embeddinggemma2/esci",
+    "embeddinggemma2/wands",
+    "harrier06b/esci",
+    "harrier06b/wands"
+  ],
+  "report_files_verified": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\manifest_multi_profile.json",
+      "sha256": "92033308fe4a30a24e26d9b590e10bf0302683f37c86f2394c8ba60b9ec77161",
+      "bytes": 19003
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\appendix_K100.csv",
+      "sha256": "0a70d75341b21ae9b6d6836f86470313dcee269b68707f2c29186aa004663211",
+      "bytes": 1092
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\cross_model_VI.csv",
+      "sha256": "d420f5c17da1a0712aeb3453e52295f9c3a24b46bdbef4af8d68feac9927c6ec",
+      "bytes": 1294
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\cross_model_VI.png",
+      "sha256": "95399e8d2aec2ba9618344d315051209221dc61b862d0791da8a0e9ff7dc8a8e",
+      "bytes": 72136
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\main_candidates.csv",
+      "sha256": "9fa53363a00c052eb43ff9d0cd5ae3ec117fb8a1e43cc5715a226ad442f4ba39",
+      "bytes": 1119
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\missing_cells.csv",
+      "sha256": "f4e9e4fc652a3a1b35ce555365db058e80e8fcda739ada84c0d474c7cc89704c",
+      "bytes": 321
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\stage_status.csv",
+      "sha256": "41823735508ef524ce00988bd6477de646134f45e0ab66621f869206bd00384d",
+      "bytes": 4824
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\summary.csv",
+      "sha256": "12ed1b8840bbba581232a709dfbee0afca06bc027631e91209a20b8bfbfb7822",
+      "bytes": 100857
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\tables\\token_fit_summary.csv",
+      "sha256": "e2a5a486518980754d2e68a44a85153ca4b47a1a3dca01e891ec1013426a7df9",
+      "bytes": 597
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\REPORT_zh.md",
+      "sha256": "5434c536811b4ca7ed17dbe8d2a22682083e3711280276195e73bd7ac2fe43fe",
+      "bytes": 3486
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\MANUSCRIPT_ADDITIONS.tex",
+      "sha256": "8c83b11e78d3fcd8db297ec0734755863fb6d92bcc53981774d0f310dae51b9d",
+      "bytes": 1590
+    }
+  ],
+  "report_snapshot": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\primary_first_20261021\\all_primary_results_20261021",
+  "main_results": [
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "K": "20",
+      "status": "completed",
+      "queries": "308",
+      "pairs": "21299",
+      "C0_Recall": "0.4187592498906637",
+      "raw_mean_Recall": "0.4176678691609147",
+      "same_Recall_changed_relevant_membership": "0.2564935064935065",
+      "fitting_pair_coverage": "1.0",
+      "fitting_queries": "308",
+      "target_VI": "0.1035773115413256",
+      "target_VI_ci_low": "0.0912036360057697",
+      "target_VI_ci_high": "0.1168421055720699",
+      "catalog_VI": "0.1033865721384488",
+      "catalog_VI_ci_low": "0.0909993045044641",
+      "catalog_VI_ci_high": "0.1168162981924646"
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "K": "20",
+      "status": "completed",
+      "queries": "499",
+      "pairs": "4434",
+      "C0_Recall": "0.8185512439709579",
+      "raw_mean_Recall": "0.8197355411419487",
+      "same_Recall_changed_relevant_membership": "0.0240480961923847",
+      "fitting_pair_coverage": "1.0",
+      "fitting_queries": "499",
+      "target_VI": "0.0170203166977381",
+      "target_VI_ci_low": "0.012107019787008",
+      "target_VI_ci_high": "0.0232181292170299",
+      "catalog_VI": "0.0238678713052436",
+      "catalog_VI_ci_low": "0.0180137400901653",
+      "catalog_VI_ci_high": "0.0306753058952055"
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "K": "20",
+      "status": "completed",
+      "queries": "308",
+      "pairs": "21299",
+      "C0_Recall": "0.3881698983118808",
+      "raw_mean_Recall": "0.3904321991144973",
+      "same_Recall_changed_relevant_membership": "0.237012987012987",
+      "fitting_pair_coverage": "1.0",
+      "fitting_queries": "308",
+      "target_VI": "0.0849023005235236",
+      "target_VI_ci_low": "0.0710603549260557",
+      "target_VI_ci_high": "0.1005671130776663",
+      "catalog_VI": "0.0807784892571343",
+      "catalog_VI_ci_low": "0.0698934167964488",
+      "catalog_VI_ci_high": "0.0921053363618031"
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "K": "20",
+      "status": "completed",
+      "queries": "499",
+      "pairs": "4434",
+      "C0_Recall": "0.7879222991623324",
+      "raw_mean_Recall": "0.7876910584802087",
+      "same_Recall_changed_relevant_membership": "0.0380761523046092",
+      "fitting_pair_coverage": "1.0",
+      "fitting_queries": "499",
+      "target_VI": "0.0181182395802608",
+      "target_VI_ci_low": "0.0137810430250137",
+      "target_VI_ci_high": "0.0228836709313987",
+      "catalog_VI": "0.0319283527723423",
+      "catalog_VI_ci_low": "0.0240695015959912",
+      "catalog_VI_ci_high": "0.0409027691287941"
+    }
+  ],
+  "primary_results_notified_in_chat_utc": "2026-10-21T16:59:09.554839+00:00",
+  "canonical_started_at_notification": false,
+  "full_model_completion": false,
+  "full_study_completion": false,
+  "next_authorized_action": "Gemma canonical then Harrier canonical, using guarded primary_first launcher",
+  "scientific_changes": false
+}

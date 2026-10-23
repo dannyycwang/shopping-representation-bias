@@ -1,0 +1,31 @@
+{
+  "status": "finished",
+  "pid": 27812,
+  "finished_utc": "2026-10-22T23:54:24.440716+00:00",
+  "phase": "canonical",
+  "active_models": [
+    "harrier06b"
+  ],
+  "operation_receipt": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\attempt.json",
+  "results": [
+    {
+      "dataset": "esci",
+      "stage": "canonical",
+      "reused_verified_completion": true
+    },
+    {
+      "dataset": "wands",
+      "stage": "canonical",
+      "exit_code": 0,
+      "verified_completion": true
+    }
+  ],
+  "primary_completed": true,
+  "canonical_completed": true,
+  "all_active_experiments_completed": true,
+  "refresh_exit_codes": {
+    "analyze": 0,
+    "report": 0,
+    "combined": 0
+  }
+}

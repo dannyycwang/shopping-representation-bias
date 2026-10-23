@@ -1,0 +1,11 @@
+# Install in this revision's venv; preserve the inherited experiment environment.
+transformers==5.20.1
+sentence-transformers==6.1.0
+huggingface-hub==1.33.0
+tokenizers==0.23.3
+numpy==1.26.4
+pandas==2.3.3
+pyarrow==24.0.0
+pytest==9.1.1
+psutil==7.2.2
+# Reuse existing torch==2.11.0+cu128, accelerate==1.14.0, matplotlib and threadpoolctl.

@@ -1,0 +1,34 @@
+{
+  "time_utc": "2026-10-19T09:01:24.929231+00:00",
+  "reason": "Installed sentence-transformers 6.1 converts legacy pooling_mode_* flags into pooling_mode; constructor inspection used a removed attribute",
+  "previous_protocol_sha256": "41179fab540713936d2c0ab882aea78bb528602b3b2c04902b839218e8a0944c",
+  "failed_validation": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\protocol_history\\before_st61_pooling_check_20261019\\smoke\\validation.json",
+    "sha256": "55f2c8196569018ced8b84910e0187b9bfa2b07d338cdbc6a70e9cc1021777bb",
+    "bytes": 1672
+  },
+  "failure_timing": "Before any backbone forward/reference comparison; no Harrier held-out outputs",
+  "change": "Inspect public pooling_mode == lasttoken, embedding_dimension == 1024 and include_prompt == true; no inference computation changed",
+  "source_changes": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\scripts\\adapters.py",
+      "before_sha256": "2e126021a51b3790324c96f908d54b9342e8745829c0b91956c30839549db6c1",
+      "after_sha256": "fc825501e44130443e64bbb188ce935f5664b5dcedf21034e539707e80bca780"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\tests\\test_harrier_adapter.py",
+      "before_sha256": "cc35f4877e1cd7732329a424ebbd8219e58fdbbb4ed069886e53906befc9625b",
+      "after_sha256": "b9f2cdc29cc5686c44799816cd96a1c621985656d5a0a86f08aff94a1658acc4"
+    }
+  ],
+  "model_spec_unchanged": true,
+  "numerical_settings_changed": false,
+  "validation_required": "Fresh full official GPU comparison after Gemma; CPU pooling regression test is not a substitute",
+  "tests": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\tests_st61_pooling_fix.log",
+    "sha256": "208a4bd128c6b67627cd966c1c90e32cc5e769f3fa37a6e8f870807cd42e95d3",
+    "bytes": 1528
+  },
+  "test_result": "26 passed",
+  "sequence": "User clarified to keep Gemma first, then Harrier; see root audit/EXECUTION_SEQUENCE_CORRECTION_20261019.json"
+}

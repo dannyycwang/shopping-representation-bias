@@ -1,0 +1,9 @@
+{
+  "stage": "encode",
+  "model": "harrier06b",
+  "dataset": "esci",
+  "status": "completed",
+  "updated_utc": "2026-10-21T16:16:12.036448+00:00",
+  "profile_fingerprint": "537979ccc00e6f93b11a26b3ca5fae9f3e39d34160952c39e17a6b3c9883f8ee",
+  "query_embeddings_once": true
+}

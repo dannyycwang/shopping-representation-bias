@@ -1,0 +1,222 @@
+{
+  "verified_utc": "2026-10-22T17:11:06.845704+00:00",
+  "status": "authorized_resume_launched_initializing",
+  "authorization": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\authorization.json",
+    "sha256": "486729c511c90cf75017528e624addfa701a3ef2b42b9b2d521de1bf291ba895",
+    "bytes": 898
+  },
+  "preflight": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\preflight.json",
+    "sha256": "078012579d40edce69cee3d3d612f89792b58e807dbbedec855751a18f2f99bb",
+    "bytes": 74291
+  },
+  "attempt_at_launch": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\attempt.json",
+    "sha256": "8d82cd4981812fef5990a14fcd782ea2c9bfa9093544c226fe149519605b2be2",
+    "bytes": 1832
+  },
+  "tests": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\tests.json",
+    "sha256": "a40024c2c90612300abd5e54ef55e993d0a8616757aa312555f16744bf0c2301",
+    "bytes": 428
+  },
+  "preserved_original_attempt": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\canonical_after_all_primary_attempt_20261021.json",
+    "sha256": "95b44696a3a03b1daadab6993a0c8f3b80653c05bd33569cd0ef8f9b0abd6ed9",
+    "bytes": 17631
+  },
+  "monitor": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\monitor.json",
+    "sha256": "e84887ef70ba234b41941dc31a020cd3861f05d396d3cccac9d2d732c243c36e",
+    "bytes": 9618
+  },
+  "processes": [
+    {
+      "io_counters": {
+        "read_count": 2,
+        "write_count": 0,
+        "read_bytes": 116,
+        "write_bytes": 0,
+        "other_count": 103,
+        "other_bytes": 4240
+      },
+      "status": "running",
+      "pid": 26636,
+      "memory_info": {
+        "rss": 4599808,
+        "vms": 774144,
+        "num_page_faults": 1171,
+        "peak_wset": 4624384,
+        "wset": 4599808,
+        "peak_paged_pool": 54840,
+        "paged_pool": 53880,
+        "peak_nonpaged_pool": 19720,
+        "nonpaged_pool": 4904,
+        "pagefile": 774144,
+        "peak_pagefile": 827392,
+        "private": 774144
+      },
+      "cmdline": [
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "-B",
+        "revision_recent_models_20261016/scripts/canonical_resume_20261022/recover_supervisor.py",
+        "--resume"
+      ],
+      "ppid": 12552,
+      "cpu_times": {
+        "user": 0.0,
+        "system": 0.0,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "create_time": 1792688953.119666
+    },
+    {
+      "io_counters": {
+        "read_count": 14631,
+        "write_count": 18,
+        "read_bytes": 2001493576,
+        "write_bytes": 334366,
+        "other_count": 51794,
+        "other_bytes": 2237482
+      },
+      "status": "running",
+      "pid": 27812,
+      "memory_info": {
+        "rss": 85762048,
+        "vms": 701218816,
+        "num_page_faults": 2395817,
+        "peak_wset": 146444288,
+        "wset": 85762048,
+        "peak_paged_pool": 424512,
+        "paged_pool": 395896,
+        "peak_nonpaged_pool": 51800,
+        "nonpaged_pool": 36032,
+        "pagefile": 701218816,
+        "peak_pagefile": 761987072,
+        "private": 701218816
+      },
+      "cmdline": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-X",
+        "utf8",
+        "-u",
+        "-B",
+        "revision_recent_models_20261016/scripts/canonical_resume_20261022/recover_supervisor.py",
+        "--resume"
+      ],
+      "ppid": 26636,
+      "cpu_times": {
+        "user": 2.5,
+        "system": 10.15625,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "create_time": 1792688953.1948404
+    },
+    {
+      "io_counters": {
+        "read_count": 3,
+        "write_count": 0,
+        "read_bytes": 2548,
+        "write_bytes": 0,
+        "other_count": 85,
+        "other_bytes": 2960
+      },
+      "status": "running",
+      "pid": 10872,
+      "memory_info": {
+        "rss": 4599808,
+        "vms": 782336,
+        "num_page_faults": 1173,
+        "peak_wset": 4628480,
+        "wset": 4599808,
+        "peak_paged_pool": 46328,
+        "paged_pool": 45368,
+        "peak_nonpaged_pool": 20296,
+        "nonpaged_pool": 4904,
+        "pagefile": 782336,
+        "peak_pagefile": 839680,
+        "private": 782336
+      },
+      "cmdline": [
+        "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Scripts\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py",
+        "canonical",
+        "--model",
+        "harrier06b",
+        "--dataset",
+        "wands"
+      ],
+      "ppid": 27812,
+      "cpu_times": {
+        "user": 0.015625,
+        "system": 0.0,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "create_time": 1792688984.2664049
+    },
+    {
+      "io_counters": {
+        "read_count": 10625,
+        "write_count": 1,
+        "read_bytes": 463932411,
+        "write_bytes": 4,
+        "other_count": 188210,
+        "other_bytes": 5725180
+      },
+      "status": "running",
+      "pid": 30956,
+      "memory_info": {
+        "rss": 1242361856,
+        "vms": 2276581376,
+        "num_page_faults": 951398,
+        "peak_wset": 1242361856,
+        "wset": 1242361856,
+        "peak_paged_pool": 9077912,
+        "paged_pool": 9077248,
+        "peak_nonpaged_pool": 103752,
+        "nonpaged_pool": 103624,
+        "pagefile": 2276581376,
+        "peak_pagefile": 2276581376,
+        "private": 2276581376
+      },
+      "cmdline": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py",
+        "canonical",
+        "--model",
+        "harrier06b",
+        "--dataset",
+        "wands"
+      ],
+      "ppid": 10872,
+      "cpu_times": {
+        "user": 9.734375,
+        "system": 20.171875,
+        "children_user": 0.0,
+        "children_system": 0.0
+      },
+      "create_time": 1792688984.315684
+    }
+  ],
+  "worker_log": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\harrier06b_wands_canonical.log",
+  "worker_log_after_latest_exec": "[\"revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py\", \"canonical\", \"--model\", \"harrier06b\", \"--dataset\", \"wands\"]\n",
+  "committed_batches_at_launch": 19328,
+  "total_batches": 26306,
+  "committed_unique_inputs_at_launch": 105596,
+  "total_unique_inputs": 128525,
+  "committed_blocks_reverified": 151,
+  "new_committed_progress_beyond_19328_verified": false,
+  "canonical_wands_complete": false,
+  "whole_scope_complete": false,
+  "numerical_or_system_changes": false,
+  "automatic_retries": false
+}

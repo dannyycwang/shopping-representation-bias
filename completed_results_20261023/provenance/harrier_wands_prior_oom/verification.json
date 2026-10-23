@@ -1,0 +1,155 @@
+{
+  "verified_utc": "2026-10-22T12:30:18.910218+00:00",
+  "status": "blocked_cuda_out_of_memory",
+  "failure_utc": "2026-10-22T12:21:48.277381+00:00",
+  "supervisor_finished_utc": "2026-10-22T12:23:47.010475+00:00",
+  "supervisor_exit_summary": "ESCI canonical completed; WANDS exit2; phase_incomplete",
+  "live_harrier_processes": [],
+  "all_original_supervisor_and_children_exited": true,
+  "canonical_wands_completed": false,
+  "full_scope_complete": false,
+  "completed_blocks": 151,
+  "committed_batches": 19328,
+  "total_batches": 26306,
+  "committed_unique_inputs": 105596,
+  "total_unique_inputs": 128525,
+  "protocol": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\PROTOCOL.json",
+    "sha256": "7153798d3c03023dba8fb62df34d04fcefd0618474afe44602c056690d3903a4",
+    "bytes": 66363
+  },
+  "checkpoints": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\checkpoints.json",
+    "sha256": "33c8fdcda9157db67bf349a96142d576e2590fa80f1b003b5c4378cdac9f5714",
+    "bytes": 141556
+  },
+  "evidence": [
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\failure_harrier06b_wands_canonical_1792671708.json",
+        "sha256": "54f49c71223b426b74a6f98d19c6bb838ac18aca651cce31cb9c6022a949aeb7",
+        "bytes": 7067
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\failure.json",
+        "sha256": "54f49c71223b426b74a6f98d19c6bb838ac18aca651cce31cb9c6022a949aeb7",
+        "bytes": 7067
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_wands_canonical.json",
+        "sha256": "51a56bc19eac9e70b82540ff60cf841313d4c1200a3cdd469128c5c7c0dca134",
+        "bytes": 583
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\stage.json",
+        "sha256": "51a56bc19eac9e70b82540ff60cf841313d4c1200a3cdd469128c5c7c0dca134",
+        "bytes": 583
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\supervisor.json",
+        "sha256": "5bf72a299391b47e8f02bd4183f912254e275ba84b5a9ba70546a039617a00a4",
+        "bytes": 866
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\supervisor.json",
+        "sha256": "5bf72a299391b47e8f02bd4183f912254e275ba84b5a9ba70546a039617a00a4",
+        "bytes": 866
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\active_process.json",
+        "sha256": "dbb7b8c8437f3ffd3afa6434440d010607cf7a2b95329a920295bcce3c774aaf",
+        "bytes": 80
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\active.json",
+        "sha256": "dbb7b8c8437f3ffd3afa6434440d010607cf7a2b95329a920295bcce3c774aaf",
+        "bytes": 80
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\canonical_after_all_primary_attempt_20261021.json",
+        "sha256": "95b44696a3a03b1daadab6993a0c8f3b80653c05bd33569cd0ef8f9b0abd6ed9",
+        "bytes": 17631
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\attempt.json",
+        "sha256": "95b44696a3a03b1daadab6993a0c8f3b80653c05bd33569cd0ef8f9b0abd6ed9",
+        "bytes": 17631
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\harrier06b_wands_canonical.log",
+        "sha256": "14a90e825900e7dec65fb4b80ae56f68d0f4462a541e9c52a21a98c6a7a2c5f1",
+        "bytes": 15932
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\worker.log",
+        "sha256": "14a90e825900e7dec65fb4b80ae56f68d0f4462a541e9c52a21a98c6a7a2c5f1",
+        "bytes": 15932
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\supervisor_canonical_path_20261021_203209_stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\wrapper_stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\supervisor_canonical_path_20261021_203209_stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\wrapper_stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_jina_nano_20261019\\audit\\heartbeat_last_check.json",
+        "sha256": "a1192bb4a6668c74e307460fe475b42392a948e2e95dc3c3353224626ed0cdf9",
+        "bytes": 7266
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\monitor.json",
+        "sha256": "a1192bb4a6668c74e307460fe475b42392a948e2e95dc3c3353224626ed0cdf9",
+        "bytes": 7266
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\manifest_multi_profile.json",
+        "sha256": "71e9507521ae5c44e4a75ba132348a83e2223d7989d770e742194d40ea9b53fb",
+        "bytes": 19316
+      },
+      "archive": {
+        "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_oom_20261022\\combined_manifest.json",
+        "sha256": "71e9507521ae5c44e4a75ba132348a83e2223d7989d770e742194d40ea9b53fb",
+        "bytes": 19316
+      }
+    }
+  ],
+  "combined_report_files_verified": 10,
+  "combined_report_status": "blocked",
+  "new_attempt_launched": false,
+  "scientific_or_system_changes": false,
+  "remaining_retry_allowance": "No further canonical retry currently authorized; consumed reservation preserved as phase_incomplete",
+  "causal_limit": "Traceback reports CUDA OOM during SDPA and again during empty_cache cleanup. Exact memory cause and precise failing batch within uncommitted block are not established. Historical sleep is separate and is not asserted as cause.",
+  "next_action": "Preserve evidence and committed checkpoints; keep heartbeat active and quiet for unchanged blocker; no repeated inference, reduced batching/length/dtype, reset or system change without new explicit authorization."
+}

@@ -1,0 +1,42 @@
+{
+  "time_utc": "2026-10-23T00:03:48.541297+00:00",
+  "event": {
+    "event_id": "two_models/full_scope_completed/20261022T235424Z",
+    "kind": "Harrier_full_model_and_two_model_whole_scope_verified_complete",
+    "notified_utc": "2026-10-23T00:03:48.541297+00:00",
+    "evidence": {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\two_models_full_20261023\\verification.json",
+      "sha256": "61c7044bd7417443a38272a19cb3ed2a5ca6e310f294328bac17f7d7269fd4fc",
+      "bytes": 98778
+    },
+    "summary": "Gemma2 and Harrier now genuinely complete on BOTH ESCI and WANDS: all four primary RQ1/RQ2 cells, boundary audits, and all three canonical rules on all four canonical cells, final analyses/reports/manifests. Harrier WANDS canonical encoding completed 2026-10-22 23:51:51 UTC, evaluation 23:52:18, supervisor 23:54:24; all workers exited. Fresh isolated inspection of both models, all receipt outputs/protocol/source hashes, full-support populations, FP32 finite arrays, 96 full-support canonical contrast estimates/CIs provenance, both profile manifests and all10 combined report files verified. All206 Harrier WANDS committed checkpoints verified against original plans, fingerprints, indices, output hashes and final assembled vectors; all151 baseline receipts preserved. Jina remains cancelled and Qwen deferred. No GitHub republication. Stop completed-scope heartbeat.",
+    "formal_canonical_cell_completion": true,
+    "formal_full_model_completion": true,
+    "whole_two_model_scope_complete": true,
+    "user_action_required": false
+  },
+  "ledgers": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\heartbeat_events.json",
+      "sha256": "cd1c36be145de9acdc0b0aceff7afca01448de07698ba1061a905a9be567a8b2",
+      "bytes": 28539
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_jina_nano_20261019\\audit\\heartbeat_events.json",
+      "sha256": "6c81437c855a52a9226e8574807e8c80303f251fd035f3ee3037e9c4cc27b9d9",
+      "bytes": 25829
+    }
+  ],
+  "figure_visual_review": "Combined full-support VI figure inspected: eight model/dataset/target-or-catalog points, CIs and readable percent axis match the verified table; no clipping.",
+  "final_monitor": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\two_models_full_20261023\\final_monitor.json",
+    "sha256": "d23e5debd27076de1687eb7de2d3e006b63e62cf6b77d7f1507b0b241d101331",
+    "bytes": 6822
+  },
+  "verification_script": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\two_models_full_20261023\\verify_final.py",
+    "sha256": "8fa4ed0741c5f02813d8243135306a9d4e69f82a4fac6bd3b2dfec9c7f429551",
+    "bytes": 15268
+  },
+  "automation_action": "delete automation after verified whole-scope completion; result recorded separately"
+}

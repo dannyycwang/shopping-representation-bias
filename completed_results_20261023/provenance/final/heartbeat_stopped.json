@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-10-23T00:04:13.989301+00:00",
+  "automation_id": "automation",
+  "mode": "delete",
+  "delete_status": "deleted",
+  "tool_result": "Deleted automation in the app. deleteStatus=deleted",
+  "automation_toml_exists_after_delete": false,
+  "reason": "Both authorized models and all required datasets/stages/final outputs independently verified complete",
+  "live_experiment_processes": [],
+  "github_republished": false
+}
