@@ -1,0 +1,74 @@
+{
+  "time_utc": "2026-10-21T08:54:16.455876+00:00",
+  "authority": "Direct human instruction: 先把RQ1跟RQ2的實驗完成, 再續跑canonical",
+  "active_models": [
+    "embeddinggemma2",
+    "harrier06b"
+  ],
+  "cancelled_models": [
+    "jina_nano"
+  ],
+  "deferred_models": [
+    "qwen3_4b"
+  ],
+  "execution_order": [
+    "Preserve existing Harrier WANDS encode/evaluate/boundary and wait for all children to exit",
+    "One same-profile Gemma OOM resume: primary encode/evaluate/boundary only",
+    "One same-profile Harrier ESCI OOM resume: primary encode/evaluate/boundary only",
+    "Verify all four primary cells and boundaries; refresh and deliver RQ1/RQ2 results",
+    "Only after all primary cells pass: Gemma canonical, then Harrier canonical"
+  ],
+  "supersedes": "Only the execution order in the prior cancellation amendment and per-model whole-suite priority",
+  "scope_authority": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_jina_nano_20261019\\USER_SCOPE_CANCELLATION_20261021.json",
+    "sha256": "68acc1c7b984e900a0a8203e1aa370d6246ed714940f489cc255843f72ca8e07"
+  },
+  "canonical_gate": "BOTH active models, BOTH datasets, verified encode/evaluate/boundary outputs; no partial completion",
+  "primary_reporting": "Deliver verified two-model RQ1/RQ2 results before canonical; overall scope still includes canonical",
+  "operational_launcher": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\scripts\\primary_first_20261021\\recover_supervisor.py",
+    "sha256": "b495e6dd3e4205f2077c79781199bd1e90da0056eb7705ff87fdb19a49aaede3"
+  },
+  "instructions": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\PRIMARY_FIRST_20261021.md",
+    "sha256": "265538696f06e40ee619f2fabb6f5db1e27dd3f19eab7490c928c0bf4c3811d7"
+  },
+  "primary_attempt_paths": [
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\oom_wands_resume_attempt_20261019.json",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\oom_esci_resume_attempt_20261019.json"
+  ],
+  "oom_attempts_consumed": false,
+  "numerical_or_frozen_source_changes": false,
+  "protected_live_harrier": [
+    {
+      "pid": 9988,
+      "create_time": 1792482559.928023,
+      "cmdline": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/harrier_20261019/scripts/run.py",
+        "encode",
+        "--model",
+        "harrier06b",
+        "--dataset",
+        "wands"
+      ]
+    },
+    {
+      "pid": 25100,
+      "create_time": 1792482553.1785948,
+      "cmdline": [
+        "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "revision_recent_models_20261016/profiles/harrier_20261019/scripts/reboot_20261020/recover_supervisor.py",
+        "--resume"
+      ]
+    }
+  ],
+  "preserved_sealed_hashes": {
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_jina_nano_20261019\\audit\\protocol_candidate.json": "37cb2d3e5d7d8f0364d9d243ee77dadb90f4048e04657b7daff4b567e676a94f",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_jina_nano_20261019\\USER_SCOPE_AMENDMENT.json": "166023b16220acb0dcb81cd9d697afde8e748781b23a6c6004c44b94918ca071",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\PROTOCOL.json": "3f3004b166a855287ad7435ff0b9c278d983640bfb5f20a11bc2ec3ebeaa876c",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\PROTOCOL.json": "7153798d3c03023dba8fb62df34d04fcefd0618474afe44602c056690d3903a4"
+  }
+}

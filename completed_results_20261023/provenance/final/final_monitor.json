@@ -1,0 +1,69 @@
+{
+  "time_utc": "2026-10-23T00:03:21.287054+00:00",
+  "status": "inspect_changes",
+  "supervisors": [
+    {
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017",
+      "model": "embeddinggemma2",
+      "state": "finished",
+      "pid": 25248,
+      "alive": false,
+      "active_process": {
+        "status": "idle",
+        "updated_utc": "2026-10-21T20:31:04.766910+00:00"
+      }
+    },
+    {
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019",
+      "model": "harrier06b",
+      "state": "finished",
+      "pid": 27812,
+      "alive": false,
+      "active_process": {
+        "status": "idle",
+        "updated_utc": "2026-10-22T23:54:24.445835+00:00"
+      }
+    },
+    {
+      "profile": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_jina_nano_20261019",
+      "model": "jina_nano",
+      "state": "cancelled_by_user",
+      "pid": 27816,
+      "alive": false,
+      "active_process": {
+        "status": "cancelled_by_user",
+        "updated_utc": "2026-10-21T07:21:28.282857+00:00",
+        "live_children": []
+      }
+    }
+  ],
+  "gpu_processes": [],
+  "observed_receipts": {
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_all_smoke.json": "6b1c877ef33b0c1d9a0278f15cf3411c04927e0f021debb744a6b8024a80e105",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_esci_boundary.json": "6bf0c893e5854afdf872050a58a0526ba176cc70b0f1d24e986a740ce9f0047f",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_esci_canonical.json": "16facaea1502b203560be46c88644a32f583a1100050c0021474f33c6657fe8c",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_esci_evaluate.json": "df4444e3a5c946d19f9cd6132eb15f0460f8f4b507c7a1f2ddc8af80880c38ba",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_wands_boundary.json": "6aaa7865b6c3dd33427b9836947c783ea41d1341248fcd5bbf943bf43fda3e2f",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_wands_canonical.json": "73ef89dfd5379fb6095fff7484dae02d4279222ec7bd5f83a9f73db12c7e36eb",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\status\\embeddinggemma2_wands_evaluate.json": "449491103100f95e84e3b55276e3baa9131ecd7d3d170879976ed29d52bc86f8",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\recovery_supervisor_failure.json": "a376cc4706034dffe313fe7d7f460e7aa2d1792de70720be7cf74c7bf9581721",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\supervisor_failure.json": "4a8843cc5eda205597fc89304bb8ec7f8c0d4b55802de470be48e7d58b5ac583",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_all_benchmark.json": "43812c11cbb89afd9126cb0afdbf67f74b4642d0f1bde27ce2e64fcb87f812db",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_all_smoke.json": "1bbe1229b396ac61ae73faf44b2c290dc75ef7620b40c63108c9679c70a04be3",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_esci_boundary.json": "c0417b7e36949cff477fe0d5042d0b979ff8fc124e9f766f30bcc6a24bf2d667",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_esci_canonical.json": "ce0a2e954bd5e6030af33240a1598db31e50cfbcf2dd16c517c811d68228bec8",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_esci_evaluate.json": "66160ba9b1cdf524a312db01231b55e9aafbac063882046dc37b5b91cdd2f9a9",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_wands_boundary.json": "16065ac00bdffac8e83bfbaae25d354fab238b4142f9ef9d3f507b6a031e05c6",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_wands_canonical.json": "de614ff5287298656ae6928937b1d3d8045a0a82d3f608552f2e6a813dc6dcd1",
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_wands_evaluate.json": "faeec29764445b6604cf2270b635f611340e01acd6215bf376c37c092b5e5060"
+  },
+  "new_events": [
+    {
+      "kind": "completed_stage_to_verify",
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\status\\harrier06b_wands_canonical.json",
+      "sha256": "de614ff5287298656ae6928937b1d3d8045a0a82d3f608552f2e6a813dc6dcd1"
+    }
+  ],
+  "all_three_models_complete": false,
+  "action": "Preserve live jobs; verify new completed cells before reporting"
+}

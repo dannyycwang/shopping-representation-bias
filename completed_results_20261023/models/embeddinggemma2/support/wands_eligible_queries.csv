@@ -1,0 +1,309 @@
+query_id,query,query_type
+0,salon chair,product_type
+1,smart coffee table,product_type
+2,dinosaur,brand_entity_proxy
+3,turquoise pillows,brand_entity_proxy
+4,chair and a half recliner,multi_constraint
+5,sofa with ottoman,product_type
+6,acrylic clear chair,attribute_constraint
+7,driftwood mirror,product_type
+9,coffee table fire pit,product_type
+10,king poster bed,attribute_constraint
+11,ombre rug,product_type
+13,outdoor privacy wall,product_type
+14,beds that have leds,product_type
+16,blk 18x18 seat cushions,attribute_constraint
+17,closet storage with zipper,product_type
+20,foutains with brick look,product_type
+22,light and navy blue decorative pillow,multi_constraint
+26,leather chairs,attribute_constraint
+27,outdoor welcome rug,product_type
+28,rooster decor,brand_entity_proxy
+31,burnt orange curtains,product_type
+35,enclosed shoe rack,product_type
+36,laundry basket with wheels,product_type
+37,bar stool 24 inches height,multi_constraint
+38,calvin patio chair,product_type
+39,door jewelry organizer,product_type
+40,elegant executive chair,product_type
+41,closet pull out valet rod,multi_constraint
+42,toddler couch fold out,product_type
+44,chrome shower head and valve,multi_constraint
+45,70s inspired furniture,attribute_constraint
+46,beach blue headboard,attribute_constraint
+48,arwen table lamp,product_type
+50,tufted chair with gold legs,multi_constraint
+51,kohen 5 drawer dresser,attribute_constraint
+54,wayfair sleep zippered,product_type
+55,tollette teal outdoor rug,product_type
+59,broadway lever,brand_entity_proxy
+60,capricorn chest,brand_entity_proxy
+62,7qt slow cooker,attribute_constraint
+63,monthly calendar,brand_entity_proxy
+64,zachary 72.5,attribute_constraint
+65,gnome fairy garden,product_type
+66,novara pergola,brand_entity_proxy
+68,nautical platters,brand_entity_proxy
+69,wall sconce with usb port,multi_constraint
+70,annex dresser,product_type
+71,infant girl crib bedding,product_type
+72,fold in half table,product_type
+74,serta kleinmon,brand_entity_proxy
+75,sheffield home bath set,product_type
+76,46 inch closet door,attribute_constraint
+77,sancroft armchair,brand_entity_proxy
+78,dorel vanity,brand_entity_proxy
+81,orren ellis l shape desk,multi_constraint
+82,bathroom vanity with counter space,multi_constraint
+84,full metal bed rose gold,multi_constraint
+86,aloe vera plant pot,product_type
+88,rose gold lounge,attribute_constraint
+89,whimsical solar lights,product_type
+91,industrial pipe dining  table,style
+93,outdoor sectional dining,product_type
+94,kohler whitehaven farmhouse kitchen sink,style
+95,entertainment stand end table,product_type
+97,regner power loom red,attribute_constraint
+101,48 in entry table with side by side drawer,long_descriptive
+102,flamingo,brand_entity_proxy
+104,flour and sugar containers,product_type
+107,front porch furniture sets,product_type
+108,ayesha curry kitchen,product_type
+109,hillsby oriental rug,product_type
+111,delta trinsic,brand_entity_proxy
+112,pineapple,brand_entity_proxy
+114,geralyn upholstered storage platform bed,multi_constraint
+115,peacock,brand_entity_proxy
+119,welcome sign,brand_entity_proxy
+120,zodiac pillow,brand_entity_proxy
+121,upholstered bed,product_type
+122,king size bed,attribute_constraint
+123,entrance table,product_type
+124,unique coffee tables,product_type
+125,boho bed frame,product_type
+126,leather dining chairs,attribute_constraint
+127,wine bar,brand_entity_proxy
+128,block coffee table,product_type
+129,wainscoting ideas,brand_entity_proxy
+130,entertainment console,brand_entity_proxy
+131,kids chair,product_type
+132,farmhouse cabinet,style
+137,orren ellis l shaped desk,multi_constraint
+138,glass doors for bath,product_type
+140,wire basket with dividers,product_type
+141,podium with locking cabinet,product_type
+142,kitchen wooden stand,attribute_constraint
+143,queen wingback chair,attribute_constraint
+144,rug plum,product_type
+145,liberty hardware francisco,product_type
+146,laundry vanity cabinet,product_type
+147,drum picture,brand_entity_proxy
+148,industrial,style
+150,dumbbells,brand_entity_proxy
+151,leather chair,attribute_constraint
+153,bohemian,style
+155,floating bed,product_type
+158,led nightstand,brand_entity_proxy
+159,meditation,brand_entity_proxy
+160,marble,brand_entity_proxy
+161,accent chair recliner,product_type
+163,dual monitor stand,product_type
+164,modern outdoor furniture,style
+165,kitchen storage shelves,product_type
+166,feather wall art,product_type
+167,camper,brand_entity_proxy
+169,coffee bar buffet,product_type
+170,zen,brand_entity_proxy
+172,picasso,brand_entity_proxy
+173,bedroom accessories,brand_entity_proxy
+175,basket planter,brand_entity_proxy
+176,mexican art,brand_entity_proxy
+177,rustic storage cabinet,style
+178,almost heaven sauna,product_type
+180,outdoor lounge cushions,product_type
+182,penny round tile,attribute_constraint
+183,farmhouse bread box,style
+184,sugar canister,brand_entity_proxy
+185,lunch bag,brand_entity_proxy
+186,board game storage cabinet,product_type
+189,big basket for dirty cloths,multi_constraint
+190,benjiamino faux leather power lift chair,multi_constraint
+195,black freestanding tub  with faucet,multi_constraint
+197,desk for kids tjat ate 10 year old,long_descriptive
+198,cake plates with tops,product_type
+200,ceramic tile sea shell,product_type
+202,full mattress padded liner,product_type
+203,ge top loading washer 4.5,multi_constraint
+204,fleur de lis living candle wall sconce bronze,long_descriptive
+206,grill cover 73,attribute_constraint
+210,love seat wide faux leather tuxedo arm sofa,long_descriptive
+212,nettie 5 pc bar set,multi_constraint
+213,kraus kitchen sink faucet oletto kpf 2820 sfs,long_descriptive
+215,king adjustable bed including mattress,multi_constraint
+216,music plug wall plate,product_type
+220,sheets for twinxl,product_type
+221,small space dining table and chairs sets,multi_constraint
+222,small loving roomtables,attribute_constraint
+223,wisdom stone river 3-3/4,multi_constraint
+226,power lift chair,product_type
+227,owl,brand_entity_proxy
+229,waterfall faucet,brand_entity_proxy
+230,gold,attribute_constraint
+231,anti fatigue mat,product_type
+232,storage dresser,product_type
+233,kelly clarkson light fixtures,product_type
+234,artificial orchid arrangement,product_type
+235,bathroom wastebasket,brand_entity_proxy
+236,3 piece rug set with runners,multi_constraint
+238,outdoor seat/back cushion,product_type
+239,bathroom single faucet,product_type
+241,decorative wall clocks,product_type
+242,accent leather chair,attribute_constraint
+243,indoor multi tiered plant stand,multi_constraint
+244,pull out sleeper loveseat,product_type
+245,anchor decor,brand_entity_proxy
+246,clear shower curtain,attribute_constraint
+247,beaded curtains,brand_entity_proxy
+248,surge protector,brand_entity_proxy
+249,bistro table and chairs,product_type
+250,multi color rug,product_type
+251,coffee container,brand_entity_proxy
+252,accent chairs living room,product_type
+253,antique brass faucet,product_type
+254,comfortable accent chair,product_type
+255,desk and chair set,product_type
+257,living room coffee table sets,multi_constraint
+260,retractable side awning,product_type
+263,small curtain rods,attribute_constraint
+264,cortez pillow,brand_entity_proxy
+266,champagne velvet desk chair,product_type
+267,dolomite subway tile,product_type
+268,betty resin free standing umbrella,multi_constraint
+270,edge chair mat,product_type
+271,chinese flower stand,product_type
+273,stainless steel free standing shower caddy,multi_constraint
+274,gowdy height adjustable standing desk,multi_constraint
+275,hinged square ottoman,attribute_constraint
+277,barstool patio sets,product_type
+278,parakeet toy,product_type
+279,marlon tufted queen bed,attribute_constraint
+281,brunk ship wheel,product_type
+282,grantola wall mirror,product_type
+285,"48"" sliding single track , barn door for laundry",long_descriptive
+289,coma inducer comforter king set,multi_constraint
+291,front door cabinet with doors,multi_constraint
+292,decorative white pillow,attribute_constraint
+295,end table between recliners,product_type
+296,zakariyah twin platform,attribute_constraint
+297,seat cushions desk,product_type
+298,small woven pouf,attribute_constraint
+300,animal print handmade tufted wool beige/black area rug by allmodern,long_descriptive
+301,circle cabinet pulls,product_type
+302,mattress foam topper queen,attribute_constraint
+303,hawaii vintage art,style
+305,ligth bulb,brand_entity_proxy
+306,mobley zero gravity adjustable bed with wireless remote,long_descriptive
+307,real touch roses floral arrangements in glass vase,long_descriptive
+308,led 60,attribute_constraint
+310,meade mirror,product_type
+311,odum velvet,brand_entity_proxy
+313,malachi sled,brand_entity_proxy
+315,medium clips,brand_entity_proxy
+316,rolande heavy duty power lift assist recliner,multi_constraint
+317,hulmeville writing desk with hutch,multi_constraint
+319,landis wall mounted bathroom shelves,multi_constraint
+320,blaylock bookcase headboard,product_type
+323,hub leaning full length mirror,multi_constraint
+325,outdoor waterproof chest,product_type
+326,bowersville ladder writing desk,product_type
+327,kohler purist brushed bronze,product_type
+328,golub dining table,product_type
+329,wayfair tension rod,product_type
+330,kari 2 piece,attribute_constraint
+331,upholstered girls bed,product_type
+332,attleboro drum coffee table,product_type
+333,stainless steel colander set,product_type
+334,itchington butterfly,brand_entity_proxy
+335,canadian,brand_entity_proxy
+337,iittala bowl,brand_entity_proxy
+339,ruckus chair,product_type
+341,canvas map art,product_type
+342,brendon counter stool,product_type
+346,nesting tray set,product_type
+349,mud room sign,product_type
+352,amarillo,brand_entity_proxy
+353,pennfield playhouse,brand_entity_proxy
+355,argenteuil,brand_entity_proxy
+357,tall free standing pet gate,multi_constraint
+358,sliding closet mirror,product_type
+359,french molding,brand_entity_proxy
+367,wooden chair outdoor,attribute_constraint
+368,pasta tools,brand_entity_proxy
+369,wrought tv stand,product_type
+370,rug for teen room,product_type
+371,milk cow chair,product_type
+372,verden callan,brand_entity_proxy
+376,island estate coffee table,product_type
+380,gravity feeder,brand_entity_proxy
+382,counter top one cup hot water dispenser,multi_constraint
+389,brush nickel faucet bathroom,product_type
+396,alyse 8 light,attribute_constraint
+398,super bright lights,product_type
+402,modern farmhouse lighting semi flush mount,style
+403,wood rack wide,attribute_constraint
+404,large cushion outdoor chair,attribute_constraint
+406,refrigerator with ice an water in door,multi_constraint
+407,huge bookcase,product_type
+408,girl reading statue,product_type
+409,teal chair,product_type
+410,pool floats,brand_entity_proxy
+412,jennie tufted upholstered low profile platform bed,multi_constraint
+415,toilet paper stand,product_type
+417,twin bed frame,attribute_constraint
+418,writing desk,product_type
+419,living room ideas,product_type
+420,tile backsplash,brand_entity_proxy
+421,dining room tables,product_type
+422,ergonomic chair,product_type
+423,wall shelves,brand_entity_proxy
+425,side table with storage,product_type
+426,outdoor storage,product_type
+428,kitchen storage cabinet,product_type
+429,gray dresser,attribute_constraint
+431,shoe bench entryway,product_type
+432,butcher block island,product_type
+433,trundle daybed,brand_entity_proxy
+434,bathroom lighting,brand_entity_proxy
+435,shoe closet,brand_entity_proxy
+436,full bed with trundle,product_type
+437,kitchen islands with seating,product_type
+438,indoor water fountain,product_type
+439,parsons chairs,brand_entity_proxy
+440,wood bar stools,attribute_constraint
+441,desk for kids,product_type
+442,above toilet cabinet,product_type
+443,patio design,brand_entity_proxy
+444,outdoor lounge chair,product_type
+445,chaise lounge couch,product_type
+446,card table,product_type
+447,tall buffet cabinet,attribute_constraint
+448,bed side table,product_type
+453,midcentury tv unit,product_type
+455,deer coat hooks,product_type
+456,wall design shelf,product_type
+459,tye dye duvet cover,product_type
+460,small wardrobe grey,attribute_constraint
+461,luau string lights,product_type
+464,cake cutlery,brand_entity_proxy
+465,white abstract,attribute_constraint
+466,rock climbing wall kids,product_type
+468,glow in the dark silent wall clock,multi_constraint
+469,garage sports storage rack,product_type
+470,elephant framed,brand_entity_proxy
+471,adjustable height artist stool,product_type
+472,window wall accent,product_type
+473,chair pillow cushion,product_type
+476,hardwood beds,brand_entity_proxy
+481,emma headboard,brand_entity_proxy
+482,48 inch kitchen hood,attribute_constraint
+483,rustic twig,style

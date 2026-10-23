@@ -1,0 +1,19 @@
+% Supplement only; original manuscript unchanged.
+% Existing no-prefix / mean-or-CLS descriptions must be scoped to the original encoders.
+\paragraph{Recent-model follow-up.} We retained the original catalogs, query supports, labels, and seven attribute schedules. Each model uses its official retrieval preprocessing and pooling, full-dimensional normalized vectors, and exact FP32 ranking. Qwen3-Embedding-4B was deferred by the user. Harrier-OSS-v1-0.6B was added at the user\textquotesingle s request after the Gemma/ESCI outcomes were known; it is a subsequent extension, not prospectively enabled third-model inclusion.
+For embeddinggemma2 on WANDS, source-order Recall@20 was 0.4188, compared with 0.4177 averaged over the seven orders. Target-only VI@20 was 10.36\% (95\% query-bootstrap CI [9.12, 11.68]); catalog-wide VI@20 was 10.34\% (95\% CI [9.10, 11.68]).
+For embeddinggemma2 on ESCI, source-order Recall@20 was 0.8186, compared with 0.8197 averaged over the seven orders. Target-only VI@20 was 1.70\% (95\% query-bootstrap CI [1.21, 2.32]); catalog-wide VI@20 was 2.39\% (95\% CI [1.80, 3.07]).
+For harrier06b on WANDS, source-order Recall@20 was 0.3882, compared with 0.3904 averaged over the seven orders. Target-only VI@20 was 8.49\% (95\% query-bootstrap CI [7.11, 10.06]); catalog-wide VI@20 was 8.08\% (95\% CI [6.99, 9.21]).
+For harrier06b on ESCI, source-order Recall@20 was 0.7879, compared with 0.7877 averaged over the seven orders. Target-only VI@20 was 1.81\% (95\% query-bootstrap CI [1.38, 2.29]); catalog-wide VI@20 was 3.19\% (95\% CI [2.41, 4.09]).
+For embeddinggemma2 on WANDS, field priority type changed Recall@20 by 0.342 percentage points relative to the within-query mean across raw orders (95\% CI [-0.073, 0.803]).
+For embeddinggemma2 on WANDS, lexical ascending changed Recall@20 by 0.187 percentage points relative to the within-query mean across raw orders (95\% CI [-0.167, 0.564]).
+For embeddinggemma2 on WANDS, lexical descending changed Recall@20 by 0.080 percentage points relative to the within-query mean across raw orders (95\% CI [-0.384, 0.565]).
+For embeddinggemma2 on ESCI, field priority type changed Recall@20 by -0.129 percentage points relative to the within-query mean across raw orders (95\% CI [-0.478, 0.206]).
+For embeddinggemma2 on ESCI, lexical ascending changed Recall@20 by -0.151 percentage points relative to the within-query mean across raw orders (95\% CI [-0.504, 0.183]).
+For embeddinggemma2 on ESCI, lexical descending changed Recall@20 by 0.162 percentage points relative to the within-query mean across raw orders (95\% CI [-0.088, 0.439]).
+For harrier06b on WANDS, field priority type changed Recall@20 by 0.207 percentage points relative to the within-query mean across raw orders (95\% CI [-0.230, 0.705]).
+For harrier06b on WANDS, lexical ascending changed Recall@20 by 0.052 percentage points relative to the within-query mean across raw orders (95\% CI [-0.379, 0.520]).
+For harrier06b on WANDS, lexical descending changed Recall@20 by 0.093 percentage points relative to the within-query mean across raw orders (95\% CI [-0.271, 0.458]).
+For harrier06b on ESCI, field priority type changed Recall@20 by -0.131 percentage points relative to the within-query mean across raw orders (95\% CI [-0.605, 0.243]).
+For harrier06b on ESCI, lexical ascending changed Recall@20 by -0.172 percentage points relative to the within-query mean across raw orders (95\% CI [-0.643, 0.203]).
+For harrier06b on ESCI, lexical descending changed Recall@20 by 0.408 percentage points relative to the within-query mean across raw orders (95\% CI [-0.015, 0.939]).

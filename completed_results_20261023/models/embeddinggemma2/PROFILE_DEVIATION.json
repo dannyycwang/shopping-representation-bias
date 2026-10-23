@@ -1,0 +1,32 @@
+{
+  "id": "batch1_20261017",
+  "reason": "Original EmbeddingGemma 2/ESCI CUDA out-of-memory after 896 completed batches; lower batch before considering length/backend changes",
+  "evidence": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\embeddinggemma2_esci_encode.log",
+    "sha256": "56c90d0d366b55bed1126f8b88fa09fbd3a40746015e100318fce50cacef2495",
+    "bytes": 7643
+  },
+  "technical_memory_probe": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\memory_probe_sdpa_1_False.json",
+    "sha256": "df96793975766b204b820db1341dddba06f84de85c142562e995932f7d59b07b",
+    "bytes": 2548
+  },
+  "changes": {
+    "embeddinggemma2.batch_size": "all inputs = 1"
+  },
+  "unchanged": [
+    "models and real revisions",
+    "native lengths",
+    "BF16",
+    "SDPA",
+    "pooling and projection",
+    "prefixes",
+    "full catalogs",
+    "queries and labels",
+    "schedules and seeds",
+    "all evaluation and analysis rules"
+  ],
+  "formal_scores_seen": false,
+  "cache_policy": "Fresh queries and every catalog view; no original profile vectors reused",
+  "qwen_technical_evidence": "Historical validation archived under audit/inherited_qwen_smoke; cloned adapter line endings changed its SHA256 despite identical normalized source. The supervisor must run a fresh technical validation before formal Qwen encoding."
+}

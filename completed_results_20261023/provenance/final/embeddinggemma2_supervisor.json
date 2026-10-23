@@ -1,0 +1,28 @@
+{
+  "status": "finished",
+  "pid": 25248,
+  "finished_utc": "2026-10-21T20:31:04.766910+00:00",
+  "phase": "canonical",
+  "active_models": [
+    "embeddinggemma2"
+  ],
+  "operation_receipt": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\canonical_snapshot_recovery_20261021.json",
+  "results": [
+    {
+      "dataset": "esci",
+      "stage": "canonical",
+      "exit_code": 0,
+      "verified_completion": true
+    },
+    {
+      "dataset": "wands",
+      "stage": "canonical",
+      "exit_code": 0,
+      "verified_completion": true
+    }
+  ],
+  "primary_completed": true,
+  "canonical_completed": true,
+  "all_active_experiments_completed": true,
+  "comparison_exit_code": 0
+}

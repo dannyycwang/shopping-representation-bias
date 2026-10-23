@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-22T17:08:38.243891+00:00",
+  "human_message": "繼續跑?",
+  "authorization_source": "Latest direct human message in the current Codex chat after the reported canonical CUDA OOM",
+  "interpretation": "Authorize one unchanged-profile continuation of the unfinished Harrier WANDS canonical stage, then its final analyses and reports.",
+  "model": "harrier06b",
+  "dataset": "wands",
+  "phase": "canonical",
+  "maximum_additional_attempts": 1,
+  "numerical_changes": false,
+  "automatic_retries": false,
+  "wrapper_sha256": "27317b97884eec834bef15d9d5ed3c4fa1fc62dbe8ffc73951083f80a28ee6a3",
+  "failure_proof_sha256": "741954035a98ac1383ee05ca98d093e45acfe650c822503757db0192cd7b80b6",
+  "original_reservation_must_remain_unchanged": true,
+  "completed_cells_must_not_be_rerun": true,
+  "system_changes": false,
+  "github_publication_authorized": false
+}

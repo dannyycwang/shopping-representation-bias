@@ -1,0 +1,9 @@
+{
+  "stage": "encode",
+  "model": "embeddinggemma2",
+  "dataset": "esci",
+  "status": "completed",
+  "updated_utc": "2026-10-17T20:53:33.138652+00:00",
+  "profile_fingerprint": "4d0820a97ea426d72f801a674a86ab8c5c0862fbd7ff3181c4cff4630c7fff49",
+  "query_embeddings_once": true
+}

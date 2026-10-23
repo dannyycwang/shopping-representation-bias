@@ -1,0 +1,62 @@
+{
+  "status": "phase_completed",
+  "time_utc": "2026-10-22T17:09:44.172119+00:00",
+  "model": "harrier06b",
+  "dataset": "wands",
+  "phase": "canonical",
+  "single_attempt": true,
+  "pid": 27812,
+  "create_time": 1792688953.1948404,
+  "command": [
+    "revision_recent_models_20261016/scripts/canonical_resume_20261022/recover_supervisor.py",
+    "--resume"
+  ],
+  "source": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\scripts\\canonical_resume_20261022\\recover_supervisor.py",
+    "sha256": "27317b97884eec834bef15d9d5ed3c4fa1fc62dbe8ffc73951083f80a28ee6a3",
+    "bytes": 12021
+  },
+  "authorization": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\authorization.json",
+    "sha256": "486729c511c90cf75017528e624addfa701a3ef2b42b9b2d521de1bf291ba895",
+    "bytes": 898
+  },
+  "preflight": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\preflight.json",
+    "sha256": "078012579d40edce69cee3d3d612f89792b58e807dbbedec855751a18f2f99bb",
+    "bytes": 74291
+  },
+  "preserved_original_attempt": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\audit\\canonical_after_all_primary_attempt_20261021.json",
+    "sha256": "95b44696a3a03b1daadab6993a0c8f3b80653c05bd33569cd0ef8f9b0abd6ed9",
+    "bytes": 17631
+  },
+  "numerical_changes": false,
+  "automatic_retries": false,
+  "finished_utc": "2026-10-22T23:54:24.440716+00:00",
+  "active_models": [
+    "harrier06b"
+  ],
+  "operation_receipt": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\audit\\harrier_can_resume_20261022\\attempt.json",
+  "results": [
+    {
+      "dataset": "esci",
+      "stage": "canonical",
+      "reused_verified_completion": true
+    },
+    {
+      "dataset": "wands",
+      "stage": "canonical",
+      "exit_code": 0,
+      "verified_completion": true
+    }
+  ],
+  "primary_completed": true,
+  "canonical_completed": true,
+  "all_active_experiments_completed": true,
+  "refresh_exit_codes": {
+    "analyze": 0,
+    "report": 0,
+    "combined": 0
+  }
+}

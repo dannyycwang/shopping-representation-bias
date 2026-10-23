@@ -1,0 +1,14 @@
+{
+  "stage": "canonical",
+  "model": "harrier06b",
+  "dataset": "esci",
+  "status": "completed",
+  "updated_utc": "2026-10-21T21:26:16.239060+00:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\harrier_20261019\\runs\\harrier06b\\esci\\evaluation\\canonical\\complete.json",
+      "sha256": "965309cb25f29fb7fc7f89b1758cb32bccc7b5696d87ffbeb87b9dd9f1bb330b",
+      "bytes": 2602
+    }
+  ]
+}

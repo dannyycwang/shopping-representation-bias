@@ -1,0 +1,120 @@
+{
+  "time_utc": "2026-10-17T21:20:46.463568+00:00",
+  "authority": "Explicit user request in this chat",
+  "user_request": "Qwn 4B先不要做好了",
+  "interpretation": "Defer Qwen/Qwen3-Embedding-4B until explicit user resumption; continue EmbeddingGemma 2",
+  "prior_protocol_sha256": "3c8ab94aa8f8f3c309a26725a3284223d72c89d4af912b95c37640640ba7f3a2",
+  "active_models": [
+    "embeddinggemma2"
+  ],
+  "deferred_models": [
+    "qwen3_4b"
+  ],
+  "known_results_at_request": [
+    "embeddinggemma2/esci RQ1/RQ2 and boundary audit completed"
+  ],
+  "canonical_prerequisite": "Both active-model datasets complete RQ1/RQ2 and boundary audits; deferred Qwen is excluded",
+  "unchanged": [
+    "All model specifications/revisions and software",
+    "Gemma execution profile and prefixes/pooling/projection",
+    "All datasets, splits, labels, serialized inputs, schedules and seeds",
+    "FP32 scoring, tie rules, metrics and bootstrap",
+    "The three pre-fixed canonical rules"
+  ],
+  "preserved_worker": {
+    "time": "2026-10-17T21:14:49.247033+00:00",
+    "reason": "User explicitly deferred Qwen 4B; replace supervisor while preserving active Gemma worker",
+    "old_supervisor_pid": 6604,
+    "old_supervisor_command": [
+      "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+      "-u",
+      "revision_recent_models_20261016/profiles/batch1_20261017/scripts/supervise.py"
+    ],
+    "model": "embeddinggemma2",
+    "dataset": "wands",
+    "stage": "encode",
+    "active_receipt": {
+      "status": "running",
+      "pid": 47740,
+      "command": [
+        "revision_recent_models_20261016/profiles/batch1_20261017/scripts/run.py",
+        "encode",
+        "--model",
+        "embeddinggemma2",
+        "--dataset",
+        "wands"
+      ],
+      "log": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\embeddinggemma2_wands_encode.log",
+      "started_utc": "2026-10-17T20:55:47.564288+00:00",
+      "supervisor_pid": 6604
+    },
+    "workers": [
+      {
+        "pid": 47740,
+        "create_time": 1792270547.5739608,
+        "command": [
+          "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\.venv\\Scripts\\python.exe",
+          "-u",
+          "revision_recent_models_20261016/profiles/batch1_20261017/scripts/run.py",
+          "encode",
+          "--model",
+          "embeddinggemma2",
+          "--dataset",
+          "wands"
+        ]
+      },
+      {
+        "pid": 37336,
+        "create_time": 1792270547.6271513,
+        "command": [
+          "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+          "-u",
+          "revision_recent_models_20261016/profiles/batch1_20261017/scripts/run.py",
+          "encode",
+          "--model",
+          "embeddinggemma2",
+          "--dataset",
+          "wands"
+        ]
+      }
+    ]
+  },
+  "cache_reuse": "Gemma adapter bytes/specification/software and numerical code unchanged; reuse verified complete and partial checkpoints. Completed ESCI evidence remains unchanged and references the archived prior protocol.",
+  "control_source_changes": [
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\scripts\\analyze.py",
+      "before_sha256": "b4dd97b93cd9fbca803fe938231b1f00d0cf865e1dcd4672aab8d8bd800e6c1b",
+      "after_sha256": "e8f60c85f53138d5c1e9892d628fea073187b83284de2fa618186e39e837b5bf",
+      "archived_source": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\protocol_history\\before_qwen_deferral_20261017\\scripts\\analyze.py"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\scripts\\encode.py",
+      "before_sha256": "ea418ae106d9f4b33a3333084d115eec09e4b836b86bb4be5c75995968090eed",
+      "after_sha256": "a6d223d291f9853e8a5972a458f9c087bdce20d97c5a4a571a18abc1b380cd0b",
+      "archived_source": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\protocol_history\\before_qwen_deferral_20261017\\scripts\\encode.py"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\scripts\\report.py",
+      "before_sha256": "5c0f1134e119ba5e9c0d032194a5beb119ebb3d0944580be17c01a7689a84251",
+      "after_sha256": "da6ac005f73d2a784ed6b615dfe0ad349940339bda84577aee526f7934d420d3",
+      "archived_source": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\protocol_history\\before_qwen_deferral_20261017\\scripts\\report.py"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\scripts\\run.py",
+      "before_sha256": "ab68022c688b487d199962a67e292f41ed2a4e6d443b587125a01b78956e477b",
+      "after_sha256": "7368a608ce7f6d17ca3ef13ed964d49db9a33ed3e08caa40165a3e9b48b9be30",
+      "archived_source": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\protocol_history\\before_qwen_deferral_20261017\\scripts\\run.py"
+    },
+    {
+      "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\scripts\\supervise.py",
+      "before_sha256": "0528f13bff3c979ca50b2e7d7279f068d6eb47477c2502ee989bc82f9f845f1e",
+      "after_sha256": "6db68c178b2a22d63675733611b8fc2f20f49f966e012b2e46a8f12ed806e4e4",
+      "archived_source": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\protocol_history\\before_qwen_deferral_20261017\\scripts\\supervise.py"
+    }
+  ],
+  "tests": {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\revision_recent_models_20261016\\profiles\\batch1_20261017\\audit\\tests_user_scope.log",
+    "sha256": "61fbc7b74dbea6fc42ab576a8f60981fb22cbbf8756a9866cf55289a1e87aa56",
+    "bytes": 102
+  }
+}
