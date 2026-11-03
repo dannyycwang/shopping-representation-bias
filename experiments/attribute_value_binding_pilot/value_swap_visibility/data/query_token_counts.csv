@@ -1,0 +1,481 @@
+query_id,query,tokens,selected
+0,salon chair,5,False
+1,smart coffee table,5,False
+2,dinosaur,5,False
+3,turquoise pillows,7,False
+4,chair and a half recliner,8,True
+5,sofa with ottoman,8,False
+6,acrylic clear chair,6,True
+7,driftwood mirror,6,True
+8,home sweet home sign,6,False
+9,coffee table fire pit,7,True
+10,king poster bed,5,False
+11,ombre rug,5,True
+12,large spoon and fork wall decor,8,False
+13,outdoor privacy wall,6,False
+14,beds that have leds,8,False
+15,black 5 drawer dresser by guilford,11,False
+16,blk 18x18 seat cushions,9,False
+17,closet storage with zipper,8,False
+18,chrome bathroom 4 light vanity light,8,False
+19,gurney  slade 56,9,False
+20,foutains with brick look,8,False
+21,living curtains pearl,6,False
+22,light and navy blue decorative pillow,8,True
+23,stoneford end tables white and wood,9,False
+24,wood coffee table set by storage,8,False
+25,sunflower,4,False
+26,leather chairs,5,False
+27,outdoor welcome rug,6,False
+28,rooster decor,5,False
+29,bathroom vanity knobs,8,False
+30,3 1/2 inch drawer pull,9,False
+31,burnt orange curtains,6,True
+32,dark gray dresser,6,False
+33,non slip shower floor tile,7,False
+34,bar stool with backrest,7,False
+35,enclosed shoe rack,6,False
+36,laundry basket with wheels,7,False
+37,bar stool 24 inches height,7,True
+38,calvin patio chair,6,False
+39,door jewelry organizer,5,False
+40,elegant executive chair,7,False
+41,closet pull out valet rod,9,False
+42,toddler couch fold out,8,False
+43,solid teak end table,7,False
+44,chrome shower head and valve,7,False
+45,70s inspired furniture,6,False
+46,beach blue headboard,7,False
+47,porcelain loaf pan,7,False
+48,arwen table lamp,6,False
+49,moen matte black hooks,8,False
+50,tufted chair with gold legs,9,False
+51,kohen 5 drawer dresser,8,False
+52,westling coffee table,6,False
+53,carolyn console table,7,False
+54,wayfair sleep zippered,7,True
+55,tollette teal outdoor rug,8,False
+56,royal blue counter height chairs,8,False
+57,jordanna solid wood rocking,8,False
+58,medium size chandelier,7,False
+59,broadway lever,5,True
+60,capricorn chest,6,True
+61,overstreet rustic pub stools,9,False
+62,7qt slow cooker,6,True
+63,monthly calendar,5,True
+64,zachary 72.5,8,True
+65,gnome fairy garden,5,True
+66,novara pergola,7,False
+67,osgood mirror,5,False
+68,nautical platters,7,True
+69,wall sconce with usb port,9,True
+70,annex dresser,6,False
+71,infant girl crib bedding,9,False
+72,fold in half table,6,False
+73,certified international melamine,7,False
+74,serta kleinmon,7,True
+75,sheffield home bath set,7,True
+76,46 inch closet door,6,False
+77,sancroft armchair,8,False
+78,dorel vanity,5,False
+79,palram harmony greenhouses,7,False
+80,7 draw white dresser,7,False
+81,orren ellis l shape desk,9,False
+82,bathroom vanity with counter space,9,False
+83,wall art fiji,6,False
+84,full metal bed rose gold,7,False
+85,3/4 size mattress,7,False
+86,aloe vera plant pot,8,False
+87,vlad modular sectional,6,False
+88,rose gold lounge,5,False
+89,whimsical solar lights,7,True
+90,filaret outdoor sofa,6,False
+91,industrial pipe dining  table,7,False
+92,antique silver entry table,7,False
+93,outdoor sectional dining,6,True
+94,kohler whitehaven farmhouse kitchen sink,11,False
+95,entertainment stand end table,8,False
+96,bar room wall decor,6,False
+97,regner power loom red,8,False
+98,gracie oaks 62 oller 14 ceiling fan,13,False
+99,arched christmas tree,7,False
+100,tufted upholstered bed diamond,11,False
+101,48 in entry table with side by side drawer,11,True
+102,flamingo,5,False
+103,kitchen anti fatigue mats,8,False
+104,flour and sugar containers,7,True
+105,outdoor movie screen,6,False
+106,bed risers,5,False
+107,front porch furniture sets,6,False
+108,ayesha curry kitchen,7,False
+109,hillsby oriental rug,8,False
+110,mila task chair,6,False
+111,delta trinsic,5,False
+112,pineapple,4,False
+113,led light strip,5,False
+114,geralyn upholstered storage platform bed,12,False
+115,peacock,5,True
+116,brockham solid blackout thermal grommet curtain panels,14,False
+117,tall storage cabinet,6,False
+118,body pillow case,5,False
+119,welcome sign,5,False
+120,zodiac pillow,6,True
+121,upholstered bed,7,False
+122,king size bed,5,False
+123,entrance table,5,False
+124,unique coffee tables,5,False
+125,boho bed frame,6,True
+126,leather dining chairs,6,False
+127,wine bar,4,False
+128,block coffee table,5,False
+129,wainscoting ideas,7,True
+130,entertainment console,6,False
+131,kids chair,4,True
+132,farmhouse cabinet,6,True
+133,outdoor light fixtures,6,False
+134,black hanging bookshelf,6,False
+135,low profile loveseat recliner,9,False
+136,black fluffy stool,6,False
+137,orren ellis l shaped desk,9,True
+138,glass doors for bath,6,True
+139,auburn throw pillows,8,False
+140,wire basket with dividers,7,False
+141,podium with locking cabinet,7,False
+142,kitchen wooden stand,6,False
+143,queen wingback chair,7,True
+144,rug plum,4,False
+145,liberty hardware francisco,8,False
+146,laundry vanity cabinet,6,False
+147,drum picture,5,True
+148,industrial,3,False
+149,mid century modern,5,False
+150,dumbbells,6,False
+151,leather chair,5,False
+152,wishbone chair,6,False
+153,bohemian,5,True
+155,floating bed,5,True
+156,papasan chair frame only,8,False
+157,velvet chaise,6,False
+158,led nightstand,5,False
+159,meditation,4,True
+160,marble,4,False
+161,accent chair recliner,7,True
+162,turquoise chair,6,False
+163,dual monitor stand,5,True
+164,modern outdoor furniture,5,True
+165,kitchen storage shelves,6,True
+166,feather wall art,6,False
+167,camper,4,False
+168,printers,4,False
+169,coffee bar buffet,7,True
+170,zen,3,False
+171,nectar queen mattress,7,False
+172,picasso,4,False
+173,bedroom accessories,5,True
+174,star wars rug,5,False
+175,basket planter,6,False
+176,mexican art,6,True
+177,rustic storage cabinet,6,True
+178,almost heaven sauna,6,False
+179,promo codes or discounts,7,False
+180,outdoor lounge cushions,7,True
+181,e12/candelabra,9,False
+182,penny round tile,6,False
+183,farmhouse bread box,7,False
+184,sugar canister,6,False
+185,lunch bag,5,False
+186,board game storage cabinet,6,False
+188,"bedroom wall decor floral, multicolored with some teal (prints)",18,False
+189,big basket for dirty cloths,8,False
+190,benjiamino faux leather power lift chair,11,True
+191,biycicle plant stands,7,False
+193,belchertown table lamp,7,False
+194,black frame 22 x 36,7,False
+195,black freestanding tub  with faucet,12,False
+196,chabely 5 draw chest,8,False
+197,desk for kids tjat ate 10 year old,13,False
+198,cake plates with tops,6,False
+199,blue faux throw with pillows,9,False
+200,ceramic tile sea shell,7,True
+201,delta trinsic double towel hook in champagne bronze,11,False
+202,full mattress padded liner,7,False
+203,ge top loading washer 4.5,10,False
+204,fleur de lis living candle wall sconce bronze,13,False
+205,ines shag rug w003096809,10,False
+206,grill cover 73,6,False
+207,dull bed with shirt head board,9,False
+208,"fawkes 36"" blue vanity",9,False
+209,door pulls bronze matte 4 inch,9,False
+210,love seat wide faux leather tuxedo arm sofa,13,True
+211,memory foam rug galveston,8,False
+212,nettie 5 pc bar set,8,False
+213,kraus kitchen sink faucet oletto kpf 2820 sfs,19,True
+214,light wood nightstand with silver accents,10,False
+215,king adjustable bed including mattress,7,False
+216,music plug wall plate,6,False
+218,wand bunk beds,6,False
+219,trinaic towel rod,7,False
+220,sheets for twinxl,7,False
+221,small space dining table and chairs sets,9,False
+222,small loving roomtables,6,False
+223,wisdom stone river 3-3/4,12,True
+224,twin over full bunk beds cool desins,11,False
+225,white splashproof shiplap wallpaper,10,False
+226,power lift chair,5,False
+227,owl,3,True
+228,bee,3,False
+229,waterfall faucet,7,False
+230,gold,3,True
+231,anti fatigue mat,5,False
+232,storage dresser,5,False
+233,kelly clarkson light fixtures,9,False
+234,artificial orchid arrangement,7,False
+235,bathroom wastebasket,8,True
+236,3 piece rug set with runners,8,False
+237,cloud modular sectional,5,False
+238,outdoor seat/back cushion,8,False
+239,bathroom single faucet,9,False
+240,eiffel tower wall art,8,False
+241,decorative wall clocks,6,True
+242,accent leather chair,6,True
+243,indoor multi tiered plant stand,9,False
+244,pull out sleeper loveseat,9,False
+245,anchor decor,4,True
+246,clear shower curtain,5,False
+247,beaded curtains,5,True
+248,surge protector,5,False
+249,bistro table and chairs,8,False
+250,multi color rug,5,False
+251,coffee container,5,False
+252,accent chairs living room,7,False
+253,antique brass faucet,8,False
+254,comfortable accent chair,6,True
+255,desk and chair set,7,True
+256,high weight capacity bunk beds,7,False
+257,living room coffee table sets,7,True
+258,breakfast bar table,6,False
+259,nursery end table,7,False
+260,retractable side awning,7,False
+261,semi flush foyer light,8,False
+262,bathroom freestanding cabinet,9,False
+263,small curtain rods,5,True
+264,cortez pillow,6,False
+265,candace wingback upholstered bed,12,False
+266,champagne velvet desk chair,8,False
+267,dolomite subway tile,8,True
+268,betty resin free standing umbrella,8,True
+269,donaldson teak couch,9,False
+270,edge chair mat,5,False
+271,chinese flower stand,6,True
+272,oliver parsons,6,False
+273,stainless steel free standing shower caddy,11,False
+274,gowdy height adjustable standing desk,8,False
+275,hinged square ottoman,8,True
+276,chaves l-shape floating desk with hutch,12,False
+277,barstool patio sets,7,True
+278,parakeet toy,6,False
+279,marlon tufted queen bed,9,False
+280,johan desk by laurel foundry,10,False
+281,brunk ship wheel,6,False
+282,grantola wall mirror,6,False
+283,gaia driftwood table,7,False
+284,family lamp,4,False
+285,"48"" sliding single track , barn door for laundry",12,False
+286,hitchcock mid-century wall shelf,10,False
+287,cover set for outdoor furniture,7,False
+288,round outdoor patio cover,6,False
+289,coma inducer comforter king set,10,True
+290,mission double vanity,5,False
+291,front door cabinet with doors,7,False
+292,decorative white pillow,6,False
+293,wood floor protector mat,6,False
+294,moen multi function dual shower head,9,False
+295,end table between recliners,7,True
+296,zakariyah twin platform,9,True
+297,seat cushions desk,6,False
+298,small woven pouf,6,True
+300,animal print handmade tufted wool beige/black area rug by allmodern,19,True
+301,circle cabinet pulls,5,False
+302,mattress foam topper queen,9,False
+303,hawaii vintage art,7,False
+304,merlyn 6,5,False
+305,ligth bulb,5,False
+306,mobley zero gravity adjustable bed with wireless remote,11,False
+307,real touch roses floral arrangements in glass vase,11,True
+308,led 60,4,True
+309,moen 5995 arbor one,9,False
+310,meade mirror,5,False
+311,odum velvet,5,False
+312,coat rack for bedroom,6,False
+313,malachi sled,6,False
+314,body pillow and case,6,False
+315,medium clips,4,False
+316,rolande heavy duty power lift assist recliner,11,True
+317,hulmeville writing desk with hutch,11,True
+318,sunjoy lantern,5,False
+319,landis wall mounted bathroom shelves,8,True
+320,blaylock bookcase headboard,9,False
+321,hussain handmade tufted magenta rug,13,False
+322,cream queen duvet cover,8,False
+323,hub leaning full length mirror,7,False
+324,chase utility laundry cart,7,False
+325,outdoor waterproof chest,7,True
+326,bowersville ladder writing desk,8,False
+327,kohler purist brushed bronze,9,False
+328,golub dining table,6,True
+329,wayfair tension rod,6,False
+330,kari 2 piece,6,False
+331,upholstered girls bed,8,False
+332,attleboro drum coffee table,7,False
+333,stainless steel colander set,9,False
+334,itchington butterfly,5,True
+335,canadian,4,True
+336,mystic swivel,6,False
+337,iittala bowl,6,False
+338,mahone porch rocking chair,8,False
+339,ruckus chair,5,False
+340,berenice 4 storage cabinet,8,False
+341,canvas map art,5,False
+342,brendon counter stool,7,True
+343,navy and peach bedding,9,False
+344,ottoman bed queen,6,False
+345,oriental vanity,5,False
+346,nesting tray set,6,False
+347,olive green console table,7,False
+348,one alium way,6,False
+349,mud room sign,5,False
+351,white bathroom vanity black hardware,7,False
+352,amarillo,4,False
+353,pennfield playhouse,7,False
+354,tressler rug,6,False
+355,argenteuil,6,False
+356,platform bed side table,6,False
+357,tall free standing pet gate,8,True
+358,sliding closet mirror,6,False
+359,french molding,5,False
+360,huntsville sectional sofa,7,False
+361,kisner,5,False
+362,brushed gold wall decor,7,False
+363,fortunat coffee table,7,False
+364,croscill ashton,6,False
+365,gas detector,4,False
+366,drudge report,5,False
+367,wooden chair outdoor,6,False
+368,pasta tools,5,False
+369,wrought tv stand,6,False
+370,rug for teen room,6,True
+371,milk cow chair,6,False
+372,verden callan,6,False
+373,togo chair,5,False
+374,sinks bed frame,6,False
+375,pastel pink desk chair,7,False
+376,island estate coffee table,7,False
+377,glinda upholstered bench,9,False
+378,cliffside 5 light candle style drum chandelier,13,False
+379,urban outfitters duvet,7,False
+380,gravity feeder,4,False
+381,farmhouse hood vent,7,False
+382,counter top one cup hot water dispenser,10,False
+383,minnestrista,6,False
+384,dining table vinyl cloth,7,False
+385,mom urn,5,False
+386,alter furniture,4,False
+387,self enclosed planters,6,False
+388,outdoor sectional doning,7,False
+389,brush nickel faucet bathroom,8,False
+390,cushion replacement insert,7,False
+391,"writing desk 48""",6,False
+392,china clock,5,False
+393,propane gas dryer,7,False
+394,gray leather cocktail table,6,False
+395,pantry grey,5,False
+396,alyse 8 light,6,False
+397,maryford queen tufted bed,9,False
+398,super bright lights,5,False
+399,12v dirt bike,6,False
+400,small ladies rocker swivel recliner,10,False
+401,glass lsmp shades,6,False
+402,modern farmhouse lighting semi flush mount,9,False
+403,wood rack wide,5,False
+404,large cushion outdoor chair,6,False
+405,queen ann style living room chair,9,False
+406,refrigerator with ice an water in door,12,True
+407,huge bookcase,6,True
+408,girl reading statue,5,False
+409,teal chair,5,False
+410,pool floats,4,True
+411,outdoor clock,5,False
+412,jennie tufted upholstered low profile platform bed,16,True
+413,burruss patio sectional with cushions,10,False
+414,shower hooks,5,False
+415,toilet paper stand,7,False
+416,wayfair coffee table,6,False
+417,twin bed frame,6,False
+418,writing desk,4,False
+419,living room ideas,5,False
+420,tile backsplash,6,True
+421,dining room tables,6,True
+422,ergonomic chair,5,False
+423,wall shelves,4,False
+424,wayfair comforters,7,False
+425,side table with storage,6,True
+426,outdoor storage,5,True
+427,lowes tile,5,False
+428,kitchen storage cabinet,6,False
+429,gray dresser,5,False
+430,30 inch bathroom vanity,6,False
+431,shoe bench entryway,7,False
+432,butcher block island,6,False
+433,trundle daybed,6,False
+434,bathroom lighting,6,False
+435,shoe closet,5,False
+436,full bed with trundle,7,True
+437,kitchen islands with seating,7,False
+438,indoor water fountain,6,False
+439,parsons chairs,5,True
+440,wood bar stools,6,False
+441,desk for kids,6,False
+442,above toilet cabinet,5,False
+443,patio design,5,True
+444,outdoor lounge chair,6,True
+445,chaise lounge couch,6,False
+446,card table,4,True
+447,tall buffet cabinet,7,False
+448,bed side table,5,False
+449,living room designs,5,False
+451,aiden black velvet bed,7,False
+452,day bed indian,6,False
+453,midcentury tv unit,6,True
+454,carpet 5x6,7,False
+455,deer coat hooks,6,False
+456,wall design shelf,5,False
+457,5 gang light switch,6,False
+458,bubble guppies chair,8,False
+459,tye dye duvet cover,8,False
+460,small wardrobe grey,5,False
+461,luau string lights,6,False
+462,large bases,4,False
+463,bistro sets patio,7,False
+464,cake cutlery,6,True
+465,white abstract,4,False
+466,rock climbing wall kids,6,False
+467,town & country living curtains,7,False
+468,glow in the dark silent wall clock,10,False
+469,garage sports storage rack,7,False
+470,elephant framed,5,False
+471,adjustable height artist stool,7,False
+472,window wall accent,5,True
+473,chair pillow cushion,5,False
+474,48 inch bathroom vanity with trough sink,9,False
+475,rattan truck,6,False
+476,hardwood beds,5,True
+478,worn leather office chair,7,False
+479,garage door mail slot,7,False
+480,pictures to hang over fireplace,8,False
+481,emma headboard,6,False
+482,48 inch kitchen hood,6,False
+483,rustic twig,6,False
+484,nespresso vertuo next premium by breville with aeroccino,16,False
+485,pedistole sink,6,False
+486,54 in bench cushion,6,False
+487,rack glass,4,False

@@ -1,0 +1,14 @@
+{
+  "source": "Observed run.py stdout and qa/pilot/complete.json",
+  "pilot_completed_utc": "2026-11-03T08:47:33.323512+00:00",
+  "reported_pilot_wall_seconds": 325565.77896142006,
+  "observed_C_progress_wall_seconds": [
+    {"encoded_products":151,"seconds":129.7},
+    {"encoded_products":176,"seconds":3663.6},
+    {"encoded_products":226,"seconds":3675.4},
+    {"encoded_products":251,"seconds":325176.0},
+    {"encoded_products":422,"seconds":325274.9}
+  ],
+  "interpretation": "Observed wall-clock gaps across calendar days; sleep/suspension versus clock changes was not independently diagnosed. Do not equate elapsed wall time to active GPU computation. No active GPU timer was recorded.",
+  "data_integrity": "All frozen input hashes, A/query replay and output validation retained; no sample changes during this interval."
+}

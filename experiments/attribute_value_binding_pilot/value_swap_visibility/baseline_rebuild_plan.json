@@ -1,0 +1,41 @@
+{
+  "selection_manifest_sha256": "cfb87dbd4057d77a3c6a145e6762a82dc6720f8ef9bb55ac4a0859ad2a163815",
+  "created_utc": "2026-10-30T13:49:08.327607+00:00",
+  "reason": "Historical cache passed source/profile checks but selected A/query fresh replay differed; exact historical numerical runtime cannot be recovered from sidecars.",
+  "historical_replay_max_abs_error": 0.0009531080722808838,
+  "rebuild_scope": "source-order full catalog and original queries only; no other representation/model",
+  "model": {
+    "key": "gte_modernbert",
+    "name": "Alibaba-NLP/gte-modernbert-base",
+    "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+    "architecture": "ModernBERT long-context retrieval encoder",
+    "max_tokens": 8192,
+    "native_pooling": "CLS"
+  },
+  "profile": {
+    "key": "native",
+    "chunk_tokens": null,
+    "overlap": 0,
+    "pooling": "model_native"
+  },
+  "runtime": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\.venv\\Scripts\\python.exe",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.55.4",
+    "tokenizers": "0.21.4",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "tf32_matmul": false,
+    "tf32_cudnn": true,
+    "deterministic_algorithms": false,
+    "blas_threads": 4
+  },
+  "config_sha256": "cd05f60674ecb363c25caed7d4ab888c671692d12edcd4065bd15e91074bf49a",
+  "reference_seconds": 1487.0422649383545,
+  "reference_catalog_products": 42994,
+  "script_sha256": "a3b03fe69ce1259e112362410e1531ced9e734a35f405ede36fad9713ce96adf",
+  "inherited_encoder_sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa"
+}

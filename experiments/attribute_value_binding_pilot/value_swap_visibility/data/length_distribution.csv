@@ -1,0 +1,6 @@
+population,n,minimum,maximum,tokens_q25,tokens_median,tokens_q75,above_cap_n,above_cap_den,above_cap_rate
+catalog_A,42994,23,3910,405,567,739,0,42994,0
+preselected_A,42973,44,3910,406,567,739,0,42973,0
+preselected_C,42973,44,3910,406,567,739,0,42973,0
+sampled_A,422,153,1354,443.5,563,724.25,0,422,0
+sampled_C,422,153,1354,443.5,563,724.25,0,422,0

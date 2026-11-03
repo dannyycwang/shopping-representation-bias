@@ -1,0 +1,6 @@
+product_id,source_batch,batch_size,tokens_A,tokens_C,exact_values_swapped,all_keys_and_order_unchanged,unselected_content_unchanged,no_truncation,variant_reused,vector_sha256
+7507,3304,4,815,815,True,True,True,True,False,7aec99aa17349fad71dc034290c725e279b07d1313dc46bf9e72d4ed1515c45f
+14787,2263,8,690,690,True,True,True,True,False,322aa9d60e5087f4bc1ce34f5e69a499d424d05c56cb427b7123300e00c30597
+17811,3597,4,845,845,True,True,True,True,False,d3bbb1fed82cca700967a4ce150097605108d31a0081015c090e9adecce2f3dd
+37198,3115,4,797,797,True,True,True,True,False,a3bb175f521bd623e6e93c247e71be795ba2756e12a24785904918c60108e6f5
+39681,2009,8,657,657,True,True,True,True,False,5c38ffd2e15d26f0b3a60a612397fd8ac3d3a5ddf1f9992acfcf04d7bd231f22

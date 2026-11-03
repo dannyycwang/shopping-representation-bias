@@ -1,0 +1,41 @@
+{
+  "plan_sha256": "e808be18b8db756e3179b8ddce5a722077a9e4da479976f8606432ebffa08751",
+  "selection_manifest_sha256": "cfb87dbd4057d77a3c6a145e6762a82dc6720f8ef9bb55ac4a0859ad2a163815",
+  "config_sha256": "cd05f60674ecb363c25caed7d4ab888c671692d12edcd4065bd15e91074bf49a",
+  "encoder_sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa",
+  "arrays": {
+    "product": {
+      "path": "cache/rebuilt_source_product.npy",
+      "sha256": "330ab1cc4128728615bf2a0b11bd23c4df5c9416f5f6eb626c09aacacb16683c",
+      "shape": [
+        42994,
+        768
+      ],
+      "metadata": {
+        "mean_wordpieces_with_special": 585.9858119737638,
+        "p95_wordpieces_with_special": 1003.0,
+        "fraction_truncated": 0.0
+      },
+      "seconds": 1777.8610517978668,
+      "maximum_difference_from_historical": 0.006111741065979004
+    },
+    "query": {
+      "path": "cache/rebuilt_source_query.npy",
+      "sha256": "f972d5c1691d9e6bb23be8cbd5109fe63dc4c13494b2fefb79564d00028340f8",
+      "shape": [
+        480,
+        768
+      ],
+      "metadata": {
+        "mean_wordpieces_with_special": 6.864583333333333,
+        "p95_wordpieces_with_special": 11.0,
+        "fraction_truncated": 0.0
+      },
+      "seconds": 1.051079273223877,
+      "maximum_difference_from_historical": 0.001795262098312378
+    }
+  },
+  "completed_utc": "2026-10-30T14:19:16.554244+00:00",
+  "seconds": 1793.267921924591,
+  "historical_cache_used_for_scoring": false
+}

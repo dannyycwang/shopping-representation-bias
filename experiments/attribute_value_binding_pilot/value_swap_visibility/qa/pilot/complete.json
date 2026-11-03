@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "pairs": 422,
+  "queries": 100,
+  "distinct_products": 422,
+  "selection_manifest_sha256": "cfb87dbd4057d77a3c6a145e6762a82dc6720f8ef9bb55ac4a0859ad2a163815",
+  "run_sha256": "829f961862032ef98e9256927f1a7d379a422dda83347334401461419356a84b",
+  "baseline_manifest_sha256": "6d6b1cb97730063b0d37903abf846ceaf921334a43da12e5a9c06fb66d29d374",
+  "completed_utc": "2026-11-03T08:47:33.323512+00:00",
+  "seconds": 325565.77896142006
+}

@@ -1,0 +1,36 @@
+{
+  "frozen_utc": "2026-10-30T13:42:54.465541+00:00",
+  "selection_uses_scores": false,
+  "new_scores_computed": false,
+  "files": {
+    "common.py": "c50128df12134ed4c0993d03fbc7faea274d713de825b5d91213e8dc9ef0f593",
+    "prepare.py": "fbc654c26b2c359b3f82c3bd1d6b49cd613cd0bae2302dfa84d1e1d14129b80f",
+    "config.json": "cd05f60674ecb363c25caed7d4ab888c671692d12edcd4065bd15e91074bf49a",
+    "data/selected_pairs.csv": "b2d1c915f19b38dfaabe49d4245061bbae87ff137a065cddb8a30e1ff7f13c0c",
+    "data/smoke_pairs.csv": "116fb53f75d5d7ce2c3dce251dc501170750ebaf5d0f79fd536f8e503683e4be",
+    "data/full_inputs.parquet": "7b666eebcc191cfcac1907f769926b364424f80d97997f27700ce40da532055f",
+    "data/preselected_product_swaps.csv": "eee1c640334f9ec639bb2653271aaf4faedea0295da7c0db2b8f5848bf560b36",
+    "data/eligible_products.csv": "eee1c640334f9ec639bb2653271aaf4faedea0295da7c0db2b8f5848bf560b36",
+    "data/catalog_token_counts.csv": "5d8732c279ef8d059e4090274b794a264da1a526f1700fb4a10d6130165ddbee",
+    "data/baseline_batch_plan.json": "07d02ff8bc19930e7132f11c223c44506a2872486c57f22acca11de8d6e01657",
+    "data/sample_counts.json": "9d576122ffe9662e0887d350c9e2e469d6514059bad2575fb87802e723802959"
+  },
+  "source_files": {
+    "phase2/config/phase2.json": "4bcbf5fbe0e98a5054e5bd3af4efaf70db6c02329d301f711ea03e729ebf30a8",
+    "phase2/src/encoding.py": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa",
+    "phase2/src/representations.py": "0751cdb3cabd54e3d7256b5dd0d6a3ebebaa2d826fda080b24ee31ed0a34e027",
+    "phase2/scripts/prepare_data.py": "6ddaa7740b58d61c7bbf944279a30e861cc4017ef84a116addf2dbbdbd8d87dd",
+    "phase2/data/processed/wands_products.jsonl.gz": "a3fb53329b9ecb9d0c774641a767e582a6fee1056620fc3c1be3f7c0b145ca67",
+    "phase2/data/processed/wands_queries.csv": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a",
+    "phase2/data/processed/wands_judgments.csv": "8cdd742427852822fe9a1252f05439b4fc33feeabb4afa0854cf86e8a188e0b6",
+    "phase2/data/representations/wands/C0.jsonl.gz": "92665fc543486eef7a83434ca7aa73c420fbf3dc9637703c55ff8ba26c8086d3",
+    "phase4/config/splits.json": "db3c3558265789191cac9e6132e216ddeb460ba62daa1cf64033a5fa05708e2c",
+    "revision_graded_20260922/PROTOCOL.json": "0810361666810b8ec8aca294cda26e9ad23fc50ea381e8ebbd686c26bab2747e",
+    "revision_section6_20260924/data/historical_execution_matrix.csv": "340be5e50dddbd3b98402080a89a23938b977475a4819b7c27f2491ef1f4207b",
+    "phase3/scripts/analyze_target_only_permutations.py": "2a745f53ff646fea6cc068a3221c177658948b5c99fb7271254ac42558acd482",
+    "phase2/results/embeddings/wands_gte_modernbert_native_C0_3e1a424d692784631506.npy": "ecfa08d1f7001451a5b50bc5c6ccd3e32563dea5f5dd6903bac62722a7319813",
+    "phase2/results/embeddings/wands_gte_modernbert_native_C0_3e1a424d692784631506.json": "f58b833193d6d7912fa8db17db7c59116ef4dbd6ca105e6243ae01e88e6e49a8",
+    "phase2/results/embeddings/wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.npy": "6590f3c403b7ebabf6394cf3b7fc7b24c0493d1b72255366ed5c6368ac974a29",
+    "phase2/results/embeddings/wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.json": "090ad8d7c716e1553ffa36b4b7885cbfd1b1c3c65abeabc026b9958bc77660b7"
+  }
+}
