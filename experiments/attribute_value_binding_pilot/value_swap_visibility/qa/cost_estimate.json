@@ -1,0 +1,9 @@
+{
+  "reference_catalog_seconds": 1483.5996901988983,
+  "need_baseline_rebuild": false,
+  "existing_cache_sha_verified": true,
+  "matched_replay_forward_rows": 5098,
+  "replacement_forward_rows": 5518,
+  "rough_seconds": 366.3277273840886,
+  "caveat": "Proportional to historical rows; actual length/padding/launch costs differ. If replay fails, no cache mixing; full source baseline rebuild estimate is historical source-only time, not a matrix."
+}

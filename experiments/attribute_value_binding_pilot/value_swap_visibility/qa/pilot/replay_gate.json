@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "details": [
+    {
+      "role": "catalog",
+      "needed_rows": 422,
+      "source_batches": 401,
+      "forward_rows": 5098
+    },
+    {
+      "role": "query",
+      "needed_rows": 100,
+      "source_batches": 20,
+      "forward_rows": 480
+    }
+  ],
+  "maximum_vector_error": 0.0,
+  "note": "No C inference until all selected original A and query replay checks pass bitwise.",
+  "seconds": 211.56655502319336
+}

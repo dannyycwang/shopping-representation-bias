@@ -1,0 +1,18 @@
+{
+  "catalog_products": 42994,
+  "source_queries": 480,
+  "split_queries": 384,
+  "eligible_evaluation_queries": 308,
+  "exact_pairs": 21299,
+  "parse_eligible_products": 42973,
+  "length_eligible_products": 42973,
+  "excluded_parse_products": 21,
+  "excluded_length_products": 0,
+  "eligible_exact_pairs": 21290,
+  "queries_with_eligible_targets": 308,
+  "sampled_queries": 100,
+  "sampled_pairs": 422,
+  "sampled_distinct_products": 422,
+  "contradictory_qrel_pairs_removed": 14,
+  "baseline_native_truncated_products": 0
+}

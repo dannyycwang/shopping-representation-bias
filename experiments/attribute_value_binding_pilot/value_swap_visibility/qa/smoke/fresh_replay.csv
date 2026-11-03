@@ -1,0 +1,11 @@
+role,index,product_id,query_id,batch_index,batch_size,exact_equal,max_abs_error,reused_local_fresh_replay
+catalog,39681,39681,,2009,8,True,0,True
+catalog,14787,14787,,2263,8,True,0,True
+catalog,37198,37198,,3115,4,True,0,True
+catalog,7507,7507,,3304,4,True,0,True
+catalog,17811,17811,,3597,4,True,0,True
+query,162,,163,2,24,True,0,True
+query,6,,6,5,24,True,0,True
+query,132,,132,6,24,True,0,True
+query,401,,407,9,24,True,0,True
+query,9,,9,10,24,True,0,True

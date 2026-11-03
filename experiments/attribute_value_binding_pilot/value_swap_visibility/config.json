@@ -1,0 +1,183 @@
+{
+  "seed": 20261030,
+  "model": {
+    "key": "gte_modernbert",
+    "name": "Alibaba-NLP/gte-modernbert-base",
+    "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+    "architecture": "ModernBERT long-context retrieval encoder",
+    "max_tokens": 8192,
+    "native_pooling": "CLS"
+  },
+  "model_profile": {
+    "key": "native",
+    "chunk_tokens": null,
+    "overlap": 0,
+    "pooling": "model_native"
+  },
+  "query_prefix": "",
+  "document_prefix": "",
+  "precision": "FP16 model, FP32 CLS pooling/L2 normalization/scores",
+  "attention": "sdpa",
+  "max_length": 8192,
+  "runtime": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\.venv\\Scripts\\python.exe",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.55.4",
+    "tokenizers": "0.21.4",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "tf32_matmul": false,
+    "tf32_cudnn": true,
+    "deterministic_algorithms": false,
+    "blas_threads": 4
+  },
+  "cache": {
+    "product": {
+      "path": "phase2/results/embeddings/wands_gte_modernbert_native_C0_3e1a424d692784631506.npy",
+      "sha256": "ecfa08d1f7001451a5b50bc5c6ccd3e32563dea5f5dd6903bac62722a7319813",
+      "metadata_path": "phase2/results/embeddings/wands_gte_modernbert_native_C0_3e1a424d692784631506.json",
+      "metadata_sha256": "f58b833193d6d7912fa8db17db7c59116ef4dbd6ca105e6243ae01e88e6e49a8",
+      "metadata": {
+        "model": {
+          "key": "gte_modernbert",
+          "name": "Alibaba-NLP/gte-modernbert-base",
+          "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+          "architecture": "ModernBERT long-context retrieval encoder",
+          "max_tokens": 8192,
+          "native_pooling": "CLS"
+        },
+        "profile": {
+          "key": "native",
+          "chunk_tokens": null,
+          "overlap": 0,
+          "pooling": "model_native"
+        },
+        "source_sha256": "98274dc0d074d78409eb762e7c26a5b46135a33d1824c5c52813879173c77c9e",
+        "seed": 20260904,
+        "implementation": "phase2-encoder-v3-length-bucket-sdpa",
+        "attention_implementation": "sdpa",
+        "dynamic_batching": "GTE: base through 500 tokens, then 8/4/2/1 above 500/768/1024/1500; stable length buckets restored to source order",
+        "precision": "fp16_model_fp32_pooling",
+        "mean_wordpieces_with_special": 585.9858119737638,
+        "p95_wordpieces_with_special": 1003.0,
+        "fraction_truncated": 0.0,
+        "fingerprint": "3e1a424d692784631506",
+        "shape": [
+          42994,
+          768
+        ],
+        "seconds": 1483.5996901988983,
+        "tokenizer_class": "PreTrainedTokenizerFast",
+        "model_class": "ModernBertModel",
+        "device": "cuda"
+      }
+    },
+    "query": {
+      "path": "phase2/results/embeddings/wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.npy",
+      "sha256": "6590f3c403b7ebabf6394cf3b7fc7b24c0493d1b72255366ed5c6368ac974a29",
+      "metadata_path": "phase2/results/embeddings/wands_gte_modernbert_native_queries_46f0d48b2bef64d2d1ab.json",
+      "metadata_sha256": "090ad8d7c716e1553ffa36b4b7885cbfd1b1c3c65abeabc026b9958bc77660b7",
+      "metadata": {
+        "model": {
+          "key": "gte_modernbert",
+          "name": "Alibaba-NLP/gte-modernbert-base",
+          "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+          "architecture": "ModernBERT long-context retrieval encoder",
+          "max_tokens": 8192,
+          "native_pooling": "CLS"
+        },
+        "profile": {
+          "key": "native",
+          "chunk_tokens": null,
+          "overlap": 0,
+          "pooling": "model_native"
+        },
+        "source_sha256": "c3473d8f44539a9d719e3e41fb3fc36feba475cf12b913a152a667391daa45e0",
+        "seed": 20260904,
+        "implementation": "phase2-encoder-v3-length-bucket-sdpa",
+        "attention_implementation": "sdpa",
+        "dynamic_batching": "GTE: base through 500 tokens, then 8/4/2/1 above 500/768/1024/1500; stable length buckets restored to source order",
+        "precision": "fp16_model_fp32_pooling",
+        "mean_wordpieces_with_special": 6.864583333333333,
+        "p95_wordpieces_with_special": 11.0,
+        "fraction_truncated": 0.0,
+        "fingerprint": "46f0d48b2bef64d2d1ab",
+        "shape": [
+          480,
+          768
+        ],
+        "seconds": 3.4425747394561768,
+        "tokenizer_class": "PreTrainedTokenizerFast",
+        "model_class": "ModernBertModel",
+        "device": "cuda"
+      }
+    }
+  },
+  "model_snapshot": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+  "model_snapshot_hashes": {
+    "config.json": "8ba54dc3d35d7194f5178a4194b649f146753e02dabd22bdca5c5cbac15069ed",
+    "model.safetensors": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba",
+    "special_tokens_map.json": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049",
+    "tokenizer.json": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+    "tokenizer_config.json": "9654072f7c873161814043cf08cb5ed72f71d0b935abcd4e267935cb34352c21",
+    "1_Pooling/config.json": "4bf279dd9204db673304cab6e7db8448f427412a0d87f04c3e19f1de55dd98cd"
+  },
+  "parsing": "first colon; key must contain an alphanumeric, no newline/tab; raw key/value substrings preserved",
+  "key_identity": "casefold + whitespace collapse for uniqueness only; exclude selected normalized keys occurring more than once",
+  "missing_placeholders": [
+    "",
+    "-",
+    "--",
+    "---",
+    "?",
+    "missing",
+    "n.a.",
+    "n/a",
+    "na",
+    "nan",
+    "no data",
+    "none",
+    "not applicable",
+    "not available",
+    "not specified",
+    "null",
+    "unknown",
+    "unspecified"
+  ],
+  "value_equality": "casefold + whitespace collapse; no semantic/type whitelist",
+  "swap_selection": "uniform random choice over valid entry-index pairs using Python Random seeded by SHA256([seed,value_swap_visibility:attribute_pair,product_id])",
+  "sampling": "hash queries then hash targets; max 100 queries and 5 Exact targets/query, after actual A/C length checks",
+  "query_cap": 100,
+  "target_cap": 5,
+  "pair_cap": 500,
+  "counts": {
+    "catalog_products": 42994,
+    "source_queries": 480,
+    "split_queries": 384,
+    "eligible_evaluation_queries": 308,
+    "exact_pairs": 21299,
+    "parse_eligible_products": 42973,
+    "length_eligible_products": 42973,
+    "excluded_parse_products": 21,
+    "excluded_length_products": 0,
+    "eligible_exact_pairs": 21290,
+    "queries_with_eligible_targets": 308,
+    "sampled_queries": 100,
+    "sampled_pairs": 422,
+    "sampled_distinct_products": 422,
+    "contradictory_qrel_pairs_removed": 14,
+    "baseline_native_truncated_products": 0
+  },
+  "source_checksums_match": true,
+  "inherited_encoder": "phase2/src/encoding.py:DenseEncoder",
+  "inference_batching": "reconstruct exact source catalog batches; replay A in source companions; encode each C by replacing only its row in its source batch",
+  "scoring": "numpy FP32 matmul, one unchanged query against full catalog; compute C score with identical full-matrix shape after replacing one embedding; verify all competitor scores bitwise unchanged",
+  "tie_break": "descending exact FP32 score then ascending stable source catalog index (= ascending numeric product_id)",
+  "replay_gate": "all selected A vectors bitwise equal to cache, before C inference; mismatch stops with audit",
+  "cases": "all observed entry/exit; min/max rank_delta labeled extremes, hash breaks ties; 5 smallest independent ordinary-case hashes",
+  "cancelled_direction": "round2_controlled cancelled by user; its files are not inputs to this experiment",
+  "historical_library_metadata": "per-array sidecars omit library version; use existing phase2 venv 4.55.4 and fresh replay gate"
+}

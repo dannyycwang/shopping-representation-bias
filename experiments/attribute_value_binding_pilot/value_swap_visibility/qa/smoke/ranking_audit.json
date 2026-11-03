@@ -1,0 +1,10 @@
+{
+  "pairs": 5,
+  "catalog_size": 42994,
+  "all_competitor_scores_bitwise_unchanged": true,
+  "independent_count_checks": 10,
+  "full_array_sort_checks": 10,
+  "score_dtype": "float32",
+  "scoring": "same-shape FP32 matrix product for A and independently replaced C; unchanged query; target removed/replaced, never appended",
+  "seconds": 0.1907351016998291
+}

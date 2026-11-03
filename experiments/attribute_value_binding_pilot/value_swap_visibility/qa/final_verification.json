@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "completed_utc": "2026-11-03T08:51:32.884901+00:00",
+  "unit_tests": 7,
+  "pairs": 422,
+  "queries": 100,
+  "catalog_products": 42994,
+  "smoke_rows_match_pilot_exactly": true,
+  "original_pilot_and_preexisting_modified_files_preserved": true,
+  "frozen_inputs_valid": true,
+  "summary_recomputed_independently": true
+}

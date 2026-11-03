@@ -1,0 +1,10 @@
+query_id,product_id,label,grade,stage,reason,details
+122,40363,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
+122,40367,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
+151,40386,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
+230,22256,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
+476,40365,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
+476,40363,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
+476,28631,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{""ambiguous_selected_key"":3},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":0}"
+476,40367,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
+476,40370,Exact,3,parse,fewer_than_two_unambiguous_nonmissing_entries,"{""entry_rejections"":{},""reason"":""fewer_than_two_unambiguous_nonmissing_entries"",""usable_entries"":1}"
