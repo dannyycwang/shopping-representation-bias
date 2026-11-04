@@ -1,0 +1,9 @@
+product_id,reason,valid_pairs
+188,fewer_than_five_valid_pairs,4
+2052,fewer_than_five_valid_pairs,1
+14430,fewer_than_five_valid_pairs,2
+25064,fewer_than_five_valid_pairs,1
+40363,fewer_than_five_valid_pairs,0
+40367,fewer_than_five_valid_pairs,0
+40386,fewer_than_five_valid_pairs,0
+42874,fewer_than_five_valid_pairs,1

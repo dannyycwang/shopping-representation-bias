@@ -1,0 +1,6 @@
+product_id,eligible,reason,batch_size,padded_length,packed_forward_batches
+798,True,all_A_positions_bitwise_equal,4,777,5
+4702,True,all_A_positions_bitwise_equal,8,337,3
+7585,True,all_A_positions_bitwise_equal,4,831,5
+16742,False,source_batch_too_small,2,1109,
+25058,True,all_A_positions_bitwise_equal,4,634,5

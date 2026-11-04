@@ -1,0 +1,53 @@
+{
+  "started_utc": "2026-11-04T09:25:48.449180+00:00",
+  "status": "complete",
+  "stage": "numerical_and_visual_qa_complete",
+  "log": "continuation_20261104T092548Z.log",
+  "pid": 34796,
+  "steps": [
+    {
+      "stage": "analysis",
+      "exit_code": 0,
+      "monotonic_seconds": 9.860000000000582,
+      "awake_seconds": 9.858382600003097
+    },
+    {
+      "stage": "pdf_authoring_marker",
+      "exit_code": 0,
+      "monotonic_seconds": 1.764999999999418,
+      "awake_seconds": 1.7706045000013546
+    },
+    {
+      "stage": "paper_artifacts",
+      "exit_code": 0,
+      "monotonic_seconds": 5.015999999995984,
+      "awake_seconds": 5.014228000000003
+    },
+    {
+      "stage": "report",
+      "exit_code": 0,
+      "monotonic_seconds": 3.3280000000013388,
+      "awake_seconds": 3.321452699994552
+    },
+    {
+      "stage": "layout_render",
+      "exit_code": 0,
+      "monotonic_seconds": 5.625,
+      "awake_seconds": 5.6163839000000735
+    },
+    {
+      "stage": "verification",
+      "exit_code": 0,
+      "monotonic_seconds": 54.875,
+      "awake_seconds": 54.87373949999892
+    }
+  ],
+  "visual_review": "passed",
+  "note": "Awake includes CPU/I/O/GPU wait, not GPU kernel time. Manual sleep or shutdown can still interrupt.",
+  "updated_utc": "2026-11-04T11:24:05.802117+00:00",
+  "worker_pid": 12328,
+  "monotonic_elapsed_seconds": 7097.186999999998,
+  "awake_elapsed_seconds": 7097.176240499997,
+  "wall_elapsed_seconds": 7097.352937459946,
+  "manual_visual_review_completed_utc": "2026-11-04T11:26:01.241857+00:00"
+}

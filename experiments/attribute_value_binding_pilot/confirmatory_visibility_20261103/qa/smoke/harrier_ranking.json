@@ -1,0 +1,13 @@
+{
+  "rows": 55,
+  "catalog_size": 42994,
+  "independent_count_checks": 55,
+  "full_sort_checks": 55,
+  "competitors_bitwise_unchanged": true,
+  "scoring_query_matrix_rows": 308,
+  "numerical_scoring": "inherited full-query FP32 GEMM; certified column blocks with full-catalog fallback",
+  "score_computation_modes": {
+    "certified_column_block": 50
+  },
+  "observed_crossing_full_matrix_score_checks": 0
+}

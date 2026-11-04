@@ -1,0 +1,9 @@
+{
+  "observed_stop_utc": "2026-11-03T12:43:38.513897+00:00",
+  "model": "harrier",
+  "forward_checkpoints": 676,
+  "awake_forward_seconds": 1271.0547988998587,
+  "monotonic_forward_seconds": 1270.7430000004824,
+  "end_to_end_seconds": null,
+  "note": "Interrupted during A replay to activate validated score computation and investigate allocator pressure. Checkpoint computation times are measured, not complete attempt wall/GPU time."
+}

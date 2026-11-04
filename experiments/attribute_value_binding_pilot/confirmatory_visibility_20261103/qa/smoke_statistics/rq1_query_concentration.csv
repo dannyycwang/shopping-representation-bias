@@ -1,0 +1,13 @@
+rq,model,condition,stratum,event_total,event_queries,max_query_event_share,top5_query_event_share,leave_one_query_out_delta_min,leave_one_query_out_delta_max
+RQ1,gte,C,all,0,0,,,0,0
+RQ1,gte,C,yes_no,0,0,,,0,0
+RQ1,gte,C,not_yes_no,0,0,,,0,0
+RQ1,gte,O,all,0,0,,,0,0
+RQ1,gte,O,yes_no,0,0,,,0,0
+RQ1,gte,O,not_yes_no,0,0,,,0,0
+RQ1,harrier,C,all,0,0,,,0,0
+RQ1,harrier,C,yes_no,0,0,,,0,0
+RQ1,harrier,C,not_yes_no,0,0,,,0,0
+RQ1,harrier,O,all,0,0,,,0,0
+RQ1,harrier,O,yes_no,0,0,,,0,0
+RQ1,harrier,O,not_yes_no,0,0,,,0,0

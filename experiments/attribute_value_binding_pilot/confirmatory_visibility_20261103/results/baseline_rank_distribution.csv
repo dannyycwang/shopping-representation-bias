@@ -1,0 +1,9 @@
+model,rank_bin,numerator,denominator
+gte,1-20,274,876
+gte,21-100,270,876
+gte,101-1000,252,876
+gte,1001+,80,876
+harrier,1-20,296,876
+harrier,21-100,295,876
+harrier,101-1000,233,876
+harrier,1001+,52,876

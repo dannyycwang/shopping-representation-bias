@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "overfull_boxes": [],
+  "pages": 1,
+  "pngs": [
+    "preview-1.png"
+  ],
+  "figure_pdf_sha256": "298f7e922a5ac3c79d93c1752efb292e46681f32e5f515761f135a9fabad26d9",
+  "table_sources": {
+    "table1.tex": "40b6fd621e8a15658cba9575f96b53cfe22bb9803a0a2ab1b57bb11218aac177",
+    "table2.tex": "93c20b599f819a85615f9b51e027b64237c101dee2655db89ed767e74faa83dd"
+  },
+  "visual_review": "PNGs require direct inspection after this script; compile success alone is insufficient"
+}

@@ -1,0 +1,15 @@
+{
+  "audited_utc": "2026-11-04T09:26:44.111178+00:00",
+  "prior_attempt": "harrier_formal_1793711056702914900.json",
+  "prior_attempt_sha256": "a2c2df896d80c21cbab73c5ae20466b4f72d58748cbadf8f8170772ed35a7ee6",
+  "next_attempt_started_utc": "2026-11-04T09:22:06.504501+00:00",
+  "prior_status": "started",
+  "termination_time_and_cause": "not observed; process was absent on 2026-11-04 status check",
+  "forward_checkpoints": 209,
+  "awake_forward_seconds": 440.40461619992857,
+  "monotonic_forward_seconds": 19720.88499999966,
+  "possible_suspended_forward_seconds": 19281.12144240008,
+  "last_checkpoint_finished_utc": "2026-11-03T23:05:58.857125+00:00",
+  "complete_end_to_end_timing_available": false,
+  "timing_interpretation": "Completed-checkpoint lower bound only. Excludes uncaptured setup, I/O, replay verification and unfinished work; not pure GPU time. Do not count the gap before restart as active execution."
+}

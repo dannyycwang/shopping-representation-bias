@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rows": 9636,
+  "bitwise_csv_identical": true,
+  "sha256": "350462057326e6455bf5e99a94857fd6a6bf086e304d52d4869c2ec5608d72d8",
+  "history_complete_sha256": "4ef3a5b502919340e2ceec2ab4c8ea8b8fe924547ee735b879edfc8fa5ccd924",
+  "current_complete_sha256": "d6855bfdf33fe707bef6a9da8f4ab8686f87f128203f6d34c0851a1721ea4363"
+}

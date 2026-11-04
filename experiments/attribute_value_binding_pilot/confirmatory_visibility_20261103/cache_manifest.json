@@ -1,0 +1,8 @@
+{
+  "sample_manifest_sha256": "9a06e8dec0c3080fe65cedcce4abffc532849c6b0e7be08786b4c45cedb96554",
+  "plans": {
+    "gte": "f0e2f2ab263ef47266ac6adb3443b2298826d2289c94362172a970a42c5d5edd",
+    "harrier": "6390b60d0fa9cefb3ab7fa29e057f9f7379384d30a066a1aab8e2ccaa1db1a02"
+  },
+  "created_utc": "2026-11-03T11:22:24.474318+00:00"
+}

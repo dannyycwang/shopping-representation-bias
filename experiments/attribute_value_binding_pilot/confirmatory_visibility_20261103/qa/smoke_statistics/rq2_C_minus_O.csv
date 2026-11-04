@@ -1,0 +1,13 @@
+source,target,evaluation,budget,contrast,estimate_pp,ci_low_pp,ci_high_pp,valid_bootstrap_draws
+gte,harrier,source,1,C_minus_O,0,0,0,9919
+gte,harrier,target,1,C_minus_O,0,0,0,9919
+gte,harrier,source,3,C_minus_O,0,0,0,9919
+gte,harrier,target,3,C_minus_O,0,0,0,9919
+gte,harrier,source,5,C_minus_O,0,0,0,9919
+gte,harrier,target,5,C_minus_O,0,0,0,9919
+harrier,gte,source,1,C_minus_O,0,0,0,9919
+harrier,gte,target,1,C_minus_O,0,0,0,9919
+harrier,gte,source,3,C_minus_O,0,0,0,9919
+harrier,gte,target,3,C_minus_O,0,0,0,9919
+harrier,gte,source,5,C_minus_O,0,0,0,9919
+harrier,gte,target,5,C_minus_O,0,0,0,9919

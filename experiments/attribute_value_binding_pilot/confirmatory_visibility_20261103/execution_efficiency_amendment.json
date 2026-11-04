@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-03T12:49:42.451159+00:00",
+  "sample_manifest_sha256": "9a06e8dec0c3080fe65cedcce4abffc532849c6b0e7be08786b4c45cedb96554",
+  "run_sha256": "6f51463fc69c2cf2942be5917c9ffc399dfb4195ead80d18bd2fef04df90bf21",
+  "column_scoring_gate_sha256": "54d5fd4b1f9e9cbc70d11e89302539bde0fc602002a65f3852536d0018f0b4b0",
+  "allocator_gate_sha256": "2174ab72acb6a3da3fa44221de8efbd685edce567e0a0aa518fbe5c53a73009b",
+  "design_unchanged": true,
+  "models_precision_pooling_prefix_normalization_unchanged": true,
+  "reason": "Preserve compatible numerical operations while avoiding unnecessary CPU matrix products and unused GPU allocator reservation.",
+  "column_method": "Complete source baseline and complete query matrix; individually replace one target in a certified source column block; rank only in complete baseline array. Four uncertified source blocks fall back to full-catalog matrix scoring. All observed crossings receive an additional full-matrix score check.",
+  "allocator_method": "Release only unused GPU cache after CPU output is returned. All 55 original-companion smoke batches reproduce every vector bitwise.",
+  "history": "Prior completed GTE formal and both full-matrix smoke outputs preserved in *_full_matrix_history. Harrier initial A replay was interrupted; measured completed forward checkpoints are retained. No formal Harrier intervention scores existed.",
+  "gte_formal_original_sha256": "350462057326e6455bf5e99a94857fd6a6bf086e304d52d4869c2ec5608d72d8"
+}

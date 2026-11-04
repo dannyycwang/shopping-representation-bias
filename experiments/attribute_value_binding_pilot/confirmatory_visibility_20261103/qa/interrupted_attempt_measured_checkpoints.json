@@ -1,0 +1,9 @@
+{
+  "model": "gte",
+  "attempt": "initial interrupted formal attempt before scoring correction",
+  "forward_checkpoints": 839,
+  "awake_forward_seconds": 489.52250900004583,
+  "monotonic_forward_seconds": 489.61199999949895,
+  "end_to_end_seconds": null,
+  "limitation": "Actual forward timers only; excludes unrecorded initial setup, verification and I/O overhead; not pure GPU time."
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "reviewed_utc": "2026-11-04T11:26:01.199558+00:00",
+  "method": "Direct visual inspection of final figure PNG and the complete one-page PDF render.",
+  "files": {
+    "paper/figure1.png": "fa7f307ac223237d3276ec1d26e2254a00a70f169ee88152e93b99397e8f86ca",
+    "paper/figure1.pdf": "298f7e922a5ac3c79d93c1752efb292e46681f32e5f515761f135a9fabad26d9",
+    "paper/figure1.svg": "2bdfe2e78e9bc0e7787d12df4882e532f9c75d5104461a015f57cf6ea1cd388f",
+    "paper/table1.tex": "40b6fd621e8a15658cba9575f96b53cfe22bb9803a0a2ab1b57bb11218aac177",
+    "paper/table2.tex": "93c20b599f819a85615f9b51e027b64237c101dee2655db89ed767e74faa83dd",
+    "qa/layout_preview/preview-1.png": "fb7ce129dccf95ab6fd7cfebd77005c50236fd438908f1d15b280be749a8f701",
+    "qa/layout_preview/preview.pdf": "c6b5720da5ca1c87e591b5b4450f7b9393537b597ead2c749811c0501cbff778"
+  },
+  "checks": [
+    "Legend outside plotting area; no confidence-interval overlap",
+    "No clipped labels, tables or captions",
+    "Readable source/target directions, budgets, units, event denominators and uncertainty",
+    "Table and figure values checked against summary CSVs"
+  ],
+  "corrected_issue": "Moved the initial in-axis legend below both panels to avoid overlapping confidence intervals."
+}

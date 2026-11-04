@@ -1,0 +1,112 @@
+{
+  "gte": {
+    "model": {
+      "key": "gte_modernbert",
+      "name": "Alibaba-NLP/gte-modernbert-base",
+      "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "architecture": "ModernBERT long-context retrieval encoder",
+      "max_tokens": 8192,
+      "native_pooling": "CLS"
+    },
+    "profile": {
+      "key": "native",
+      "chunk_tokens": null,
+      "overlap": 0,
+      "pooling": "model_native"
+    },
+    "runtime": {
+      "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+      "executable": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\.venv\\Scripts\\python.exe",
+      "torch": "2.11.0+cu128",
+      "transformers": "4.55.4",
+      "tokenizers": "0.21.4",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "tf32_matmul": false,
+      "tf32_cudnn": true,
+      "deterministic_algorithms": false,
+      "blas_threads": 4
+    },
+    "prefixes": {
+      "query": "",
+      "document": ""
+    },
+    "max_length": 8192
+  },
+  "harrier": {
+    "model": {
+      "key": "harrier06b",
+      "name": "microsoft/harrier-oss-v1-0.6b",
+      "revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "tokenizer_revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "native_supported_length": 32768,
+      "config_max_position_embeddings": 32768,
+      "tokenizer_declared_max_length": 131072,
+      "max_length": 32768,
+      "dimension": 1024,
+      "pooling": "last nonpadding token",
+      "projection": "none",
+      "dtype": "bfloat16",
+      "pooling_dtype": "bfloat16 official operation order",
+      "normalization": "official native L2 followed by FP32 unit normalization",
+      "scoring": "numpy FP32 matmul; 4 BLAS threads; full query matrix per schedule",
+      "attention_backend": "sdpa",
+      "padding_side": "left",
+      "device": "cuda",
+      "prompt_names": {
+        "query": "web_search_query",
+        "document": null
+      },
+      "prefixes": {
+        "query": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+        "document": ""
+      },
+      "document_wrapper": "none; complete inherited serialized document without chat template or instruction",
+      "execution_seed": 2026101601,
+      "batching": {
+        "base": 8,
+        "order": "stable ascending effective token length then input content hash",
+        "limits": [
+          [
+            512,
+            8
+          ],
+          [
+            1024,
+            4
+          ],
+          [
+            2048,
+            2
+          ],
+          [
+            32768,
+            1
+          ]
+        ],
+        "oom_policy": "Stop and preserve profile evidence; any batch-size deviation requires a separate fingerprinted profile; never shorten input length."
+      },
+      "use_cache": false,
+      "text_only": true,
+      "quantization": false,
+      "truncate_dim": null
+    },
+    "runtime": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.20.1",
+      "sentence-transformers": "6.1.0",
+      "huggingface-hub": "1.33.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "tokenizers": "0.23.3",
+      "pyarrow": "24.0.0"
+    },
+    "prefixes": {
+      "query": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+      "document": ""
+    },
+    "max_length": 32768
+  }
+}

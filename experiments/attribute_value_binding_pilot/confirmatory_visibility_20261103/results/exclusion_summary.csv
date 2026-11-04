@@ -1,0 +1,4 @@
+reason,products,query_product_pairs
+fewer_than_five_valid_pairs,8,8
+common_input_length_exclusion,0,0
+eligible_but_not_selected_by_per_query_hash_cap,,13208

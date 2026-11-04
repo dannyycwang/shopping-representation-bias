@@ -1,0 +1,40 @@
+{
+  "note": "Exact inherited code/profile snapshots for audit. Runtime uses original repository paths pinned by sample_manifest.",
+  "files": [
+    {
+      "source_path": "experiments/attribute_value_binding_pilot/value_swap_visibility/common.py",
+      "snapshot": "provenance/src00_common.py",
+      "sha256": "c50128df12134ed4c0993d03fbc7faea274d713de825b5d91213e8dc9ef0f593"
+    },
+    {
+      "source_path": "revision_recent_models_20261016/profiles/harrier_20261019/PROTOCOL.json",
+      "snapshot": "provenance/src05_PROTOCOL.json",
+      "sha256": "7153798d3c03023dba8fb62df34d04fcefd0618474afe44602c056690d3903a4"
+    },
+    {
+      "source_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/adapters.py",
+      "snapshot": "provenance/src06_adapters.py",
+      "sha256": "fc825501e44130443e64bbb188ce935f5664b5dcedf21034e539707e80bca780"
+    },
+    {
+      "source_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/encode.py",
+      "snapshot": "provenance/src07_encode.py",
+      "sha256": "a6d223d291f9853e8a5972a458f9c087bdce20d97c5a4a571a18abc1b380cd0b"
+    },
+    {
+      "source_path": "revision_recent_models_20261016/profiles/harrier_20261019/scripts/common.py",
+      "snapshot": "provenance/src08_common.py",
+      "sha256": "b7dc55d1306b7797c1e9739c7ec13fbfedd2e0e2503f9ab0ac89bcfbf56af631"
+    },
+    {
+      "source_path": "phase2/src/encoding.py",
+      "snapshot": "provenance/src09_encoding.py",
+      "sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa"
+    },
+    {
+      "source_path": "phase2/src/representations.py",
+      "snapshot": "provenance/src10_representations.py",
+      "sha256": "0751cdb3cabd54e3d7256b5dd0d6a3ebebaa2d826fda080b24ee31ed0a34e027"
+    }
+  ]
+}

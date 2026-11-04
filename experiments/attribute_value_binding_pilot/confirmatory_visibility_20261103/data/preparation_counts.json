@@ -1,0 +1,11 @@
+{
+  "catalog_products": 42994,
+  "eligible_queries": 308,
+  "development_queries": 100,
+  "confirmation_queries": 208,
+  "confirmation_exact_pool": 14092,
+  "confirmation_pool_products": 12161,
+  "previous_generic_pair_upper_bound": 876,
+  "five_pair_eligible_products": 12153,
+  "five_pair_excluded_products": 8
+}

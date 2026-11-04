@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Cross-encoder transfer at budget five, with paired query-bootstrap 95\% intervals. Inclusion changes are percentage points. A is always eligible; all pairs are retained. Source gains reflect score-based selection. Entry/exit counts use the target baseline outside/inside denominators.}
+\label{tab:transfer_visibility}
+\begin{tabular}{lllllll}
+\toprule
+Source $\to$ target & Edit & Changed / all & Source $\Delta$ (pp) & Target $\Delta$ (pp) & Entry & Exit \\
+\midrule
+GTE $\to$ Harrier & C & 830/876 & 1.94 [1.12, 2.88] & 0.11 [-0.23, 0.49] & 2/580 & 1/296 \\
+GTE $\to$ Harrier & O & 817/876 & 2.85 [1.79, 4.02] & -0.23 [-0.92, 0.46] & 4/580 & 6/296 \\
+Harrier $\to$ GTE & C & 795/876 & 0.80 [0.24, 1.43] & 0.11 [-0.78, 0.94] & 8/602 & 7/274 \\
+Harrier $\to$ GTE & O & 823/876 & 1.37 [0.68, 2.17] & 0.23 [-0.56, 1.01] & 7/602 & 5/274 \\
+\bottomrule
+\end{tabular}
+\end{table*}

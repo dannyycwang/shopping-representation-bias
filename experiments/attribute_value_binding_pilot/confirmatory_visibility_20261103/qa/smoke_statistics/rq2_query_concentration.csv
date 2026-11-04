@@ -1,0 +1,5 @@
+rq,source,target,condition,budget,event_total,event_queries,max_query_event_share,top5_query_event_share,leave_one_query_out_delta_min,leave_one_query_out_delta_max
+RQ2,gte,harrier,C,5,0,0,,,0,0
+RQ2,gte,harrier,O,5,0,0,,,0,0
+RQ2,harrier,gte,C,5,0,0,,,0,0
+RQ2,harrier,gte,O,5,0,0,,,0,0

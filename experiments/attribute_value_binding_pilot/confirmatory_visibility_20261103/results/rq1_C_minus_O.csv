@@ -1,0 +1,9 @@
+model,metric,contrast,estimate,ci_low,ci_high,valid_bootstrap_draws,interpretation
+gte,entry,C_minus_O,-0.0029900332225913633,-0.0086816720257234699,0.0027118644067796616,10000,"intervention contrast, not pure binding effect"
+gte,exit,C_minus_O,-0.0080291970802919659,-0.017625084516565252,0.0017032425903558304,10000,"intervention contrast, not pure binding effect"
+gte,crossing,C_minus_O,-0.0045662100456621002,-0.0096814116993418648,0.00046032573998935314,10000,"intervention contrast, not pure binding effect"
+gte,net,C_minus_O,0.00045662100456621019,-0.0042364418497465054,0.0051167964404894312,10000,"intervention contrast, not pure binding effect"
+harrier,entry,C_minus_O,-0.002413793103448276,-0.0054888507718696402,0.00035026269702276638,10000,"intervention contrast, not pure binding effect"
+harrier,exit,C_minus_O,-0.005405405405405404,-0.013245137568679882,0.0013513513513513497,10000,"intervention contrast, not pure binding effect"
+harrier,crossing,C_minus_O,-0.0034246575342465769,-0.0067568355068355068,-0.0002347349041493985,10000,"intervention contrast, not pure binding effect"
+harrier,net,C_minus_O,0.00022831050228310515,-0.002715163250317152,0.0033018867924528299,10000,"intervention contrast, not pure binding effect"

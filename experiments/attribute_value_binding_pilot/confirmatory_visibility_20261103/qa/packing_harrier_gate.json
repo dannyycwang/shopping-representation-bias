@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "enabled": true,
+  "sample_manifest_sha256": "9a06e8dec0c3080fe65cedcce4abffc532849c6b0e7be08786b4c45cedb96554",
+  "packing_script_sha256": "98a8a9c870ec343b1081712d78557eaac95e35c0bed64e5b8b571d1d9067bfbc",
+  "timing": {
+    "started_utc": "2026-11-03T11:32:10.651147+00:00",
+    "finished_utc": "2026-11-03T11:33:26.392568+00:00",
+    "monotonic_elapsed_seconds": 75.75,
+    "wall_elapsed_seconds": 75.74142122268677,
+    "awake_elapsed_seconds": 75.74100470000121,
+    "process_cpu_seconds": 49.84375,
+    "possible_suspended_seconds": 0.008995299998787232,
+    "wall_clock_jump_seconds": -0.008578777313232422,
+    "not_pure_gpu_time": true,
+    "note": "Awake elapsed excludes Windows sleep/hibernation but includes CPU, I/O, scheduling and GPU wait; not kernel-only GPU time."
+  },
+  "criterion": "bitwise equality of ALL smoke C/O embeddings plus A at every packed slot; no score/rank-dependent selection"
+}

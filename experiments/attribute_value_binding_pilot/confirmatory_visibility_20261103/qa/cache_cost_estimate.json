@@ -1,0 +1,16 @@
+{
+  "gte": {
+    "variant_count": 8710,
+    "matched_context_forward_rows": 118280,
+    "reference_inputs_per_second": 24.182992229073356,
+    "rough_variant_seconds": 4891.04073141954,
+    "note": "Historical throughput estimate, not a promise; preserves source batch companions and numerical profile."
+  },
+  "harrier": {
+    "variant_count": 8710,
+    "matched_context_forward_rows": 49700,
+    "reference_inputs_per_second": 11.345559213408453,
+    "rough_variant_seconds": 4380.568561244945,
+    "note": "Historical throughput estimate, not a promise; preserves source batch companions and numerical profile."
+  }
+}

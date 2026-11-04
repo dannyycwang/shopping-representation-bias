@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "enabled": true,
+  "sample_manifest_sha256": "9a06e8dec0c3080fe65cedcce4abffc532849c6b0e7be08786b4c45cedb96554",
+  "script_sha256": "a6fe22b77d9a671855612a9a0f356cde4cb1eebb8d661e43f4f8bc0a43538cac",
+  "checked_forward_batches": 55,
+  "timing": {
+    "started_utc": "2026-11-03T12:44:45.747100+00:00",
+    "finished_utc": "2026-11-03T12:48:19.116580+00:00",
+    "monotonic_elapsed_seconds": 213.35899999993853,
+    "wall_elapsed_seconds": 213.36947989463806,
+    "awake_elapsed_seconds": 213.36716880000313,
+    "process_cpu_seconds": 84.953125,
+    "possible_suspended_seconds": 0,
+    "wall_clock_jump_seconds": 0.010479894699528813,
+    "not_pure_gpu_time": true,
+    "note": "Awake elapsed excludes Windows sleep/hibernation but includes CPU, I/O, scheduling and GPU wait; not kernel-only GPU time."
+  },
+  "operation": "torch.cuda.empty_cache() after completed forward returns CPU arrays; model weights and all arithmetic/input/batch settings unchanged"
+}

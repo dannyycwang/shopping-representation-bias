@@ -1,0 +1,9 @@
+model,metric,contrast,estimate,ci_low,ci_high,valid_bootstrap_draws,interpretation
+gte,entry,C_minus_O,0,0,0,9811,"intervention contrast, not pure binding effect"
+gte,exit,C_minus_O,0,0,0,6242,"intervention contrast, not pure binding effect"
+gte,crossing,C_minus_O,0,0,0,9919,"intervention contrast, not pure binding effect"
+gte,net,C_minus_O,0,0,0,9919,"intervention contrast, not pure binding effect"
+harrier,entry,C_minus_O,0,0,0,9811,"intervention contrast, not pure binding effect"
+harrier,exit,C_minus_O,0,0,0,6242,"intervention contrast, not pure binding effect"
+harrier,crossing,C_minus_O,0,0,0,9919,"intervention contrast, not pure binding effect"
+harrier,net,C_minus_O,0,0,0,9919,"intervention contrast, not pure binding effect"

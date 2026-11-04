@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-03T11:34:34.916068+00:00",
+  "sample_manifest_sha256": "9a06e8dec0c3080fe65cedcce4abffc532849c6b0e7be08786b4c45cedb96554",
+  "run_sha256": "646d4d0dee3eb55a50c82d9183db010b8b557adfa2d4df2da2b237f362339f9c",
+  "packing_sha256": "98a8a9c870ec343b1081712d78557eaac95e35c0bed64e5b8b571d1d9067bfbc",
+  "reason": "Reduce repeated companion computations without changing model settings or batch tensor shape",
+  "gate_files": {
+    "gte": "2d8a2e0a6a9af3265c0a8a6b4550503852f1ff751efb388c6e942baa5e3a05d5",
+    "harrier": "af6029520adcb42f0a6af859da46444af65aa143812e022c5c134a7a03822f17"
+  },
+  "rule": "Preserve source B and padded L using maximum-length guard; require every packed A slot bitwise equal; all smoke C/O vectors must equal original-context vectors; use original companions when B<3, variant lengths differ, or A replay fails",
+  "sampling_unchanged": true,
+  "not_score_or_rank_selected": true
+}

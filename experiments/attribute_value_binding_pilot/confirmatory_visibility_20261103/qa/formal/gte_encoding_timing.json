@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-11-03T12:56:30.607199+00:00",
+  "finished_utc": "2026-11-03T13:02:53.485467+00:00",
+  "monotonic_elapsed_seconds": 382.875,
+  "wall_elapsed_seconds": 382.87977957725525,
+  "awake_elapsed_seconds": 382.8755297000025,
+  "process_cpu_seconds": 245.015625,
+  "possible_suspended_seconds": 0,
+  "wall_clock_jump_seconds": 0.0047795772552490234,
+  "not_pure_gpu_time": true,
+  "note": "Awake elapsed excludes Windows sleep/hibernation but includes CPU, I/O, scheduling and GPU wait; not kernel-only GPU time."
+}

@@ -1,0 +1,11 @@
+role,identity,exact_equal,max_abs_error,reused
+document,4702,True,0,True
+document,25058,True,0,True
+document,798,True,0,True
+document,7585,True,0,True
+document,16742,True,0,True
+query,172,True,0,True
+query,40,True,0,True
+query,107,True,0,True
+query,55,True,0,True
+query,221,True,0,True

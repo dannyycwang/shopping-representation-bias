@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-03T11:47:35.323795+00:00",
+  "reason": "Harrier pinned profile requires full 308-query FP32 matrix scoring; row scoring differed in approximately 38000 of 42994 baseline scores per smoke query",
+  "scope": "No formal effectiveness scores had been computed. Frozen selection and embeddings unchanged. GTE A replay and 11 product variant encodings completed before interruption; their compatible forward checkpoints are retained.",
+  "old_run_sha256": "646d4d0dee3eb55a50c82d9183db010b8b557adfa2d4df2da2b237f362339f9c",
+  "new_run_sha256": "97b66715e84ae5362928ad030f3e2123fde5575c6d976b3d4105e04f6220104f",
+  "original_smoke_preserved": true,
+  "timing_limitation": "The interrupted initial formal GTE attempt has per-forward monotonic/awake timers, but no complete end-to-end attempt timer. Its checkpoint computation time is reportable; unrecorded overhead is not represented as measured GPU time."
+}

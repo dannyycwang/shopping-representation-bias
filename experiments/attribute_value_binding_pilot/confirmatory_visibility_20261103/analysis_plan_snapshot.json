@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-03T12:01:31.594258+00:00",
+  "phase": "after successful five-pair smoke, before any completed formal score files",
+  "sample_manifest_sha256": "9a06e8dec0c3080fe65cedcce4abffc532849c6b0e7be08786b4c45cedb96554",
+  "config_sha256": "6174a46a87d56afae68e4cdc4f265b74ad009af4df739503babe664618d69af4",
+  "files": {
+    "analyze.py": "9539f439d23f5fd69e5330716197cc46fd0a8ca9816f3bd10be307465f6f78f5",
+    "bootstrap_stats.py": "c2b496cf35859410e905115b6d3fbb86710447dfa951facef48f791f056eabed"
+  },
+  "bootstrap_indices_sha256": "0f2eb2e149b1764a4d62b1bd6402a825f9b09ed2d3878aea175ce91bb3ed8fae",
+  "no_design_or_estimator_change_from_frozen_config": true
+}

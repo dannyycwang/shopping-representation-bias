@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-11-04T11:26:02.738818+00:00",
+  "finished_utc": "2026-11-04T11:26:26.347371+00:00",
+  "monotonic_elapsed_seconds": 23.593000000000757,
+  "wall_elapsed_seconds": 23.608553409576416,
+  "awake_elapsed_seconds": 23.608130900000106,
+  "process_cpu_seconds": 25.984375,
+  "possible_suspended_seconds": 0,
+  "wall_clock_jump_seconds": 0.015553409575659316,
+  "not_pure_gpu_time": true,
+  "note": "Awake elapsed excludes Windows sleep/hibernation but includes CPU, I/O, scheduling and GPU wait; not kernel-only GPU time.",
+  "passed": true,
+  "preserved_files": 1755,
+  "formal_rows": 19272,
+  "baseline_full_sort_checks": 1752,
+  "crossing_full_sort_checks": 223,
+  "source_only_choices_verified": 10512,
+  "bootstrap_estimates_and_contrasts_verified": 188,
+  "query_clusters": 208,
+  "draws": 10000,
+  "sample_manifest_sha256": "9a06e8dec0c3080fe65cedcce4abffc532849c6b0e7be08786b4c45cedb96554"
+}

@@ -1,0 +1,57 @@
+{
+  "profile": {
+    "model": {
+      "key": "gte_modernbert",
+      "name": "Alibaba-NLP/gte-modernbert-base",
+      "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "architecture": "ModernBERT long-context retrieval encoder",
+      "max_tokens": 8192,
+      "native_pooling": "CLS"
+    },
+    "profile": {
+      "key": "native",
+      "chunk_tokens": null,
+      "overlap": 0,
+      "pooling": "model_native"
+    },
+    "runtime": {
+      "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+      "executable": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\shopping-representation-bias\\phase2\\.venv\\Scripts\\python.exe",
+      "torch": "2.11.0+cu128",
+      "transformers": "4.55.4",
+      "tokenizers": "0.21.4",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "tf32_matmul": false,
+      "tf32_cudnn": true,
+      "deterministic_algorithms": false,
+      "blas_threads": 4
+    },
+    "prefixes": {
+      "query": "",
+      "document": ""
+    },
+    "max_length": 8192
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cuda": "12.8",
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "deterministic_algorithms": false,
+  "torch_threads": 14,
+  "model_snapshot": "C:\\Users\\ycw\\.cache\\huggingface\\hub\\models--Alibaba-NLP--gte-modernbert-base\\snapshots\\e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+  "baseline_files": {
+    "product": {
+      "path": "experiments/attribute_value_binding_pilot/value_swap_visibility/cache/rebuilt_source_product.npy",
+      "sha256": "330ab1cc4128728615bf2a0b11bd23c4df5c9416f5f6eb626c09aacacb16683c"
+    },
+    "query": {
+      "path": "experiments/attribute_value_binding_pilot/value_swap_visibility/cache/rebuilt_source_query.npy",
+      "sha256": "f972d5c1691d9e6bb23be8cbd5109fe63dc4c13494b2fefb79564d00028340f8"
+    }
+  },
+  "execution_script_sha256": "6f51463fc69c2cf2942be5917c9ffc399dfb4195ead80d18bd2fef04df90bf21",
+  "computational_gate_checksums": {}
+}
